@@ -1,4 +1,6 @@
 id,parent_id,name,description,regexp
+6bfd3cc3577d8657a8d5cac891add29c,7508c61d71b18e09ea0b5dd29014feb3,cnig_PSMV_2013,,(2A|2B|[0-9]{2})[0-9]{3}_PSMV_[0-9]{8}
+ef1dfe2ac32c940a567d84e94f497b77,a92b92f73d59917d050de93dbb4e74c7,cnig_PSMV_2014,,(2A|2B|[0-9]{2})[0-9]{3}_PSMV_[0-9]{8}
 028e0395908a4e4512cdda472e2978a8,f7526b9ec3392244397b5278a68bd7e6,cnig_SUP_Js1_2013,"idgest_Js1_ddd_yyyymmdd ",".*_Js1_((0)?2A|(0)?2B|[0-9]{2,3})_[0-9]{8}"
 0bc03865234373d67fba05047cef4748,f7526b9ec3392244397b5278a68bd7e6,cnig_SUP_T5_2013,"idgest_T5_ddd_yyyymmdd ",".*_T5_((0)?2A|(0)?2B|[0-9]{2,3})_[0-9]{8}"
 0c205df3ddf16921cd1e23cc454a77a2,f7526b9ec3392244397b5278a68bd7e6,cnig_SUP_AC2_2013,"idgest_AC2_ddd_yyyymmdd ",".*_AC2_((0)?2A|(0)?2B|[0-9]{2,3})_[0-9]{8}"
