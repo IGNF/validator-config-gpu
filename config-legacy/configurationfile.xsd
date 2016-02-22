@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="3.0">  
+<!-- definition of a new simple type for "size" element : allow to be int or empty" -->
+<xs:simpleType name="integer-or-empty">
+  <xs:union memberTypes="xs:integer">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value=""/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union>
+</xs:simpleType>
+<!-- definition of simple elements -->
+<xs:element name="shortName" type="xs:string" />
+<xs:element name="parent" type="xs:string" />
+<xs:element name="description" type="xs:string" />
+<xs:element name="name" type="xs:string" />
+<xs:element name="regexp" type="xs:string" />
+<xs:element name="title" type="xs:string" />
+<xs:element name="size" type="integer-or-empty" />
+<xs:element name="value" type="xs:string" />
+<xs:element name="crs" type="xs:string" />
+<xs:element name="nullable" type="xs:boolean" />
+<!-- definition of simple enumeration -->
+<xs:element name="type">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="String"/>
+      <xs:enumeration value="File"/>
+      <xs:enumeration value="Url"/>
+      <xs:enumeration value="Integer"/>
+      <xs:enumeration value="Long"/>
+      <xs:enumeration value="Date"/>
+      <xs:enumeration value="Boolean"/>
+      <xs:enumeration value="MultiPolygon"/>
+      <xs:enumeration value="MultiLineString"/>
+      <xs:enumeration value="Point"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+<!-- definition of complex element -->
+<xs:element name="listOfValues">
+	<xs:complexType>
+	    <xs:sequence>
+	    	<xs:element ref="value" minOccurs="0" maxOccurs="unbounded" />
+	    </xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:element name="attribute">
+	<xs:complexType>
+	    <xs:sequence>
+	    	<xs:element ref="name" />
+	    	<xs:element ref="regexp" minOccurs="0" />
+	    	<xs:element ref="description" minOccurs="0" />
+	    	<xs:element ref="type" />
+	    	<xs:element ref="size" />
+	    	<xs:element ref="listOfValues" />
+	    	<xs:element ref="crs" minOccurs="0" />
+	    	<xs:element ref="nullable" />
+	    </xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:element name="attributes">
+	<xs:complexType>
+	    <xs:sequence>
+	    	<xs:element ref="attribute" minOccurs="0" maxOccurs="unbounded"/>
+	    </xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:element name="document">
+	<xs:complexType>
+	    <xs:sequence>
+	    	<xs:element ref="shortName" />
+	    	<xs:element ref="description" />
+			<xs:element ref="parent" minOccurs="0" maxOccurs="1"/>
+	    	<xs:element ref="attributes" />
+	    </xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>GENERATEUR_SUP</shortName>
+	<description>Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT</description>
+	<parent>XXX_GENERATEUR_SUP.xml</parent>
+	<attributes>
+		<attribute>
+			<name>WKT</name>
+			<description>Geométrie associée</description>
+			<type>MultiPolygon</type>
+			<size />
+			<listOfValues />
+			<crs>IGNF:LAMB93</crs>
+			<nullable>false</nullable>
+		</attribute>
+				
+	</attributes>
+</document>

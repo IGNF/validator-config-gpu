@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>GENERATEUR_SUP</shortName>
+	<description>Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT</description>
+	<parent>XXX_GENERATEUR_SUP.xml</parent>
+	<attributes>
+		<attribute>
+		   <name>ID_GASPAR</name>
+		   <description>Identifiant Gaspar du PPR</description>
+		   <type>String</type>
+		   <size>24</size>
+		   <listOfValues />
+		   <nullable>true</nullable>
+		</attribute>
+		<attribute>
+		   <name>CODE_ALEA</name>
+		   <description>Identifiant GASPAR de l'aléa</description>
+		   <type>String</type>
+		   <size>2</size>
+		   <listOfValues>
+			  <value>10</value>
+			  <value>11</value>
+			  <value>12</value>
+			  <value>13</value>
+			  <value>14</value>
+			  <value>15</value>
+			  <value>16</value>
+			  <value>17</value>
+			  <value>18</value>
+			  <value>30</value>
+			  <value>31</value>
+			  <value>99</value>
+		   </listOfValues>
+		   <nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>WKT</name>
+			<description>Geométrie associée</description>
+			<type>MultiPolygon</type>
+			<size />
+			<listOfValues />
+			<crs>IGNF:LAMB93</crs>
+			<nullable>false</nullable>
+		</attribute>		
+		
+	</attributes>
+</document>

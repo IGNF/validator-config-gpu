@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<shortName>DOC_URBA</shortName>
+	<description>Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée</description>
+	<attributes>
+		<attribute>
+			<name>IDURBA</name>
+			<description>Identifiant unique du PLU</description>
+			<type>String</type>
+			<size>20</size>
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>TYPEDOC</name>
+			<description>Type du document</description>
+			<type>String</type>
+			<size>4</size>
+			<listOfValues>
+				<value>PLU</value>
+				<value>POS</value>
+				<value>CC</value>
+				<value>PSMV</value>
+			</listOfValues>
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>DATAPPRO</name>
+			<description>Date de la dernière approbation administrative du document d'urbanisme</description>
+			<type>Date</type>
+			<size>10</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>DATEFIN</name>
+			<description>Date de fin de validité du document d'urbanisme</description>
+			<type>Date</type>
+			<size>10</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>INTERCO</name>
+			<description>Indique si le document d'urbanisme est intercommunal</description>
+			<type>String</type>
+			<size>1</size>
+			<listOfValues>
+				<value>T</value>
+				<value>F</value>
+			</listOfValues>
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>SIREN</name>
+			<regexp>[0-9]{9}</regexp>
+			<description>Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI</description>
+			<type>String</type>
+			<size>9</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>ETAT</name>
+			<description>Etat juridique du document d'urbanisme</description>
+			<type>String</type>
+			<size>2</size>
+			<listOfValues>
+				<value>01</value>
+				<value>02</value>
+				<value>03</value>
+				<value>04</value>
+				<value>05</value>
+				<value>06</value>
+				<value>07</value>
+			</listOfValues>
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>NOMREG</name>
+			<description>Nom du fichier contentant le document complet du règlement</description>
+			<type>String</type>
+			<size>80</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>URLREG</name>
+			<description>URL ou URI qui pointe sur le fichier du règlement papier complet scanné</description>
+			<type>String</type>
+			<size>254</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>NOMPLAN</name>
+			<description>Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique</description>
+			<type>String</type>
+			<size>80</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>URLPLAN</name>
+			<description>URL ou URI qui pointe sur le fichier du plan scanné</description>
+			<type>String</type>
+			<size>254</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>SITEWEB</name>
+			<description>Page web du service de consultation du PLU offert par la collectivité locale</description>
+			<type>String</type>
+			<size>254</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>TYPEREF</name>
+			<description>Nom du référentiel cadastral utilisé pour la numérisation</description>
+			<type>String</type>
+			<size>2</size>
+			<listOfValues>
+				<value>01</value>
+				<value>02</value>
+			</listOfValues>
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>DATEREF</name>
+			<description>Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.</description>
+			<type>Date</type>
+			<size>10</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+	</attributes>
+</document>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>ACTE_SUP</shortName>
+	<description>Table contenant la liste des actes instituant une servitude d'utilité publique</description>
+	<attributes>
+		<attribute>
+			<name>IDACTE</name>
+			<description>Identifiant de l'acte</description>
+			<type>Integer</type>
+			<size />
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>NOMACTE</name>
+			<description>Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP</description>
+			<type>String</type>
+			<size>100</size>
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>REFERENCE</name>
+			<description>Référence de l'acte ayant créé ou modifié la servitude</description>
+			<type>String</type>
+			<size>50</size>
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>TYPEACTE</name>
+			<description>Description de la nature de l'acte</description>
+			<type>String</type>
+			<size>50</size>
+			<listOfValues>
+				<value>Texte de loi</value>
+				<value>Décret en Conseil d'Etat</value>
+				<value>Arrêté ministériel</value>
+				<value>Arrêté interministériel</value>
+				<value>Arrêté préfectoral</value>
+				<value>Arrêté Préfet de Région</value>
+				<value>Décret Premier Ministre</value>
+				<value>Décret</value>
+				<value>Arrêté de SUP</value>
+				<value>Convention amiable</value>
+				<value>Arrêté municipal</value>
+				<value>Autre</value>
+				<value>Non renseigné</value>
+			</listOfValues>
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>FICHIER</name>
+			<description>Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte</description>
+			<type>String</type>
+			<size>254</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>DECISION</name>
+			<description>Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude</description>
+			<type>String</type>
+			<size>25</size>
+			<listOfValues>
+				<value>Création</value>
+				<value>Modification</value>
+				<value>Substitution</value>
+				<value>Annulation</value>
+				<value>Abrogation</value>
+			</listOfValues>
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>DATEDECIS</name>
+			<description>Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte</description>
+			<type>Date</type>
+			<size>8</size>
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>DATEPUB</name>
+			<description>Date de parution au Journal Officiel ou de publicité dans la presse</description>
+			<type>Date</type>
+			<size>8</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>APLAN</name>
+			<description>Existence d'un ou plusieurs plans annexés à l'acte</description>
+			<type>String</type>
+			<size>1</size>
+			<listOfValues>
+				<value>T</value>
+				<value>F</value>
+			</listOfValues>
+			<nullable>true</nullable>
+		</attribute>
+	</attributes>
+</document>

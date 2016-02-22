@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>INFO_LIN</shortName>
+	<description>Table contenant les informations linéaires à reporter à titre d'information</description>
+	<attributes>
+		<attribute>
+			<name>LIBELLE</name>
+			<description>Nom complet de l’information reportée</description>
+			<type>String</type>
+			<size>12</size>
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>TXT</name>
+			<description>Nom court servant à faire une étiquette</description>
+			<type>String</type>
+			<size>10</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>TYPEINF</name>
+			<description>Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme</description>
+			<type>String</type>
+			<size>2</size>
+			<listOfValues>
+				<value>99</value>
+			</listOfValues>
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>TYPEP</name>
+			<description>Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions</description>
+			<type>String</type>
+			<size>2</size>
+			<listOfValues>
+				<value>99</value>
+			</listOfValues>
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>NOMFIC</name>
+			<description>Nom du fichier contenant le texte décrivant l'information reportée</description>
+			<type>String</type>
+			<size>80</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>URLFIC</name>
+			<description>Lien URL d’accès au fichier contenant le texte décrivant l'information</description>
+			<type>String</type>
+			<size>254</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>INSEE</name>
+			<regexp>[0-9]{5}</regexp>
+			<description>Code INSEE de la commune concernée par l'information</description>
+			<type>String</type>
+			<size>5</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>WKT</name>
+			<description>Geométrie associée</description>
+			<type>MultiLineString</type>
+			<size />
+			<listOfValues />
+			<crs>IGNF:LAMB93</crs>
+			<nullable>false</nullable>
+		</attribute>
+	</attributes>
+</document>

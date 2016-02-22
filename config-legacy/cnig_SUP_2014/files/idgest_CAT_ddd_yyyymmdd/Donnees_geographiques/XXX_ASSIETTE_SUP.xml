@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>ASSIETTE_SUP</shortName>
+	<description>Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT</description>
+	<attributes>
+		<attribute>
+			<name>IDASS</name>
+			<description>Identifiant de l'assiette</description>
+			<type>Integer</type>
+			<size />
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>IDGEN</name>
+			<description>Identifiant du générateur de l'assiette</description>
+			<type>Integer</type>
+			<size />
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>NOMASS</name>
+			<regexp>((A1|A2|A3|A4|A5|A6|A7|A8|A9|AC1|AC2|AC3|AC4|AR1|AR2|AR3|AR4|AR5|AR6|AS1|AS2|EL01|EL02|EL02bis|EL03|EL04|EL05|EL06|EL07|EL08|EL09|EL10|EL11|EL12|I1|I1bis|I2|I3|I4|I5|I6|I7|I8|I9|Int1|Js1|PM1|PM1bis|PM2|PM3|PM4|PM5|PT1|PT2|PT3|PT4|T1|T2|T3|T4|T5|T6|T7|T8)_.*_ass|AR3_.*_(zpr1|zpr2|ziso)|AS1_.*_(pepi|pepr|pepe|pepm)|EL3_.*_(zhlg|zmcp)|(I1|I1bis)_.*_(z05m|zinf)|I5_.*_(z05m|zpas)|I9_.*_(zcrt|zlrg)|PT1_.*_(zpro|zgar)|(PT2|T8)_.*_(zpri|zsec|zspe|sect))</regexp>
+			<description>Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP</description>
+			<type>String</type>
+			<size>100</size>
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>TYPEASS</name>
+			<description>Nature de l'assiette selon sa vocation principale et la catégorie de SUP</description>
+			<type>String</type>
+			<size>100</size>
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>MODEGEOASS</name>
+			<description>Description de la méthode utilisée pour générer la géométrie de l'assiette</description>
+			<type>String</type>
+			<size>25</size>
+			<listOfValues>
+				<value>Egal au générateur</value>
+				<value>Zone Tampon</value>
+				<value>Digitalisation</value>
+				<value>Duplication</value>
+				<value>Liste de coordonnées</value>
+				<value>Secteur Angulaire</value>
+				<value>Calculée</value>
+				<value>Liste de parcelles</value>
+				<value>Fictive</value>
+			</listOfValues>
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>PARAMCALC</name>
+			<description>Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon</description>
+			<type>Integer</type>
+			<size />
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>SRCGEOASS</name>
+			<description>Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie</description>
+			<type>String</type>
+			<size>30</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>DATESRCASS</name>
+			<regexp>(?i)(Non Renseigné|autre|inconnu|1999|20[0-2][0-9]|2030)</regexp>
+			<description>Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source</description>
+			<type>String</type>
+			<size>25</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+	</attributes>
+</document>

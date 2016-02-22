@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>COMMUNE</shortName>
+	<description>Table GEOFLA</description>
+	<attributes>
+		<attribute>
+			<name>INSEE_COM</name>
+			<description>Identifiant INSEE</description>
+			<type>String</type>
+			<size />
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+	</attributes>
+</document>

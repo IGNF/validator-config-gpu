@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="3.0">  
+	
+<!-- definition of simple elements -->
+<xs:element name="name" type="xs:string" />
+<xs:element name="mandatory" type="xs:string" />
+<xs:element name="regexp" type="xs:string" />
+<xs:element name="extension" type="xs:string" />
+<xs:element name="document">
+	<xs:complexType>
+	    <xs:sequence>
+	    	<xs:element ref="name" />
+	    	<xs:element ref="regexp" />
+			<xs:element ref="files" minOccurs="0" maxOccurs="unbounded" />
+	    </xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:element name="directory">
+	<xs:complexType>
+	    <xs:sequence>
+	    	<xs:element ref="name" />
+	    	<xs:element ref="regexp" />
+			<xs:element ref="mandatory" minOccurs="0" />
+			<xs:element ref="files" minOccurs="0" maxOccurs="unbounded" />
+	    </xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:element name="file">
+	<xs:complexType mixed="true">
+	    <xs:sequence>
+	    	<xs:element ref="name" />
+	    	<xs:element ref="regexp" />
+			<xs:element ref="mandatory" minOccurs="0" />
+			<xs:element ref="extension" />
+	    </xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:element name="files">
+	<xs:complexType>
+	    <xs:sequence>
+	    	<xs:element ref="file" minOccurs="0" maxOccurs="unbounded" />
+	    	<xs:element ref="directory" minOccurs="0" maxOccurs="unbounded" />
+	    	<xs:element ref="document" minOccurs="0" maxOccurs="unbounded" />
+	    </xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

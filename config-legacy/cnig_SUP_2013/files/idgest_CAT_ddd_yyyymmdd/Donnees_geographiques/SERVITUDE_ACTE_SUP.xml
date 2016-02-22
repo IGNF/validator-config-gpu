@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>SERVITUDE_ACTE_SUP</shortName>
+	<description>Table exprimant la relation entre les servitudes et les actes instituant ces servitudes</description>
+	<attributes>
+		<attribute>
+			<name>IDSUP</name>
+			<description>Identifiant de la SUP</description>
+			<type>Integer</type>
+			<size />
+			<listOfValues />
+			<nullable>false</nullable>
+		</attribute>
+		<attribute>
+			<name>IDACTE</name>
+			<description>Identifiant de l'acte instituant la SUP</description>
+			<type>Integer</type>
+			<size />
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+	</attributes>
+</document>

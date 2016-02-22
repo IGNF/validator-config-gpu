@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <id><![CDATA[92cf99dd815bf0cc3a26e70b9ef68c8c]]></id>
+  <name><![CDATA[cnig_SCoT_2013]]></name>
+  <description><![CDATA[cnig_SCoT_2013]]></description>
+  <regexp><![CDATA[([a-zA-Z0-9\\_\\.\\-\\ ]*)]]></regexp>
+  <files>
+    <file>
+      <id><![CDATA[266250a2dc3ce5526ec99b2de853c3b8]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[RAPPORT]]></name>
+      <path><![CDATA[([a-zA-Z0-9\\_\\.\\-\\ ]*)]]></path>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+  </files>
+</document>

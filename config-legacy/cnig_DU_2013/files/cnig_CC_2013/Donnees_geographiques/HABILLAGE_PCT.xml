@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>HABILLAGE_PCT</shortName>
+	<description>Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage</description>
+	<attributes>
+		<attribute>
+			<name>NATTRAC</name>
+			<description>Nature du point</description>
+			<type>String</type>
+			<size>40</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>INSEE</name>
+			<regexp>[0-9]{5}</regexp>
+			<description>Code INSEE de la commune concernée par l'élément d'habillage</description>
+			<type>String</type>
+			<size>5</size>
+			<listOfValues />
+			<nullable>true</nullable>
+		</attribute>
+		<attribute>
+			<name>WKT</name>
+			<description>Geométrie associée</description>
+			<type>MultiPoint</type>
+			<size />
+			<listOfValues />
+			<crs>IGNF:LAMB93</crs>
+			<nullable>false</nullable>
+		</attribute>
+	</attributes>
+</document>

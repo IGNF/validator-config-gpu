@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<shortName>GENERATEUR_SUP</shortName>
+	<description>Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT</description>
+	<parent>XXX_GENERATEUR_SUP.xml</parent>
+	<attributes>
+		<attribute>
+		   <name>CROISEMENT</name>
+		   <description>Indique s'il y a un croisement</description>
+		   <type>Boolean</type>
+		   <size />
+		   <listOfValues />
+		   <nullable>true</nullable>
+		</attribute>
+		<attribute>
+		   <name>TYPE_GEST</name>
+		   <description>type de gestionnaire de l'infrastructure</description>
+		   <type>String</type>
+		   <size>15</size>
+		   <listOfValues>
+			  <value>Etat</value>
+			  <value>Département</value>
+			  <value>Commune</value>
+			  <value>RFF</value>
+		   </listOfValues>
+		   <nullable>true</nullable>
+		</attribute>
+		<attribute>
+		   <name>TYPE_VOIE</name>
+		   <description>type de la voie</description>
+		   <type>String</type>
+		   <size>15</size>
+		   <listOfValues>
+			  <value>Voie publique</value>
+			  <value>Voie privée</value>
+		   </listOfValues>
+		   <nullable>true</nullable>
+		</attribute><attribute>
+			<name>WKT</name>
+			<description>Geométrie associée</description>
+			<type>MultiLineString</type>
+			<size />
+			<listOfValues />
+			<crs>IGNF:LAMB93</crs>
+			<nullable>false</nullable>
+		</attribute>		
+		
+	</attributes>
+</document>
