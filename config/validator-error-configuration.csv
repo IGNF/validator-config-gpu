@@ -12,6 +12,7 @@ TABLE_MISSING_ATTRIBUTE,HEADER,ERROR,L'attribut obligatoire '%1$s' n'est pas pr�
 TABLE_MISSING_NULLABLE_ATTRIBUTE,HEADER,WARNING,L'attribut optionnel '%1$s' n'est pas présent dans le fichier '%2$s'.,Cette erreur se produit lorsqu'un champ spécifié dans le modèle n'est pas présent dans la table
 TABLE_UNEXPECTED_ATTRIBUTE,HEADER,WARNING,L'attribut '%1$s' n'est pas prévu dans le standard.,Cette erreur se produit lorsqu'un champ spécifié comme nullable dans le modèle n'est pas présent dans la table
 TABLE_UNEXPECTED_ENCODING,HEADER,WARNING,L'encodage déclaré dans la balise MD_CharacterSetCode du fichier de métadonnées (%1$s) ne correspond pas à l'encodage des données.,
+TABLE_MISSING_GEOMETRY,Le fichier '%1$s' ne contient aucune donnée géométrique.
 ATTRIBUTE_UNEXPECTED_NULL,FEATURE,ERROR,La valeur nulle n'est pas autorisée pour ce champ.,"Cette erreur se produit lorsqu'un champ est présent dans la table, mais pas dans le modèle"
 ATTRIBUTE_INVALID_FORMAT,FEATURE,ERROR,Le type de la valeur (%1$s) ne correspond pas au type attendu (%2$s).,Cette erreur se produit lorsqu'un champ non « nullable » contient une valeur vide
 ATTRIBUTE_SIZE_EXCEEDED,FEATURE,ERROR,La taille de l'attribut (%1$s) dépasse la taille limite autorisée (%2$s).,
