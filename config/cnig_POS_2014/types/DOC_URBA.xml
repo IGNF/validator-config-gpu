@@ -25,13 +25,10 @@
       <name><![CDATA[TYPEDOC]]></name>
       <description><![CDATA[Type du document]]></description>
       <type><![CDATA[String]]></type>
-      <size>4</size>
-      <nullable>true</nullable>
+      <size>3</size>
+      <nullable>false</nullable>
       <listOfValues>
-        <value><![CDATA[PLU]]></value>
         <value><![CDATA[POS]]></value>
-        <value><![CDATA[CC]]></value>
-        <value><![CDATA[PSMV]]></value>
       </listOfValues>
     </attribute>
     <attribute>

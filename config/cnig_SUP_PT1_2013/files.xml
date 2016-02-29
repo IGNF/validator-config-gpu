@@ -10,21 +10,21 @@
       <type><![CDATA[table]]></type>
       <name><![CDATA[PT1_ASSIETTE_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/PT1_ASSIETTE_SUP_S(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[07230d2a8daa2c00ac1c598bc4ba5a31]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[PT1_GENERATEUR_SUP_P]]></name>
       <path><![CDATA[Donnees_geographiques/PT1_GENERATEUR_SUP_P(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[06959cbb5d6708d90978cce850f9c1ba]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[PT1_GENERATEUR_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/PT1_GENERATEUR_SUP_S(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[76b0a43489e216854d5a7a8c9fc6715e]]></id>

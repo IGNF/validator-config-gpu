@@ -10,14 +10,14 @@
       <type><![CDATA[table]]></type>
       <name><![CDATA[EL9_ASSIETTE_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/EL9_ASSIETTE_SUP_S(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[7cb7c094b792101280acf0ee0a18bc16]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[EL9_GENERATEUR_SUP_L]]></name>
       <path><![CDATA[Donnees_geographiques/EL9_GENERATEUR_SUP_L(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[76b0a43489e216854d5a7a8c9fc6715e]]></id>
