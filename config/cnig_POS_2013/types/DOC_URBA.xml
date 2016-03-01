@@ -26,11 +26,9 @@
       <description><![CDATA[Type du document]]></description>
       <type><![CDATA[String]]></type>
       <size>3</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
       <listOfValues>
-        <value><![CDATA[PLU]]></value>
         <value><![CDATA[POS]]></value>
-        <value><![CDATA[CC]]></value>
       </listOfValues>
     </attribute>
     <attribute>

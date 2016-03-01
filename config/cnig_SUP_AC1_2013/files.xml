@@ -10,28 +10,28 @@
       <type><![CDATA[table]]></type>
       <name><![CDATA[AC1_ASSIETTE_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/AC1_ASSIETTE_SUP_S(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[6c9bb3c9b38d903f387aa340da3dad80]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[AC1_GENERATEUR_SUP_L]]></name>
       <path><![CDATA[Donnees_geographiques/AC1_GENERATEUR_SUP_L(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[12dffd3d5e2b2afdb85136780189429d]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[AC1_GENERATEUR_SUP_P]]></name>
       <path><![CDATA[Donnees_geographiques/AC1_GENERATEUR_SUP_P(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[2d02618652f20c199f10791c2a88c741]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[AC1_GENERATEUR_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/AC1_GENERATEUR_SUP_S(_[a-zA-Z0-9]*)?]]></path>
-      <mandatory><![CDATA[ERROR]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[76b0a43489e216854d5a7a8c9fc6715e]]></id>
