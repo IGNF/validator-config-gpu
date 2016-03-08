@@ -340,6 +340,6 @@ b15effb3cbbfb4dfcfc8e57442308ad6,f7526b9ec3392244397b5278a68bd7e6,table,ACTE_SUP
 b25c6be4f64aad28dc2b2f8c1efaf64a,f7526b9ec3392244397b5278a68bd7e6,directory,Actes,,Actes,OPTIONAL
 c0da9aa02ed6f0881eaa40fb6ffbaeb7,f7526b9ec3392244397b5278a68bd7e6,table,SERVITUDE,,Donnees_geographiques/SERVITUDE(_[a-zA-Z0-9]*)?,ERROR
 ccc983109a2ea6116602568f1d291a92,f7526b9ec3392244397b5278a68bd7e6,directory,Donnees_geographiques,,Donnees_geographiques,ERROR
-d5ddd7409887f2dff12a42403931b658,f7526b9ec3392244397b5278a68bd7e6,pdf,ACTE,,"Actes/[^(\\|/)]*",OPTIONAL
+d5ddd7409887f2dff12a42403931b658,f7526b9ec3392244397b5278a68bd7e6,pdf,ACTE,,"Actes/[^\\ ]*",OPTIONAL
 2c9e078772b03154b22ec7fa668e72cc,f90fbc1ffe6c5b81223dce3581ae9bc0,table,PM4_GENERATEUR_SUP_S,,Donnees_geographiques/PM4_GENERATEUR_SUP_S(_[a-zA-Z0-9]*)?,OPTIONAL
 abf66cb39b7a021cd5452734e1dd23ac,f90fbc1ffe6c5b81223dce3581ae9bc0,table,PM4_ASSIETTE_SUP_S,,Donnees_geographiques/PM4_ASSIETTE_SUP_S(_[a-zA-Z0-9]*)?,OPTIONAL

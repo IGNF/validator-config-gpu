@@ -37,7 +37,7 @@
       <id><![CDATA[d5ddd7409887f2dff12a42403931b658]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[ACTE]]></name>
-      <path><![CDATA[Actes/[^(\\|/)]*]]></path>
+      <path><![CDATA[Actes/[^\\ ]*]]></path>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
