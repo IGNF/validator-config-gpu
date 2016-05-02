@@ -328,7 +328,7 @@ f3560633ad6c3b23256648a1cd8d69d2,4e4a2f5ff81087ccd7393e53b5fa1302,URLFIC,"URL ou
 56b6d7b14fc3a248e632d83f7a87f704,4edb459e86909278aba4c2af6c942b42,IDASS,"Identifiant de l'assiette",Integer,,,
 7427ab389841fc55e516b81a481d2939,4edb459e86909278aba4c2af6c942b42,IDGEN,"Identifiant du générateur de l'assiette",Integer,,,
 89ecc28e1d7fde0cbd77d0798b496dd9,4edb459e86909278aba4c2af6c942b42,DATESRCASS,"Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",String,25,1,
-8b81ee4d2c2a6765894e9e0d0fa9cdda,4edb459e86909278aba4c2af6c942b42,MODEGEOASS,"Description de la méthode utilisée pour générer la géométrie de l'assiette",String,25,,"Egal au générateur,Zone Tampon,Digitalisation,Duplication,Liste de coordonnées,Secteur Angulaire,Calculée,Liste de parcelles,Fictive"
+8b81ee4d2c2a6765894e9e0d0fa9cdda,4edb459e86909278aba4c2af6c942b42,MODEGEOASS,"Description de la méthode utilisée pour générer la géométrie de l'assiette",String,25,,"Egal au générateur,Zone tampon,Digitalisation,Duplication,Liste de coordonnées,Secteur angulaire,Calculée,Liste de parcelles,Fictive"
 9647e0dff490bc52af36ef874ce440b6,4edb459e86909278aba4c2af6c942b42,PARAMCALC,"Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon",Integer,,1,
 cf3618713c7ac76f3739f4eaaab392b2,4edb459e86909278aba4c2af6c942b42,SRCGEOASS,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,30,1,
 efc4d73337d1cabd3e5a8f66d88238f0,4edb459e86909278aba4c2af6c942b42,NOMASS,"Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP",String,100,,
