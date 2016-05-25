@@ -285,7 +285,7 @@ fd9eddf0a1c62eb8d1533b0505a67a3e,44e2862a7b2ebc12e85fd3e54bbeef47,WKT,"Geométri
 9ad5e6f516f1085c3ba51262b6ce96f0,45463f8e20588fa10cb2bfe0a74b6fef,NATTRAC,"Nature du point",String,40,1,
 a6bc2fcc17b70dc367b56568f44767a2,45463f8e20588fa10cb2bfe0a74b6fef,WKT,"Geométrie associée",MultiPoint,,,
 2ce5f1cb8ffb6780b7be9d7a11797b2f,479843b675ff97a1b3c15d5c261bfa58,WKT,"Geométrie associée",MultiPoint,,,
-55e93a0b0183c05e6a602eb61ab21553,479843b675ff97a1b3c15d5c261bfa58,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,05,07,16,18,25,99"
+55e93a0b0183c05e6a602eb61ab21553,479843b675ff97a1b3c15d5c261bfa58,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,05,07,16,18,22,25,28,99"
 7f906c39dd25fd11adc633a1d4fd9a1f,479843b675ff97a1b3c15d5c261bfa58,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
 93bfb04a7955f753ea20f1833ec31624,479843b675ff97a1b3c15d5c261bfa58,LIBELLE,"Intitulé complet de la prescription",String,254,,
 a6c92608c5a32482a4f314224b3c1ec6,479843b675ff97a1b3c15d5c261bfa58,DATAPPRO,"Date de la dernière approbation de la prescription",Date,,1,
@@ -502,7 +502,7 @@ ad5a4a60f2084501070f98097762f88b,866fa9d5d661efa495366643fc089899,LIBELLE,"Nom c
 25b67063d8311f7a6d93dea996be1d7e,879cec21d7e0f73829b65e6e02b941d5,DATAPPRO,"Date de la dernière approbation de la prescription",Date,,1,
 2c6ad5b47af23dae463c85da8ad337b6,879cec21d7e0f73829b65e6e02b941d5,INSEE,"Code INSEE de la commune concernée par la prescription",String,5,,
 62287f18584d3abef5a9cba47a3c2823,879cec21d7e0f73829b65e6e02b941d5,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
-9ff9de0b26e978a0e54d9cdf8fc6616e,879cec21d7e0f73829b65e6e02b941d5,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,07,11,15,18,24,25,99"
+9ff9de0b26e978a0e54d9cdf8fc6616e,879cec21d7e0f73829b65e6e02b941d5,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,05,07,11,15,18,21,22,24,25,28,99"
 ace1ff7f30b8bf5c3d691d3d169ff7d5,879cec21d7e0f73829b65e6e02b941d5,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
 b1c9a9c5d32d13287dee739d34d37b7d,879cec21d7e0f73829b65e6e02b941d5,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
 bd5a9d9ed3997b994edfb8154ba77c6b,879cec21d7e0f73829b65e6e02b941d5,TXT,"Nom court de la prescription servant à faire une étiquette",String,10,1,
@@ -792,7 +792,7 @@ bb189d4a880e5502099cfe316da4ea12,df62c34cc799946ef5b058ab1e0cd76a,INSEE,"Code IN
 c0c400198a25d70ca117e9149ba5eaff,df62c34cc799946ef5b058ab1e0cd76a,DATAPPRO,"Date de la dernière approbation de la prescription",Date,,1,
 d09b6504c14bd31ded8cdf285afffd57,df62c34cc799946ef5b058ab1e0cd76a,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
 d43fd13d33c7a8dedbe7a967476bafd6,df62c34cc799946ef5b058ab1e0cd76a,LIBELLE,"Intitulé complet de la prescription",String,254,,
-e5e2d6841038c1d68eeb14340c1fa90d,df62c34cc799946ef5b058ab1e0cd76a,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,29,99"
+e5e2d6841038c1d68eeb14340c1fa90d,df62c34cc799946ef5b058ab1e0cd76a,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,99"
 a7c5486c03183b495962f0e65719c301,df9615d6d63477885fc1da006987c444,WKT,"Geométrie associée",MultiLineString,,,
 248b4af6e2375f1cf075a5acda23087d,e0e9a09698ae2bc3dd68d669849cd6ac,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
 26e959cb08a60862f757bb018d530253,e0e9a09698ae2bc3dd68d669849cd6ac,TYPEINF,"Type de périmètre dans une liste prédéfinie",String,2,,"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,99"
