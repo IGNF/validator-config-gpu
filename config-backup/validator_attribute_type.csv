@@ -364,7 +364,7 @@ a0cf1dd9953b275d4d7ee5e9e04dc9a5,54b22f5854db9505825f127653b134e9,H,,Integer,,1,
 9dcd95f9eab9ca292750f2646e52339c,56906a1236e96bd71248810a29f539f6,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
 d143a42f877b6d63f17d1c8d4d23dad6,56906a1236e96bd71248810a29f539f6,DATAPPRO,"Date de la dernière approbation de la prescription",Date,,1,
 e510a267639dae9bbff26c9fc0899421,56906a1236e96bd71248810a29f539f6,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
-e8344f55366a12a85eddc5b7a564107e,56906a1236e96bd71248810a29f539f6,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,02,03,04,05,06,07,08,09,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,99"
+e8344f55366a12a85eddc5b7a564107e,56906a1236e96bd71248810a29f539f6,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,99"
 45d6e2b85df758d5909a5bfdacdba4db,56dead572541fa8dc9a45ec38e61270b,WKT,"Geométrie associée",MultiPoint,,,
 604a0cc64a8462c944e1f92ec7c9ceae,56dead572541fa8dc9a45ec38e61270b,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
 9ade28319d83533f32df94cc06371657,56dead572541fa8dc9a45ec38e61270b,NATTRAC,"Nature du point",String,40,1,
