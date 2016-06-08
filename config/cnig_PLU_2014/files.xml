@@ -178,7 +178,7 @@
       <id><![CDATA[a4ca0afdc13b260779c2e1f70aea4699]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PRESCRIPTION]]></name>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]*)?(_[0-9]*)?_[0-9]{8}]]></path>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
