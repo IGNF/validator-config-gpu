@@ -6,11 +6,25 @@
   <regexp><![CDATA[([a-zA-Z0-9\\_\\.\\-\\ ]*)]]></regexp>
   <files>
     <file>
+      <id><![CDATA[ae873609567b5afff04997deedaeb632]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[DOO]]></name>
+      <path><![CDATA[[0-9]{9}_doo_[0-9]{8}]]></path>
+      <mandatory><![CDATA[WARN]]></mandatory>
+    </file>
+    <file>
+      <id><![CDATA[42986519e27c8f83a99db14cb6698148]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[PADD]]></name>
+      <path><![CDATA[[0-9]{9}_padd_[0-9]{8}]]></path>
+      <mandatory><![CDATA[WARN]]></mandatory>
+    </file>
+    <file>
       <id><![CDATA[266250a2dc3ce5526ec99b2de853c3b8]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[RAPPORT]]></name>
-      <path><![CDATA[([a-zA-Z0-9\\_\\.\\-\\ ]*)]]></path>
-      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+      <path><![CDATA[[0-9]{9}_rapport_[0-9]{8}]]></path>
+      <mandatory><![CDATA[WARN]]></mandatory>
     </file>
   </files>
 </document>
