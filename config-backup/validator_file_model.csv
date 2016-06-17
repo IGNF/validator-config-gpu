@@ -5,7 +5,7 @@ b1aa9e151a438cd6f9030b4000b994be,028e0395908a4e4512cdda472e2978a8,table,Js1_GENE
 0bfe28f75f2b7dacec44fd77d941e5ad,0848d5fe9ed44479476fb2c2fcbe89b0,directory,Pieces_ecrites,,Pieces_ecrites,ERROR
 13fa9ed73b8a7b264b16f9691938ea6a,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,PADD,,Pieces_ecrites/2_PADD/(2A|2B|[0-9]{2})[0-9]{3}_(PADD|padd)_[0-9]{8},OPTIONAL
 1d5a59586caabf2764d3e0533590d436,0848d5fe9ed44479476fb2c2fcbe89b0,directory,Donnees_geographiques,,Donnees_geographiques,ERROR
-1ff1896661c61eb48f58523afca4ccce,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,INFORMATION,,Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_info_(pct|lin|surf)_[0-9]*_[0-9]{8},OPTIONAL
+1ff1896661c61eb48f58523afca4ccce,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,INFORMATION,,Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_info_(pct|lin|surf)_(_[0-9]*)?(_[0-9]*)?_[0-9]{8},OPTIONAL
 2b56a6ed6d5f6c89eba35cbe5a543e19,0848d5fe9ed44479476fb2c2fcbe89b0,directory,1_Rapport_de_presentation,,Pieces_ecrites/1_Rapport_de_presentation,OPTIONAL
 2d85436417112d295facc085d118ef7b,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,RAPPORT,,Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_rapport_[0-9]{8},OPTIONAL
 369f98daad1ea1009c21b1c520a9e082,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,ORIENTATIONS_AMENAGEMENT,,Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations_amenagement(_[0-9]*)?_[0-9]{8},OPTIONAL
@@ -21,7 +21,7 @@ b1aa9e151a438cd6f9030b4000b994be,028e0395908a4e4512cdda472e2978a8,table,Js1_GENE
 9a5e3cee69b56885859bbb1466f78687,0848d5fe9ed44479476fb2c2fcbe89b0,table,INFO_SURF,,Donnees_geographiques/INFO_SURF(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
 9c050832e4ba7f754743debf7ebf7255,0848d5fe9ed44479476fb2c2fcbe89b0,table,INFO_LIN,,Donnees_geographiques/INFO_LIN(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
 ac3b3e367fe47bcca2aeceb006fe93c4,0848d5fe9ed44479476fb2c2fcbe89b0,table,INFO_PCT,,Donnees_geographiques/INFO_PCT(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
-ba53ac51bc9dbb101fc549dd81822a46,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,PRESCRIPTION,,Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(pct|lin|surf)_[0-9]*_[0-9]{8},OPTIONAL
+ba53ac51bc9dbb101fc549dd81822a46,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,PRESCRIPTION,,Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(pct|lin|surf)(_[0-9]*)?(_[0-9]*)?_[0-9]{8},OPTIONAL
 d20d599707de5295b4d45e04d16842e8,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,ANNEXE,,"Pieces_ecrites/4_Annexes/[^\\ ]*",OPTIONAL
 d2fe970beba48cd28c822f5633000023,0848d5fe9ed44479476fb2c2fcbe89b0,table,HABILLAGE_TXT,,Donnees_geographiques/HABILLAGE_TXT(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
 d8a48424d7712b355d6498caf8b17a19,0848d5fe9ed44479476fb2c2fcbe89b0,pdf,REGLEMENT,,Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_[0-9]{8},ERROR
@@ -149,11 +149,13 @@ edfc549623753724a30d33164c7996ca,6ced85e6a7b22c034b61915ba110a289,table,AC4_GENE
 1f6f5d2cd6dbd4398084bbe0e306bf35,7508c61d71b18e09ea0b5dd29014feb3,directory,4_Annexes,,Pieces_ecrites/4_Annexes,OPTIONAL
 22ffaa74a026e863a4efbb3dfd7d7f40,7508c61d71b18e09ea0b5dd29014feb3,table,HABILLAGE_TXT,,Donnees_geographiques/HABILLAGE_TXT(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
 33134770f00fc4d4319aefdbbbcd948f,7508c61d71b18e09ea0b5dd29014feb3,table,PRESCRIPTION_LIN,,Donnees_geographiques/PRESCRIPTION_LIN(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
+35f988bef2b0b1354742b23d4b9d0180,7508c61d71b18e09ea0b5dd29014feb3,pdf,INFORMATION,,Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_info_(pct|lin|surf)_(_[0-9]*)?(_[0-9]*)?_[0-9]{8},OPTIONAL
 3b9d61d642d1a746d908808fc669345a,7508c61d71b18e09ea0b5dd29014feb3,table,HABILLAGE_SURF,,Donnees_geographiques/HABILLAGE_SURF(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
 3fdfd8323f76a1b180098d302f8ba7a2,7508c61d71b18e09ea0b5dd29014feb3,directory,2_PADD,,Pieces_ecrites/2_PADD,OPTIONAL
 402f02f471371deeaf917a10f6c5a69f,7508c61d71b18e09ea0b5dd29014feb3,pdf,RAPPORT,,Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_rapport_[0-9]{8},OPTIONAL
 40f4ddd8a5ce6b71df32649a0d455bbd,7508c61d71b18e09ea0b5dd29014feb3,table,ZONE_URBA,,Donnees_geographiques/ZONE_URBA(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,ERROR
 4ba297ae67a1bbe0d73e02564a27fdb8,7508c61d71b18e09ea0b5dd29014feb3,table,HABILLAGE_PCT,,Donnees_geographiques/HABILLAGE_PCT(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
+5146d8bcf7259effc863b3ba2655b6dc,7508c61d71b18e09ea0b5dd29014feb3,pdf,PRESCRIPTION,,Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(pct|lin|surf)(_[0-9]*)?(_[0-9]*)?_[0-9]{8},OPTIONAL
 540014d7b3cbd27b82543a064c0b47f2,7508c61d71b18e09ea0b5dd29014feb3,table,DOC_URBA,,DOC(UMENT)?_URBA(_(02A|02B|[0-9]{3}))?,WARN
 55e80602f82334bddb9a35e400a5b824,7508c61d71b18e09ea0b5dd29014feb3,pdf,REGLEMENT,,Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_[0-9]{8},ERROR
 5bf9d1b57fef2c4078498a2b9f94b7c2,7508c61d71b18e09ea0b5dd29014feb3,table,PRESCRIPTION_SURF,,Donnees_geographiques/PRESCRIPTION_SURF(_[0-9]{5})?(_(02A|02B|[0-9]{3}))?,OPTIONAL
