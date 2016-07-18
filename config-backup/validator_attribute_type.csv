@@ -644,7 +644,7 @@ c7a1a8f2a67f7ade87929ae9c4be94db,b6c06e076c6d7cb5953a27a91e446ccb,SITEWEB,"Page 
 1e855998148c3291805b052b1c42c3f1,b93b5dc245a7e73fa9f612fc162a098e,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
 35040f415766546954c7d4762444f487,b93b5dc245a7e73fa9f612fc162a098e,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de l'information",String,254,1,
 5ebe3239e112109b50c2982f8542770f,b93b5dc245a7e73fa9f612fc162a098e,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
-690cce18899195d17d7a7389709be005,b93b5dc245a7e73fa9f612fc162a098e,TYPEINF,"Type d'information ponctuelle dans une liste prédéfinie",String,2,,"16,99"
+690cce18899195d17d7a7389709be005,b93b5dc245a7e73fa9f612fc162a098e,TYPEINF,"Type d'information ponctuelle dans une liste prédéfinie",String,2,,"16,19,27,99"
 92190c97d1afcd247404125ddba2c26f,b93b5dc245a7e73fa9f612fc162a098e,INSEE,"Code INSEE de la commune concernée par l'information",String,5,,
 e328e846ddfac6ad054a6fc4475a6825,b93b5dc245a7e73fa9f612fc162a098e,WKT,"Geométrie associée",MultiPoint,,,
 e53bb4eb2b409a42eba7849741aa8209,ba55e6257981c6db51b9bb1c68f6bcf4,WKT,"Geométrie associée",MultiPolygon,,,
@@ -825,9 +825,13 @@ cb1bf40f8346fc8b7d639bdf44ca7150,e53e240a71fc7d13f8fb277acd561100,WKT,"Geométri
 61ca0180b612857e027d544e2d17774a,e63414b16451514769db2a4710cf6dc9,WKT,"Geométrie associée",MultiLineString,,,
 944bda571c68240a30afd1869489688b,e63414b16451514769db2a4710cf6dc9,TENSION,"Tension de la ligne en KiloVolt (KV)",Integer,,1,
 b2f611fd07d1ddede7ed0c6213215b1f,e63414b16451514769db2a4710cf6dc9,TYPE,"type de la ligne",String,10,1,"Aérien,Souterrain"
+245305b2536ab41ab408114d7374e836,e971cf64c9c50dc91c4658db8f665d99,POLICE,,String,40,,
+5c15f5ce404387c8a849b691e736e497,e971cf64c9c50dc91c4658db8f665d99,TAILLE,,Integer,,,
+7269cca7e9135a1bfa6e2019cf29e756,e971cf64c9c50dc91c4658db8f665d99,STYLE,,String,40,1,
 9dd820a287e66d1bd18940f6886f0359,e971cf64c9c50dc91c4658db8f665d99,WKT,"Geométrie associée",MultiPoint,,,
 c51d7e7c3b5d1bfbf9d03a5691eb4086,e971cf64c9c50dc91c4658db8f665d99,NATECR,"Nature de l'écriture",String,40,,
 db5f25ff3d637281da66a971bd9f8d08,e971cf64c9c50dc91c4658db8f665d99,TXT,"Libellé de l'étiquette attachée au point d'habillage",String,80,,
+f681a9ab6719593dbc5aef94dab0ffe4,e971cf64c9c50dc91c4658db8f665d99,ANGLE,,Integer,,,
 f7422d2dcbfec74745ed80b8d48ebc37,e971cf64c9c50dc91c4658db8f665d99,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
 8983d3264c61de3f75e41c86e5f6e4c3,ea23e38621e8d28fbe0bf509478c1194,NATTRAC,"Nature de la ligne",String,40,1,
 dd8c26459fd5c0cd923869ab80a5420b,ea23e38621e8d28fbe0bf509478c1194,WKT,"Geométrie associée",MultiLineString,-1,,
