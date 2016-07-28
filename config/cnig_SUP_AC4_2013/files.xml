@@ -3,7 +3,7 @@
   <id><![CDATA[6ced85e6a7b22c034b61915ba110a289]]></id>
   <name><![CDATA[cnig_SUP_AC4_2013]]></name>
   <description><![CDATA[idgest_AC4_ddd_yyyymmdd ]]></description>
-  <regexp><![CDATA[.*_AC4_((0)?2A|(0)?2B|[0-9]{2,3})_[0-9]{8}]]></regexp>
+  <regexp><![CDATA[.*_AC4_((0)?2A|(0)?2B|[0-9]{2,3}|FR)_[0-9]{8}]]></regexp>
   <files>
     <file>
       <id><![CDATA[a9d866df3854e3381b1f5973a78f4799]]></id>

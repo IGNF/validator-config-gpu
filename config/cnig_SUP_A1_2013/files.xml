@@ -2,8 +2,8 @@
 <document>
   <id><![CDATA[a543fe85c41136b426dd8e1ae7c58ec6]]></id>
   <name><![CDATA[cnig_SUP_A1_2013]]></name>
-  <description><![CDATA[idgest_A1_ddd_yyyymmdd ]]></description>
-  <regexp><![CDATA[.*_A1_((0)?2A|(0)?2B|[0-9]{2,3})_[0-9]{8}]]></regexp>
+  <description><![CDATA[idgest_A1_ddd_yyyymmdd]]></description>
+  <regexp><![CDATA[.*_A1_((0)?2A|(0)?2B|[0-9]{2,3}|FR)_[0-9]{8}]]></regexp>
   <files>
     <file>
       <id><![CDATA[8222aa1125c1143206a18e66d38faf95]]></id>

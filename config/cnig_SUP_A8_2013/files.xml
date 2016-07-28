@@ -3,7 +3,7 @@
   <id><![CDATA[4c93b1c3a1a1411ae34ff7ee5008841f]]></id>
   <name><![CDATA[cnig_SUP_A8_2013]]></name>
   <description><![CDATA[idgest_A8_ddd_yyyymmdd ]]></description>
-  <regexp><![CDATA[.*_A8_((0)?2A|(0)?2B|[0-9]{2,3})_[0-9]{8}]]></regexp>
+  <regexp><![CDATA[.*_A8_((0)?2A|(0)?2B|[0-9]{2,3}|FR)_[0-9]{8}]]></regexp>
   <files>
     <file>
       <id><![CDATA[127667fb479c8399fa98ba3058c7ca7a]]></id>
