@@ -481,7 +481,7 @@ d37ed926a4e23db4dad161e98ef33326,7b6a3bcd230903b9934815fc275e7f84,NATECR,"Nature
 46b71c50d6efaad6be0427fa9c570a08,7ca580cc3153db00e4053f8b638b68a3,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de l'information",String,254,1,
 4ab173523a40a2fa9ff163e15cf45b3c,7ca580cc3153db00e4053f8b638b68a3,WKT,"Geométrie associée",MultiLineString,,,
 6517a50528d37bac79b8b6fc1db15030,7ca580cc3153db00e4053f8b638b68a3,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
-aa4e6935c8b60f52280ee3c9d8a9a7ba,7ca580cc3153db00e4053f8b638b68a3,TYPEINF,"Type d'information linéaire dans une liste prédéfinie",String,2,,"14,19,99"
+aa4e6935c8b60f52280ee3c9d8a9a7ba,7ca580cc3153db00e4053f8b638b68a3,TYPEINF,"Type d'information linéaire dans une liste prédéfinie",String,2,,"08,14,19,27,99"
 cbbd8192db53ed4dcfca18e931c914d3,7ca580cc3153db00e4053f8b638b68a3,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
 d1e0bc0e2fbae1fe15225597accc1f46,7ca580cc3153db00e4053f8b638b68a3,INSEE,"Code INSEE de la commune concernée par l'information",String,5,,
 04bd00ec1d2477d7b6f76a8f57822125,7fb98379ce9af0230bf37e62d950c57c,WKT,"Geométrie associée",MultiLineString,,,
