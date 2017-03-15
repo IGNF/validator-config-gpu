@@ -9,7 +9,7 @@ a9b1f02494f4718c2ebd87102fccc635,05ff06f1e2a4c77ac1e8c450971d66e6,WKT,"Geométri
 033932526fc7fe325282a34d08885eaf,078027c579d7d0370976d87d0b6e6452,WKT,"Geométrie associée",MultiPolygon,,,
 497e656ce2f608ac1f20bca1316105a6,07ec7660034c527d2ed8fac2b52fb886,HREF,,String,3,1,"SOL,NGF"
 8ff1278e7833cf733bab2e034321b2ce,07ec7660034c527d2ed8fac2b52fb886,WKT,"Geométrie associée",MultiPolygon,,,
-c80b563bf4b2468a1bfe0795a514ff34,07ec7660034c527d2ed8fac2b52fb886,H,,Integer,,1,
+c80b563bf4b2468a1bfe0795a514ff34,07ec7660034c527d2ed8fac2b52fb886,H,,Double,,1,
 049f65e802339279d9e7ef30e50e6ffb,07fb04c2148752ec9962695054bb5ff0,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
 4a3b1a847a118a5a4bb4e288a2a3653c,07fb04c2148752ec9962695054bb5ff0,LIBELLE,"Nom complet du périmètre",String,254,,
 69b3fdff52506bf4d4e5430c0f4fac72,07fb04c2148752ec9962695054bb5ff0,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de l'information",String,254,1,
@@ -46,7 +46,7 @@ b946467f8c7b33f51f1eee7e5158d5ab,11ec5b1152c8efc96d4b9614f43b392d,WKT,"Geométri
 c826968da4e5521fcca1b3b734ce3905,11ec5b1152c8efc96d4b9614f43b392d,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,07,11,15,18,24,25,99"
 f01c070278672644e58d6c271480cab7,11ec5b1152c8efc96d4b9614f43b392d,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
 19a0ba193a3546c61e8b1044ed0d740a,12cbfc3a5315cffa63787779d3e6599c,WKT,"Geométrie associée",MultiPolygon,,,
-374a6972602cc1b244142148a5eb539a,12cbfc3a5315cffa63787779d3e6599c,H,,Integer,,1,
+374a6972602cc1b244142148a5eb539a,12cbfc3a5315cffa63787779d3e6599c,H,,Double,,1,
 3bf28d0ff3b2109cfb73bd5a02f86c73,12cbfc3a5315cffa63787779d3e6599c,RAYON,,Integer,,1,
 43ca6433a8d8639c56d4292ab61014d6,12cbfc3a5315cffa63787779d3e6599c,ANGLE1,,Integer,,1,
 b4382520ed0e1a61bd9895a44a0f0788,12cbfc3a5315cffa63787779d3e6599c,ANGLE2,,Integer,,1,
@@ -68,7 +68,7 @@ f569fc448fda1ea1daf88bad54805b00,179a88cd9714231d2e6c4a12d6115290,TXT,"Libellé 
 11f77f92da311452cd4808205aeb07d1,18f0688eda81abfdbb8601e22d081d10,RAYON,,Integer,,1,
 296bdf869510d1cfed337deb225dac85,18f0688eda81abfdbb8601e22d081d10,ANGLE2,,Integer,,1,
 53c94f04641db9aaab37b94a60116f2b,18f0688eda81abfdbb8601e22d081d10,ANGLE1,,Integer,,1,
-696e10952c051f401f4f253410a0331b,18f0688eda81abfdbb8601e22d081d10,H,,Integer,,1,
+696e10952c051f401f4f253410a0331b,18f0688eda81abfdbb8601e22d081d10,H,,Double,,1,
 c928b710c7e9f8cee29f39599287cc0b,18f0688eda81abfdbb8601e22d081d10,WKT,"Geométrie associée",MultiPolygon,,,
 e681247ef3a91e252b2e28b83f7bc52f,18f0688eda81abfdbb8601e22d081d10,HREF,,String,3,1,"SOL,NGF"
 be2aae202186f83114174176b4715688,194d3fc7285ef8e84b102616f20686a2,WKT,"Geométrie associée",MultiPolygon,,,
@@ -91,7 +91,7 @@ e10e1377c4621778ee71c0a16ca88355,1a164de2d1d57f4466e08d9c67714ebb,WKT,"Geométri
 a42e9b4fc6a019049cbca20735b77822,1df44911a69fd617250dda6e75f3f5ff,WKT,"Geométrie associée",MultiPolygon,,,
 aa6b5c23c7ba2bc8f611d49d6016f30d,1df44911a69fd617250dda6e75f3f5ff,INSEE,"Code INSEE de la commune concernée par la prescription",String,5,,
 7d28dc601ef0570f463e9b7377f861ce,1e69a1c7d739fce4ec91d99a8f127deb,WKT,"Geométrie associée",MultiPolygon,,,
-05ff9251d034759242df06ea82278658,1e8a1c29c5c58f0dca7e2574a0f1001e,H,,Integer,,1,
+05ff9251d034759242df06ea82278658,1e8a1c29c5c58f0dca7e2574a0f1001e,H,,Double,,1,
 46f9c7c40d2fc395b6a261acb7c935a1,1e8a1c29c5c58f0dca7e2574a0f1001e,WKT,"Geométrie associée",MultiPolygon,,,
 8e499567db4dbf3b352629a4f4e02f57,1e8a1c29c5c58f0dca7e2574a0f1001e,HREF,,String,3,1,"SOL,NGF"
 1a4814ba9039c1ad61f2e60b4e7243c1,1f28477f490c9bb34eb229156816d536,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,
@@ -143,7 +143,7 @@ fc214661cfcdfa16fab8375446153231,22233966d08c1a80cf7b0ec4652decf4,INSEE,"Code IN
 93285840ba1e34e84a2b38661f6ecfc5,25189d337e33ee6251e7c264dd3fd1d9,HREF,,String,3,1,"SOL,NGF"
 af5008b20fee0aa46e3641c52e1cd538,25189d337e33ee6251e7c264dd3fd1d9,YDEBUT,,Integer,,1,
 e2ecb4f61334448d5f775e95e9c2a980,25189d337e33ee6251e7c264dd3fd1d9,WKT,"Geométrie associée",MultiPolygon,,,
-f0551dbd02976f4620c43dbfa86b85fa,25189d337e33ee6251e7c264dd3fd1d9,H,,Integer,,1,
+f0551dbd02976f4620c43dbfa86b85fa,25189d337e33ee6251e7c264dd3fd1d9,H,,Double,,1,
 f8c4c9d713b7897b25075909bc576bf4,25189d337e33ee6251e7c264dd3fd1d9,YFINAL,,Integer,,1,
 11ec5a745f01bd0f3ac90e8f63cb82c4,25799ab4e7d3d17532d47bb17993a2ef,NOMGEN,"Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",String,100,,
 1bb26d45193664ef629bed2ff972da41,25799ab4e7d3d17532d47bb17993a2ef,SRCGEOGEN,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,30,1,
@@ -184,7 +184,7 @@ bd0ca06520dfd69ec94dd725d7d2547d,2af3bf56ce13dc5db3a03e899328f356,WKT,"Geométri
 a64929bb26ee5263ed48095f2b826543,2d2238b59f2cab6f5d1a3a6065b4e06d,DATVALID,"Date de la dernière validation de la zone ou de son règlement",Date,,1,
 c2b0ed7f1a38ac72b7abfd5e0fc2c43a,2d2238b59f2cab6f5d1a3a6065b4e06d,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",String,254,1,
 852b2420b70e3785dd5249622a55a121,2d5d1c81d535a1175d51fd7e7f6755d8,WKT,"Geométrie associée",MultiPolygon,,,
-c0806ac61d9956da1206e52006c0bb33,2d5d1c81d535a1175d51fd7e7f6755d8,H,,Integer,,1,
+c0806ac61d9956da1206e52006c0bb33,2d5d1c81d535a1175d51fd7e7f6755d8,H,,Double,,1,
 c73bb975f358392ce2964cad0253a57e,2d5d1c81d535a1175d51fd7e7f6755d8,HREF,,String,3,1,"SOL,NGF"
 2bf0b2c20afbefc0da7b25d1e348096e,2f355e5e34958818e393feda99090493,WKT,"Geométrie associée",MultiPoint,,,
 80a28050d23b0e95530e756580e18428,3043d7e3c7066893881dc5530ee130ac,WKT,"Geométrie associée",MultiPolygon,,,
@@ -222,7 +222,7 @@ a62cb55e4dfde383ce2afc86999bb568,35a3679e7af27e7317340e0c9b9a6dd1,TYPEINF,"Type 
 c994485d3fddc1f3faabbb09e65c0c2b,35a3679e7af27e7317340e0c9b9a6dd1,TYPEP,"Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",String,2,1,"01,05,07,16,18,22,25,28,99"
 d03ac449768e0c84bcd089875fe82f20,35a3679e7af27e7317340e0c9b9a6dd1,TXT,"Nom court servant à faire une étiquette",String,10,1,
 7086d62ff734184ec262f29f3a3df2e2,35bdf828ba21c603d1f209be13b8623d,HREF,,String,3,1,"SOL,NGF"
-7aa7b5c1dfce2e41734599a8a2578521,35bdf828ba21c603d1f209be13b8623d,H,,Integer,,1,
+7aa7b5c1dfce2e41734599a8a2578521,35bdf828ba21c603d1f209be13b8623d,H,,Double,,1,
 95885eaba525fddb6825c8fd3c1456ac,35bdf828ba21c603d1f209be13b8623d,WKT,"Geométrie associée",MultiLineString,,,
 0667eb749c2e6ff1890e0b079dcb65dc,35e3e0b3c970d017b25914583294e754,INSEE,"Code INSEE de la commune concernée par l'information",String,5,,
 18402c9b7cf1dada5aaadd12f99644a1,35e3e0b3c970d017b25914583294e754,DATAPPRO,"Date de la dernière approbation de la prescription",Date,,1,
@@ -310,7 +310,7 @@ ea374e2cc093e2da5dbf5923e1217a3a,48061957cf85c558a3391d6ef42a43a1,WKT,"Geométri
 cc71b00e3289970859ce35da81d5f35f,4a6120844bb8fedd8c6e27a14aa6062b,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,
 df1934207a2a984f9ff92d5ad86e7f8e,4a6120844bb8fedd8c6e27a14aa6062b,URLPLAN,"URL ou URI qui pointe sur le fichier du plan scanné",String,254,1,
 20937010c0b20de9cf71f142fc5be9dc,4ae5ba7d696be728031d52259b4ab6b4,WKT,"Geométrie associée",MultiPoint,,,
-70bcf9dc4dc060d9c66a026813e3c25e,4ae5ba7d696be728031d52259b4ab6b4,H,,Integer,,1,
+70bcf9dc4dc060d9c66a026813e3c25e,4ae5ba7d696be728031d52259b4ab6b4,H,,Double,,1,
 b8ae8de04813078bbeffe60f76dd488c,4ae5ba7d696be728031d52259b4ab6b4,HREF,,String,3,1,"SOL,NGF"
 a39362d3a019098ad46e19a012cff10f,4bdaa26244f634d7045a76a7c7f785c5,WKT,"Geométrie associée",MultiPolygon,,,
 f38bc7eea7c9cfedc6e27b61abb7f17a,4d0471991e2bc5a25693b6593fb9b177,DIAMETRE,"Diamètre de la canalisation en mm",Integer,,1,
@@ -353,7 +353,7 @@ fec12f355f58f3a2b2224e166506a935,518cd494c508f95fd2ccb3b6973ac0b8,URLFIC,"URL ou
 e271c9805109ed11461eecdd8d56f2bd,52dcd7600836db49955a4b55a827897f,WKT,"Geométrie associée",MultiPolygon,,,
 6c78a67cf66d0c85c5bee69140640bd4,54b22f5854db9505825f127653b134e9,WKT,"Geométrie associée",MultiLineString,,,
 90944b72dc6d169a59e1a7b52e66f4e3,54b22f5854db9505825f127653b134e9,HREF,,String,3,1,"SOL,NGF"
-a0cf1dd9953b275d4d7ee5e9e04dc9a5,54b22f5854db9505825f127653b134e9,H,,Integer,,1,
+a0cf1dd9953b275d4d7ee5e9e04dc9a5,54b22f5854db9505825f127653b134e9,H,,Double,,1,
 1b4e4a35d058be09c627d73cc3a51ad2,5526f383f54f349808e95400c4421803,WKT,"Geométrie associée",MultiPolygon,,,
 8c7b4cbd19187a272e0ddbc4a08c8e67,567ce41e46d7773968b2d3106ec14460,WKT,"Geométrie associée",MultiPolygon,,,
 0ac4eb4dee56b1fdb4d43f1be19a02ae,56906a1236e96bd71248810a29f539f6,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
@@ -370,7 +370,7 @@ e8344f55366a12a85eddc5b7a564107e,56906a1236e96bd71248810a29f539f6,TYPEPSC,"Type 
 9ade28319d83533f32df94cc06371657,56dead572541fa8dc9a45ec38e61270b,NATTRAC,"Nature du point",String,40,1,
 25042580f52889144104f3f2fdfccbb2,57726384fb706fb8e490e6abd97f82d3,WKT,"Geométrie associée",MultiPolygon,,,
 4fc4b6b6dc69b22b92ac4e4f9d40f974,57726384fb706fb8e490e6abd97f82d3,HREF,,String,3,1,"SOL,NGF"
-ddc1a445b5bf13c509ad341dad958491,57726384fb706fb8e490e6abd97f82d3,H,,Integer,,1,
+ddc1a445b5bf13c509ad341dad958491,57726384fb706fb8e490e6abd97f82d3,H,,Double,,1,
 c629892cf8cf54edef38441e89c16a18,59330a053f8b1883e4ad5530b0b1ae2c,WKT,"Geométrie associée",MultiPolygon,,,
 fdafe960aa3f183b51db7cbf270c9dce,59c6c6794d0513c9fef44f66512a2ff2,WKT,"Geométrie associée",MultiPolygon,,,
 094f8f941a394830767cb355205dceb3,5a1106fcaa318ed423cb7ec9d63021bf,WKT,"Geométrie associée",MultiLineString,,,
@@ -413,7 +413,7 @@ dc7189459781169f602374dac60e20a7,6b5f58a6bca8b07d209852580cc4b244,WKT,"Geométri
 33aa652fada0a92bb714715df7af3177,6bcc470aa3bd8cedd21f23f0b53f1a0e,WKT,"Geométrie associée",MultiPolygon,,,
 6c51c81cf3932b60b7ffe887ddb3c485,6ccea9b15913f0bc9385ba6d94a29417,WKT,"Geométrie associée",MultiPoint,,,
 83614627db91fef2fe92e8c4020a678a,6ccea9b15913f0bc9385ba6d94a29417,HREF,,String,3,1,"SOL,NGF"
-9402f7ec538da66b7a54f346e53d6233,6ccea9b15913f0bc9385ba6d94a29417,H,,Integer,,1,
+9402f7ec538da66b7a54f346e53d6233,6ccea9b15913f0bc9385ba6d94a29417,H,,Double,,1,
 1efa103a49d0f6cce3b84506a865ee68,6d4afa2d0e1cbab97f6617d3a5a8c086,WKT,"Geométrie associée",MultiPolygon,,,
 d80079f804d419152ce51950f1a79661,6d87ee730b803c42fabc8818c62a4577,WKT,"Geométrie associée",MultiPolygon,,,
 13c5bc2c656dfcda53c237e956fefbe3,6db9d4021363fb98467e3ab42c50a3f4,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",String,254,1,
@@ -535,13 +535,13 @@ cfa66833f54d04c2ec5408efbf6351e7,8f571ed925c3b46df46e54600416a202,NOMGEST,"Nom d
 fdf05aad1613a29da12fcd0119c0e298,8f571ed925c3b46df46e54600416a202,NUMTEL,"Numéro de téléphone du point de contact chez le service gestionnaire",String,10,1,
 52f87c506f0b4e718fcda86d6b69bf9d,901ea90d423629d389b0919e7fc486da,HREF,,String,3,1,"SOL,NGF"
 aff1e1bb12a548d566f8e1c967b3cdfd,901ea90d423629d389b0919e7fc486da,WKT,"Geométrie associée",MultiLineString,,,
-d51ebb69dcc5040a54c7b2c85144921b,901ea90d423629d389b0919e7fc486da,H,,Integer,,1,
+d51ebb69dcc5040a54c7b2c85144921b,901ea90d423629d389b0919e7fc486da,H,,Double,,1,
 2417c76992c43817aaf261c3965d4b8d,96935c59392c6a6fb2c6419ae0603748,WKT,"Geométrie associée",MultiLineString,,,
 2d8f643c04c3bd42ee2e936de301a1a3,9713aac3def85708d7dd1c3872ea7ebe,WKT,"Geométrie associée",MultiPolygon,,,
 759883f985f2081ea175b4500f91d242,9713aac3def85708d7dd1c3872ea7ebe,NATTRAC,"Nature du polygon",String,40,1,
 9f3b8b2766648037d223ccaf7033337b,9713aac3def85708d7dd1c3872ea7ebe,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
 f8e2762ba76d60c814e81fc7b01e6d13,98112985014d40563023c42fce0388ae,WKT,"Geométrie associée",MultiLineString,,,
-103555a170423eb1027208e9b6f0a47f,997d82c489b8052ec31e7832f69102ac,H,,Integer,,1,
+103555a170423eb1027208e9b6f0a47f,997d82c489b8052ec31e7832f69102ac,H,,Double,,1,
 10bb2bf563eb9130fcfb7be82e4e1b0e,997d82c489b8052ec31e7832f69102ac,WKT,"Geométrie associée",MultiPolygon,,,
 15f5855aab095f1cfc1a74a1bd5b7941,997d82c489b8052ec31e7832f69102ac,RAYON,,Integer,,1,
 32287e8e21328732282a51fc2ffe24a5,997d82c489b8052ec31e7832f69102ac,LARGEUR,,Integer,,1,
@@ -580,7 +580,7 @@ e2bb68298feebed4623e1782c7e429e0,9ca85dc91d25e1ce55399734a976fea0,TYPEDOC,"Type 
 af7debc1b081c1059992d0cbe258a5b6,a21c2e976cc14ebb42df4be71aeed553,WKT,"Geométrie associée",MultiPolygon,,,
 290143d8cfb7ab7e5f936b89bc24b1b1,a8aab9d21293bba32540b36ed25ad7a7,WKT,"Geométrie associée",MultiLineString,,,
 1fd400f20db6d49d442e3a938203811e,a96e2badebaa115c57665a111ad88d9d,WKT,"Geométrie associée",MultiPolygon,,,
-7ae83d52ae4f9034674c39eeb3e12ba8,a96e2badebaa115c57665a111ad88d9d,H,,Integer,,1,
+7ae83d52ae4f9034674c39eeb3e12ba8,a96e2badebaa115c57665a111ad88d9d,H,,Double,,1,
 e905acfc15becede0d2f3f23f7c71251,a96e2badebaa115c57665a111ad88d9d,HREF,,String,3,1,"SOL,NGF"
 117abb6d4dfbd3dfbbfa4e203aa266fb,aa1a5447b1c501c77f343efd00737323,MODEPROD,"Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant",String,25,,"import,numérisation,reconstitution"
 12ce35e905b8d0930c13b6b734819c77,aa1a5447b1c501c77f343efd00737323,IDGEST,"Identifiant du gestionnaire de la SUP",Integer,,,
@@ -725,7 +725,7 @@ e807ee2d941d0399591f978854e78c76,cdd1d8be8f0905f8771b58d98e6ad224,WKT,"Geométri
 c02b4094a840f4b7ed9c34b5b2998846,d0225942c2e4921ef38cc88fcb7a0f9a,WKT,"Geométrie associée",MultiLineString,,,
 283e45bb9d6391171531021ba1e26739,d0bba82677e16628b021101bc92f60f6,HREF,,String,3,1,"SOL,NGF"
 9eee066ebb337fe8fb82fc30d05ca683,d0bba82677e16628b021101bc92f60f6,WKT,"Geométrie associée",MultiPolygon,,,
-d03111babc016dc1c90115b828f42898,d0bba82677e16628b021101bc92f60f6,H,,Integer,,1,
+d03111babc016dc1c90115b828f42898,d0bba82677e16628b021101bc92f60f6,H,,Double,,1,
 4236b882e04e0de6d74f08f79bf22797,d0fcb802b1504cc67554db9d7bc0ae00,DATECOG,"Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune",Date,,1,
 532e53d1a82318917bb50f6b30a9449b,d0fcb802b1504cc67554db9d7bc0ae00,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
 9c5116ca3aca2889b5b06af01982187f,d0fcb802b1504cc67554db9d7bc0ae00,IDURBA,"Identifiant unique du document d'urbanisme",String,20,1,
@@ -742,7 +742,7 @@ d115813a3213e2155757a7552f8263c7,d49f361be49d406e507c420663b159f4,WKT,"Geométri
 f4dd78b7c954918caaea4ee03ae13287,d49f361be49d406e507c420663b159f4,TYPEP,"Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",String,2,1,"01,05,07,11,15,18,21,22,24,25,28,99"
 4e0922eacf0573a9c3673f615cc13500,d54c50849ef259176b3ca4166e8fb74b,HREF,,String,3,1,"SOL,NGF"
 5cd90199bd5ef032a116b84b571418f8,d54c50849ef259176b3ca4166e8fb74b,WKT,"Geométrie associée",MultiLineString,,,
-f0b8fa3d8ec95b7880f816ef63d4f526,d54c50849ef259176b3ca4166e8fb74b,H,,Integer,,1,
+f0b8fa3d8ec95b7880f816ef63d4f526,d54c50849ef259176b3ca4166e8fb74b,H,,Double,,1,
 14e3c5d3340826844587e9b0863f3628,d55dcedbf952e80344de23105a9eeacb,WKT,"Geométrie associée",MultiPolygon,,,
 287d994746881d1c13dd3a671119920f,d5d01e2b2221237e0dbd5eaa54ff33a8,WKT,"Geométrie associée",MultiPolygon,,,
 eeea359550e0597ae518298721a13005,d7718e78f5c83706d45184b124fbc669,WKT,"Geométrie associée",MultiLineString,,,
@@ -837,12 +837,12 @@ f7422d2dcbfec74745ed80b8d48ebc37,e971cf64c9c50dc91c4658db8f665d99,INSEE,"Code IN
 dd8c26459fd5c0cd923869ab80a5420b,ea23e38621e8d28fbe0bf509478c1194,WKT,"Geométrie associée",MultiLineString,-1,,
 ed9b38d3707f5ed5d7c867a6b022c85d,ea23e38621e8d28fbe0bf509478c1194,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
 0c1d6b20a9fffdd7a6e88dad7b78f984,ee0a8e73c93f9537197372baf9946d6c,HREF,,String,3,1,"SOL,NGF"
-1c4492f77adf6ca4693b1a8565a37848,ee0a8e73c93f9537197372baf9946d6c,H,,Integer,,1,
+1c4492f77adf6ca4693b1a8565a37848,ee0a8e73c93f9537197372baf9946d6c,H,,Double,,1,
 2fea4bab23400ce934d56366226e942d,ee0a8e73c93f9537197372baf9946d6c,ANGLE2,,Integer,,1,
 990f6503824b1c05086791939630c16e,ee0a8e73c93f9537197372baf9946d6c,RAYON,,Integer,,1,
 ba375e6f656d04bb34bc37742bf48689,ee0a8e73c93f9537197372baf9946d6c,ANGLE1,,Integer,,1,
 f3a9b826d54c98bb7124dd12dee28e74,ee0a8e73c93f9537197372baf9946d6c,WKT,"Geométrie associée",MultiPolygon,,,
-74b26532a8ea309f2f80ef53ac6df086,eebe8a7d99abda3f75dedc7aa3f7b0fb,H,,Integer,,1,
+74b26532a8ea309f2f80ef53ac6df086,eebe8a7d99abda3f75dedc7aa3f7b0fb,H,,Double,,1,
 7916e1cfe5b56c8637b25d6ccc3758ad,eebe8a7d99abda3f75dedc7aa3f7b0fb,WKT,"Geométrie associée",MultiPolygon,,,
 b71799e1cbb3055e36c0c2450f056807,eebe8a7d99abda3f75dedc7aa3f7b0fb,HREF,,String,3,1,"SOL,NGF"
 4ca6b2e3b9a7863ffbda0da9af509ed1,ef925ca68f11d4de45926cc8020463aa,WKT,"Geométrie associée",MultiPolygon,,,
@@ -870,7 +870,7 @@ c496e9bca1972a90cc1ccb681255023b,f84197014ca3151554299502e3523857,NATTRAC,"Natur
 769cb824ffb779025693b6bf1035998e,f890900ff8787f067c3a7f975f4d5cef,ADRESSE,"Adresse du monument",String,100,1,
 1ba02146c4728408a886db194ccd3647,f96303ea87f93a53451da016ff32c3b6,HREF,,String,3,1,"SOL,NGF"
 d3c58f549d79080be146be6a65a03ca3,f96303ea87f93a53451da016ff32c3b6,WKT,"Geométrie associée",MultiPolygon,,,
-fd590771bb2f40c5bbb60cade744569e,f96303ea87f93a53451da016ff32c3b6,H,,Integer,,1,
+fd590771bb2f40c5bbb60cade744569e,f96303ea87f93a53451da016ff32c3b6,H,,Double,,1,
 51421194f06f0adc4859d6af43b41d76,fa693186444ebb4054a07ce189d678eb,WKT,"Geométrie associée",MultiPolygon,,,
 7dcdd99a68c651b238bb64eaf8d6d52c,fb091952c3e32f716fbee28184a6793c,WKT,"Geométrie associée",MultiLineString,,,
 0d1727d9860ab3357649957650d65955,fe9da1ca76a78e438901ab9ce5a2f96d,ID_GASPAR,"Identifiant Gaspar du PPR",String,24,1,
