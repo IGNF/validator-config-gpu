@@ -26,5 +26,12 @@
       <path><![CDATA[[0-9]{9}_rapport_[0-9]{8}]]></path>
       <mandatory><![CDATA[WARN]]></mandatory>
     </file>
+    <file>
+      <id><![CDATA[9c14238c59a7bfd01f9dc7035d7d187e]]></id>
+      <type><![CDATA[table]]></type>
+      <name><![CDATA[SCOT]]></name>
+      <path><![CDATA[SCOT]]></path>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
   </files>
 </document>

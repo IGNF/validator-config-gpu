@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featureType>
+  <id><![CDATA[a4f9d209294be8a98bb1da3512019085]]></id>
+  <typeName><![CDATA[SCOT]]></typeName>
+  <attributes>
+    <attribute>
+      <id><![CDATA[b4128d6468427a9e803c06693780922d]]></id>
+      <name><![CDATA[WKT]]></name>
+      <description><![CDATA[Geométrie associée]]></description>
+      <type><![CDATA[MultiPolygon]]></type>
+      <nullable>false</nullable>
+    </attribute>
+  </attributes>
+</featureType>
