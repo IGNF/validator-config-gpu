@@ -4,6 +4,22 @@
   <typeName><![CDATA[SCOT]]></typeName>
   <attributes>
     <attribute>
+      <id><![CDATA[66b36acad1d3290bbc3253cdb5a6e972]]></id>
+      <name><![CDATA[NAME]]></name>
+      <description><![CDATA[Nom du Scot]]></description>
+      <type><![CDATA[String]]></type>
+      <size>32</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[8def6e067787f366247007112735b5d2]]></id>
+      <name><![CDATA[TITLE]]></name>
+      <description><![CDATA[Titre du Scot]]></description>
+      <type><![CDATA[String]]></type>
+      <size>80</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
       <id><![CDATA[b4128d6468427a9e803c06693780922d]]></id>
       <name><![CDATA[WKT]]></name>
       <description><![CDATA[Geométrie associée]]></description>
