@@ -520,7 +520,7 @@ a1ed509fa03fb1cb683ad1bc4ee64d04,8bacabfa1aa091b1acb7aa8a02de4885,DATEPUB,"Date 
 a8833ccb9cc32ac1d6279678de4d6ac0,8bacabfa1aa091b1acb7aa8a02de4885,NOMACTE,"Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP",String,100,,
 c6d46cb2b78e5800f7822c84ad28132f,8bacabfa1aa091b1acb7aa8a02de4885,IDACTE,"Identifiant de l'acte",Integer,,,
 d463b500b048983f9b000e8dded11951,8bacabfa1aa091b1acb7aa8a02de4885,DATEDECIS,"Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",Date,,,
-f84224b7dd622513260e6cc8a3bb2e0d,8bacabfa1aa091b1acb7aa8a02de4885,FICHIER,"Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte",String,254,1,
+f84224b7dd622513260e6cc8a3bb2e0d,8bacabfa1aa091b1acb7aa8a02de4885,FICHIER,"Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte",Filename,254,1,
 fcc4e2f9187897acbf4fd14f43eb42a5,8bacabfa1aa091b1acb7aa8a02de4885,REFERENCE,"Référence de l'acte ayant créé ou modifié la servitude",String,50,,
 69c9159a15488b0c902e3dce0f95496d,8cc7e749c1bfa2131ed44fc5f9d68261,TYPE_GEST,"type de gestionnaire de l'infrastructure",String,15,1,"Etat,Département,Commune,RFF"
 6d3e86467c2d5b8e43f1e0a28914a03f,8cc7e749c1bfa2131ed44fc5f9d68261,CROISEMENT,"Indique s'il y a un croisement",Boolean,,1,
