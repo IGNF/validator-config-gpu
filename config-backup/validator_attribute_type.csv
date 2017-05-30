@@ -41,8 +41,8 @@ faba85a54a5c4335242f0fa71cf3879a,0c72b242f1d003887fc88ccde2df8200,WKT,"Geométri
 98ec7313497c367a3a5bb1b5e11b4c5a,0d83a98ec563b5ff265a291951a8670d,NATTRAC,"Nature du point",String,40,1,
 a21f977aa27cfdc36da037e7316d83d4,0d83a98ec563b5ff265a291951a8670d,WKT,"Geométrie associée",MultiPoint,,,
 e05062206cb15ab124499158e34555e8,0eb4dfe435308652d23a7a839d5d0d4d,WKT,"Geométrie associée",MultiPolygon,,,
-0023559dbbddf1de2ba179594527e8bd,0f29a5c1aea011ba3c6346401fd0dbe3,IDASS,"Identifiant de l'assiette",Integer,,,
-03269ee3b188584738d51d38c542437c,0f29a5c1aea011ba3c6346401fd0dbe3,IDGEN,"Identifiant du générateur de l'assiette",Integer,,,
+0023559dbbddf1de2ba179594527e8bd,0f29a5c1aea011ba3c6346401fd0dbe3,IDASS,"Identifiant de l'assiette",String,40,,
+03269ee3b188584738d51d38c542437c,0f29a5c1aea011ba3c6346401fd0dbe3,IDGEN,"Identifiant du générateur de l'assiette",String,40,,
 103d375653943c30dc6f6c45e4c326d6,0f29a5c1aea011ba3c6346401fd0dbe3,SRCGEOASS,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,30,1,
 1b9a55e805706f3155f9f4acd1131438,0f29a5c1aea011ba3c6346401fd0dbe3,DATESRCASS,"Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",String,25,1,
 5ebeb3ba2af08776854483e3a86134dc,0f29a5c1aea011ba3c6346401fd0dbe3,PARAMCALC,"Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon",Integer,,1,
@@ -162,21 +162,21 @@ c83461113e9140b61084141ccad953aa,205eca1b2044a921dbac103d5fcf0d08,DATEREF,"Date 
 ca28fcf3fdda6c32b67846d74bd1fd80,205eca1b2044a921dbac103d5fcf0d08,SIREN,"Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",String,9,1,
 ddfaee1317a16639be4fdd0315ae74ae,205eca1b2044a921dbac103d5fcf0d08,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,
 3399d8365d130761bda9f9377ce85ecd,20daa8f16a943ce536abfdadc4777dc3,CODE_ALEA,"Identifiant GASPAR de l'aléa",String,2,1,"10,11,12,13,14,15,16,17,18,30,31,99"
+97c3e6f79ae04072967c06967555415e,20daa8f16a943ce536abfdadc4777dc3,URL_GRISQ,"Hyperlien vers le PPR dans GéoRisques",String,254,,
 a4f5301190279f40f77e9d6c3ae586fd,20daa8f16a943ce536abfdadc4777dc3,ID_GASPAR,"Identifiant Gaspar du PPR",String,24,1,
 e98664c8e2b6c68673a6a393b534074c,20daa8f16a943ce536abfdadc4777dc3,WKT,"Geométrie associée",MultiPolygon,,,
 08bd23ab9037c95dd9610064dc920232,20f8d58633322a7973e3ded26cecc63a,VALIDEGEST,"Les données numérisées de la servitude ont été validées ou pas par le gestionnaire",String,1,,"T,F"
-242adcd91d5707c68cde747e3b56241b,20f8d58633322a7973e3ded26cecc63a,DATEMAJ,"Date de la dernière modification apportée à la servitude",Date,,1,
-29b216511462b7df7249a621db408018,20f8d58633322a7973e3ded26cecc63a,IDSUP,"Identifiant de la SUP",Integer,,,
+242adcd91d5707c68cde747e3b56241b,20f8d58633322a7973e3ded26cecc63a,DATEMAJ,"Date de la dernière modification apportée à la servitude",String,8,1,
+29b216511462b7df7249a621db408018,20f8d58633322a7973e3ded26cecc63a,IDSUP,"Identifiant de la SUP",String,40,,
 2db5c42823c8875ea3ad948aa6696e0c,20f8d58633322a7973e3ded26cecc63a,CATEGORIE,"Catégorie de la servitude dans la nomenclature nationale",String,10,,"A1,A2,A3,A4,A5,A6,A7,A8,A9,AC1,AC2,AC3,AC4,AR1,AR2,AR3,AR4,AR5,AR6,AS1,AS2,EL1,EL2,EL2bis,EL3,EL4,EL5,EL6,EL7,EL8,EL9,EL10,EL11,EL12,I1,I1bis,I2,I3,I4,I5,I6,I7,I8,I9,Int1,Js1,PM1,PM1bis,PM2,PM3,PM4,PM5,PT1,PT2,PT3,PT4,T1,T2,T3,T4,T5,T6,T7,T8"
 65b4697897ce6098c57551fa80ed9710,20f8d58633322a7973e3ded26cecc63a,QUIPROD,"Organisme ayant numérisé la servitude",String,80,,
 751916ef2f5c8e46f305fa49159da732,20f8d58633322a7973e3ded26cecc63a,OBSVALIDAT,"Observation relative à la validation de la servitude formulée soit par le gestionnaire, soit par le service de l'État administrant les données",String,254,1,
-90a2061006c1f3e454e0f36b67aff58c,20f8d58633322a7973e3ded26cecc63a,DESCRIPTIO,"Description détaillée de la servitude",String,150,1,
+90a2061006c1f3e454e0f36b67aff58c,20f8d58633322a7973e3ded26cecc63a,DESCRIPTIO,"Description détaillée de la servitude",String,254,1,
 97ca66299e2cb11d06e31baaa8c31c65,20f8d58633322a7973e3ded26cecc63a,MODEPROD,"Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant",String,25,,"import,numérisation,reconstitution"
-aa00edca50f3e75062f333e28a5cf815,20f8d58633322a7973e3ded26cecc63a,IDGEST,"Identifiant du gestionnaire de la SUP",Integer,,,
+aa00edca50f3e75062f333e28a5cf815,20f8d58633322a7973e3ded26cecc63a,IDGEST,"Identifiant du gestionnaire de la SUP",String,9,,
 b5dd35cee002c9c1c8446ff2361e9c96,20f8d58633322a7973e3ded26cecc63a,IDINTGEST,"Identifiant créé et entretenu par l'organisme gestionnaire de la servitude",String,25,1,
 bc06a6442b0b624bfc8a42e0689c3291,20f8d58633322a7973e3ded26cecc63a,NOMSUPLITT,"Nom littéral de la servitude, figurant dans l'acte l'ayant instaurée",String,100,1,
 bfe28f8b5410fc69d92471ea4f96b02d,20f8d58633322a7973e3ded26cecc63a,ECHNUM,"Dénominateur de l'échelle à laquelle a été numérisée la servitude",Integer,,,
-c9b0272c5e0a682fbf429b8d753b1025,20f8d58633322a7973e3ded26cecc63a,ESTABROGE,"Attribut dérivé renseignant sur l'état de validité de la servitude : cet attribut prend la valeur 'oui' si un acte ou une décision administrative a abrogé ou annulé la servitude",String,1,,"T,F"
 da03f184be9ea6fd1c6cfa8b784314b9,20f8d58633322a7973e3ded26cecc63a,NOMSUP,"Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP",String,100,,
 e32419431ee4600f4b141b575edb1fe8,20f8d58633322a7973e3ded26cecc63a,DOCSOURCE,"Document graphique ayant été numérisé",String,80,1,
 3c068abda695d73450637d9e71af176f,215d29d3650606d0eb15f68425648147,NATTRAC,"Nature du polygon",String,40,1,
@@ -338,10 +338,11 @@ f5eafd0978c3d17cde6d3c464be2ff87,404a9d3430d8fe2fb9b6e60830da51ed,WKT,"Geométri
 87884eee56fbc13ec65c791ad15234b9,40e47cd90e5c079eb1cf07acc0c063fc,WKT,"Geométrie associée",MultiPolygon,,,
 b95f442e41b8805a83e72142bc39a9f2,42db1164da96ab2bff256814f5a9cbdc,WKT,"Geométrie associée",MultiPolygon,,,
 4be39cf4223c68d95a79c3c98c6b7bc1,436a731b970329de15bf96f47820ef97,WKT,"Geométrie associée",MultiPolygon,,,
+84ea30c551426a906020be476d36d6a5,436a731b970329de15bf96f47820ef97,URL_GRISK,"Hyperlien vers le PPR dans GéoRisques",String,254,,
 9d5d4a0d17adc3db3a31f2b4d5eeb126,436a731b970329de15bf96f47820ef97,CODE_ALEA,"Identifiant GASPAR de l'aléa",String,2,1,"20,21,22,23,24,25"
 d3756b40b25d7da40aafa579429701a2,436a731b970329de15bf96f47820ef97,ID_GASPAR,"Identifiant Gaspar du PPR",String,24,1,
-5aa564d5a2c605c8c4ecb8c4bef6137d,439b13477603a29ae3d1c046ba54641e,IDACTE,"Identifiant de l'acte instituant la SUP",Integer,,,
-edb5b56686bb6dbacc05f784ac54a8d3,439b13477603a29ae3d1c046ba54641e,IDSUP,"Identifiant de la SUP",Integer,,,
+5aa564d5a2c605c8c4ecb8c4bef6137d,439b13477603a29ae3d1c046ba54641e,IDACTE,"Identifiant de l'acte instituant la SUP",String,40,,
+edb5b56686bb6dbacc05f784ac54a8d3,439b13477603a29ae3d1c046ba54641e,IDSUP,"Identifiant de la SUP",String,40,,
 02e923e221f761c4273b0857df7f0404,4467d4a214ed4a28a40c6c166bc780a8,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
 499df82e222b20513a87a46ba1c653fa,4467d4a214ed4a28a40c6c166bc780a8,WKT,"Geométrie associée",MultiPoint,,,
 6a6391f8df42060dc43b959b99a802af,4467d4a214ed4a28a40c6c166bc780a8,INSEE,"Code INSEE de la commune concernée par l'information",String,5,,
@@ -508,7 +509,7 @@ c23256e7fbad03a29ed1976e7571f4d1,6290167e09ed0236b6db532f24590863,TYPEP,"Type co
 aa23e6cba32b49be704108f87595325d,63e18a45fa7db0a5571066f0a01994d1,WKT,"Geométrie associée",MultiPoint,,,
 ad53cd403c9a45b65dd563b2f2413cae,63e18a45fa7db0a5571066f0a01994d1,NATTRAC,"Nature du point",String,40,1,
 f26e90db8ef5e2221ccb0fcaa54c7745,6619826c3d598e8e103aebb448edc6c3,WKT,"Geométrie associée",MultiPolygon,,,
-c6c1587f4ff87aae688f7cd47cfcb552,66bdffb3453cbca6243f87415edd774d,TYPE,"type de la canalisation",String,15,1,"eau potable,assainissement"
+c6c1587f4ff87aae688f7cd47cfcb552,66bdffb3453cbca6243f87415edd774d,TYPE,"type de la canalisation",String,15,1,"Eau potable,Assainissement"
 d0c53bbda92cb009906250cc8d4f1d27,66bdffb3453cbca6243f87415edd774d,WKT,"Geométrie associée",MultiLineString,,,
 14f78a78681c9d08b039c40ab9c04c5d,6758f278a9b8fac39d565073bd2ae2f0,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,
 167690418a635658d8f6d26b3de66de5,6758f278a9b8fac39d565073bd2ae2f0,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,
@@ -757,10 +758,10 @@ f78cdf0fade052e0f2feb5c133bc3728,9f8a01163a1908a96d50b9989722bcab,ADRESSE,"Adres
 18b5bf3f67b831ea9b4c32d5e832d16d,a21611d12ea0a67fa867dafeef717250,WKT,"Geométrie associée",MultiPoint,,,
 af7debc1b081c1059992d0cbe258a5b6,a21c2e976cc14ebb42df4be71aeed553,WKT,"Geométrie associée",MultiPolygon,,,
 d8d57de57b95c05a6e78d8566ac8894b,a3ea3dfe38ee9cf36ace247dbc206a6c,WKT,"Geométrie associée",MultiPolygon,,,
-2a253091358a1a36e439965c02d3f5b4,a4db8a7654628af7addbfd87b3df881e,IDGEST,"Identifiant du gestionnaire",Integer,,,
+2a253091358a1a36e439965c02d3f5b4,a4db8a7654628af7addbfd87b3df881e,IDGEST,"Identifiant du gestionnaire",String,9,,
 2b697a0b7699d6f96d13e298d4830465,a4db8a7654628af7addbfd87b3df881e,NOMCORRES,"Correspondant à contacter chez le gestionnaire",String,80,1,
 3439a204b7308140a61be28e22c509b7,a4db8a7654628af7addbfd87b3df881e,NUMTEL,"Numéro de téléphone du point de contact chez le service gestionnaire",String,10,1,
-824e83a3efe59ab8acade88e5914ea04,a4db8a7654628af7addbfd87b3df881e,ADRESSE,"Adresse de l'organisme servant aux envois postaux",String,80,1,
+824e83a3efe59ab8acade88e5914ea04,a4db8a7654628af7addbfd87b3df881e,ADRESSE,"Adresse de l'organisme servant aux envois postaux",String,254,1,
 956138a6f5718530b01985649660e8cb,a4db8a7654628af7addbfd87b3df881e,NOMGEST,"Nom de l'organisme gestionnaire",String,80,,
 a37af33386dfe5ddeddc430d23ef1d57,a4db8a7654628af7addbfd87b3df881e,COURRIEL,"Adresse électronique du point de contact chez le service gestionnaire",String,80,1,
 66b36acad1d3290bbc3253cdb5a6e972,a4f9d209294be8a98bb1da3512019085,NAME,"Nom du Scot",String,32,,
@@ -999,13 +1000,13 @@ e592eca4a8fa55867f8f69cb8662e482,d85e8842ca896768e79a982e687c6f3d,DIAMETRE,"Diam
 6642a1b99ea67c4b4a8ca9262dac3401,d8eb6590e2c5cc0a0b95205d707e43d2,WKT,"Geométrie associée",MultiPolygon,,,
 202073fb00f6049f7ca061907feeecd8,d8f20d2f47dd4e124458684ba917dc65,IDBDEXT,"Identifiant référençant l'objet correspondant au générateur dans le référentiel ou la base de données externe",String,50,1,
 45f70d6a6b1277b4e57236f160d1f347,d8f20d2f47dd4e124458684ba917dc65,SRCGEOGEN,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,30,1,
-53a064decb952b57296d15a4129c84dd,d8f20d2f47dd4e124458684ba917dc65,IDGEN,"Identifiant du générateur",Integer,,,
+53a064decb952b57296d15a4129c84dd,d8f20d2f47dd4e124458684ba917dc65,IDGEN,"Identifiant du générateur",String,40,,
 6df265cfe2e5843c327bcd3c8656c299,d8f20d2f47dd4e124458684ba917dc65,NOMGEN,"Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",String,100,,
 8ab23a945cd9bc31a8cd091e080d28c1,d8f20d2f47dd4e124458684ba917dc65,TYPEGEN,"Nature de l'entité génératrice",String,40,,
 bf6cc359b24ea217a012564d48e5cb77,d8f20d2f47dd4e124458684ba917dc65,REFBDEXT,"Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication",String,50,1,
 cd6f1e74c85a9107aee7db667ccb297d,d8f20d2f47dd4e124458684ba917dc65,DATESRCGEN,"Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",String,25,1,
 d0347f4b396894b92734634b2971c82b,d8f20d2f47dd4e124458684ba917dc65,MODEGENERE,"Description du moyen utilisé pour obtenir la géométrie du générateur",String,50,1,"Digitalisation,Duplication,Liste de coordonnées,Géométrie fictive"
-ec9419301ce9b53b55bd9e0ce94ca2cb,d8f20d2f47dd4e124458684ba917dc65,IDSUP,"Identifiant de la SUP",Integer,,,
+ec9419301ce9b53b55bd9e0ce94ca2cb,d8f20d2f47dd4e124458684ba917dc65,IDSUP,"Identifiant de la SUP",String,40,,
 10bc86ddbd845b55da93c4614f194cfc,d9447969363073652955af4fc7c1f7ea,WKT,"Geométrie associée",MultiPoint,,,
 54fbf5a3e4962ea52b5b9cfb0fc31edd,d9447969363073652955af4fc7c1f7ea,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
 688a2b26c9812fc15fca3bc2c23a27bc,d9447969363073652955af4fc7c1f7ea,LIBELLE,"Intitulé complet de la prescription",String,254,,
@@ -1082,13 +1083,13 @@ ec9c33bc8706480c4af2596468399210,e139447bb20c067c1ad6303034f804ad,WKT,"Geométri
 9910388d65683b0fe1ceace68afa0ffb,e212f88bc7ac2edbbabba5af6a3cdd7a,WKT,"Geométrie associée",MultiPolygon,,,
 f5319a26c6f36e0e6641af3da1468106,e212f88bc7ac2edbbabba5af6a3cdd7a,CROISEMENT,"Indique s'il y a un croisement",Boolean,,1,
 21102e77f9b0b419cdca2367cf114ada,e23b4485847c2c72e8ce8fdf681f5c33,REFERENCE,"Référence de l'acte ayant créé ou modifié la servitude",String,50,,
-45da2f3861b21374963200d493357dc3,e23b4485847c2c72e8ce8fdf681f5c33,DECISION,"Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude",String,25,,"Création,Modification,Substitution,Annulation,Abrogation"
-5130470298b89af31028e1d3821341f9,e23b4485847c2c72e8ce8fdf681f5c33,DATEPUB,"Date de parution au Journal Officiel ou de publicité dans la presse",Date,,1,
+45da2f3861b21374963200d493357dc3,e23b4485847c2c72e8ce8fdf681f5c33,DECISION,"Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude",String,25,,"Création,Modification,Substitution"
+5130470298b89af31028e1d3821341f9,e23b4485847c2c72e8ce8fdf681f5c33,DATEPUB,"Date de parution au Journal Officiel ou de publicité dans la presse",String,8,1,
 51e6c1b0f2db8446ba9301c385bb9e88,e23b4485847c2c72e8ce8fdf681f5c33,FICHIER,"Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte",Filename,254,1,
-60bb3a4308c58c838b761ef979ad2c0c,e23b4485847c2c72e8ce8fdf681f5c33,IDACTE,"Identifiant de l'acte",Integer,,,
+60bb3a4308c58c838b761ef979ad2c0c,e23b4485847c2c72e8ce8fdf681f5c33,IDACTE,"Identifiant de l'acte",String,40,,
 689a6c986b2792a153a871d837f89fd3,e23b4485847c2c72e8ce8fdf681f5c33,APLAN,"Existence d'un ou plusieurs plans annexés à l'acte",String,1,1,"T,F"
-8b2a5deb50909f091edc15af087ea9af,e23b4485847c2c72e8ce8fdf681f5c33,TYPEACTE,"Description de la nature de l'acte",String,50,,"Texte de loi,Décret en Conseil d'Etat,Arrêté ministériel,Arrêté interministériel,Arrêté préfectoral,Arrêté Préfet de Région,Décret Premier Ministre,Décret,Arrêté de SUP,Convention amiable,Arrêté municipal,Autre,Non renseigné"
-9425d3d273bce250e346bbbd26e27359,e23b4485847c2c72e8ce8fdf681f5c33,DATEDECIS,"Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",Date,,,
+8b2a5deb50909f091edc15af087ea9af,e23b4485847c2c72e8ce8fdf681f5c33,TYPEACTE,"Description de la nature de l'acte",String,50,,"Texte de loi,Décret en Conseil d'Etat,Arrêté ministériel,Arrêté interministériel,Arrêté préfectoral,Arrêté Préfet de Région,Décret Premier Ministre,Décret,Arrêté de SUP,Arrêté municipal,Autre,Non renseigné"
+9425d3d273bce250e346bbbd26e27359,e23b4485847c2c72e8ce8fdf681f5c33,DATEDECIS,"Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",String,8,,
 ff75a107ee9724b5ffb88ff1b8108d99,e23b4485847c2c72e8ce8fdf681f5c33,NOMACTE,"Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP",String,100,,
 1ea6e4fe3ebbc76a8470fc1f4727d89e,e3374eabf559f2970230165c014e7367,WKT,"Geométrie associée",MultiPolygon,,,
 69b06d50d2d40def0ef8359ba70b4de8,e3d12fbf0fce2ec75a0d394c9e935ff7,TXT,"Libellé de l'étiquette attachée au point d'habillage",String,80,,
