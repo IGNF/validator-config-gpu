@@ -4,6 +4,14 @@
   <typeName><![CDATA[SCOT]]></typeName>
   <attributes>
     <attribute>
+      <id><![CDATA[16c703a7151c97451c514e3355dadda2]]></id>
+      <name><![CDATA[GPU_ID]]></name>
+      <description><![CDATA[Identifiant du document sur le GPU]]></description>
+      <type><![CDATA[String]]></type>
+      <size>32</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
       <id><![CDATA[66b36acad1d3290bbc3253cdb5a6e972]]></id>
       <name><![CDATA[NAME]]></name>
       <description><![CDATA[Nom du Scot]]></description>
