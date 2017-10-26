@@ -2,8 +2,8 @@
 <document>
   <id><![CDATA[b5797dc899ea354cf5323667cffec332]]></id>
   <name><![CDATA[cnig_POS_2014]]></name>
-  <description><![CDATA[cnig_POS_2014]]></description>
-  <regexp><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}_POS_[0-9]{8}]]></regexp>
+  <description><![CDATA[maillage_POS_datappro(_part)]]></description>
+  <regexp><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}_POS_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
   <files>
     <file>
       <id><![CDATA[4d23d199279cddcb967dcf06d9fe24a6]]></id>
