@@ -2,8 +2,8 @@
 <document>
   <id><![CDATA[7508c61d71b18e09ea0b5dd29014feb3]]></id>
   <name><![CDATA[cnig_PLU_2013]]></name>
-  <description><![CDATA[cnig_PLU_2013]]></description>
-  <regexp><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}_PLU_[0-9]{8}]]></regexp>
+  <description><![CDATA[maillage_PLU_datappro(_part)]]></description>
+  <regexp><![CDATA[.*_PLU_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
   <files>
     <file>
       <id><![CDATA[9376264bdf3ae7b220efcbdb7b936f5c]]></id>

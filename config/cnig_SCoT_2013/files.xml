@@ -2,8 +2,8 @@
 <document>
   <id><![CDATA[92cf99dd815bf0cc3a26e70b9ef68c8c]]></id>
   <name><![CDATA[cnig_SCoT_2013]]></name>
-  <description><![CDATA[cnig_SCoT_2013]]></description>
-  <regexp><![CDATA[([a-zA-Z0-9\\_\\.\\-\\ ]*)]]></regexp>
+  <description><![CDATA[maillage_SCoT_datappro(_part)]]></description>
+  <regexp><![CDATA[[0-9]{9}_SCOT]]></regexp>
   <files>
     <file>
       <id><![CDATA[ae873609567b5afff04997deedaeb632]]></id>
