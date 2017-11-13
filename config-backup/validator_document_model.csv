@@ -1,5 +1,5 @@
 id,parent_id,name,description,regexp
-ef1dfe2ac32c940a567d84e94f497b77,a92b92f73d59917d050de93dbb4e74c7,cnig_PSMV_2014,maillage_PSMV_datappro,(2A|2B|[0-9]{2})[0-9]{3}_PSMV_[0-9]{8}
+ef1dfe2ac32c940a567d84e94f497b77,a92b92f73d59917d050de93dbb4e74c7,cnig_PSMV_2014,maillage_PSMV_datappro,.*_PSMV_[0-9]{8}
 028e0395908a4e4512cdda472e2978a8,f7526b9ec3392244397b5278a68bd7e6,cnig_SUP_Js1_2013,"idgest_Js1_ddd_yyyymmdd ",.*_Js1_.*_[0-9]{8}
 0bc03865234373d67fba05047cef4748,f7526b9ec3392244397b5278a68bd7e6,cnig_SUP_T5_2013,"idgest_T5_ddd_yyyymmdd ",.*_T5_.*_[0-9]{8}
 0c205df3ddf16921cd1e23cc454a77a2,f7526b9ec3392244397b5278a68bd7e6,cnig_SUP_AC2_2013,"idgest_AC2_ddd_yyyymmdd ",.*_AC2_.*_[0-9]{8}
@@ -128,13 +128,13 @@ edc59ebe4704453162a64771cda4596b,ffcddc2f34028e3a966a0f6583963625,cnig_SUP_A2_20
 f35e9392fedf811a36d1592a13fe491a,ffcddc2f34028e3a966a0f6583963625,cnig_SUP_EL1_2016,"idgest_EL1_ddd_yyyymmdd ",.*_EL1_.*_[0-9]{8}
 f37a6cbe833a3d0191070d0de9cff4dd,ffcddc2f34028e3a966a0f6583963625,cnig_SUP_EL12_2016,"idgest_EL12_ddd_yyyymmdd ",.*_EL12_.*_[0-9]{8}
 f8d1bee5b841ec6e1e669ce59885ab31,ffcddc2f34028e3a966a0f6583963625,cnig_SUP_EL2_2016,"idgest_EL2_ddd_yyyymmdd ",.*_EL2_.*_[0-9]{8}
-0848d5fe9ed44479476fb2c2fcbe89b0,,cnig_POS_2013,maillage_POS_datappro(_part),(2A|2B|[0-9]{2})[0-9]{3}_POS_[0-9]{8}(_[0-9a-zA-Z])?
-39c84789b97ac1944ff285abf3c1354c,,cnig_CC_2013,maillage_CC_datappro(_part),(2A|2B|[0-9]{2})[0-9]{3}_CC_[0-9]{8}(_[0-9a-zA-Z])?
-602d607c66d4bb2de7215e007031f894,,cnig_PLUi_2014,maillage_PLUi_datappro(_part),[0-9]{9}_PLUi_[0-9]{8}(_[0-9a-zA-Z])?
-7508c61d71b18e09ea0b5dd29014feb3,,cnig_PLU_2013,maillage_PLU_datappro(_part),(2A|2B|[0-9]{2})[0-9]{3}_PLU_[0-9]{8}(_[0-9a-zA-Z])?
-92cf99dd815bf0cc3a26e70b9ef68c8c,,cnig_SCoT_2013,maillage_SCoT_datappro(_part),"([a-zA-Z0-9\\_\\.\\-\\ ]*)"
-a92b92f73d59917d050de93dbb4e74c7,,cnig_PLU_2014,maillage_PLU_datappro(_part),(2A|2B|[0-9]{2})[0-9]{3}_PLU_[0-9]{8}(_[0-9a-zA-Z])?
-b5797dc899ea354cf5323667cffec332,,cnig_POS_2014,maillage_POS_datappro(_part),(2A|2B|[0-9]{2})[0-9]{3}_POS_[0-9]{8}(_[0-9a-zA-Z])?
-c34c44a06f5aee7bdd7dad9a50e9f01e,,cnig_CC_2014,maillage_CC_datappro(_part),(2A|2B|[0-9]{2})[0-9]{3}_CC_[0-9]{8}(_[0-9a-zA-Z])?
+0848d5fe9ed44479476fb2c2fcbe89b0,,cnig_POS_2013,maillage_POS_datappro(_part),.*_POS_[0-9]{8}(_[0-9a-zA-Z])?
+39c84789b97ac1944ff285abf3c1354c,,cnig_CC_2013,maillage_CC_datappro(_part),.*_CC_[0-9]{8}(_[0-9a-zA-Z])?
+602d607c66d4bb2de7215e007031f894,,cnig_PLUi_2014,maillage_PLUi_datappro(_part),.*_PLUi_[0-9]{8}(_[0-9a-zA-Z])?
+7508c61d71b18e09ea0b5dd29014feb3,,cnig_PLU_2013,maillage_PLU_datappro(_part),.*_PLU_[0-9]{8}(_[0-9a-zA-Z])?
+92cf99dd815bf0cc3a26e70b9ef68c8c,,cnig_SCoT_2013,maillage_SCoT_datappro(_part),[0-9]{9}_SCOT
+a92b92f73d59917d050de93dbb4e74c7,,cnig_PLU_2014,maillage_PLU_datappro(_part),.*_PLU_[0-9]{8}(_[0-9a-zA-Z])?
+b5797dc899ea354cf5323667cffec332,,cnig_POS_2014,maillage_POS_datappro(_part),.*_POS_[0-9]{8}(_[0-9a-zA-Z])?
+c34c44a06f5aee7bdd7dad9a50e9f01e,,cnig_CC_2014,maillage_CC_datappro(_part),.*_CC_[0-9]{8}(_[0-9a-zA-Z])?
 f7526b9ec3392244397b5278a68bd7e6,,cnig_SUP_XXX_2013,cnig_SUP_XXX_2013,
 ffcddc2f34028e3a966a0f6583963625,,cnig_SUP_XXX_2016,cnig_SUP_XXX_2016,

@@ -3,7 +3,7 @@
   <id><![CDATA[602d607c66d4bb2de7215e007031f894]]></id>
   <name><![CDATA[cnig_PLUi_2014]]></name>
   <description><![CDATA[maillage_PLUi_datappro(_part)]]></description>
-  <regexp><![CDATA[[0-9]{9}_PLUi_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
+  <regexp><![CDATA[.*_PLUi_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
   <files>
     <file>
       <id><![CDATA[0ec053758933e3259b615f22c104171a]]></id>

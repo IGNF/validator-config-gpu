@@ -3,7 +3,7 @@
   <id><![CDATA[39c84789b97ac1944ff285abf3c1354c]]></id>
   <name><![CDATA[cnig_CC_2013]]></name>
   <description><![CDATA[maillage_CC_datappro(_part)]]></description>
-  <regexp><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}_CC_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
+  <regexp><![CDATA[.*_CC_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
   <files>
     <file>
       <id><![CDATA[f693b3713587bc63a4641353cfaf4fb5]]></id>
