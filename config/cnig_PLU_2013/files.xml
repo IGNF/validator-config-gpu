@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
-  <regexp><![CDATA[.*_PLU_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
+  <regexp><![CDATA[.*_PLU_[0-9]{8}(_[a-zA-Z])?]]></regexp>
   <id><![CDATA[7508c61d71b18e09ea0b5dd29014feb3]]></id>
   <name><![CDATA[cnig_PLU_2013]]></name>
   <description><![CDATA[maillage_PLU_datappro(_part)]]></description>

@@ -6,28 +6,28 @@
   <description><![CDATA[idgest_EL5_ddd_yyyymmdd ]]></description>
   <files>
     <file>
-      <path><![CDATA[Donnees_geographiques/EL5_ASSIETTE_SUP_P(_[0-9a-zA-Z]*)?]]></path>
+      <path><![CDATA[Donnees_geographiques/EL5_ASSIETTE_SUP_P(_[0-9]*)?]]></path>
       <id><![CDATA[1ea44aef8df436ac9e5e48f5569f98ec]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[EL5_ASSIETTE_SUP_P]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/EL5_ASSIETTE_SUP_S(_[0-9a-zA-Z]*)?]]></path>
+      <path><![CDATA[Donnees_geographiques/EL5_ASSIETTE_SUP_S(_[0-9]*)?]]></path>
       <id><![CDATA[aa9e293ba40d1d20ac08ccd0d6f58770]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[EL5_ASSIETTE_SUP_S]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/EL5_GENERATEUR_SUP_P(_[0-9a-zA-Z]*)?]]></path>
+      <path><![CDATA[Donnees_geographiques/EL5_GENERATEUR_SUP_P(_[0-9]*)?]]></path>
       <id><![CDATA[66ea05dbb4a29a07e49dd78e0bb30faa]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[EL5_GENERATEUR_SUP_P]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/EL5_GENERATEUR_SUP_S(_[0-9a-zA-Z]*)?]]></path>
+      <path><![CDATA[Donnees_geographiques/EL5_GENERATEUR_SUP_S(_[0-9]*)?]]></path>
       <id><![CDATA[c69114710336bf23f49ea01e0c4aca5e]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[EL5_GENERATEUR_SUP_S]]></name>
@@ -55,28 +55,28 @@
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/ACTE_SUP(_[0-9a-zA-Z]*)?]]></path>
+      <path><![CDATA[Donnees_geographiques/ACTE_SUP(_[0-9]*)?]]></path>
       <id><![CDATA[b15effb3cbbfb4dfcfc8e57442308ad6]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[ACTE_SUP]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/GESTIONNAIRE_SUP(_[0-9a-zA-Z]*)?]]></path>
+      <path><![CDATA[Donnees_geographiques/GESTIONNAIRE_SUP(_[0-9]*)?]]></path>
       <id><![CDATA[98b971148593040338aca056e1e4f96b]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[GESTIONNAIRE_SUP]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/SERVITUDE_ACTE_SUP(_[0-9a-zA-Z]*)?]]></path>
+      <path><![CDATA[Donnees_geographiques/SERVITUDE_ACTE_SUP(_[0-9]*)?]]></path>
       <id><![CDATA[2adf5d4585941974dce879ec9dbd5762]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[SERVITUDE_ACTE_SUP]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/SERVITUDE(_[0-9a-zA-Z]*)?]]></path>
+      <path><![CDATA[Donnees_geographiques/SERVITUDE(_[0-9]*)?]]></path>
       <id><![CDATA[c0da9aa02ed6f0881eaa40fb6ffbaeb7]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[SERVITUDE]]></name>

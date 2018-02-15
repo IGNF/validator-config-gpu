@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
-  <regexp><![CDATA[.*_CC_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
+  <regexp><![CDATA[.*_CC_[0-9]{8}(_[a-zA-Z])?]]></regexp>
   <id><![CDATA[c34c44a06f5aee7bdd7dad9a50e9f01e]]></id>
   <name><![CDATA[cnig_CC_2014]]></name>
   <description><![CDATA[maillage_CC_datappro(_part)]]></description>

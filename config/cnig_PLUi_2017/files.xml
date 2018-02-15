@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
-  <regexp><![CDATA[.*_PLUi_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
+  <regexp><![CDATA[.*_PLUi_[0-9]{8}(_[a-zA-Z])?]]></regexp>
   <id><![CDATA[55d03b797785ba6501364707bf8d8ec4]]></id>
   <name><![CDATA[cnig_PLUi_2017]]></name>
   <description><![CDATA[maillage_PLUi_datappro(_part)]]></description>
@@ -168,13 +168,6 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement]]></path>
-      <id><![CDATA[9cf749324be8baceb29ab2da489f418b]]></id>
-      <type><![CDATA[directory]]></type>
-      <name><![CDATA[3_Reglement]]></name>
-      <mandatory><![CDATA[ERROR]]></mandatory>
-    </file>
-    <file>
       <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]*)?(_[0-9]*)?_[0-9]{8}]]></path>
       <id><![CDATA[e919d7516cf53d0207b5da21feacb4ef]]></id>
       <type><![CDATA[pdf]]></type>
@@ -222,6 +215,62 @@
       <id><![CDATA[38a8d72e03d4de5c2b2ff45e68759575]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[ORIENTATIONS_AMENAGEMENT]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/7_Plan_de_secteur]]></path>
+      <id><![CDATA[19e7c3b4728e2cce696362023a83ba96]]></id>
+      <type><![CDATA[directory]]></type>
+      <name><![CDATA[7_Plan_de_secteur]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/7_Plan_de_secteur/Secteur_[0-9]]]></path>
+      <id><![CDATA[687f4405e8197b6b6e5368f28e73bdd7]]></id>
+      <type><![CDATA[directory]]></type>
+      <name><![CDATA[Secteur]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/7_Plan_de_secteur/[0-9]{9}_plan_de_secteurs_[0-9]{8}]]></path>
+      <id><![CDATA[cc898e8a0dd97c7dae499f2138549ffb]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[PLAN_DE_SECTEURS]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement]]></path>
+      <id><![CDATA[9cf749324be8baceb29ab2da489f418b]]></id>
+      <type><![CDATA[directory]]></type>
+      <name><![CDATA[Secteur_Reglement]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique_[0-9]{8}]]></path>
+      <id><![CDATA[fa864a584f870eac642aaca693ba8bfb]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[SECTEUR_REGLEMENT_GRAPHIQUE]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_[0-9]{8}]]></path>
+      <id><![CDATA[76217c108fcfdec6026004feff148da6]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[SECTEUR_REGLEMENT]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement]]></path>
+      <id><![CDATA[23ac928202baa37bef7f2a8f2394ffb1]]></id>
+      <type><![CDATA[directory]]></type>
+      <name><![CDATA[Secteur_Orientation_amenagament]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]*)?_[0-9]{8}]]></path>
+      <id><![CDATA[0d4ea8e24e4d0e208d5af01e8b193d2b]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[SECTEUR_ORIENTATION_AMENAGEMENT]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
   </files>

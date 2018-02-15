@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
-  <regexp><![CDATA[.*_POS_[0-9]{8}(_[0-9a-zA-Z])?]]></regexp>
+  <regexp><![CDATA[.*_POS_[0-9]{8}(_[a-zA-Z])?]]></regexp>
   <id><![CDATA[b4f09a52c081104203f01ec99856d766]]></id>
   <name><![CDATA[cnig_POS_2017]]></name>
   <description><![CDATA[maillage_POS_datappro(_part)]]></description>
