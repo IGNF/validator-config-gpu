@@ -873,7 +873,7 @@ e606e91d9b42c9e9689b840b100ea42a,8a94a4c30fa01685cdef99d73bb3c4f8,TXT,"Libellé 
 f4580f6686fa55b637b4beb360720889,8a94a4c30fa01685cdef99d73bb3c4f8,ANGLE,"Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",Integer,,1,
 1637ae292d3098ac44dcd60b8d282d2c,8ae06046374656ce9997d670af3b3a01,WKT,"Geométrie associée",MultiLineString,,,
 8471e559971966e4374595e3b0986906,8ae06046374656ce9997d670af3b3a01,ADRESSE,"Adresse du monument",String,100,1,
-f1df7088b63f98e737dd1bb9a77de38e,8ae06046374656ce9997d670af3b3a01,TYPE,"type du monument",String,10,1,"Inscrit,Classé"
+f1df7088b63f98e737dd1bb9a77de38e,8ae06046374656ce9997d670af3b3a01,TYPE,"type du monument",String,10,1,"Inscrit,Classé,Mixte"
 8d34a091ed48e3af5bbc15f91924cfb1,8ae74cd341eb04dec12f5101f1fa7e5f,WKT,"Geométrie associée",MultiLineString,,,
 372a2ae5a0be525684435b5bf7202dcf,8bacabfa1aa091b1acb7aa8a02de4885,APLAN,"Existence d'un ou plusieurs plans annexés à l'acte",String,1,1,"T,F"
 38ef89f7dee63d5d0d0254039d4f02bb,8bacabfa1aa091b1acb7aa8a02de4885,DECISION,"Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude",String,25,,"Création,Modification,Substitution,Annulation,Abrogation"
@@ -986,7 +986,7 @@ f62eaf749ba9b7650ed1bf8d8d2305be,9ccf2a50e5bba811a68e421787b7c35f,COULEUR,,Strin
 2b90a9cf20a681a38344ee8a605252ca,9cdd27fd11ad4faf59fede788bba50ac,WKT,"Geométrie associée",MultiPolygon,,,
 8c351a8a56dc40bd4b958bad5171e1a5,9ed1ac2f2e053aab7ada0ff2f584e73a,WKT,"Geométrie associée",MultiLineString,,,
 0999486e9fb278fa98f9e36d2ae29ffd,9f8a01163a1908a96d50b9989722bcab,WKT,"Geométrie associée",MultiPoint,,,
-598754116c126129cacd930c862966e0,9f8a01163a1908a96d50b9989722bcab,TYPE,"type du monument",String,10,1,"Inscrit,Classé"
+598754116c126129cacd930c862966e0,9f8a01163a1908a96d50b9989722bcab,TYPE,"type du monument",String,10,1,"Inscrit,Classé,Mixte"
 f78cdf0fade052e0f2feb5c133bc3728,9f8a01163a1908a96d50b9989722bcab,ADRESSE,"Adresse du monument",String,100,1,
 6a0ab95c90387bede1ffb579311972c2,a181e1ef1e36a0ac69e5ab511150b803,WKT,"Geométrie associée",MultiPolygon,,,
 4ca4d66d4444929a99e2f0626a45c272,a1a639c798bd112a31f192a72c053c32,WKT,"Geométrie associée",MultiPoint,,,
@@ -1005,7 +1005,7 @@ a37af33386dfe5ddeddc430d23ef1d57,a4db8a7654628af7addbfd87b3df881e,COURRIEL,"Adre
 b4128d6468427a9e803c06693780922d,a4f9d209294be8a98bb1da3512019085,WKT,"Geométrie associée",MultiPolygon,,,
 290143d8cfb7ab7e5f936b89bc24b1b1,a8aab9d21293bba32540b36ed25ad7a7,WKT,"Geométrie associée",MultiLineString,,,
 4454e6783deebd51a75a34223d888faf,a8c6102eb8623c0f956616d37ff3509b,ADRESSE,"Adresse du monument",String,100,1,
-563eb7e95793a89db9af0b65ab7f7680,a8c6102eb8623c0f956616d37ff3509b,TYPE,"type du monument",String,10,1,"Inscrit,Classé"
+563eb7e95793a89db9af0b65ab7f7680,a8c6102eb8623c0f956616d37ff3509b,TYPE,"type du monument",String,10,1,"Inscrit,Classé,Mixte"
 b8ec866559eff70129d39b1f8f1fd87e,a8c6102eb8623c0f956616d37ff3509b,WKT,"Geométrie associée",MultiPolygon,,,
 b3ba3def9d98fdfa979abcc435ea37a7,a91caa811fc84f6d7b2b63614836b0dd,WKT,"Geométrie associée",MultiPolygon,,,
 fba6779325335a158fb7da9aa7342ce8,a951b0547cc46bc0a8eda22b3a7dcd6a,WKT,"Geométrie associée",MultiPolygon,,,
