@@ -26,28 +26,28 @@
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/([0-9]*_)?ACTE_SUP]]></path>
+      <path><![CDATA[Donnees_geographiques/(.*_)?ACTE_SUP]]></path>
       <id><![CDATA[f843636fbd4907cc7fdcf46320919a78]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[ACTE_SUP]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/([0-9]*_)?GESTIONNAIRE_SUP]]></path>
+      <path><![CDATA[Donnees_geographiques/(.*_)?GESTIONNAIRE_SUP]]></path>
       <id><![CDATA[47ff80e66586361ded3b89408bd55c8b]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[GESTIONNAIRE_SUP]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/([0-9]*_)?SERVITUDE]]></path>
+      <path><![CDATA[Donnees_geographiques/(.*_)?SERVITUDE]]></path>
       <id><![CDATA[1e852b52de3618b68c5518a50886df2c]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[SERVITUDE]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/([0-9]*_)?SERVITUDE_ACTE_SUP]]></path>
+      <path><![CDATA[Donnees_geographiques/(.*_)?SERVITUDE_ACTE_SUP]]></path>
       <id><![CDATA[afcaba63eca4d22f9db8f0894bca12c8]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[SERVITUDE_ACTE_SUP]]></name>
