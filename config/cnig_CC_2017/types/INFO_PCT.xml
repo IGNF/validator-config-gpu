@@ -25,7 +25,7 @@
       <name><![CDATA[DATVALID]]></name>
       <type><![CDATA[Date]]></type>
       <size>8</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[6e02b70645cfbbaef3afa71293909e04]]></id>
@@ -33,14 +33,12 @@
       <description><![CDATA[Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme]]></description>
       <type><![CDATA[String]]></type>
       <size>2</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
       <listOfValues>
-        <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
         <value><![CDATA[03]]></value>
         <value><![CDATA[04]]></value>
         <value><![CDATA[05]]></value>
-        <value><![CDATA[06]]></value>
         <value><![CDATA[07]]></value>
         <value><![CDATA[08]]></value>
         <value><![CDATA[09]]></value>
@@ -49,27 +47,25 @@
         <value><![CDATA[12]]></value>
         <value><![CDATA[13]]></value>
         <value><![CDATA[14]]></value>
-        <value><![CDATA[15]]></value>
         <value><![CDATA[16]]></value>
         <value><![CDATA[17]]></value>
-        <value><![CDATA[18]]></value>
         <value><![CDATA[19]]></value>
         <value><![CDATA[20]]></value>
         <value><![CDATA[21]]></value>
         <value><![CDATA[22]]></value>
         <value><![CDATA[23]]></value>
-        <value><![CDATA[24]]></value>
         <value><![CDATA[25]]></value>
-        <value><![CDATA[26]]></value>
         <value><![CDATA[27]]></value>
-        <value><![CDATA[28]]></value>
-        <value><![CDATA[29]]></value>
         <value><![CDATA[30]]></value>
         <value><![CDATA[31]]></value>
         <value><![CDATA[32]]></value>
         <value><![CDATA[33]]></value>
         <value><![CDATA[34]]></value>
         <value><![CDATA[35]]></value>
+        <value><![CDATA[36]]></value>
+        <value><![CDATA[37]]></value>
+        <value><![CDATA[38]]></value>
+        <value><![CDATA[39]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
     </attribute>
@@ -86,7 +82,7 @@
       <name><![CDATA[TYPEP]]></name>
       <type><![CDATA[String]]></type>
       <size>2</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[15]]></value>
         <value><![CDATA[99]]></value>
