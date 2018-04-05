@@ -16,7 +16,7 @@
       <name><![CDATA[TAILLE]]></name>
       <description><![CDATA[Taille des caractères]]></description>
       <type><![CDATA[Integer]]></type>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[165bafd9a1f481d678718ef79aacbb16]]></id>

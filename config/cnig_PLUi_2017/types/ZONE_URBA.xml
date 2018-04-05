@@ -10,7 +10,7 @@
       <description><![CDATA[Nom du fichier du règlement de la zone]]></description>
       <type><![CDATA[Filename]]></type>
       <size>80</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[07eda3b09d66e073c7ea33d9779eca93]]></id>
