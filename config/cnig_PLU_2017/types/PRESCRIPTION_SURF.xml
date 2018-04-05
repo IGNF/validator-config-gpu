@@ -63,6 +63,14 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
+      <id><![CDATA[cdc2ec38ed910d0afe7b9767fa760cbb]]></id>
+      <name><![CDATA[IDURBA]]></name>
+      <description><![CDATA[Identifiant du document d'urbanisme]]></description>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
       <id><![CDATA[d139b078aa5e970e07819f3cf0bedde9]]></id>
       <name><![CDATA[TYPEPSC]]></name>
       <description><![CDATA[Type de la prescription dans une liste prédéfinie]]></description>

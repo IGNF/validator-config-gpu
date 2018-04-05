@@ -50,8 +50,9 @@
     <attribute>
       <id><![CDATA[a4a47b28f137ed78ffc77bded07cc927]]></id>
       <name><![CDATA[IDURBA]]></name>
+      <description><![CDATA[Identifiant du document d'urbanisme]]></description>
       <type><![CDATA[String]]></type>
-      <size>8</size>
+      <size>30</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>

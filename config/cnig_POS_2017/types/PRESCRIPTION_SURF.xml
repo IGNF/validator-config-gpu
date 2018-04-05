@@ -5,6 +5,14 @@
   <description><![CDATA[Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit]]></description>
   <attributes>
     <attribute>
+      <id><![CDATA[0be27d9a68e743b2a9e4f0d33a5a7856]]></id>
+      <name><![CDATA[IDURBA]]></name>
+      <description><![CDATA[Identifiant du document d'urbanisme]]></description>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
       <id><![CDATA[11970cfff623199fe498fa3df454589b]]></id>
       <name><![CDATA[LIBELLE]]></name>
       <description><![CDATA[Intitulé complet de la prescription]]></description>

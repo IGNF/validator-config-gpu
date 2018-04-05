@@ -20,6 +20,14 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
+      <id><![CDATA[1e520c13fcf832b5e80ec2879662c47b]]></id>
+      <name><![CDATA[IDURBA]]></name>
+      <description><![CDATA[Identifiant du document d'urbanisme]]></description>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
       <id><![CDATA[46604dbcd5495fb5f1f7a6d6518e78df]]></id>
       <name><![CDATA[LIBELLE]]></name>
       <description><![CDATA[Intitulé complet de la prescription]]></description>

@@ -28,6 +28,14 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
+      <id><![CDATA[23627f0a79a73bcef5b3dcc10c33b089]]></id>
+      <name><![CDATA[IDURBA]]></name>
+      <description><![CDATA[Identifiant du document d'urbanisme]]></description>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
       <id><![CDATA[38bb97424dcd175c615bad335cc1085c]]></id>
       <name><![CDATA[TXT]]></name>
       <description><![CDATA[Nom court de la prescription servant à faire une étiquette]]></description>

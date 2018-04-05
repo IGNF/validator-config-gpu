@@ -21,6 +21,14 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
+      <id><![CDATA[504c7129ff74f20bf923f73f8f1d3faf]]></id>
+      <name><![CDATA[IDURBA]]></name>
+      <description><![CDATA[Identifiant du document d'urbanisme]]></description>
+      <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
       <id><![CDATA[6726f93f5320b356085b1d475243f45c]]></id>
       <name><![CDATA[STYPEPSC]]></name>
       <type><![CDATA[String]]></type>

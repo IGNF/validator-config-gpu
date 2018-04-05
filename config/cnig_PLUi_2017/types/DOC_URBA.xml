@@ -43,7 +43,7 @@
       <description><![CDATA[Nom de la dernière procédure]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[E]]></value>
         <value><![CDATA[MC]]></value>
@@ -66,7 +66,7 @@
     <attribute>
       <id><![CDATA[62aabfa9faa5d052ec0240b1d812e4f4]]></id>
       <name><![CDATA[IDURBA]]></name>
-      <description><![CDATA[Identifiant unique du PLU]]></description>
+      <description><![CDATA[Identifiant du document d'urbanisme]]></description>
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
@@ -83,7 +83,7 @@
       <name><![CDATA[URLPE]]></name>
       <type><![CDATA[Url]]></type>
       <size>254</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[70d2b9dc09d440316d8bae1ef622994b]]></id>
