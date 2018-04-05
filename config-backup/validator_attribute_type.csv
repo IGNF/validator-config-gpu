@@ -29,7 +29,7 @@ c11408b14726608086864fb3ba70516e,0959dfcced5c2c53c87cbc45ef0f6445,INSEE,"Code IN
 dcb79c9213df56a9a4b22f2e59ff0d06,0959dfcced5c2c53c87cbc45ef0f6445,NATTRAC,"Nature du polygon",String,40,1,
 bd3170c882137ed08de415210d8fc482,0a3c44b438d31fb0517ae2d05e10a4ac,WKT,"Geométrie associée",MultiPolygon,,,
 014e8beba9029526afb9623679eea43c,0a990e2d3356351c303b178558b31779,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
-a65d195700500d305084279522d9eab0,0a990e2d3356351c303b178558b31779,IDURBA,"Identifiant unique du document d'urbanisme",String,30,,
+a65d195700500d305084279522d9eab0,0a990e2d3356351c303b178558b31779,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 e45cdabd19f6e4221057a0103d888d84,0b030aa1cc02a1f6c00f2c0d02a1f1c3,WKT,"Geométrie associée",MultiLineString,,,
 75858c4123ff13b093df3167388daa76,0c07e63208ec0567548b97e5add4fae8,WKT,"Geométrie associée",MultiPolygon,,,
 0a41780a46e0035b9e6b7c30e55ed7bd,0c72b242f1d003887fc88ccde2df8200,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
@@ -46,7 +46,7 @@ faba85a54a5c4335242f0fa71cf3879a,0c72b242f1d003887fc88ccde2df8200,WKT,"Geométri
 428e4bbf6ce941270e186f24060faa97,0d389be06774b4a0a89792fb0ca0c952,URLPLAN,"URL ou URI qui pointe sur le fichier du plan scanné",String,254,1,
 5968481ac0f957d117920c5d0b70e7a8,0d389be06774b4a0a89792fb0ca0c952,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,
 7284127ea346f24de28ba04a501d0d8b,0d389be06774b4a0a89792fb0ca0c952,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,
-7ccbcc1c5a2aa43eafe3a7ded452ce66,0d389be06774b4a0a89792fb0ca0c952,IDURBA,"Identifiant unique du PLU",String,30,,
+7ccbcc1c5a2aa43eafe3a7ded452ce66,0d389be06774b4a0a89792fb0ca0c952,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 8517b287a777ba98202896f573f0a982,0d389be06774b4a0a89792fb0ca0c952,TYPEDOC,"Type du document",String,4,,POS
 8c946f9203ba5486ce56c2ba14a1270c,0d389be06774b4a0a89792fb0ca0c952,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,
 953ec29541d6037d29ae0202b5abcf3a,0d389be06774b4a0a89792fb0ca0c952,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,
@@ -67,7 +67,7 @@ e05062206cb15ab124499158e34555e8,0eb4dfe435308652d23a7a839d5d0d4d,WKT,"Geométri
 7ce21352d63b22c3cb0857f61aeedda8,0f29a5c1aea011ba3c6346401fd0dbe3,NOMASS,"Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP",String,100,,
 a13f113c4de5c030496cf873927dc8f8,0f29a5c1aea011ba3c6346401fd0dbe3,TYPEASS,"Nature de l'assiette selon sa vocation principale et la catégorie de SUP",String,100,,
 59302a90cff7c908a5be62b542918b33,0fb2ab598256e842a532478c1554ef87,WKT,"Geométrie associée",MultiPolygon,,,
-3f9653091780614b65ffd8cc59265f05,103cb4163b84f16a51144ec382989467,IDURBA,"Identifiant unique du document d'urbanisme",String,20,1,
+3f9653091780614b65ffd8cc59265f05,103cb4163b84f16a51144ec382989467,IDURBA,"Identifiant du document d'urbanisme",String,20,1,
 eeb4075a24f1710dc596834cab7a2aa7,103cb4163b84f16a51144ec382989467,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
 22c8aac18b6c7083131275450405a0ba,117a1bf6783bf35a74a392f8e3100511,WKT,"Geométrie associée",MultiPolygon,,,
 17a473508001d44f76e72bc3a29491cf,11ec5b1152c8efc96d4b9614f43b392d,INSEE,"Code INSEE de la commune concernée par la prescription",String,5,,
@@ -105,7 +105,7 @@ de27501bbc828d0ab8bc82c466c84114,15d5ec71aa66f4e2b62d1d20639484b0,INSEE,"Code IN
 976854606ee4653697e8e3f8681c04d1,15e6140a7a8a9ce95f24508ea17567af,TYPEZONE,"Type de la zone dans une nomenclature simplifiée",String,3,,"U,AUc,AUs,A,N"
 996cc74af3ea5ef4df9b5a90c6691a4b,15e6140a7a8a9ce95f24508ea17567af,LIBELLE,"Nom court de la zone tel qu’il apparaît sur le plan de zonage",String,12,,
 caf21b9c32cb2234294f7adce149d890,15e6140a7a8a9ce95f24508ea17567af,NOMFIC,"Nom du fichier du règlement de la zone",Filename,80,1,
-e3f9c4c8f955fc812e10a02799818543,15e6140a7a8a9ce95f24508ea17567af,IDURBA,,String,30,,
+e3f9c4c8f955fc812e10a02799818543,15e6140a7a8a9ce95f24508ea17567af,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 14814c7e5eb67389a485516f576b3a97,179a88cd9714231d2e6c4a12d6115290,STYLE,,String,40,1,
 3f20300842aeb69cbd49735f4a513d12,179a88cd9714231d2e6c4a12d6115290,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
 58b5b53edd2b4f6f3e7b0f163d480394,179a88cd9714231d2e6c4a12d6115290,TAILLE,,Integer,,,
@@ -132,7 +132,7 @@ e10e1377c4621778ee71c0a16ca88355,1a164de2d1d57f4466e08d9c67714ebb,WKT,"Geométri
 1ff1f5a7f4c2741d7ed927759c741e63,1a823f5e00316d4bb9b490ed0f14deaa,STYLE,,String,40,1,
 407d66d34369a81119879ed1fe908d0c,1a823f5e00316d4bb9b490ed0f14deaa,COULEUR,,String,11,1,
 45b78ea5e5891675905605fa9230ea6c,1a823f5e00316d4bb9b490ed0f14deaa,TAILLE,,Integer,,1,
-5fbaf2e649aadc425a6be5978b243b16,1a823f5e00316d4bb9b490ed0f14deaa,IDURBA,,String,30,,
+5fbaf2e649aadc425a6be5978b243b16,1a823f5e00316d4bb9b490ed0f14deaa,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 65f18ae1f71c58639f9989839be24681,1a823f5e00316d4bb9b490ed0f14deaa,NATECR,"Nature de l'écriture",String,40,,
 7263616126fae17c8cd37d7043319004,1a823f5e00316d4bb9b490ed0f14deaa,ANGLE,,Integer,,1,
 a193ec24be9b60a48f54d0f285465827,1a823f5e00316d4bb9b490ed0f14deaa,POLICE,,String,40,1,
@@ -168,7 +168,7 @@ f902b2d8a1e531e768be0331248c9c60,1ec4998bd67b304bfca0b22c8e8b897a,WKT,"Geométri
 9ea450799b0d702ca21a7d6af736f7ce,1f28477f490c9bb34eb229156816d536,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,
 bbb02e6917c6d917f582783a0d6be142,1f28477f490c9bb34eb229156816d536,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,2,1,"01,02"
 c2c382021c1ba8c1eb63d3d17be085be,1f28477f490c9bb34eb229156816d536,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,
-c4be6008736c0bad0cec9ee61c7d8bf6,1f28477f490c9bb34eb229156816d536,IDURBA,"Identifiant unique du PLU",String,20,,
+c4be6008736c0bad0cec9ee61c7d8bf6,1f28477f490c9bb34eb229156816d536,IDURBA,"Identifiant du document d'urbanisme",String,20,,
 dd85acf493786c8a9926c21694d7a63c,1f28477f490c9bb34eb229156816d536,DATEREF,"Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",Date,,1,
 00a3c829fa5eec1198e15c080e806483,2031aae462ab2b050153f834ac07c3e3,ANGLE1,,Integer,,1,
 0849c706780086a17c24646eb266aa99,2031aae462ab2b050153f834ac07c3e3,HREF,,String,3,1,"SOL,NGF"
@@ -188,7 +188,7 @@ fb131ff97065f82f6ddd48a96b59a7d8,2031aae462ab2b050153f834ac07c3e3,XDEBUT,,Intege
 36712f364f03614076085c3a8ab024ef,205eca1b2044a921dbac103d5fcf0d08,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,
 3f1c13456a973dbee0d4c9ca0e8cce3b,205eca1b2044a921dbac103d5fcf0d08,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,2,1,"01,02"
 45e9546221d3c62031155c07ac079194,205eca1b2044a921dbac103d5fcf0d08,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,
-64ab3e72aff3e5ddb155e943c9093cf2,205eca1b2044a921dbac103d5fcf0d08,IDURBA,"Identifiant unique du PLU",String,20,,
+64ab3e72aff3e5ddb155e943c9093cf2,205eca1b2044a921dbac103d5fcf0d08,IDURBA,"Identifiant du document d'urbanisme",String,20,,
 88b8ffe6394fd3938a99454a21540b90,205eca1b2044a921dbac103d5fcf0d08,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,
 8e44a0bf8a2c4320e2274d9d565d154f,205eca1b2044a921dbac103d5fcf0d08,URLPLAN,"URL ou URI qui pointe sur le fichier du plan scanné",String,254,1,
 8f92993c402b6847086f59aa93d5afff,205eca1b2044a921dbac103d5fcf0d08,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,
@@ -249,7 +249,7 @@ cc1e59521113bd46dbf1755bf85109b3,25799ab4e7d3d17532d47bb17993a2ef,MODEGENERE,"De
 f9757587cff12e81706fc7485eaf0c30,25799ab4e7d3d17532d47bb17993a2ef,REFBDEXT,"Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication",String,50,1,
 5a5c11d419148e7668d4df29ced59f76,25b3b754830169dfd8fd819724902c66,WKT,"Geométrie associée",MultiPolygon,,,
 66ee1459ffdb1ee41205a74122bc71b0,26393a7a3de011998233b7fcdbdc529c,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
-8784f2c0d5470ef93a410fc78a761bac,26393a7a3de011998233b7fcdbdc529c,IDURBA,"Identifiant unique du document d'urbanisme",String,20,1,
+8784f2c0d5470ef93a410fc78a761bac,26393a7a3de011998233b7fcdbdc529c,IDURBA,"Identifiant du document d'urbanisme",String,20,1,
 9dc3d4161072a0e15af4ad82a6a346c5,26393a7a3de011998233b7fcdbdc529c,DATECOG,"Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune",Date,,1,
 91b657f8855d1e97f0c05a90e6934093,26512787c333506b888007e64634d308,WKT,"Geométrie associée",MultiPolygon,,,
 a66adb9fcd550ae19a58d9081a4a256d,27d8e84ef94c7ba997879477d87358d1,WKT,"Geométrie associée",MultiPolygon,,,
@@ -291,6 +291,7 @@ e70832c0964c162fa84ce635e23c6ab9,31dfb90d186f0c49a2af3ac43474a8d0,WKT,"Geométri
 9a3d598c6e63c50cb4f5ee75b7ee965b,325e3f582056900dc58aae554f423834,WKT,"Geométrie associée",MultiPolygon,,,
 c40c49a1fb652acd8e86c31cbbcaa95f,325e3f582056900dc58aae554f423834,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
 c82efc2582c594b1f4899de85719a1fd,325e3f582056900dc58aae554f423834,LIBELLE,"Intitulé complet de la prescription",String,254,,
+cdc2ec38ed910d0afe7b9767fa760cbb,325e3f582056900dc58aae554f423834,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 d139b078aa5e970e07819f3cf0bedde9,325e3f582056900dc58aae554f423834,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,02,03,04,05,07,08,13,14,15,16,17,18,19,20,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,99"
 ea3a429863f11dae8727233e06d115c5,325e3f582056900dc58aae554f423834,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
 9ea62428c186bfc56c79f24bb216f447,329c8d43c5b7862abd937d22132f40e0,WKT,"Geométrie associée",MultiPolygon,,,
@@ -340,7 +341,7 @@ d03ac449768e0c84bcd089875fe82f20,35a3679e7af27e7317340e0c9b9a6dd1,TXT,"Nom court
 d9d2c66b0f1284d84d9b8866cc2dd47b,35e3e0b3c970d017b25914583294e754,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
 ec6abb1c3700ab75a790ee44937e4c64,35e3e0b3c970d017b25914583294e754,LIBELLE,"Intitulé complet de la prescription",String,254,,
 07d40d1e28980344862399d9c5ec805a,361792b07a37985af49c1be6b46a78af,NATTRAC,"Nature de la ligne",String,40,,
-259def4e4c85e33d3920fc152d15eca9,361792b07a37985af49c1be6b46a78af,IDURBA,,String,30,,
+259def4e4c85e33d3920fc152d15eca9,361792b07a37985af49c1be6b46a78af,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 6a266ca4082d64be0c0412faad388884,361792b07a37985af49c1be6b46a78af,WKT,"Geométrie associée",MultiLineString,-1,,
 8219af8a4bc90ed39794fbdd9b18f7fd,361792b07a37985af49c1be6b46a78af,COULEUR,,String,11,1,
 30976d05c28732dc3b9cd0d304c881ea,36597297a90dbc885178714f8e64f4ba,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
@@ -348,7 +349,7 @@ b2164c9199109cd3406fa992d7ee1f85,36597297a90dbc885178714f8e64f4ba,WKT,"Geométri
 fd6d2e9ad1551b8ee0fc669ccefa5bbb,36597297a90dbc885178714f8e64f4ba,NATTRAC,"Nature du point",String,40,1,
 6cb54e92060c45096bc0222ade004178,365bdc666c1833a258d4a1be27feec6b,WKT,"Geométrie associée",MultiPolygon,,,
 b7d9b913dcf48ede56a3ce558871637a,36f656c8f6cc66c5ad61e6a2d858d6ef,WKT,"Geométrie associée",MultiPolygon,,,
-40aa1f9bf1d55cbbf63780a7db6a819c,377c0c2802a542790275629eae444052,IDURBA,"Identifiant unique du document d'urbanisme",String,20,1,
+40aa1f9bf1d55cbbf63780a7db6a819c,377c0c2802a542790275629eae444052,IDURBA,"Identifiant du document d'urbanisme",String,20,1,
 cb7ba3f93bd94eefc031b3759cf5c85c,377c0c2802a542790275629eae444052,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
 213fc2af51a2c212cf5e52424b9a0967,38788840b14ed95df547f55492195354,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,05,07,16,18,25,99"
 2d590000fcd71e42c39e7207796e49c6,38788840b14ed95df547f55492195354,TXT,"Nom court de la prescription servant à faire une étiquette",String,10,1,
@@ -363,7 +364,7 @@ d4c67d3bf0d5c8ce0c0def8dd3e37f8f,38788840b14ed95df547f55492195354,DATAPPRO,"Date
 89f0aaf24a703a318a3094a72c68bf3b,38ca707f44376b8afb069dc866110bbe,IDACTE,"Identifiant de l'acte instituant la SUP",Integer,,,
 b8172389de2db4d746b273d07e07eab1,38ca707f44376b8afb069dc866110bbe,IDSUP,"Identifiant de la SUP",Integer,,,
 161b2e33c7cf71bc143a5be989816c3b,3913ad9d96b4ee577f953cf4537da61d,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
-797a7972c9e8ab407a2a9a2fa1df357a,3913ad9d96b4ee577f953cf4537da61d,IDURBA,"Identifiant unique du document d'urbanisme",String,20,1,
+797a7972c9e8ab407a2a9a2fa1df357a,3913ad9d96b4ee577f953cf4537da61d,IDURBA,"Identifiant du document d'urbanisme",String,20,1,
 eaa6202582a76acacddaf4eef357cf00,391ff58d1ecd0a644a8f6f1e1688dd79,WKT,"Geométrie associée",MultiPolygon,,,
 22749f6c545e89c34df2da58515349eb,39481f8bbd67f298f4ef20bb0b5d4552,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
 3b54b7be5b261c4d5f3efcf57199ae1d,39481f8bbd67f298f4ef20bb0b5d4552,NATTRAC,"Nature de la ligne",String,40,1,
@@ -388,7 +389,7 @@ f5eafd0978c3d17cde6d3c464be2ff87,404a9d3430d8fe2fb9b6e60830da51ed,WKT,"Geométri
 561bc30ef5190dd2b655457e68faf33c,405d7392d71deaad52067781924dfa5e,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
 6621b886b12b10f44b65ce3186d554b1,405d7392d71deaad52067781924dfa5e,WKT,"Geométrie associée",MultiPolygon,,,
 962cc339db0f437cd54d6f8bdcaaf6f9,405d7392d71deaad52067781924dfa5e,STYPEINF,,String,2,,"00,01,02"
-c076290214ea3d90242a00744576c260,405d7392d71deaad52067781924dfa5e,IDURBA,,String,30,1,
+c076290214ea3d90242a00744576c260,405d7392d71deaad52067781924dfa5e,IDURBA,"Identifiant du document d'urbanisme",String,30,1,
 e55a627ff4661710ed54ee2f20bddb53,405d7392d71deaad52067781924dfa5e,TYPEINF,"Type de périmètre dans une liste prédéfinie",String,2,,"02,03,04,05,07,08,09,10,11,12,13,14,16,17,19,20,21,22,23,25,27,30,31,32,33,34,35,36,37,38,39,99"
 87884eee56fbc13ec65c791ad15234b9,40e47cd90e5c079eb1cf07acc0c063fc,WKT,"Geométrie associée",MultiPolygon,,,
 b95f442e41b8805a83e72142bc39a9f2,42db1164da96ab2bff256814f5a9cbdc,WKT,"Geométrie associée",MultiPolygon,,,
@@ -420,6 +421,7 @@ a6bc2fcc17b70dc367b56568f44767a2,45463f8e20588fa10cb2bfe0a74b6fef,WKT,"Geométri
 3f3f79889629620babc4c0680f631778,45b082f48c43046ac199799748b51ee2,WKT,"Geométrie associée",MultiPoint,,,
 0a567cf4b9e64f8b0489c9782f606b50,46e1c9ce9ab1226dac71e33447bc8b8d,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
 110323d9e9811f34c409b17a68315581,46e1c9ce9ab1226dac71e33447bc8b8d,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,
+1e520c13fcf832b5e80ec2879662c47b,46e1c9ce9ab1226dac71e33447bc8b8d,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 46604dbcd5495fb5f1f7a6d6518e78df,46e1c9ce9ab1226dac71e33447bc8b8d,LIBELLE,"Intitulé complet de la prescription",String,254,,
 629dc3115cc2c33588cef684f3ca5a55,46e1c9ce9ab1226dac71e33447bc8b8d,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
 799f6e3de3027585e682aeabbef2e5ce,46e1c9ce9ab1226dac71e33447bc8b8d,WKT,"Geométrie associée",MultiPoint,,,
@@ -444,7 +446,7 @@ ea374e2cc093e2da5dbf5923e1217a3a,48061957cf85c558a3391d6ef42a43a1,WKT,"Geométri
 329a72cffd3511a4c03173d24f8e0dde,48ac04777ad427d939e25ed2350f8787,TYPEDOC,"Type du document",String,4,,PLUi
 36c965396a4b904d2b044d6cef0a7d0d,48ac04777ad427d939e25ed2350f8787,NOMPROC,"Nom de la dernière procédure",String,10,,"E,MC,MJ,M,MS,R,RS,A"
 6208c3021324197c2dcbfa7c1b0544ce,48ac04777ad427d939e25ed2350f8787,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,
-62aabfa9faa5d052ec0240b1d812e4f4,48ac04777ad427d939e25ed2350f8787,IDURBA,"Identifiant unique du PLU",String,30,,
+62aabfa9faa5d052ec0240b1d812e4f4,48ac04777ad427d939e25ed2350f8787,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 6518d7cc46cf4007341e061d835f7fc3,48ac04777ad427d939e25ed2350f8787,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,
 6b255e4c6279b79f54f149dcaeaf936c,48ac04777ad427d939e25ed2350f8787,URLPE,,Url,254,,
 70d2b9dc09d440316d8bae1ef622994b,48ac04777ad427d939e25ed2350f8787,DATEREF,"Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",Date,,1,
@@ -459,7 +461,7 @@ c48c1a3dda48368cb80724d8b308e919,49bac3f0d69c064e36ef063c50ed08d3,WKT,"Geométri
 254c158456c51db6c201fa627d31597c,4a6120844bb8fedd8c6e27a14aa6062b,ETAT,"Etat juridique du document d'urbanisme",String,2,,"01,02,03,04,05,06,07"
 261bfeecb55fc9c2af2a9480c3ef6f23,4a6120844bb8fedd8c6e27a14aa6062b,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,
 287c14c7bf5755111d476917a2e266b3,4a6120844bb8fedd8c6e27a14aa6062b,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,2,1,"01,02"
-464aaf150a699075c3227a8c1ce5eca8,4a6120844bb8fedd8c6e27a14aa6062b,IDURBA,"Identifiant unique du PLUi",String,20,,
+464aaf150a699075c3227a8c1ce5eca8,4a6120844bb8fedd8c6e27a14aa6062b,IDURBA,"Identifiant du document d'urbanisme",String,20,,
 4a97663617f32ae7c68a332e7d6b59b7,4a6120844bb8fedd8c6e27a14aa6062b,SITEWEB,"Page web du service de consultation du PLUi offert par la collectivité locale",String,254,1,
 4e3b18949fca15b26e3a222d6e687114,4a6120844bb8fedd8c6e27a14aa6062b,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,
 563d49425b353b5751db8fa812cf89ea,4a6120844bb8fedd8c6e27a14aa6062b,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,
@@ -487,7 +489,7 @@ ea4fcd0d6eaef1f521c82bab6fcad5e8,4ba1590d35fa445d7d10291597a92c5e,ANGLE1,,Intege
 a39362d3a019098ad46e19a012cff10f,4bdaa26244f634d7045a76a7c7f785c5,WKT,"Geométrie associée",MultiPolygon,,,
 1589dabeb2a143940af1c00cd011bbd8,4bf51c1fb0162b2c08f037923491150d,WKT,"Geométrie associée",MultiPolygon,,,
 183161f4cbe0d2c7a8db020bcdac05bc,4bf51c1fb0162b2c08f037923491150d,DATVALID,,String,8,,
-4f8689d0d5c4d976537db0615acd00e6,4bf51c1fb0162b2c08f037923491150d,IDURBA,,String,30,,
+4f8689d0d5c4d976537db0615acd00e6,4bf51c1fb0162b2c08f037923491150d,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 57cf5cc50d11cc8d4eb9713c72ace394,4bf51c1fb0162b2c08f037923491150d,TXT,"Nom court du périmètre servant à faire une étiquette",String,10,1,
 6c6e6c716e80ca044796f18475c01655,4bf51c1fb0162b2c08f037923491150d,TYPEP,"Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",String,2,1,"15,99"
 89e6c4795e74af443b86db1c623a73ee,4bf51c1fb0162b2c08f037923491150d,STYPEINF,,String,2,,"00,01,02"
@@ -508,7 +510,7 @@ a78d63fc8df7672df95cfbd664d6c846,4e4a2f5ff81087ccd7393e53b5fa1302,TXT,"Nom court
 af4b0962158ddb064546a4a692c8ef1e,4e4a2f5ff81087ccd7393e53b5fa1302,INSEE,"Code INSEE de la commune concernée par la prescription",String,5,,
 e957d091bcfd4a1c568e8f3a36584c02,4e4a2f5ff81087ccd7393e53b5fa1302,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
 f3560633ad6c3b23256648a1cd8d69d2,4e4a2f5ff81087ccd7393e53b5fa1302,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
-018dd310fbe964b3ed3fb74ce1ffa743,4e6ad9f5d659541869f90d22b7519225,IDURBA,,String,30,,
+018dd310fbe964b3ed3fb74ce1ffa743,4e6ad9f5d659541869f90d22b7519225,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 153208d7589e4ec5221e72b83efbd5ec,4e6ad9f5d659541869f90d22b7519225,TYPEP,"Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",String,2,1,"15,99"
 155d8d7bbba927b21af4d5b3087f8d74,4e6ad9f5d659541869f90d22b7519225,LIBELLE,"Nom complet de l’information reportée",String,254,,
 278fda22d598ef6b140646ca3389023a,4e6ad9f5d659541869f90d22b7519225,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
@@ -567,7 +569,7 @@ c28a89da7c050b1cc00b37387da9d73a,562866164b8e36b0f2cbf1362806bf15,POLICE,,String
 e541a2ab610625f2d4b867ed24d1e491,562866164b8e36b0f2cbf1362806bf15,COULEUR,,String,11,1,
 e62634d454e8e258d8fc95ef302d79b1,562866164b8e36b0f2cbf1362806bf15,WKT,"Geométrie associée",MultiPoint,,,
 eb781825bebbac43a56a9ddff3666cf6,562866164b8e36b0f2cbf1362806bf15,STYLE,"Style d'écriture",String,40,1,
-fd6176c5b8a369c45323f8959328f37e,562866164b8e36b0f2cbf1362806bf15,IDURBA,,String,30,,
+fd6176c5b8a369c45323f8959328f37e,562866164b8e36b0f2cbf1362806bf15,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 fe8e76fc2f5d1796acdf4ed1adcc3dd6,562866164b8e36b0f2cbf1362806bf15,NATECR,"Nature de l'écriture",String,40,,
 8c7b4cbd19187a272e0ddbc4a08c8e67,567ce41e46d7773968b2d3106ec14460,WKT,"Geométrie associée",MultiPolygon,,,
 0ac4eb4dee56b1fdb4d43f1be19a02ae,56906a1236e96bd71248810a29f539f6,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
@@ -602,7 +604,7 @@ b81ea74db5226a5e635607ae97f13376,5a7caf8333d68f1c6ba61d0ed551bd68,WKT,"Geométri
 6ffb2cefb4b6a7efd9640f2e9f3c121d,5c70e483e6e101540d575cb44720dfb4,WKT,"Geométrie associée",MultiPolygon,,,
 22f42eb6d3d1c6a69a2d73f4e79ed6b2,5e65470af5004dea9ae4eec9dc431097,WKT,"Geométrie associée",MultiPoint,,,
 07998d77151c6fef4a418ebe9ad98aea,5f5326c67b13509fa067db4317cc8d2a,NOMFIC,"Nom du fichier du règlement de la zone",Filename,80,1,
-07eda3b09d66e073c7ea33d9779eca93,5f5326c67b13509fa067db4317cc8d2a,IDURBA,,String,30,,
+07eda3b09d66e073c7ea33d9779eca93,5f5326c67b13509fa067db4317cc8d2a,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 3ba7c4f93695c416b6528c4f8755c9ba,5f5326c67b13509fa067db4317cc8d2a,WKT,"Geométrie associée",MultiPolygon,,,
 4b0dacf64a692cb4b19f44c0c86de8a1,5f5326c67b13509fa067db4317cc8d2a,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",String,254,1,
 590e7a644826ff2b1ddbb9762b185d4c,5f5326c67b13509fa067db4317cc8d2a,LIBELONG,"Nom complet littéral de la zone tel qu’il apparaît dans le chapitre du règlement écrit",String,254,1,
@@ -611,10 +613,10 @@ b81ea74db5226a5e635607ae97f13376,5a7caf8333d68f1c6ba61d0ed551bd68,WKT,"Geométri
 e722d97d62aca969c387e7a0687df1c1,5f5326c67b13509fa067db4317cc8d2a,TYPEZONE,"Type de la zone dans une nomenclature simplifiée",String,3,,"U,AUc,AUs,A,N"
 20ec96600cbf750d178399ee8a09ef88,601b9fdc1932dd517b133916f83edecb,COULEUR,,String,11,1,
 7517ffa36b4ae7aeaed078e71f2cb301,601b9fdc1932dd517b133916f83edecb,NATTRAC,"Nature de la ligne",String,40,,
-8e886f383cd9e55c5417c3090a7605bc,601b9fdc1932dd517b133916f83edecb,IDURBA,,String,30,,
+8e886f383cd9e55c5417c3090a7605bc,601b9fdc1932dd517b133916f83edecb,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 9661581a7a7b8c87f875ab0893afdf85,601b9fdc1932dd517b133916f83edecb,WKT,"Geométrie associée",MultiLineString,-1,,
 55735ce13da3a4ba1b17c74c4a4ab139,610e6fad2bd78446a53ea8f72f4fc3a7,WKT,"Geométrie associée",MultiPolygon,,,
-055d0a3a98fbdbd8118b665765e8da99,61295112610f9a3f0d42073b96e5a672,IDURBA,,String,30,1,
+055d0a3a98fbdbd8118b665765e8da99,61295112610f9a3f0d42073b96e5a672,IDURBA,"Identifiant du document d'urbanisme",String,30,1,
 144e8d3ba147228189e0a278ffd1e7c0,61295112610f9a3f0d42073b96e5a672,STYPEINF,,String,2,,"00,01,02"
 6e16339c250eca21129eb9a7cfcc2564,61295112610f9a3f0d42073b96e5a672,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
 7596a36cd45d957e55c926bf1340252a,61295112610f9a3f0d42073b96e5a672,DATVALID,,String,8,,
@@ -648,7 +650,7 @@ d0c53bbda92cb009906250cc8d4f1d27,66bdffb3453cbca6243f87415edd774d,WKT,"Geométri
 4d5d689ea99433801dc8cbd173e935bc,66e547d99a8c85159c26648c14cab6ea,TYPEINF,"Type de périmètre dans une liste prédéfinie",String,2,,"02,03,04,05,07,08,09,10,11,12,13,14,16,17,19,20,21,22,23,25,27,30,31,32,33,34,35,36,37,38,39,99"
 57e28a8a2e7dfb9bd5592473694868eb,66e547d99a8c85159c26648c14cab6ea,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de l'information",String,254,1,
 607eafdf3b4dbc10bdc574644ada8c7a,66e547d99a8c85159c26648c14cab6ea,WKT,"Geométrie associée",MultiPolygon,,,
-7598f0570484ec36263475512d17c666,66e547d99a8c85159c26648c14cab6ea,IDURBA,,String,30,1,
+7598f0570484ec36263475512d17c666,66e547d99a8c85159c26648c14cab6ea,IDURBA,"Identifiant du document d'urbanisme",String,30,1,
 cc1d99ad751e53d6dd773956c73f6307,66e547d99a8c85159c26648c14cab6ea,LIBELLE,"Nom complet du périmètre",String,254,,
 14f78a78681c9d08b039c40ab9c04c5d,6758f278a9b8fac39d565073bd2ae2f0,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,
 167690418a635658d8f6d26b3de66de5,6758f278a9b8fac39d565073bd2ae2f0,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,
@@ -658,7 +660,7 @@ cc1d99ad751e53d6dd773956c73f6307,66e547d99a8c85159c26648c14cab6ea,LIBELLE,"Nom c
 3800b39bb8a6dd19382aebb02c9bd7a7,6758f278a9b8fac39d565073bd2ae2f0,URLPLAN,"URL ou URI qui pointe sur le fichier du plan scanné",String,254,1,
 6984f86af15cae3847e9cf12b99c4153,6758f278a9b8fac39d565073bd2ae2f0,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,15,1,"01,02,PCI,BD Parcellaire"
 962562dff2a102da68329e2760cdbe51,6758f278a9b8fac39d565073bd2ae2f0,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,
-c16b6d90febc436d59db9ca542279796,6758f278a9b8fac39d565073bd2ae2f0,IDURBA,"Identifiant unique du PLU",String,20,,
+c16b6d90febc436d59db9ca542279796,6758f278a9b8fac39d565073bd2ae2f0,IDURBA,"Identifiant du document d'urbanisme",String,20,,
 e0d2959b3f7ca50ee805d5b3738e9929,6758f278a9b8fac39d565073bd2ae2f0,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,
 e1d7bc55d3ba9c2d078b858c715802ff,6758f278a9b8fac39d565073bd2ae2f0,ETAT,"Etat juridique du document d'urbanisme",String,2,,"01,02,03,04,05"
 e3f04ef323440b94aaf8bf190692a504,6758f278a9b8fac39d565073bd2ae2f0,DATEREF,"Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",Date,,1,
@@ -697,7 +699,7 @@ e6f86ffd869f4d812bc408fe4ae8b0f8,6db9d4021363fb98467e3ab42c50a3f4,INSEE,"Code IN
 92130de8f128de5bc3022553f54da31b,6ed39a49e6859b0f4054f53c490fca8e,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,
 9bb913a3d905c21fee94b2a1e9bc5667,6ed39a49e6859b0f4054f53c490fca8e,NOMPROC,,String,10,1,"E,MJ,MS,R,A"
 b2e824698b9bda6b770025ce6203974d,6ed39a49e6859b0f4054f53c490fca8e,TYPEDOC,"Type du document",String,4,,CC
-bb185f53fc5132d5755648be588d5bb2,6ed39a49e6859b0f4054f53c490fca8e,IDURBA,"Identifiant unique du PLU",String,30,,
+bb185f53fc5132d5755648be588d5bb2,6ed39a49e6859b0f4054f53c490fca8e,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 bf7769036bf7a279de47eaf7e91cbfea,6ed39a49e6859b0f4054f53c490fca8e,SIREN,"Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",String,9,1,
 ee7524de91886a3f18bce4f91a09599a,6ed39a49e6859b0f4054f53c490fca8e,URLPLAN,"URL ou URI qui pointe sur le fichier du plan scanné",String,254,1,
 f71a99c56c4fc4a46b185b66e93b2c4f,6ed39a49e6859b0f4054f53c490fca8e,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,
@@ -715,7 +717,7 @@ b4c471e68e67be2b4fb649b0b9eb9d29,6eeb0fa1e4de3bdee2f761283adb69ae,WKT,"Geométri
 c4268e2d3f473886eadc413f2da7e07d,6fcb857100febcfd31d8d43ebacd1c77,NATECR,"Nature de l'écriture",String,40,,
 754dcf333f2547bffc99f43b2d891745,702ef80ee9049ee5f0e2d88af0809bc5,WKT,"Geométrie associée",MultiPolygon,,,
 0d17013f1e26ed4fa5791b65922ef248,70d2dbb291b6a7f0a06d9e2b503c8f08,NATTRAC,"Nature du point",String,40,,
-850faca39386e32d4e4ce7da2ba749e9,70d2dbb291b6a7f0a06d9e2b503c8f08,IDURBA,,String,30,,
+850faca39386e32d4e4ce7da2ba749e9,70d2dbb291b6a7f0a06d9e2b503c8f08,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 cbc989f1b64372cde3a6df214b4ba553,70d2dbb291b6a7f0a06d9e2b503c8f08,COULEUR,,String,11,1,
 ea0a4b44fbae0bd477f84aaa7baa63fc,70d2dbb291b6a7f0a06d9e2b503c8f08,WKT,"Geométrie associée",MultiPoint,,,
 49ba0dd879b15960c1363f9dc461f047,7146ff554bbe3d14e958e2242abc19af,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
@@ -742,7 +744,7 @@ afde438f1caaa3ea7c08bacbac6f71b3,74456f0a0fc65ca8ec194c3c620ecd4c,TYPE,"type d'e
 123d4c3b8d48e4c74dcd950894de3fe4,75020ef45de389a1160904e821d7417b,DIAMETRE,"Diamètre de la canalisation en mm",Integer,,1,
 e489abfc0294bbd7e4fb65add38c13c4,75020ef45de389a1160904e821d7417b,WKT,"Geométrie associée",MultiLineString,,,
 68ec087974faf17449d476e950372866,7590b8eb918f77bfee601afc4556bde7,WKT,"Geométrie associée",MultiPolygon,,,
-01e26e877fc977d3c5d057659705dc75,75c9ed853ca774eaecf2eb81acb5f1b9,IDURBA,,String,30,,
+01e26e877fc977d3c5d057659705dc75,75c9ed853ca774eaecf2eb81acb5f1b9,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 422adcaa805df9ead0799e295348589d,75c9ed853ca774eaecf2eb81acb5f1b9,WKT,"Geométrie associée",MultiPoint,,,
 513171b55409a2319e5321189dd896bf,75c9ed853ca774eaecf2eb81acb5f1b9,COULEUR,,String,11,1,
 a87478b57b4f3febdddc5af60e98bb62,75c9ed853ca774eaecf2eb81acb5f1b9,NATTRAC,"Nature du point",String,40,,
@@ -751,7 +753,7 @@ a87478b57b4f3febdddc5af60e98bb62,75c9ed853ca774eaecf2eb81acb5f1b9,NATTRAC,"Natur
 271f3b63f53297676debd280b8a99eaf,7833f9f88c20ca7b5a63cc0ad198a9a2,WKT,"Geométrie associée",MultiPolygon,,,
 4f36cca67d413e70e05d6abee1c424c4,7833f9f88c20ca7b5a63cc0ad198a9a2,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",String,254,1,
 94b68d97ca7ddac54a526ab87196169f,7833f9f88c20ca7b5a63cc0ad198a9a2,LIBELLE,"Nom court de la zone tel qu’il apparaît sur le plan de zonage",String,12,,
-aee1826885841cd0bf858220b90b7ec7,7833f9f88c20ca7b5a63cc0ad198a9a2,IDURBA,,String,30,,
+aee1826885841cd0bf858220b90b7ec7,7833f9f88c20ca7b5a63cc0ad198a9a2,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 b61466e2fd1e9439d0b5a115b24fa3d9,7833f9f88c20ca7b5a63cc0ad198a9a2,NOMFIC,"Nom du fichier du règlement de la zone",Filename,80,1,
 bd4b8ac0bf5ca1be763b5db1cc735921,7833f9f88c20ca7b5a63cc0ad198a9a2,DATVALID,"Date de la dernière validation de la zone ou de son règlement",Date,,1,
 c1c30079715e3b94a1886ffa5df6773d,7833f9f88c20ca7b5a63cc0ad198a9a2,TYPEZONE,"Type de la zone dans une nomenclature simplifiée",String,3,,"U,AUc,AUs,A,N"
@@ -760,7 +762,7 @@ d54e78c61caa0159f0a83e115e8a86ae,79587a4f84fbd0b396a06c20b90e6a8c,WKT,"Geométri
 26dd6a4e08e97137d042dddf812ad4a8,79dcadb2f7c5cc9e624bb39210ca5bde,WKT,"Geométrie associée",MultiPolygon,,,
 854be61cf2d65ff02ef8185f1896c618,79dcadb2f7c5cc9e624bb39210ca5bde,COULEUR,,String,11,1,
 955a9d322779a592b72369d75a29068d,79dcadb2f7c5cc9e624bb39210ca5bde,NATTRAC,"Nature du polygon",String,40,,
-bc38e8376ffb75ad7916d0073a495caf,79dcadb2f7c5cc9e624bb39210ca5bde,IDURBA,,String,30,,
+bc38e8376ffb75ad7916d0073a495caf,79dcadb2f7c5cc9e624bb39210ca5bde,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 3da21b799664c206f740d67a27dd6bd3,7b07754a1d42a8907aac62b69a6492e6,WKT,"Geométrie associée",MultiPolygon,,,
 78994377b04fc7fa92e27b271447c7ba,7b214a9f0167a707f1222514ede0a351,H,,Double,,1,
 d07e96cc3a66980b657e6089601a3d6d,7b214a9f0167a707f1222514ede0a351,WKT,"Geométrie associée",MultiPolygon,,,
@@ -783,7 +785,7 @@ d37ed926a4e23db4dad161e98ef33326,7b6a3bcd230903b9934815fc275e7f84,NATECR,"Nature
 69233f2e8e1d4a60bf3f4a4772d1bcea,7ba48165cc39d9357755ad8080cb48a4,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
 6db6d167fa873cce079d251d2cfc81a6,7ba48165cc39d9357755ad8080cb48a4,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de l'information",String,254,1,
 8566ae5c492af9c86cc0636918f7a01f,7ba48165cc39d9357755ad8080cb48a4,STYPEINF,,String,2,,"00,01,02"
-a4a47b28f137ed78ffc77bded07cc927,7ba48165cc39d9357755ad8080cb48a4,IDURBA,,String,8,,
+a4a47b28f137ed78ffc77bded07cc927,7ba48165cc39d9357755ad8080cb48a4,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 d6f12c7bf1f4976a3a8853e35b9f50f5,7ba48165cc39d9357755ad8080cb48a4,TYPEINF,"Type d'information ponctuelle dans une liste prédéfinie",String,2,,"02,03,04,05,07,08,09,10,11,12,13,14,16,17,19,20,21,22,23,25,27,30,31,32,33,34,35,36,37,38,39,99"
 f67e857ba442ec0406034e5053b424a1,7ba48165cc39d9357755ad8080cb48a4,WKT,"Geométrie associée",MultiPoint,,,
 ffc69669e5bebfc1b0e556f905bd47c3,7ba48165cc39d9357755ad8080cb48a4,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
@@ -814,7 +816,7 @@ e0e6abe27c4dd33407ba50c4de50fdf5,82f55826cb50ed2af8df00961d7807eb,WKT,"Geométri
 34748ef1389fda5d6835c16bd86cbb86,83436cfdbce66ee2a68631aceee4da9f,NATTRAC,"Nature de la ligne",String,40,,
 36aad20cb1dfa977ecbc26ec0467b772,83436cfdbce66ee2a68631aceee4da9f,COULEUR,,String,11,1,
 a504d4910547027d9716e34c78245b44,83436cfdbce66ee2a68631aceee4da9f,WKT,"Geométrie associée",MultiLineString,,,
-df1370b7057a36b1056b96744fd68106,83436cfdbce66ee2a68631aceee4da9f,IDURBA,,String,30,,
+df1370b7057a36b1056b96744fd68106,83436cfdbce66ee2a68631aceee4da9f,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 2c2138ca55ec9637ee958c316a99517f,83626de6b572c9480a820f15f5eee4ad,H,,Double,,1,
 3384b6d17fe9ccc8552a9847ea3b68e5,83626de6b572c9480a820f15f5eee4ad,WKT,"Geométrie associée",MultiPolygon,,,
 c4ee8f0c74a02432c75dd722304d171c,83626de6b572c9480a820f15f5eee4ad,HREF,,String,3,1,"SOL,NGF"
@@ -837,7 +839,8 @@ a93d44eb1478ffbfcd242ecdaa406700,866fa9d5d661efa495366643fc089899,TYPEINF,"Type 
 ad5a4a60f2084501070f98097762f88b,866fa9d5d661efa495366643fc089899,LIBELLE,"Nom complet de l'information",String,254,,
 d0c5d93e1a58b3026419a89478307e8a,8704d7a2cf2cfdf1befcbcddd6b30f21,WKT,"Geométrie associée",MultiPolygon,,,
 10ae4ea42fd19b58e9622baea49f79b7,873a77e2174341edf8830c6b44e47232,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
-8f53edff3bd4ae62c01a9c863a3605f6,873a77e2174341edf8830c6b44e47232,IDURBA,"Identifiant unique du document d'urbanisme",String,30,,
+8f53edff3bd4ae62c01a9c863a3605f6,873a77e2174341edf8830c6b44e47232,IDURBA,"Identifiant du document d'urbanisme",String,30,,
+024b60b100cae572600e32878ed1e39f,8756644441aca5e2c4cf72507f3c5a24,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 193a6af78397d669eed792c95f0f9152,8756644441aca5e2c4cf72507f3c5a24,STYPEPSC,,String,2,,"00,01,02,03,04,05,06,07,08,97,98"
 226e6b27add1ed79969d8ff704d6e167,8756644441aca5e2c4cf72507f3c5a24,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
 4584bc88f7053385398bd71370487e42,8756644441aca5e2c4cf72507f3c5a24,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
@@ -863,7 +866,7 @@ cb43f6130d032a2241250aed54998e31,885a50ab81402fbd4a2b0f30aeb3fa06,WKT,"Geométri
 a2e3944b25b96ddba283e94be25075fb,89becce2485eb801fc16a8cd66878508,WKT,"Geométrie associée",MultiPoint,,,
 9e5df26525c0ed9f95a033e6548fe3d4,8a33bfa8144a1807cae64235ae95916c,WKT,"Geométrie associée",MultiPolygon,,,
 22fa4436d411979d8cd446588cc616ff,8a94a4c30fa01685cdef99d73bb3c4f8,TAILLE,"Taille des caractères",Integer,,,
-39fa8b6549bf0f4a7a20edbb2c99f2c8,8a94a4c30fa01685cdef99d73bb3c4f8,IDURBA,,String,30,,
+39fa8b6549bf0f4a7a20edbb2c99f2c8,8a94a4c30fa01685cdef99d73bb3c4f8,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 755993fe752b978e701038cc21253ef4,8a94a4c30fa01685cdef99d73bb3c4f8,WKT,"Geométrie associée",MultiPoint,,,
 8a812e9d6fffc23c0a123a8fab90f18b,8a94a4c30fa01685cdef99d73bb3c4f8,COULEUR,,String,11,1,
 ad98ac24a891599cf2d980ccea6ee170,8a94a4c30fa01685cdef99d73bb3c4f8,NATECR,"Nature de l'écriture",String,40,,
@@ -884,6 +887,7 @@ c6d46cb2b78e5800f7822c84ad28132f,8bacabfa1aa091b1acb7aa8a02de4885,IDACTE,"Identi
 d463b500b048983f9b000e8dded11951,8bacabfa1aa091b1acb7aa8a02de4885,DATEDECIS,"Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",Date,,,
 f84224b7dd622513260e6cc8a3bb2e0d,8bacabfa1aa091b1acb7aa8a02de4885,FICHIER,"Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte",Filename,254,1,
 fcc4e2f9187897acbf4fd14f43eb42a5,8bacabfa1aa091b1acb7aa8a02de4885,REFERENCE,"Référence de l'acte ayant créé ou modifié la servitude",String,50,,
+0be27d9a68e743b2a9e4f0d33a5a7856,8c0ae058a0bec26c152f347fd0c34ba0,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 11970cfff623199fe498fa3df454589b,8c0ae058a0bec26c152f347fd0c34ba0,LIBELLE,"Intitulé complet de la prescription",String,254,,
 3bb65e5ad7a772e9928a073bd82de178,8c0ae058a0bec26c152f347fd0c34ba0,TXT,"Nom court de la prescription servant à faire une étiquette",String,10,1,
 4bef790ad0fd2c6f7b86f2bab9845864,8c0ae058a0bec26c152f347fd0c34ba0,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,02,03,04,05,07,08,13,14,15,16,17,18,19,20,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,99"
@@ -941,7 +945,7 @@ efcd67901be6d8fc239dc63cfa3e11ab,997d82c489b8052ec31e7832f69102ac,HREF,,String,3
 283d5cf9aed46ded56f2f9c6dc046ce4,99d5a2471736ba527bd642a592b4c89e,WKT,"Geométrie associée",MultiLineString,,,
 624de2aa4b4811b605a3e1c3ade047ff,99d5a2471736ba527bd642a592b4c89e,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de l'information",String,254,1,
 748d3d4cfd4abcb76038849fb073afc7,99d5a2471736ba527bd642a592b4c89e,TYPEINF,"Type d'information linéaire dans une liste prédéfinie",String,2,,"02,03,04,05,07,08,09,10,11,12,13,14,16,17,19,20,21,22,23,25,27,30,31,32,33,34,35,36,37,38,39,99"
-a569bc5ad5e435918943569fc8b34975,99d5a2471736ba527bd642a592b4c89e,IDURBA,,String,30,1,
+a569bc5ad5e435918943569fc8b34975,99d5a2471736ba527bd642a592b4c89e,IDURBA,"Identifiant du document d'urbanisme",String,30,1,
 ab279dd49191a07470b9740f01c93898,99d5a2471736ba527bd642a592b4c89e,DATVALID,,String,8,,
 d0a44df268fbf59f4cdcf42886aa5a6e,99d5a2471736ba527bd642a592b4c89e,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
 f20cbd67ebb0dd4a1b73a65342d7b364,99d5a2471736ba527bd642a592b4c89e,STYPEINF,,String,2,,"00,01,02"
@@ -958,6 +962,7 @@ f20cbd67ebb0dd4a1b73a65342d7b364,99d5a2471736ba527bd642a592b4c89e,STYPEINF,,Stri
 106a86c9a5b55fd66e67c11e3d9495e4,9bb4a6c476e4bb86c42678e6c9713c11,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
 11df452efc689ca213b570ff4c1c7a8d,9bb4a6c476e4bb86c42678e6c9713c11,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,
 145a07ebaf1a2a8e17fa5252c889791d,9bb4a6c476e4bb86c42678e6c9713c11,WKT,"Geométrie associée",MultiPoint,,,
+23627f0a79a73bcef5b3dcc10c33b089,9bb4a6c476e4bb86c42678e6c9713c11,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 38bb97424dcd175c615bad335cc1085c,9bb4a6c476e4bb86c42678e6c9713c11,TXT,"Nom court de la prescription servant à faire une étiquette",String,10,1,
 70a58c295acae23ebd0fe195e38ddf0b,9bb4a6c476e4bb86c42678e6c9713c11,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
 a3dbeac2cbadf52f33a01bd369d1d54f,9bb4a6c476e4bb86c42678e6c9713c11,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
@@ -976,10 +981,10 @@ cd06c204f3655bc4119d80ac82a5363f,9bfde4d2646fa6bbf2afcb3bb5cd34c5,WKT,"Geométri
 80abb02f5be1474093c4a0556fad6458,9ca85dc91d25e1ce55399734a976fea0,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,
 a00887133f9b3208c83bdf65afe92b4c,9ca85dc91d25e1ce55399734a976fea0,URLPLAN,"URL ou URI qui pointe sur le fichier du plan scanné",String,254,1,
 bf9e646ade3e797865e980c0a54d3add,9ca85dc91d25e1ce55399734a976fea0,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,
-c06c794b7de40cd8de2552fe171b46cf,9ca85dc91d25e1ce55399734a976fea0,IDURBA,"Identifiant unique du PLU",String,20,,
+c06c794b7de40cd8de2552fe171b46cf,9ca85dc91d25e1ce55399734a976fea0,IDURBA,"Identifiant du document d'urbanisme",String,20,,
 c793a1b492e0b093caee1bc28b35cf94,9ca85dc91d25e1ce55399734a976fea0,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,15,1,"01,02,PCI,BD Parcellaire"
 e2bb68298feebed4623e1782c7e429e0,9ca85dc91d25e1ce55399734a976fea0,TYPEDOC,"Type du document",String,3,,"PLU,POS,CC"
-1b6e3fc0cdf4472efc8bbffc252bc04c,9ccf2a50e5bba811a68e421787b7c35f,IDURBA,,String,30,,
+1b6e3fc0cdf4472efc8bbffc252bc04c,9ccf2a50e5bba811a68e421787b7c35f,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 a207d0762b32b48df5357776cb3569e9,9ccf2a50e5bba811a68e421787b7c35f,WKT,"Geométrie associée",MultiPolygon,,,
 ccd12b370e7422a3e3578375ef484970,9ccf2a50e5bba811a68e421787b7c35f,NATTRAC,"Nature du polygon",String,40,,
 f62eaf749ba9b7650ed1bf8d8d2305be,9ccf2a50e5bba811a68e421787b7c35f,COULEUR,,String,11,1,
@@ -1037,7 +1042,7 @@ db78b46529e0b65b5fb37ed2470fb0bc,aaa929c7980d6df6681b3322feb770d3,WKT,"Geométri
 6211c6e83ff6c1266fadefe8b2f19730,abfaae0f5ae29c3cdb3ce4ab934a230d,DATVALID,,String,8,,
 7d68b4486392bd89c1e130056ddcff91,abfaae0f5ae29c3cdb3ce4ab934a230d,STYPEINF,,String,2,,"00,01,02"
 8d9d4c854e5b274a50cb9d25887a5bf3,abfaae0f5ae29c3cdb3ce4ab934a230d,LIBELLE,"Nom complet de l'information",String,254,,
-944f043d6fff85e5c7d5f5fd2d4da533,abfaae0f5ae29c3cdb3ce4ab934a230d,IDURBA,,String,30,1,
+944f043d6fff85e5c7d5f5fd2d4da533,abfaae0f5ae29c3cdb3ce4ab934a230d,IDURBA,"Identifiant du document d'urbanisme",String,30,1,
 ab57584520ed791453e3ffe3745a8d09,abfaae0f5ae29c3cdb3ce4ab934a230d,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
 dd7a0f48c6d4ed5e823d748ff3954463,abfaae0f5ae29c3cdb3ce4ab934a230d,TYPEINF,"Type d'information linéaire dans une liste prédéfinie",String,2,,"02,03,04,05,07,08,09,10,11,12,13,14,16,17,19,20,21,22,23,25,27,30,31,32,33,34,35,36,37,38,39,99"
 f1358df6ace0defe52c6311eb230f7f4,ade128e65c52053689f0eb442d23de82,WKT,"Geométrie associée",MultiPolygon,,,
@@ -1078,7 +1083,7 @@ d429970d8a10784776cde254b78c42e4,b5dee7459709be4f059c505e416cf2b6,FERMRECO,"Le s
 60b956d79653979bc6ab15afd59cf017,b630d8258fb9238ad6d3d64efc2aa72b,WKT,"Geométrie associée",MultiLineString,,,
 0b0f6f42255460235c620b021501b9bb,b68f9bcaef98484e7db977a957920201,COULEUR,,String,11,1,
 748a450eb3a75996efb567cab95cbb26,b68f9bcaef98484e7db977a957920201,WKT,"Geométrie associée",MultiLineString,-1,,
-e2f64bc1f9a837218b5c3e886eefa6bc,b68f9bcaef98484e7db977a957920201,IDURBA,,String,30,,
+e2f64bc1f9a837218b5c3e886eefa6bc,b68f9bcaef98484e7db977a957920201,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 e81539c50a3c0dab4a7b81deb5005dd7,b68f9bcaef98484e7db977a957920201,NATTRAC,"Nature de la ligne",String,40,,
 008983f52b62f75baaacc62cef868f68,b6c06e076c6d7cb5953a27a91e446ccb,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,
 1831f868509aa9a1be0ea1c2b2faa3ef,b6c06e076c6d7cb5953a27a91e446ccb,SIREN,"Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",String,9,1,
@@ -1090,7 +1095,7 @@ e81539c50a3c0dab4a7b81deb5005dd7,b68f9bcaef98484e7db977a957920201,NATTRAC,"Natur
 7c2fe5c13a0a84a0dc192f23b7a6826d,b6c06e076c6d7cb5953a27a91e446ccb,DATEREF,"Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",Date,,1,
 9d2cf928b6b532127be28a51bb6f4365,b6c06e076c6d7cb5953a27a91e446ccb,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,
 a68783c4994026ba99fa61a95a511bb0,b6c06e076c6d7cb5953a27a91e446ccb,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,
-ac1b5106fc3fc60a03db6e9392a2f7d3,b6c06e076c6d7cb5953a27a91e446ccb,IDURBA,"Identifiant unique du PLU",String,20,,
+ac1b5106fc3fc60a03db6e9392a2f7d3,b6c06e076c6d7cb5953a27a91e446ccb,IDURBA,"Identifiant du document d'urbanisme",String,20,,
 be1f59ef56d4475285d8e699dbc8fba8,b6c06e076c6d7cb5953a27a91e446ccb,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,15,1,"01,02,PCI,BD Parcellaire"
 c3677ece241b688f0f35bd28c5be6f19,b6c06e076c6d7cb5953a27a91e446ccb,ETAT,"Etat juridique du document d'urbanisme",String,2,,"01,02,03,04,05"
 c7a1a8f2a67f7ade87929ae9c4be94db,b6c06e076c6d7cb5953a27a91e446ccb,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,
@@ -1111,6 +1116,7 @@ cfe6011842582d98f313bd6c768df42e,baa0250a901b88245e01e4193bf8cb5f,WKT,"Geométri
 c2db17a87372b342bb16480365e622b0,bb4036e1f1c9bb4e065cb0f8c394daa9,WKT,"Geométrie associée",MultiPolygon,,,
 273ad71367368b2f55c510d98fe8a364,bc5bc4bd8a443a43bf34f11202f9d520,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,254,1,
 33cf86b914d532808d9b47c4f97acc8a,bc5bc4bd8a443a43bf34f11202f9d520,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
+504c7129ff74f20bf923f73f8f1d3faf,bc5bc4bd8a443a43bf34f11202f9d520,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 6726f93f5320b356085b1d475243f45c,bc5bc4bd8a443a43bf34f11202f9d520,STYPEPSC,,String,2,,"00,01,02,03,04,05,06,07,08,97,98"
 9cdef0e9fe1e7c2e96e44d08fd3b3ffe,bc5bc4bd8a443a43bf34f11202f9d520,TXT,"Nom court de la prescription servant à faire une étiquette",String,10,1,
 b70e1bb9197ba5d88cede465c33af0a2,bc5bc4bd8a443a43bf34f11202f9d520,LIBELLE,"Intitulé complet de la prescription",String,254,,
@@ -1126,7 +1132,7 @@ b7dd4cf75be278b2c756cf5aa3a4e4ce,bce5ac6a68fbe00738fef85d2c4813e1,H,,Double,,1,
 60b6d1c13d65a8cca3b47b3c5b64aafe,bd5be18d6225f8feccf7325a4d34d970,WKT,"Geométrie associée",MultiPolygon,,,
 d889bf59f10b6fecb4fecd98c312421e,bf83c585db545c2432eeee208ff167bb,WKT,"Geométrie associée",MultiPolygon,,,
 970e241237ef7fb422ea4704ad085fce,bfaffb450bef6697d119e6bf04c86e37,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
-d924e01bf6cd6efc7678f65c45bf2677,bfaffb450bef6697d119e6bf04c86e37,IDURBA,"Identifiant unique du document d'urbanisme",String,20,1,
+d924e01bf6cd6efc7678f65c45bf2677,bfaffb450bef6697d119e6bf04c86e37,IDURBA,"Identifiant du document d'urbanisme",String,20,1,
 0815e2635abfeb5205ec9142a7879988,bfb1ec32fb0500e2b5cfb95f593e8b9e,WKT,"Geométrie associée",MultiPolygon,,,
 1408ebb773aab2de6794d90f8f4dedb9,bfb1ec32fb0500e2b5cfb95f593e8b9e,TXT,"Nom court du périmètre servant à faire une étiquette",String,10,1,
 147c6d948f9937a68e5cef8319285535,bfb1ec32fb0500e2b5cfb95f593e8b9e,LIBELLE,"Nom complet du périmètre",String,254,,
@@ -1140,7 +1146,7 @@ ef7ab36d1e26a6fef2425f80881275d0,bfb1ec32fb0500e2b5cfb95f593e8b9e,NOMFIC,"Nom du
 464a43f211b66ea88dc4a5d3c90ac0f5,bfc0c6f7734615807160e64fc8398cfc,LIBELLE,"Nom complet de l'information",String,254,,
 5f10cbb4eb137ad9e61e13e2e41c81f3,bfc0c6f7734615807160e64fc8398cfc,TYPEINF,"Type d'information ponctuelle dans une liste prédéfinie",String,2,,"02,03,04,05,07,08,09,10,11,12,13,14,16,17,19,20,21,22,23,25,27,30,31,32,33,34,35,36,37,38,39,99"
 6f7f30f380666925165019ce5050a1d4,bfc0c6f7734615807160e64fc8398cfc,WKT,"Geométrie associée",MultiPoint,,,
-793d7a02b2c4e6da1236788ca98e8692,bfc0c6f7734615807160e64fc8398cfc,IDURBA,,String,8,,
+793d7a02b2c4e6da1236788ca98e8692,bfc0c6f7734615807160e64fc8398cfc,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 871f755905bc0217489f4b269f72391f,bfc0c6f7734615807160e64fc8398cfc,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
 9566b12fccc9ded4c4c96ad28a5dd4c4,bfc0c6f7734615807160e64fc8398cfc,STYPEINF,,String,2,,"00,01,02"
 971fe5baf1ea1c792566d2676ab83951,bfc0c6f7734615807160e64fc8398cfc,DATVALID,,Date,8,1,
@@ -1175,7 +1181,7 @@ b5c04916c1c415809df3fc662ea456e5,c4bbcd5fffdc675a79bc8ee6f8e6d100,WKT,"Geométri
 099853b5a7d6d113dc6249644e362888,c574d390f93dc8f0ff0ec0496dc995cc,URLPLAN,"URL ou URI qui pointe sur le fichier du plan scanné",String,254,1,
 205a8d0f0ea01b09644b118b62deddad,c574d390f93dc8f0ff0ec0496dc995cc,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,
 43c2fa308b1a3991ed44edf5c17c2699,c574d390f93dc8f0ff0ec0496dc995cc,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,
-5096b01df29475bfe6cfd5e546eb92ae,c574d390f93dc8f0ff0ec0496dc995cc,IDURBA,"Identifiant unique du PLU",String,20,,
+5096b01df29475bfe6cfd5e546eb92ae,c574d390f93dc8f0ff0ec0496dc995cc,IDURBA,"Identifiant du document d'urbanisme",String,20,,
 6aeaa4493cb14c7acc2a8b1d5fc232ac,c574d390f93dc8f0ff0ec0496dc995cc,SIREN,"Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",String,9,1,
 8323933b4b9ea2607c4c5d00b1a8e989,c574d390f93dc8f0ff0ec0496dc995cc,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,
 87c4fe0f555b9e1bfaf3652742e94a27,c574d390f93dc8f0ff0ec0496dc995cc,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,
@@ -1197,7 +1203,7 @@ e6323afb8f1ffeebdc16bad73bf825b2,c68281c3511596c2c818b45296697921,WKT,"Geométri
 2cf54fcecba4567b2160a86534890816,c6a953da05976cb50f49352192600106,WKT,"Geométrie associée",MultiPolygon,,,
 7d01abbe9de912310076605d3cc2ef23,c6a953da05976cb50f49352192600106,COULEUR,,String,11,1,
 b7d7e472d83f2f47f0c3c1ff1c003c92,c6a953da05976cb50f49352192600106,NATTRAC,"Nature du polygon",String,40,,
-c3de19c55e26503bae85eb6edf378007,c6a953da05976cb50f49352192600106,IDURBA,,String,30,,
+c3de19c55e26503bae85eb6edf378007,c6a953da05976cb50f49352192600106,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 9849e227160e3fe307c4d8814acec9f2,c862340ec1dc7e0782a07d791f85a91a,WKT,"Geométrie associée",MultiPoint,,,
 ae78f0719f8cbba85743c83fe24e774e,c9118f093a78efa7522f988e2179672e,WKT,"Geométrie associée",MultiPoint,,,
 a1782fa60a1da1d3f9b74c9c7e4b3def,c935251bddd1c95db7f843eafdecc7b1,WKT,"Geométrie associée",MultiPolygon,,,
@@ -1211,7 +1217,7 @@ bd57a8dc379f63e2df56b28460152d9e,c94a99f4a1f3f564f413a4f7527f8c20,NOMFIC,"Nom du
 70d9edfa619c0d3281d8c224518d39f0,c9b3be1dd73c671d2296a07a66fd81c0,WKT,"Geométrie associée",MultiPolygon,,,
 11e9d1e35fbd25a2cc18772e5e12f170,c9bff79ee9888d5a14c714780650ed42,WKT,"Geométrie associée",MultiPolygon,,,
 ca8f64c3a07b677e9cb8e90a404c54fc,ca7c7431d7779c3f17bbdc18039e1a53,WKT,"Geométrie associée",MultiPoint,,,
-05eb6afbd6c8b9df7935e25494b03929,cac7a538a21bfbafbae94c2e278993cb,IDURBA,,String,30,,
+05eb6afbd6c8b9df7935e25494b03929,cac7a538a21bfbafbae94c2e278993cb,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 637e16b8245e90badd57b386dba5488d,cac7a538a21bfbafbae94c2e278993cb,NATTRAC,"Nature du point",String,40,,
 97edb0f65ac0a6f52cfe15c4b2248a0d,cac7a538a21bfbafbae94c2e278993cb,COULEUR,,String,11,1,
 bd276d4a49fca3ace3184df0564abc02,cac7a538a21bfbafbae94c2e278993cb,WKT,"Geométrie associée",MultiPoint,,,
@@ -1223,7 +1229,7 @@ acd7c39e674b1565bcf8f79ee7a29bed,ccae6c9a44be92d612a4f666f893a4b6,H,,Double,,1,
 f6e9fd665cfa44bea5efbc8ba2504ec2,ccae6c9a44be92d612a4f666f893a4b6,WKT,"Geométrie associée",MultiLineString,,,
 1b2877abc2487a1d7f8088a05306c7dd,ccfea5e97c868e212dd48f206497b680,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
 4a0f0b8761b99fc553807e1148cb5a52,ccfea5e97c868e212dd48f206497b680,DATECOG,"Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune",Date,,1,
-a2c324523820877187df4975ad4d17fe,ccfea5e97c868e212dd48f206497b680,IDURBA,"Identifiant unique du document d'urbanisme",String,20,1,
+a2c324523820877187df4975ad4d17fe,ccfea5e97c868e212dd48f206497b680,IDURBA,"Identifiant du document d'urbanisme",String,20,1,
 9e5ee7c4e42e957b7c4e199ef6b848fd,cd999b057e2eca09fc1993b8b4ee92ca,WKT,"Geométrie associée",MultiPolygon,,,
 e807ee2d941d0399591f978854e78c76,cdd1d8be8f0905f8771b58d98e6ad224,WKT,"Geométrie associée",MultiPolygon,,,
 544d1b75e3b01f13d4c1a488a7440fe3,cf53eb4d0eef45288dbf91c7915e1b1d,WKT,"Geométrie associée",MultiPolygon,,,
@@ -1239,13 +1245,13 @@ aa8d76578b032b87fb38f574c1b171df,d0f80f8b51da8c2ed4ad0976ee6ffacb,CROISEMENT,"In
 bade3df744ab345c8b880638f3c313ca,d0f80f8b51da8c2ed4ad0976ee6ffacb,TYPE_VOIE,"type de la voie",String,15,1,"Voie publique,Voie privée"
 4236b882e04e0de6d74f08f79bf22797,d0fcb802b1504cc67554db9d7bc0ae00,DATECOG,"Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune",Date,,1,
 532e53d1a82318917bb50f6b30a9449b,d0fcb802b1504cc67554db9d7bc0ae00,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
-9c5116ca3aca2889b5b06af01982187f,d0fcb802b1504cc67554db9d7bc0ae00,IDURBA,"Identifiant unique du document d'urbanisme",String,20,1,
+9c5116ca3aca2889b5b06af01982187f,d0fcb802b1504cc67554db9d7bc0ae00,IDURBA,"Identifiant du document d'urbanisme",String,20,1,
 08616ff7062fa05acbef80a8196fff9a,d15855ea2358a5a090a3ad37cc7223a0,ANGLE,"Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",Integer,,1,
 1359038fb1d22c6b3d2b3d5d4fd7eaad,d15855ea2358a5a090a3ad37cc7223a0,TAILLE,"Taille des caractères",Integer,,,
 165bafd9a1f481d678718ef79aacbb16,d15855ea2358a5a090a3ad37cc7223a0,TXT,"Libellé de l'étiquette attachée au point d'habillage",String,80,,
 387a8f38c7b266135600e240d92fa9ee,d15855ea2358a5a090a3ad37cc7223a0,WKT,"Geométrie associée",MultiPoint,,,
 40d57a0298fc8bf9b25c4a79dcbe9766,d15855ea2358a5a090a3ad37cc7223a0,POLICE,,String,40,1,
-5c7b3fd54a3afadbaa877d7847d7f29b,d15855ea2358a5a090a3ad37cc7223a0,IDURBA,,String,30,,
+5c7b3fd54a3afadbaa877d7847d7f29b,d15855ea2358a5a090a3ad37cc7223a0,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 a75bc15219002f06c90d6decb7a1fc13,d15855ea2358a5a090a3ad37cc7223a0,COULEUR,,String,11,1,
 aadf706ffc591269b19ee1a04cd10bd2,d15855ea2358a5a090a3ad37cc7223a0,NATECR,"Nature de l'écriture",String,40,,
 bb52196d81d5df08b3340e79b82b5a50,d15855ea2358a5a090a3ad37cc7223a0,STYLE,"Style d'écriture",String,40,1,
@@ -1261,6 +1267,7 @@ a513438b0721e65dd4340e9a168a3af1,d1700d551e97de4762fabf95238658bd,ANGLE1,,Intege
 205d5f90c0f42a597ce6458b8ecffc8e,d3d9d9144d696ed494d9b20b507208d6,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,
 25dfca68649458b0569e6f52a5eb3aed,d3d9d9144d696ed494d9b20b507208d6,LIBELLE,"Intitulé complet de la prescription",String,254,,
 3bc073ee52407861e4105a57bfcfe0f0,d3d9d9144d696ed494d9b20b507208d6,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
+60f90174f257ed7a0deb7442edf047b4,d3d9d9144d696ed494d9b20b507208d6,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 691ec09dbab1f9082fd3e9b45cd5d009,d3d9d9144d696ed494d9b20b507208d6,TXT,"Nom court de la prescription servant à faire une étiquette",String,10,1,
 782fcd16ebd9ffe28a91b9f52672bb87,d3d9d9144d696ed494d9b20b507208d6,WKT,"Geométrie associée",MultiPoint,,,
 880cb7f80a55a7db86fbf996792b702c,d3d9d9144d696ed494d9b20b507208d6,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
@@ -1329,7 +1336,7 @@ f304c850390090d7ce598388ae70f691,de25fd70db811f8976e3e4ac8516557b,WKT,"Geométri
 d73073eac8515d9978fd98e7903e35fa,de974b89648e52abda029c52a39a3830,WKT,"Geométrie associée",MultiLineString,,,
 81e47c60e0fe0567e241b61e093c0fc4,deb57eb473c13dfcb788d92f23d0cd77,WKT,"Geométrie associée",MultiLineString,,,
 0bba58939cb8e1dadf2290af52c04a1b,deef9f1249811ee77528c035e773e0cc,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
-505119a2ac7a3c63850c4dbc3a1b7976,deef9f1249811ee77528c035e773e0cc,IDURBA,"Identifiant unique du document d'urbanisme",String,30,,
+505119a2ac7a3c63850c4dbc3a1b7976,deef9f1249811ee77528c035e773e0cc,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 3b7e3c46398c3dfdb2962cfd00a97565,df03a746402d7a7bee9b89cccc7fab47,NATTRAC,"Nature du polygon",String,40,1,
 471cf91b1e4483e53c5300a7b2c420a2,df03a746402d7a7bee9b89cccc7fab47,WKT,"Geométrie associée",MultiPolygon,,,
 a9d56307a55bc97c5ecb0321bdd4f17f,df03a746402d7a7bee9b89cccc7fab47,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
@@ -1355,6 +1362,7 @@ e5e2d6841038c1d68eeb14340c1fa90d,df62c34cc799946ef5b058ab1e0cd76a,TYPEPSC,"Type 
 a7c5486c03183b495962f0e65719c301,df9615d6d63477885fc1da006987c444,WKT,"Geométrie associée",MultiLineString,,,
 0871ed2ab990b74224bdd38f562f1d01,e07320a1613ff0e0d6d92d2f976f1a9a,TXT,"Nom court de la prescription servant à faire une étiquette",String,10,1,
 22c783010263638511c2ee1e97cf5477,e07320a1613ff0e0d6d92d2f976f1a9a,LIBELLE,"Intitulé complet de la prescription",String,254,,
+25a0acd1808cd1b76d591ddc7090e618,e07320a1613ff0e0d6d92d2f976f1a9a,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 2d19baf05d42d79366332da523d711cc,e07320a1613ff0e0d6d92d2f976f1a9a,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
 73350ab6470e65c9ae2c0b5cdd8394a8,e07320a1613ff0e0d6d92d2f976f1a9a,STYPEPSC,,String,2,,"00,01,02,03,04,05,06,07,08,97,98"
 73dd98c842253d252e1165dc1b7e2077,e07320a1613ff0e0d6d92d2f976f1a9a,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,02,03,04,05,07,08,13,14,15,16,17,18,19,20,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,99"
@@ -1379,7 +1387,7 @@ a41cceaa65d90478085cc526f6a401da,e139447bb20c067c1ad6303034f804ad,URLFIC,"URL ou
 c5c29aae2a05e6b9c859a361c12b88ea,e139447bb20c067c1ad6303034f804ad,INSEE,"Code INSEE de la commune couverte par la zone",String,5,,
 ec9c33bc8706480c4af2596468399210,e139447bb20c067c1ad6303034f804ad,WKT,"Geométrie associée",MultiPolygon,,,
 3730fe22440be9644671b129e0164842,e146c70132bfacbce05ea5b20dccdcd9,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de l'information",String,254,1,
-8ac6bb3ce1c8c73c6fd025f1c028516c,e146c70132bfacbce05ea5b20dccdcd9,IDURBA,,String,8,,
+8ac6bb3ce1c8c73c6fd025f1c028516c,e146c70132bfacbce05ea5b20dccdcd9,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 938feeac6e76d292950281830fd62ba6,e146c70132bfacbce05ea5b20dccdcd9,WKT,"Geométrie associée",MultiPoint,,,
 9a01d0d3477a210d16b9fbac99b30498,e146c70132bfacbce05ea5b20dccdcd9,DATVALID,,Date,8,1,
 cca364f8a7d623f95231aab602f903b3,e146c70132bfacbce05ea5b20dccdcd9,LIBELLE,"Nom complet de l'information",String,254,,
@@ -1404,14 +1412,14 @@ ff75a107ee9724b5ffb88ff1b8108d99,e23b4485847c2c72e8ce8fdf681f5c33,NOMACTE,"Nom a
 1ea6e4fe3ebbc76a8470fc1f4727d89e,e3374eabf559f2970230165c014e7367,WKT,"Geométrie associée",MultiPolygon,,,
 324379e0ba52dc6f0f6c334669cd8e5f,e35502d42035ec0f8030819e1f4d9e0b,COULEUR,,String,11,1,
 890fb67a6fa43be4eb3f4c515fbca3f5,e35502d42035ec0f8030819e1f4d9e0b,NATTRAC,"Nature du polygon",String,40,,
-981ca7d8f606f0af85ef0b1b06538c14,e35502d42035ec0f8030819e1f4d9e0b,IDURBA,,String,30,,
+981ca7d8f606f0af85ef0b1b06538c14,e35502d42035ec0f8030819e1f4d9e0b,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 b9e049885b64acfed8a39d283bd18b08,e35502d42035ec0f8030819e1f4d9e0b,WKT,"Geométrie associée",MultiPolygon,,,
 69b06d50d2d40def0ef8359ba70b4de8,e3d12fbf0fce2ec75a0d394c9e935ff7,TXT,"Libellé de l'étiquette attachée au point d'habillage",String,80,,
 71f5d44bdf6e2e29b7aaa4530cf2af3a,e3d12fbf0fce2ec75a0d394c9e935ff7,WKT,"Geométrie associée",MultiPoint,,,
 eeec2ee5b8ac45e7070d9dd5646a8957,e3d12fbf0fce2ec75a0d394c9e935ff7,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,5,,
 f10d7b2795d2f58647bf778ad4c2a85f,e3d12fbf0fce2ec75a0d394c9e935ff7,NATECR,"Nature de l'écriture",String,40,,
 5755a8d05527eafb2d2c0302f2a4e526,e480eed4c0acc75c19aed88788e0b3f1,WKT,"Geométrie associée",MultiPolygon,,,
-5aa998bf059c2d4e17cc8997462df5ef,e4d94f71c864d4588db6d3c9674e7cd4,IDURBA,,String,30,,
+5aa998bf059c2d4e17cc8997462df5ef,e4d94f71c864d4588db6d3c9674e7cd4,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 b730b4e606f820c9488cd43f4d4e416c,e4d94f71c864d4588db6d3c9674e7cd4,COULEUR,,String,11,1,
 d11a419894fe8cf0bd45f14dcfeef8eb,e4d94f71c864d4588db6d3c9674e7cd4,NATTRAC,"Nature du point",String,40,,
 e9c5ef6de6cd9d9ac0f91842c2207aa7,e4d94f71c864d4588db6d3c9674e7cd4,WKT,"Geométrie associée",MultiPoint,,,
@@ -1425,6 +1433,7 @@ b8b3537e1556571aedda2ac523c801fa,e7b566961fad8c78a3f83f317af78806,HREF,,String,3
 254261f0c90fc0a738ab91979558808f,e8ed6a83c09d5611db103ec5cab682fd,DATVALID,"Date de la dernière validation de la prescription",Date,,1,
 2ba202f1d71655db7c74ef6ed0c63150,e8ed6a83c09d5611db103ec5cab682fd,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,80,1,
 40f4ce4c87239403087ed5371d8be4f7,e8ed6a83c09d5611db103ec5cab682fd,WKT,"Geométrie associée",MultiLineString,,,
+76de53a27825ec87ea4820e7762c7067,e8ed6a83c09d5611db103ec5cab682fd,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 7aafdd0b0cd17e782105786fd9306a88,e8ed6a83c09d5611db103ec5cab682fd,TXT,"Nom court de la prescription servant à faire une étiquette",String,10,1,
 9f235385708023ceaf46ed6514d0811d,e8ed6a83c09d5611db103ec5cab682fd,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,2,,"01,02,03,04,05,07,08,13,14,15,16,17,18,19,20,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,99"
 a9f02f5291791706d6c2e94e98896001,e8ed6a83c09d5611db103ec5cab682fd,STYPEPSC,,String,2,,"00,01,02,03,04,05,06,07,08,97,98"
@@ -1443,7 +1452,7 @@ a01ede1e91900aefa43b5034521909ea,e99eea78169f2ceb1d2c3521983063d6,WKT,"Geométri
 15607c9553b50b3648149e544ad3f637,e9a077252721b2456352413a818ca880,TXT,"Nom court servant à faire une étiquette",String,10,1,
 253cc0cab98c849a50d6196197b704f6,e9a077252721b2456352413a818ca880,DATVALID,,Date,8,,
 6e02b70645cfbbaef3afa71293909e04,e9a077252721b2456352413a818ca880,TYPEINF,"Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",String,2,1,"01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,99"
-72556bf21ed62b6ce431d9cf44d11d76,e9a077252721b2456352413a818ca880,IDURBA,,String,30,,
+72556bf21ed62b6ce431d9cf44d11d76,e9a077252721b2456352413a818ca880,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 92bcbcc8212e373a884c71296d5890b7,e9a077252721b2456352413a818ca880,TYPEP,,String,2,,"15,99"
 978177c81f67ddc72edfba56cd2829a1,e9a077252721b2456352413a818ca880,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,80,1,
 a57efba8998eb017eddc63e18f619374,e9a077252721b2456352413a818ca880,STYPEINF,,String,2,,"00,01,02"
@@ -1470,7 +1479,7 @@ d0ac01816e33151819d3a8a0ba0325b9,ed48b5f3aba35c0c1300ac5f9e70491e,ANGLE1,,Intege
 36d80ad81587a64204123e0fc78f7474,eda901c3c8831db73f8e5675602cc5d7,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,
 49f36ce561ba6cf0dcf00da3f1b62132,eda901c3c8831db73f8e5675602cc5d7,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,2,1,"01,02,03,04"
 5b675caad9e615e2953c05920d737e06,eda901c3c8831db73f8e5675602cc5d7,NOMPROC,"Nom de la dernière procédure",String,10,,"E,MC,MJ,M,MS,R,RS,A"
-8a5c3f4247f560a291d66daeb5ef80e6,eda901c3c8831db73f8e5675602cc5d7,IDURBA,"Identifiant unique du PLU",String,30,,
+8a5c3f4247f560a291d66daeb5ef80e6,eda901c3c8831db73f8e5675602cc5d7,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 8f8584b0049a98f5c639a7c0dc01aa9a,eda901c3c8831db73f8e5675602cc5d7,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,
 9e2f244b68140f3215603b7761ac275f,eda901c3c8831db73f8e5675602cc5d7,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,
 c861bee731a050fb236940e80eceeacb,eda901c3c8831db73f8e5675602cc5d7,URLPE,,Url,254,,
@@ -1501,7 +1510,7 @@ af8976dd3d3080e72a053c7f24ba086f,f307a475f784a0bb08b69b9c6efceea5,WKT,"Geométri
 c5c5062639a83b21b3461b2115954574,f307a475f784a0bb08b69b9c6efceea5,H,,Double,,1,
 f0a08dc44589ed07f7c83ca8784b0a32,f307a475f784a0bb08b69b9c6efceea5,HREF,,String,3,1,"SOL,NGF"
 0f8ba177291e9315b289359ec8f3998f,f3953d28fc1ab25cf920084605f8177e,WKT,"Geométrie associée",MultiPolygon,,,
-06cbdedf49887cdd5651f0ab3cb93b3f,f3cb00eadb44dc48a9f581f0ed5d5fc2,IDURBA,,String,30,1,
+06cbdedf49887cdd5651f0ab3cb93b3f,f3cb00eadb44dc48a9f581f0ed5d5fc2,IDURBA,"Identifiant du document d'urbanisme",String,30,1,
 15520ca909f233311d98e8cf6150c2cd,f3cb00eadb44dc48a9f581f0ed5d5fc2,LIBELLE,"Nom complet de l'information",String,254,,
 2890143caecc5a92a4470491bf6ba317,f3cb00eadb44dc48a9f581f0ed5d5fc2,DATVALID,,String,8,,
 2c71ae0a5719da874d3619704d64120c,f3cb00eadb44dc48a9f581f0ed5d5fc2,TXT,"Nom court de l'information servant à faire une étiquette",String,10,1,
@@ -1527,7 +1536,7 @@ c496e9bca1972a90cc1ccb681255023b,f84197014ca3151554299502e3523857,NATTRAC,"Natur
 75fbdd50fba1d46d51ba039c681b2ac3,f890900ff8787f067c3a7f975f4d5cef,WKT,"Geométrie associée",MultiPoint,,,
 7617164aa574bba921769753f6777d4e,f890900ff8787f067c3a7f975f4d5cef,TYPE,"type du monument",String,10,1,"Inscrit,Classé"
 769cb824ffb779025693b6bf1035998e,f890900ff8787f067c3a7f975f4d5cef,ADRESSE,"Adresse du monument",String,100,1,
-0737af491c6b5a043ff408af25e7337c,f8f109ace7412d7607c49d7f9ca64342,IDURBA,"Identifiant unique du document d'urbanisme",String,30,,
+0737af491c6b5a043ff408af25e7337c,f8f109ace7412d7607c49d7f9ca64342,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 e19cec31b77317ff0d4daeb0aba10d47,f8f109ace7412d7607c49d7f9ca64342,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,5,,
 1ba02146c4728408a886db194ccd3647,f96303ea87f93a53451da016ff32c3b6,HREF,,String,3,1,"SOL,NGF"
 d3c58f549d79080be146be6a65a03ca3,f96303ea87f93a53451da016ff32c3b6,WKT,"Geométrie associée",MultiPolygon,,,
@@ -1537,7 +1546,7 @@ fd590771bb2f40c5bbb60cade744569e,f96303ea87f93a53451da016ff32c3b6,H,,Double,,1,
 5e0c889292e4514a6f31cd51e44c3a6f,f963b627c319db8efc519b8f5f6cfb5f,WKT,"Geométrie associée",MultiPolygon,,,
 79e915fa7f56d3c48994427c8bd5d3ba,f963b627c319db8efc519b8f5f6cfb5f,LIBELLE,"Libellé du secteur tel que le définit la carte communale",String,12,,
 b59b05a7fee4a0acd19c3eb5b91d86da,f963b627c319db8efc519b8f5f6cfb5f,NOMFIC,"Nom du fichier contenant les dispositions particulières du secteur",Filename,254,1,
-c8f765ecf3489734e6a799237de386d2,f963b627c319db8efc519b8f5f6cfb5f,IDURBA,,String,30,,
+c8f765ecf3489734e6a799237de386d2,f963b627c319db8efc519b8f5f6cfb5f,IDURBA,"Identifiant du document d'urbanisme",String,30,,
 cbffea186f2c6674654d25b684abd162,f963b627c319db8efc519b8f5f6cfb5f,FERMRECO,"Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise",String,3,1,",Oui"
 d689c039139178c19f9a3e9c8ec42908,f963b627c319db8efc519b8f5f6cfb5f,DATVALID,"Date de la dernière validation du secteur ou de ses dispositions particulières",Date,,1,
 e9137d86fd96e47847398ccb1aa267e9,f963b627c319db8efc519b8f5f6cfb5f,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",String,254,1,
