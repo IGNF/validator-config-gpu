@@ -1478,7 +1478,7 @@ d0ac01816e33151819d3a8a0ba0325b9,ed48b5f3aba35c0c1300ac5f9e70491e,ANGLE1,,Intege
 292cd3a7b05c6b3a3096101bd711ca1e,eda901c3c8831db73f8e5675602cc5d7,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,,
 36d80ad81587a64204123e0fc78f7474,eda901c3c8831db73f8e5675602cc5d7,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,,
 49f36ce561ba6cf0dcf00da3f1b62132,eda901c3c8831db73f8e5675602cc5d7,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,2,1,"01,02,03,04",
-5b675caad9e615e2953c05920d737e06,eda901c3c8831db73f8e5675602cc5d7,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MC|MJ|M|MS|R|RS|A)([0-9]*)?
+5b675caad9e615e2953c05920d737e06,eda901c3c8831db73f8e5675602cc5d7,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MC|MJ|M|MS|R|RS|A)(<ENTIER>)?
 8a5c3f4247f560a291d66daeb5ef80e6,eda901c3c8831db73f8e5675602cc5d7,IDURBA,"Identifiant du document d'urbanisme",String,30,,,
 8f8584b0049a98f5c639a7c0dc01aa9a,eda901c3c8831db73f8e5675602cc5d7,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,,
 9e2f244b68140f3215603b7761ac275f,eda901c3c8831db73f8e5675602cc5d7,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,,
