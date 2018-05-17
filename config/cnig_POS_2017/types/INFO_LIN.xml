@@ -88,9 +88,9 @@
     <attribute>
       <id><![CDATA[ab279dd49191a07470b9740f01c93898]]></id>
       <name><![CDATA[DATVALID]]></name>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Date]]></type>
       <size>8</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[d0a44df268fbf59f4cdcf42886aa5a6e]]></id>
