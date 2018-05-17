@@ -30,9 +30,9 @@
     <attribute>
       <id><![CDATA[6211c6e83ff6c1266fadefe8b2f19730]]></id>
       <name><![CDATA[DATVALID]]></name>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Date]]></type>
       <size>8</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[7d68b4486392bd89c1e130056ddcff91]]></id>

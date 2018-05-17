@@ -35,9 +35,9 @@
     <attribute>
       <id><![CDATA[7596a36cd45d957e55c926bf1340252a]]></id>
       <name><![CDATA[DATVALID]]></name>
-      <type><![CDATA[String]]></type>
+      <type><![CDATA[Date]]></type>
       <size>8</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[8306b685256c5bdd68cd02bd7a5b9f77]]></id>
