@@ -90,14 +90,13 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[(E|MJ|MS|R|A)([0-9]*)?]]></regexp>
+      <regexp><![CDATA[(E|MJ|MS|R|A)([0-9]+)?]]></regexp>
       <id><![CDATA[9bb913a3d905c21fee94b2a1e9bc5667]]></id>
       <name><![CDATA[NOMPROC]]></name>
       <description><![CDATA[Nom de la dernière procédure]]></description>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
-      <regexp><![CDATA[(E|MJ|MS|R|A)([0-9]*)?]]></regexp>
     </attribute>
     <attribute>
       <id><![CDATA[b2e824698b9bda6b770025ce6203974d]]></id>

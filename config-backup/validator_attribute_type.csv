@@ -50,7 +50,7 @@ faba85a54a5c4335242f0fa71cf3879a,0c72b242f1d003887fc88ccde2df8200,WKT,"Geométri
 8517b287a777ba98202896f573f0a982,0d389be06774b4a0a89792fb0ca0c952,TYPEDOC,"Type du document",String,4,,POS,
 8c946f9203ba5486ce56c2ba14a1270c,0d389be06774b4a0a89792fb0ca0c952,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,,
 953ec29541d6037d29ae0202b5abcf3a,0d389be06774b4a0a89792fb0ca0c952,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,,
-983704ddcc21ded593fb3dfbb58905f4,0d389be06774b4a0a89792fb0ca0c952,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MC|MJ|M|MS|R|RS|A)([0-9]*)?
+983704ddcc21ded593fb3dfbb58905f4,0d389be06774b4a0a89792fb0ca0c952,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MC|MJ|M|MS|R|RS|A)(<ENTIER>)?
 a31e3c2e827b7db5a09925eeab1acd12,0d389be06774b4a0a89792fb0ca0c952,ETAT,"Etat juridique du document d'urbanisme",String,2,,"01,02,03,04,05,06,07,08,09",
 c23fe86b00bf69796f5d1a934fb10826,0d389be06774b4a0a89792fb0ca0c952,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,,
 c8836601506b2ce476ebec6e2a677846,0d389be06774b4a0a89792fb0ca0c952,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,,
@@ -444,7 +444,7 @@ ea374e2cc093e2da5dbf5923e1217a3a,48061957cf85c558a3391d6ef42a43a1,WKT,"Geométri
 01d86434b8cc670606850eea59796228,48ac04777ad427d939e25ed2350f8787,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,2,1,"01,02,03,04",
 0c5e12d4ef9a37dd9f8371e3c7e8ee9a,48ac04777ad427d939e25ed2350f8787,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,,
 329a72cffd3511a4c03173d24f8e0dde,48ac04777ad427d939e25ed2350f8787,TYPEDOC,"Type du document",String,4,,PLUi,
-36c965396a4b904d2b044d6cef0a7d0d,48ac04777ad427d939e25ed2350f8787,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MC|MJ|M|MS|R|RS|A)([0-9]*)?
+36c965396a4b904d2b044d6cef0a7d0d,48ac04777ad427d939e25ed2350f8787,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MC|MJ|M|MS|R|RS|A)(<ENTIER>)?
 6208c3021324197c2dcbfa7c1b0544ce,48ac04777ad427d939e25ed2350f8787,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,,
 62aabfa9faa5d052ec0240b1d812e4f4,48ac04777ad427d939e25ed2350f8787,IDURBA,"Identifiant du document d'urbanisme",String,30,,,
 6518d7cc46cf4007341e061d835f7fc3,48ac04777ad427d939e25ed2350f8787,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,,
@@ -697,7 +697,7 @@ e6f86ffd869f4d812bc408fe4ae8b0f8,6db9d4021363fb98467e3ab42c50a3f4,INSEE,"Code IN
 7840c987706f926d80c333188f38fec1,6ed39a49e6859b0f4054f53c490fca8e,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,80,1,,
 80dfbb2314ddb682e26187589e9db9b4,6ed39a49e6859b0f4054f53c490fca8e,DATEREF,"Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",Date,,1,,
 92130de8f128de5bc3022553f54da31b,6ed39a49e6859b0f4054f53c490fca8e,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,,
-9bb913a3d905c21fee94b2a1e9bc5667,6ed39a49e6859b0f4054f53c490fca8e,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MJ|MS|R|A)([0-9]*)?
+9bb913a3d905c21fee94b2a1e9bc5667,6ed39a49e6859b0f4054f53c490fca8e,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MJ|MS|R|A)(<ENTIER>)?
 b2e824698b9bda6b770025ce6203974d,6ed39a49e6859b0f4054f53c490fca8e,TYPEDOC,"Type du document",String,4,,CC,
 bb185f53fc5132d5755648be588d5bb2,6ed39a49e6859b0f4054f53c490fca8e,IDURBA,"Identifiant du document d'urbanisme",String,30,,,
 bf7769036bf7a279de47eaf7e91cbfea,6ed39a49e6859b0f4054f53c490fca8e,SIREN,"Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",String,9,1,,
