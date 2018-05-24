@@ -161,21 +161,21 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/2_PADD/(2A|2B|[0-9]{2})[0-9]{3}_(PADD|padd)_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/2_PADD/(2A|2B|[0-9]{2})[0-9]{3}_padd_[0-9]{8}]]></path>
       <id><![CDATA[27fe726ab532cf8d3ceb0f1da472d23d]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PADD]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]*)?(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[e919d7516cf53d0207b5da21feacb4ef]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PRESCRIPTION]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[bec9ae57b2217a1820424f0e3a0d83ca]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[REGLEMENT_GRAPHIQUE]]></name>
@@ -211,7 +211,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[38a8d72e03d4de5c2b2ff45e68759575]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[ORIENTATIONS_AMENAGEMENT]]></name>
