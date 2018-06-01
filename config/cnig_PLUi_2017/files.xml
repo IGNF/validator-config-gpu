@@ -147,7 +147,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_rapport_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_rapport(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[24d7d7800ff9e508399c9a4ab5b6d9dd]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[RAPPORT]]></name>
@@ -168,7 +168,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[e919d7516cf53d0207b5da21feacb4ef]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PRESCRIPTION]]></name>
@@ -211,10 +211,24 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]+)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[38a8d72e03d4de5c2b2ff45e68759575]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[ORIENTATIONS_AMENAGEMENT]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/6_POA]]></path>
+      <id><![CDATA[3b01b6c44072c49b9fc95368dc8e4fc2]]></id>
+      <type><![CDATA[directory]]></type>
+      <name><![CDATA[6_POA]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
+      <path><![CDATA[Pieces_ecrites/6_POA/[^\/]*]]></path>
+      <id><![CDATA[fc61332cf8335e86fe35e1cfafefb375]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[POA]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
@@ -246,7 +260,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[fa864a584f870eac642aaca693ba8bfb]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[SECTEUR_REGLEMENT_GRAPHIQUE]]></name>
@@ -267,7 +281,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[0d4ea8e24e4d0e208d5af01e8b193d2b]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[SECTEUR_ORIENTATION_AMENAGEMENT]]></name>
