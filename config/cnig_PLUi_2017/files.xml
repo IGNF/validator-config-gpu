@@ -13,77 +13,77 @@
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_HABILLAGE_LIN_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_HABILLAGE_LIN_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[912f3c9e8e62d94e1b7ebf0409cd4520]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[HABILLAGE_LIN]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_HABILLAGE_PCT_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_HABILLAGE_PCT_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[7e96fb3ce89f65cbf5c7fe37de1a2461]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[HABILLAGE_PCT]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_HABILLAGE_SURF_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_HABILLAGE_SURF_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[17ce3607a5da65f43dfe6ffef69e9040]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[HABILLAGE_SURF]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_HABILLAGE_TXT_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_HABILLAGE_TXT_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[fd68af8f576dd3f12bafb043134dbc9d]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[HABILLAGE_TXT]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_INFO_LIN_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_INFO_LIN_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[ced6714d6db8f8544a6d8e0104854282]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[INFO_LIN]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_INFO_PCT_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_INFO_PCT_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[112c04f3f45250bd66d7d527571c35ac]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[INFO_PCT]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_INFO_SURF_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_INFO_SURF_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[da93b09016384976b13f44053fa7a270]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[INFO_SURF]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_PRESCRIPTION_LIN_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_PRESCRIPTION_LIN_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[e273787686480f0d7df0baa1f11620b6]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[PRESCRIPTION_LIN]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_PRESCRIPTION_PCT_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_PRESCRIPTION_PCT_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[7995ad6f242b461f93c27f40c12b4508]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[PRESCRIPTION_PCT]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_PRESCRIPTION_SURF_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_PRESCRIPTION_SURF_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[085bfd09dd98a8c83af9d58191d7089d]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[PRESCRIPTION_SURF]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_ZONE_URBA_[0-9]{8}]]></path>
+      <path><![CDATA[Donnees_geographiques/(2A|2B|[0-9]{2})[0-9]{3}_ZONE_URBA_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[2b8049b14c894b4b03792df6ae45e959]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[ZONE_URBA]]></name>
@@ -97,14 +97,14 @@
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}_DOC_URBA_COM_[0-9]{8}]]></path>
+      <path><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[06a6c8dd1b939334d22e34b9032166e3]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[DOC_URBA_COM]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}_DOC_URBA_[0-9]{8}]]></path>
+      <path><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[87de19635f42cdfbcfdba49eeab358ad]]></id>
       <type><![CDATA[table]]></type>
       <name><![CDATA[DOC_URBA]]></name>
@@ -125,7 +125,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/0_Procedure/(2A|2B|[0-9]{2})[0-9]{3}_procedure_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/0_Procedure/(2A|2B|[0-9]{2})[0-9]{3}_procedure_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[81339c7d151132e7fe465b1a2ec5be79]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PROCEDURE]]></name>
@@ -139,7 +139,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_eval_environnement_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_eval_environnement_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[14654b121ab67d64a5812a7d77911b13]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[EVALUATION_ENVIRONNEMENTALE]]></name>
@@ -147,7 +147,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_rapport(_[0-9]+)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[24d7d7800ff9e508399c9a4ab5b6d9dd]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[RAPPORT]]></name>
@@ -161,21 +161,21 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/2_PADD/(2A|2B|[0-9]{2})[0-9]{3}_padd_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/2_PADD/(2A|2B|[0-9]{2})[0-9]{3}_padd_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[27fe726ab532cf8d3ceb0f1da472d23d]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PADD]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[e919d7516cf53d0207b5da21feacb4ef]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PRESCRIPTION]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique(_[0-9]+)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[bec9ae57b2217a1820424f0e3a0d83ca]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[REGLEMENT_GRAPHIQUE]]></name>
@@ -183,7 +183,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[32e66d0bf8a4cfd8e5aaab5b6c117064]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[REGLEMENT]]></name>
@@ -211,7 +211,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[38a8d72e03d4de5c2b2ff45e68759575]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[ORIENTATIONS_AMENAGEMENT]]></name>
@@ -246,7 +246,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/7_Plan_de_secteur/[0-9]{9}_plan_de_secteurs_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/7_Plan_de_secteur/[0-9]{9}_plan_de_secteurs_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[cc898e8a0dd97c7dae499f2138549ffb]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PLAN_DE_SECTEURS]]></name>
@@ -260,14 +260,14 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique(_[0-9]+)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[fa864a584f870eac642aaca693ba8bfb]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[SECTEUR_REGLEMENT_GRAPHIQUE]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[76217c108fcfdec6026004feff148da6]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[SECTEUR_REGLEMENT]]></name>
@@ -281,7 +281,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[0d4ea8e24e4d0e208d5af01e8b193d2b]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[SECTEUR_ORIENTATION_AMENAGEMENT]]></name>
