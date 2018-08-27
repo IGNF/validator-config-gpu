@@ -47,7 +47,7 @@ faba85a54a5c4335242f0fa71cf3879a,0c72b242f1d003887fc88ccde2df8200,WKT,"Geométri
 5968481ac0f957d117920c5d0b70e7a8,0d389be06774b4a0a89792fb0ca0c952,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,254,1,,
 7284127ea346f24de28ba04a501d0d8b,0d389be06774b4a0a89792fb0ca0c952,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,,1,,
 7ccbcc1c5a2aa43eafe3a7ded452ce66,0d389be06774b4a0a89792fb0ca0c952,IDURBA,"Identifiant du document d'urbanisme",String,30,,,
-8517b287a777ba98202896f573f0a982,0d389be06774b4a0a89792fb0ca0c952,TYPEDOC,"Type du document",String,4,,POS,
+8517b287a777ba98202896f573f0a982,0d389be06774b4a0a89792fb0ca0c952,TYPEDOC,"Type du document",String,4,,"POS,PLU,PLUI,PSMV",
 8c946f9203ba5486ce56c2ba14a1270c,0d389be06774b4a0a89792fb0ca0c952,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,,1,,
 953ec29541d6037d29ae0202b5abcf3a,0d389be06774b4a0a89792fb0ca0c952,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,,
 983704ddcc21ded593fb3dfbb58905f4,0d389be06774b4a0a89792fb0ca0c952,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MC|MJ|M|MS|R|RS|A)(<ENTIER>)?
@@ -443,7 +443,7 @@ ea374e2cc093e2da5dbf5923e1217a3a,48061957cf85c558a3391d6ef42a43a1,WKT,"Geométri
 771bab29b5a678919c24640b8186c4f3,4886ea89cf49e9a0d0c1e621829578a8,WKT,"Geométrie associée",MultiPolygon,,,,
 01d86434b8cc670606850eea59796228,48ac04777ad427d939e25ed2350f8787,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,2,1,"01,02,03,04",
 0c5e12d4ef9a37dd9f8371e3c7e8ee9a,48ac04777ad427d939e25ed2350f8787,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,254,1,,
-329a72cffd3511a4c03173d24f8e0dde,48ac04777ad427d939e25ed2350f8787,TYPEDOC,"Type du document",String,4,,PLUi,
+329a72cffd3511a4c03173d24f8e0dde,48ac04777ad427d939e25ed2350f8787,TYPEDOC,"Type du document",String,4,,"POS,PLU,PLUI,PSMV",
 36c965396a4b904d2b044d6cef0a7d0d,48ac04777ad427d939e25ed2350f8787,NOMPROC,"Nom de la dernière procédure",String,10,1,,(E|MC|MJ|M|MS|R|RS|A)(<ENTIER>)?
 6208c3021324197c2dcbfa7c1b0544ce,48ac04777ad427d939e25ed2350f8787,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,,
 62aabfa9faa5d052ec0240b1d812e4f4,48ac04777ad427d939e25ed2350f8787,IDURBA,"Identifiant du document d'urbanisme",String,30,,,
@@ -1471,7 +1471,7 @@ d0ac01816e33151819d3a8a0ba0325b9,ed48b5f3aba35c0c1300ac5f9e70491e,ANGLE1,,Intege
 088d213c0513e560703a7970c75a1159,ed56b966c166e06376ff487dce229a7b,H,,Double,,1,,
 2abcb91f3c66a082d81426bc02e348fb,ed56b966c166e06376ff487dce229a7b,WKT,"Geométrie associée",MultiPolygon,,,,
 997e2bc3388d3c69f276b86454790b9f,ed56b966c166e06376ff487dce229a7b,HREF,,String,3,1,"SOL,NGF",
-0280d23130ebee86645c8f47c543fba3,eda901c3c8831db73f8e5675602cc5d7,TYPEDOC,"Type du document",String,4,,PLU,
+0280d23130ebee86645c8f47c543fba3,eda901c3c8831db73f8e5675602cc5d7,TYPEDOC,"Type du document",String,4,,"POS,PLU,PLUI,PSMV",
 0538b11db5e563df6d118f007e1b7a50,eda901c3c8831db73f8e5675602cc5d7,NOMREG,"Nom du fichier contentant le document complet du règlement",String,80,1,,
 0900247a44bbf5ed5c5aaf0b1f7e83b7,eda901c3c8831db73f8e5675602cc5d7,ETAT,"Etat juridique du document d'urbanisme",String,2,,"01,02,03,04,05,06,07,08,09",
 1cf4d72ea3ba9266eb3447e811790bca,eda901c3c8831db73f8e5675602cc5d7,SIREN,"Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",String,9,1,,
