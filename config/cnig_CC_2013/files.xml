@@ -108,7 +108,7 @@
       <id><![CDATA[60cd9830b31d33e96741bf2767f3fda7]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[ANNEXE]]></name>
-      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+      <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
       <path><![CDATA[Pieces_ecrites/Rapport_de_presentation]]></path>
@@ -122,7 +122,7 @@
       <id><![CDATA[345c7db79b41a27e5c66d6750d1d96c4]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[RAPPORT]]></name>
-      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+      <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
   </files>
 </document>
