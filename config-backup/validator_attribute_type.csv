@@ -1,4 +1,4 @@
-id,feature_type_id,name,description,type,size,nullable,list_of_values,regexp,attribute_constraint,feature_reference,is_identifiant
+id,feature_type_id,name,description,type,size,nullable,list_of_values,regexp,attribute_constraint,feature_reference,is_identifier
 3d49314665f814253eb74d34721160ac,001b5d53f09e518ed2866f76c52a3466,WKT,"Geométrie associée",MultiPolygon,,,,,,,
 2a73df3933b175e791a788de6c0512ec,0101a4e61be6bf61fe6436475eb82d0c,WKT,"Geométrie associée",MultiLineString,,,,,,,
 79c98b6f01307c3cf1446f0e468b5609,016facc067178504829763fb0eefd47a,WKT,"Geométrie associée",MultiPolygon,,,,,,,
