@@ -5,10 +5,12 @@
   <description><![CDATA[Table contenant les zones d'un document PLU ou POS]]></description>
   <attributes>
     <attribute>
+      <regexp><![CDATA[[0-9]{8}]]></regexp>
       <id><![CDATA[069d94c89903d2e4b167e397b0cea890]]></id>
       <name><![CDATA[DATAPPRO]]></name>
       <description><![CDATA[Date de la dernière approbation de la zone]]></description>
-      <type><![CDATA[Date]]></type>
+      <type><![CDATA[String]]></type>
+      <size>8</size>
       <nullable>true</nullable>
     </attribute>
     <attribute>
