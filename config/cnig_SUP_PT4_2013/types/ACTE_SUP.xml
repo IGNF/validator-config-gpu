@@ -89,7 +89,7 @@
       <description><![CDATA[Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte]]></description>
       <type><![CDATA[Filename]]></type>
       <size>254</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[fcc4e2f9187897acbf4fd14f43eb42a5]]></id>
