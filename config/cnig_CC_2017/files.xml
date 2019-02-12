@@ -101,7 +101,7 @@
       <id><![CDATA[e64b70bb80f01e22d5eb0e5a7a0f9a94]]></id>
       <type><![CDATA[directory]]></type>
       <name><![CDATA[Procedures]]></name>
-      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+      <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
       <path><![CDATA[Pieces_ecrites/0_Procedure/[^\/]*]]></path>
@@ -115,7 +115,7 @@
       <id><![CDATA[207c0676e8d65f2b40fe759a29d22c4d]]></id>
       <type><![CDATA[directory]]></type>
       <name><![CDATA[Rapport_de_presentation]]></name>
-      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+      <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
       <path><![CDATA[Pieces_ecrites/1_Rapport_de_presentation/(2A|2B|[0-9]{2})[0-9]{3}_rapport(_[0-9]+)?_[0-9]{8}]]></path>
@@ -129,7 +129,7 @@
       <id><![CDATA[68d9e9f5782b2720a7352033accdc492]]></id>
       <type><![CDATA[directory]]></type>
       <name><![CDATA[Annexes]]></name>
-      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+      <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
       <path><![CDATA[Pieces_ecrites/4_Annexes/[^\/]*]]></path>
