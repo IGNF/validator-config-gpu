@@ -20,7 +20,7 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{8}]]></regexp>
+      <regexp><![CDATA[[0-9]{8}|[0-9]{4}]]></regexp>
       <id><![CDATA[3341e3224b64ed03334997662f8b49d7]]></id>
       <name><![CDATA[DATEREF]]></name>
       <description><![CDATA[Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.]]></description>

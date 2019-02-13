@@ -82,7 +82,7 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{8}]]></regexp>
+      <regexp><![CDATA[[0-9]{8}|[0-9]{4}]]></regexp>
       <id><![CDATA[70d2b9dc09d440316d8bae1ef622994b]]></id>
       <name><![CDATA[DATEREF]]></name>
       <description><![CDATA[Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.]]></description>

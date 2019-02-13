@@ -5,7 +5,7 @@
   <description><![CDATA[Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée]]></description>
   <attributes>
     <attribute>
-      <regexp><![CDATA[[0-9]{8}]]></regexp>
+      <regexp><![CDATA[[0-9]{8}|[0-9]{4}]]></regexp>
       <id><![CDATA[021fcfbe71b7db9eb0ede47bd3bfdde9]]></id>
       <name><![CDATA[DATEREF]]></name>
       <description><![CDATA[Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.]]></description>
