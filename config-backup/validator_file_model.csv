@@ -169,7 +169,7 @@ ff3b5e373e5ea2569fa14a38875763d9,549d80d774bc11bbea9ad213210b9a3d,table,HABILLAG
 112c04f3f45250bd66d7d527571c35ac,55d03b797785ba6501364707bf8d8ec4,table,INFO_PCT,,Donnees_geographiques/<SIREN>_INFO_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 14654b121ab67d64a5812a7d77911b13,55d03b797785ba6501364707bf8d8ec4,pdf,EVALUATION_ENVIRONNEMENTALE,"L'évaluation environnementale",Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 17ce3607a5da65f43dfe6ffef69e9040,55d03b797785ba6501364707bf8d8ec4,table,HABILLAGE_SURF,,Donnees_geographiques/<SIREN>_HABILLAGE_SURF_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-19e7c3b4728e2cce696362023a83ba96,55d03b797785ba6501364707bf8d8ec4,directory,7_Plan_de_secteur,,Pieces_ecrites/7_Plan_de_secteur,OPTIONAL
+19e7c3b4728e2cce696362023a83ba96,55d03b797785ba6501364707bf8d8ec4,directory,7_Plans_de_secteur,,Pieces_ecrites/7_Plans_de_secteur,OPTIONAL
 21ad9ba9b244cac05b9020d128b3435f,55d03b797785ba6501364707bf8d8ec4,directory,2_PADD,,Pieces_ecrites/2_PADD,ERROR
 23ac928202baa37bef7f2a8f2394ffb1,55d03b797785ba6501364707bf8d8ec4,directory,Secteur_Orientation_amenagament,,Pieces_ecrites/7_Plans_de_secteur/Secteur_<PART>/5_Orientations_amenagement,OPTIONAL
 24d7d7800ff9e508399c9a4ab5b6d9dd,55d03b797785ba6501364707bf8d8ec4,pdf,RAPPORT,,Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_rapport(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
@@ -181,7 +181,7 @@ ff3b5e373e5ea2569fa14a38875763d9,549d80d774bc11bbea9ad213210b9a3d,table,HABILLAG
 38a8d72e03d4de5c2b2ff45e68759575,55d03b797785ba6501364707bf8d8ec4,pdf,ORIENTATIONS_AMENAGEMENT,,Pieces_ecrites/5_Orientations_amenagement/<SIREN>_orientations(_amenagement)?(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 3b01b6c44072c49b9fc95368dc8e4fc2,55d03b797785ba6501364707bf8d8ec4,directory,6_POA,,Pieces_ecrites/6_POA,OPTIONAL
 3e6adddb76196b5b4936f1ce5c0a8073,55d03b797785ba6501364707bf8d8ec4,directory,1_Rapport_de_presentation,,Pieces_ecrites/1_Rapport_de_presentation,ERROR
-687f4405e8197b6b6e5368f28e73bdd7,55d03b797785ba6501364707bf8d8ec4,directory,Secteur,,Pieces_ecrites/7_Plan_de_secteur/Secteur_<PART>,OPTIONAL
+687f4405e8197b6b6e5368f28e73bdd7,55d03b797785ba6501364707bf8d8ec4,directory,Secteur,,Pieces_ecrites/7_Plans_de_secteur/Secteur_<PART>,OPTIONAL
 76217c108fcfdec6026004feff148da6,55d03b797785ba6501364707bf8d8ec4,pdf,SECTEUR_REGLEMENT,,Pieces_ecrites/7_Plans_de_secteur/Secteur_<PART>/3_Reglement/<SIREN>_reglement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 7995ad6f242b461f93c27f40c12b4508,55d03b797785ba6501364707bf8d8ec4,table,PRESCRIPTION_PCT,,Donnees_geographiques/<SIREN>_PRESCRIPTION_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 7e96fb3ce89f65cbf5c7fe37de1a2461,55d03b797785ba6501364707bf8d8ec4,table,HABILLAGE_PCT,,Donnees_geographiques/<SIREN>_HABILLAGE_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
@@ -192,7 +192,7 @@ ff3b5e373e5ea2569fa14a38875763d9,549d80d774bc11bbea9ad213210b9a3d,table,HABILLAG
 a5a1786fe61f97522fbd15fe6e88114c,55d03b797785ba6501364707bf8d8ec4,directory,Donnees_geographiques,,Donnees_geographiques,ERROR
 b3cc28a5d738b5d780d754737f6b33ed,55d03b797785ba6501364707bf8d8ec4,metadata,METADONNEES,,<FILENAME>,ERROR
 bec9ae57b2217a1820424f0e3a0d83ca,55d03b797785ba6501364707bf8d8ec4,pdf,REGLEMENT_GRAPHIQUE,"Le règlement graphique",Pieces_ecrites/3_Reglement/<SIREN>_reglement_graphique(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-cc898e8a0dd97c7dae499f2138549ffb,55d03b797785ba6501364707bf8d8ec4,pdf,PLAN_DE_SECTEURS,,Pieces_ecrites/7_Plan_de_secteur/<SIREN>_plan_de_secteurs_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+cc898e8a0dd97c7dae499f2138549ffb,55d03b797785ba6501364707bf8d8ec4,pdf,PLAN_DE_SECTEURS,,Pieces_ecrites/7_Plans_de_secteur/<SIREN>_plan_de_secteurs_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 ced6714d6db8f8544a6d8e0104854282,55d03b797785ba6501364707bf8d8ec4,table,INFO_LIN,,Donnees_geographiques/<SIREN>_INFO_LIN_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 cf0a821e6738f178806ff56c676f956b,55d03b797785ba6501364707bf8d8ec4,directory,4_Annexes,,Pieces_ecrites/4_Annexes,ERROR
 da93b09016384976b13f44053fa7a270,55d03b797785ba6501364707bf8d8ec4,table,INFO_SURF,,Donnees_geographiques/<SIREN>_INFO_SURF_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
