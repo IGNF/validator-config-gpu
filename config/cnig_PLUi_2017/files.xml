@@ -231,18 +231,11 @@
       <name><![CDATA[7_Plans_de_secteur]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
-    <file>ss
+    <file>
       <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]]]></path>
       <id><![CDATA[687f4405e8197b6b6e5368f28e73bdd7]]></id>
       <type><![CDATA[directory]]></type>
       <name><![CDATA[Secteur]]></name>
-      <mandatory><![CDATA[OPTIONAL]]></mandatory>
-    </file>
-    <file>
-      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/[0-9]{9}_plan_de_secteurs_[0-9]{8}(_[a-zA-Z])?]]></path>
-      <id><![CDATA[cc898e8a0dd97c7dae499f2138549ffb]]></id>
-      <type><![CDATA[pdf]]></type>
-      <name><![CDATA[PLAN_DE_SECTEURS]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
@@ -281,6 +274,13 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
+      <path><![CDATA[Pieces_ecrites/7_Plans_de_secteur/[0-9]{9}_plan_de_secteurs_[0-9]{8}(_[a-zA-Z])?]]></path>
+      <id><![CDATA[cc898e8a0dd97c7dae499f2138549ffb]]></id>
+      <type><![CDATA[pdf]]></type>
+      <name><![CDATA[PLAN_DE_SECTEURS]]></name>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
+    </file>
+    <file>
       <path><![CDATA[[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[06a6c8dd1b939334d22e34b9032166e3]]></id>
       <type><![CDATA[table]]></type>
@@ -296,4 +296,3 @@
     </file>
   </files>
 </document>
-
