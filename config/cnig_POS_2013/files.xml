@@ -188,14 +188,14 @@
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_info_(pct|lin|surf)_(_[0-9]*)?(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_info_(pct|lin|surf)(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[1ff1896661c61eb48f58523afca4ccce]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[INFORMATION]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(pct|lin|surf)(_[0-9]*)?(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(pct|lin|surf)(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[ba53ac51bc9dbb101fc549dd81822a46]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PRESCRIPTION]]></name>
@@ -209,7 +209,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations_amenagement(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations_amenagement(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[369f98daad1ea1009c21b1c520a9e082]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[ORIENTATIONS_AMENAGEMENT]]></name>
