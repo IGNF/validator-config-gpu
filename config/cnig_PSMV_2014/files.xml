@@ -125,7 +125,7 @@
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/0_Procedure/(2A|2B|[0-9]{2})[0-9]{3}_procedure_(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
+      <path><![CDATA[Pieces_ecrites/0_Procedure/(2A|2B|[0-9]{2})[0-9]{3}_procedure(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[d8c95096656b298ceb37138953f77d4a]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PROCEDURE]]></name>
@@ -182,14 +182,14 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[e78b5301e71be1f3a1accc9113a8558a]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[REGLEMENT]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique_(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
+      <path><![CDATA[Pieces_ecrites/3_Reglement/(2A|2B|[0-9]{2})[0-9]{3}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[d4ed9e8634b669769bb6edc110efdddf]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[REGLEMENT_GRAPHIQUE]]></name>

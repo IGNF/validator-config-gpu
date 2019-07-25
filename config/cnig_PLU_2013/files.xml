@@ -174,14 +174,14 @@
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_info_(pct|lin|surf)_(_[0-9]*)?(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_info_(pct|lin|surf)(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[35f988bef2b0b1354742b23d4b9d0180]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[INFORMATION]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(pct|lin|surf)(_[0-9]*)?(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/4_Annexes/(2A|2B|[0-9]{2})[0-9]{3}_prescription_(pct|lin|surf)(_[0-9]+)?(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[5146d8bcf7259effc863b3ba2655b6dc]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[PRESCRIPTION]]></name>
@@ -195,7 +195,7 @@
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations_amenagement(_[0-9]*)?_[0-9]{8}]]></path>
+      <path><![CDATA[Pieces_ecrites/5_Orientations_amenagement/(2A|2B|[0-9]{2})[0-9]{3}_orientations_amenagement(_[0-9]+)?_[0-9]{8}]]></path>
       <id><![CDATA[826ae4c2498a9b87ae56e83bce094664]]></id>
       <type><![CDATA[pdf]]></type>
       <name><![CDATA[ORIENTATIONS_AMENAGEMENT]]></name>
