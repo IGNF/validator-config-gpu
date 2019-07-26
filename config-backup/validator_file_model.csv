@@ -415,10 +415,20 @@ f02d11e65291bef5c66d3a336752c6ec,8d15aaa717a926035178e321b57cc1f2,table,EL7_ASSI
 e111edbc6e0a624ad94c0bfde51fdad3,8e3cb4686b410f456c3490bc17d4f6ec,table,I8_ASSIETTE_SUP_S,,Donnees_geographiques/I8_ASSIETTE_SUP_S,OPTIONAL
 665d2d633f085d79f30d25e2747107e6,8eb24440841201f14a6e44f15cf91aea,table,EL11_ASSIETTE_SUP_S,,Donnees_geographiques/EL11_ASSIETTE_SUP_S(_<DDD>)?,OPTIONAL
 b25a199337968e93ed30467523e9d490,8eb24440841201f14a6e44f15cf91aea,table,EL11_GENERATEUR_SUP_L,,Donnees_geographiques/EL11_GENERATEUR_SUP_L(_<DDD>)?,OPTIONAL
-266250a2dc3ce5526ec99b2de853c3b8,92cf99dd815bf0cc3a26e70b9ef68c8c,pdf,RAPPORT,,<SIREN>_rapport_<YYYYMMDD>,WARN
-42986519e27c8f83a99db14cb6698148,92cf99dd815bf0cc3a26e70b9ef68c8c,pdf,PADD,,<SIREN>_padd_<YYYYMMDD>,WARN
-9c14238c59a7bfd01f9dc7035d7d187e,92cf99dd815bf0cc3a26e70b9ef68c8c,table,SCOT,,SCOT,OPTIONAL
-ae873609567b5afff04997deedaeb632,92cf99dd815bf0cc3a26e70b9ef68c8c,pdf,DOO,,<SIREN>_doo_<YYYYMMDD>,WARN
+02c946d1e93a2b00f0f44c43ed35a562,92cf99dd815bf0cc3a26e70b9ef68c8c,directory,2_Autres_documents,,Pieces_ecrites/2_Autres_documents,ERROR
+10d4f330c1e2bb1a5629b9aa3ae9fa94,92cf99dd815bf0cc3a26e70b9ef68c8c,directory,Donnees_geographiques,,Donnees_geographiques,ERROR
+266250a2dc3ce5526ec99b2de853c3b8,92cf99dd815bf0cc3a26e70b9ef68c8c,pdf,RAPPORT,,Pieces_ecrites/1_SCOT/<SIREN>_rapport(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,WARN
+42986519e27c8f83a99db14cb6698148,92cf99dd815bf0cc3a26e70b9ef68c8c,pdf,PADD,,Pieces_ecrites/1_SCOT/<SIREN>_padd(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+4312d8d9a2daa8ed99a02c38e4f14281,92cf99dd815bf0cc3a26e70b9ef68c8c,directory,Pieces_ecrites,,Pieces_ecrites,ERROR
+63496d5a88e6125e93ac6be8b6fa956e,92cf99dd815bf0cc3a26e70b9ef68c8c,directory,0_Procedure,,Pieces_ecrites/0_Procedure,ERROR
+7a5838bf0547be2a0e75968d5943c604,92cf99dd815bf0cc3a26e70b9ef68c8c,pdf,PROCEDURE,,Pieces_ecrites/0_Procedure/<SIREN>_procedure(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+7ef4c206b08d12883dbcf9fcf8b17618,92cf99dd815bf0cc3a26e70b9ef68c8c,table,DOC_URBA,"Table géographique portant la géométrie du périmètre du SCOT approuvé",Donnees_geographiques/<SIREN>_DOC_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+8eeb5b3bd9de308140f13e84099d3242,92cf99dd815bf0cc3a26e70b9ef68c8c,table,DOC_URBA_COM,"Table non géographique associant le SCOT aux communes auxquelles il s’applique",Donnees_geographiques/<SIREN>_DOC_URBA_COM_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+944f9abfbf49bf636d3791468039eab6,92cf99dd815bf0cc3a26e70b9ef68c8c,metadata,METADONNEES,,<FILENAME>,ERROR
+9c14238c59a7bfd01f9dc7035d7d187e,92cf99dd815bf0cc3a26e70b9ef68c8c,table,PERIMETRE_SCOT,"Périmètre du SCOT",Donnees_geographiques/<SIREN>_PERIMETRE_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+ae873609567b5afff04997deedaeb632,92cf99dd815bf0cc3a26e70b9ef68c8c,pdf,DOO,,Pieces_ecrites/1_SCOT/<SIREN>_doo(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+d81e638b3eefd9f362c13acaa4da40e8,92cf99dd815bf0cc3a26e70b9ef68c8c,pdf,AUTRE_DOCUMENT,,Pieces_ecrites/2_Autres_documents/<FILENAME>,OPTIONAL
+ef5476e85180361636e05222a9ea20b2,92cf99dd815bf0cc3a26e70b9ef68c8c,directory,1_SCOT,,Pieces_ecrites/1_SCOT,ERROR
 84e18dc154c397f7614c1d35359a50be,93bacdd71072b6a9432fea5f64c47b19,table,AS2_ASSIETTE_SUP_S,,Donnees_geographiques/AS2_ASSIETTE_SUP_S(_<DDD>)?,OPTIONAL
 d5316c776673247cd1260ced881a3a6e,93bacdd71072b6a9432fea5f64c47b19,table,AS2_GENERATEUR_SUP_S,,Donnees_geographiques/AS2_GENERATEUR_SUP_S(_<DDD>)?,OPTIONAL
 4b371e4d6b206aee4e62275f5eee7f45,97a7ce1d8d58eaf02c3e661a08923f2d,table,T6_GENERATEUR_SUP_S,,Donnees_geographiques/T6_GENERATEUR_SUP_S(_<DDD>)?,OPTIONAL
