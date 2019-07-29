@@ -18,10 +18,12 @@
       </listOfValues>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <id><![CDATA[12ce35e905b8d0930c13b6b734819c77]]></id>
       <name><![CDATA[IDGEST]]></name>
       <description><![CDATA[Identifiant du gestionnaire de la SUP]]></description>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[String]]></type>
+      <size>9</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>

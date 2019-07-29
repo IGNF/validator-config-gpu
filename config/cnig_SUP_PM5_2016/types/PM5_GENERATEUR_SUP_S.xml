@@ -56,8 +56,7 @@
       <id><![CDATA[cd6f1e74c85a9107aee7db667ccb297d]]></id>
       <name><![CDATA[DATESRCGEN]]></name>
       <description><![CDATA[Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
-      <type><![CDATA[String]]></type>
-      <size>25</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -91,10 +90,12 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <id><![CDATA[170b14287759b84da706f7dab536b4b3]]></id>
       <name><![CDATA[IDGEN]]></name>
       <description><![CDATA[Identifiant du générateur]]></description>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[String]]></type>
+      <size>9</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>
@@ -140,7 +141,8 @@
       <id><![CDATA[de06e761999ed4d6e360db3fc863b14b]]></id>
       <name><![CDATA[IDSUP]]></name>
       <description><![CDATA[Identifiant de la SUP]]></description>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[String]]></type>
+      <size>40</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>
