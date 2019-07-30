@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
-  <regexp><![CDATA[[0-9]{9}_SCOT]]></regexp>
+  <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
   <id><![CDATA[92cf99dd815bf0cc3a26e70b9ef68c8c]]></id>
   <name><![CDATA[cnig_SCoT_2018]]></name>
   <description><![CDATA[maillage_SCoT_datappro(_part)]]></description>
