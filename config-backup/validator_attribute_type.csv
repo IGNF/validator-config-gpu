@@ -1066,6 +1066,7 @@ d8d57de57b95c05a6e78d8566ac8894b,a3ea3dfe38ee9cf36ace247dbc206a6c,WKT,"Geométri
 956138a6f5718530b01985649660e8cb,a4db8a7654628af7addbfd87b3df881e,NOMGEST,"Nom de l'organisme gestionnaire",String,80,,,,,,
 a37af33386dfe5ddeddc430d23ef1d57,a4db8a7654628af7addbfd87b3df881e,COURRIEL,"Adresse électronique du point de contact chez le service gestionnaire",String,80,1,,,,,
 16c703a7151c97451c514e3355dadda2,a4f9d209294be8a98bb1da3512019085,IDURBA,"Identifiant du SCOT (cf table DOC_URBA)",String,30,,,<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?,,,
+f71549633ecf4e345b9c8118aa832ec6,a4f9d209294be8a98bb1da3512019085,WKT,"Geométrie associée",MultiPolygon,,,,,,,
 290143d8cfb7ab7e5f936b89bc24b1b1,a8aab9d21293bba32540b36ed25ad7a7,WKT,"Geométrie associée",MultiLineString,,,,,,,
 4454e6783deebd51a75a34223d888faf,a8c6102eb8623c0f956616d37ff3509b,ADRESSE,"Adresse du monument",String,254,1,,,,,
 563eb7e95793a89db9af0b65ab7f7680,a8c6102eb8623c0f956616d37ff3509b,TYPE,"type du monument",String,10,1,"Inscrit,Classé,Mixte",,,,
