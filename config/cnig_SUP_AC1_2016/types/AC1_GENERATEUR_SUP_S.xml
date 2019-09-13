@@ -56,8 +56,7 @@
       <id><![CDATA[cd6f1e74c85a9107aee7db667ccb297d]]></id>
       <name><![CDATA[DATESRCGEN]]></name>
       <description><![CDATA[Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
-      <type><![CDATA[String]]></type>
-      <size>25</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -87,7 +86,7 @@
       <name><![CDATA[ADRESSE]]></name>
       <description><![CDATA[Adresse du monument]]></description>
       <type><![CDATA[String]]></type>
-      <size>100</size>
+      <size>254</size>
       <nullable>true</nullable>
     </attribute>
     <attribute>

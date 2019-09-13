@@ -22,7 +22,7 @@
       <description><![CDATA[Date de la dernière modification apportée à la servitude]]></description>
       <type><![CDATA[String]]></type>
       <size>8</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[29b216511462b7df7249a621db408018]]></id>
