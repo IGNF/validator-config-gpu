@@ -63,7 +63,7 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <regexp><![CDATA[<CATEGORIE>_<RADICAL>(_GEN<NUM>)?_<SUFFIXE_ASS>]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_]+(_gen[0-9]+)?_(ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
       <id><![CDATA[7ce21352d63b22c3cb0857f61aeedda8]]></id>
       <name><![CDATA[NOMASS]]></name>
       <description><![CDATA[Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP]]></description>
@@ -84,7 +84,6 @@
       <name><![CDATA[H]]></name>
       <type><![CDATA[Double]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d1ad7e286322d3d3fdd4fa860d9e8f56]]></id>
@@ -92,7 +91,6 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d460a5f77065d36c3607c9265065c767]]></id>
@@ -104,7 +102,6 @@
         <value><![CDATA[SOL]]></value>
         <value><![CDATA[NGF]]></value>
       </listOfValues>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
 </featureType>

@@ -62,7 +62,7 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[<CATEGORIE>_<RADICAL>_[0-9]{8}_ACT]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_]+_[0-9]{8}_act]]></regexp>
       <id><![CDATA[a8833ccb9cc32ac1d6279678de4d6ac0]]></id>
       <name><![CDATA[NOMACTE]]></name>
       <description><![CDATA[Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP]]></description>
@@ -85,7 +85,7 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[<CATEGORIE>_<RADICAL>(_[0-9]{8})?_act.pdf]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_]+(_[0-9]{8})?_act.pdf]]></regexp>
       <id><![CDATA[f84224b7dd622513260e6cc8a3bb2e0d]]></id>
       <name><![CDATA[FICHIER]]></name>
       <description><![CDATA[Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte]]></description>
