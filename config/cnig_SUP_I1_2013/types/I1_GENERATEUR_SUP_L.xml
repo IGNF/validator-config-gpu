@@ -65,6 +65,7 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
+      <regexp><![CDATA[<CATEGORIE>_<RADICAL>_GEN(<NUM>)?]]></regexp>
       <id><![CDATA[dbff3aecc6bba23c7b9d6ab419537b04]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
@@ -79,6 +80,13 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[02795c8def31296ff68e3f9ed0f77a05]]></id>
+      <name><![CDATA[TYPE]]></name>
+      <type><![CDATA[String]]></type>
+      <size>20</size>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[0dcfcda8326add55e376369967215bbe]]></id>

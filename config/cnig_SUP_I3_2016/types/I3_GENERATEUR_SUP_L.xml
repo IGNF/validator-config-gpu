@@ -29,6 +29,7 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
+      <regexp><![CDATA[<CATEGORIE>_<RADICAL>_GEN(<NUM>)?]]></regexp>
       <id><![CDATA[6df265cfe2e5843c327bcd3c8656c299]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
@@ -86,6 +87,13 @@
       <name><![CDATA[WKT]]></name>
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[434f2c468550a874dda84262c40d8785]]></id>
+      <name><![CDATA[TYPE]]></name>
+      <type><![CDATA[String]]></type>
+      <size>20</size>
       <nullable>false</nullable>
     </attribute>
   </attributes>

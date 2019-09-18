@@ -63,6 +63,7 @@
       </listOfValues>
     </attribute>
     <attribute>
+      <regexp><![CDATA[<CATEGORIE>_<RADICAL>(_GEN<NUM>)?_<SUFFIXE_ASS>]]></regexp>
       <id><![CDATA[7ce21352d63b22c3cb0857f61aeedda8]]></id>
       <name><![CDATA[NOMASS]]></name>
       <description><![CDATA[Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP]]></description>
@@ -82,7 +83,7 @@
       <id><![CDATA[0dc1ea9479cb6d1d920fd15b8e8de0c9]]></id>
       <name><![CDATA[ANGLE1]]></name>
       <type><![CDATA[Integer]]></type>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[7670cc54ede4838bda9367e5a1bd00ff]]></id>
@@ -95,26 +96,26 @@
       <id><![CDATA[bfa8f3fe8fa6720400d1a82cfcf96b1e]]></id>
       <name><![CDATA[H]]></name>
       <type><![CDATA[Double]]></type>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[cb10652d12c1127fb053d1d47f93597d]]></id>
       <name><![CDATA[ANGLE2]]></name>
       <type><![CDATA[Integer]]></type>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[cdeec3147acac8f3c28f3e9f677a2fe7]]></id>
       <name><![CDATA[RAYON]]></name>
       <type><![CDATA[Integer]]></type>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[d611bb9d2543e5d694bce24fd9a579b2]]></id>
       <name><![CDATA[HREF]]></name>
       <type><![CDATA[String]]></type>
       <size>3</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[SOL]]></value>
         <value><![CDATA[NGF]]></value>

@@ -69,6 +69,7 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
+      <regexp><![CDATA[<CATEGORIE>_<RADICAL>(_GEN<NUM>)?_<SUFFIXE_ASS>]]></regexp>
       <id><![CDATA[efc4d73337d1cabd3e5a8f66d88238f0]]></id>
       <name><![CDATA[NOMASS]]></name>
       <description><![CDATA[Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP]]></description>

@@ -12,7 +12,6 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[[0-9]{9}]]></regexp>
@@ -22,7 +21,6 @@
       <type><![CDATA[String]]></type>
       <size>9</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
@@ -32,8 +30,6 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
-  <abstract>false</abstract>
 </featureType>
