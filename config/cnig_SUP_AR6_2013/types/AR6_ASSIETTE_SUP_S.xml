@@ -69,7 +69,7 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_]+(_gen[0-9]+)?_(ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_]+(_gen<NUM>)?_(ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
       <id><![CDATA[efc4d73337d1cabd3e5a8f66d88238f0]]></id>
       <name><![CDATA[NOMASS]]></name>
       <description><![CDATA[Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP]]></description>

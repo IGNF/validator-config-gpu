@@ -36,6 +36,16 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
+      <regexp><![CDATA[POIN([0-9]+)?]]></regexp>
+      <id><![CDATA[b317462d1fc1ea40c668d8060a0578c1]]></id>
+      <name><![CDATA[IDINFO]]></name>
+      <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
       <id><![CDATA[ba02ef06eb5e09a5ad02690bfb56daf7]]></id>
       <name><![CDATA[LIBELLE]]></name>
       <description><![CDATA[Nom complet de l'information]]></description>

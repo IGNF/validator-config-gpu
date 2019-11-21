@@ -27,5 +27,15 @@
       <size>40</size>
       <nullable>true</nullable>
     </attribute>
+    <attribute>
+      <regexp><![CDATA[HP([0-9]+)?]]></regexp>
+      <id><![CDATA[ea366eccd959e1519c1f75c509ee437a]]></id>
+      <name><![CDATA[IDHAB]]></name>
+      <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
   </attributes>
 </featureType>

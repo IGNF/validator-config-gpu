@@ -59,6 +59,16 @@
       </listOfValues>
     </attribute>
     <attribute>
+      <regexp><![CDATA[PERI([0-9]+)?]]></regexp>
+      <id><![CDATA[8827a537256100a0615765e0b822df33]]></id>
+      <name><![CDATA[IDINFO]]></name>
+      <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
       <id><![CDATA[8cc5f0b5fae22b8a5455d9e5b579467a]]></id>
       <name><![CDATA[TXT]]></name>
       <description><![CDATA[Nom court du périmètre servant à faire une étiquette]]></description>

@@ -51,6 +51,16 @@
       </listOfValues>
     </attribute>
     <attribute>
+      <regexp><![CDATA[POIN([0-9]+)?]]></regexp>
+      <id><![CDATA[8836c9ab5a6319655b9e170406749984]]></id>
+      <name><![CDATA[IDINFO]]></name>
+      <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
       <id><![CDATA[92190c97d1afcd247404125ddba2c26f]]></id>
       <name><![CDATA[INSEE]]></name>
       <description><![CDATA[Code INSEE de la commune concernée par l'information]]></description>

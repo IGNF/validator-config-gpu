@@ -29,6 +29,16 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
+      <regexp><![CDATA[Z([0-9]+)?]]></regexp>
+      <id><![CDATA[24fcb2ce92ad038bc42134217ff869d2]]></id>
+      <name><![CDATA[IDZONE]]></name>
+      <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <type><![CDATA[String]]></type>
+      <size>10</size>
+      <nullable>true</nullable>
+      <identifier>false</identifier>
+    </attribute>
+    <attribute>
       <id><![CDATA[3691f75759c53393851f30fffcce7635]]></id>
       <name><![CDATA[WKT]]></name>
       <description><![CDATA[Geométrie associée]]></description>
