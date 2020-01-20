@@ -10,7 +10,7 @@
       <description><![CDATA[Identifiant du document d'urbanisme]]></description>
       <type><![CDATA[String]]></type>
       <size>30</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[e19cec31b77317ff0d4daeb0aba10d47]]></id>
