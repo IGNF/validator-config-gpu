@@ -94,7 +94,7 @@
       <name><![CDATA[DIAMETRE]]></name>
       <description><![CDATA[Diamètre de la canalisation en mm]]></description>
       <type><![CDATA[Integer]]></type>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[f56186da42cf9ede872b5cbc2883d314]]></id>
