@@ -163,7 +163,7 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_]+_sup]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-]+_sup]]></regexp>
       <id><![CDATA[a30491be7fff04a4dc4cadc8baa9fb58]]></id>
       <name><![CDATA[NOMSUP]]></name>
       <description><![CDATA[Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP]]></description>
