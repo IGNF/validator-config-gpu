@@ -5,12 +5,10 @@
   <description><![CDATA[Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée]]></description>
   <attributes>
     <attribute>
-      <regexp><![CDATA[[0-9]{8}|[0-9]{4}]]></regexp>
       <id><![CDATA[021fcfbe71b7db9eb0ede47bd3bfdde9]]></id>
       <name><![CDATA[DATEREF]]></name>
       <description><![CDATA[Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.]]></description>
-      <type><![CDATA[String]]></type>
-      <size>8</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -88,12 +86,10 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{8}]]></regexp>
       <id><![CDATA[8c946f9203ba5486ce56c2ba14a1270c]]></id>
       <name><![CDATA[DATAPPRO]]></name>
       <description><![CDATA[Date de la dernière approbation administrative du document d'urbanisme]]></description>
-      <type><![CDATA[String]]></type>
-      <size>8</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>

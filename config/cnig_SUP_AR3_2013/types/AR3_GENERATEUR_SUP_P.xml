@@ -23,8 +23,7 @@
       <id><![CDATA[42cd1e3145f31264de0e3bc881ff3655]]></id>
       <name><![CDATA[DATESRCGEN]]></name>
       <description><![CDATA[Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
-      <type><![CDATA[String]]></type>
-      <size>25</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>

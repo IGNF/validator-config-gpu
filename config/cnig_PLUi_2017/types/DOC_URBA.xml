@@ -66,12 +66,10 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{8}]]></regexp>
       <id><![CDATA[6518d7cc46cf4007341e061d835f7fc3]]></id>
       <name><![CDATA[DATAPPRO]]></name>
       <description><![CDATA[Date de la dernière approbation administrative du document d'urbanisme]]></description>
-      <type><![CDATA[String]]></type>
-      <size>8</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -82,12 +80,10 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{8}|[0-9]{4}]]></regexp>
       <id><![CDATA[70d2b9dc09d440316d8bae1ef622994b]]></id>
       <name><![CDATA[DATEREF]]></name>
       <description><![CDATA[Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.]]></description>
-      <type><![CDATA[String]]></type>
-      <size>8</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>

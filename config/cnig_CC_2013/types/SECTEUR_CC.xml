@@ -84,12 +84,10 @@
       </listOfValues>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{8}]]></regexp>
       <id><![CDATA[d4907b570dfa7338cb66c27bff77947b]]></id>
       <name><![CDATA[DATAPPRO]]></name>
       <description><![CDATA[Date d'approbation du document d'urbanisme auquel appartient la zone]]></description>
-      <type><![CDATA[String]]></type>
-      <size>8</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>

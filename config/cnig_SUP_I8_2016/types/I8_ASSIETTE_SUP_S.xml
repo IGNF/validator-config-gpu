@@ -32,8 +32,7 @@
       <id><![CDATA[1b9a55e805706f3155f9f4acd1131438]]></id>
       <name><![CDATA[DATESRCASS]]></name>
       <description><![CDATA[Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
-      <type><![CDATA[String]]></type>
-      <size>25</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -51,7 +50,7 @@
       <size>25</size>
       <nullable>false</nullable>
       <listOfValues>
-        <value><![CDATA[Egal au générateur]]></value>
+        <value><![CDATA[Égale au générateur]]></value>
         <value><![CDATA[Zone tampon]]></value>
         <value><![CDATA[Digitalisation]]></value>
         <value><![CDATA[Duplication]]></value>
@@ -59,7 +58,7 @@
         <value><![CDATA[Secteur angulaire]]></value>
         <value><![CDATA[Calculée]]></value>
         <value><![CDATA[Liste de parcelles]]></value>
-        <value><![CDATA[Fictive]]></value>
+        <value><![CDATA[Géométrie fictive]]></value>
       </listOfValues>
     </attribute>
     <attribute>
@@ -78,6 +77,17 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <listOfValues>
+        <value><![CDATA[Zone de pose]]></value>
+        <value><![CDATA[Zone de protection]]></value>
+        <value><![CDATA[Périmètre de protection]]></value>
+        <value><![CDATA[Enceinte du site]]></value>
+        <value><![CDATA[Zone de passage]]></value>
+        <value><![CDATA[Zone maximale de dégagement]]></value>
+        <value><![CDATA[Zone de prohibition 1]]></value>
+        <value><![CDATA[Zone de prohibition 2]]></value>
+        <value><![CDATA[Zone d'isolement]]></value>
+      </listOfValues>
     </attribute>
     <attribute>
       <id><![CDATA[679bcb48c857832cd9b92659e1d61f62]]></id>

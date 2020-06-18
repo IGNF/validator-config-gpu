@@ -30,8 +30,7 @@
       <id><![CDATA[89ecc28e1d7fde0cbd77d0798b496dd9]]></id>
       <name><![CDATA[DATESRCASS]]></name>
       <description><![CDATA[Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
-      <type><![CDATA[String]]></type>
-      <size>25</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -111,7 +110,7 @@
     <attribute>
       <id><![CDATA[4d54e3984c68c47e1a4ebd6e2fda5ca5]]></id>
       <name><![CDATA[XFINAL]]></name>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -123,19 +122,19 @@
     <attribute>
       <id><![CDATA[906fe6860764ff52c1c58c89b2607454]]></id>
       <name><![CDATA[YFINAL]]></name>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[c465c3cf48d75fdb134733d6cb42d806]]></id>
       <name><![CDATA[XDEBUT]]></name>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[ebdd754bccd23c2321217dd5defe2558]]></id>
       <name><![CDATA[YDEBUT]]></name>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>

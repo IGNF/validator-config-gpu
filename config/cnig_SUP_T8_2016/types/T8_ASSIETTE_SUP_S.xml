@@ -32,8 +32,7 @@
       <id><![CDATA[1b9a55e805706f3155f9f4acd1131438]]></id>
       <name><![CDATA[DATESRCASS]]></name>
       <description><![CDATA[Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
-      <type><![CDATA[String]]></type>
-      <size>25</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -51,7 +50,7 @@
       <size>25</size>
       <nullable>false</nullable>
       <listOfValues>
-        <value><![CDATA[Egal au générateur]]></value>
+        <value><![CDATA[Égale au générateur]]></value>
         <value><![CDATA[Zone tampon]]></value>
         <value><![CDATA[Digitalisation]]></value>
         <value><![CDATA[Duplication]]></value>
@@ -59,7 +58,7 @@
         <value><![CDATA[Secteur angulaire]]></value>
         <value><![CDATA[Calculée]]></value>
         <value><![CDATA[Liste de parcelles]]></value>
-        <value><![CDATA[Fictive]]></value>
+        <value><![CDATA[Géométrie fictive]]></value>
       </listOfValues>
     </attribute>
     <attribute>
@@ -78,6 +77,17 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <listOfValues>
+        <value><![CDATA[Zone de pose]]></value>
+        <value><![CDATA[Zone de protection]]></value>
+        <value><![CDATA[Périmètre de protection]]></value>
+        <value><![CDATA[Enceinte du site]]></value>
+        <value><![CDATA[Zone de passage]]></value>
+        <value><![CDATA[Zone maximale de dégagement]]></value>
+        <value><![CDATA[Zone de prohibition 1]]></value>
+        <value><![CDATA[Zone de prohibition 2]]></value>
+        <value><![CDATA[Zone d'isolement]]></value>
+      </listOfValues>
     </attribute>
     <attribute>
       <id><![CDATA[00a3c829fa5eec1198e15c080e806483]]></id>
@@ -112,7 +122,7 @@
     <attribute>
       <id><![CDATA[8957e24da8ce92449778131503f7f10b]]></id>
       <name><![CDATA[YFINAL]]></name>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>false</nullable>
     </attribute>
     <attribute>
@@ -136,19 +146,19 @@
     <attribute>
       <id><![CDATA[e5871fc9a00619d421e139170209e278]]></id>
       <name><![CDATA[XFINAL]]></name>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[f03032a463df9cfdc4261b8e21df1c09]]></id>
       <name><![CDATA[YDEBUT]]></name>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[fb131ff97065f82f6ddd48a96b59a7d8]]></id>
       <name><![CDATA[XDEBUT]]></name>
-      <type><![CDATA[Integer]]></type>
+      <type><![CDATA[Double]]></type>
       <nullable>false</nullable>
     </attribute>
   </attributes>

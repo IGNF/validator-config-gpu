@@ -29,8 +29,7 @@
       <id><![CDATA[5130470298b89af31028e1d3821341f9]]></id>
       <name><![CDATA[DATEPUB]]></name>
       <description><![CDATA[Date de parution au Journal Officiel ou de publicité dans la presse]]></description>
-      <type><![CDATA[String]]></type>
-      <size>8</size>
+      <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
     </attribute>
     <attribute>
@@ -75,7 +74,7 @@
         <value><![CDATA[Arrêté ministériel]]></value>
         <value><![CDATA[Arrêté interministériel]]></value>
         <value><![CDATA[Arrêté préfectoral]]></value>
-        <value><![CDATA[Arrêté Préfet de Région]]></value>
+        <value><![CDATA[Arrêté préfet de Région]]></value>
         <value><![CDATA[Décret Premier Ministre]]></value>
         <value><![CDATA[Décret]]></value>
         <value><![CDATA[Arrêté de SUP]]></value>
@@ -88,8 +87,7 @@
       <id><![CDATA[9425d3d273bce250e346bbbd26e27359]]></id>
       <name><![CDATA[DATEDECIS]]></name>
       <description><![CDATA[Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte]]></description>
-      <type><![CDATA[String]]></type>
-      <size>8</size>
+      <type><![CDATA[Date]]></type>
       <nullable>false</nullable>
     </attribute>
     <attribute>

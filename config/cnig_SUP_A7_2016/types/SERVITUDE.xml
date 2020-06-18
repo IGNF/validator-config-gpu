@@ -20,8 +20,7 @@
       <id><![CDATA[242adcd91d5707c68cde747e3b56241b]]></id>
       <name><![CDATA[DATEMAJ]]></name>
       <description><![CDATA[Date de la dernière modification apportée à la servitude]]></description>
-      <type><![CDATA[String]]></type>
-      <size>8</size>
+      <type><![CDATA[Date]]></type>
       <nullable>false</nullable>
     </attribute>
     <attribute>
@@ -49,10 +48,12 @@
         <value><![CDATA[A7]]></value>
         <value><![CDATA[A8]]></value>
         <value><![CDATA[A9]]></value>
+        <value><![CDATA[A10]]></value>
         <value><![CDATA[AC1]]></value>
         <value><![CDATA[AC2]]></value>
         <value><![CDATA[AC3]]></value>
         <value><![CDATA[AC4]]></value>
+        <value><![CDATA[AC4bis]]></value>
         <value><![CDATA[AR1]]></value>
         <value><![CDATA[AR2]]></value>
         <value><![CDATA[AR3]]></value>
@@ -61,8 +62,6 @@
         <value><![CDATA[AR6]]></value>
         <value><![CDATA[AS1]]></value>
         <value><![CDATA[AS2]]></value>
-        <value><![CDATA[EL1]]></value>
-        <value><![CDATA[EL2]]></value>
         <value><![CDATA[EL2bis]]></value>
         <value><![CDATA[EL3]]></value>
         <value><![CDATA[EL4]]></value>
@@ -73,16 +72,13 @@
         <value><![CDATA[EL9]]></value>
         <value><![CDATA[EL10]]></value>
         <value><![CDATA[EL11]]></value>
-        <value><![CDATA[EL12]]></value>
         <value><![CDATA[I1]]></value>
-        <value><![CDATA[I1bis]]></value>
         <value><![CDATA[I2]]></value>
         <value><![CDATA[I3]]></value>
         <value><![CDATA[I4]]></value>
         <value><![CDATA[I5]]></value>
         <value><![CDATA[I6]]></value>
         <value><![CDATA[I7]]></value>
-        <value><![CDATA[I8]]></value>
         <value><![CDATA[I9]]></value>
         <value><![CDATA[INT1]]></value>
         <value><![CDATA[JS1]]></value>
@@ -92,10 +88,10 @@
         <value><![CDATA[PM3]]></value>
         <value><![CDATA[PM4]]></value>
         <value><![CDATA[PM5]]></value>
+        <value><![CDATA[PM6]]></value>
         <value><![CDATA[PT1]]></value>
         <value><![CDATA[PT2]]></value>
         <value><![CDATA[PT3]]></value>
-        <value><![CDATA[PT4]]></value>
         <value><![CDATA[T1]]></value>
         <value><![CDATA[T2]]></value>
         <value><![CDATA[T3]]></value>
@@ -104,6 +100,7 @@
         <value><![CDATA[T6]]></value>
         <value><![CDATA[T7]]></value>
         <value><![CDATA[T8]]></value>
+        <value><![CDATA[T9]]></value>
       </listOfValues>
     </attribute>
     <attribute>
@@ -112,7 +109,7 @@
       <description><![CDATA[Organisme ayant numérisé la servitude]]></description>
       <type><![CDATA[String]]></type>
       <size>80</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[751916ef2f5c8e46f305fa49159da732]]></id>

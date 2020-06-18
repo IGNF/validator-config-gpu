@@ -67,7 +67,7 @@
       <name><![CDATA[DATEMAJ]]></name>
       <description><![CDATA[Date de la dernière modification apportée à la servitude]]></description>
       <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[726e30853c23e1d077596a81cd55d179]]></id>
@@ -129,6 +129,7 @@
         <value><![CDATA[PM3]]></value>
         <value><![CDATA[PM4]]></value>
         <value><![CDATA[PM5]]></value>
+        <value><![CDATA[PM6]]></value>
         <value><![CDATA[PT1]]></value>
         <value><![CDATA[PT2]]></value>
         <value><![CDATA[PT3]]></value>
@@ -184,7 +185,7 @@
       <description><![CDATA[Organisme ayant numérisé la servitude]]></description>
       <type><![CDATA[String]]></type>
       <size>80</size>
-      <nullable>false</nullable>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[b71c71c6b344b1d8836438ead7512f24]]></id>
