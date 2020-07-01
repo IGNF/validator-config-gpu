@@ -10,6 +10,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[[0-9]{8}]]></regexp>
@@ -19,6 +20,7 @@
       <type><![CDATA[String]]></type>
       <size>8</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7ed8b85067de17353443633979925424]]></id>
@@ -37,6 +39,7 @@
         <value><![CDATA[25]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7fa5b5a6ee4b891aa8a47e61bacee81c]]></id>
@@ -44,6 +47,7 @@
       <description><![CDATA[Date de la dernière validation de la prescription]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9692ab3ab61ede6dac8814a76300a03b]]></id>
@@ -52,6 +56,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9aad4746039b7409c00e00e12fef211a]]></id>
@@ -60,6 +65,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[a798110b37761b767e00ede038f459b2]]></id>
@@ -68,6 +74,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c04e83139e96298b76a559da59abbb4e]]></id>
@@ -76,6 +83,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d138431fddd6c5c5f1ecd5d2010ace49]]></id>
@@ -84,6 +92,8 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

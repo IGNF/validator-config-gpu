@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[15520ca909f233311d98e8cf6150c2cd]]></id>
@@ -19,6 +20,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[2890143caecc5a92a4470491bf6ba317]]></id>
@@ -26,6 +28,7 @@
       <type><![CDATA[Date]]></type>
       <size>8</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[2c71ae0a5719da874d3619704d64120c]]></id>
@@ -34,6 +37,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[5264492d735a29ef0ded6f3089b7e493]]></id>
@@ -42,6 +46,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[a27a45705ac8a6e1400b33573afcefec]]></id>
@@ -49,6 +54,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ece0af0f0eb3e370faffc08cf6858370]]></id>
@@ -61,6 +67,7 @@
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[f13eeda713b189b9307367d4471753bf]]></id>
@@ -69,6 +76,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[fec2e2d1be4b84ac8f905be55635f8e5]]></id>
@@ -112,6 +120,8 @@
         <value><![CDATA[39]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

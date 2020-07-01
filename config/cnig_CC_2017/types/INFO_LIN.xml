@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[153208d7589e4ec5221e72b83efbd5ec]]></id>
@@ -67,6 +68,7 @@
         <value><![CDATA[51]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[155d8d7bbba927b21af4d5b3087f8d74]]></id>
@@ -75,6 +77,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[278fda22d598ef6b140646ca3389023a]]></id>
@@ -83,6 +86,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[333d50dc1463f4c4781002a255156bf9]]></id>
@@ -103,6 +107,7 @@
         <value><![CDATA[97]]></value>
         <value><![CDATA[98]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3d3f3c517e5462278b794bb4f1e150f3]]></id>
@@ -146,6 +151,7 @@
         <value><![CDATA[39]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3e9e81a2dfe1ac50b2c290d82009b6bc]]></id>
@@ -153,6 +159,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[4f94975d8deeb7f10f9175262d46018c]]></id>
@@ -161,6 +168,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[866dbe0693b2349a31e3e057d996e608]]></id>
@@ -173,6 +181,7 @@
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ba2b21760060c125fa8bad04804db9a6]]></id>
@@ -181,6 +190,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[eeabf7e646d761b66bce8dca2d2c7069]]></id>
@@ -188,6 +198,8 @@
       <type><![CDATA[Date]]></type>
       <size>8</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

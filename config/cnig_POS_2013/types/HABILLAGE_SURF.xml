@@ -10,6 +10,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c11408b14726608086864fb3ba70516e]]></id>
@@ -18,6 +19,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[dcb79c9213df56a9a4b22f2e59ff0d06]]></id>
@@ -26,6 +28,8 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

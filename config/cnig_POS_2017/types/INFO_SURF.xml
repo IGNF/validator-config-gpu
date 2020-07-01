@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3c19d4e2805ff92b22441fe47e7488c8]]></id>
@@ -19,6 +20,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3c78cf133666325a2f7ecc8c56d70672]]></id>
@@ -27,6 +29,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[4ae7ff5575f951169f9a4355e3ec49e5]]></id>
@@ -34,6 +37,7 @@
       <type><![CDATA[Date]]></type>
       <size>8</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[561bc30ef5190dd2b655457e68faf33c]]></id>
@@ -42,6 +46,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[6621b886b12b10f44b65ce3186d554b1]]></id>
@@ -49,6 +54,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[962cc339db0f437cd54d6f8bdcaaf6f9]]></id>
@@ -61,6 +67,7 @@
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c076290214ea3d90242a00744576c260]]></id>
@@ -69,6 +76,7 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e55a627ff4661710ed54ee2f20bddb53]]></id>
@@ -112,6 +120,8 @@
         <value><![CDATA[39]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

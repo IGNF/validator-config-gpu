@@ -10,6 +10,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[2fa30ac3c0523292b032c69dbdb2f0b8]]></id>
@@ -18,6 +19,7 @@
       <type><![CDATA[String]]></type>
       <size>12</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3d09e429a418d24c5f962929d3f7bc3a]]></id>
@@ -26,6 +28,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[590c48874374599f11ef297a0e2bbcbf]]></id>
@@ -41,6 +44,7 @@
         <value><![CDATA[A]]></value>
         <value><![CDATA[N]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8965fd56871dc2b2855fc898c92e1d3f]]></id>
@@ -49,6 +53,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[93c6f5f23436fa039306809b7a7dd8b4]]></id>
@@ -57,6 +62,7 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d3fbe06777aa59fcc5c290892e446a02]]></id>
@@ -65,6 +71,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e12546cbb39f0834b8ee2557380eca31]]></id>
@@ -72,6 +79,8 @@
       <description><![CDATA[Date de la dernière validation de la zone ou de son règlement]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

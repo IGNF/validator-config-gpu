@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d924e01bf6cd6efc7678f65c45bf2677]]></id>
@@ -19,6 +20,8 @@
       <type><![CDATA[String]]></type>
       <size>20</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

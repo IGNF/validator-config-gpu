@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[0ef669f0e87ad6a6bd888fe2083c9e4a]]></id>
@@ -23,6 +24,7 @@
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[125b00eb966313480bbd29c038176088]]></id>
@@ -31,6 +33,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[69d0c846d04046e7ce5b001436fc8b8b]]></id>
@@ -39,6 +42,7 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9caf3781f416d401d9bfe49298ce4db5]]></id>
@@ -82,6 +86,7 @@
         <value><![CDATA[39]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[be056276ac74beddc93751997a017723]]></id>
@@ -89,6 +94,7 @@
       <type><![CDATA[Date]]></type>
       <size>8</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c17077b06039bce1bd17895eaf2f2edd]]></id>
@@ -97,6 +103,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e36635e24b24e891c997d06c33e0f6a9]]></id>
@@ -105,6 +112,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[f823502497c2070d5e031d7e4a8c168a]]></id>
@@ -112,6 +120,8 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

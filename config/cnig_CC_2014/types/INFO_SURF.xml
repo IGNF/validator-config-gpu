@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[1e6c3eabb6e09b4004f8f8c8e43a9592]]></id>
@@ -57,6 +58,7 @@
         <value><![CDATA[35]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[6bfc707c8c9db7dcff5e89eb82d3c3ec]]></id>
@@ -64,6 +66,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[872b227df6e80b7d31353826d5624b7d]]></id>
@@ -104,6 +107,7 @@
         <value><![CDATA[29]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[893fc03f8d959190b9556a968de33222]]></id>
@@ -112,6 +116,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[dbb0132600ec4da5c640bcdf1f5e1d15]]></id>
@@ -120,6 +125,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e5bfd62d21ab018735fe1c0bd67f3d4d]]></id>
@@ -128,6 +134,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[f14734472015dd822f08900af59789ce]]></id>
@@ -136,6 +143,8 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

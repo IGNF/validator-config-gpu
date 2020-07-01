@@ -10,6 +10,7 @@
       <description><![CDATA[Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[532e53d1a82318917bb50f6b30a9449b]]></id>
@@ -18,6 +19,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9c5116ca3aca2889b5b06af01982187f]]></id>
@@ -26,6 +28,8 @@
       <type><![CDATA[String]]></type>
       <size>20</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

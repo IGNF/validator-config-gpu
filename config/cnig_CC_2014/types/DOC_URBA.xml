@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[205a8d0f0ea01b09644b118b62deddad]]></id>
@@ -19,6 +20,7 @@
       <type><![CDATA[String]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[43c2fa308b1a3991ed44edf5c17c2699]]></id>
@@ -27,6 +29,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[5096b01df29475bfe6cfd5e546eb92ae]]></id>
@@ -35,6 +38,7 @@
       <type><![CDATA[String]]></type>
       <size>20</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[6aeaa4493cb14c7acc2a8b1d5fc232ac]]></id>
@@ -43,6 +47,7 @@
       <type><![CDATA[String]]></type>
       <size>9</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8323933b4b9ea2607c4c5d00b1a8e989]]></id>
@@ -51,6 +56,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[87c4fe0f555b9e1bfaf3652742e94a27]]></id>
@@ -58,6 +64,7 @@
       <description><![CDATA[Date de fin de validité du document d'urbanisme]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8bd63266ee0014d105b9d5d6c2d7725a]]></id>
@@ -66,6 +73,7 @@
       <type><![CDATA[String]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[[0-9]{8}|[0-9]{4}]]></regexp>
@@ -75,6 +83,7 @@
       <type><![CDATA[String]]></type>
       <size>8</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d4e2e92e85c26da2802b498b54ed0e92]]></id>
@@ -87,6 +96,7 @@
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[dfa04d9c1e2925bae5438d3c1e655c0d]]></id>
@@ -101,6 +111,7 @@
         <value><![CDATA[CC]]></value>
         <value><![CDATA[PSMV]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e51b7a9fb363369cc5fd0d2c797e8b37]]></id>
@@ -118,6 +129,7 @@
         <value><![CDATA[06]]></value>
         <value><![CDATA[07]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[[0-9]{8}]]></regexp>
@@ -127,6 +139,7 @@
       <type><![CDATA[String]]></type>
       <size>8</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[f6f42ffb71252d1df5a2204c9ea17fdd]]></id>
@@ -135,6 +148,8 @@
       <type><![CDATA[String]]></type>
       <size>1</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

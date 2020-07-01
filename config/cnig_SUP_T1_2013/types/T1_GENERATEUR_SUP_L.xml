@@ -10,6 +10,7 @@
       <description><![CDATA[Identifiant du générateur]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[39c93912ba5bf0afbad95db9ed66e78a]]></id>
@@ -18,6 +19,7 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[42cd1e3145f31264de0e3bc881ff3655]]></id>
@@ -26,6 +28,7 @@
       <type><![CDATA[String]]></type>
       <size>25</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[46a1e08c752e490bb51b205d640d4a42]]></id>
@@ -40,6 +43,7 @@
         <value><![CDATA[Liste de coordonnées]]></value>
         <value><![CDATA[Géométrie fictive]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[91e4e0e9674e7d3aaef322bdd1374c71]]></id>
@@ -47,6 +51,7 @@
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b6ea4308f6cb543b9b8d197a0a312357]]></id>
@@ -55,6 +60,7 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ca794cb677257564b31f6828f348dabe]]></id>
@@ -63,15 +69,17 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-]+_gen([0-9]+)?]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-0-9]+_gen([0-9]+)?]]></regexp>
       <id><![CDATA[dbff3aecc6bba23c7b9d6ab419537b04]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[eed64726cb2ce133e9edd14563ad109b]]></id>
@@ -80,6 +88,7 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[69c9159a15488b0c902e3dce0f95496d]]></id>
@@ -94,6 +103,7 @@
         <value><![CDATA[Commune]]></value>
         <value><![CDATA[RFF]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[6d3e86467c2d5b8e43f1e0a28914a03f]]></id>
@@ -101,6 +111,7 @@
       <description><![CDATA[Indique s'il y a un croisement]]></description>
       <type><![CDATA[Boolean]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7b72c594029ca62c3359529af6983fd5]]></id>
@@ -108,6 +119,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9c9f32b817a58c958bf8120b032796a0]]></id>
@@ -120,6 +132,8 @@
         <value><![CDATA[Voie publique]]></value>
         <value><![CDATA[Voie privée]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

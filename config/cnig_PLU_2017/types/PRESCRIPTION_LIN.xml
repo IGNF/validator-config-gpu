@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[33cf86b914d532808d9b47c4f97acc8a]]></id>
@@ -19,6 +20,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[504c7129ff74f20bf923f73f8f1d3faf]]></id>
@@ -27,6 +29,7 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[6726f93f5320b356085b1d475243f45c]]></id>
@@ -47,6 +50,7 @@
         <value><![CDATA[97]]></value>
         <value><![CDATA[98]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9cdef0e9fe1e7c2e96e44d08fd3b3ffe]]></id>
@@ -55,6 +59,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b70e1bb9197ba5d88cede465c33af0a2]]></id>
@@ -63,6 +68,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[baebefc1d5d9f30601f274d8157e61cd]]></id>
@@ -70,6 +76,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[de61e94c7ac0df012e7c57f6a7faf9a2]]></id>
@@ -126,6 +133,7 @@
         <value><![CDATA[51]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ffc91913ae638dcc95007cf78a3096f9]]></id>
@@ -133,6 +141,8 @@
       <description><![CDATA[Date de la dernière validation de la prescription]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

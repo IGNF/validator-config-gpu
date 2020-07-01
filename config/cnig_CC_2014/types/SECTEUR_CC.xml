@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <regexp><![CDATA[[0-9]{8}]]></regexp>
@@ -20,6 +21,7 @@
       <type><![CDATA[String]]></type>
       <size>8</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[388690a6a37bce19405c283c51c4bbe8]]></id>
@@ -35,6 +37,7 @@
         <value><![CDATA[08]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[39fd8959f59d313bc92a8a1ccda1d35b]]></id>
@@ -42,6 +45,7 @@
       <description><![CDATA[Date de la dernière validation du secteur ou de ses dispositions particulières]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3a7526e25eed55a46fdd5014db4b1d78]]></id>
@@ -56,6 +60,7 @@
         <value><![CDATA[03]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[49238a7c9bdf9b82dd10bd1cbaaea8c9]]></id>
@@ -64,6 +69,7 @@
       <type><![CDATA[String]]></type>
       <size>12</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[88f70c36300a814b2b6e8b07e4c5f410]]></id>
@@ -71,6 +77,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9eb8455b227ef98f397ee0b60569b7da]]></id>
@@ -79,6 +86,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d0345e632d58a2c137876dc44aae91eb]]></id>
@@ -87,6 +95,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d429970d8a10784776cde254b78c42e4]]></id>
@@ -99,6 +108,8 @@
         <value><![CDATA[]]></value>
         <value><![CDATA[Oui]]></value>
       </listOfValues>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>80</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[791c44f5079afe8770b7fbef1b43805a]]></id>
@@ -19,6 +20,7 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7a2713692bfc2e14d80eefcb7c17d529]]></id>
@@ -27,6 +29,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[bd0ca06520dfd69ec94dd725d7d2547d]]></id>
@@ -34,6 +37,8 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

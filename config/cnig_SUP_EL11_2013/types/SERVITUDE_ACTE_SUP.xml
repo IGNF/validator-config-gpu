@@ -10,6 +10,7 @@
       <description><![CDATA[Identifiant de l'acte instituant la SUP]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b8172389de2db4d746b273d07e07eab1]]></id>
@@ -17,6 +18,8 @@
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>
