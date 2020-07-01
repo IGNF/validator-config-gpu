@@ -32,7 +32,7 @@
       <identifier>false</identifier>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-0-9]+_gen([0-9]+)?]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[a-zA-Z0-9_-]+_gen([0-9]+)?]]></regexp>
       <id><![CDATA[6df265cfe2e5843c327bcd3c8656c299]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
