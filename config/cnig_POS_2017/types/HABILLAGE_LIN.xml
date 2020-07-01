@@ -5,6 +5,7 @@
   <description><![CDATA[Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha]]></description>
   <attributes>
     <attribute>
+      <regexp><![CDATA[[0-9]{3}-[0-9]{3}-[0-9]{3}]]></regexp>
       <id><![CDATA[0b0f6f42255460235c620b021501b9bb]]></id>
       <name><![CDATA[COULEUR]]></name>
       <type><![CDATA[String]]></type>
@@ -16,7 +17,6 @@
       <name><![CDATA[WKT]]></name>
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
-      <size>-1</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>

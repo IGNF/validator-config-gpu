@@ -43,51 +43,13 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <id><![CDATA[66381d4b3078f4593da029232310f38d]]></id>
-      <name><![CDATA[MODEGEOASS]]></name>
-      <description><![CDATA[Description de la méthode utilisée pour générer la géométrie de l'assiette]]></description>
-      <type><![CDATA[String]]></type>
-      <size>25</size>
-      <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[Égale au générateur]]></value>
-        <value><![CDATA[Zone tampon]]></value>
-        <value><![CDATA[Digitalisation]]></value>
-        <value><![CDATA[Duplication]]></value>
-        <value><![CDATA[Liste de coordonnées]]></value>
-        <value><![CDATA[Secteur angulaire]]></value>
-        <value><![CDATA[Calculée]]></value>
-        <value><![CDATA[Liste de parcelles]]></value>
-        <value><![CDATA[Géométrie fictive]]></value>
-      </listOfValues>
-    </attribute>
-    <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-0-9]+(_gen[0-9]+)?_(ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-]+(_gen[0-9]+)?_(ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
       <id><![CDATA[7ce21352d63b22c3cb0857f61aeedda8]]></id>
       <name><![CDATA[NOMASS]]></name>
       <description><![CDATA[Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP]]></description>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[a13f113c4de5c030496cf873927dc8f8]]></id>
-      <name><![CDATA[TYPEASS]]></name>
-      <description><![CDATA[Nature de l'assiette selon sa vocation principale et la catégorie de SUP]]></description>
-      <type><![CDATA[String]]></type>
-      <size>40</size>
-      <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[Zone de pose]]></value>
-        <value><![CDATA[Zone de protection]]></value>
-        <value><![CDATA[Périmètre de protection]]></value>
-        <value><![CDATA[Enceinte du site]]></value>
-        <value><![CDATA[Zone de passage]]></value>
-        <value><![CDATA[Zone maximale de dégagement]]></value>
-        <value><![CDATA[Zone de prohibition 1]]></value>
-        <value><![CDATA[Zone de prohibition 2]]></value>
-        <value><![CDATA[Zone d'isolement]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
       <id><![CDATA[b14e709f815a6d760c4baecee7ef8333]]></id>

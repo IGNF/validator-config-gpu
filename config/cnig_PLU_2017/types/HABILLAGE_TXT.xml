@@ -49,6 +49,7 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[0-9]{3}-[0-9]{3}-[0-9]{3}]]></regexp>
       <id><![CDATA[a75bc15219002f06c90d6decb7a1fc13]]></id>
       <name><![CDATA[COULEUR]]></name>
       <type><![CDATA[String]]></type>

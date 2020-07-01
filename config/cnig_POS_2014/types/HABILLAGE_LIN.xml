@@ -10,7 +10,7 @@
       <description><![CDATA[Nature de la ligne]]></description>
       <type><![CDATA[String]]></type>
       <size>40</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <regexp><![CDATA[HL([0-9]+)?]]></regexp>
@@ -26,7 +26,6 @@
       <name><![CDATA[WKT]]></name>
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
-      <size>-1</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>

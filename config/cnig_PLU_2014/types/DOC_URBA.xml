@@ -49,9 +49,8 @@
       <description><![CDATA[Indique si le document d'urbanisme est intercommunal]]></description>
       <type><![CDATA[String]]></type>
       <size>1</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
       <listOfValues>
-        <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
     </attribute>

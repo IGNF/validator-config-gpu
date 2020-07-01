@@ -12,6 +12,7 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[0-9]{3}-[0-9]{3}-[0-9]{3}]]></regexp>
       <id><![CDATA[854be61cf2d65ff02ef8185f1896c618]]></id>
       <name><![CDATA[COULEUR]]></name>
       <type><![CDATA[String]]></type>

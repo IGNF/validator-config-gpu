@@ -29,44 +29,13 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-0-9]+_gen([0-9]+)?]]></regexp>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-]+_gen([0-9]+)?]]></regexp>
       <id><![CDATA[6df265cfe2e5843c327bcd3c8656c299]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>
-    </attribute>
-    <attribute>
-      <id><![CDATA[8ab23a945cd9bc31a8cd091e080d28c1]]></id>
-      <name><![CDATA[TYPEGEN]]></name>
-      <description><![CDATA[Nature de l'entité génératrice]]></description>
-      <type><![CDATA[String]]></type>
-      <size>40</size>
-      <nullable>false</nullable>
-      <listOfValues>
-        <value><![CDATA[Canalisation]]></value>
-        <value><![CDATA[Canal]]></value>
-        <value><![CDATA[ émissaire]]></value>
-        <value><![CDATA[Cours d'eau ]]></value>
-        <value><![CDATA[Zone d'écoulement ]]></value>
-        <value><![CDATA[Forêt]]></value>
-        <value><![CDATA[Bois]]></value>
-        <value><![CDATA[ forêt ou dune]]></value>
-        <value><![CDATA[Zone agricole]]></value>
-        <value><![CDATA[Monument]]></value>
-        <value><![CDATA[Site]]></value>
-        <value><![CDATA[Réserve naturelle]]></value>
-        <value><![CDATA[ZPPAUP et AVAP]]></value>
-        <value><![CDATA[Phare]]></value>
-        <value><![CDATA[ poste ou Amer]]></value>
-        <value><![CDATA[Poste militaire]]></value>
-        <value><![CDATA[Magasin à poudre]]></value>
-        <value><![CDATA[Aérodrome]]></value>
-        <value><![CDATA[Ouvrage militaire]]></value>
-        <value><![CDATA[ fortification]]></value>
-        <value><![CDATA[Champ de tir]]></value>
-      </listOfValues>
     </attribute>
     <attribute>
       <id><![CDATA[bf6cc359b24ea217a012564d48e5cb77]]></id>
@@ -131,6 +100,7 @@
         <value><![CDATA[Inscrit]]></value>
         <value><![CDATA[Classé]]></value>
         <value><![CDATA[Mixte]]></value>
+        <value><![CDATA[sans objet]]></value>
       </listOfValues>
     </attribute>
   </attributes>

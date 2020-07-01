@@ -18,14 +18,13 @@
       <description><![CDATA[Nature de la ligne]]></description>
       <type><![CDATA[String]]></type>
       <size>40</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[986238298e3ec48412c8ec4def000600]]></id>
       <name><![CDATA[WKT]]></name>
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
-      <size>-1</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>

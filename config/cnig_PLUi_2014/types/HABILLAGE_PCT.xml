@@ -34,7 +34,7 @@
       <description><![CDATA[Nature du point]]></description>
       <type><![CDATA[String]]></type>
       <size>40</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
   </attributes>
 </featureType>

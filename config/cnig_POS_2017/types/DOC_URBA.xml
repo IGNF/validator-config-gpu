@@ -9,7 +9,7 @@
       <name><![CDATA[DATEREF]]></name>
       <description><![CDATA[Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.]]></description>
       <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[0cce26b433da73fe3a76a7dd521f4ce9]]></id>
@@ -17,7 +17,7 @@
       <description><![CDATA[Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI]]></description>
       <type><![CDATA[String]]></type>
       <size>9</size>
-      <nullable>true</nullable>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[0f391338de967078a244f1e0bc4fbb88]]></id>
@@ -79,9 +79,9 @@
       <size>4</size>
       <nullable>false</nullable>
       <listOfValues>
-        <value><![CDATA[POS]]></value>
         <value><![CDATA[PLU]]></value>
-        <value><![CDATA[PLUI]]></value>
+        <value><![CDATA[POS]]></value>
+        <value><![CDATA[CC]]></value>
         <value><![CDATA[PSMV]]></value>
       </listOfValues>
     </attribute>

@@ -5,6 +5,7 @@
   <description><![CDATA[Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha]]></description>
   <attributes>
     <attribute>
+      <regexp><![CDATA[[0-9]{3}-[0-9]{3}-[0-9]{3}]]></regexp>
       <id><![CDATA[70dc11e2886f5cd9cbcafff487540208]]></id>
       <name><![CDATA[COULEUR]]></name>
       <type><![CDATA[String]]></type>
