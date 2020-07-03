@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[93973516f3b7c4daaa42da0feeb22c1e]]></id>
-  <typeName><![CDATA[EL6_ASSIETTE_SUP_S]]></typeName>
+  <name><![CDATA[EL6_ASSIETTE_SUP_S]]></name>
   <description><![CDATA[Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT]]></description>
   <attributes>
     <attribute>
@@ -9,6 +9,7 @@
       <name><![CDATA[IDASS]]></name>
       <description><![CDATA[Identifiant de l'assiette]]></description>
       <type><![CDATA[String]]></type>
+      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
     </attribute>
@@ -17,6 +18,7 @@
       <name><![CDATA[IDGEN]]></name>
       <description><![CDATA[Identifiant du générateur de l'assiette]]></description>
       <type><![CDATA[String]]></type>
+      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
     </attribute>
@@ -43,11 +45,75 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-]+(_gen[0-9]+)?_(ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
       <id><![CDATA[7ce21352d63b22c3cb0857f61aeedda8]]></id>
       <name><![CDATA[NOMASS]]></name>
       <description><![CDATA[Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP]]></description>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_(mh|abor|ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
       <type><![CDATA[String]]></type>
+      <size>100</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[ce194a1cac9904b9ba442e9cd2a9bf25]]></id>
+      <name><![CDATA[TYPEASS]]></name>
+      <type><![CDATA[String]]></type>
+      <identifier>false</identifier>
+      <listOfValues>
+        <value><![CDATA[Zone de protection]]></value>
+        <value><![CDATA[Zone de passage]]></value>
+        <value><![CDATA[Zone de pose]]></value>
+        <value><![CDATA[Périmètre de protection]]></value>
+        <value><![CDATA[Enceinte du site]]></value>
+        <value><![CDATA[Zone de prohibition 1]]></value>
+        <value><![CDATA[Zone de prohibition 2]]></value>
+        <value><![CDATA[Zone d'isolement]]></value>
+        <value><![CDATA[Zone maximale de dégagement]]></value>
+        <value><![CDATA[Périmètre de protection éloignée]]></value>
+        <value><![CDATA[Périmètre de protection immédiate]]></value>
+        <value><![CDATA[Périmètre de protection rapprochée]]></value>
+        <value><![CDATA[Périmètre de protection eau minérale]]></value>
+        <value><![CDATA[Réservation de terrain]]></value>
+        <value><![CDATA[Halage]]></value>
+        <value><![CDATA[Marchepied]]></value>
+        <value><![CDATA[Plan d'alignement]]></value>
+        <value><![CDATA[Zone de protection du littoral]]></value>
+        <value><![CDATA[Zone d'interdiction d'accès]]></value>
+        <value><![CDATA[Zone des 5 mètres]]></value>
+        <value><![CDATA[Zone d'influence]]></value>
+        <value><![CDATA[Bande de protection courte]]></value>
+        <value><![CDATA[Bande de protection large]]></value>
+        <value><![CDATA[Enveloppe des zonages réglementaires]]></value>
+        <value><![CDATA[Zone de garde]]></value>
+        <value><![CDATA[Zone primaire de dégagement]]></value>
+        <value><![CDATA[Zone secondaire de dégagement]]></value>
+        <value><![CDATA[Zone spéciale de dégagement]]></value>
+        <value><![CDATA[Secteur de dégagement]]></value>
+        <value><![CDATA[Zone d'exploitation]]></value>
+        <value><![CDATA[Zone d'élagage]]></value>
+        <value><![CDATA[Zone de survol]]></value>
+        <value><![CDATA[Zone de dégagement]]></value>
+        <value><![CDATA[Balisage]]></value>
+      </listOfValues>
+      <size>40</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[0ed30a0bfe471a165955a9e97c1c7e87]]></id>
+      <name><![CDATA[TYPEASS]]></name>
+      <type><![CDATA[String]]></type>
+      <identifier>false</identifier>
+      <listOfValues>
+        <value><![CDATA[Réservation de terrain]]></value>
+      </listOfValues>
+      <size>40</size>
+      <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[472312460349e0830635d83fd02fbc31]]></id>
+      <name><![CDATA[NOMASS]]></name>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_ass]]></regexp>
+      <type><![CDATA[String]]></type>
+      <identifier>false</identifier>
       <size>100</size>
       <nullable>false</nullable>
     </attribute>

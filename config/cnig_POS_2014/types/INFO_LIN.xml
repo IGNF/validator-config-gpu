@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[7ca580cc3153db00e4053f8b638b68a3]]></id>
-  <typeName><![CDATA[INFO_LIN]]></typeName>
+  <name><![CDATA[INFO_LIN]]></name>
   <description><![CDATA[Table contenant les informations linéaires à reporter à titre d'information]]></description>
   <attributes>
     <attribute>
@@ -36,10 +36,10 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[LINE([0-9]+)?]]></regexp>
       <id><![CDATA[8febbd2b5ab85533ed1285c85d66f854]]></id>
       <name><![CDATA[IDINFO]]></name>
       <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <regexp><![CDATA[LINE([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
@@ -49,8 +49,6 @@
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type d'information linéaire dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[08]]></value>
         <value><![CDATA[14]]></value>
@@ -58,6 +56,8 @@
         <value><![CDATA[27]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[cbbd8192db53ed4dcfca18e931c914d3]]></id>

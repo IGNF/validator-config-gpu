@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[19d59772035890ac8af9acf6ae266e7c]]></id>
-  <typeName><![CDATA[INFO_SURF]]></typeName>
+  <name><![CDATA[INFO_SURF]]></name>
   <description><![CDATA[Table contenant les périmètres à reporter à titre d'information]]></description>
   <attributes>
     <attribute>
@@ -33,8 +33,6 @@
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type de périmètre dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -72,6 +70,8 @@
         <value><![CDATA[34]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[b6a3c220a72c3d6ab48cd3da1f747106]]></id>

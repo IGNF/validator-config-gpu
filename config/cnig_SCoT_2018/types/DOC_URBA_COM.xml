@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[4fcd03df91c4a8d15457f6b28c900d34]]></id>
-  <typeName><![CDATA[DOC_URBA_COM]]></typeName>
+  <name><![CDATA[DOC_URBA_COM]]></name>
   <description><![CDATA[Table non géographique associant le SCOT aux communes auxquelles il s’applique]]></description>
   <attributes>
     <attribute>
-      <regexp><![CDATA[(2A|2B|[0-9]{2})[0-9]{3}]]></regexp>
       <id><![CDATA[901fed1b1cf381b839ba9174ae94e7b6]]></id>
       <name><![CDATA[INSEE]]></name>
       <description><![CDATA[Code INSEE de la commune sur laquelle il s’applique]]></description>
+      <regexp><![CDATA[[AB0-9]{5}]]></regexp>
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <id><![CDATA[a3c086263b78203c5156b280565f1e1c]]></id>
       <name><![CDATA[EPCI]]></name>
       <description><![CDATA[Code SIREN de l’EPCI auquel appartient la commune]]></description>
+      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <type><![CDATA[String]]></type>
       <size>9</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
       <id><![CDATA[ef4859b17e1a00b049bac5eb5bf3e7d5]]></id>
       <name><![CDATA[IDURBA]]></name>
       <description><![CDATA[Identifiant du SCOT (cf table DOC_URBA)]]></description>
+      <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>

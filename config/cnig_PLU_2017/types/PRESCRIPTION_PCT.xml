@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[46e1c9ce9ab1226dac71e33447bc8b8d]]></id>
-  <typeName><![CDATA[PRESCRIPTION_PCT]]></typeName>
+  <name><![CDATA[PRESCRIPTION_PCT]]></name>
   <description><![CDATA[Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit]]></description>
   <attributes>
     <attribute>
@@ -16,8 +16,6 @@
       <name><![CDATA[TYPEPSC]]></name>
       <description><![CDATA[Type de la prescription dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -67,6 +65,8 @@
         <value><![CDATA[97]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[1e520c13fcf832b5e80ec2879662c47b]]></id>
@@ -111,8 +111,6 @@
       <id><![CDATA[e0deb8dc167694951044dd41e9bd24a2]]></id>
       <name><![CDATA[STYPEPSC]]></name>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[00]]></value>
         <value><![CDATA[01]]></value>
@@ -128,6 +126,8 @@
         <value><![CDATA[97]]></value>
         <value><![CDATA[98]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[e5024fc01f160d6e4e5e945ec580eb19]]></id>

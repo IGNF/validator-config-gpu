@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[205eca1b2044a921dbac103d5fcf0d08]]></id>
-  <typeName><![CDATA[DOC_URBA]]></typeName>
+  <name><![CDATA[DOC_URBA]]></name>
   <description><![CDATA[Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée]]></description>
   <attributes>
     <attribute>
@@ -9,14 +9,14 @@
       <name><![CDATA[TYPEDOC]]></name>
       <description><![CDATA[Type du document]]></description>
       <type><![CDATA[String]]></type>
-      <size>4</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[PLU]]></value>
         <value><![CDATA[POS]]></value>
         <value><![CDATA[CC]]></value>
         <value><![CDATA[PSMV]]></value>
       </listOfValues>
+      <size>4</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[0d7b0df2bf4cdd729564cb51088f850d]]></id>
@@ -31,8 +31,6 @@
       <name><![CDATA[ETAT]]></name>
       <description><![CDATA[Etat juridique du document d'urbanisme]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -42,17 +40,19 @@
         <value><![CDATA[06]]></value>
         <value><![CDATA[07]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[30a3e2766365644aa32dcecc56c8586e]]></id>
       <name><![CDATA[INTERCO]]></name>
       <description><![CDATA[Indique si le document d'urbanisme est intercommunal]]></description>
       <type><![CDATA[String]]></type>
-      <size>1</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[F]]></value>
       </listOfValues>
+      <size>1</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[36712f364f03614076085c3a8ab024ef]]></id>
@@ -67,12 +67,12 @@
       <name><![CDATA[TYPEREF]]></name>
       <description><![CDATA[Nom du référentiel cadastral utilisé pour la numérisation]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[45e9546221d3c62031155c07ac079194]]></id>

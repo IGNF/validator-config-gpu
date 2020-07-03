@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[11ec5b1152c8efc96d4b9614f43b392d]]></id>
-  <typeName><![CDATA[PRESCRIPTION_LIN]]></typeName>
+  <name><![CDATA[PRESCRIPTION_LIN]]></name>
   <description><![CDATA[Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit]]></description>
   <attributes>
     <attribute>
@@ -62,8 +62,6 @@
       <name><![CDATA[TYPEPSC]]></name>
       <description><![CDATA[Type de la prescription dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[07]]></value>
@@ -74,6 +72,8 @@
         <value><![CDATA[25]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[f01c070278672644e58d6c271480cab7]]></id>

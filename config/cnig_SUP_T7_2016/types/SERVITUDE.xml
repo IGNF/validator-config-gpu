@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[20f8d58633322a7973e3ded26cecc63a]]></id>
-  <typeName><![CDATA[SERVITUDE]]></typeName>
+  <name><![CDATA[SERVITUDE]]></name>
   <description><![CDATA[Table contenant la liste des servitudes d'utilité publique]]></description>
   <attributes>
     <attribute>
@@ -9,12 +9,12 @@
       <name><![CDATA[VALIDEGEST]]></name>
       <description><![CDATA[Les données numérisées de la servitude ont été validées ou pas par le gestionnaire]]></description>
       <type><![CDATA[String]]></type>
-      <size>1</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
+      <size>1</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[242adcd91d5707c68cde747e3b56241b]]></id>
@@ -28,6 +28,7 @@
       <name><![CDATA[IDSUP]]></name>
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[String]]></type>
+      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
     </attribute>
@@ -36,8 +37,6 @@
       <name><![CDATA[CATEGORIE]]></name>
       <description><![CDATA[Catégorie de la servitude dans la nomenclature nationale]]></description>
       <type><![CDATA[String]]></type>
-      <size>10</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[A1]]></value>
         <value><![CDATA[A2]]></value>
@@ -102,6 +101,8 @@
         <value><![CDATA[T8]]></value>
         <value><![CDATA[T9]]></value>
       </listOfValues>
+      <size>10</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[65b4697897ce6098c57551fa80ed9710]]></id>
@@ -132,13 +133,13 @@
       <name><![CDATA[MODEPROD]]></name>
       <description><![CDATA[Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant]]></description>
       <type><![CDATA[String]]></type>
-      <size>25</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[import]]></value>
         <value><![CDATA[numérisation]]></value>
         <value><![CDATA[reconstitution]]></value>
       </listOfValues>
+      <size>25</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[aa00edca50f3e75062f333e28a5cf815]]></id>
@@ -172,10 +173,10 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-]+_sup]]></regexp>
       <id><![CDATA[da03f184be9ea6fd1c6cfa8b784314b9]]></id>
       <name><![CDATA[NOMSUP]]></name>
       <description><![CDATA[Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP]]></description>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+_sup]]></regexp>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[567ce41e46d7773968b2d3106ec14460]]></id>
-  <typeName><![CDATA[I5_ASSIETTE_SUP_S]]></typeName>
+  <name><![CDATA[I5_ASSIETTE_SUP_S]]></name>
   <description><![CDATA[Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT]]></description>
   <attributes>
     <attribute>
@@ -17,6 +17,7 @@
       <name><![CDATA[IDASS]]></name>
       <description><![CDATA[Identifiant de l'assiette]]></description>
       <type><![CDATA[Integer]]></type>
+      <identifier>true</identifier>
       <nullable>false</nullable>
     </attribute>
     <attribute>
@@ -24,6 +25,7 @@
       <name><![CDATA[IDGEN]]></name>
       <description><![CDATA[Identifiant du générateur de l'assiette]]></description>
       <type><![CDATA[Integer]]></type>
+      <identifier>true</identifier>
       <nullable>false</nullable>
     </attribute>
     <attribute>
@@ -38,8 +40,6 @@
       <name><![CDATA[MODEGEOASS]]></name>
       <description><![CDATA[Description de la méthode utilisée pour générer la géométrie de l'assiette]]></description>
       <type><![CDATA[String]]></type>
-      <size>25</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[Egal au générateur]]></value>
         <value><![CDATA[Zone tampon]]></value>
@@ -51,6 +51,8 @@
         <value><![CDATA[Liste de parcelles]]></value>
         <value><![CDATA[Fictive]]></value>
       </listOfValues>
+      <size>25</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[9647e0dff490bc52af36ef874ce440b6]]></id>
@@ -68,10 +70,10 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-]+(_gen[0-9]+)?_(ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
       <id><![CDATA[efc4d73337d1cabd3e5a8f66d88238f0]]></id>
       <name><![CDATA[NOMASS]]></name>
       <description><![CDATA[Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP]]></description>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_(mh|abor|ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)]]></regexp>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>

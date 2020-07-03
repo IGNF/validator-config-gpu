@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[61295112610f9a3f0d42073b96e5a672]]></id>
-  <typeName><![CDATA[INFO_SURF]]></typeName>
+  <name><![CDATA[INFO_SURF]]></name>
   <description><![CDATA[INFO_SURF]]></description>
   <attributes>
     <attribute>
@@ -16,13 +16,13 @@
       <id><![CDATA[144e8d3ba147228189e0a278ffd1e7c0]]></id>
       <name><![CDATA[STYPEINF]]></name>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[00]]></value>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[6e16339c250eca21129eb9a7cfcc2564]]></id>
@@ -58,8 +58,6 @@
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type de périmètre dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[02]]></value>
         <value><![CDATA[03]]></value>
@@ -97,6 +95,8 @@
         <value><![CDATA[98]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[dae1c811874918226c7ea4ef9601c327]]></id>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[aa1a5447b1c501c77f343efd00737323]]></id>
-  <typeName><![CDATA[SERVITUDE]]></typeName>
+  <name><![CDATA[SERVITUDE]]></name>
   <description><![CDATA[Table contenant la liste des servitudes d'utilité publique]]></description>
   <attributes>
     <attribute>
@@ -9,19 +9,19 @@
       <name><![CDATA[MODEPROD]]></name>
       <description><![CDATA[Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant]]></description>
       <type><![CDATA[String]]></type>
-      <size>25</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[import]]></value>
         <value><![CDATA[numérisation]]></value>
         <value><![CDATA[reconstitution]]></value>
       </listOfValues>
+      <size>25</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <id><![CDATA[12ce35e905b8d0930c13b6b734819c77]]></id>
       <name><![CDATA[IDGEST]]></name>
       <description><![CDATA[Identifiant du gestionnaire de la SUP]]></description>
+      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <type><![CDATA[String]]></type>
       <size>9</size>
       <nullable>false</nullable>
@@ -39,12 +39,12 @@
       <name><![CDATA[VALIDEGEST]]></name>
       <description><![CDATA[Les données numérisées de la servitude ont été validées ou pas par le gestionnaire]]></description>
       <type><![CDATA[String]]></type>
-      <size>1</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
+      <size>1</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[2ba1e993fe419d951ac5f28ef3de56db]]></id>
@@ -74,8 +74,6 @@
       <name><![CDATA[CATEGORIE]]></name>
       <description><![CDATA[Catégorie de la servitude dans la nomenclature nationale]]></description>
       <type><![CDATA[String]]></type>
-      <size>10</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[A1]]></value>
         <value><![CDATA[A2]]></value>
@@ -143,12 +141,15 @@
         <value><![CDATA[T7]]></value>
         <value><![CDATA[T8]]></value>
       </listOfValues>
+      <size>10</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[73ab1c52127904229ee9dff021acbcc5]]></id>
       <name><![CDATA[IDSUP]]></name>
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[Integer]]></type>
+      <identifier>true</identifier>
       <nullable>false</nullable>
     </attribute>
     <attribute>
@@ -156,18 +157,18 @@
       <name><![CDATA[ESTABROGE]]></name>
       <description><![CDATA[Attribut dérivé renseignant sur l'état de validité de la servitude : cet attribut prend la valeur 'oui' si un acte ou une décision administrative a abrogé ou annulé la servitude]]></description>
       <type><![CDATA[String]]></type>
-      <size>1</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
+      <size>1</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-]+_sup]]></regexp>
       <id><![CDATA[a30491be7fff04a4dc4cadc8baa9fb58]]></id>
       <name><![CDATA[NOMSUP]]></name>
       <description><![CDATA[Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP]]></description>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+_sup]]></regexp>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>

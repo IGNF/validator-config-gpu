@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[b5dee7459709be4f059c505e416cf2b6]]></id>
-  <typeName><![CDATA[SECTEUR_CC]]></typeName>
+  <name><![CDATA[SECTEUR_CC]]></name>
   <description><![CDATA[Table contenant les secteurs de la carte communale]]></description>
   <attributes>
     <attribute>
@@ -24,8 +24,6 @@
       <name><![CDATA[DESTDOMI]]></name>
       <description><![CDATA[Vocation dominante de la zone, concerne l’usage de la zone]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -33,6 +31,8 @@
         <value><![CDATA[08]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[39fd8959f59d313bc92a8a1ccda1d35b]]></id>
@@ -46,14 +46,14 @@
       <name><![CDATA[TYPESECT]]></name>
       <description><![CDATA[Type du secteur dans une nomenclature simplifiée]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
         <value><![CDATA[03]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[49238a7c9bdf9b82dd10bd1cbaaea8c9]]></id>
@@ -91,12 +91,12 @@
       <name><![CDATA[FERMRECO]]></name>
       <description><![CDATA[Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise]]></description>
       <type><![CDATA[String]]></type>
-      <size>3</size>
-      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[]]></value>
         <value><![CDATA[Oui]]></value>
       </listOfValues>
+      <size>3</size>
+      <nullable>true</nullable>
     </attribute>
   </attributes>
 </featureType>

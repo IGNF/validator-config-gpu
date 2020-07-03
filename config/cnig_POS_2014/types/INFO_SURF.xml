@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[e0e9a09698ae2bc3dd68d669849cd6ac]]></id>
-  <typeName><![CDATA[INFO_SURF]]></typeName>
+  <name><![CDATA[INFO_SURF]]></name>
   <description><![CDATA[INFO_SURF]]></description>
   <attributes>
     <attribute>
@@ -17,8 +17,6 @@
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type de périmètre dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -57,6 +55,8 @@
         <value><![CDATA[35]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[8100d97c12de235158a18b5e7481d74b]]></id>
@@ -83,10 +83,10 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[PERI([0-9]+)?]]></regexp>
       <id><![CDATA[c55874fdb4d8e89a9f0b930768b64a9a]]></id>
       <name><![CDATA[IDINFO]]></name>
       <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <regexp><![CDATA[PERI([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>

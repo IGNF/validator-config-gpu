@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[c0eaf7648822861e8e877ab5715c93cb]]></id>
-  <typeName><![CDATA[ZONE_URBA]]></typeName>
+  <name><![CDATA[ZONE_URBA]]></name>
   <description><![CDATA[Table contenant les zones d'un document PLU ou POS]]></description>
   <attributes>
     <attribute>
@@ -29,10 +29,10 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[Z([0-9]+)?]]></regexp>
       <id><![CDATA[24fcb2ce92ad038bc42134217ff869d2]]></id>
       <name><![CDATA[IDZONE]]></name>
       <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <regexp><![CDATA[Z([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
@@ -79,8 +79,6 @@
       <name><![CDATA[TYPEZONE]]></name>
       <description><![CDATA[Type de la zone dans une nomenclature simplifiée]]></description>
       <type><![CDATA[String]]></type>
-      <size>3</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[U]]></value>
         <value><![CDATA[AUc]]></value>
@@ -91,14 +89,14 @@
         <value><![CDATA[Nd]]></value>
         <value><![CDATA[Ah]]></value>
       </listOfValues>
+      <size>3</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[a77dd42289bcc621b8e18f0717d7b32a]]></id>
       <name><![CDATA[DESTDOMI]]></name>
       <description><![CDATA[Vocation dominante de la zone, concerne l’usage de la zone]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[00]]></value>
         <value><![CDATA[01]]></value>
@@ -112,6 +110,8 @@
         <value><![CDATA[10]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
   </attributes>
 </featureType>

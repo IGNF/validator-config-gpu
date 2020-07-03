@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[7b3196dc157051cefba74f6ebf79cdaf]]></id>
-  <typeName><![CDATA[PRESCRIPTION_SURF]]></typeName>
+  <name><![CDATA[PRESCRIPTION_SURF]]></name>
   <description><![CDATA[Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit]]></description>
   <attributes>
     <attribute>
@@ -13,10 +13,10 @@
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[S([0-9]+)?]]></regexp>
       <id><![CDATA[21b8777e6da3d7c25e2985b3923a1df7]]></id>
       <name><![CDATA[IDPSC]]></name>
       <description><![CDATA[Identifiant unique de l’objet]]></description>
+      <regexp><![CDATA[S([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
@@ -64,8 +64,6 @@
       <name><![CDATA[TYPEPSC]]></name>
       <description><![CDATA[Type de la prescription dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -98,6 +96,8 @@
         <value><![CDATA[29]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[9560a191c32f724b0a57c02f2eafdb1f]]></id>

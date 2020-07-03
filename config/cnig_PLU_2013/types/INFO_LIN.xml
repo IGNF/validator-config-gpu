@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[866fa9d5d661efa495366643fc089899]]></id>
-  <typeName><![CDATA[INFO_LIN]]></typeName>
+  <name><![CDATA[INFO_LIN]]></name>
   <description><![CDATA[Table contenant les informations linéaires à reporter à titre d'information]]></description>
   <attributes>
     <attribute>
@@ -48,13 +48,13 @@
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type d'information linéaire dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[14]]></value>
         <value><![CDATA[19]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[ad5a4a60f2084501070f98097762f88b]]></id>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[bfc0c6f7734615807160e64fc8398cfc]]></id>
-  <typeName><![CDATA[INFO_PCT]]></typeName>
+  <name><![CDATA[INFO_PCT]]></name>
   <description><![CDATA[Table contenant les informations ponctuelle à reporter à titre d'information]]></description>
   <attributes>
     <attribute>
@@ -33,8 +33,6 @@
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type d'information ponctuelle dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[02]]></value>
         <value><![CDATA[03]]></value>
@@ -72,6 +70,8 @@
         <value><![CDATA[98]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[6f7f30f380666925165019ce5050a1d4]]></id>
@@ -100,13 +100,13 @@
       <id><![CDATA[9566b12fccc9ded4c4c96ad28a5dd4c4]]></id>
       <name><![CDATA[STYPEINF]]></name>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[00]]></value>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[971fe5baf1ea1c792566d2676ab83951]]></id>

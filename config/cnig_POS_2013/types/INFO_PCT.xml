@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[7146ff554bbe3d14e958e2242abc19af]]></id>
-  <typeName><![CDATA[INFO_PCT]]></typeName>
+  <name><![CDATA[INFO_PCT]]></name>
   <description><![CDATA[Table contenant les informations ponctuelle à reporter à titre d'information]]></description>
   <attributes>
     <attribute>
@@ -25,12 +25,12 @@
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type d'information ponctuelle dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[16]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[52dc8db8d34179acc899a38917016928]]></id>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[5f5326c67b13509fa067db4317cc8d2a]]></id>
-  <typeName><![CDATA[ZONE_URBA]]></typeName>
+  <name><![CDATA[ZONE_URBA]]></name>
   <description><![CDATA[Table contenant les zones d'un document PLU ou POS]]></description>
   <attributes>
     <attribute>
@@ -63,8 +63,6 @@
       <name><![CDATA[TYPEZONE]]></name>
       <description><![CDATA[Type de la zone dans une nomenclature simplifiée]]></description>
       <type><![CDATA[String]]></type>
-      <size>3</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[U]]></value>
         <value><![CDATA[AUc]]></value>
@@ -72,6 +70,8 @@
         <value><![CDATA[A]]></value>
         <value><![CDATA[N]]></value>
       </listOfValues>
+      <size>3</size>
+      <nullable>false</nullable>
     </attribute>
   </attributes>
 </featureType>

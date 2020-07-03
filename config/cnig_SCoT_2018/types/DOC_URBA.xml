@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[67fab1004f7688afc5427edc19d845b5]]></id>
-  <typeName><![CDATA[DOC_URBA]]></typeName>
+  <name><![CDATA[DOC_URBA]]></name>
   <description><![CDATA[Table décrivant le SCOT]]></description>
   <attributes>
     <attribute>
@@ -12,28 +12,28 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[^\/]*]]></regexp>
       <id><![CDATA[1298e6bb3c6896478c543053cc1f51f3]]></id>
       <name><![CDATA[DOO]]></name>
       <description><![CDATA[om du fichier contenant le document d’orientation et d’objectifs]]></description>
+      <regexp><![CDATA[[^/]*]]></regexp>
       <type><![CDATA[Filename]]></type>
       <size>30</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[^\/]*]]></regexp>
       <id><![CDATA[1a159ec13e68105b2fce302745c44774]]></id>
       <name><![CDATA[RAPPORT]]></name>
       <description><![CDATA[Nom du fichier contenant le rapport de présentation]]></description>
+      <regexp><![CDATA[[^/]*]]></regexp>
       <type><![CDATA[Filename]]></type>
       <size>30</size>
       <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <id><![CDATA[1ad73c143b8b94026a6f0fcf91c93459]]></id>
       <name><![CDATA[SIREN]]></name>
       <description><![CDATA[Code SIREN de l'organisme responsable et porteur du SCOT]]></description>
+      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <type><![CDATA[String]]></type>
       <size>9</size>
       <nullable>false</nullable>
@@ -43,8 +43,6 @@
       <name><![CDATA[TYPEPROC]]></name>
       <description><![CDATA[Nature de la procédure administrative engagée pour aboutir au document opposable]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[03]]></value>
@@ -52,6 +50,8 @@
         <value><![CDATA[05]]></value>
         <value><![CDATA[06]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[2c184fb5294a5d21769ff74a1f456e53]]></id>
@@ -74,19 +74,17 @@
       <name><![CDATA[TYPEDOC]]></name>
       <description><![CDATA[Type de document d’urbanisme]]></description>
       <type><![CDATA[String]]></type>
-      <size>4</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[SCOT]]></value>
       </listOfValues>
+      <size>4</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[765c6421c876385835d2d05d7e89eb8c]]></id>
       <name><![CDATA[ETAT]]></name>
       <description><![CDATA[État du SCOT au regard de sa procédure]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[03]]></value>
         <value><![CDATA[04]]></value>
@@ -95,12 +93,14 @@
         <value><![CDATA[07]]></value>
         <value><![CDATA[09]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
       <id><![CDATA[8c3855bb2ebb1ed6c1c3fff423c1e07a]]></id>
       <name><![CDATA[IDURBA]]></name>
       <description><![CDATA[Identifiant du SCOTConstitue une clé externe dans les autres tables du lot de données]]></description>
+      <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
@@ -145,10 +145,10 @@
       <nullable>true</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[^\/]*]]></regexp>
       <id><![CDATA[ef58f1dbcece31e2fac509b597c0a211]]></id>
       <name><![CDATA[PADD]]></name>
       <description><![CDATA[Nom du fichier contenant le projet d'aménagement et de développement durables]]></description>
+      <regexp><![CDATA[[^/]*]]></regexp>
       <type><![CDATA[Filename]]></type>
       <size>30</size>
       <nullable>false</nullable>

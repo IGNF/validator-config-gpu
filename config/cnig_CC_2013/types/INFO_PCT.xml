@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[3b31c624149d65a8615a4d31975f36e9]]></id>
-  <typeName><![CDATA[INFO_PCT]]></typeName>
+  <name><![CDATA[INFO_PCT]]></name>
   <description><![CDATA[Table contenant les informations ponctuelles à reporter à titre  d'information]]></description>
   <attributes>
     <attribute>
@@ -25,12 +25,12 @@
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[16]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[6f128052234bdf4e6f1fa2d303068222]]></id>
@@ -61,11 +61,11 @@
       <name><![CDATA[TYPEP]]></name>
       <description><![CDATA[Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[99]]></value>
       </listOfValues>
+      <size>2</size>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[c65e8e01fd3576c6595b0729cef37807]]></id>
