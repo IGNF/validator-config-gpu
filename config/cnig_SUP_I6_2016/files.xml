@@ -10,14 +10,14 @@
       <name><![CDATA[I6_ASSIETTE_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/I6_ASSIETTE_SUP_S]]></path>
       <type><![CDATA[table]]></type>
-      <mandatory><![CDATA[true]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[018bfbc2200d0ab0d28de5633cc0da05]]></id>
       <name><![CDATA[I6_GENERATEUR_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/I6_GENERATEUR_SUP_S]]></path>
       <type><![CDATA[table]]></type>
-      <mandatory><![CDATA[true]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[0912d1d5f0a2f7c345f736a8c81389e6]]></id>

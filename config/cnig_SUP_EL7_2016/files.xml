@@ -10,28 +10,28 @@
       <name><![CDATA[EL7_ASSIETTE_SUP_L]]></name>
       <path><![CDATA[Donnees_geographiques/EL7_ASSIETTE_SUP_L]]></path>
       <type><![CDATA[table]]></type>
-      <mandatory><![CDATA[true]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[c6a7a4bbec9c8f2d552971e539bc2a50]]></id>
       <name><![CDATA[EL7_ASSIETTE_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/EL7_ASSIETTE_SUP_S]]></path>
       <type><![CDATA[table]]></type>
-      <mandatory><![CDATA[true]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[b43a780aeca328aea3bcbc1d8099a7a3]]></id>
       <name><![CDATA[EL7_GENERATEUR_SUP_L]]></name>
       <path><![CDATA[Donnees_geographiques/EL7_GENERATEUR_SUP_L]]></path>
       <type><![CDATA[table]]></type>
-      <mandatory><![CDATA[true]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[a67c93f383786a788ab719c6e9a81096]]></id>
       <name><![CDATA[EL7_GENERATEUR_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/EL7_GENERATEUR_SUP_S]]></path>
       <type><![CDATA[table]]></type>
-      <mandatory><![CDATA[true]]></mandatory>
+      <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
       <id><![CDATA[0912d1d5f0a2f7c345f736a8c81389e6]]></id>
