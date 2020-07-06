@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[c91d27e6b39ae70f1eca261f004a02ac]]></id>
-  <typeName><![CDATA[PRESCRIPTION_PCT]]></typeName>
+  <name><![CDATA[PRESCRIPTION_PCT]]></name>
   <description><![CDATA[Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit]]></description>
   <attributes>
     <attribute>
@@ -10,7 +10,6 @@
       <description><![CDATA[Date de la dernière validation de la prescription]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[50c948a46630204fa777fce76861f8a5]]></id>
@@ -19,7 +18,6 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[6f0951ca67824a5a1a094a66c87d39d2]]></id>
@@ -28,7 +26,6 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7114efe61b45ec76e53a7cdc1d6f17e1]]></id>
@@ -37,7 +34,6 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[79079338c1c20b7cab246859f42b2d05]]></id>
@@ -45,7 +41,6 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8d85ec47f9c6edae5ea59504a65e1708]]></id>
@@ -54,7 +49,6 @@
       <type><![CDATA[String]]></type>
       <size>2</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b7f0d43e9112e76de080b01ad360ac94]]></id>
@@ -63,14 +57,11 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[cd91f6426569d1cc93026d7653d422c5]]></id>
       <name><![CDATA[STYPEPSC]]></name>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[00]]></value>
         <value><![CDATA[01]]></value>
@@ -84,7 +75,8 @@
         <value><![CDATA[97]]></value>
         <value><![CDATA[98]]></value>
       </listOfValues>
-      <identifier>false</identifier>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[e8abcfc72a0c89713d6141348142835e]]></id>
@@ -93,8 +85,6 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
-  <abstract>false</abstract>
 </featureType>

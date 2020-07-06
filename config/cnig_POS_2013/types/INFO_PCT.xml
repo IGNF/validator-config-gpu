@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[7146ff554bbe3d14e958e2242abc19af]]></id>
-  <typeName><![CDATA[INFO_PCT]]></typeName>
+  <name><![CDATA[INFO_PCT]]></name>
   <description><![CDATA[Table contenant les informations ponctuelle à reporter à titre d'information]]></description>
   <attributes>
     <attribute>
@@ -11,7 +11,6 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[4e4391d40396f92a69f293dd25abd7af]]></id>
@@ -20,20 +19,18 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[5219d085d2a53e8b77c249420d6cc68c]]></id>
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type d'information ponctuelle dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
-      <size>2</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[16]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
-      <identifier>false</identifier>
+      <size>2</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[52dc8db8d34179acc899a38917016928]]></id>
@@ -41,7 +38,6 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7420bed1a8454a6969932ca79c5da5ff]]></id>
@@ -50,7 +46,6 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b254341a7f94ab3d14ac86258353aba3]]></id>
@@ -59,7 +54,6 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ff53808cc034713abb826fbc4a6a2090]]></id>
@@ -68,8 +62,6 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
-  <abstract>false</abstract>
 </featureType>

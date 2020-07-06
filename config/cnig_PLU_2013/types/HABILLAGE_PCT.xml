@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[842dca4715be90a4a15f2b178d636c4b]]></id>
-  <typeName><![CDATA[HABILLAGE_PCT]]></typeName>
+  <name><![CDATA[HABILLAGE_PCT]]></name>
   <description><![CDATA[Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha]]></description>
   <attributes>
     <attribute>
@@ -10,7 +10,6 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9292225cc256ba0c9a18de0e57c8fe06]]></id>
@@ -19,7 +18,6 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e6fde4190a0f467b8d7d623593ccacd1]]></id>
@@ -28,8 +26,6 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
-  <abstract>false</abstract>
 </featureType>

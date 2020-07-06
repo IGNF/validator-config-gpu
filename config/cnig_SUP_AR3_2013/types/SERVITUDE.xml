@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[aa1a5447b1c501c77f343efd00737323]]></id>
-  <typeName><![CDATA[SERVITUDE]]></typeName>
+  <name><![CDATA[SERVITUDE]]></name>
   <description><![CDATA[Table contenant la liste des servitudes d'utilité publique]]></description>
   <attributes>
     <attribute>
@@ -9,24 +9,22 @@
       <name><![CDATA[MODEPROD]]></name>
       <description><![CDATA[Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant]]></description>
       <type><![CDATA[String]]></type>
-      <size>25</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[import]]></value>
         <value><![CDATA[numérisation]]></value>
         <value><![CDATA[reconstitution]]></value>
       </listOfValues>
-      <identifier>false</identifier>
+      <size>25</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <id><![CDATA[12ce35e905b8d0930c13b6b734819c77]]></id>
       <name><![CDATA[IDGEST]]></name>
       <description><![CDATA[Identifiant du gestionnaire de la SUP]]></description>
+      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <type><![CDATA[String]]></type>
       <size>9</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[153b3786e425d79800557ea9ec1eba5e]]></id>
@@ -35,20 +33,18 @@
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[247760333ef95b0b3a15b71b30d54d4f]]></id>
       <name><![CDATA[VALIDEGEST]]></name>
       <description><![CDATA[Les données numérisées de la servitude ont été validées ou pas par le gestionnaire]]></description>
       <type><![CDATA[String]]></type>
-      <size>1</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
+      <size>1</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[2ba1e993fe419d951ac5f28ef3de56db]]></id>
@@ -57,7 +53,6 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[312007f69801fdeef57ed9cf03d9173a]]></id>
@@ -66,23 +61,19 @@
       <type><![CDATA[String]]></type>
       <size>25</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[315c5f41febeef3fe93be6ed250f2a14]]></id>
       <name><![CDATA[DATEMAJ]]></name>
       <description><![CDATA[Date de la dernière modification apportée à la servitude]]></description>
       <type><![CDATA[Date]]></type>
-      <nullable>true</nullable>
-      <identifier>false</identifier>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[726e30853c23e1d077596a81cd55d179]]></id>
       <name><![CDATA[CATEGORIE]]></name>
       <description><![CDATA[Catégorie de la servitude dans la nomenclature nationale]]></description>
       <type><![CDATA[String]]></type>
-      <size>10</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[A1]]></value>
         <value><![CDATA[A2]]></value>
@@ -136,6 +127,7 @@
         <value><![CDATA[PM3]]></value>
         <value><![CDATA[PM4]]></value>
         <value><![CDATA[PM5]]></value>
+        <value><![CDATA[PM6]]></value>
         <value><![CDATA[PT1]]></value>
         <value><![CDATA[PT2]]></value>
         <value><![CDATA[PT3]]></value>
@@ -149,38 +141,37 @@
         <value><![CDATA[T7]]></value>
         <value><![CDATA[T8]]></value>
       </listOfValues>
-      <identifier>false</identifier>
+      <size>10</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[73ab1c52127904229ee9dff021acbcc5]]></id>
       <name><![CDATA[IDSUP]]></name>
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[Integer]]></type>
+      <identifier>true</identifier>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8c23de7b3ab57a82fe4e0df1ca870219]]></id>
       <name><![CDATA[ESTABROGE]]></name>
       <description><![CDATA[Attribut dérivé renseignant sur l'état de validité de la servitude : cet attribut prend la valeur 'oui' si un acte ou une décision administrative a abrogé ou annulé la servitude]]></description>
       <type><![CDATA[String]]></type>
-      <size>1</size>
-      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[T]]></value>
         <value><![CDATA[F]]></value>
       </listOfValues>
-      <identifier>false</identifier>
+      <size>1</size>
+      <nullable>false</nullable>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[a-zA-Z0-9_-]+_sup]]></regexp>
       <id><![CDATA[a30491be7fff04a4dc4cadc8baa9fb58]]></id>
       <name><![CDATA[NOMSUP]]></name>
       <description><![CDATA[Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP]]></description>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+_sup]]></regexp>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[a72e1e8421ae357ca588bf7ca38bbd2e]]></id>
@@ -188,7 +179,6 @@
       <description><![CDATA[Dénominateur de l'échelle à laquelle a été numérisée la servitude]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ac8f1009572ca850c49f8316ac9ff3e3]]></id>
@@ -196,8 +186,7 @@
       <description><![CDATA[Organisme ayant numérisé la servitude]]></description>
       <type><![CDATA[String]]></type>
       <size>80</size>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[b71c71c6b344b1d8836438ead7512f24]]></id>
@@ -206,7 +195,6 @@
       <type><![CDATA[String]]></type>
       <size>150</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[da25bd69e765ef48232da0e3c4a8e3e9]]></id>
@@ -215,8 +203,6 @@
       <type><![CDATA[String]]></type>
       <size>80</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
-  <abstract>false</abstract>
 </featureType>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[439b13477603a29ae3d1c046ba54641e]]></id>
-  <typeName><![CDATA[SERVITUDE_ACTE_SUP]]></typeName>
+  <name><![CDATA[SERVITUDE_ACTE_SUP]]></name>
   <description><![CDATA[Table exprimant la relation entre les servitudes et les actes instituant ces servitudes]]></description>
   <attributes>
     <attribute>
@@ -11,17 +11,15 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[edb5b56686bb6dbacc05f784ac54a8d3]]></id>
       <name><![CDATA[IDSUP]]></name>
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[String]]></type>
+      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
   </attributes>
-  <abstract>false</abstract>
 </featureType>

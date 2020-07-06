@@ -32,7 +32,15 @@
       <identifier>false</identifier>
     </attribute>
     <attribute>
+<<<<<<< HEAD
       <regexp><![CDATA[[a-zA-Z0-9]+_[a-zA-Z0-9_-]+_gen([0-9]+)?]]></regexp>
+=======
+<<<<<<< HEAD
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z_-0-9]+_gen([0-9]+)?]]></regexp>
+=======
+      <regexp><![CDATA[[a-zA-Z0-9]+_[a-zA-Z0-9_-]+_gen([0-9]+)?]]></regexp>
+>>>>>>> 6a8eb93dc518a1ebfed4062b4d5a12c63b8cf72c
+>>>>>>> conf-4.1
       <id><![CDATA[6df265cfe2e5843c327bcd3c8656c299]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
@@ -42,6 +50,8 @@
       <identifier>false</identifier>
     </attribute>
     <attribute>
+<<<<<<< HEAD
+=======
       <id><![CDATA[8ab23a945cd9bc31a8cd091e080d28c1]]></id>
       <name><![CDATA[TYPEGEN]]></name>
       <description><![CDATA[Nature de l'entité génératrice]]></description>
@@ -51,6 +61,7 @@
       <identifier>false</identifier>
     </attribute>
     <attribute>
+>>>>>>> 6a8eb93dc518a1ebfed4062b4d5a12c63b8cf72c
       <id><![CDATA[bf6cc359b24ea217a012564d48e5cb77]]></id>
       <name><![CDATA[REFBDEXT]]></name>
       <description><![CDATA[Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication]]></description>

@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[035fed5e6e38a742875401ac9556a821]]></id>
-  <typeName><![CDATA[T8_GENERATEUR_SUP_P]]></typeName>
+  <name><![CDATA[T8_GENERATEUR_SUP_P]]></name>
   <description><![CDATA[Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT]]></description>
   <attributes>
+    <attribute>
+      <id><![CDATA[0575a26e6d7112d44d533566b969cd36]]></id>
+      <name><![CDATA[TYPEGEN]]></name>
+      <description><![CDATA[Nature de l'entité génératrice]]></description>
+      <type><![CDATA[String]]></type>
+      <identifier>false</identifier>
+      <listOfValues>
+        <value><![CDATA[Forêt]]></value>
+        <value><![CDATA[Canalisation]]></value>
+        <value><![CDATA[Canal]]></value>
+        <value><![CDATA[ émissaire]]></value>
+        <value><![CDATA[Cours d'eau]]></value>
+        <value><![CDATA[Zone d'écoulement]]></value>
+        <value><![CDATA[Bois]]></value>
+        <value><![CDATA[ forêt ou dune]]></value>
+        <value><![CDATA[Zone agricole]]></value>
+        <value><![CDATA[Monument]]></value>
+        <value><![CDATA[Site]]></value>
+        <value><![CDATA[Réserve naturelle]]></value>
+        <value><![CDATA[ZPPAUP et AVAP]]></value>
+        <value><![CDATA[Phare]]></value>
+        <value><![CDATA[ poste ou Amer]]></value>
+        <value><![CDATA[Poste militaire]]></value>
+        <value><![CDATA[Magasin à poudre]]></value>
+        <value><![CDATA[Aérodrome]]></value>
+        <value><![CDATA[Ouvrage militaire]]></value>
+        <value><![CDATA[ fortification]]></value>
+        <value><![CDATA[Champ de tir]]></value>
+        <value><![CDATA[Captage]]></value>
+        <value><![CDATA[Établissement ostréicole]]></value>
+        <value><![CDATA[Terrains réservés]]></value>
+        <value><![CDATA[Zone submersibles]]></value>
+        <value><![CDATA[Station]]></value>
+        <value><![CDATA[Voie routière]]></value>
+        <value><![CDATA[Phare]]></value>
+        <value><![CDATA[Sentier piétonnier]]></value>
+        <value><![CDATA[Parc National]]></value>
+        <value><![CDATA[Autoroute]]></value>
+        <value><![CDATA[ voie expresse]]></value>
+        <value><![CDATA[ déviation]]></value>
+        <value><![CDATA[Zone bénéficiaire]]></value>
+        <value><![CDATA[Ligne électrique]]></value>
+        <value><![CDATA[Cimetière]]></value>
+        <value><![CDATA[Installation sportive]]></value>
+        <value><![CDATA[Périmètre réglementé du PPR]]></value>
+        <value><![CDATA[Installation]]></value>
+        <value><![CDATA[Zone]]></value>
+        <value><![CDATA[Ouvrage hydraulique]]></value>
+        <value><![CDATA[Centre de réception]]></value>
+        <value><![CDATA[Câble]]></value>
+        <value><![CDATA[Emprise chemin de fer]]></value>
+        <value><![CDATA[Ligne aérotrain]]></value>
+        <value><![CDATA[Balise]]></value>
+        <value><![CDATA[Zone dégagement]]></value>
+        <value><![CDATA[Centre de réception ou d'émission]]></value>
+      </listOfValues>
+      <size>40</size>
+      <nullable>false</nullable>
+    </attribute>
     <attribute>
       <id><![CDATA[202073fb00f6049f7ca061907feeecd8]]></id>
       <name><![CDATA[IDBDEXT]]></name>
@@ -11,7 +70,6 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[45f70d6a6b1277b4e57236f160d1f347]]></id>
@@ -20,35 +78,24 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[53a064decb952b57296d15a4129c84dd]]></id>
       <name><![CDATA[IDGEN]]></name>
       <description><![CDATA[Identifiant du générateur]]></description>
       <type><![CDATA[String]]></type>
+      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[a-zA-Z0-9_-]+_gen([0-9]+)?]]></regexp>
       <id><![CDATA[6df265cfe2e5843c327bcd3c8656c299]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
-    </attribute>
-    <attribute>
-      <id><![CDATA[8ab23a945cd9bc31a8cd091e080d28c1]]></id>
-      <name><![CDATA[TYPEGEN]]></name>
-      <description><![CDATA[Nature de l'entité génératrice]]></description>
-      <type><![CDATA[String]]></type>
-      <size>40</size>
-      <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[bf6cc359b24ea217a012564d48e5cb77]]></id>
@@ -57,7 +104,6 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[cd6f1e74c85a9107aee7db667ccb297d]]></id>
@@ -65,31 +111,29 @@
       <description><![CDATA[Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d0347f4b396894b92734634b2971c82b]]></id>
       <name><![CDATA[MODEGENERE]]></name>
       <description><![CDATA[Description du moyen utilisé pour obtenir la géométrie du générateur]]></description>
       <type><![CDATA[String]]></type>
-      <size>50</size>
-      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[Digitalisation]]></value>
         <value><![CDATA[Duplication]]></value>
         <value><![CDATA[Liste de coordonnées]]></value>
         <value><![CDATA[Géométrie fictive]]></value>
       </listOfValues>
-      <identifier>false</identifier>
+      <size>50</size>
+      <nullable>true</nullable>
     </attribute>
     <attribute>
       <id><![CDATA[ec9419301ce9b53b55bd9e0ce94ca2cb]]></id>
       <name><![CDATA[IDSUP]]></name>
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[String]]></type>
+      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
-      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[38a3403f65b4971e9fd121ed91b25304]]></id>
@@ -97,8 +141,17 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
+    </attribute>
+    <attribute>
+      <id><![CDATA[5d8e80ec35edd9ed4ae85e069c8ea84c]]></id>
+      <name><![CDATA[TYPEGEN]]></name>
+      <type><![CDATA[String]]></type>
       <identifier>false</identifier>
+      <listOfValues>
+        <value><![CDATA[Centre de réception ou d'émission]]></value>
+      </listOfValues>
+      <size>40</size>
+      <nullable>false</nullable>
     </attribute>
   </attributes>
-  <abstract>false</abstract>
 </featureType>
