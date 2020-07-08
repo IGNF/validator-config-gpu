@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[7b6a3bcd230903b9934815fc275e7f84]]></id>
-  <name><![CDATA[HABILLAGE_TXT]]></name>
+  <typeName><![CDATA[HABILLAGE_TXT]]></typeName>
   <description><![CDATA[Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha]]></description>
   <attributes>
     <attribute>
@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3b8ecd3ba494f2b0832a1bdcc3a0848e]]></id>
@@ -18,6 +19,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d244c74f87b085b47e4888cf45489678]]></id>
@@ -26,6 +28,7 @@
       <type><![CDATA[String]]></type>
       <size>80</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d37ed926a4e23db4dad161e98ef33326]]></id>
@@ -34,6 +37,8 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

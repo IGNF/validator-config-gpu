@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[e139447bb20c067c1ad6303034f804ad]]></id>
-  <name><![CDATA[ZONE_URBA]]></name>
+  <typeName><![CDATA[ZONE_URBA]]></typeName>
   <description><![CDATA[Table contenant les zones d'un document PLU ou POS]]></description>
   <attributes>
     <attribute>
@@ -10,12 +10,15 @@
       <description><![CDATA[Date de la dernière approbation de la zone]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[32d835423c5e873257a74f4fead14268]]></id>
       <name><![CDATA[TYPEZONE]]></name>
       <description><![CDATA[Type de la zone dans une nomenclature simplifiée]]></description>
       <type><![CDATA[String]]></type>
+      <size>3</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[U]]></value>
         <value><![CDATA[AUc]]></value>
@@ -25,8 +28,7 @@
         <value><![CDATA[Nh]]></value>
         <value><![CDATA[Nd]]></value>
       </listOfValues>
-      <size>3</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[39518343f1c812225e462a3e1dbbd03e]]></id>
@@ -35,6 +37,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[5b08198ff849fdcfbef54d2ebdc103ef]]></id>
@@ -42,12 +45,15 @@
       <description><![CDATA[Date de la dernière validation de la zone ou de son règlement]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8608995ef97a9957d0ec0365161ebfed]]></id>
       <name><![CDATA[DESTDOMI]]></name>
       <description><![CDATA[Vocation dominante de la zone, concerne l’usage de la zone]]></description>
       <type><![CDATA[String]]></type>
+      <size>2</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[00]]></value>
         <value><![CDATA[01]]></value>
@@ -61,8 +67,7 @@
         <value><![CDATA[10]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
-      <size>2</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8e5f663c8a07160abd996899ab429fd4]]></id>
@@ -71,6 +76,7 @@
       <type><![CDATA[String]]></type>
       <size>12</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[9fbeb64c306c8170ec24ce6868f99e37]]></id>
@@ -79,6 +85,7 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[a41cceaa65d90478085cc526f6a401da]]></id>
@@ -87,6 +94,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c5c29aae2a05e6b9c859a361c12b88ea]]></id>
@@ -95,6 +103,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ec9c33bc8706480c4af2596468399210]]></id>
@@ -102,6 +111,8 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

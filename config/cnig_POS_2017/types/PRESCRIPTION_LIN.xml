@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[e07320a1613ff0e0d6d92d2f976f1a9a]]></id>
-  <name><![CDATA[PRESCRIPTION_LIN]]></name>
+  <typeName><![CDATA[PRESCRIPTION_LIN]]></typeName>
   <description><![CDATA[Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit]]></description>
   <attributes>
     <attribute>
@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[22c783010263638511c2ee1e97cf5477]]></id>
@@ -19,6 +20,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[25a0acd1808cd1b76d591ddc7090e618]]></id>
@@ -27,6 +29,7 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[2d19baf05d42d79366332da523d711cc]]></id>
@@ -35,11 +38,14 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[73350ab6470e65c9ae2c0b5cdd8394a8]]></id>
       <name><![CDATA[STYPEPSC]]></name>
       <type><![CDATA[String]]></type>
+      <size>2</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[00]]></value>
         <value><![CDATA[01]]></value>
@@ -55,14 +61,15 @@
         <value><![CDATA[97]]></value>
         <value><![CDATA[98]]></value>
       </listOfValues>
-      <size>2</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[73dd98c842253d252e1165dc1b7e2077]]></id>
       <name><![CDATA[TYPEPSC]]></name>
       <description><![CDATA[Type de la prescription dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
+      <size>2</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -112,8 +119,7 @@
         <value><![CDATA[97]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
-      <size>2</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[809a0b87af0755a475f34fec8d1ac4cd]]></id>
@@ -121,6 +127,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8f70b482edbe2191069c519b3d5c1e43]]></id>
@@ -128,6 +135,7 @@
       <description><![CDATA[Date de la dernière validation de la prescription]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d908d419a0b37cfed8fc5beaf64b337c]]></id>
@@ -136,6 +144,8 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

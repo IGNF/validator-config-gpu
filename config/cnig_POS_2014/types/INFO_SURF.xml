@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[e0e9a09698ae2bc3dd68d669849cd6ac]]></id>
-  <name><![CDATA[INFO_SURF]]></name>
+  <typeName><![CDATA[INFO_SURF]]></typeName>
   <description><![CDATA[INFO_SURF]]></description>
   <attributes>
     <attribute>
@@ -11,12 +11,15 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[26e959cb08a60862f757bb018d530253]]></id>
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type de périmètre dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
+      <size>2</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -55,8 +58,7 @@
         <value><![CDATA[35]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
-      <size>2</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8100d97c12de235158a18b5e7481d74b]]></id>
@@ -65,6 +67,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[aa35a21ff9d1d08cd6f88e9178624be6]]></id>
@@ -73,6 +76,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c3a71ed7346540f07c4b2dd35721d6e8]]></id>
@@ -81,15 +85,17 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[PERI([0-9]+)?]]></regexp>
       <id><![CDATA[c55874fdb4d8e89a9f0b930768b64a9a]]></id>
       <name><![CDATA[IDINFO]]></name>
       <description><![CDATA[Identifiant unique de l’objet]]></description>
-      <regexp><![CDATA[PERI([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e4ffe97d13f30c9f7a05c20fa747aef2]]></id>
@@ -98,6 +104,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e5abd9f315bdc2a92d737477aaf160c2]]></id>
@@ -105,6 +112,8 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

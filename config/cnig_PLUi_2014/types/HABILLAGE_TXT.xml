@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[44e2862a7b2ebc12e85fd3e54bbeef47]]></id>
-  <name><![CDATA[HABILLAGE_TXT]]></name>
+  <typeName><![CDATA[HABILLAGE_TXT]]></typeName>
   <description><![CDATA[Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha]]></description>
   <attributes>
     <attribute>
+      <regexp><![CDATA[HT([0-9]+)?]]></regexp>
       <id><![CDATA[0a8131b549f6e6de26be1bd889e4d149]]></id>
       <name><![CDATA[IDHAB]]></name>
       <description><![CDATA[Identifiant unique de l’objet]]></description>
-      <regexp><![CDATA[HT([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[14590b676f8cf4d9d095f926234e7f51]]></id>
@@ -20,6 +21,7 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3a4272d2119c3429c419cde5c797948e]]></id>
@@ -28,6 +30,7 @@
       <type><![CDATA[String]]></type>
       <size>80</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[530a5999ccf2e3f3ce62913e1ec0228b]]></id>
@@ -35,6 +38,7 @@
       <description><![CDATA[Taille des caractères]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[678bb4abdd75523b58729f0fec4cebba]]></id>
@@ -42,6 +46,7 @@
       <description><![CDATA[Angle de l'écriture exprimé endegré, par rapport à l'horizontale,dans le sens trigonométrique]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[76e91b83ebe3e546d972791e9147ffb4]]></id>
@@ -50,6 +55,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[f0c5829b67b97f1e659a64368a4ddf5a]]></id>
@@ -58,6 +64,7 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[f83ce6d4ab3d0c21baef51cc3eb62587]]></id>
@@ -66,6 +73,7 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[fd9eddf0a1c62eb8d1533b0505a67a3e]]></id>
@@ -73,6 +81,8 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[1b5fd0cd2400c187b341e188292e773e]]></id>
-  <name><![CDATA[T7_GENERATEUR_SUP_P]]></name>
+  <typeName><![CDATA[T7_GENERATEUR_SUP_P]]></typeName>
   <description><![CDATA[Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT]]></description>
   <attributes>
     <attribute>
       <id><![CDATA[2d9eb4d1ca95b693d32f09e6dfe61a71]]></id>
       <name><![CDATA[TYPEGEN]]></name>
       <type><![CDATA[String]]></type>
-      <identifier>false</identifier>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[3410d2ec8cbd5c201be662b4cf6fe79b]]></id>
       <name><![CDATA[IDGEN]]></name>
       <description><![CDATA[Identifiant du générateur]]></description>
       <type><![CDATA[Integer]]></type>
-      <identifier>true</identifier>
       <nullable>false</nullable>
+      <identifier>true</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[39c93912ba5bf0afbad95db9ed66e78a]]></id>
@@ -27,6 +27,7 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[42cd1e3145f31264de0e3bc881ff3655]]></id>
@@ -34,28 +35,30 @@
       <description><![CDATA[Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[46a1e08c752e490bb51b205d640d4a42]]></id>
       <name><![CDATA[MODEGENERE]]></name>
       <description><![CDATA[Description du moyen utilisé pour obtenir la géométrie du générateur]]></description>
       <type><![CDATA[String]]></type>
+      <size>50</size>
+      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[Digitalisation]]></value>
         <value><![CDATA[Duplication]]></value>
         <value><![CDATA[Liste de coordonnées]]></value>
         <value><![CDATA[Géométrie fictive]]></value>
       </listOfValues>
-      <size>50</size>
-      <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[91e4e0e9674e7d3aaef322bdd1374c71]]></id>
       <name><![CDATA[IDSUP]]></name>
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[Integer]]></type>
-      <identifier>true</identifier>
       <nullable>false</nullable>
+      <identifier>true</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b6ea4308f6cb543b9b8d197a0a312357]]></id>
@@ -64,6 +67,7 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ca794cb677257564b31f6828f348dabe]]></id>
@@ -72,15 +76,17 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?]]></regexp>
       <id><![CDATA[dbff3aecc6bba23c7b9d6ab419537b04]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[5002025f1fc47d8d1c035c8f03f675b7]]></id>
@@ -88,6 +94,8 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPoint]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

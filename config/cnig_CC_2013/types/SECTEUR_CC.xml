@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[c2a0782dd2345c251bc4cec34aa061d2]]></id>
-  <name><![CDATA[SECTEUR_CC]]></name>
+  <typeName><![CDATA[SECTEUR_CC]]></typeName>
   <description><![CDATA[Table contenant les secteurs de la carte communale]]></description>
   <attributes>
     <attribute>
@@ -11,20 +11,22 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[373616397ac309e873c7d2a78ae2eb9d]]></id>
       <name><![CDATA[TYPESECT]]></name>
       <description><![CDATA[Type du secteur dans une nomenclature simplifiée]]></description>
       <type><![CDATA[String]]></type>
+      <size>3</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
         <value><![CDATA[03]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
-      <size>3</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[400695c3cd8bdbd7d0558cd0328fb513]]></id>
@@ -33,6 +35,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[40ba67f5cfe57750d97119510da3fad8]]></id>
@@ -41,6 +44,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[510e003f6396e19bdbf253af8b754475]]></id>
@@ -48,18 +52,20 @@
       <description><![CDATA[Date de la dernière validation du secteur ou de ses dispositions particulières]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[59fe911e35aa4cfdacb2ea740ddc95c3]]></id>
       <name><![CDATA[FERMRECO]]></name>
       <description><![CDATA[Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise]]></description>
       <type><![CDATA[String]]></type>
+      <size>3</size>
+      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[]]></value>
         <value><![CDATA[Oui]]></value>
       </listOfValues>
-      <size>3</size>
-      <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[86c3a04f71630bc8f1526911e172a10e]]></id>
@@ -67,12 +73,15 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d2f112a50a240e8f28bde7f776460cd6]]></id>
       <name><![CDATA[DESTDOMI]]></name>
       <description><![CDATA[Vocation dominante de la zone, concerne l’usage de la zone]]></description>
       <type><![CDATA[String]]></type>
+      <size>2</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[02]]></value>
@@ -80,8 +89,7 @@
         <value><![CDATA[08]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
-      <size>2</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d4907b570dfa7338cb66c27bff77947b]]></id>
@@ -89,6 +97,7 @@
       <description><![CDATA[Date d'approbation du document d'urbanisme auquel appartient la zone]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e6c11af585d920be3328cabc69420a81]]></id>
@@ -97,6 +106,8 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

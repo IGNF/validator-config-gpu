@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[c935251bddd1c95db7f843eafdecc7b1]]></id>
-  <name><![CDATA[INT1_ASSIETTE_SUP_S]]></name>
+  <typeName><![CDATA[INT1_ASSIETTE_SUP_S]]></typeName>
   <description><![CDATA[Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT]]></description>
   <attributes>
     <attribute>
@@ -9,18 +9,18 @@
       <name><![CDATA[IDASS]]></name>
       <description><![CDATA[Identifiant de l'assiette]]></description>
       <type><![CDATA[String]]></type>
-      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>true</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[03269ee3b188584738d51d38c542437c]]></id>
       <name><![CDATA[IDGEN]]></name>
       <description><![CDATA[Identifiant du générateur de l'assiette]]></description>
       <type><![CDATA[String]]></type>
-      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>true</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[103d375653943c30dc6f6c45e4c326d6]]></id>
@@ -29,6 +29,7 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[1b9a55e805706f3155f9f4acd1131438]]></id>
@@ -36,6 +37,7 @@
       <description><![CDATA[Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[5ebeb3ba2af08776854483e3a86134dc]]></id>
@@ -43,17 +45,18 @@
       <description><![CDATA[Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon]]></description>
       <type><![CDATA[Integer]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8be0f8349a74bb979a93152624de95e9]]></id>
       <name><![CDATA[TYPEASS]]></name>
       <type><![CDATA[String]]></type>
-      <identifier>false</identifier>
+      <size>40</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[Zone de protection]]></value>
       </listOfValues>
-      <size>40</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[a1782fa60a1da1d3f9b74c9c7e4b3def]]></id>
@@ -61,6 +64,8 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

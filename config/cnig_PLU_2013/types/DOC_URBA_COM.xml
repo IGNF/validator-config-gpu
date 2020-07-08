@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[ccfea5e97c868e212dd48f206497b680]]></id>
-  <name><![CDATA[DOC_URBA_COM]]></name>
+  <typeName><![CDATA[DOC_URBA_COM]]></typeName>
   <description><![CDATA[Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée]]></description>
   <attributes>
     <attribute>
@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[4a0f0b8761b99fc553807e1148cb5a52]]></id>
@@ -18,6 +19,7 @@
       <description><![CDATA[Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[a2c324523820877187df4975ad4d17fe]]></id>
@@ -26,6 +28,8 @@
       <type><![CDATA[String]]></type>
       <size>20</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

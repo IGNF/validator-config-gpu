@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[575e3ece467810ab0e2e6e502638e4a8]]></id>
-  <name><![CDATA[AC3_GENERATEUR_SUP_S]]></name>
+  <typeName><![CDATA[AC3_GENERATEUR_SUP_S]]></typeName>
   <description><![CDATA[Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT]]></description>
   <attributes>
     <attribute>
@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[45f70d6a6b1277b4e57236f160d1f347]]></id>
@@ -19,24 +20,26 @@
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[53a064decb952b57296d15a4129c84dd]]></id>
       <name><![CDATA[IDGEN]]></name>
       <description><![CDATA[Identifiant du générateur]]></description>
       <type><![CDATA[String]]></type>
-      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>true</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?]]></regexp>
       <id><![CDATA[6df265cfe2e5843c327bcd3c8656c299]]></id>
       <name><![CDATA[NOMGEN]]></name>
       <description><![CDATA[Nom abrégé du générateur, respectant les règles de nommage nationales des SUP]]></description>
-      <regexp><![CDATA[[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>100</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[bf6cc359b24ea217a012564d48e5cb77]]></id>
@@ -45,6 +48,7 @@
       <type><![CDATA[String]]></type>
       <size>50</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[cd6f1e74c85a9107aee7db667ccb297d]]></id>
@@ -52,53 +56,56 @@
       <description><![CDATA[Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[d0347f4b396894b92734634b2971c82b]]></id>
       <name><![CDATA[MODEGENERE]]></name>
       <description><![CDATA[Description du moyen utilisé pour obtenir la géométrie du générateur]]></description>
       <type><![CDATA[String]]></type>
+      <size>50</size>
+      <nullable>true</nullable>
       <listOfValues>
         <value><![CDATA[Digitalisation]]></value>
         <value><![CDATA[Duplication]]></value>
         <value><![CDATA[Liste de coordonnées]]></value>
         <value><![CDATA[Géométrie fictive]]></value>
       </listOfValues>
-      <size>50</size>
-      <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[ec9419301ce9b53b55bd9e0ce94ca2cb]]></id>
       <name><![CDATA[IDSUP]]></name>
       <description><![CDATA[Identifiant de la SUP]]></description>
       <type><![CDATA[String]]></type>
-      <identifier>true</identifier>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>true</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[1d0aa5e584e1ad8dae4a4c16f5d09147]]></id>
       <name><![CDATA[TYPEGEN]]></name>
       <type><![CDATA[String]]></type>
-      <identifier>false</identifier>
+      <size>40</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[Réserve naturelle]]></value>
       </listOfValues>
-      <size>40</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[63119c69de78ec68f3b3e2de9a5c33fa]]></id>
       <name><![CDATA[TYPE]]></name>
       <description><![CDATA[type du site]]></description>
       <type><![CDATA[String]]></type>
+      <size>30</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[Réserve naturelle nationale]]></value>
         <value><![CDATA[Réserve naturelle régionale]]></value>
         <value><![CDATA[Réserve naturelle de Corse]]></value>
       </listOfValues>
-      <size>30</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[85adc0ae9d805e08aa4966d0da1fb0b5]]></id>
@@ -106,6 +113,8 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

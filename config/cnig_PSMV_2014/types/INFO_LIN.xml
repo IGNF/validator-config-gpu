@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[33e6b6a82643433e039a853d5c6222c2]]></id>
-  <name><![CDATA[INFO_LIN]]></name>
+  <typeName><![CDATA[INFO_LIN]]></typeName>
   <description><![CDATA[Table contenant les informations linéaires à reporter à titre d'information]]></description>
   <attributes>
     <attribute>
@@ -11,6 +11,7 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[46130ba4a3bbf72f9ed8e2f212f103c4]]></id>
@@ -19,6 +20,7 @@
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7e65d773af1dce1b5379a2a157cf5295]]></id>
@@ -27,15 +29,17 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[LINE([0-9]+)?]]></regexp>
       <id><![CDATA[a1d6e1a108f5241f52b675ddd58f58d0]]></id>
       <name><![CDATA[IDINFO]]></name>
       <description><![CDATA[Identifiant unique de l’objet]]></description>
-      <regexp><![CDATA[LINE([0-9]+)?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>10</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[bb40d844d39f9d82f8b2225b61a3895a]]></id>
@@ -44,12 +48,15 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c22904a140649471e9ed359be676a804]]></id>
       <name><![CDATA[TYPEINF]]></name>
       <description><![CDATA[Type d'information linéaire dans une liste prédéfinie]]></description>
       <type><![CDATA[String]]></type>
+      <size>2</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[08]]></value>
         <value><![CDATA[14]]></value>
@@ -57,8 +64,7 @@
         <value><![CDATA[27]]></value>
         <value><![CDATA[99]]></value>
       </listOfValues>
-      <size>2</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[c2878f08163dd9833e86d440d34b4249]]></id>
@@ -66,6 +72,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[cb63ebb6ee2a017f692511cf1f078031]]></id>
@@ -74,6 +81,8 @@
       <type><![CDATA[Filename]]></type>
       <size>80</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

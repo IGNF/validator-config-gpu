@@ -1,110 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
+  <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
   <id><![CDATA[92cf99dd815bf0cc3a26e70b9ef68c8c]]></id>
   <name><![CDATA[cnig_SCoT_2018]]></name>
   <description><![CDATA[maillage_SCoT_datappro(_part)]]></description>
-  <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
   <files>
     <file>
-      <id><![CDATA[10d4f330c1e2bb1a5629b9aa3ae9fa94]]></id>
-      <name><![CDATA[Donnees_geographiques]]></name>
       <path><![CDATA[Donnees_geographiques]]></path>
+      <id><![CDATA[10d4f330c1e2bb1a5629b9aa3ae9fa94]]></id>
       <type><![CDATA[directory]]></type>
+      <name><![CDATA[Donnees_geographiques]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
+      <path><![CDATA[Donnees_geographiques/[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[8eeb5b3bd9de308140f13e84099d3242]]></id>
+      <type><![CDATA[table]]></type>
       <name><![CDATA[DOC_URBA_COM]]></name>
       <description><![CDATA[Table non géographique associant le SCOT aux communes auxquelles il s’applique]]></description>
-      <path><![CDATA[Donnees_geographiques/[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?]]></path>
-      <type><![CDATA[table]]></type>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
+      <path><![CDATA[Donnees_geographiques/[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[7ef4c206b08d12883dbcf9fcf8b17618]]></id>
+      <type><![CDATA[table]]></type>
       <name><![CDATA[DOC_URBA]]></name>
       <description><![CDATA[Table géographique portant la géométrie du périmètre du SCOT approuvé]]></description>
-      <path><![CDATA[Donnees_geographiques/[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?]]></path>
-      <type><![CDATA[table]]></type>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
+      <path><![CDATA[Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?]]></path>
       <id><![CDATA[9c14238c59a7bfd01f9dc7035d7d187e]]></id>
+      <type><![CDATA[table]]></type>
       <name><![CDATA[PERIMETRE_SCOT]]></name>
       <description><![CDATA[Périmètre du SCOT]]></description>
-      <path><![CDATA[Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?]]></path>
-      <type><![CDATA[table]]></type>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
+      <path><![CDATA[[^\/]*]]></path>
       <id><![CDATA[944f9abfbf49bf636d3791468039eab6]]></id>
-      <name><![CDATA[METADONNEES]]></name>
-      <path><![CDATA[[^/]*]]></path>
       <type><![CDATA[metadata]]></type>
+      <name><![CDATA[METADONNEES]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[4312d8d9a2daa8ed99a02c38e4f14281]]></id>
-      <name><![CDATA[Pieces_ecrites]]></name>
       <path><![CDATA[Pieces_ecrites]]></path>
+      <id><![CDATA[4312d8d9a2daa8ed99a02c38e4f14281]]></id>
       <type><![CDATA[directory]]></type>
+      <name><![CDATA[Pieces_ecrites]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[63496d5a88e6125e93ac6be8b6fa956e]]></id>
-      <name><![CDATA[0_Procedure]]></name>
       <path><![CDATA[Pieces_ecrites/0_Procedure]]></path>
+      <id><![CDATA[63496d5a88e6125e93ac6be8b6fa956e]]></id>
       <type><![CDATA[directory]]></type>
+      <name><![CDATA[0_Procedure]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[7a5838bf0547be2a0e75968d5943c604]]></id>
-      <name><![CDATA[PROCEDURE]]></name>
       <path><![CDATA[Pieces_ecrites/0_Procedure/[0-9]{9}_procedure(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
+      <id><![CDATA[7a5838bf0547be2a0e75968d5943c604]]></id>
       <type><![CDATA[pdf]]></type>
+      <name><![CDATA[PROCEDURE]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[ef5476e85180361636e05222a9ea20b2]]></id>
-      <name><![CDATA[1_SCOT]]></name>
       <path><![CDATA[Pieces_ecrites/1_SCOT]]></path>
+      <id><![CDATA[ef5476e85180361636e05222a9ea20b2]]></id>
       <type><![CDATA[directory]]></type>
+      <name><![CDATA[1_SCOT]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[ae873609567b5afff04997deedaeb632]]></id>
-      <name><![CDATA[DOO]]></name>
       <path><![CDATA[Pieces_ecrites/1_SCOT/[0-9]{9}_doo(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
+      <id><![CDATA[ae873609567b5afff04997deedaeb632]]></id>
       <type><![CDATA[pdf]]></type>
+      <name><![CDATA[DOO]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[42986519e27c8f83a99db14cb6698148]]></id>
-      <name><![CDATA[PADD]]></name>
       <path><![CDATA[Pieces_ecrites/1_SCOT/[0-9]{9}_padd(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
+      <id><![CDATA[42986519e27c8f83a99db14cb6698148]]></id>
       <type><![CDATA[pdf]]></type>
+      <name><![CDATA[PADD]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[266250a2dc3ce5526ec99b2de853c3b8]]></id>
-      <name><![CDATA[RAPPORT]]></name>
       <path><![CDATA[Pieces_ecrites/1_SCOT/[0-9]{9}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?]]></path>
+      <id><![CDATA[266250a2dc3ce5526ec99b2de853c3b8]]></id>
       <type><![CDATA[pdf]]></type>
+      <name><![CDATA[RAPPORT]]></name>
       <mandatory><![CDATA[WARN]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[02c946d1e93a2b00f0f44c43ed35a562]]></id>
-      <name><![CDATA[2_Autres_documents]]></name>
       <path><![CDATA[Pieces_ecrites/2_Autres_documents]]></path>
+      <id><![CDATA[02c946d1e93a2b00f0f44c43ed35a562]]></id>
       <type><![CDATA[directory]]></type>
+      <name><![CDATA[2_Autres_documents]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
+      <path><![CDATA[Pieces_ecrites/2_Autres_documents/[^\/]*]]></path>
       <id><![CDATA[d81e638b3eefd9f362c13acaa4da40e8]]></id>
-      <name><![CDATA[AUTRE_DOCUMENT]]></name>
-      <path><![CDATA[Pieces_ecrites/2_Autres_documents/[^/]*]]></path>
       <type><![CDATA[pdf]]></type>
+      <name><![CDATA[AUTRE_DOCUMENT]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
   </files>
+  <abstract>false</abstract>
+  <default_model>false</default_model>
 </document>

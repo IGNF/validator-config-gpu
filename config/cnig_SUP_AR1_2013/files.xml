@@ -1,79 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
+  <regexp><![CDATA[[0-9]{9}_AR1_[a-zA-Z0-9]+_[0-9]{8}]]></regexp>
   <id><![CDATA[c602dd86525de9692d5ee781d6b47148]]></id>
   <name><![CDATA[cnig_SUP_AR1_2013]]></name>
   <description><![CDATA[idgest_AR1_ddd_yyyymmdd ]]></description>
-  <regexp><![CDATA[[0-9]{9}_AR1_[a-zA-Z0-9]+_[0-9]{8}]]></regexp>
   <files>
     <file>
-      <id><![CDATA[58d11d3e65880c9a8c5171c736fdf005]]></id>
-      <name><![CDATA[AR1_ASSIETTE_SUP_S]]></name>
       <path><![CDATA[Donnees_geographiques/AR1_ASSIETTE_SUP_S(_[AB0-9]{3})?]]></path>
+      <id><![CDATA[58d11d3e65880c9a8c5171c736fdf005]]></id>
       <type><![CDATA[table]]></type>
+      <name><![CDATA[AR1_ASSIETTE_SUP_S]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[f0053eb8a1bfe1a63daf3d260cbeb4f7]]></id>
-      <name><![CDATA[AR1_GENERATEUR_SUP_P]]></name>
       <path><![CDATA[Donnees_geographiques/AR1_GENERATEUR_SUP_P(_[AB0-9]{3})?]]></path>
+      <id><![CDATA[f0053eb8a1bfe1a63daf3d260cbeb4f7]]></id>
       <type><![CDATA[table]]></type>
+      <name><![CDATA[AR1_GENERATEUR_SUP_P]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[b25c6be4f64aad28dc2b2f8c1efaf64a]]></id>
-      <name><![CDATA[Actes]]></name>
       <path><![CDATA[Actes]]></path>
+      <id><![CDATA[b25c6be4f64aad28dc2b2f8c1efaf64a]]></id>
       <type><![CDATA[directory]]></type>
+      <name><![CDATA[Actes]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
+      <path><![CDATA[Actes/[^\/]*]]></path>
       <id><![CDATA[d5ddd7409887f2dff12a42403931b658]]></id>
-      <name><![CDATA[ACTE]]></name>
-      <path><![CDATA[Actes/[^/]*]]></path>
       <type><![CDATA[pdf]]></type>
+      <name><![CDATA[ACTE]]></name>
       <mandatory><![CDATA[OPTIONAL]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[ccc983109a2ea6116602568f1d291a92]]></id>
-      <name><![CDATA[Donnees_geographiques]]></name>
       <path><![CDATA[Donnees_geographiques]]></path>
+      <id><![CDATA[ccc983109a2ea6116602568f1d291a92]]></id>
       <type><![CDATA[directory]]></type>
+      <name><![CDATA[Donnees_geographiques]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[b15effb3cbbfb4dfcfc8e57442308ad6]]></id>
-      <name><![CDATA[ACTE_SUP]]></name>
       <path><![CDATA[Donnees_geographiques/ACTE_SUP(_[AB0-9]{3})?]]></path>
+      <id><![CDATA[b15effb3cbbfb4dfcfc8e57442308ad6]]></id>
       <type><![CDATA[table]]></type>
+      <name><![CDATA[ACTE_SUP]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[98b971148593040338aca056e1e4f96b]]></id>
-      <name><![CDATA[GESTIONNAIRE_SUP]]></name>
       <path><![CDATA[Donnees_geographiques/GESTIONNAIRE_SUP(_[AB0-9]{3})?]]></path>
+      <id><![CDATA[98b971148593040338aca056e1e4f96b]]></id>
       <type><![CDATA[table]]></type>
+      <name><![CDATA[GESTIONNAIRE_SUP]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[2adf5d4585941974dce879ec9dbd5762]]></id>
-      <name><![CDATA[SERVITUDE_ACTE_SUP]]></name>
       <path><![CDATA[Donnees_geographiques/SERVITUDE_ACTE_SUP(_[AB0-9]{3})?]]></path>
+      <id><![CDATA[2adf5d4585941974dce879ec9dbd5762]]></id>
       <type><![CDATA[table]]></type>
+      <name><![CDATA[SERVITUDE_ACTE_SUP]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
-      <id><![CDATA[c0da9aa02ed6f0881eaa40fb6ffbaeb7]]></id>
-      <name><![CDATA[SERVITUDE]]></name>
       <path><![CDATA[Donnees_geographiques/SERVITUDE(_[AB0-9]{3})?]]></path>
+      <id><![CDATA[c0da9aa02ed6f0881eaa40fb6ffbaeb7]]></id>
       <type><![CDATA[table]]></type>
+      <name><![CDATA[SERVITUDE]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
     <file>
+      <path><![CDATA[[^\/]*]]></path>
       <id><![CDATA[76b0a43489e216854d5a7a8c9fc6715e]]></id>
-      <name><![CDATA[METADONNEES]]></name>
-      <path><![CDATA[[^/]*]]></path>
       <type><![CDATA[metadata]]></type>
+      <name><![CDATA[METADONNEES]]></name>
       <mandatory><![CDATA[ERROR]]></mandatory>
     </file>
   </files>
+  <abstract>false</abstract>
+  <default_model>false</default_model>
 </document>

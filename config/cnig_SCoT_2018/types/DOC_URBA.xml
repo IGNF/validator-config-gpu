@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[67fab1004f7688afc5427edc19d845b5]]></id>
-  <name><![CDATA[DOC_URBA]]></name>
+  <typeName><![CDATA[DOC_URBA]]></typeName>
   <description><![CDATA[Table décrivant le SCOT]]></description>
   <attributes>
     <attribute>
@@ -10,39 +10,45 @@
       <description><![CDATA[Date de fin de validité du SCOT. Si le SCOT est remplacé, cette date correspond à la date d'approbation du SCOT qui le remplace.Si le SCOT est annulé, cette date correspond à la date d'annulation.]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[^\/]*]]></regexp>
       <id><![CDATA[1298e6bb3c6896478c543053cc1f51f3]]></id>
       <name><![CDATA[DOO]]></name>
       <description><![CDATA[om du fichier contenant le document d’orientation et d’objectifs]]></description>
-      <regexp><![CDATA[[^/]*]]></regexp>
       <type><![CDATA[Filename]]></type>
       <size>30</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[^\/]*]]></regexp>
       <id><![CDATA[1a159ec13e68105b2fce302745c44774]]></id>
       <name><![CDATA[RAPPORT]]></name>
       <description><![CDATA[Nom du fichier contenant le rapport de présentation]]></description>
-      <regexp><![CDATA[[^/]*]]></regexp>
       <type><![CDATA[Filename]]></type>
       <size>30</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <id><![CDATA[1ad73c143b8b94026a6f0fcf91c93459]]></id>
       <name><![CDATA[SIREN]]></name>
       <description><![CDATA[Code SIREN de l'organisme responsable et porteur du SCOT]]></description>
-      <regexp><![CDATA[[0-9]{9}]]></regexp>
       <type><![CDATA[String]]></type>
       <size>9</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[1dce46eda511ad031cc637a5b89da25c]]></id>
       <name><![CDATA[TYPEPROC]]></name>
       <description><![CDATA[Nature de la procédure administrative engagée pour aboutir au document opposable]]></description>
       <type><![CDATA[String]]></type>
+      <size>2</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[01]]></value>
         <value><![CDATA[03]]></value>
@@ -50,8 +56,7 @@
         <value><![CDATA[05]]></value>
         <value><![CDATA[06]]></value>
       </listOfValues>
-      <size>2</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[2c184fb5294a5d21769ff74a1f456e53]]></id>
@@ -60,6 +65,7 @@
       <type><![CDATA[Url]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[40e75667d644c24d3a4ccba5c4190a99]]></id>
@@ -68,23 +74,27 @@
       <type><![CDATA[Url]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[55f872ce1fe5f822401717226532b206]]></id>
       <name><![CDATA[TYPEDOC]]></name>
       <description><![CDATA[Type de document d’urbanisme]]></description>
       <type><![CDATA[String]]></type>
+      <size>4</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[SCOT]]></value>
       </listOfValues>
-      <size>4</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[765c6421c876385835d2d05d7e89eb8c]]></id>
       <name><![CDATA[ETAT]]></name>
       <description><![CDATA[État du SCOT au regard de sa procédure]]></description>
       <type><![CDATA[String]]></type>
+      <size>2</size>
+      <nullable>false</nullable>
       <listOfValues>
         <value><![CDATA[03]]></value>
         <value><![CDATA[04]]></value>
@@ -93,17 +103,17 @@
         <value><![CDATA[07]]></value>
         <value><![CDATA[09]]></value>
       </listOfValues>
-      <size>2</size>
-      <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
       <id><![CDATA[8c3855bb2ebb1ed6c1c3fff423c1e07a]]></id>
       <name><![CDATA[IDURBA]]></name>
       <description><![CDATA[Identifiant du SCOTConstitue une clé externe dans les autres tables du lot de données]]></description>
-      <regexp><![CDATA[[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?]]></regexp>
       <type><![CDATA[String]]></type>
       <size>30</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[924337a795422c60fc127070da2985b8]]></id>
@@ -112,6 +122,7 @@
       <type><![CDATA[Url]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[941e9f8bdb763953c5bcfa9d88eebb93]]></id>
@@ -119,6 +130,7 @@
       <description><![CDATA[Date d'approbation du SCOT par délibération de l'EPCI après enquête publique]]></description>
       <type><![CDATA[Date]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[aa2ebceab1f7bea4173087ac705f93db]]></id>
@@ -127,6 +139,7 @@
       <type><![CDATA[String]]></type>
       <size>254</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[b37e660494679587c12e4773695f09a3]]></id>
@@ -135,6 +148,7 @@
       <type><![CDATA[Url]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[e1eb68941914510c6a52b832f58f7fa2]]></id>
@@ -143,15 +157,18 @@
       <type><![CDATA[Url]]></type>
       <size>254</size>
       <nullable>true</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
+      <regexp><![CDATA[[^\/]*]]></regexp>
       <id><![CDATA[ef58f1dbcece31e2fac509b597c0a211]]></id>
       <name><![CDATA[PADD]]></name>
       <description><![CDATA[Nom du fichier contenant le projet d'aménagement et de développement durables]]></description>
-      <regexp><![CDATA[[^/]*]]></regexp>
       <type><![CDATA[Filename]]></type>
       <size>30</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

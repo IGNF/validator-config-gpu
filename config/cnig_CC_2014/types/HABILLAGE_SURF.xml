@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[bd3f53e6fca310a5283cec0c1580e3f8]]></id>
-  <name><![CDATA[HABILLAGE_SURF]]></name>
+  <typeName><![CDATA[HABILLAGE_SURF]]></typeName>
   <description><![CDATA[Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage]]></description>
   <attributes>
     <attribute>
@@ -10,6 +10,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiPolygon]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7ba5ec0427227ab6c0a3eb48bb789ddf]]></id>
@@ -18,6 +19,7 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[8294a809fa604cda600798c4a3ae73c1]]></id>
@@ -26,6 +28,8 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>

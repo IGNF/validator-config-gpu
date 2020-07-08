@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featureType>
   <id><![CDATA[f4026609ee618f769e2461930e3bbc79]]></id>
-  <name><![CDATA[HABILLAGE_LIN]]></name>
+  <typeName><![CDATA[HABILLAGE_LIN]]></typeName>
   <description><![CDATA[Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage]]></description>
   <attributes>
     <attribute>
@@ -10,6 +10,7 @@
       <description><![CDATA[Geométrie associée]]></description>
       <type><![CDATA[MultiLineString]]></type>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[7d8e13549dd4f4dfdb61f8ea9145e952]]></id>
@@ -18,6 +19,7 @@
       <type><![CDATA[String]]></type>
       <size>40</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
     <attribute>
       <id><![CDATA[eb8b3d389953e80ee64c9bef7aa2e313]]></id>
@@ -26,6 +28,8 @@
       <type><![CDATA[String]]></type>
       <size>5</size>
       <nullable>false</nullable>
+      <identifier>false</identifier>
     </attribute>
   </attributes>
+  <abstract>false</abstract>
 </featureType>
