@@ -1,0 +1,54 @@
+{
+    "id": "e35502d42035ec0f8030819e1f4d9e0b",
+    "name": "HABILLAGE_SURF",
+    "title": "HABILLAGE_SURF",
+    "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage",
+    "columns": [
+        {
+            "id": "324379e0ba52dc6f0f6c334669cd8e5f",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 11
+            }
+        },
+        {
+            "id": "890fb67a6fa43be4eb3f4c515fbca3f5",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du polygon",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "981ca7d8f606f0af85ef0b1b06538c14",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "b9e049885b64acfed8a39d283bd18b08",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPolygon",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        }
+    ]
+}
