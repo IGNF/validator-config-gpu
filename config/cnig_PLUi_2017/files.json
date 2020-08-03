@@ -290,18 +290,18 @@
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "76217c108fcfdec6026004feff148da6",
-            "name": "SECTEUR_REGLEMENT",
-            "title": "SECTEUR_REGLEMENT",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/[0-9]{9}_reglement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
             "id": "fa864a584f870eac642aaca693ba8bfb",
             "name": "SECTEUR_REGLEMENT_GRAPHIQUE",
             "title": "SECTEUR_REGLEMENT_GRAPHIQUE",
             "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/[0-9]{9}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "76217c108fcfdec6026004feff148da6",
+            "name": "SECTEUR_REGLEMENT",
+            "title": "SECTEUR_REGLEMENT",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/[0-9]{9}_reglement_SECT[0-9]+_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
