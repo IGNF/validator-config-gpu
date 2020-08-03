@@ -65,6 +65,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
+                    "T",
                     "F"
                 ],
                 "maxLength": 1

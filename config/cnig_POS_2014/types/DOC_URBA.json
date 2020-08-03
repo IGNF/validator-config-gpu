@@ -124,6 +124,7 @@
                 "required": false,
                 "unique": false,
                 "enum": [
+                    "T",
                     "F"
                 ],
                 "maxLength": 1
