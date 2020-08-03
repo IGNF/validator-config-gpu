@@ -58,6 +58,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "(E|MC|MJ|M|MS|R|RS|A)(<ENTIER>)?",
                 "maxLength": 10
             }
         },

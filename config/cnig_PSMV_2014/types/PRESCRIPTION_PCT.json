@@ -129,6 +129,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "P(<ENTIER>)?",
                 "maxLength": 10
             }
         }

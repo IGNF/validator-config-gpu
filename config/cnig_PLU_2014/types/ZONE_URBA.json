@@ -50,6 +50,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "Z(<ENTIER>)?",
                 "maxLength": 10
             }
         },

@@ -134,6 +134,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "PERI(<ENTIER>)?",
                 "maxLength": 10
             }
         }

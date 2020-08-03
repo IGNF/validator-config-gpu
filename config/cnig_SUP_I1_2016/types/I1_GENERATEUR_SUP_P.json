@@ -35,7 +35,7 @@
             "type": "String",
             "constraints": {
                 "required": true,
-                "unique": false,
+                "unique": true,
                 "maxLength": 40
             }
         },
@@ -48,6 +48,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
+                "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?",
                 "maxLength": 100
             }
         },
@@ -100,7 +101,7 @@
             "type": "String",
             "constraints": {
                 "required": true,
-                "unique": false,
+                "unique": true,
                 "maxLength": 40
             }
         },

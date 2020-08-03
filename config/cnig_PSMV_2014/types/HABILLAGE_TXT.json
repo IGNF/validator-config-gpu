@@ -59,6 +59,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "HT(<ENTIER>)?",
                 "maxLength": 10
             }
         },

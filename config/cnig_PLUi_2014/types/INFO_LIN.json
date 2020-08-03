@@ -49,6 +49,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "LINE(<ENTIER>)?",
                 "maxLength": 10
             }
         },

@@ -23,7 +23,7 @@
             "type": "Integer",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": true
             }
         },
         {
@@ -75,7 +75,7 @@
             "type": "Integer",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": true
             }
         },
         {
@@ -111,6 +111,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
+                "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?",
                 "maxLength": 100
             }
         },
