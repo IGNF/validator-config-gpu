@@ -517,7 +517,7 @@ ea374e2cc093e2da5dbf5923e1217a3a,48061957cf85c558a3391d6ef42a43a1,WKT,Géométri
 8ea90810adcac4b04fb8387c3e506d26,4886ea89cf49e9a0d0c1e621829578a8,TYPEASS,TYPEASS,,String,t,f,"Zone de protection",,,40,
 01d86434b8cc670606850eea59796228,48ac04777ad427d939e25ed2350f8787,TYPEREF,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,f,f,"01,02,03,04",,,2,
 0c5e12d4ef9a37dd9f8371e3c7e8ee9a,48ac04777ad427d939e25ed2350f8787,SITEWEB,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,f,f,,,,254,
-329a72cffd3511a4c03173d24f8e0dde,48ac04777ad427d939e25ed2350f8787,TYPEDOC,TYPEDOC,"Type du document",String,t,f,PLUi,,,4,
+329a72cffd3511a4c03173d24f8e0dde,48ac04777ad427d939e25ed2350f8787,TYPEDOC,TYPEDOC,"Type du document",String,t,f,PLUI,,,4,
 36c965396a4b904d2b044d6cef0a7d0d,48ac04777ad427d939e25ed2350f8787,NOMPROC,NOMPROC,"Nom de la dernière procédure",String,f,f,,,,10,
 6208c3021324197c2dcbfa7c1b0544ce,48ac04777ad427d939e25ed2350f8787,NOMREG,NOMREG,"Nom du fichier contentant le document complet du règlement",String,f,f,,,,80,
 62aabfa9faa5d052ec0240b1d812e4f4,48ac04777ad427d939e25ed2350f8787,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,t,f,,,,30,
