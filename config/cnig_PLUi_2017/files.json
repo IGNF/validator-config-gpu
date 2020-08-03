@@ -317,7 +317,7 @@
             "id": "0d4ea8e24e4d0e208d5af01e8b193d2b",
             "name": "SECTEUR_ORIENTATION_AMENAGEMENT",
             "title": "SECTEUR_ORIENTATION_AMENAGEMENT",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/[0-9]{9}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/[0-9]{9}_orientations_amenagement_SECT[0-9]+_[0-9]+_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
