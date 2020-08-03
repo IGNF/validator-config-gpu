@@ -120,7 +120,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "(E|MC|MJ|M|MS|R|RS|A)(<ENTIER>)?",
+                "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)",
                 "maxLength": 10
             }
         },
