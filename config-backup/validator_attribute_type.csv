@@ -93,6 +93,7 @@ e05062206cb15ab124499158e34555e8,0eb4dfe435308652d23a7a839d5d0d4d,WKT,Géométri
 03269ee3b188584738d51d38c542437c,0f29a5c1aea011ba3c6346401fd0dbe3,IDGEN,IDGEN,"Identifiant du générateur de l'assiette",String,t,t,,,,40,
 103d375653943c30dc6f6c45e4c326d6,0f29a5c1aea011ba3c6346401fd0dbe3,SRCGEOASS,SRCGEOASS,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,f,f,,,,30,
 1b9a55e805706f3155f9f4acd1131438,0f29a5c1aea011ba3c6346401fd0dbe3,DATESRCASS,DATESRCASS,"Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",Date,f,f,,,,,
+49af99b76af6e56c80ae2280e13ffbec,0f29a5c1aea011ba3c6346401fd0dbe3,MODEGEOASS,MODEGEOASS,"Description de la méthode utilisée pour générer la géométrie de l'assiette",String,t,f,"Égale au générateur,Zone tampon,Digitalisation,Duplication,Liste de coordonnées,Secteur angulaire,Calculée,Liste de parcelles,Géométrie fictive",,,25,
 5ebeb3ba2af08776854483e3a86134dc,0f29a5c1aea011ba3c6346401fd0dbe3,PARAMCALC,PARAMCALC,"Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon",Integer,f,f,,,,,
 59302a90cff7c908a5be62b542918b33,0fb2ab598256e842a532478c1554ef87,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 3f9653091780614b65ffd8cc59265f05,103cb4163b84f16a51144ec382989467,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,t,f,,,,20,
