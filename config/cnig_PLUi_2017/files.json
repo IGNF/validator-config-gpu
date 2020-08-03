@@ -261,7 +261,7 @@
             "id": "fc61332cf8335e86fe35e1cfafefb375",
             "name": "POA",
             "title": "POA",
-            "path": "Pieces_ecrites/6_POA/[^\\/]*",
+            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA_[0-9]{8}",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
