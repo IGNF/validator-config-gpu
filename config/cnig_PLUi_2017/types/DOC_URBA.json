@@ -11,7 +11,7 @@
             "description": "Nom du référentiel cadastral utilisé pour la numérisation",
             "type": "String",
             "constraints": {
-                "required": false,
+                "required": true,
                 "unique": false,
                 "enum": [
                     "01",

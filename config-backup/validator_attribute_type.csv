@@ -515,7 +515,7 @@ ea374e2cc093e2da5dbf5923e1217a3a,48061957cf85c558a3391d6ef42a43a1,WKT,Géométri
 771bab29b5a678919c24640b8186c4f3,4886ea89cf49e9a0d0c1e621829578a8,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 875d633f8b61a35de789d928f9d1a22c,4886ea89cf49e9a0d0c1e621829578a8,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 8ea90810adcac4b04fb8387c3e506d26,4886ea89cf49e9a0d0c1e621829578a8,TYPEASS,TYPEASS,,String,t,f,"Zone de protection",,,40,
-01d86434b8cc670606850eea59796228,48ac04777ad427d939e25ed2350f8787,TYPEREF,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,f,f,"01,02,03,04",,,2,
+01d86434b8cc670606850eea59796228,48ac04777ad427d939e25ed2350f8787,TYPEREF,TYPEREF,"Nom du référentiel cadastral utilisé pour la numérisation",String,t,f,"01,02,03,04",,,2,
 0c5e12d4ef9a37dd9f8371e3c7e8ee9a,48ac04777ad427d939e25ed2350f8787,SITEWEB,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,f,f,,,,254,
 329a72cffd3511a4c03173d24f8e0dde,48ac04777ad427d939e25ed2350f8787,TYPEDOC,TYPEDOC,"Type du document",String,t,f,PLUI,,,4,
 36c965396a4b904d2b044d6cef0a7d0d,48ac04777ad427d939e25ed2350f8787,NOMPROC,NOMPROC,"Nom de la dernière procédure",String,f,f,,(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>),,10,
