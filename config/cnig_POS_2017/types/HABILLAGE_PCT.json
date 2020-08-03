@@ -24,6 +24,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
                 "maxLength": 11
             }
         },

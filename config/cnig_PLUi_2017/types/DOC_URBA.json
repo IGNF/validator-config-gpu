@@ -11,7 +11,7 @@
             "description": "Nom du référentiel cadastral utilisé pour la numérisation",
             "type": "String",
             "constraints": {
-                "required": false,
+                "required": true,
                 "unique": false,
                 "enum": [
                     "01",
@@ -44,7 +44,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "PLUi"
+                    "PLUI"
                 ],
                 "maxLength": 4
             }
@@ -58,6 +58,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)",
                 "maxLength": 10
             }
         },

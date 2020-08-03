@@ -25,6 +25,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "S(<ENTIER>)?",
                 "maxLength": 10
             }
         },

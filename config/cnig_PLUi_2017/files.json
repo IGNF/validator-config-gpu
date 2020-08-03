@@ -133,7 +133,7 @@
             "title": "JUGEMENT",
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
-            "mandatory": "WARN"
+            "mandatory": "OPTIONAL"
         },
         {
             "id": "81339c7d151132e7fe465b1a2ec5be79",
@@ -261,7 +261,7 @@
             "id": "fc61332cf8335e86fe35e1cfafefb375",
             "name": "POA",
             "title": "POA",
-            "path": "Pieces_ecrites/6_POA/[^\\/]*",
+            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA_[0-9]{8}",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -290,18 +290,18 @@
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "76217c108fcfdec6026004feff148da6",
-            "name": "SECTEUR_REGLEMENT",
-            "title": "SECTEUR_REGLEMENT",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/[0-9]{9}_reglement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "id": "fa864a584f870eac642aaca693ba8bfb",
+            "name": "SECTEUR_REGLEMENT_GRAPHIQUE",
+            "title": "SECTEUR_REGLEMENT_GRAPHIQUE",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/[0-9]{9}_reglement_graphique_SECT[0-9]+(_[0-9]+)?[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "fa864a584f870eac642aaca693ba8bfb",
-            "name": "SECTEUR_REGLEMENT_GRAPHIQUE",
-            "title": "SECTEUR_REGLEMENT_GRAPHIQUE",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/[0-9]{9}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "id": "76217c108fcfdec6026004feff148da6",
+            "name": "SECTEUR_REGLEMENT",
+            "title": "SECTEUR_REGLEMENT",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/3_Reglement/[0-9]{9}_reglement_SECT[0-9]+_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -317,7 +317,7 @@
             "id": "0d4ea8e24e4d0e208d5af01e8b193d2b",
             "name": "SECTEUR_ORIENTATION_AMENAGEMENT",
             "title": "SECTEUR_ORIENTATION_AMENAGEMENT",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/[0-9]{9}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]/5_Orientations_amenagement/[0-9]{9}_orientations_amenagement_SECT[0-9]+_[0-9]+_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },

@@ -60,6 +60,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "POIN(<ENTIER>)?",
                 "maxLength": 10
             }
         },

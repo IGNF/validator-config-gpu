@@ -86,6 +86,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
+                "pattern": "<CATEGORIE>_<RADICAL>(_<ENTIER>)?_act",
                 "maxLength": 100
             }
         },
@@ -120,6 +121,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "<CATEGORIE>_<RADICAL>(_<YYYYMMDD>)?_act.pdf",
                 "maxLength": 254
             }
         },
