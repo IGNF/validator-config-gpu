@@ -190,7 +190,7 @@
             "title": "2_PADD",
             "path": "Pieces_ecrites/2_PADD",
             "type": "directory",
-            "mandatory": "ERROR"
+            "mandatory": "OPTIONAL"
         },
         {
             "id": "3342289a10f40cca19e2d6316ac54c6a",
@@ -198,7 +198,7 @@
             "title": "PADD",
             "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
-            "mandatory": "ERROR"
+            "mandatory": "OPTIONAL"
         },
         {
             "id": "1361cf8dbace44ecf71c8467162b30ea",

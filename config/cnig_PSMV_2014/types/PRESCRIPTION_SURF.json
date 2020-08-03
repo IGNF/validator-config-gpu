@@ -1,11 +1,11 @@
 {
-    "id": "1df44911a69fd617250dda6e75f3f5ff",
+    "id": "a0daedcc4a878ff7de28de82a44c3221",
     "name": "PRESCRIPTION_SURF",
     "title": "PRESCRIPTION_SURF",
     "description": "Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "columns": [
         {
-            "id": "133430b5c5eb48a7052662bcc86eb054",
+            "id": "00a1cba5e535e7da3980fcc5358ce5be",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
@@ -17,7 +17,31 @@
             }
         },
         {
-            "id": "15af7a7b61ce458c1ca857a839d4d592",
+            "id": "334d87e1115aa7cdd01363274a247a01",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court de la prescription servant à faire une étiquette",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 10
+            }
+        },
+        {
+            "id": "41d16f54d5d90c7839cb110ecb0b18b2",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Intitulé complet de la prescription",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "id": "44979a03678b0b37d167be10acc0ab75",
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
@@ -28,7 +52,30 @@
             }
         },
         {
-            "id": "175001591209bb41e8f0e31b73d45655",
+            "id": "c17d854e51e43a1f5f15b0f672efeb86",
+            "name": "INSEE",
+            "title": "INSEE",
+            "description": "Code INSEE de la commune concernée par la prescription",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 5
+            }
+        },
+        {
+            "id": "d419eb92c86a1aa5103fc9fe26b6c623",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPolygon",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "d59099b8d2e55f93ce354766b1fb376a",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
@@ -39,7 +86,7 @@
             }
         },
         {
-            "id": "1b2cf8ca524463c2c5e91182aad704cc",
+            "id": "f2f4e821d1d718ea96ff3689d0f68d44",
             "name": "IDPSC",
             "title": "IDPSC",
             "description": "Identifiant unique de l’objet",
@@ -52,7 +99,7 @@
             }
         },
         {
-            "id": "50c9bac37692efac7793f8e9eeb5214a",
+            "id": "f5cccf232b4a90f789346f6bfeaa4b80",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
@@ -64,7 +111,7 @@
             }
         },
         {
-            "id": "788c2edeb9bf6018ca62d80793efafa5",
+            "id": "fed059e3412ff9167057f66424a07612",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
@@ -105,53 +152,6 @@
                     "99"
                 ],
                 "maxLength": 2
-            }
-        },
-        {
-            "id": "7b910d70d56b296c8fad55039e65e539",
-            "name": "LIBELLE",
-            "title": "LIBELLE",
-            "description": "Intitulé complet de la prescription",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 254
-            }
-        },
-        {
-            "id": "90657d31230e3344e3651a11ccbd4c3b",
-            "name": "TXT",
-            "title": "TXT",
-            "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 10
-            }
-        },
-        {
-            "id": "a42e9b4fc6a019049cbca20735b77822",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Geométrie associée",
-            "type": "MultiPolygon",
-            "constraints": {
-                "required": true,
-                "unique": false
-            }
-        },
-        {
-            "id": "aa6b5c23c7ba2bc8f611d49d6016f30d",
-            "name": "INSEE",
-            "title": "INSEE",
-            "description": "Code INSEE de la commune concernée par la prescription",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 5
             }
         }
     ]
