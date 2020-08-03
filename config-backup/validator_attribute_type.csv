@@ -42,7 +42,7 @@ c11408b14726608086864fb3ba70516e,0959dfcced5c2c53c87cbc45ef0f6445,INSEE,INSEE,"C
 dcb79c9213df56a9a4b22f2e59ff0d06,0959dfcced5c2c53c87cbc45ef0f6445,NATTRAC,NATTRAC,"Nature du polygon",String,f,f,,,,40,
 bd3170c882137ed08de415210d8fc482,0a3c44b438d31fb0517ae2d05e10a4ac,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 014e8beba9029526afb9623679eea43c,0a990e2d3356351c303b178558b31779,INSEE,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,t,f,,,,5,
-a65d195700500d305084279522d9eab0,0a990e2d3356351c303b178558b31779,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,f,f,,,,30,
+a65d195700500d305084279522d9eab0,0a990e2d3356351c303b178558b31779,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,t,f,,,,30,
 2d0962f3530d7a8a09b00b6c0a8a4a5b,0b030aa1cc02a1f6c00f2c0d02a1f1c3,TYPEGEN,TYPEGEN,,String,t,f,"Centre de réception",,,,
 e45cdabd19f6e4221057a0103d888d84,0b030aa1cc02a1f6c00f2c0d02a1f1c3,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 156d8934ccfd3a4608f86250c56ee61a,0b225518fd2bae911f6894e5b246c8d2,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,t,f,,,,30,

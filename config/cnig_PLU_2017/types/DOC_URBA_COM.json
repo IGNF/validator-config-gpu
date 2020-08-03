@@ -23,7 +23,7 @@
             "description": "Identifiant du document d'urbanisme",
             "type": "String",
             "constraints": {
-                "required": false,
+                "required": true,
                 "unique": false,
                 "maxLength": 30
             }
