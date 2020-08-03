@@ -738,7 +738,7 @@ c893da46664a3da8e78167a988ee9c54,61295112610f9a3f0d42073b96e5a672,TYPEINF,TYPEIN
 dae1c811874918226c7ea4ef9601c327,61295112610f9a3f0d42073b96e5a672,LIBELLE,LIBELLE,"Nom complet du périmètre",String,t,f,,,,254,
 ea80b2d1cd210a88bef7fe43e4231ee3,61295112610f9a3f0d42073b96e5a672,TXT,TXT,"Nom court du périmètre servant à faire une étiquette",String,f,f,,,,10,
 4d3b37195ed8540e89d095a12829c2be,612ce969bf9a0093ac37bf98a3735aff,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
-7c7ab28cf1d053c8d7a54647b41f058f,612ce969bf9a0093ac37bf98a3735aff,TYPEGEN,TYPEGEN,,String,t,f,Canalisation,,,40,
+7c7ab28cf1d053c8d7a54647b41f058f,612ce969bf9a0093ac37bf98a3735aff,TYPEGEN,TYPEGEN,,String,t,f,"Canalisation d'irrigation",,,40,
 d64ec7c37eb3f2fd4c210eb94203a609,61527ff7a9253cc8ef46e6c4cc03ebfd,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 0dce9a17735e6b58225a37f3a1a2f5d9,61800c83bc3a0c51e8c54a35d6866791,URLFIC,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",String,f,f,,,,254,
 1423e937be09fe1be25735dea8e8893b,61800c83bc3a0c51e8c54a35d6866791,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
