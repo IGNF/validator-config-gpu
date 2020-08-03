@@ -31,6 +31,7 @@
             "id": "513171b55409a2319e5321189dd896bf",
             "name": "COULEUR",
             "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
             "type": "String",
             "constraints": {
                 "required": false,
