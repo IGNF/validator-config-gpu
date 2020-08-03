@@ -133,7 +133,7 @@
             "title": "JUGEMENT",
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
-            "mandatory": "WARN"
+            "mandatory": "OPTIONAL"
         },
         {
             "id": "81339c7d151132e7fe465b1a2ec5be79",
