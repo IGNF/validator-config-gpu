@@ -1,11 +1,11 @@
 {
-    "id": "63e18a45fa7db0a5571066f0a01994d1",
+    "id": "acb6aca0d9ba8702ded8d95e12d4f7d1",
     "name": "HABILLAGE_PCT",
     "title": "HABILLAGE_PCT",
     "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
-            "id": "39c1e66f2b461c1d62d473aac982abc5",
+            "id": "8d8bda25e3981468becbe7ad72ede3b4",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
@@ -17,18 +17,7 @@
             }
         },
         {
-            "id": "aa23e6cba32b49be704108f87595325d",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Geométrie associée",
-            "type": "MultiPoint",
-            "constraints": {
-                "required": true,
-                "unique": false
-            }
-        },
-        {
-            "id": "ad53cd403c9a45b65dd563b2f2413cae",
+            "id": "9a5777679add6892443f59c13db71ab2",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du point",
@@ -40,7 +29,18 @@
             }
         },
         {
-            "id": "ea366eccd959e1519c1f75c509ee437a",
+            "id": "9f096d00ed79e009c98531327cb0060a",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPoint",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "ab1f2567c6a2da03c00c35ef5c13c3bd",
             "name": "IDHAB",
             "title": "IDHAB",
             "description": "Identifiant unique de l’objet",

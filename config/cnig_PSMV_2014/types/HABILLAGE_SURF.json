@@ -1,11 +1,23 @@
 {
-    "id": "df03a746402d7a7bee9b89cccc7fab47",
+    "id": "02cdccf2b0dc56cfa1c886eaff2b103e",
     "name": "HABILLAGE_SURF",
     "title": "HABILLAGE_SURF",
     "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
-            "id": "3342d358fc721093518077a37f3957e6",
+            "id": "04db373c3f2dfdd4466b22ae9de22459",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du polygon",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "099849bdbc1160323e0e23fc63ab5a1e",
             "name": "IDHAB",
             "title": "IDHAB",
             "description": "Identifiant unique de l’objet",
@@ -18,19 +30,7 @@
             }
         },
         {
-            "id": "3b7e3c46398c3dfdb2962cfd00a97565",
-            "name": "NATTRAC",
-            "title": "NATTRAC",
-            "description": "Nature du polygon",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 40
-            }
-        },
-        {
-            "id": "471cf91b1e4483e53c5300a7b2c420a2",
+            "id": "1cdc2dc293a441bf34451252eaa6037e",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Geométrie associée",
@@ -41,7 +41,7 @@
             }
         },
         {
-            "id": "a9d56307a55bc97c5ecb0321bdd4f17f",
+            "id": "ad6254e4f4a387c6d606a338d02b463b",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
