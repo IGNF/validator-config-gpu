@@ -423,7 +423,7 @@ ec6abb1c3700ab75a790ee44937e4c64,35e3e0b3c970d017b25914583294e754,LIBELLE,LIBELL
 b2164c9199109cd3406fa992d7ee1f85,36597297a90dbc885178714f8e64f4ba,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
 fd6d2e9ad1551b8ee0fc669ccefa5bbb,36597297a90dbc885178714f8e64f4ba,NATTRAC,NATTRAC,"Nature du point",String,t,f,,,,40,
 ffb8bf95460fdf74b734c094b5a637e8,36597297a90dbc885178714f8e64f4ba,IDHAB,IDHAB,"Identifiant unique de l’objet",String,f,f,,HP(<ENTIER>)?,,10,
-5304944bf4fe9fa3536a1e58b78ff184,365bdc666c1833a258d4a1be27feec6b,TYPEGEN,TYPEGEN,,String,t,f,"[""Bois"","" forêt ou dune""]",,,40,
+5304944bf4fe9fa3536a1e58b78ff184,365bdc666c1833a258d4a1be27feec6b,TYPEGEN,TYPEGEN,,String,t,f,"[""Bois, forêt ou dune""]",,,40,
 6cb54e92060c45096bc0222ade004178,365bdc666c1833a258d4a1be27feec6b,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 661692435c14ded3c6592fc1f8f9af96,36f656c8f6cc66c5ad61e6a2d858d6ef,TYPEGEN,TYPEGEN,,String,t,f,"[""Aérodrome""]",,,40,
 b7d9b913dcf48ede56a3ce558871637a,36f656c8f6cc66c5ad61e6a2d858d6ef,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
