@@ -118,20 +118,6 @@
             }
         },
         {
-            "id": "83fcdc76c1b1118955f4b3bbd6cc1bff",
-            "name": "TYPEASS",
-            "title": "TYPEASS",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "Zone de protection"
-                ],
-                "maxLength": 40
-            }
-        },
-        {
             "id": "f3c291be691ad02a96a8b931646fa364",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
