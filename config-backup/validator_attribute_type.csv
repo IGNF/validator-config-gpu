@@ -1976,7 +1976,7 @@ f3ff52dda0afd667a36f2b73489e7a53,fa9671e1f41577b38e9ed077d5dbda95,TYPEGEN,TYPEGE
 7dcdd99a68c651b238bb64eaf8d6d52c,fb091952c3e32f716fbee28184a6793c,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 4d3e5620ca6e745914560229cfedbc6d,fb32aa5632c67988133e2f326d9011a5,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 e2c9193aae4a4a00a8ca6ad40237ff91,fb32aa5632c67988133e2f326d9011a5,TYPEGEN,TYPEGEN,,String,t,f,"[""Zone bénéficiaire""]",,,40,
-536792e9a835766332c4cf41c9a35825,fc85fb86e8a09d9c3d45b9e084562bc9,TYPEASS,TYPEASS,,String,t,f,"[""Zone des 5 mètres"",""Zone d'influence""]",,,40,
+536792e9a835766332c4cf41c9a35825,fc85fb86e8a09d9c3d45b9e084562bc9,TYPEASS,TYPEASS,,String,t,f,"[""Zone de protection""]",,,40,
 68f5531b25af3d778a589d976465c50e,fc85fb86e8a09d9c3d45b9e084562bc9,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 861dcdfb292fc267902580393ce1b869,fc85fb86e8a09d9c3d45b9e084562bc9,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 0d1727d9860ab3357649957650d65955,fe9da1ca76a78e438901ab9ce5a2f96d,ID_GASPAR,ID_GASPAR,"Identifiant Gaspar du PPR",String,f,f,,,,24,
