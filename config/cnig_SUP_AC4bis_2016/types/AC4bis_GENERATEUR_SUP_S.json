@@ -124,7 +124,9 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "[\"PVAP\"]",
+                "enum": [
+                    "PVAP"
+                ],
                 "maxLength": 40
             }
         }
