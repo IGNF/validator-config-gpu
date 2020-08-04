@@ -109,31 +109,6 @@
                 "required": true,
                 "unique": false
             }
-        },
-        {
-            "id": "f2ce221497eae0c2ad1a762ca9448365",
-            "name": "HREF",
-            "title": "HREF",
-            "type": "String",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "enum": [
-                    "SOL",
-                    "NGF"
-                ],
-                "maxLength": 3
-            }
-        },
-        {
-            "id": "fb5c423f9d0bd82e22f7d0cff672bd27",
-            "name": "H",
-            "title": "H",
-            "type": "Double",
-            "constraints": {
-                "required": false,
-                "unique": false
-            }
         }
     ]
 }

@@ -115,8 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Canal",
-                    " émissaire"
+                    "Canal, émissaire"
                 ],
                 "maxLength": 40
             }

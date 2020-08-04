@@ -107,17 +107,6 @@
             }
         },
         {
-            "id": "1dedf5f067d9e80ab0309cfd61bc2d8c",
-            "name": "DIAMETRE",
-            "title": "DIAMETRE",
-            "description": "Diamètre de la canalisation en mm",
-            "type": "Integer",
-            "constraints": {
-                "required": true,
-                "unique": false
-            }
-        },
-        {
             "id": "8a81a8999595982d65dac08b2342d44a",
             "name": "WKT",
             "title": "Géométrie",
@@ -137,7 +126,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Canalisation"
+                    "Canalisation de distribution de gaz"
                 ],
                 "maxLength": 40
             }

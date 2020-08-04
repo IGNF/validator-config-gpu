@@ -94,8 +94,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Zone des 5 mètres",
-                    "Zone d'influence"
+                    "Zone de protection"
                 ],
                 "maxLength": 40
             }

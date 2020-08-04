@@ -101,16 +101,6 @@
             }
         },
         {
-            "id": "6a533d76210511f6edb3fa41504add8b",
-            "name": "H",
-            "title": "H",
-            "type": "Double",
-            "constraints": {
-                "required": false,
-                "unique": false
-            }
-        },
-        {
             "id": "a4ebe223f7815232a72ce57112944128",
             "name": "WKT",
             "title": "Géométrie",
@@ -119,21 +109,6 @@
             "constraints": {
                 "required": true,
                 "unique": false
-            }
-        },
-        {
-            "id": "b8b3537e1556571aedda2ac523c801fa",
-            "name": "HREF",
-            "title": "HREF",
-            "type": "String",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "enum": [
-                    "SOL",
-                    "NGF"
-                ],
-                "maxLength": 3
             }
         }
     ]

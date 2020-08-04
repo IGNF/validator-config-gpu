@@ -86,6 +86,20 @@
             }
         },
         {
+            "id": "83fcdc76c1b1118955f4b3bbd6cc1bff",
+            "name": "TYPEASS",
+            "title": "TYPEASS",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "Zone de protection"
+                ],
+                "maxLength": 40
+            }
+        },
+        {
             "id": "af8976dd3d3080e72a053c7f24ba086f",
             "name": "WKT",
             "title": "Géométrie",

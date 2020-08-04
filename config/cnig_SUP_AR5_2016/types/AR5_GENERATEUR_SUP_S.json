@@ -115,8 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Ouvrage militaire",
-                    " fortification"
+                    "Ouvrage militaire, fortification"
                 ],
                 "maxLength": 40
             }

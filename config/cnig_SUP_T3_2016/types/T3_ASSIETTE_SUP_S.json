@@ -86,16 +86,6 @@
             }
         },
         {
-            "id": "088d213c0513e560703a7970c75a1159",
-            "name": "H",
-            "title": "H",
-            "type": "Double",
-            "constraints": {
-                "required": false,
-                "unique": false
-            }
-        },
-        {
             "id": "2abcb91f3c66a082d81426bc02e348fb",
             "name": "WKT",
             "title": "Géométrie",
@@ -115,24 +105,9 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Zone de dégagement"
+                    "Zone d'occupation en tréfonds"
                 ],
                 "maxLength": 40
-            }
-        },
-        {
-            "id": "997e2bc3388d3c69f276b86454790b9f",
-            "name": "HREF",
-            "title": "HREF",
-            "type": "String",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "enum": [
-                    "SOL",
-                    "NGF"
-                ],
-                "maxLength": 3
             }
         }
     ]

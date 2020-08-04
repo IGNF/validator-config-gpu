@@ -126,8 +126,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Phare",
-                    " poste ou Amer"
+                    "Phare, poste ou Amer"
                 ],
                 "maxLength": 40
             }

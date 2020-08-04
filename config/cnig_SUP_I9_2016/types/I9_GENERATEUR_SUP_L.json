@@ -115,20 +115,9 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Canalisation"
+                    "Réseau de chaleur"
                 ],
                 "maxLength": 40
-            }
-        },
-        {
-            "id": "243970f121a60aa6b2056b82c52da870",
-            "name": "DIAMETRE",
-            "title": "DIAMETRE",
-            "description": "Diamètre de la canalisation en mm",
-            "type": "Integer",
-            "constraints": {
-                "required": true,
-                "unique": false
             }
         },
         {

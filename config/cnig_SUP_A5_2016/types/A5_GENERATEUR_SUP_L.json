@@ -115,7 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Canalisation"
+                    "Canalisation d'eau et d'assainissement"
                 ],
                 "maxLength": 40
             }

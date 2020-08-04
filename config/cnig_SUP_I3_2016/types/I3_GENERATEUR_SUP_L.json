@@ -125,6 +125,11 @@
             "constraints": {
                 "required": true,
                 "unique": false,
+                "enum": [
+                    "Hydrocarbures",
+                    "Gaz",
+                    "Produits chimiques"
+                ],
                 "maxLength": 20
             }
         },
@@ -137,7 +142,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Canalisation"
+                    "Canalisation de transport de produit"
                 ],
                 "maxLength": 40
             }

@@ -115,8 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Bois",
-                    " forêt ou dune"
+                    "Bois, forêt ou dune"
                 ],
                 "maxLength": 40
             }

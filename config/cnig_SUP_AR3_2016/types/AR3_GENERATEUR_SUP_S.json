@@ -126,7 +126,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Magasin à poudre"
+                    "Polygone d'isolement"
                 ],
                 "maxLength": 40
             }

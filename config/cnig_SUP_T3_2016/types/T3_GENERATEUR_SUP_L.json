@@ -115,7 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Ligne aérotrain"
+                    "Ligne souterraine de transport"
                 ],
                 "maxLength": 40
             }

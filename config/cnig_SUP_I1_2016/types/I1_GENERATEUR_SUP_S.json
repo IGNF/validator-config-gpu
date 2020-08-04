@@ -106,16 +106,6 @@
             }
         },
         {
-            "id": "07aaeed8858a08e601c5907580321141",
-            "name": "DIAMETRE",
-            "title": "DIAMETRE",
-            "type": "Integer",
-            "constraints": {
-                "required": true,
-                "unique": false
-            }
-        },
-        {
             "id": "0bfd77e4e3b8696232bde6a25d28cb10",
             "name": "TYPE",
             "title": "TYPE",
@@ -123,6 +113,11 @@
             "constraints": {
                 "required": true,
                 "unique": false,
+                "enum": [
+                    "Hydrocarbures",
+                    "Gaz",
+                    "Produits chimiques"
+                ],
                 "maxLength": 20
             }
         },

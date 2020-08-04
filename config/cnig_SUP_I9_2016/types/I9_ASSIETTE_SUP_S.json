@@ -94,8 +94,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Bande de protection courte",
-                    "Bande de protection large"
+                    "Zone de passage"
                 ],
                 "maxLength": 40
             }

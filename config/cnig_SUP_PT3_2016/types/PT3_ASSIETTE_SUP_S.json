@@ -86,31 +86,6 @@
             }
         },
         {
-            "id": "81579b54405e89ce15885c4fa93f3645",
-            "name": "HREF",
-            "title": "HREF",
-            "type": "String",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "enum": [
-                    "SOL",
-                    "NGF"
-                ],
-                "maxLength": 3
-            }
-        },
-        {
-            "id": "9976af06e92c14257685798e5b64f57d",
-            "name": "H",
-            "title": "H",
-            "type": "Double",
-            "constraints": {
-                "required": false,
-                "unique": false
-            }
-        },
-        {
             "id": "e98ac36cff532de0eeb83d7170d0b475",
             "name": "TYPEASS",
             "title": "TYPEASS",
