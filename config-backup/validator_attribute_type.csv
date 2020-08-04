@@ -797,7 +797,7 @@ ff7f825a52aa243dd691435779d68446,6758f278a9b8fac39d565073bd2ae2f0,INTERCO,INTERC
 1298e6bb3c6896478c543053cc1f51f3,67fab1004f7688afc5427edc19d845b5,DOO,DOO,"om du fichier contenant le document d’orientation et d’objectifs",Filename,t,f,,<FILENAME>,,30,
 1a159ec13e68105b2fce302745c44774,67fab1004f7688afc5427edc19d845b5,RAPPORT,RAPPORT,"Nom du fichier contenant le rapport de présentation",Filename,t,f,,<FILENAME>,,30,
 1ad73c143b8b94026a6f0fcf91c93459,67fab1004f7688afc5427edc19d845b5,SIREN,SIREN,"Code SIREN de l'organisme responsable et porteur du SCOT",String,t,f,,<SIREN>,,9,
-1dce46eda511ad031cc637a5b89da25c,67fab1004f7688afc5427edc19d845b5,TYPEPROC,TYPEPROC,"Nature de la procédure administrative engagée pour aboutir au document opposable",String,t,f,"[""01"",""03"",""04"",""05"",""06""]",,,2,
+1dce46eda511ad031cc637a5b89da25c,67fab1004f7688afc5427edc19d845b5,TYPEPROC,TYPEPROC,"Nature de la procédure administrative engagée pour aboutir au document opposable",String,t,f,"[""01"",""02"",""03"",""04"",""05"",""06""]",,,2,
 2c184fb5294a5d21769ff74a1f456e53,67fab1004f7688afc5427edc19d845b5,URLPE,URLPE,"Lien d’accès à l’archive zip comprenant l’ensemble des pièces écrites",Url,f,f,,,,254,
 40e75667d644c24d3a4ccba5c4190a99,67fab1004f7688afc5427edc19d845b5,URLPADD,URLPADD,"Lien d'accès au fichier du PADD",Url,f,f,,,,254,
 55f872ce1fe5f822401717226532b206,67fab1004f7688afc5427edc19d845b5,TYPEDOC,TYPEDOC,"Type de document d’urbanisme",String,t,f,"[""SCOT""]",,,4,
