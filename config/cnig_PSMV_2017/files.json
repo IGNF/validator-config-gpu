@@ -147,7 +147,7 @@
             "id": "27b1a9e9856b7e6eab65d54bd8add6d7",
             "name": "JUGEMENT",
             "title": "JUGEMENT",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
