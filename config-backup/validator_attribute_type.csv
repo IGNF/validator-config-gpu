@@ -1341,7 +1341,7 @@ abff42efb16ec5df70b71052306a514e,b0caba4828531c205d7c2d4c8bb618bf,WKT,Géométri
 d232f26631d9ad0a2758a5bf5afc9390,b0caba4828531c205d7c2d4c8bb618bf,TYPEGEN,TYPEGEN,,String,t,f,"[""Ligne électrique""]",,,40,
 2b4102ba0303f8a144122be6dc544860,b0f72d8cf9099420afba8f04855faf96,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
 35351f32e4cc055c9741ccc23592343f,b212b48e37b7ce4b5381bc1ee37fe36d,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
-434f2c468550a874dda84262c40d8785,b212b48e37b7ce4b5381bc1ee37fe36d,TYPE,TYPE,,String,t,f,,,,20,
+434f2c468550a874dda84262c40d8785,b212b48e37b7ce4b5381bc1ee37fe36d,TYPE,TYPE,,String,t,f,"[""Hydrocarbures"",""Gaz"",""Produits chimiques""]",,,20,
 4f0c983273abd80a5991b7e28118478d,b212b48e37b7ce4b5381bc1ee37fe36d,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation de transport de produit""]",,,40,
 40bf103a54613bb0a94b9bd14d71945d,b27482936d53b6eba27c12683bb9b6c8,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 b14e709f815a6d760c4baecee7ef8333,b27482936d53b6eba27c12683bb9b6c8,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
