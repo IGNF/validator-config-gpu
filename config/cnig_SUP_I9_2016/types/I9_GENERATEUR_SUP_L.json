@@ -115,7 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Canalisation"
+                    "Réseau de chaleur"
                 ],
                 "maxLength": 40
             }
