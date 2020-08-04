@@ -1505,7 +1505,7 @@ dfa04d9c1e2925bae5438d3c1e655c0d,c574d390f93dc8f0ff0ec0496dc995cc,TYPEDOC,TYPEDO
 e51b7a9fb363369cc5fd0d2c797e8b37,c574d390f93dc8f0ff0ec0496dc995cc,ETAT,ETAT,"Etat juridique du document d'urbanisme",String,t,f,"[""01"",""03"",""04"",""05"",""06"",""07""]",,,2,
 ef6fad7808a7155f595334b7a63a83ad,c574d390f93dc8f0ff0ec0496dc995cc,DATAPPRO,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,f,f,,,,,
 f6f42ffb71252d1df5a2204c9ea17fdd,c574d390f93dc8f0ff0ec0496dc995cc,INTERCO,INTERCO,"Indique si le document d'urbanisme est intercommunal",String,t,f,"[""T"",""F""]",,,1,
-2c6e86a49b19e7b667446c596336adcb,c5d9b1a7faf7028efbd3bcd5a643a535,TYPEGEN,TYPEGEN,,String,t,f,"[""Ligne aérotrain""]",,,40,
+2c6e86a49b19e7b667446c596336adcb,c5d9b1a7faf7028efbd3bcd5a643a535,TYPEGEN,TYPEGEN,,String,t,f,"[""Ligne souterraine de transport""]",,,40,
 63e31c2a0c0751b2989fb0ac0867e639,c5d9b1a7faf7028efbd3bcd5a643a535,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 115fcc6a5fbb460d302c4093f8674551,c600bcb7c9aa1d469114671774b0123f,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 6469fdc23ad68b78ceb5d57c3405b09f,c600bcb7c9aa1d469114671774b0123f,CODE_ALEA,CODE_ALEA,"Identifiant GASPAR de l'aléa",String,f,f,"[""10"",""11"",""12"",""13"",""14"",""15"",""16"",""17"",""18"",""30"",""31"",""99""]",,,2,
