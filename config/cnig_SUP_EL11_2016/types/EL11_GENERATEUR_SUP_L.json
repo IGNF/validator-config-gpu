@@ -115,9 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Autoroute",
-                    " voie expresse",
-                    " déviation"
+                    "Autoroute, voie express, déviation"
                 ],
                 "maxLength": 40
             }
