@@ -749,7 +749,7 @@ a0e98bf2476453638322030a3a3f3ecf,61800c83bc3a0c51e8c54a35d6866791,LIBELLE,LIBELL
 ad63f2405b847e71206f18135d804838,61800c83bc3a0c51e8c54a35d6866791,TYPEPSC,TYPEPSC,"Type de la prescription dans une liste prédéfinie",String,t,f,"[""01"",""05"",""07"",""16"",""18"",""22"",""25"",""28"",""99""]",,,2,
 dea811fc3eeda1273666c3436f5e21a9,61800c83bc3a0c51e8c54a35d6866791,NOMFIC,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,f,f,,,,80,
 8a81a8999595982d65dac08b2342d44a,621beed8ef6273a01ddf2d772b3035b4,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
-8d4cc20057f5be4b9ae67acbf695b2af,621beed8ef6273a01ddf2d772b3035b4,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation""]",,,40,
+8d4cc20057f5be4b9ae67acbf695b2af,621beed8ef6273a01ddf2d772b3035b4,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation de distribution de gaz""]",,,40,
 0a8f6893b4b8cbcfe55666ccb8c3d701,6290167e09ed0236b6db532f24590863,TXT,TXT,"Nom court servant à faire une étiquette",String,f,f,,,,10,
 1f2a8c400da470cf6a4f9e522d52ec06,6290167e09ed0236b6db532f24590863,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 54ad7969fa70b29272f2787172e1ef04,6290167e09ed0236b6db532f24590863,URLFIC,URLFIC,"Lien URL d’accès au fichier contenant le texte décrivant l'information",String,f,f,,,,254,

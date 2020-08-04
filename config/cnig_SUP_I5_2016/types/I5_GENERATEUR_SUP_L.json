@@ -126,7 +126,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Canalisation"
+                    "Canalisation de distribution de gaz"
                 ],
                 "maxLength": 40
             }
