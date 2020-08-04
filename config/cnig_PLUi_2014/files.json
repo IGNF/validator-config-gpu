@@ -163,7 +163,7 @@
             "id": "5242dd678b7e8cbcce64e208e2a35cb3",
             "name": "EVALUATION_ENVIRONNEMENTALE",
             "title": "EVALUATION_ENVIRONNEMENTALE",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_eval_environnement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_eval_environnement_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
