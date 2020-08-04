@@ -1643,7 +1643,7 @@ c5341445754bed183f259234c980c134,d813c4f263bb093ce975c58c02dcb76d,WKT,Géométri
 6210fd974f4267e033cf3df48526deee,d85e8842ca896768e79a982e687c6f3d,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 e592eca4a8fa55867f8f69cb8662e482,d85e8842ca896768e79a982e687c6f3d,DIAMETRE,DIAMETRE,"Diamètre de la canalisation en mm",Integer,f,f,,,,,
 6642a1b99ea67c4b4a8ca9262dac3401,d8eb6590e2c5cc0a0b95205d707e43d2,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
-9b7857df5395b52140f86794b33d7e5b,d8eb6590e2c5cc0a0b95205d707e43d2,TYPEASS,TYPEASS,,String,t,f,"[""Zone des 5 mètres"",""Zone de passage""]",,,40,
+9b7857df5395b52140f86794b33d7e5b,d8eb6590e2c5cc0a0b95205d707e43d2,TYPEASS,TYPEASS,,String,t,f,"[""Zone de passage""]",,,40,
 202073fb00f6049f7ca061907feeecd8,d8f20d2f47dd4e124458684ba917dc65,IDBDEXT,IDBDEXT,"Identifiant référençant l'objet correspondant au générateur dans le référentiel ou la base de données externe",String,f,f,,,,50,
 45f70d6a6b1277b4e57236f160d1f347,d8f20d2f47dd4e124458684ba917dc65,SRCGEOGEN,SRCGEOGEN,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,f,f,,,,30,
 53a064decb952b57296d15a4129c84dd,d8f20d2f47dd4e124458684ba917dc65,IDGEN,IDGEN,"Identifiant du générateur",String,t,t,,,,40,
