@@ -105,7 +105,8 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Zone de passage"
+                    "Zone de passage",
+                    "Zone de protection"
                 ],
                 "maxLength": 40
             }

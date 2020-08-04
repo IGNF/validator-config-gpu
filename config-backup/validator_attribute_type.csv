@@ -456,7 +456,7 @@ ff737c2ce991ecbead2c028340dd8aef,39481f8bbd67f298f4ef20bb0b5d4552,IDHAB,IDHAB,"I
 b6115fa253ab1519164080c6cc14244b,3b31c624149d65a8615a4d31975f36e9,TYPEP,TYPEP,"Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",String,f,f,"[""99""]",,,2,
 c65e8e01fd3576c6595b0729cef37807,3b31c624149d65a8615a4d31975f36e9,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
 6cbf5f9352ab85b9a9b8169f77ab5ab8,3b541534400561e8453f47ccfd30b192,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
-bd430279bad4c9802f308c2e3fb60be5,3b541534400561e8453f47ccfd30b192,TYPEASS,TYPEASS,,String,t,f,"[""Zone de passage""]",,,40,
+bd430279bad4c9802f308c2e3fb60be5,3b541534400561e8453f47ccfd30b192,TYPEASS,TYPEASS,,String,t,f,"[""Zone de passage"",""Zone de protection""]",,,40,
 120eaa5f8ebb56fc036e19ee3bf7e1ab,3ceea8bc46476a393ab1d5c6b50bf3e1,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 15540bdad063c6d951da26654ce45a95,3ceea8bc46476a393ab1d5c6b50bf3e1,TYPEGEN,TYPEGEN,,String,t,f,"[""Voie routière""]",,,40,
 b374f11655df156379e6bb0382dc22ff,3f6ea9d260e1647885faa00ed5c2c12c,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
