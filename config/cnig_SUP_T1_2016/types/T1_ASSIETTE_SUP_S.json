@@ -97,21 +97,6 @@
             }
         },
         {
-            "id": "9f996145156c4d03642207643771e15b",
-            "name": "HREF",
-            "title": "HREF",
-            "type": "String",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "enum": [
-                    "SOL",
-                    "NGF"
-                ],
-                "maxLength": 3
-            }
-        },
-        {
             "id": "b5b6fe5ed5ffe2b7d8a6973987441927",
             "name": "TYPEASS",
             "title": "TYPEASS",
@@ -123,16 +108,6 @@
                     "Zone de protection"
                 ],
                 "maxLength": 40
-            }
-        },
-        {
-            "id": "b7dd4cf75be278b2c756cf5aa3a4e4ce",
-            "name": "H",
-            "title": "H",
-            "type": "Double",
-            "constraints": {
-                "required": false,
-                "unique": false
             }
         }
     ]
