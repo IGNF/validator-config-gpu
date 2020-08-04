@@ -117,7 +117,8 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Périmètre de protection"
+                    "Périmètre des abords",
+                    "Monument historique"
                 ],
                 "maxLength": 40
             }
