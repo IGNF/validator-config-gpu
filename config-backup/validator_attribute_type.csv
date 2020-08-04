@@ -762,7 +762,7 @@ c23256e7fbad03a29ed1976e7571f4d1,6290167e09ed0236b6db532f24590863,TYPEP,TYPEP,"T
 aa23e6cba32b49be704108f87595325d,63e18a45fa7db0a5571066f0a01994d1,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
 ad53cd403c9a45b65dd563b2f2413cae,63e18a45fa7db0a5571066f0a01994d1,NATTRAC,NATTRAC,"Nature du point",String,t,f,,,,40,
 ea366eccd959e1519c1f75c509ee437a,63e18a45fa7db0a5571066f0a01994d1,IDHAB,IDHAB,"Identifiant unique de l’objet",String,f,f,,HP(<ENTIER>)?,,10,
-400d4e7825dfdff17b1b9533f00ee2f1,6546549etfg8749retgh6874etgh684e,TYPEASS,TYPEASS,,String,t,f,"[""Balisage""]",,,40,
+400d4e7825dfdff17b1b9533f00ee2f1,6546549etfg8749retgh6874etgh684e,TYPEASS,TYPEASS,,String,t,f,"[""Zone maximale de Balisage""]",,,40,
 b3edeb28664528adbdf06136410a1cbb,6546549etfg8749retgh6874etgh684e,H,H,,Double,t,f,,,,,
 d1ad7e286322d3d3fdd4fa860d9e8f56,6546549etfg8749retgh6874etgh684e,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 d460a5f77065d36c3607c9265065c767,6546549etfg8749retgh6874etgh684e,HREF,HREF,,String,t,f,"[""SOL"",""NGF""]",,,3,

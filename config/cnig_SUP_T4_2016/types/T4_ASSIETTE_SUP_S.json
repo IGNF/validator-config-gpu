@@ -94,7 +94,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Balisage"
+                    "Zone maximale de Balisage"
                 ],
                 "maxLength": 40
             }
