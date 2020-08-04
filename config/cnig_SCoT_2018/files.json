@@ -16,31 +16,13 @@
             "mandatory": "ERROR"
         },
         {
-            "id": "8eeb5b3bd9de308140f13e84099d3242",
-            "name": "DOC_URBA_COM",
-            "title": "DOC_URBA_COM",
-            "description": "Table non géographique associant le SCOT aux communes auxquelles il s’applique",
-            "path": "Donnees_geographiques/[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
-            "type": "table",
-            "mandatory": "ERROR"
-        },
-        {
-            "id": "7ef4c206b08d12883dbcf9fcf8b17618",
-            "name": "DOC_URBA",
-            "title": "DOC_URBA",
-            "description": "Table géographique portant la géométrie du périmètre du SCOT approuvé",
-            "path": "Donnees_geographiques/[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
-            "type": "table",
-            "mandatory": "ERROR"
-        },
-        {
             "id": "9c14238c59a7bfd01f9dc7035d7d187e",
             "name": "PERIMETRE_SCOT",
             "title": "PERIMETRE_SCOT",
             "description": "Périmètre du SCOT",
             "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "ERROR"
         },
         {
             "id": "944f9abfbf49bf636d3791468039eab6",
@@ -121,6 +103,24 @@
             "path": "Pieces_ecrites/2_Autres_documents/[^\\/]*",
             "type": "pdf",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "8eeb5b3bd9de308140f13e84099d3242",
+            "name": "DOC_URBA_COM",
+            "title": "DOC_URBA_COM",
+            "description": "Table non géographique associant le SCOT aux communes auxquelles il s’applique",
+            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "7ef4c206b08d12883dbcf9fcf8b17618",
+            "name": "DOC_URBA",
+            "title": "DOC_URBA",
+            "description": "Table géographique portant la géométrie du périmètre du SCOT approuvé",
+            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "ERROR"
         }
     ]
 }
