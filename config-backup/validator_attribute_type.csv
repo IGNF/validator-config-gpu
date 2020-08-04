@@ -1000,8 +1000,6 @@ e6fde4190a0f467b8d7d623593ccacd1,842dca4715be90a4a15f2b178d636c4b,INSEE,INSEE,"C
 20aaa4d08a053845d126b583cf50db7a,84bf388ec561b7da8c818659d51eb135,TYPEASS,TYPEASS,,String,t,f,"[""Zone de protection""]",,,40,
 af0f26c31a27ccd0ef63b5e8d13ad642,84bf388ec561b7da8c818659d51eb135,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 bbfff4bd8fbda807325156e819d44777,84bf388ec561b7da8c818659d51eb135,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
-81579b54405e89ce15885c4fa93f3645,852135bba7925e31d8b32379016de8c8,HREF,HREF,,String,f,f,"[""SOL"",""NGF""]",,,3,
-9976af06e92c14257685798e5b64f57d,852135bba7925e31d8b32379016de8c8,H,H,,Double,f,f,,,,,
 e98ac36cff532de0eeb83d7170d0b475,852135bba7925e31d8b32379016de8c8,TYPEASS,TYPEASS,,String,t,f,"[""Zone d'exploitation""]",,,40,
 ebdf44eccd36d5cb029f83953bb68bca,852135bba7925e31d8b32379016de8c8,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 3982201f5d8287e855faa593082351a7,85822aae4392b5764350810abd1e5c70,NOMFIC,NOMFIC,"Nom du fichier contenant le texte décrivant l'information reportée",Filename,f,f,,,,80,
