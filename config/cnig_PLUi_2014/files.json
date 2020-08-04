@@ -147,7 +147,7 @@
             "id": "ff1de5adbae98ff6e46e33ab2e03ae93",
             "name": "PROCEDURE",
             "title": "PROCEDURE",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -163,7 +163,7 @@
             "id": "5242dd678b7e8cbcce64e208e2a35cb3",
             "name": "EVALUATION_ENVIRONNEMENTALE",
             "title": "EVALUATION_ENVIRONNEMENTALE",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_eval_environnement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_eval_environnement_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -216,20 +216,20 @@
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "f729e2de1b45b45b48c628b53bd1b55c",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
-        },
-        {
             "id": "0c1ddbdebc11e1ed9bb1736d7a375f32",
             "name": "REGLEMENT_GRAPHIQUE",
             "title": "REGLEMENT_GRAPHIQUE",
             "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "f729e2de1b45b45b48c628b53bd1b55c",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
         },
         {
             "id": "239b64044aa04c67b329bd86320ab3d7",

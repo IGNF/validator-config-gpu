@@ -131,7 +131,7 @@
             "id": "0e793a4cf4a69d02c1b58a854263eab3",
             "name": "JUGEMENT",
             "title": "JUGEMENT",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -139,7 +139,7 @@
             "id": "81339c7d151132e7fe465b1a2ec5be79",
             "name": "PROCEDURE",
             "title": "PROCEDURE",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -156,7 +156,7 @@
             "name": "EVALUATION_ENVIRONNEMENTALE",
             "title": "EVALUATION_ENVIRONNEMENTALE",
             "description": "L'évaluation environnementale",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_eval_environnement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_eval_environnement_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -201,14 +201,6 @@
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "32e66d0bf8a4cfd8e5aaab5b6c117064",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
-        },
-        {
             "id": "bec9ae57b2217a1820424f0e3a0d83ca",
             "name": "REGLEMENT_GRAPHIQUE",
             "title": "REGLEMENT_GRAPHIQUE",
@@ -216,6 +208,14 @@
             "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "32e66d0bf8a4cfd8e5aaab5b6c117064",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
         },
         {
             "id": "cf0a821e6738f178806ff56c676f956b",
@@ -325,7 +325,7 @@
             "id": "cc898e8a0dd97c7dae499f2138549ffb",
             "name": "PLAN_DE_SECTEURS",
             "title": "PLAN_DE_SECTEURS",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/[0-9]{9}_plan_de_secteurs(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/[0-9]{9}_plan_de_secteurs_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
