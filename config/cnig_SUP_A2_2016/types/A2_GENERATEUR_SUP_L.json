@@ -126,7 +126,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Canalisation"
+                    "Canalisation d'irrigation"
                 ],
                 "maxLength": 40
             }

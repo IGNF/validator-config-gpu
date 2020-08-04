@@ -52,6 +52,21 @@
             }
         },
         {
+            "id": "66381d4b3078f4593da029232310f38d",
+            "name": "MODEGEOASS",
+            "title": "MODEGEOASS",
+            "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "Égale au générateur"
+                ],
+                "maxLength": 25
+            }
+        },
+        {
             "id": "5ebeb3ba2af08776854483e3a86134dc",
             "name": "PARAMCALC",
             "title": "PARAMCALC",
@@ -72,21 +87,6 @@
                 "unique": false,
                 "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass",
                 "maxLength": 100
-            }
-        },
-        {
-            "id": "66381d4b3078f4593da029232310f38d",
-            "name": "MODEGEOASS",
-            "title": "MODEGEOASS",
-            "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "Égale au générateur"
-                ],
-                "maxLength": 25
             }
         },
         {
