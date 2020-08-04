@@ -115,7 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Zone de dégagement"
+                    "Zone d'occupation en tréfonds"
                 ],
                 "maxLength": 40
             }
