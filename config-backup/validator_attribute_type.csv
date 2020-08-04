@@ -244,7 +244,7 @@ c83461113e9140b61084141ccad953aa,205eca1b2044a921dbac103d5fcf0d08,DATEREF,DATERE
 ca28fcf3fdda6c32b67846d74bd1fd80,205eca1b2044a921dbac103d5fcf0d08,SIREN,SIREN,"Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",String,f,f,,,,9,
 ddfaee1317a16639be4fdd0315ae74ae,205eca1b2044a921dbac103d5fcf0d08,DATAPPRO,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,f,f,,,,,
 01f0b6f3ac067f7e2bca6dd4743ecfc2,20daa8f16a943ce536abfdadc4777dc3,TYPEGEN,TYPEGEN,,String,t,f,"[""Périmètre réglementé du PPR""]",,,40,
-3399d8365d130761bda9f9377ce85ecd,20daa8f16a943ce536abfdadc4777dc3,CODE_ALEA,CODE_ALEA,"Identifiant GASPAR de l'aléa",String,t,f,"[""10"",""11"",""12"",""13"",""14"",""15"",""16"",""17"",""18"",""30"",""31"",""99""]",,,2,
+3399d8365d130761bda9f9377ce85ecd,20daa8f16a943ce536abfdadc4777dc3,CODE_ALEA,CODE_ALEA,"Identifiant GASPAR de l'aléa",String,t,f,"[""10"",""11"",""12"",""13"",""14"",""15"",""16"",""17"",""18"",""30"",""31"",""32"",""33"",""99""]",,,2,
 40e1b3b46df0b2042a05d035c6f88d24,20daa8f16a943ce536abfdadc4777dc3,URL_GRISQ,URL_GRISQ,"Hyperlien vers le PPR dans Géorisques",Url,t,f,,,,254,
 a4f5301190279f40f77e9d6c3ae586fd,20daa8f16a943ce536abfdadc4777dc3,ID_GASPAR,ID_GASPAR,"Identifiant Gaspar du PPR",String,t,f,,,,24,
 e98664c8e2b6c68673a6a393b534074c,20daa8f16a943ce536abfdadc4777dc3,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
