@@ -114,6 +114,11 @@
             "constraints": {
                 "required": true,
                 "unique": false,
+                "enum": [
+                    "Hydrocarbures",
+                    "Gaz",
+                    "Produits chimiques"
+                ],
                 "maxLength": 20
             }
         },
