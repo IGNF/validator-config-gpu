@@ -295,7 +295,7 @@ b117db52993edf7d216b346022d85a7c,25799ab4e7d3d17532d47bb17993a2ef,IDSUP,IDSUP,"I
 b61b349b113ab9599d606d05d572f8a2,25799ab4e7d3d17532d47bb17993a2ef,IDGEN,IDGEN,"Identifiant du générateur",Integer,t,t,,,,,
 cc1e59521113bd46dbf1755bf85109b3,25799ab4e7d3d17532d47bb17993a2ef,MODEGENERE,MODEGENERE,"Description du moyen utilisé pour obtenir la géométrie du générateur",String,f,f,"[""Digitalisation"",""Duplication"",""Liste de coordonnées"",""Géométrie fictive""]",,,50,
 f9757587cff12e81706fc7485eaf0c30,25799ab4e7d3d17532d47bb17993a2ef,REFBDEXT,REFBDEXT,"Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication",String,f,f,,,,50,
-19ce6423b6b513f9a08f73dc124492c4,25b3b754830169dfd8fd819724902c66,TYPEASS,TYPEASS,,String,t,f,"[""Bande de protection courte"",""Bande de protection large""]",,,40,
+19ce6423b6b513f9a08f73dc124492c4,25b3b754830169dfd8fd819724902c66,TYPEASS,TYPEASS,,String,t,f,"[""Zone de passage""]",,,40,
 5a5c11d419148e7668d4df29ced59f76,25b3b754830169dfd8fd819724902c66,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 66ee1459ffdb1ee41205a74122bc71b0,26393a7a3de011998233b7fcdbdc529c,INSEE,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,t,f,,,,5,
 8784f2c0d5470ef93a410fc78a761bac,26393a7a3de011998233b7fcdbdc529c,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,f,f,,,,20,
