@@ -115,7 +115,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "ZPPAUP et AVAP"
+                    "SPR"
                 ],
                 "maxLength": 40
             }
