@@ -127,16 +127,6 @@
             }
         },
         {
-            "id": "c273256ce8a12210b6dd41aec946dee4",
-            "name": "DIAMETRE",
-            "title": "DIAMETRE",
-            "type": "Integer",
-            "constraints": {
-                "required": true,
-                "unique": false
-            }
-        },
-        {
             "id": "c71572fa413659162d762f0b967d0b3d",
             "name": "TYPEGEN",
             "title": "TYPEGEN",

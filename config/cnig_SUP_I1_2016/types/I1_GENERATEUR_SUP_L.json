@@ -118,17 +118,6 @@
             }
         },
         {
-            "id": "c52a9015c885aae70d5d49a4f82c97a4",
-            "name": "DIAMETRE",
-            "title": "DIAMETRE",
-            "description": "Diamètre de la canalisation en mm",
-            "type": "Integer",
-            "constraints": {
-                "required": true,
-                "unique": false
-            }
-        },
-        {
             "id": "cda7f9ed4151c58e6b793acf0ffd5f0f",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
