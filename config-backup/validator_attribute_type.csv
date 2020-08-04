@@ -1225,7 +1225,7 @@ e2bb68298feebed4623e1782c7e429e0,9ca85dc91d25e1ce55399734a976fea0,TYPEDOC,TYPEDO
 a207d0762b32b48df5357776cb3569e9,9ccf2a50e5bba811a68e421787b7c35f,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 ccd12b370e7422a3e3578375ef484970,9ccf2a50e5bba811a68e421787b7c35f,NATTRAC,NATTRAC,"Nature du polygon",String,t,f,,,,40,
 f62eaf749ba9b7650ed1bf8d8d2305be,9ccf2a50e5bba811a68e421787b7c35f,COULEUR,COULEUR,"Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",String,f,f,,[0-9]{3}-[0-9]{3}-[0-9]{3},,11,
-0a326e71c9d479e46019f24f1533a7db,9ed1ac2f2e053aab7ada0ff2f584e73a,TYPEGEN,TYPEGEN,,String,t,f,"[""Canal"","" émissaire""]",,,40,
+0a326e71c9d479e46019f24f1533a7db,9ed1ac2f2e053aab7ada0ff2f584e73a,TYPEGEN,TYPEGEN,,String,t,f,"[""Canal, émissaire""]",,,40,
 8c351a8a56dc40bd4b958bad5171e1a5,9ed1ac2f2e053aab7ada0ff2f584e73a,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 0999486e9fb278fa98f9e36d2ae29ffd,9f8a01163a1908a96d50b9989722bcab,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
 598754116c126129cacd930c862966e0,9f8a01163a1908a96d50b9989722bcab,TYPE,TYPE,"type du monument",String,t,f,"[""Inscrit"",""Classé"",""Mixte"",""sans objet""]",,,10,
