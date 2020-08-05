@@ -123,7 +123,7 @@
             "id": "20c39b8993a14bcdcc801e7f0bd00e8c",
             "name": "PROCEDURE",
             "title": "PROCEDURE",
-            "path": "Pieces_ecrites/0_Procedure/[^\\/]*",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },

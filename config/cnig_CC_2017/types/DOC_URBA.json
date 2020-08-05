@@ -30,6 +30,7 @@
             "id": "078d458049621166a9ece024cc194407",
             "name": "URLPE",
             "title": "URLPE",
+            "description": "Lien d’accès à l’archive zip comprenant l’ensemble des pièces écrites",
             "type": "String",
             "constraints": {
                 "required": false,
@@ -134,7 +135,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "(E|MJ|MS|R|A)(<ENTIER>)?",
+                "pattern": "(E|R|A|MJ<ENTIER>|MS<ENTIER>)",
                 "maxLength": 10
             }
         },
@@ -148,10 +149,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "PLU",
-                    "POS",
-                    "CC",
-                    "PSMV"
+                    "CC"
                 ],
                 "maxLength": 4
             }

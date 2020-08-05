@@ -8,6 +8,7 @@
             "id": "1ff1f5a7f4c2741d7ed927759c741e63",
             "name": "STYLE",
             "title": "STYLE",
+            "description": "Style d'écriture",
             "type": "String",
             "constraints": {
                 "required": false,
@@ -32,6 +33,7 @@
             "id": "45b78ea5e5891675905605fa9230ea6c",
             "name": "TAILLE",
             "title": "TAILLE",
+            "description": "Taille des caractères en point",
             "type": "Integer",
             "constraints": {
                 "required": false,
@@ -66,6 +68,7 @@
             "id": "7263616126fae17c8cd37d7043319004",
             "name": "ANGLE",
             "title": "ANGLE",
+            "description": "Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",
             "type": "Integer",
             "constraints": {
                 "required": false,
@@ -76,6 +79,7 @@
             "id": "a193ec24be9b60a48f54d0f285465827",
             "name": "POLICE",
             "title": "POLICE",
+            "description": "Nom de la police d'écriture",
             "type": "String",
             "constraints": {
                 "required": false,
