@@ -1942,7 +1942,7 @@ c496e9bca1972a90cc1ccb681255023b,f84197014ca3151554299502e3523857,NATTRAC,NATTRA
 75fbdd50fba1d46d51ba039c681b2ac3,f890900ff8787f067c3a7f975f4d5cef,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
 7617164aa574bba921769753f6777d4e,f890900ff8787f067c3a7f975f4d5cef,TYPE,TYPE,"type du monument",String,f,f,"[""Inscrit"",""Classé""]",,,10,
 769cb824ffb779025693b6bf1035998e,f890900ff8787f067c3a7f975f4d5cef,ADRESSE,ADRESSE,"Adresse du monument",String,f,f,,,,100,
-0737af491c6b5a043ff408af25e7337c,f8f109ace7412d7607c49d7f9ca64342,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,f,f,,,,30,
+0737af491c6b5a043ff408af25e7337c,f8f109ace7412d7607c49d7f9ca64342,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,t,f,,,,20,
 e19cec31b77317ff0d4daeb0aba10d47,f8f109ace7412d7607c49d7f9ca64342,INSEE,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,t,f,,,,5,
 1ba02146c4728408a886db194ccd3647,f96303ea87f93a53451da016ff32c3b6,HREF,HREF,,String,f,f,"[""SOL"",""NGF""]",,,3,
 d3c58f549d79080be146be6a65a03ca3,f96303ea87f93a53451da016ff32c3b6,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
