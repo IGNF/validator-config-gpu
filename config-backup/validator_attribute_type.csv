@@ -843,7 +843,7 @@ bce0e959857a55837ee148fbbacefb8c,6db9d4021363fb98467e3ab42c50a3f4,DATVALID,DATVA
 e6f86ffd869f4d812bc408fe4ae8b0f8,6db9d4021363fb98467e3ab42c50a3f4,INSEE,INSEE,"Code INSEE de la commune couverte par la zone",String,t,f,,,,5,
 0c6b0401018d1da8d155cade1b5af5ba,6df8c8480c229502bd1669ec27edcbdf,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 045c8a62b4d0fee912a600a03f7b7978,6ed39a49e6859b0f4054f53c490fca8e,ETAT,ETAT,"Etat juridique du document d'urbanisme",String,t,f,"[""01"",""03"",""04"",""05"",""06"",""07"",""08"",""09""]",,,2,
-078d458049621166a9ece024cc194407,6ed39a49e6859b0f4054f53c490fca8e,URLPE,URLPE,,String,f,f,,,,254,
+078d458049621166a9ece024cc194407,6ed39a49e6859b0f4054f53c490fca8e,URLPE,URLPE,"Lien d’accès à l’archive zip comprenant l’ensemble des pièces écrites",String,f,f,,,,254,
 2a8b633d3557fbd421e87b6f89d6ecf1,6ed39a49e6859b0f4054f53c490fca8e,DATEFIN,DATEFIN,"Date de fin de validité du document d'urbanisme",Date,f,f,,,,,
 2ec2f950b820f4a51b6334d50c2f09b5,6ed39a49e6859b0f4054f53c490fca8e,NOMREG,NOMREG,"Nom du fichier contentant le document complet du règlement",String,f,f,,,,80,
 48194a987f32bbdd950b0c3c0e9de58e,6ed39a49e6859b0f4054f53c490fca8e,SITEWEB,SITEWEB,"Page web du service de consultation du PLU offert par la collectivité locale",String,f,f,,,,254,
