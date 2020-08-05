@@ -196,7 +196,7 @@
             "id": "87b157855c19e026b3df29e0aa5a5b2b",
             "name": "PADD",
             "title": "PADD",
-            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },

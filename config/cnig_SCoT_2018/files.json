@@ -76,7 +76,7 @@
             "id": "42986519e27c8f83a99db14cb6698148",
             "name": "PADD",
             "title": "PADD",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_padd(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_padd_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
