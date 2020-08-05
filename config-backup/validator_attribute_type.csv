@@ -851,7 +851,7 @@ e6f86ffd869f4d812bc408fe4ae8b0f8,6db9d4021363fb98467e3ab42c50a3f4,INSEE,INSEE,"C
 7840c987706f926d80c333188f38fec1,6ed39a49e6859b0f4054f53c490fca8e,NOMPLAN,NOMPLAN,"Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",String,f,f,,,,80,
 80dfbb2314ddb682e26187589e9db9b4,6ed39a49e6859b0f4054f53c490fca8e,DATEREF,DATEREF,"Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",Date,t,f,,,,,
 92130de8f128de5bc3022553f54da31b,6ed39a49e6859b0f4054f53c490fca8e,URLREG,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",String,f,f,,,,254,
-9bb913a3d905c21fee94b2a1e9bc5667,6ed39a49e6859b0f4054f53c490fca8e,NOMPROC,NOMPROC,"Nom de la dernière procédure",String,f,f,,(E|MJ|MS|R|A)(<ENTIER>)?,,10,
+9bb913a3d905c21fee94b2a1e9bc5667,6ed39a49e6859b0f4054f53c490fca8e,NOMPROC,NOMPROC,"Nom de la dernière procédure",String,f,f,,(E|R|A|MJ<ENTIER>|MS<ENTIER>),,10,
 b2e824698b9bda6b770025ce6203974d,6ed39a49e6859b0f4054f53c490fca8e,TYPEDOC,TYPEDOC,"Type du document",String,t,f,"[""CC""]",,,4,
 bb185f53fc5132d5755648be588d5bb2,6ed39a49e6859b0f4054f53c490fca8e,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,t,f,,,,30,
 bf7769036bf7a279de47eaf7e91cbfea,6ed39a49e6859b0f4054f53c490fca8e,SIREN,SIREN,"Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",String,f,f,,,,9,

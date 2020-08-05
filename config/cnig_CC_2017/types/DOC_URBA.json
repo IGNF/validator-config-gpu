@@ -134,7 +134,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "(E|MJ|MS|R|A)(<ENTIER>)?",
+                "pattern": "(E|R|A|MJ<ENTIER>|MS<ENTIER>)",
                 "maxLength": 10
             }
         },
