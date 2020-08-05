@@ -1947,7 +1947,7 @@ e19cec31b77317ff0d4daeb0aba10d47,f8f109ace7412d7607c49d7f9ca64342,INSEE,INSEE,"C
 1ba02146c4728408a886db194ccd3647,f96303ea87f93a53451da016ff32c3b6,HREF,HREF,,String,f,f,"[""SOL"",""NGF""]",,,3,
 d3c58f549d79080be146be6a65a03ca3,f96303ea87f93a53451da016ff32c3b6,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 fd590771bb2f40c5bbb60cade744569e,f96303ea87f93a53451da016ff32c3b6,H,H,,Double,f,f,,,,,
-0890e2ac16a43ae3bcd9d96ad2d7e6c9,f963b627c319db8efc519b8f5f6cfb5f,LIBELONG,LIBELONG,,String,f,f,,,,254,
+0890e2ac16a43ae3bcd9d96ad2d7e6c9,f963b627c319db8efc519b8f5f6cfb5f,LIBELONG,LIBELONG,"Nom complet littéral du secteur",String,f,f,,,,254,
 5b45c0789a77d1ffc6531d24595725bd,f963b627c319db8efc519b8f5f6cfb5f,TYPESECT,TYPESECT,"Type du secteur dans une nomenclature simplifiée",String,t,f,"[""01"",""02"",""03"",""99""]",,,3,
 5e0c889292e4514a6f31cd51e44c3a6f,f963b627c319db8efc519b8f5f6cfb5f,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 79e915fa7f56d3c48994427c8bd5d3ba,f963b627c319db8efc519b8f5f6cfb5f,LIBELLE,LIBELLE,"Libellé du secteur tel que le définit la carte communale",String,t,f,"[""ZC"",""ZCa"",""ZnC"",""RNU""]",,,12,
