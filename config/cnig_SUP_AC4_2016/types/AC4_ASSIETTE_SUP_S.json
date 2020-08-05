@@ -104,7 +104,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass",
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_ass",
                 "maxLength": 100
             }
         },

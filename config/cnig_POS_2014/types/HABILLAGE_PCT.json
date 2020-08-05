@@ -48,7 +48,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "HP(<ENTIER>)?",
+                "pattern": "HP([0-9]+)?",
                 "maxLength": 10
             }
         }

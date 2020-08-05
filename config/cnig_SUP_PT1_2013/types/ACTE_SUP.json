@@ -86,7 +86,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<CATEGORIE>_<RADICAL>(_<ENTIER>)?_act",
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_[0-9]+)?_act",
                 "maxLength": 100
             }
         },
@@ -121,7 +121,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "<CATEGORIE>_<RADICAL>(_<YYYYMMDD>)?_act.pdf",
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_[0-9]{8})?_act.pdf",
                 "maxLength": 254
             }
         },

@@ -104,7 +104,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_<SUFFIXE_ASS>",
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_(mh|abor|ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)",
                 "maxLength": 100
             }
         },

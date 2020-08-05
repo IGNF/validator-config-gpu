@@ -13,7 +13,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?",
+                "pattern": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
                 "maxLength": 30
             }
         },

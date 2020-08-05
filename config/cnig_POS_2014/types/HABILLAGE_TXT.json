@@ -80,7 +80,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "HT(<ENTIER>)?",
+                "pattern": "HT([0-9]+)?",
                 "maxLength": 10
             }
         },

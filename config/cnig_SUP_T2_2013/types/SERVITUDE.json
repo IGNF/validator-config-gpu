@@ -30,7 +30,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<SIREN>",
+                "pattern": "[0-9]{9}",
                 "maxLength": 9
             }
         },
@@ -212,7 +212,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<CATEGORIE>_<RADICAL>_sup",
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_sup",
                 "maxLength": 100
             }
         },

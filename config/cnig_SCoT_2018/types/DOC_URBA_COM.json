@@ -13,7 +13,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<INSEE_COMMUNE>",
+                "pattern": "[AB0-9]{5}",
                 "maxLength": 5
             }
         },
@@ -26,7 +26,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<SIREN>",
+                "pattern": "[0-9]{9}",
                 "maxLength": 9
             }
         },
@@ -39,7 +39,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?",
+                "pattern": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
                 "maxLength": 30
             }
         }

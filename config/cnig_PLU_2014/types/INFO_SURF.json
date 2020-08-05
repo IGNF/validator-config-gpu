@@ -75,7 +75,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "PERI(<ENTIER>)?",
+                "pattern": "PERI([0-9]+)?",
                 "maxLength": 10
             }
         },

@@ -36,7 +36,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "POIN(<ENTIER>)?",
+                "pattern": "POIN([0-9]+)?",
                 "maxLength": 10
             }
         },
