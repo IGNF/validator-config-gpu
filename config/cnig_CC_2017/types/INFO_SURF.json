@@ -147,6 +147,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
+                    "00",
                     "02",
                     "03",
                     "04",
