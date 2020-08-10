@@ -5,6 +5,17 @@
     "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "id": "1afaa06da08e014a9a994b64d799dda4",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "5bb9b6a3ca4a4f416fc116e0d9ea6835",
             "name": "TAILLE",
             "title": "TAILLE",

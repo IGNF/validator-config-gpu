@@ -29,6 +29,17 @@
             }
         },
         {
+            "id": "206f38aa2676fcca4eac71bd030f6f47",
+            "name": "LIB_IDINFO",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "2890143caecc5a92a4470491bf6ba317",
             "name": "DATVALID",
             "title": "DATVALID",

@@ -76,6 +76,17 @@
             }
         },
         {
+            "id": "96e33ccf8d0df12e1b917b299bf76b92",
+            "name": "LIB_IDZONE",
+            "title": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "9e948f42b578f2c0fb61ce2003f0bd21",
             "name": "DATVALID",
             "title": "DATVALID",

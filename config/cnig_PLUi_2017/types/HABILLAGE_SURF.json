@@ -5,6 +5,17 @@
     "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "id": "086b064ba0b75fa9233f575d1d113d63",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "2cf54fcecba4567b2160a86534890816",
             "name": "WKT",
             "title": "Géométrie",
