@@ -51,6 +51,17 @@
                 "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
                 "maxLength": 11
             }
+        },
+        {
+            "id": "c69ff9440f511d4beb64461986473910",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
         }
     ]
 }

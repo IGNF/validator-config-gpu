@@ -17,6 +17,17 @@
             }
         },
         {
+            "id": "16af50a0f5f3192150ddca71745e4568",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "637e16b8245e90badd57b386dba5488d",
             "name": "NATTRAC",
             "title": "NATTRAC",
