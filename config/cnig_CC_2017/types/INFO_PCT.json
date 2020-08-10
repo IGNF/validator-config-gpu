@@ -173,6 +173,17 @@
             }
         },
         {
+            "id": "a24e52c215a998b1c03ce7237ec998ba",
+            "name": "LIB_IDINFO",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "a57efba8998eb017eddc63e18f619374",
             "name": "STYPEINF",
             "title": "STYPEINF",

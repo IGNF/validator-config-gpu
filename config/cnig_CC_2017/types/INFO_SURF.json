@@ -215,6 +215,17 @@
             }
         },
         {
+            "id": "d7c7e596876f171a0d088efbd3475ecb",
+            "name": "LIB_IDINFO",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "dae17549084d15cad0de3b963f68347b",
             "name": "NOMFIC",
             "title": "NOMFIC",

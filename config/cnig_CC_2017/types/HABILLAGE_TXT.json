@@ -76,6 +76,17 @@
             }
         },
         {
+            "id": "7bb324e17a41c9297b2c9170790c66f6",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "a193ec24be9b60a48f54d0f285465827",
             "name": "POLICE",
             "title": "POLICE",

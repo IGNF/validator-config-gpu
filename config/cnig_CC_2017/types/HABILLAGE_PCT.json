@@ -42,6 +42,17 @@
             }
         },
         {
+            "id": "e1f38130abdd0d501c492bb20ddd4e98",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "ea0a4b44fbae0bd477f84aaa7baa63fc",
             "name": "WKT",
             "title": "Géométrie",

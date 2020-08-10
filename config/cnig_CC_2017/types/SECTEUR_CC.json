@@ -46,6 +46,17 @@
             }
         },
         {
+            "id": "745cbd0f6528d197b7f31f48d1d64821",
+            "name": "LIB_IDZONE",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "79e915fa7f56d3c48994427c8bd5d3ba",
             "name": "LIBELLE",
             "title": "LIBELLE",
