@@ -51,6 +51,17 @@
                 "required": true,
                 "unique": false
             }
+        },
+        {
+            "id": "f9575be3bb1d81613de38fc5cfd7eb1f",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
         }
     ]
 }

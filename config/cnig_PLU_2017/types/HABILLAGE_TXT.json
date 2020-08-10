@@ -73,6 +73,17 @@
             }
         },
         {
+            "id": "94767ae1d24c3269a7e3d53275659665",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "a75bc15219002f06c90d6decb7a1fc13",
             "name": "COULEUR",
             "title": "COULEUR",
