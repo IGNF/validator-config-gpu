@@ -912,6 +912,7 @@ a87478b57b4f3febdddc5af60e98bb62,75c9ed853ca774eaecf2eb81acb5f1b9,NATTRAC,NATTRA
 8054c099b86510448d87f8107171f775,762f0df2c9b566befe4d3e6096f1227a,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 e7064f4e81a57acc275b5a4cac2b3e7d,762f0df2c9b566befe4d3e6096f1227a,TYPEASS,TYPEASS,,String,t,f,"[""Zone de protection""]",,,40,
 05a8bb32ab11e5bbe59bdca71fda2a5f,768da0d0c327816cd9e9073ee19a9fa3,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
+08b3a9c3ddd36e0e45a84236191ef2f6,7833f9f88c20ca7b5a63cc0ad198a9a2,LIB_IDZONE,,"identifiant d'objets",String,f,f,,,,40,
 271f3b63f53297676debd280b8a99eaf,7833f9f88c20ca7b5a63cc0ad198a9a2,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 4f36cca67d413e70e05d6abee1c424c4,7833f9f88c20ca7b5a63cc0ad198a9a2,URLFIC,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",String,f,f,,,,254,
 94b68d97ca7ddac54a526ab87196169f,7833f9f88c20ca7b5a63cc0ad198a9a2,LIBELLE,LIBELLE,"Nom court de la zone tel qu’il apparaît sur le plan de zonage",String,t,f,,,,12,
