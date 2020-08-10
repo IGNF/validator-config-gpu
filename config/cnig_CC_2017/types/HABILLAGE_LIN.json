@@ -41,6 +41,17 @@
             }
         },
         {
+            "id": "c6ae01e81f05f35b6b757cc97e4b6d62",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "df1370b7057a36b1056b96744fd68106",
             "name": "IDURBA",
             "title": "IDURBA",
