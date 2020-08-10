@@ -172,6 +172,17 @@
                 "unique": false,
                 "maxLength": 254
             }
+        },
+        {
+            "id": "f8c0f6b0945474049d6a9291d887d827",
+            "name": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
         }
     ]
 }

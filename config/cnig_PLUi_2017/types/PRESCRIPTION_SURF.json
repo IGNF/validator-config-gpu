@@ -55,6 +55,17 @@
             }
         },
         {
+            "id": "2d1bfb93797584ae748fe068ba37d632",
+            "name": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "4584bc88f7053385398bd71370487e42",
             "name": "DATVALID",
             "title": "DATVALID",

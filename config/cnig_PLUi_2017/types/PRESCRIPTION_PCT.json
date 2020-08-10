@@ -148,6 +148,17 @@
             }
         },
         {
+            "id": "a0a304d77fb86802b586921f4abece65",
+            "name": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "decf0403d12b1e3f029e8a3cc8875dad",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
