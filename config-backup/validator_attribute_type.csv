@@ -717,6 +717,7 @@ fde7ebf3598548a8da9bff794944d9b0,5a7caf8333d68f1c6ba61d0ed551bd68,TYPEGEN,TYPEGE
 4b0dacf64a692cb4b19f44c0c86de8a1,5f5326c67b13509fa067db4317cc8d2a,URLFIC,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",String,f,f,,,,254,
 590e7a644826ff2b1ddbb9762b185d4c,5f5326c67b13509fa067db4317cc8d2a,LIBELONG,LIBELONG,"Nom complet littéral de la zone tel qu’il apparaît dans le chapitre du règlement écrit",String,f,f,,,,254,
 7de56fae9f2f9baca4daca76215876a3,5f5326c67b13509fa067db4317cc8d2a,LIBELLE,LIBELLE,"Nom court de la zone tel qu’il apparaît sur le plan de zonage",String,t,f,,,,12,
+96e33ccf8d0df12e1b917b299bf76b92,5f5326c67b13509fa067db4317cc8d2a,LIB_IDZONE,"identifiant d'objets",,String,f,f,,,,40,
 9e948f42b578f2c0fb61ce2003f0bd21,5f5326c67b13509fa067db4317cc8d2a,DATVALID,DATVALID,"Date de la dernière validation de la zone ou de son règlement",Date,f,f,,,,,
 e722d97d62aca969c387e7a0687df1c1,5f5326c67b13509fa067db4317cc8d2a,TYPEZONE,TYPEZONE,"Type de la zone dans une nomenclature simplifiée",String,t,f,"[""U"",""AUc"",""AUs"",""A"",""N""]",,,3,
 a1460378b9d3edd32a2c36ed3f5c6c11,6004a58a86135a68040463fd26764140,TYPEGEN,TYPEGEN,,String,t,f,"[""Cours d'eau""]",,,40,
