@@ -67,6 +67,17 @@
             }
         },
         {
+            "id": "6a5eba354a40cab282b1d027455ee85e",
+            "name": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "9cdef0e9fe1e7c2e96e44d08fd3b3ffe",
             "name": "TXT",
             "title": "TXT",
