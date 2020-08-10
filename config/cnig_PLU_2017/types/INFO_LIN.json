@@ -5,6 +5,17 @@
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
     "columns": [
         {
+            "id": "0d38b8258c4feeecab80112c73e08ed1",
+            "name": "LIB_IDINFO",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "0ed02a059297df48cfac9ee82247e6f2",
             "name": "NOMFIC",
             "title": "NOMFIC",

@@ -55,6 +55,17 @@
             }
         },
         {
+            "id": "812cd270fb662eb741c050af3c58bac3",
+            "name": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "9a3d598c6e63c50cb4f5ee75b7ee965b",
             "name": "WKT",
             "title": "Géométrie",

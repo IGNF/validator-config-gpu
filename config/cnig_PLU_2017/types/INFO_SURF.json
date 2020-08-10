@@ -149,6 +149,17 @@
                 "unique": false,
                 "maxLength": 254
             }
+        },
+        {
+            "id": "fa1a898aab66ac67132111cc20e05b24",
+            "name": "LIB_IDINFO",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
         }
     ]
 }

@@ -124,6 +124,17 @@
             }
         },
         {
+            "id": "b91147b6e422bd6c2e0f9fd7ebabe488",
+            "name": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
             "id": "d3ddd8b41702e68598edfae151968933",
             "name": "TXT",
             "title": "TXT",
