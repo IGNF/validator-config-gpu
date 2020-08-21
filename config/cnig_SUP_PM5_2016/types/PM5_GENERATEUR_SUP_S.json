@@ -29,7 +29,7 @@
             }
         },
         {
-            "id": "170b14287759b84da706f7dab536b4b3",
+            "id": "53a064decb952b57296d15a4129c84dd",
             "name": "IDGEN",
             "title": "IDGEN",
             "description": "Identifiant du générateur",
@@ -37,8 +37,8 @@
             "constraints": {
                 "required": true,
                 "unique": true,
-                "pattern": "[0-9]{9}",
-                "maxLength": 9
+                "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+",
+                "maxLength": 40
             }
         },
         {
@@ -96,7 +96,7 @@
             }
         },
         {
-            "id": "de06e761999ed4d6e360db3fc863b14b",
+            "id": "ec9419301ce9b53b55bd9e0ce94ca2cb",
             "name": "IDSUP",
             "title": "IDSUP",
             "description": "Identifiant de la SUP",
@@ -104,6 +104,7 @@
             "constraints": {
                 "required": true,
                 "unique": true,
+                "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+",
                 "maxLength": 40
             }
         },
