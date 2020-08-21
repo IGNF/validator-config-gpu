@@ -106,6 +106,18 @@
             }
         },
         {
+            "id": "309424a0c3a6aeafc42462ca40c03cc2",
+            "name": "NOMASS",
+            "title": "NOMASS",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_(zpri|zsec|zspe|sect)",
+                "maxLength": 100
+            }
+        },
+        {
             "id": "4f76fa9f1f08e43523ab1ea46c0aa0a2",
             "name": "XFINAL",
             "title": "XFINAL",

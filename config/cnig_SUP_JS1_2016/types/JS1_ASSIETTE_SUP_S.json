@@ -109,6 +109,18 @@
                 ],
                 "maxLength": 40
             }
+        },
+        {
+            "id": "f1b2be1cc742f3b47cd26bbae3e4bc3f",
+            "name": "NOMASS",
+            "title": "NOMASS",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_ass",
+                "maxLength": 100
+            }
         }
     ]
 }

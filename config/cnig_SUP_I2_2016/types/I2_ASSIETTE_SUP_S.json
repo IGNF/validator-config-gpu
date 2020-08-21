@@ -100,6 +100,18 @@
             }
         },
         {
+            "id": "22dbca09926584265f8b394cee760965",
+            "name": "NOMASS",
+            "title": "NOMASS",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_ass",
+                "maxLength": 100
+            }
+        },
+        {
             "id": "2c8bc98a4b94d3b0941dd69659202680",
             "name": "WKT",
             "title": "Géométrie",

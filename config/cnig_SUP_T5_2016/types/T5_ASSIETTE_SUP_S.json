@@ -121,6 +121,18 @@
             }
         },
         {
+            "id": "591ebf5408b92afba91e400c69614c2c",
+            "name": "NOMASS",
+            "title": "NOMASS",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_ass",
+                "maxLength": 100
+            }
+        },
+        {
             "id": "c4ee8f0c74a02432c75dd722304d171c",
             "name": "HREF",
             "title": "HREF",
