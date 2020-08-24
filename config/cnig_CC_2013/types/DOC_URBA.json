@@ -182,7 +182,7 @@
             "description": "Indique si le document d'urbanisme est intercommunal",
             "type": "String",
             "constraints": {
-                "required": false,
+                "required": true,
                 "unique": false,
                 "enum": [
                     "T",
