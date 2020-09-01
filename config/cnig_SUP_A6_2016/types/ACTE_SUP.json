@@ -65,7 +65,7 @@
             "type": "String",
             "constraints": {
                 "required": true,
-                "unique": false,
+                "unique": true,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+",
                 "maxLength": 40
             }

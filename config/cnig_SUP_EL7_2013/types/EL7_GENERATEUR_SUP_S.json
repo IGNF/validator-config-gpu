@@ -75,7 +75,7 @@
             "type": "Integer",
             "constraints": {
                 "required": true,
-                "unique": true
+                "unique": false
             }
         },
         {
