@@ -109,18 +109,6 @@
             }
         },
         {
-            "id": "055342be36c85b4cb828751ccb1d04b7",
-            "name": "NOMASS",
-            "title": "NOMASS",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_ass",
-                "maxLength": 100
-            }
-        },
-        {
             "id": "23ef72ad9ae6b6151303269c5aa5c0ad",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
