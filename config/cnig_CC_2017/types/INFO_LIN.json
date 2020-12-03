@@ -204,7 +204,7 @@
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
-            "type": "String",
+            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,

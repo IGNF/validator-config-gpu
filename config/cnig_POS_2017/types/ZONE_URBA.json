@@ -31,7 +31,7 @@
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",
-            "type": "String",
+            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,

@@ -120,7 +120,7 @@
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "String",
+            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,

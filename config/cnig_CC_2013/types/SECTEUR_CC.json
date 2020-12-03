@@ -39,7 +39,7 @@
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",
-            "type": "String",
+            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
