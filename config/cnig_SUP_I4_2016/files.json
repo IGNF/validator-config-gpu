@@ -86,6 +86,14 @@
             "path": "Donnees_geographiques/I4_GENERATEUR_SUP_L",
             "type": "table",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "2d993e10da99458afeebd3cfef539b12",
+            "name": "I4_GENERATEUR_SUP_P",
+            "title": "I4_GENERATEUR_SUP_P",
+            "path": "Donnees_geographiques/I4_GENERATEUR_SUP_P",
+            "type": "table",
+            "mandatory": "OPTIONAL"
         }
     ]
 }
