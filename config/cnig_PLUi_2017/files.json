@@ -164,7 +164,7 @@
             "id": "24d7d7800ff9e508399c9a4ab5b6d9dd",
             "name": "RAPPORT",
             "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_rapport(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -180,7 +180,7 @@
             "id": "27fe726ab532cf8d3ceb0f1da472d23d",
             "name": "PADD",
             "title": "PADD",
-            "path": "Pieces_ecrites/2_PADD/[0-9]{9}_padd_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_PADD/[0-9]{9}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -201,21 +201,21 @@
             "mandatory": "OPTIONAL"
         },
         {
+            "id": "32e66d0bf8a4cfd8e5aaab5b6c117064",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
             "id": "bec9ae57b2217a1820424f0e3a0d83ca",
             "name": "REGLEMENT_GRAPHIQUE",
             "title": "REGLEMENT_GRAPHIQUE",
             "description": "Le règlement graphique",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement_graphique(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "32e66d0bf8a4cfd8e5aaab5b6c117064",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
         },
         {
             "id": "cf0a821e6738f178806ff56c676f956b",
@@ -261,7 +261,7 @@
             "id": "fc61332cf8335e86fe35e1cfafefb375",
             "name": "POA",
             "title": "POA",
-            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA_[0-9]{8}",
+            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },

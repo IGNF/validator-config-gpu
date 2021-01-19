@@ -180,7 +180,7 @@
             "id": "e6fe86bb9ac78c49b0b830eddbdb9d8a",
             "name": "RAPPORT",
             "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -196,7 +196,7 @@
             "id": "6d7ea778a37de936b2e7e6eeebe940c4",
             "name": "PADD",
             "title": "PADD",
-            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -217,21 +217,21 @@
             "mandatory": "OPTIONAL"
         },
         {
+            "id": "d4dfb6e3a3706c03cf9b6a88bf7f31d7",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
             "id": "78d92471822a6e15d487b952b72a5cc9",
             "name": "REGLEMENT_GRAPHIQUE",
             "title": "REGLEMENT_GRAPHIQUE",
             "description": "Le règlement graphique",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement_graphique(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "d4dfb6e3a3706c03cf9b6a88bf7f31d7",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
         },
         {
             "id": "10ac8a32f05c0257cfd43cbe340da4d9",
