@@ -158,7 +158,7 @@
             "description": "Hyperlien vers le PPR dans Géorisques",
             "type": "Url",
             "constraints": {
-                "required": true,
+                "required": false,
                 "unique": false,
                 "maxLength": 254
             }
