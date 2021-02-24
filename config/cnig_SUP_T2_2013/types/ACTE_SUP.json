@@ -121,7 +121,6 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_[0-9]{8})?_act.pdf",
                 "maxLength": 254
             }
         },

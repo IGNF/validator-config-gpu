@@ -24,7 +24,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "[^\\/]*",
                 "maxLength": 30
             }
         },
@@ -37,7 +36,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "[^\\/]*",
                 "maxLength": 30
             }
         },
@@ -214,7 +212,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "[^\\/]*",
                 "maxLength": 30
             }
         }
