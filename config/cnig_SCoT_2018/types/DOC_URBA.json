@@ -24,7 +24,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 30
+                "maxLength": 40
             }
         },
         {
@@ -36,7 +36,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 30
+                "maxLength": 40
             }
         },
         {
@@ -212,7 +212,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 30
+                "maxLength": 40
             }
         }
     ]
