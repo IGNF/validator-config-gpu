@@ -141,7 +141,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_reglement_graphique(_[0-9]+)?_[0-9]{8}(.pdf|.zip)",
+                "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?(.pdf|.zip)",
                 "maxLength": 80
             }
         },
