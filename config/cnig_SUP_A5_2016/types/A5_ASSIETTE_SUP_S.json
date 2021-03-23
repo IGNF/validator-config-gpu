@@ -107,7 +107,7 @@
             "name": "WKT",
             "title": "Géométrie",
             "description": "Geométrie associée",
-            "type": "MultiLineString",
+            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": false
