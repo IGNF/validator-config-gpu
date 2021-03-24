@@ -62,7 +62,7 @@
             "id": "6bc699f8ded127e80b26419ec8fc57ed",
             "name": "SIREN",
             "title": "SIREN",
-            "description": "Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",
+            "description": "Le cas échéant, numéro SIREN de l'intercommunalité compétente en matière d'urbanisme ayant pris part à l’élaboration du PSMV",
             "type": "String",
             "constraints": {
                 "required": false,

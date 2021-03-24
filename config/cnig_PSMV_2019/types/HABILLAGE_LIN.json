@@ -37,8 +37,7 @@
             "type": "MultiLineString",
             "constraints": {
                 "required": true,
-                "unique": false,
-                "maxLength": -1
+                "unique": false
             }
         },
         {
