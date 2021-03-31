@@ -95,7 +95,7 @@
             "id": "7840c987706f926d80c333188f38fec1",
             "name": "NOMPLAN",
             "title": "NOMPLAN",
-            "description": "Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",
+            "description": "Nom du fichier du plan graphique",
             "type": "String",
             "constraints": {
                 "required": false,

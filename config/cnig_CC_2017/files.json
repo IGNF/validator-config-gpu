@@ -158,6 +158,14 @@
             "path": "Pieces_ecrites/4_Annexes/[^\\/]*",
             "type": "pdf",
             "mandatory": "ERROR"
+        },
+        {
+            "id": "61492fc8de414718d97bae268413aebb",
+            "name": "LISTE ANNEXES",
+            "title": "LISTE ANNEXES",
+            "path": "Pieces_ecrites/4_Annexes/<INSEE>_liste_annexes_<DATAPPRO>",
+            "type": "pdf",
+            "mandatory": "ERROR"
         }
     ]
 }
