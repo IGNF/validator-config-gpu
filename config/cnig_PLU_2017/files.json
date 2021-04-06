@@ -250,6 +250,14 @@
             "mandatory": "ERROR"
         },
         {
+            "id": "c0f26881416ba2532004b7de56f6a0e2",
+            "name": "TITRES_PIECES_ECRITES",
+            "title": "TITRES_PIECES_ECRITES",
+            "path": "Pieces_ecrites/4_Annexes/<INSEE>_titres_pieces_ecrites_<DATAPPRO>",
+            "type": "table",
+            "mandatory": "ERROR"
+        },
+        {
             "id": "ee1c8e98d630a350923967a3d458af5c",
             "name": "5_Orientations_amenagement",
             "title": "5_Orientations_amenagement",

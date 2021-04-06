@@ -137,6 +137,7 @@ fa9671e1f41577b38e9ed077d5dbda95,53db72d7e077d3c51f326a1d8ba8a56f,d8f20d2f47dd4e
 1a823f5e00316d4bb9b490ed0f14deaa,549d80d774bc11bbea9ad213210b9a3d,,f,HABILLAGE_TXT,HABILLAGE_TXT,"Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage"
 4bf51c1fb0162b2c08f037923491150d,549d80d774bc11bbea9ad213210b9a3d,,f,INFO_SURF,INFO_SURF,"Table contenant les périmètres à reporter à titre d'information"
 4e6ad9f5d659541869f90d22b7519225,549d80d774bc11bbea9ad213210b9a3d,,f,INFO_LIN,INFO_LIN,"Table contenant les informations linéaires à reporter à titre d'information"
+608c3f896123e5adf5b42923305097da,549d80d774bc11bbea9ad213210b9a3d,,f,TITREs_PIECES_ECRITES,TITRES_PIECES_ECRITES,
 6ed39a49e6859b0f4054f53c490fca8e,549d80d774bc11bbea9ad213210b9a3d,,f,DOC_URBA,DOC_URBA,"Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée"
 70d2dbb291b6a7f0a06d9e2b503c8f08,549d80d774bc11bbea9ad213210b9a3d,,f,HABILLAGE_PCT,HABILLAGE_PCT,"Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage"
 83436cfdbce66ee2a68631aceee4da9f,549d80d774bc11bbea9ad213210b9a3d,,f,HABILLAGE_LIN,HABILLAGE_LIN,"Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage"
@@ -199,6 +200,7 @@ abfaae0f5ae29c3cdb3ce4ab934a230d,5cfa0bc38b59d69ee7b185cfda007a6d,,f,INFO_LIN,IN
 bc5bc4bd8a443a43bf34f11202f9d520,5cfa0bc38b59d69ee7b185cfda007a6d,,f,PRESCRIPTION_LIN,PRESCRIPTION_LIN,"Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit"
 d15855ea2358a5a090a3ad37cc7223a0,5cfa0bc38b59d69ee7b185cfda007a6d,,f,HABILLAGE_TXT,HABILLAGE_TXT,"Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha"
 e146c70132bfacbce05ea5b20dccdcd9,5cfa0bc38b59d69ee7b185cfda007a6d,,f,INFO_PCT,INFO_PCT,"Table contenant les informations ponctuelle à reporter à titre d'information"
+e4af452678413cfc2edfdc4b6b6ce158,5cfa0bc38b59d69ee7b185cfda007a6d,,f,TITRES_PIECES_ECRITES,TITRES_PIECES_ECRITES,
 eda901c3c8831db73f8e5675602cc5d7,5cfa0bc38b59d69ee7b185cfda007a6d,,f,DOC_URBA,DOC_URBA,"Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée"
 03acc6c0a0fb66278f40945b81ed64d0,5e55f442d9c945176811f302bf1f90ca,,f,PRESCRIPTION_SURF,PRESCRIPTION_SURF,"Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit"
 0e843b3a6e70b81d2661936d61a794bb,5e55f442d9c945176811f302bf1f90ca,,f,DOC_URBA,DOC_URBA,"Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée"
@@ -376,6 +378,7 @@ df9615d6d63477885fc1da006987c444,b47179a9b46721626eabcaebfdc78116,4edb459e869092
 99d5a2471736ba527bd642a592b4c89e,b4f09a52c081104203f01ec99856d766,,f,INFO_LIN,INFO_LIN,"Table contenant les informations linéaires à reporter à titre d'information"
 9bb4a6c476e4bb86c42678e6c9713c11,b4f09a52c081104203f01ec99856d766,,f,PRESCRIPTION_PCT,PRESCRIPTION_PCT,"Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit"
 b68f9bcaef98484e7db977a957920201,b4f09a52c081104203f01ec99856d766,,f,HABILLAGE_LIN,HABILLAGE_LIN,"Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha"
+d60b5f34567d78af88f9adf73875ddee,b4f09a52c081104203f01ec99856d766,,f,TITRES_PIECES_ECRITES,TITRES_PIECES_ECRITES,
 deef9f1249811ee77528c035e773e0cc,b4f09a52c081104203f01ec99856d766,,f,DOC_URBA_COM,DOC_URBA_COM,"Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée"
 e07320a1613ff0e0d6d92d2f976f1a9a,b4f09a52c081104203f01ec99856d766,,f,PRESCRIPTION_LIN,PRESCRIPTION_LIN,"Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit"
 e4d94f71c864d4588db6d3c9674e7cd4,b4f09a52c081104203f01ec99856d766,,f,HABILLAGE_PCT,HABILLAGE_PCT,"Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha"
