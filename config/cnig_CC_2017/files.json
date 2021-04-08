@@ -163,7 +163,7 @@
             "id": "61492fc8de414718d97bae268413aebb",
             "name": "LISTE ANNEXES",
             "title": "LISTE ANNEXES",
-            "path": "Pieces_ecrites/4_Annexes/<INSEE>_liste_annexes_<DATAPPRO>",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_liste_annexes_<DATAPPRO>",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -171,7 +171,7 @@
             "id": "27b0b7b5d9a674a4c0baa4398c50d2be",
             "name": "TITRES_PIECES_ECRITES",
             "title": "TITRES_PIECES_ECRITES",
-            "path": "Pieces_ecrites/4_Annexes/<INSEE>_titres_pieces_ecrites_<DATAPPRO>",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}",
             "type": "table",
             "mandatory": "ERROR"
         }
