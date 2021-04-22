@@ -182,7 +182,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 9
+                "maxLength": 9,
+                "reference": "GESTIONNAIRE_SUP.IDGEST"
             }
         },
         {

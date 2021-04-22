@@ -31,7 +31,8 @@
                 "required": true,
                 "unique": false,
                 "pattern": "[0-9]{9}",
-                "maxLength": 9
+                "maxLength": 9,
+                "reference": "GESTIONNAIRE_SUP.IDGEST"
             }
         },
         {

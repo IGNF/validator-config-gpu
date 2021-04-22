@@ -302,7 +302,7 @@ e98664c8e2b6c68673a6a393b534074c,20daa8f16a943ce536abfdadc4777dc3,WKT,Géométri
 751916ef2f5c8e46f305fa49159da732,20f8d58633322a7973e3ded26cecc63a,OBSVALIDAT,OBSVALIDAT,"Observation relative à la validation de la servitude formulée soit par le gestionnaire, soit par le service de l'État administrant les données",String,f,f,,,,254,
 90a2061006c1f3e454e0f36b67aff58c,20f8d58633322a7973e3ded26cecc63a,DESCRIPTIO,DESCRIPTIO,"Description détaillée de la servitude",String,f,f,,,,254,
 97ca66299e2cb11d06e31baaa8c31c65,20f8d58633322a7973e3ded26cecc63a,MODEPROD,MODEPROD,"Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant",String,t,f,"[""import"",""numérisation"",""reconstitution""]",,,25,
-aa00edca50f3e75062f333e28a5cf815,20f8d58633322a7973e3ded26cecc63a,IDGEST,IDGEST,"Identifiant du gestionnaire de la SUP",String,t,f,,,,9,
+aa00edca50f3e75062f333e28a5cf815,20f8d58633322a7973e3ded26cecc63a,IDGEST,IDGEST,"Identifiant du gestionnaire de la SUP",String,t,f,,,,9,GESTIONNAIRE_SUP.IDGEST
 b5dd35cee002c9c1c8446ff2361e9c96,20f8d58633322a7973e3ded26cecc63a,IDINTGEST,IDINTGEST,"Identifiant créé et entretenu par l'organisme gestionnaire de la servitude",String,f,f,,,,25,
 bc06a6442b0b624bfc8a42e0689c3291,20f8d58633322a7973e3ded26cecc63a,NOMSUPLITT,NOMSUPLITT,"Nom littéral de la servitude, figurant dans l'acte l'ayant instaurée",String,f,f,,,,100,
 bfe28f8b5410fc69d92471ea4f96b02d,20f8d58633322a7973e3ded26cecc63a,ECHNUM,ECHNUM,"Dénominateur de l'échelle à laquelle a été numérisée la servitude",Integer,t,f,,,,,
@@ -500,8 +500,8 @@ cb7ba3f93bd94eefc031b3759cf5c85c,377c0c2802a542790275629eae444052,INSEE,INSEE,"C
 a1bfe13bccec0acdf0912e44007cc414,38788840b14ed95df547f55492195354,NOMFIC,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,f,f,,,,80,
 c155ffea63f21326272315e68f7051a9,38788840b14ed95df547f55492195354,URLFIC,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la prescription",Url,f,f,,,,254,
 d4c67d3bf0d5c8ce0c0def8dd3e37f8f,38788840b14ed95df547f55492195354,DATAPPRO,DATAPPRO,"Date de la dernière approbation administrative du document d'urbanisme",Date,f,f,,,,,
-89f0aaf24a703a318a3094a72c68bf3b,38ca707f44376b8afb069dc866110bbe,IDACTE,IDACTE,"Identifiant de l'acte instituant la SUP",Integer,t,f,,,,,
-b8172389de2db4d746b273d07e07eab1,38ca707f44376b8afb069dc866110bbe,IDSUP,IDSUP,"Identifiant de la SUP",Integer,t,f,,,,,
+89f0aaf24a703a318a3094a72c68bf3b,38ca707f44376b8afb069dc866110bbe,IDACTE,IDACTE,"Identifiant de l'acte instituant la SUP",Integer,t,f,,,,,ACTE_SUP.IDACTE
+b8172389de2db4d746b273d07e07eab1,38ca707f44376b8afb069dc866110bbe,IDSUP,IDSUP,"Identifiant de la SUP",Integer,t,f,,,,,SERVITUDE.IDSUP
 161b2e33c7cf71bc143a5be989816c3b,3913ad9d96b4ee577f953cf4537da61d,INSEE,INSEE,"Code INSEE de la commune concernée par le document d'urbanisme",String,t,f,,,,5,
 797a7972c9e8ab407a2a9a2fa1df357a,3913ad9d96b4ee577f953cf4537da61d,IDURBA,IDURBA,"Identifiant du document d'urbanisme",String,f,f,,,,20,
 055342be36c85b4cb828751ccb1d04b7,391ff58d1ecd0a644a8f6f1e1688dd79,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
@@ -545,8 +545,8 @@ b95f442e41b8805a83e72142bc39a9f2,42db1164da96ab2bff256814f5a9cbdc,WKT,Géométri
 9d5d4a0d17adc3db3a31f2b4d5eeb126,436a731b970329de15bf96f47820ef97,CODE_ALEA,CODE_ALEA,"Identifiant GASPAR de l'aléa",String,t,f,"[""20"",""21"",""22"",""23"",""24"",""25""]",,,2,
 d0797e3b4d1a67ca8535069e8992de95,436a731b970329de15bf96f47820ef97,TYPEGEN,TYPEGEN,,String,t,f,"[""Périmètre réglementé du PPR""]",,,40,
 d3756b40b25d7da40aafa579429701a2,436a731b970329de15bf96f47820ef97,ID_GASPAR,ID_GASPAR,"Identifiant Gaspar du PPR",String,t,f,,,,24,
-5aa564d5a2c605c8c4ecb8c4bef6137d,439b13477603a29ae3d1c046ba54641e,IDACTE,IDACTE,"Identifiant de l'acte instituant la SUP",String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>,,40,
-edb5b56686bb6dbacc05f784ac54a8d3,439b13477603a29ae3d1c046ba54641e,IDSUP,IDSUP,"Identifiant de la SUP",String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>,,40,
+5aa564d5a2c605c8c4ecb8c4bef6137d,439b13477603a29ae3d1c046ba54641e,IDACTE,IDACTE,"Identifiant de l'acte instituant la SUP",String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>,,40,ACTE_SUP.IDACTE
+edb5b56686bb6dbacc05f784ac54a8d3,439b13477603a29ae3d1c046ba54641e,IDSUP,IDSUP,"Identifiant de la SUP",String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>,,40,SERVITUDE.IDSUP
 02e923e221f761c4273b0857df7f0404,4467d4a214ed4a28a40c6c166bc780a8,TXT,TXT,"Nom court de l'information servant à faire une étiquette",String,f,f,,,,10,
 499df82e222b20513a87a46ba1c653fa,4467d4a214ed4a28a40c6c166bc780a8,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
 6a6391f8df42060dc43b959b99a802af,4467d4a214ed4a28a40c6c166bc780a8,INSEE,INSEE,"Code INSEE de la commune concernée par l'information",String,t,f,,,,5,
@@ -708,7 +708,7 @@ e0420e17c9613cd6cb002db049798ee8,5045fb4cc6b6879f6b15aa504d7d0a6b,TYPE_VOIE,TYPE
 39c93912ba5bf0afbad95db9ed66e78a,5146126394baf20af78d61bf8c20abf9,IDBDEXT,IDBDEXT,"Identifiant référençant l'objet correspondant au générateur dans le référentiel ou la base de données externe",String,f,f,,,,50,
 42cd1e3145f31264de0e3bc881ff3655,5146126394baf20af78d61bf8c20abf9,DATESRCGEN,DATESRCGEN,"Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",String,f,f,,<YYYYMMDD>,,,
 46a1e08c752e490bb51b205d640d4a42,5146126394baf20af78d61bf8c20abf9,MODEGENERE,MODEGENERE,"Description du moyen utilisé pour obtenir la géométrie du générateur",String,f,f,"[""Digitalisation"",""Duplication"",""Liste de coordonnées"",""Géométrie fictive""]",,,50,
-91e4e0e9674e7d3aaef322bdd1374c71,5146126394baf20af78d61bf8c20abf9,IDSUP,IDSUP,"Identifiant de la SUP",Integer,t,f,,,,,
+91e4e0e9674e7d3aaef322bdd1374c71,5146126394baf20af78d61bf8c20abf9,IDSUP,IDSUP,"Identifiant de la SUP",Integer,t,f,,,,,SERVITUDE.IDSUP
 b6ea4308f6cb543b9b8d197a0a312357,5146126394baf20af78d61bf8c20abf9,REFBDEXT,REFBDEXT,"Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication",String,f,f,,,,50,
 ca794cb677257564b31f6828f348dabe,5146126394baf20af78d61bf8c20abf9,SRCGEOGEN,SRCGEOGEN,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,f,f,,,,30,
 dbff3aecc6bba23c7b9d6ab419537b04,5146126394baf20af78d61bf8c20abf9,NOMGEN,NOMGEN,"Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",String,t,f,,<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?,,100,
@@ -1384,7 +1384,7 @@ fba6779325335a158fb7da9aa7342ce8,a951b0547cc46bc0a8eda22b3a7dcd6a,WKT,Géométri
 7ae83d52ae4f9034674c39eeb3e12ba8,a96e2badebaa115c57665a111ad88d9d,H,H,,Double,f,f,,,,,
 e905acfc15becede0d2f3f23f7c71251,a96e2badebaa115c57665a111ad88d9d,HREF,HREF,,String,f,f,"[""SOL"",""NGF""]",,,3,
 117abb6d4dfbd3dfbbfa4e203aa266fb,aa1a5447b1c501c77f343efd00737323,MODEPROD,MODEPROD,"Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant",String,t,f,"[""import"",""numérisation"",""reconstitution""]",,,25,
-12ce35e905b8d0930c13b6b734819c77,aa1a5447b1c501c77f343efd00737323,IDGEST,IDGEST,"Identifiant du gestionnaire de la SUP",String,t,f,,<SIREN>,,9,
+12ce35e905b8d0930c13b6b734819c77,aa1a5447b1c501c77f343efd00737323,IDGEST,IDGEST,"Identifiant du gestionnaire de la SUP",String,t,f,,<SIREN>,,9,GESTIONNAIRE_SUP.IDGEST
 153b3786e425d79800557ea9ec1eba5e,aa1a5447b1c501c77f343efd00737323,NOMSUPLITT,NOMSUPLITT,"Nom littéral de la servitude, figurant dans l'acte l'ayant instaurée",String,f,f,,,,100,
 247760333ef95b0b3a15b71b30d54d4f,aa1a5447b1c501c77f343efd00737323,VALIDEGEST,VALIDEGEST,"Les données numérisées de la servitude ont été validées ou pas par le gestionnaire",String,t,f,"[""T"",""F""]",,,1,
 2ba1e993fe419d951ac5f28ef3de56db,aa1a5447b1c501c77f343efd00737323,OBSVALIDAT,OBSVALIDAT,"Observation relative à la validation de la servitude formulée soit par le gestionnaire, soit par le service de l'État administrant les données",String,f,f,,,,254,
@@ -1788,7 +1788,7 @@ e592eca4a8fa55867f8f69cb8662e482,d85e8842ca896768e79a982e687c6f3d,DIAMETRE,DIAME
 bf6cc359b24ea217a012564d48e5cb77,d8f20d2f47dd4e124458684ba917dc65,REFBDEXT,REFBDEXT,"Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication",String,f,f,,,,50,
 cd6f1e74c85a9107aee7db667ccb297d,d8f20d2f47dd4e124458684ba917dc65,DATESRCGEN,DATESRCGEN,"Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",String,f,f,,<YYYYMMDD>,,,
 d0347f4b396894b92734634b2971c82b,d8f20d2f47dd4e124458684ba917dc65,MODEGENERE,MODEGENERE,"Description du moyen utilisé pour obtenir la géométrie du générateur",String,f,f,"[""Digitalisation"",""Duplication"",""Liste de coordonnées"",""Géométrie fictive""]",,,50,
-ec9419301ce9b53b55bd9e0ce94ca2cb,d8f20d2f47dd4e124458684ba917dc65,IDSUP,IDSUP,"Identifiant de la SUP",String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>,,40,
+ec9419301ce9b53b55bd9e0ce94ca2cb,d8f20d2f47dd4e124458684ba917dc65,IDSUP,IDSUP,"Identifiant de la SUP",String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>,,40,SERVITUDE.IDSUP
 10bc86ddbd845b55da93c4614f194cfc,d9447969363073652955af4fc7c1f7ea,WKT,Géométrie,"Geométrie associée",MultiPoint,t,f,,,,,
 54fbf5a3e4962ea52b5b9cfb0fc31edd,d9447969363073652955af4fc7c1f7ea,NOMFIC,NOMFIC,"Nom du fichier PDF décrivant la prescription",Filename,f,f,,,,80,
 688a2b26c9812fc15fca3bc2c23a27bc,d9447969363073652955af4fc7c1f7ea,LIBELLE,LIBELLE,"Intitulé complet de la prescription",String,t,f,,,,254,

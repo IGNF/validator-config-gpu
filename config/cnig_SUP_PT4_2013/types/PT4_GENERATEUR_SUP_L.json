@@ -76,7 +76,8 @@
             "type": "Integer",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": false,
+                "reference": "SERVITUDE.IDSUP"
             }
         },
         {
