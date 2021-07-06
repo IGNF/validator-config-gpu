@@ -163,7 +163,7 @@
             "id": "61492fc8de414718d97bae268413aebb",
             "name": "LISTE ANNEXES",
             "title": "LISTE ANNEXES",
-            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_liste_annexes_<DATAPPRO>",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_liste_annexes_[0-9]{8}",
             "type": "pdf",
             "mandatory": "ERROR"
         },
