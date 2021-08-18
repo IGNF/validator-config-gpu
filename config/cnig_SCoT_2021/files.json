@@ -1,0 +1,126 @@
+{
+    "id": "1b95722d3c2f3b568a448f4cc66fd80d",
+    "name": "cnig_SCoT_2021",
+    "title": "cnig_SCoT_2018",
+    "description": "cnig_SCoT_2021",
+    "constraints": {
+        "folderName": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?"
+    },
+    "files": [
+        {
+            "id": "0ae39ee803a4a0260211db9c678018bf",
+            "name": "Donnees_geographiques",
+            "title": "Donnees_geographiques",
+            "path": "Donnees_geographiques",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "a21be0f733243cadc28ba17f8e47c480",
+            "name": "PERIMETRE_SCOT",
+            "title": "PERIMETRE_SCOT",
+            "description": "Périmètre du SCOT",
+            "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "b0595a7550a0cd08553b0b14687a88ac",
+            "name": "METADONNEES",
+            "title": "METADONNEES",
+            "path": "[^\\/]*",
+            "type": "metadata",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "e72f4178d2f165df8a7a93444218d360",
+            "name": "Pieces_ecrites",
+            "title": "Pieces_ecrites",
+            "path": "Pieces_ecrites",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "df2eaa9ffa3c010e37521f8d3421f303",
+            "name": "0_Procedure",
+            "title": "0_Procedure",
+            "path": "Pieces_ecrites/0_Procedure",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "890d4c22768322a600e43891c7c20589",
+            "name": "PROCEDURE",
+            "title": "PROCEDURE",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "e918a32f6a87fe23c18918b366cbf39e",
+            "name": "1_SCOT",
+            "title": "1_SCOT",
+            "path": "Pieces_ecrites/1_SCOT",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "03fb931af98073a336219842fc7be1f8",
+            "name": "DOO",
+            "title": "DOO",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "7cab2a4cdcadeabf340390f6145b2045",
+            "name": "PADD",
+            "title": "PADD",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_padd_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "bc6c3305d9d84ce8c50dd218a207aaf5",
+            "name": "RAPPORT",
+            "title": "RAPPORT",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "WARN"
+        },
+        {
+            "id": "8949ec9080d8a1c9dd8779853c3f2695",
+            "name": "2_Autres_documents",
+            "title": "2_Autres_documents",
+            "path": "Pieces_ecrites/2_Autres_documents",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "e06e8be25321b62a0ac418bfe99bb7d1",
+            "name": "AUTRE_DOCUMENT",
+            "title": "AUTRE_DOCUMENT",
+            "path": "Pieces_ecrites/2_Autres_documents/[^\\/]*",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "90572c3a3bec3688fc876cfa842cf5b0",
+            "name": "DOC_URBA_COM",
+            "title": "DOC_URBA_COM",
+            "description": "Table non géographique associant le SCOT aux communes auxquelles il s’applique",
+            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "27ef984811006668a0f59a35d4447a4f",
+            "name": "DOC_URBA",
+            "title": "DOC_URBA",
+            "description": "Table géographique portant la géométrie du périmètre du SCOT approuvé",
+            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "ERROR"
+        }
+    ]
+}
