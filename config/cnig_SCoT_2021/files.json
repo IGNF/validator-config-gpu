@@ -81,28 +81,63 @@
             "mandatory": "ERROR"
         },
         {
-            "id": "bc6c3305d9d84ce8c50dd218a207aaf5",
-            "name": "RAPPORT",
-            "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "id": "c92dfa670bbc157dab5b4bb87690679f",
+            "name": "PAS",
+            "title": "projet d'aménagement stratégique",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
-            "mandatory": "WARN"
+            "mandatory": "ERROR"
         },
         {
             "id": "8949ec9080d8a1c9dd8779853c3f2695",
-            "name": "2_Autres_documents",
-            "title": "2_Autres_documents",
-            "path": "Pieces_ecrites/2_Autres_documents",
+            "name": "2_Annexes",
+            "title": "2_Annexes",
+            "path": "Pieces_ecrites/2_Annexes",
             "type": "directory",
             "mandatory": "ERROR"
         },
         {
             "id": "e06e8be25321b62a0ac418bfe99bb7d1",
-            "name": "AUTRE_DOCUMENT",
-            "title": "AUTRE_DOCUMENT",
-            "path": "Pieces_ecrites/2_Autres_documents/[^\\/]*",
+            "name": "ANNEXE",
+            "title": "ANNEXE",
+            "path": "Pieces_ecrites/2_Annexes/[^\\/]*",
             "type": "pdf",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "aca0327d514106bedb175b951db76cb1",
+            "name": "CONSOMMATION_ESPACE",
+            "title": "CONSOMMATION_ESPACE",
+            "description": "analyse de la consommation d'espace",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_consommation_espace_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "1cf1821b88a1fd59755bd26f6dfa6a50",
+            "name": "DIAGNOSTIC",
+            "title": "DIAGNOSTIC",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_diagnostic_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "ebd956c65290ac47b64de1b861e57c9a",
+            "name": "EVALUATION_ENVIRONNEMENTALE",
+            "title": "EVALUATION_ENVIRONNEMENTALE",
+            "description": "évaluation environnementale",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_evaluation_environnementale_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "a2c1371ca85ba976965abeb166a91981",
+            "name": "JUSTIFICATION_CHOIX",
+            "title": "JUSTIFICATION_CHOIX",
+            "description": "justification des choix",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_justification_choix_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
         },
         {
             "id": "90572c3a3bec3688fc876cfa842cf5b0",

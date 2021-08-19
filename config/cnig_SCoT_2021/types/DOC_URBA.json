@@ -24,7 +24,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 40
+                "maxLength": 50
             }
         },
         {
@@ -96,6 +96,17 @@
             }
         },
         {
+            "id": "4dde37806165a17459d3291389e5f200",
+            "name": "PAS",
+            "title": "PAS",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 50
+            }
+        },
+        {
             "id": "60e690bca6057723c0cfb68e152aa82e",
             "name": "SIREN",
             "title": "SIREN",
@@ -153,7 +164,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 40
+                "maxLength": 50
             }
         },
         {
@@ -192,27 +203,14 @@
             }
         },
         {
-            "id": "dc528c96d56ed4162da21cbd3bb6490e",
-            "name": "URLRAPPORT",
-            "title": "URLRAPPORT",
-            "description": "Lien d'accès au fichier du rapport de présentation sous forme numérique",
+            "id": "e4f3279b1c1d3ddd178202485b0c1e1d",
+            "name": "URL_PAS",
+            "title": "URL_PAS",
             "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "maxLength": 254
-            }
-        },
-        {
-            "id": "e13b3c12613e2413179de44cc62b87c3",
-            "name": "RAPPORT",
-            "title": "RAPPORT",
-            "description": "Nom du fichier contenant le rapport de présentation",
-            "type": "Filename",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 40
             }
         }
     ]
