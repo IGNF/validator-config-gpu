@@ -35,7 +35,7 @@
             "id": "f843636fbd4907cc7fdcf46320919a78",
             "name": "ACTE_SUP",
             "title": "ACTE_SUP",
-            "path": "Donnees_geographiques/(.*_)?ACTE_SUP",
+            "path": "Donnees_geographiques/[a-zA-Z0-9]+_ACTE_SUP",
             "type": "table",
             "mandatory": "ERROR"
         },
@@ -43,7 +43,7 @@
             "id": "47ff80e66586361ded3b89408bd55c8b",
             "name": "GESTIONNAIRE_SUP",
             "title": "GESTIONNAIRE_SUP",
-            "path": "Donnees_geographiques/(.*_)?GESTIONNAIRE_SUP",
+            "path": "Donnees_geographiques/[a-zA-Z0-9]+_GESTIONNAIRE_SUP",
             "type": "table",
             "mandatory": "ERROR"
         },
@@ -51,7 +51,7 @@
             "id": "1e852b52de3618b68c5518a50886df2c",
             "name": "SERVITUDE",
             "title": "SERVITUDE",
-            "path": "Donnees_geographiques/(.*_)?SERVITUDE",
+            "path": "Donnees_geographiques/[a-zA-Z0-9]+_SERVITUDE",
             "type": "table",
             "mandatory": "ERROR"
         },
@@ -59,7 +59,7 @@
             "id": "afcaba63eca4d22f9db8f0894bca12c8",
             "name": "SERVITUDE_ACTE_SUP",
             "title": "SERVITUDE_ACTE_SUP",
-            "path": "Donnees_geographiques/(.*_)?SERVITUDE_ACTE_SUP",
+            "path": "Donnees_geographiques/[a-zA-Z0-9]+_SERVITUDE_ACTE_SUP",
             "type": "table",
             "mandatory": "ERROR"
         },
