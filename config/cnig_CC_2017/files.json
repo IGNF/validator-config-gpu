@@ -157,7 +157,7 @@
             "title": "ANNEXE",
             "path": "Pieces_ecrites/4_Annexes/[^\\/]*",
             "type": "pdf",
-            "mandatory": "ERROR"
+            "mandatory": "WARN"
         },
         {
             "id": "61492fc8de414718d97bae268413aebb",
