@@ -65,18 +65,18 @@
             "mandatory": "ERROR"
         },
         {
-            "id": "03fb931af98073a336219842fc7be1f8",
-            "name": "DOO",
-            "title": "DOO",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "id": "7cab2a4cdcadeabf340390f6145b2045",
+            "name": "DAAC",
+            "title": "DAAC",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_daac_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
         {
-            "id": "7cab2a4cdcadeabf340390f6145b2045",
-            "name": "PADD",
-            "title": "PADD",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_padd_[0-9]{8}(_[a-zA-Z])?",
+            "id": "03fb931af98073a336219842fc7be1f8",
+            "name": "DOO",
+            "title": "DOO",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
