@@ -133,9 +133,9 @@
         },
         {
             "id": "744ea491281eb6d5f893f273b0fba5a2",
-            "name": "URLPADD",
-            "title": "URLPADD",
-            "description": "Lien d'accès au fichier du PADD",
+            "name": "URLDAAC",
+            "title": "URLDAAC",
+            "description": "Lien d'accès au fichier du DAAC",
             "type": "Url",
             "constraints": {
                 "required": false,
@@ -157,8 +157,8 @@
         },
         {
             "id": "c9a9246ddb9f51fa4f1c6b44c8395e83",
-            "name": "PADD",
-            "title": "PADD",
+            "name": "DAAC",
+            "title": "DAAC",
             "description": "Nom du fichier contenant le projet d'aménagement et de développement durables",
             "type": "Filename",
             "constraints": {
