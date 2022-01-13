@@ -2,6 +2,13 @@
     "id": "8a1cdad7c2f1328fdda6db56ee972b8b",
     "name": "T9_ASSIETTE_SUP_S",
     "title": "T9_ASSIETTE_SUP_S",
+    "constraints": {
+        "conditions": [
+            "srcGeoAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "dateSrcAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "paramCalc NOT NULL OR modeGeoAss NOT LIKE 'Zone Tampon'"
+        ]
+    },
     "columns": [
         {
             "id": "0023559dbbddf1de2ba179594527e8bd",

@@ -3,6 +3,11 @@
     "name": "INFO_LIN",
     "title": "INFO_LIN",
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
+    "constraints": {
+        "conditions": [
+            "TYPEINF NOT NULL OR TYPEP NOT NULL"
+        ]
+    },
     "columns": [
         {
             "id": "0a8f6893b4b8cbcfe55666ccb8c3d701",

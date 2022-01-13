@@ -3,6 +3,11 @@
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "INFO_SURF",
+    "constraints": {
+        "conditions": [
+            "TYPEPSC LIKE '97' AND STYPEPSC LIKE '00' AND NOMFIC NOT NULL"
+        ]
+    },
     "columns": [
         {
             "id": "055d0a3a98fbdbd8118b665765e8da99",

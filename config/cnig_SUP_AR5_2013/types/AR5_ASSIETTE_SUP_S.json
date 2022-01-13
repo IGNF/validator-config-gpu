@@ -3,6 +3,12 @@
     "name": "AR5_ASSIETTE_SUP_S",
     "title": "AR5_ASSIETTE_SUP_S",
     "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "constraints": {
+        "conditions": [
+            "paramCalc NOT NULL OR modeGeoAss NOT LIKE 'Zone Tampon'",
+            "srcGeoAss NOT NULL OR modeGeoAss NOT LIKE 'Digitalisation'"
+        ]
+    },
     "columns": [
         {
             "id": "16cb5914fd03e3537143180e3e38f70a",

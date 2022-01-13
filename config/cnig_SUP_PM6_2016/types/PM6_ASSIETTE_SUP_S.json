@@ -2,6 +2,13 @@
     "id": "c45974ef4492b9ecbc2fd41c36a7bfc4",
     "name": "PM6_ASSIETTE_SUP_S",
     "title": "PM6_ASSIETTE_SUP_S",
+    "constraints": {
+        "conditions": [
+            "srcGeoAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "dateSrcAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "paramCalc NOT NULL OR modeGeoAss NOT LIKE 'Zone Tampon'"
+        ]
+    },
     "columns": [
         {
             "id": "0023559dbbddf1de2ba179594527e8bd",

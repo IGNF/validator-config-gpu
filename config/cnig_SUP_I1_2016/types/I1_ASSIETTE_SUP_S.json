@@ -3,6 +3,13 @@
     "name": "I1_ASSIETTE_SUP_S",
     "title": "I1_ASSIETTE_SUP_S",
     "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "constraints": {
+        "conditions": [
+            "srcGeoAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "dateSrcAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "paramCalc NOT NULL OR modeGeoAss NOT LIKE 'Zone Tampon'"
+        ]
+    },
     "columns": [
         {
             "id": "0023559dbbddf1de2ba179594527e8bd",
