@@ -3,6 +3,13 @@
     "name": "DOC_URBA",
     "title": "DOC_URBA",
     "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
+    "constraints": {
+        "conditions": [
+            "DATAPRO NOT NULL OR ETAT NOT LIKE '03'",
+            "DATEFIN NOT NULL OR ETAT NOT IN ('04', '05')",
+            "INTERCO LIKE 'F'"
+        ]
+    },
     "columns": [
         {
             "id": "00f76d2c413ce610f800bb6f4983b5e2",

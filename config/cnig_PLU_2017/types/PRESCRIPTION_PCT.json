@@ -3,6 +3,11 @@
     "name": "PRESCRIPTION_PCT",
     "title": "PRESCRIPTION_PCT",
     "description": "Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
+    "constraints": {
+        "conditions": [
+            "TYPEPSC LIKE '97' AND STYPEPSC LIKE '00' AND NOMFIC NOT NULL"
+        ]
+    },
     "columns": [
         {
             "id": "0a567cf4b9e64f8b0489c9782f606b50",

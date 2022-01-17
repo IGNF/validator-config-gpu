@@ -3,6 +3,14 @@
     "name": "PT3_GENERATEUR_SUP_L",
     "title": "PT3_GENERATEUR_SUP_L",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "constraints": {
+        "conditions": [
+            "srcGeoGen NOT NULL OR modeGenere NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "dateSrcGen NOT NULL OR modeGenere NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "refBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'",
+            "idBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'"
+        ]
+    },
     "columns": [
         {
             "id": "202073fb00f6049f7ca061907feeecd8",

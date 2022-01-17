@@ -2,6 +2,14 @@
     "id": "3551e98182f851c5a0e325a850bbf286",
     "name": "PM6_GENERATEUR_SUP_S",
     "title": "PM6_GENERATEUR_SUP_S",
+    "constraints": {
+        "conditions": [
+            "srcGeoGen NOT NULL OR modeGenere NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "dateSrcGen NOT NULL OR modeGenere NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "refBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'",
+            "idBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'"
+        ]
+    },
     "columns": [
         {
             "id": "202073fb00f6049f7ca061907feeecd8",

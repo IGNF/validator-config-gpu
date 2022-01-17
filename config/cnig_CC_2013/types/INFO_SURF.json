@@ -3,6 +3,11 @@
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "Table contenant les périmètres à reporter à titre d'information",
+    "constraints": {
+        "conditions": [
+            "TYPEINF NOT NULL OR TYPEP NOT NULL"
+        ]
+    },
     "columns": [
         {
             "id": "0815e2635abfeb5205ec9142a7879988",

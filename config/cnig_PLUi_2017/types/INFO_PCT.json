@@ -3,6 +3,11 @@
     "name": "INFO_PCT",
     "title": "INFO_PCT",
     "description": "Table contenant les informations ponctuelle à reporter à titre d'information",
+    "constraints": {
+        "conditions": [
+            "TYPEPSC LIKE '97' AND STYPEPSC LIKE '00' AND NOMFIC NOT NULL"
+        ]
+    },
     "columns": [
         {
             "id": "0487fe88a24321f8f79b5a37ae47f933",

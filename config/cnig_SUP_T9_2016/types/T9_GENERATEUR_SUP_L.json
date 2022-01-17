@@ -2,6 +2,14 @@
     "id": "8e62bee69fff333daa7946ce569d5c6f",
     "name": "T9_GENERATEUR_SUP_L",
     "title": "T9_GENERATEUR_SUP_L",
+    "constraints": {
+        "conditions": [
+            "srcGeoGen NOT NULL OR modeGenere NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "dateSrcGen NOT NULL OR modeGenere NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "refBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'",
+            "idBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'"
+        ]
+    },
     "columns": [
         {
             "id": "202073fb00f6049f7ca061907feeecd8",
