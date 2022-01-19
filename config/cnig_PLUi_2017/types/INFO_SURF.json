@@ -5,7 +5,7 @@
     "description": "INFO_SURF",
     "constraints": {
         "conditions": [
-            "TYPEPSC LIKE '97' AND STYPEPSC LIKE '00' AND NOMFIC NOT NULL"
+            "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
         ]
     },
     "columns": [

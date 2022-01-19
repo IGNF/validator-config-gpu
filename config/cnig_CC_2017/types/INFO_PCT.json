@@ -5,8 +5,9 @@
     "description": "Table contenant les informations ponctuelles à reporter à titre  d'information",
     "constraints": {
         "conditions": [
-            "TYPEINF LIKE '00' OR TYPEP NOT NULL",
-            "TYPEINF LIKE '00' OR STYPEP NOT NULL"
+            "TYPEINF IS NOT NULL",
+            "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
+            "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
         ]
     },
     "columns": [

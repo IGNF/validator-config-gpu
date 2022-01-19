@@ -3,6 +3,11 @@
     "name": "PRESCRIPTION_LIN",
     "title": "PRESCRIPTION_LIN",
     "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT IN ('07', '39') OR STYPEPSC NOT LIKE '51' OR TXT IS NOT NULL"
+        ]
+    },
     "columns": [
         {
             "id": "19838e88f79d7ece4402ca2a50972e00",

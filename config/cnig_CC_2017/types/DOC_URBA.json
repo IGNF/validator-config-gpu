@@ -5,8 +5,8 @@
     "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
     "constraints": {
         "conditions": [
-            "DATAPRO NOT NULL OR ETAT NOT LIKE '03'",
-            "DATEFIN NOT NULL OR ETAT NOT IN ('04', '05')",
+            "DATAPRO IS NOT NULL OR ETAT NOT LIKE '03'",
+            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
             "NOMREG NOT NULL OR URLREG NOT NULL"
         ]
     },

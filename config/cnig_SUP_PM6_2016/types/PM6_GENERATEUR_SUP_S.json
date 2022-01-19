@@ -4,10 +4,10 @@
     "title": "PM6_GENERATEUR_SUP_S",
     "constraints": {
         "conditions": [
-            "srcGeoGen NOT NULL OR modeGenere NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "dateSrcGen NOT NULL OR modeGenere NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "refBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'",
-            "idBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'"
+            "SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "DATESRCGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
+            "IDBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'"
         ]
     },
     "columns": [

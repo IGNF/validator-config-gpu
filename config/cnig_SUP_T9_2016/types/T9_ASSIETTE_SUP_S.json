@@ -4,9 +4,9 @@
     "title": "T9_ASSIETTE_SUP_S",
     "constraints": {
         "conditions": [
-            "srcGeoAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "dateSrcAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "paramCalc NOT NULL OR modeGeoAss NOT LIKE 'Zone Tampon'"
+            "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "DATESRCASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
         ]
     },
     "columns": [

@@ -5,7 +5,7 @@
     "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "constraints": {
         "conditions": [
-            "TYPEPSC LIKE '97' AND STYPEPSC LIKE '00' AND NOMFIC NOT NULL"
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
         ]
     },
     "columns": [

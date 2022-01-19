@@ -5,9 +5,9 @@
     "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "constraints": {
         "conditions": [
-            "srcGeoAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "dateSrcAss NOT NULL OR modeGeoAss NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "paramCalc NOT NULL OR modeGeoAss NOT LIKE 'Zone Tampon'"
+            "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "DATESRCASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
         ]
     },
     "columns": [

@@ -5,7 +5,7 @@
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
     "constraints": {
         "conditions": [
-            "TYPEINF NOT NULL OR TYPEP NOT NULL"
+            "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
         ]
     },
     "columns": [

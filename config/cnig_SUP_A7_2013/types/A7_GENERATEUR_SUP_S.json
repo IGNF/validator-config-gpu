@@ -5,10 +5,10 @@
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "constraints": {
         "conditions": [
-            "srcGeoGen NOT NULL OR modeGenere NOT LIKE 'Digitalisation'",
-            "dateSrcGen NOT NULL OR modeGenere NOT LIKE 'Digitalisation'",
-            "refBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'",
-            "idBDExt NOT NULL OR modeGenere NOT LIKE 'Duplication'"
+            "SRCGEOGEN IS NOT NULL OR MODEGENERE NOT LIKE 'Digitalisation'",
+            "DATESRCGEN IS NOT NULL OR MODEGENERE NOT LIKE 'Digitalisation'",
+            "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
+            "IDBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'"
         ]
     },
     "columns": [
