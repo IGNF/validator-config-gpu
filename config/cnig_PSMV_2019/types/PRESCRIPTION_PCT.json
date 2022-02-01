@@ -5,7 +5,8 @@
     "description": "Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "constraints": {
         "conditions": [
-            "TYPEPSC NOT IN ('07', '39') OR STYPEPSC NOT LIKE '51' OR TXT IS NOT NULL"
+            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
+            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR ANGLE IS NOT NULL"
         ]
     },
     "columns": [

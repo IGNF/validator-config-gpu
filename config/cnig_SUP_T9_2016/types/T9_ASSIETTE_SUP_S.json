@@ -5,7 +5,8 @@
     "constraints": {
         "conditions": [
             "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "DATESRCASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
+            "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
             "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
         ]
     },

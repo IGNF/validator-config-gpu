@@ -5,6 +5,7 @@
     "description": "Table contenant les périmètres à reporter à titre d'information",
     "constraints": {
         "conditions": [
+            "TYPEINF IS NULL OR TYPEP IS NULL",
             "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
         ]
     },
