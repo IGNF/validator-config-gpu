@@ -6,7 +6,9 @@
     "constraints": {
         "conditions": [
             "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
-            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR ANGLE IS NOT NULL"
+            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR ANGLE IS NOT NULL",
+            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR CAST(ANGLE AS INTEGER) <= 359",
+            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
         ]
     },
     "columns": [
