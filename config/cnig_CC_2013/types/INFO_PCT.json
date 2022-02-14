@@ -7,7 +7,8 @@
         "conditions": [
             "TYPEINF IS NULL OR TYPEP IS NULL",
             "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
-        ]
+        ],
+        "foreignKeys": []
     },
     "columns": [
         {

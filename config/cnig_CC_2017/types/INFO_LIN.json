@@ -8,7 +8,8 @@
             "TYPEINF IS NOT NULL",
             "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
             "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
-        ]
+        ],
+        "foreignKeys": []
     },
     "columns": [
         {

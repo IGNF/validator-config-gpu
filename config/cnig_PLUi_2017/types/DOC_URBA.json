@@ -8,7 +8,8 @@
             "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
             "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
             "NOMREG IS NOT NULL OR URLREG IS NOT NULL"
-        ]
+        ],
+        "foreignKeys": []
     },
     "columns": [
         {

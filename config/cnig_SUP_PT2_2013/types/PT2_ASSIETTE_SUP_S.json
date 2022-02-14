@@ -7,7 +7,8 @@
         "conditions": [
             "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'",
             "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Digitalisation'"
-        ]
+        ],
+        "foreignKeys": []
     },
     "columns": [
         {

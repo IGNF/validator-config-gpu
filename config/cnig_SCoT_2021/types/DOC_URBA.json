@@ -6,7 +6,8 @@
     "constraints": {
         "conditions": [
             "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')"
-        ]
+        ],
+        "foreignKeys": []
     },
     "columns": [
         {
