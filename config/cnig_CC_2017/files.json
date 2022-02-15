@@ -176,5 +176,18 @@
             "mandatory": "OPTIONAL"
         }
     ],
-    "codes": []
+    "codes": [
+        {
+            "id": "05289e53497dc8393ef80c9ba1cb202b",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType",
+            "data": "./codes/InformationUrbaType.csv"
+        },
+        {
+            "id": "c7e581dccdbea5c1046fcb06785f2f43",
+            "name": "PrescriptionUrbaType",
+            "title": "PrescriptionUrbaType",
+            "data": "./codes/PrescriptionUrbaType.csv"
+        }
+    ]
 }

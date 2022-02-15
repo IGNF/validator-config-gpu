@@ -354,5 +354,18 @@
             "mandatory": "ERROR"
         }
     ],
-    "codes": []
+    "codes": [
+        {
+            "id": "7b7cf50749cb59afa653bdf897ad6c59",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType",
+            "data": "./codes/InformationUrbaType.csv"
+        },
+        {
+            "id": "7d505e153e6bcf4ffa091ad49b02cb1e",
+            "name": "PrescriptionUrbaType",
+            "title": "PrescriptionUrbaType",
+            "data": "./codes/PrescriptionUrbaType.csv"
+        }
+    ]
 }

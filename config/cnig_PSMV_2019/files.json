@@ -241,5 +241,18 @@
             "mandatory": "OPTIONAL"
         }
     ],
-    "codes": []
+    "codes": [
+        {
+            "id": "0bf148e8c77d03ceb888488a0b556d41",
+            "name": "PrescriptionPSMVType",
+            "title": "PrescriptionPSMVType",
+            "data": "./codes/PrescriptionPSMVType.csv"
+        },
+        {
+            "id": "a48dc72171621e04cff2fb64745345fe",
+            "name": "InformationPSMVType",
+            "title": "InformationPSMVType",
+            "data": "./codes/InformationPSMVType.csv"
+        }
+    ]
 }
