@@ -10,9 +10,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 03,01,[réservé aux cartes communales] Secteur dans lequel la reconstruction à l'identique d'un bâtiment détruit par un sinistre n'est pas autorisée,,R161-7
 03,02,Interdiction de restauration de bâtiment dont il reste l’essentiel des murs porteurs,L111-23,
 04,00,Périmètre issu des PDU sur obligation de stationnement,L151-47 dernier alinéa,
-05,00,"Emplacement réservé
-Remarque : sauf lot de données antérieurs au standard v2017, utiliser impérativement les sous-codes suivants",L151-41 1° à 3°,"R151-34 4°,
-R151-38 1°, R151-43 3°, R151-48 2°, R151-50 1°"
+05,00,"Emplacement réservé",L151-41 1° à 3°,"R151-34 4°, R151-38 1°, R151-43 3°, R151-48 2°, R151-50 1°"
 05,01,Emplacement réservé aux voies publiques,L151-41 1°,R151-48 2°
 05,02,Emplacement réservé aux ouvrages publics,L151-41 1°,R151-50 1°
 05,03,Emplacement réservé aux installations d’intérêt général,L151-41 2°,R151-34 4°
@@ -20,7 +18,6 @@ R151-38 1°, R151-43 3°, R151-48 2°, R151-50 1°"
 05,05,Emplacement réservé logement social/mixité sociale,L151-41 4°,R151-38 1°
 05,06,"Servitude de localisation des voies, ouvrages publics, installations d’intérêt général et espaces verts en zone U ou AU",L151-41 dernier alinéa,
 05,07,Secteur de projet en attente d’un projet d’aménagement global,L151-41 5°,R151-32 
---,--,Abrogé (secteur à densité maximale pour les reconstructions ou aménagements de bâtiments existants),Abrogé,Abrogé
 07,00,"Patrimoine bâti, paysager ou éléments de paysages à protéger pour des motifs d'ordre culturel, historique, architectural ou écologique",L151-19 et L151-23,R151-41 3° Et R151-43  
 07,01,"Patrimoine bâti à protéger pour des motifs d'ordre culturel, historique, architectural",L151-19,R151-41 3°
 07,02,"Patrimoine paysager à protéger pour des motifs d'ordre culturel, historique, architectural",L151-19,R151-41 3°
@@ -28,10 +25,6 @@ R151-38 1°, R151-43 3°, R151-48 2°, R151-50 1°"
 07,04,"Éléments de paysage, (sites et secteurs) à préserver pour des motifs d'ordre écologique",L151-23,R151-43 5°
 07,05,"Éléments de paysage correspondant à un espace boisé, (sites et secteurs) à préserver pour des motifs d'ordre écologique",L151-23 al.1,R151-43 5°
 08,00,Terrain cultivé ou non bâti à protéger en zone urbaine,L151-23 al. 2,R151-43 6°
---,--,Anciennement code 9 : Emplacement réservé logement social/mixité sociale est transféré en 05 05,,
---,--,"Anciennement code 10 : Servitude de localisation des voies (,,) et espaces verts en zone U ou AU est transféré en 05 06",,
---,--,"Anciennement code 11, est transféré en code 15 Règles d’implantation des constructions",,
---,--,Anciennement code 12 : Secteur de projet en attente d’un projet d’aménagement global est transféré en 05 07,,
 13,00,Zone à aménager en vue de la pratique du ski,L151-38 al. 2,R151-48 3°
 14,00,Secteur de plan de masse,,R151-40 
 15,00,Règles d’implantation des constructions,L151-17  et L151-18,R151-39 dernier al.
@@ -60,7 +53,6 @@ R151-38 1°, R151-43 3°, R151-48 2°, R151-50 1°"
 18,11,OAP valant création de zone d’aménagement concerté,L151-7-2,
 19,00,Secteur protégé en raison de la richesse du sol et du sous-sol,,R151-34 2°
 20,00,Secteur à transfert de constructibilité en zone N,L151-25,R151-36 
---,–,Idem 10,Idem 10,Idem 10
 22,00,Diversité commerciale à protéger ou à développer,L151-16,R151-37 4°
 22,01,Diversité commerciale à protéger,L151-16,R151-37 4°
 22,02,Diversité commerciale à développer,L151-16,R151-37 4°
