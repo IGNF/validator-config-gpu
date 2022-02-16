@@ -1,7 +1,7 @@
 TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 01,00,Espace boisé classé,,R151-31 1°
 01,01,Espace boisé classé à protéger ou conserver,,R151-31 1°
-01,02,Espace boisé classé à créer,R151-31 1°
+01,02,Espace boisé classé à créer,,R151-31 1°
 01,03,Espace boisé classé significatif au titre de la loi littoral,,
 02,00,"Limitations de la constructibilité pour des raisons environnementales, de risques, d’intérêt général",,"R151-31 2° et R151-34 1°"
 02,01,"Secteur avec interdiction de constructibilité pour des raisons environnementales, de risques, d’intérêt général",,R151-31 2°
@@ -21,7 +21,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 05,07,Secteur de projet en attente d’un projet d’aménagement global,,R151-32 
 07,00,"Patrimoine bâti, paysager ou éléments de paysages à protéger pour des motifs d'ordre culturel, historique, architectural ou écologique","L313-1 III 1°, L313-1 IV et L631-4 CP I 2°c","R313-5 4e al, R151-41 3° et R151-43 5°"
 07,01,"Patrimoine bâti à protéger pour des motifs d'ordre culturel, historique, architectural",,R151-41 3°
-07,02,"Patrimoine paysager à protéger pour des motifs d'ordre culturel, historique, architectural",R151-41 3°
+07,02,"Patrimoine paysager à protéger pour des motifs d'ordre culturel, historique, architectural",,R151-41 3°
 07,03,"Patrimoine paysager correspondant à un espace boisé à protéger pour des motifs d'ordre culturel, historique, architectural",,R151-41 3°
 07,04,"Éléments de paysage, (sites et secteurs) à préserver pour des motifs d'ordre écologique",,R151-43 5°
 07,05,"Éléments de paysage correspondant à un espace boisé, (sites et secteurs) à préserver pour des motifs d'ordre écologique",,R151-43 5°
@@ -154,7 +154,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 44,98,Stationnement règles alternatives,,R151-13
 45,00,"Zone d’aménagement concerté (surface de plancher, destination)",,
 46,00,Constructibilité espace boisé antérieur au 20ème siècle,,
-47,00,Desserte par les réseaux,R151-49 
+47,00,Desserte par les réseaux,,R151-49 
 47,01,Réseaux publics d'eau,,R151-49 
 47,02,Réseaux publics d'électricité,,R151-49 
 47,03,Réseaux publics d'assainissement,,R151-49 

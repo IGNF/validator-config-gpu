@@ -243,16 +243,16 @@
     ],
     "codes": [
         {
-            "id": "0bf148e8c77d03ceb888488a0b556d41",
-            "name": "PrescriptionPSMVType",
-            "title": "PrescriptionPSMVType",
-            "data": "./codes/PrescriptionPSMVType.csv"
-        },
-        {
-            "id": "a48dc72171621e04cff2fb64745345fe",
+            "id": "5f35c6ee03c903dae624f8a66ae05f57",
             "name": "InformationPSMVType",
             "title": "InformationPSMVType",
             "data": "./codes/InformationPSMVType.csv"
+        },
+        {
+            "id": "acd7aed4893834f884b23703a13640ce",
+            "name": "PrescriptionPSMVType",
+            "title": "PrescriptionPSMVType",
+            "data": "./codes/PrescriptionPSMVType.csv"
         }
     ]
 }
