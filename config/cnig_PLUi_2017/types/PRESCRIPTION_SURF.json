@@ -9,7 +9,9 @@
             "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '01' OR TXT IS NOT NULL",
             "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '01' OR TXT LIKE 'SECT__'"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(TYPEPSC,STYPEPSC) REFERENCES PrescriptionUrbaType(TYPEPSC,STYPEPSC)"
+        ]
     },
     "columns": [
         {
