@@ -105,7 +105,7 @@
             "id": "4dde37806165a17459d3291389e5f200",
             "name": "PAS",
             "title": "PAS",
-            "type": "String",
+            "type": "Filename",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -210,8 +210,8 @@
         },
         {
             "id": "e4f3279b1c1d3ddd178202485b0c1e1d",
-            "name": "URL_PAS",
-            "title": "URL_PAS",
+            "name": "URLPAS",
+            "title": "URLPAS",
             "type": "Url",
             "constraints": {
                 "required": false,

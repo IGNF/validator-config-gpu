@@ -171,7 +171,7 @@
             "id": "27b0b7b5d9a674a4c0baa4398c50d2be",
             "name": "TITRES_PIECES_ECRITES",
             "title": "TITRES_PIECES_ECRITES",
-            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL"
         }

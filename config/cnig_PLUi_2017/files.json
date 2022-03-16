@@ -237,7 +237,7 @@
             "id": "afc2422a327bc7886ae500cbb45d959c",
             "name": "TITRES_PIECES_ECRITES",
             "title": "TITRES_PIECES_ECRITES",
-            "path": "Pieces_ecrites/4_Annexes/[0-9]{9}_titres_pieces_ecrites_[0-9]{8}",
+            "path": "Pieces_ecrites/4_Annexes/[0-9]{9}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL"
         },

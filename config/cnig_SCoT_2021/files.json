@@ -76,7 +76,7 @@
             "id": "03fb931af98073a336219842fc7be1f8",
             "name": "DOO",
             "title": "DOO",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -84,7 +84,7 @@
             "id": "c92dfa670bbc157dab5b4bb87690679f",
             "name": "PAS",
             "title": "projet d'aménagement stratégique",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
