@@ -253,7 +253,7 @@
             "id": "d7eb5db9f200e1498ef7f8e3fdfb7a00",
             "name": "TITRES_PIECES_ECRITES",
             "title": "TITRES_PIECES_ECRITES",
-            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL"
         },
@@ -273,5 +273,6 @@
             "type": "pdf",
             "mandatory": "OPTIONAL"
         }
-    ]
+    ],
+    "codes": []
 }

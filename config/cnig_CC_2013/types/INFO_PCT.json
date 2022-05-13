@@ -3,6 +3,13 @@
     "name": "INFO_PCT",
     "title": "INFO_PCT",
     "description": "Table contenant les informations ponctuelles à reporter à titre  d'information",
+    "constraints": {
+        "conditions": [
+            "TYPEINF IS NULL OR TYPEP IS NULL",
+            "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
+        ],
+        "foreignKeys": []
+    },
     "columns": [
         {
             "id": "09a3a73aceb773bc963e8caeefeb73ee",

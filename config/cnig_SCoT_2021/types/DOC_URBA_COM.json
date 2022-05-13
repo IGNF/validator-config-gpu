@@ -1,0 +1,47 @@
+{
+    "id": "70d134a2fd2e615304f3fba4f965d236",
+    "name": "DOC_URBA_COM",
+    "title": "DOC_URBA_COM",
+    "description": "Table non géographique associant le SCOT aux communes auxquelles il s’applique",
+    "columns": [
+        {
+            "id": "903243031c717b6bc9681c37d8032446",
+            "name": "EPCI",
+            "title": "EPCI",
+            "description": "Code SIREN de l’EPCI auquel appartient la commune",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "[0-9]{9}",
+                "maxLength": 9
+            }
+        },
+        {
+            "id": "b652769e77cee113ccd26993bdfb58b4",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du SCOT (cf table DOC_URBA)",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "ce68a3d1467a389b9b7225aed353ca18",
+            "name": "INSEE",
+            "title": "INSEE",
+            "description": "Code INSEE de la commune sur laquelle il s’applique",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "[AB0-9]{5}",
+                "maxLength": 5
+            }
+        }
+    ]
+}

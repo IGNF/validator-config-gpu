@@ -240,5 +240,19 @@
             "type": "pdf",
             "mandatory": "OPTIONAL"
         }
+    ],
+    "codes": [
+        {
+            "id": "5f35c6ee03c903dae624f8a66ae05f57",
+            "name": "InformationPSMVType",
+            "title": "InformationPSMVType",
+            "data": "./codes/InformationPSMVType.csv"
+        },
+        {
+            "id": "acd7aed4893834f884b23703a13640ce",
+            "name": "PrescriptionPSMVType",
+            "title": "PrescriptionPSMVType",
+            "data": "./codes/PrescriptionPSMVType.csv"
+        }
     ]
 }

@@ -1,0 +1,162 @@
+{
+    "id": "1b95722d3c2f3b568a448f4cc66fd80d",
+    "name": "cnig_SCoT_2021",
+    "title": "cnig_SCoT_2018",
+    "description": "cnig_SCoT_2021",
+    "constraints": {
+        "folderName": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?"
+    },
+    "files": [
+        {
+            "id": "0ae39ee803a4a0260211db9c678018bf",
+            "name": "Donnees_geographiques",
+            "title": "Donnees_geographiques",
+            "path": "Donnees_geographiques",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "a21be0f733243cadc28ba17f8e47c480",
+            "name": "PERIMETRE_SCOT",
+            "title": "PERIMETRE_SCOT",
+            "description": "Périmètre du SCOT",
+            "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "b0595a7550a0cd08553b0b14687a88ac",
+            "name": "METADONNEES",
+            "title": "METADONNEES",
+            "path": "[^\\/]*",
+            "type": "metadata",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "e72f4178d2f165df8a7a93444218d360",
+            "name": "Pieces_ecrites",
+            "title": "Pieces_ecrites",
+            "path": "Pieces_ecrites",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "df2eaa9ffa3c010e37521f8d3421f303",
+            "name": "0_Procedure",
+            "title": "0_Procedure",
+            "path": "Pieces_ecrites/0_Procedure",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "890d4c22768322a600e43891c7c20589",
+            "name": "PROCEDURE",
+            "title": "PROCEDURE",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "e918a32f6a87fe23c18918b366cbf39e",
+            "name": "1_SCOT",
+            "title": "1_SCOT",
+            "path": "Pieces_ecrites/1_SCOT",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "7cab2a4cdcadeabf340390f6145b2045",
+            "name": "DAAC",
+            "title": "DAAC",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_daac_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "03fb931af98073a336219842fc7be1f8",
+            "name": "DOO",
+            "title": "DOO",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "c92dfa670bbc157dab5b4bb87690679f",
+            "name": "PAS",
+            "title": "projet d'aménagement stratégique",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "8949ec9080d8a1c9dd8779853c3f2695",
+            "name": "2_Annexes",
+            "title": "2_Annexes",
+            "path": "Pieces_ecrites/2_Annexes",
+            "type": "directory",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "e06e8be25321b62a0ac418bfe99bb7d1",
+            "name": "ANNEXE",
+            "title": "ANNEXE",
+            "path": "Pieces_ecrites/2_Annexes/[^\\/]*",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "aca0327d514106bedb175b951db76cb1",
+            "name": "CONSOMMATION_ESPACE",
+            "title": "CONSOMMATION_ESPACE",
+            "description": "analyse de la consommation d'espace",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_consommation_espace_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "1cf1821b88a1fd59755bd26f6dfa6a50",
+            "name": "DIAGNOSTIC",
+            "title": "DIAGNOSTIC",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_diagnostic_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "ebd956c65290ac47b64de1b861e57c9a",
+            "name": "EVALUATION_ENVIRONNEMENTALE",
+            "title": "EVALUATION_ENVIRONNEMENTALE",
+            "description": "évaluation environnementale",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_evaluation_environnementale_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "a2c1371ca85ba976965abeb166a91981",
+            "name": "JUSTIFICATION_CHOIX",
+            "title": "JUSTIFICATION_CHOIX",
+            "description": "justification des choix",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_justification_choix_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "90572c3a3bec3688fc876cfa842cf5b0",
+            "name": "DOC_URBA_COM",
+            "title": "DOC_URBA_COM",
+            "description": "Table non géographique associant le SCOT aux communes auxquelles il s’applique",
+            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "ERROR"
+        },
+        {
+            "id": "27ef984811006668a0f59a35d4447a4f",
+            "name": "DOC_URBA",
+            "title": "DOC_URBA",
+            "description": "Table géographique portant la géométrie du périmètre du SCOT approuvé",
+            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "ERROR"
+        }
+    ],
+    "codes": []
+}

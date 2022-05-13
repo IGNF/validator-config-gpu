@@ -234,6 +234,14 @@
             "mandatory": "ERROR"
         },
         {
+            "id": "afc2422a327bc7886ae500cbb45d959c",
+            "name": "TITRES_PIECES_ECRITES",
+            "title": "TITRES_PIECES_ECRITES",
+            "path": "Pieces_ecrites/4_Annexes/[0-9]{9}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?",
+            "type": "table",
+            "mandatory": "OPTIONAL"
+        },
+        {
             "id": "0572c97035f12ac9db0fc446318b7fd8",
             "name": "5_Orientations_amenagement",
             "title": "5_Orientations_amenagement",
@@ -344,6 +352,20 @@
             "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "ERROR"
+        }
+    ],
+    "codes": [
+        {
+            "id": "7b7cf50749cb59afa653bdf897ad6c59",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType",
+            "data": "./codes/InformationUrbaType.csv"
+        },
+        {
+            "id": "7d505e153e6bcf4ffa091ad49b02cb1e",
+            "name": "PrescriptionUrbaType",
+            "title": "PrescriptionUrbaType",
+            "data": "./codes/PrescriptionUrbaType.csv"
         }
     ]
 }

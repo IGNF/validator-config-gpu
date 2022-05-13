@@ -3,6 +3,15 @@
     "name": "PRESCRIPTION_PCT",
     "title": "PRESCRIPTION_PCT",
     "description": "Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
+            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR ANGLE IS NOT NULL",
+            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR CAST(ANGLE AS INTEGER) <= 359",
+            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
+        ],
+        "foreignKeys": []
+    },
     "columns": [
         {
             "id": "00fa8b8b4dcae6518f7cadfbff7a18c0",
@@ -87,6 +96,17 @@
                     "99"
                 ],
                 "maxLength": 2
+            }
+        },
+        {
+            "id": "6f22a33bc31c1685d51565bca8534f6a",
+            "name": "ANGLE",
+            "title": "ANGLE",
+            "description": "ANGLE",
+            "type": "Integer",
+            "constraints": {
+                "required": false,
+                "unique": false
             }
         },
         {

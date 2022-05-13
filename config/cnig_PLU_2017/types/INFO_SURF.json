@@ -3,6 +3,12 @@
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "INFO_SURF",
+    "constraints": {
+        "conditions": [
+            "NOMFIC NOT NULL OR TYPEINF NOT LIKE '97'"
+        ],
+        "foreignKeys": []
+    },
     "columns": [
         {
             "id": "0b5edbb8ebd989c17965d5d1c37abc20",

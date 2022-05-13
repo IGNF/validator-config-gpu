@@ -3,6 +3,12 @@
     "name": "DOC_URBA",
     "title": "DOC_URBA",
     "description": "Table décrivant le SCOT",
+    "constraints": {
+        "conditions": [
+            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')"
+        ],
+        "foreignKeys": []
+    },
     "columns": [
         {
             "id": "01024af971c7eea829eabb9070f2cb0f",

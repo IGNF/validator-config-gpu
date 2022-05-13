@@ -19,7 +19,7 @@
             "id": "ba1bf50c7eb67650678a2f7f4e550c8f",
             "name": "ACTE",
             "title": "ACTE",
-            "path": "Actes/[^\\/]*",
+            "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_act",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -87,5 +87,6 @@
             "type": "table",
             "mandatory": "OPTIONAL"
         }
-    ]
+    ],
+    "codes": []
 }

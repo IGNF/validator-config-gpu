@@ -3,6 +3,13 @@
     "name": "EL8_ASSIETTE_SUP_S",
     "title": "EL8_ASSIETTE_SUP_S",
     "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "constraints": {
+        "conditions": [
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'",
+            "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Digitalisation'"
+        ],
+        "foreignKeys": []
+    },
     "columns": [
         {
             "id": "16cb5914fd03e3537143180e3e38f70a",

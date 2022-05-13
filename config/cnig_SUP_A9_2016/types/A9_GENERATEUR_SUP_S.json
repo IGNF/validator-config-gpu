@@ -3,6 +3,15 @@
     "name": "A9_GENERATEUR_SUP_S",
     "title": "A9_GENERATEUR_SUP_S",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "constraints": {
+        "conditions": [
+            "SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL",
+            "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
+            "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
+        ],
+        "foreignKeys": []
+    },
     "columns": [
         {
             "id": "202073fb00f6049f7ca061907feeecd8",
