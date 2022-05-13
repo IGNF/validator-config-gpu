@@ -1,8 +1,14 @@
 # validator-config-gpu
 
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
+
 ## Description
 
 Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation des standards CNIG au niveau du Géoportail de l'Urbanisme.
+
+## Mise en garde
+
+Les schémas sont actuellement géré avec un outil dédié travaillant sur le contenu `config-backup`. L'organisation de ce dépôt est amenée à évoluer. Les issues sont les bienvenues, les contributions directes sur le dépôt seront plus difficile à prendre en compte dans l'immédiat.
 
 ## Principes
 
@@ -13,7 +19,7 @@ Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IG
   * `validator_feature_type` : Modélisation de table pour les fichiers de type "table"
   * `validator_attribute_type` : Modélisation des colonnes des tables
 
-* La base de données est exportée en CSV dans le dossier `config-backup/` pour un versionnement à l'aide de GIT
+* La base de données est exportée en CSV dans le dossier `config-backup/` pour permettre l'utilisation de GIT.
 
 * La base de données est exportée dans le dossier `config/` dans un format JSON attendu par [IGNF/validator](https://github.com/IGNF/validator).
 
