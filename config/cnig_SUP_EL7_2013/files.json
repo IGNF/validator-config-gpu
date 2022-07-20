@@ -35,7 +35,7 @@
             "id": "b15effb3cbbfb4dfcfc8e57442308ad6",
             "name": "ACTE_SUP",
             "title": "ACTE_SUP",
-            "path": "Donnees_geographiques/ACTE_SUP(_[AB0-9]{3})?",
+            "path": "Donnees_geographiques/ACTE_SUP(_[a-zA-Z0-9]+)?",
             "type": "table",
             "mandatory": "ERROR"
         },
@@ -43,7 +43,7 @@
             "id": "98b971148593040338aca056e1e4f96b",
             "name": "GESTIONNAIRE_SUP",
             "title": "GESTIONNAIRE_SUP",
-            "path": "Donnees_geographiques/GESTIONNAIRE_SUP(_[AB0-9]{3})?",
+            "path": "Donnees_geographiques/GESTIONNAIRE_SUP(_[a-zA-Z0-9]+)?",
             "type": "table",
             "mandatory": "ERROR"
         },
@@ -51,7 +51,7 @@
             "id": "2adf5d4585941974dce879ec9dbd5762",
             "name": "SERVITUDE_ACTE_SUP",
             "title": "SERVITUDE_ACTE_SUP",
-            "path": "Donnees_geographiques/SERVITUDE_ACTE_SUP(_[AB0-9]{3})?",
+            "path": "Donnees_geographiques/SERVITUDE_ACTE_SUP(_[a-zA-Z0-9]+)?",
             "type": "table",
             "mandatory": "ERROR"
         },
@@ -59,7 +59,7 @@
             "id": "c0da9aa02ed6f0881eaa40fb6ffbaeb7",
             "name": "SERVITUDE",
             "title": "SERVITUDE",
-            "path": "Donnees_geographiques/SERVITUDE(_[AB0-9]{3})?",
+            "path": "Donnees_geographiques/SERVITUDE(_[a-zA-Z0-9]+)?",
             "type": "table",
             "mandatory": "ERROR"
         },
@@ -75,7 +75,7 @@
             "id": "f02d11e65291bef5c66d3a336752c6ec",
             "name": "EL7_ASSIETTE_SUP_L",
             "title": "EL7_ASSIETTE_SUP_L",
-            "path": "Donnees_geographiques/EL7_ASSIETTE_SUP_L(_[AB0-9]{3})?",
+            "path": "Donnees_geographiques/EL7_ASSIETTE_SUP_L(_[a-zA-Z0-9]+)?",
             "type": "table",
             "mandatory": "OPTIONAL"
         },
@@ -83,7 +83,7 @@
             "id": "c3141808ad28ada059114c45d305a046",
             "name": "EL7_ASSIETTE_SUP_S",
             "title": "EL7_ASSIETTE_SUP_S",
-            "path": "Donnees_geographiques/EL7_ASSIETTE_SUP_S(_[AB0-9]{3})?",
+            "path": "Donnees_geographiques/EL7_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
             "mandatory": "OPTIONAL"
         },
@@ -91,7 +91,7 @@
             "id": "57e7219b1b79155a5cac73537f5f1608",
             "name": "EL7_GENERATEUR_SUP_L",
             "title": "EL7_GENERATEUR_SUP_L",
-            "path": "Donnees_geographiques/EL7_GENERATEUR_SUP_L(_[AB0-9]{3})?",
+            "path": "Donnees_geographiques/EL7_GENERATEUR_SUP_L(_[a-zA-Z0-9]+)?",
             "type": "table",
             "mandatory": "OPTIONAL"
         },
@@ -99,7 +99,7 @@
             "id": "53b825f0a98049fc17b3fa731d192a72",
             "name": "EL7_GENERATEUR_SUP_S",
             "title": "EL7_GENERATEUR_SUP_S",
-            "path": "Donnees_geographiques/EL7_GENERATEUR_SUP_S(_[AB0-9]{3})?",
+            "path": "Donnees_geographiques/EL7_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
             "mandatory": "OPTIONAL"
         }
