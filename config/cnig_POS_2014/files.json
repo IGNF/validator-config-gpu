@@ -4,7 +4,8 @@
     "title": "cnig_POS_2014",
     "description": "maillage_POS_datappro(_part)",
     "constraints": {
-        "folderName": "[a-zA-Z0-9]+_POS_[0-9]{8}(_[a-zA-Z])?"
+        "folderName": "[a-zA-Z0-9]+_POS_[0-9]{8}(_[a-zA-Z])?",
+        "metadataSpecification": "CNIG POS v2014"
     },
     "files": [
         {

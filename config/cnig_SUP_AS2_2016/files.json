@@ -4,7 +4,8 @@
     "title": "cnig_SUP_AS2_2016",
     "description": "idgest_AS2_ddd_yyyymmdd ",
     "constraints": {
-        "folderName": "[0-9]{9}_AS2_[a-zA-Z0-9]+_[0-9]{8}"
+        "folderName": "[0-9]{9}_AS2_[a-zA-Z0-9]+_[0-9]{8}",
+        "metadataSpecification": "CNIG SUP v2016"
     },
     "files": [
         {

@@ -4,7 +4,8 @@
     "title": "cnig_PSMV_2014",
     "description": "maillage_PSMV_datappro",
     "constraints": {
-        "folderName": "[a-zA-Z0-9]+_PSMV_[0-9]{8}(_[a-zA-Z])?"
+        "folderName": "[a-zA-Z0-9]+_PSMV_[0-9]{8}(_[a-zA-Z])?",
+        "metadataSpecification": "CNIG PSMV v2014"
     },
     "files": [
         {

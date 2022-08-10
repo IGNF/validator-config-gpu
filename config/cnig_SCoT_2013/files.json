@@ -4,7 +4,8 @@
     "title": "cnig_SCoT_2013",
     "description": "maillage_SCoT_datappro(_part)",
     "constraints": {
-        "folderName": "[0-9]{9}_SCOT"
+        "folderName": "[0-9]{9}_SCOT",
+        "metadataSpecification": "CNIG SCoT v2013"
     },
     "files": [
         {

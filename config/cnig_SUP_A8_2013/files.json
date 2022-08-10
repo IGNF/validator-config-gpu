@@ -4,7 +4,8 @@
     "title": "cnig_SUP_A8_2013",
     "description": "idgest_A8_ddd_yyyymmdd ",
     "constraints": {
-        "folderName": "[0-9]{9}_A8_[a-zA-Z0-9]+_[0-9]{8}"
+        "folderName": "[0-9]{9}_A8_[a-zA-Z0-9]+_[0-9]{8}",
+        "metadataSpecification": "CNIG SUP v2013"
     },
     "files": [
         {

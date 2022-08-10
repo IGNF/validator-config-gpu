@@ -4,7 +4,8 @@
     "title": "cnig_SUP_AR2_2013",
     "description": "idgest_AR2_ddd_yyyymmdd ",
     "constraints": {
-        "folderName": "[0-9]{9}_AR2_[a-zA-Z0-9]+_[0-9]{8}"
+        "folderName": "[0-9]{9}_AR2_[a-zA-Z0-9]+_[0-9]{8}",
+        "metadataSpecification": "CNIG SUP v2013"
     },
     "files": [
         {

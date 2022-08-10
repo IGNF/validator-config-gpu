@@ -4,7 +4,8 @@
     "title": "cnig_PLUi_2014",
     "description": "maillage_PLUi_datappro(_part)",
     "constraints": {
-        "folderName": "[a-zA-Z0-9]+_PLUi_[0-9]{8}(_[a-zA-Z])?"
+        "folderName": "[a-zA-Z0-9]+_PLUi_[0-9]{8}(_[a-zA-Z])?",
+        "metadataSpecification": "CNIG PLUi v2014"
     },
     "files": [
         {
