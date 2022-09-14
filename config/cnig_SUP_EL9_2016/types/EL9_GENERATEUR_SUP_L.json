@@ -139,7 +139,8 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Sentier piétonnier"
+                    "Limite du domaine public maritime",
+                    "Voir ou chemin transversal"
                 ],
                 "maxLength": 40
             }

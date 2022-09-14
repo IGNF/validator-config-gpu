@@ -87,6 +87,14 @@
             "path": "Donnees_geographiques/I3_GENERATEUR_SUP_L",
             "type": "table",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "7cb01c5de824cf2e590fa91b9ab12e50",
+            "name": "I3_GENERATEUR_SUP_S",
+            "title": "I3_GENERATEUR_SUP_S",
+            "path": "Donnees_geographiques/I3_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
+            "type": "table",
+            "mandatory": "WARN"
         }
     ],
     "codes": []
