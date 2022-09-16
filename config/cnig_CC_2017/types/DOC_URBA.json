@@ -9,7 +9,11 @@
             "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
             "NOMREG NOT NULL OR URLREG NOT NULL"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(ETAT) REFERENCES ListeEtatCC(ETAT)",
+            "(TYPEDOC) REFERENCES ListeTypedocCC(TYPEDOC)",
+            "(TYPEREF) REFERENCES ListeTyperefCC(TYPEREF)"
+        ]
     },
     "columns": [
         {

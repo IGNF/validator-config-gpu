@@ -277,6 +277,12 @@
     ],
     "codes": [
         {
+            "id": "15b2be9ddc8af5610567474dc25bc62a",
+            "name": "ListeTypedocPLU",
+            "title": "ListeTypedocPLU",
+            "data": "./codes/ListeTypedocPLU.csv"
+        },
+        {
             "id": "20ec96600cbf750d178399ee8a09ed78",
             "name": "InformationUrbaType",
             "title": "InformationUrbaType",
@@ -287,6 +293,24 @@
             "name": "PrescriptionUrbaType",
             "title": "PrescriptionUrbaType",
             "data": "./codes/PrescriptionUrbaType.csv"
+        },
+        {
+            "id": "27a86f7cc10050f65e4135669b8cede5",
+            "name": "ListeTypezonePLU",
+            "title": "ListeTypezonePLU",
+            "data": "./codes/ListeTypezonePLU.csv"
+        },
+        {
+            "id": "c1cc6187d046cb2feb4957fa71834ba9",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU",
+            "data": "./codes/ListeEtatPLU.csv"
+        },
+        {
+            "id": "ce9bc7ad35ab6bfa61affd6b54beb980",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU",
+            "data": "./codes/ListeTyperefPLU.csv"
         }
     ]
 }

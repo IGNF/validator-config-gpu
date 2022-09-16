@@ -244,10 +244,34 @@
     ],
     "codes": [
         {
+            "id": "0ed85546ff8082aead076a0744d7ac7d",
+            "name": "ListeTypezonePSMV",
+            "title": "ListeTypezonePSMV",
+            "data": "./codes/ListeTypezonePSMV.csv"
+        },
+        {
+            "id": "5ec22d669d8455f341030f4c400b8434",
+            "name": "ListeEtatPSMV",
+            "title": "ListeEtatPSMV",
+            "data": "./codes/ListeEtatPSMV.csv"
+        },
+        {
             "id": "5f35c6ee03c903dae624f8a66ae05f57",
             "name": "InformationPSMVType",
             "title": "InformationPSMVType",
             "data": "./codes/InformationPSMVType.csv"
+        },
+        {
+            "id": "6fae976a6597a2d44ebaae0bba534014",
+            "name": "ListeTyperefPSMV",
+            "title": "ListeTyperefPSMV",
+            "data": "./codes/ListeTyperefPSMV.csv"
+        },
+        {
+            "id": "a97a4c523053215a75f8cb30a88e61d7",
+            "name": "ListeTypedocPSMV",
+            "title": "ListeTypedocPSMV",
+            "data": "./codes/ListeTypedocPSMV.csv"
         },
         {
             "id": "acd7aed4893834f884b23703a13640ce",
