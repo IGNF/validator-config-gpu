@@ -3,6 +3,14 @@
     "name": "SECTEUR_CC",
     "title": "SECTEUR_CC",
     "description": "Table contenant les secteurs de la carte communale",
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(FERMRECO) REFERENCES ListeFermrecoCC(FERMRECO)",
+            "(LIBELLE) REFERENCES ListeLibelleCC(LIBELLE)",
+            "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)"
+        ]
+    },
     "columns": [
         {
             "id": "0890e2ac16a43ae3bcd9d96ad2d7e6c9",

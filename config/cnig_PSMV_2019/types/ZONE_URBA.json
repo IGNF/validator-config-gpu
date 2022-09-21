@@ -3,6 +3,12 @@
     "name": "ZONE_URBA",
     "title": "ZONE_URBA",
     "description": "Table contenant les zones d'un document PLU ou POS",
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEZONE) REFERENCES ListeTypezonePSMV(TYPEZONE)"
+        ]
+    },
     "columns": [
         {
             "id": "55e13567a0e44e0ceda2d71b349b0bfb",
