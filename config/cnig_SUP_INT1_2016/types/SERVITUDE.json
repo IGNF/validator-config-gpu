@@ -8,7 +8,11 @@
             "QUIPROD IS NOT NULL OR MODEPROD NOT LIKE 'numérisation'",
             "DOCSOURCE IS NOT NULL OR MODEPROD NOT LIKE 'numérisation'"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(CATEGORIE) REFERENCES ListeCategorieSUP(CATEGORIE)",
+            "(MODEPROD) REFERENCES ListeModeprodSUP(MODEPROD)",
+            "(VALIDEGEST) REFERENCES ListeValidegestSUP(VALIDEGEST)"
+        ]
     },
     "columns": [
         {

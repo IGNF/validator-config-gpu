@@ -124,5 +124,24 @@
             "mandatory": "ERROR"
         }
     ],
-    "codes": []
+    "codes": [
+        {
+            "id": "0b13c887646793b68b33ea1b6a439206",
+            "name": "ListeEtatSCoT",
+            "title": "ListeEtatSCoT",
+            "data": "./codes/ListeEtatSCoT.csv"
+        },
+        {
+            "id": "db166d7415485baaa342acea360b10a0",
+            "name": "ListeTypedocSCoT",
+            "title": "ListeTypedocSCoT",
+            "data": "./codes/ListeTypedocSCoT.csv"
+        },
+        {
+            "id": "fe2047ed7e575430bbec299b2a3848ce",
+            "name": "ListeTypeprocSCoT",
+            "title": "ListeTypeprocSCoT",
+            "data": "ListeTypeprocSCoT"
+        }
+    ]
 }

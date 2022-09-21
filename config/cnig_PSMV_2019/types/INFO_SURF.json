@@ -3,6 +3,12 @@
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "INFO_SURF",
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+        ]
+    },
     "columns": [
         {
             "id": "0a476b0bfd83f1a2be4f703d62e2c736",

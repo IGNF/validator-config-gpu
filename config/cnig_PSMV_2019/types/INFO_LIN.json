@@ -3,6 +3,12 @@
     "name": "INFO_LIN",
     "title": "INFO_LIN",
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+        ]
+    },
     "columns": [
         {
             "id": "17a06b28548a39321ec4eb1c9fd62a12",

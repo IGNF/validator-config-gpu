@@ -3,6 +3,12 @@
     "name": "INFO_PCT",
     "title": "INFO_PCT",
     "description": "Table contenant les informations ponctuelle à reporter à titre d'information",
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+        ]
+    },
     "columns": [
         {
             "id": "3743cdd8001aa2aa76dae4dcb2e0c4bc",

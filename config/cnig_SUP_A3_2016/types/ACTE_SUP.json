@@ -3,6 +3,14 @@
     "name": "ACTE_SUP",
     "title": "ACTE_SUP",
     "description": "Table contenant la liste des actes instituant une servitude d'utilité publique",
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(APLAN) REFERENCES ListeAplanSUP(APLAN)",
+            "(DECISION) REFERENCES ListeDecisionSUP(DECISION)",
+            "(TYPEACTE) REFERENCES ListeTypeacteSUP(TYPEACTE)"
+        ]
+    },
     "columns": [
         {
             "id": "21102e77f9b0b419cdca2367cf114ada",

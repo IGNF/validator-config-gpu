@@ -8,7 +8,9 @@
             "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
             "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
+        ]
     },
     "columns": [
         {

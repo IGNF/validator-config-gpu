@@ -97,5 +97,60 @@
             "mandatory": "OPTIONAL"
         }
     ],
-    "codes": []
+    "codes": [
+        {
+            "id": "23030c428c9eae529d13d479da0b832f",
+            "name": "ListeValidegestSUP",
+            "title": "ListeValidegestSUP",
+            "data": "./codes/ListeValidegestSUP.csv"
+        },
+        {
+            "id": "32ebbfb6b062b4239342b0c040a14dd9",
+            "name": "ListeTypeacteSUP",
+            "title": "ListeTypeacteSUP",
+            "data": "./codes/ListeTypeacteSUP.csv"
+        },
+        {
+            "id": "4aa24d9ed68d1b2a0efe57a570a0ccee",
+            "name": "ListeCategorieSUP",
+            "title": "ListeCategorieSUP",
+            "data": "./codes/ListeCategorieSUP.csv"
+        },
+        {
+            "id": "50db8c188280f1b897365526175022a0",
+            "name": "ListeModegenereSUP",
+            "title": "ListeModegenereSUP",
+            "data": "./codes/ListeModegenereSUP.csv"
+        },
+        {
+            "id": "88ed0acd65f7229ab7666872927058e6",
+            "name": "ListeAplanSUP",
+            "title": "ListeAplanSUP",
+            "data": "./codes/ListeAplanSUP.csv"
+        },
+        {
+            "id": "9059692af64ac2cadb7ef8c69e8c316a",
+            "name": "ListeModegeoassSUP",
+            "title": "ListeModegeoassSUP",
+            "data": "./codes/ListeModegeoassSUP.csv"
+        },
+        {
+            "id": "a4566ce450f379b75e3ddc478926965f",
+            "name": "ListeDecisionSUP",
+            "title": "ListeDecisionSUP",
+            "data": "./codes/ListeDecisionSUP.csv"
+        },
+        {
+            "id": "abc46e469e0a94e7dac241d2585d8349",
+            "name": "ListeModeprodSUP",
+            "title": "ListeModeprodSUP",
+            "data": "./codes/ListeModeprodSUP.csv"
+        },
+        {
+            "id": "a796392b8713e8dea0f5710b744d3145",
+            "name": "ListeTypeSUP",
+            "title": "ListeTypeSUP",
+            "data": "./codes/ListeTypeSUP.csv"
+        }
+    ]
 }

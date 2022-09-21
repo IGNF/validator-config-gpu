@@ -10,7 +10,11 @@
             "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
             "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
+            "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
+            "(HREF) REFERENCES ListeHrefSUP(HREF)"
+        ]
     },
     "columns": [
         {
