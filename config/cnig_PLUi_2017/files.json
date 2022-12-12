@@ -22,7 +22,8 @@
             "title": "HABILLAGE_LIN",
             "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_LIN_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_LIN.json"
         },
         {
             "id": "7e96fb3ce89f65cbf5c7fe37de1a2461",
@@ -30,7 +31,8 @@
             "title": "HABILLAGE_PCT",
             "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_PCT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_PCT.json"
         },
         {
             "id": "17ce3607a5da65f43dfe6ffef69e9040",
@@ -38,7 +40,8 @@
             "title": "HABILLAGE_SURF",
             "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_SURF_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_SURF.json"
         },
         {
             "id": "fd68af8f576dd3f12bafb043134dbc9d",
@@ -46,7 +49,8 @@
             "title": "HABILLAGE_TXT",
             "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_TXT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_TXT.json"
         },
         {
             "id": "ced6714d6db8f8544a6d8e0104854282",
@@ -54,7 +58,8 @@
             "title": "INFO_LIN",
             "path": "Donnees_geographiques/[0-9]{9}_INFO_LIN_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_LIN.json"
         },
         {
             "id": "112c04f3f45250bd66d7d527571c35ac",
@@ -62,7 +67,8 @@
             "title": "INFO_PCT",
             "path": "Donnees_geographiques/[0-9]{9}_INFO_PCT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_PCT.json"
         },
         {
             "id": "da93b09016384976b13f44053fa7a270",
@@ -70,7 +76,8 @@
             "title": "INFO_SURF",
             "path": "Donnees_geographiques/[0-9]{9}_INFO_SURF_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_SURF.json"
         },
         {
             "id": "e273787686480f0d7df0baa1f11620b6",
@@ -78,7 +85,8 @@
             "title": "PRESCRIPTION_LIN",
             "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_LIN_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PRESCRIPTION_LIN.json"
         },
         {
             "id": "7995ad6f242b461f93c27f40c12b4508",
@@ -86,7 +94,8 @@
             "title": "PRESCRIPTION_PCT",
             "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_PCT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PRESCRIPTION_PCT.json"
         },
         {
             "id": "085bfd09dd98a8c83af9d58191d7089d",
@@ -94,7 +103,8 @@
             "title": "PRESCRIPTION_SURF",
             "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_SURF_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PRESCRIPTION_SURF.json"
         },
         {
             "id": "2b8049b14c894b4b03792df6ae45e959",
@@ -102,7 +112,8 @@
             "title": "ZONE_URBA",
             "path": "Donnees_geographiques/[0-9]{9}_ZONE_URBA_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/ZONE_URBA.json"
         },
         {
             "id": "b3cc28a5d738b5d780d754737f6b33ed",
@@ -240,7 +251,8 @@
             "title": "TITRES_PIECES_ECRITES",
             "path": "Pieces_ecrites/4_Annexes/[0-9]{9}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/TITRES_PIECES_ECRITES.json"
         },
         {
             "id": "0572c97035f12ac9db0fc446318b7fd8",
@@ -344,7 +356,8 @@
             "title": "DOC_URBA_COM",
             "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA_COM.json"
         },
         {
             "id": "87de19635f42cdfbcfdba49eeab358ad",
@@ -352,7 +365,8 @@
             "title": "DOC_URBA",
             "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA.json"
         }
     ],
     "codes": [

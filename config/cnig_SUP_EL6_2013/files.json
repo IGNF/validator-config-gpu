@@ -78,7 +78,8 @@
             "title": "EL6_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/EL6_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL6_ASSIETTE_SUP_S.json"
         },
         {
             "id": "660b118ef7fe46013dc5f85fbf838574",
@@ -86,7 +87,8 @@
             "title": "EL6_GENERATEUR_SUP_L",
             "path": "Donnees_geographiques/EL6_GENERATEUR_SUP_L(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL6_GENERATEUR_SUP_L.json"
         }
     ],
     "codes": []

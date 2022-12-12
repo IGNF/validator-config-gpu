@@ -78,7 +78,8 @@
             "title": "PT1_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/PT1_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PT1_ASSIETTE_SUP_S.json"
         },
         {
             "id": "07230d2a8daa2c00ac1c598bc4ba5a31",
@@ -86,7 +87,8 @@
             "title": "PT1_GENERATEUR_SUP_P",
             "path": "Donnees_geographiques/PT1_GENERATEUR_SUP_P(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PT1_GENERATEUR_SUP_P.json"
         },
         {
             "id": "06959cbb5d6708d90978cce850f9c1ba",
@@ -94,7 +96,8 @@
             "title": "PT1_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/PT1_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PT1_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": []

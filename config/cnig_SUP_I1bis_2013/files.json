@@ -78,7 +78,8 @@
             "title": "I1bis_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/I1bis_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I1bis_ASSIETTE_SUP_S.json"
         },
         {
             "id": "52674e3a058f831fa1814c4d85ba3e56",
@@ -86,7 +87,8 @@
             "title": "I1bis_GENERATEUR_SUP_L",
             "path": "Donnees_geographiques/I1bis_GENERATEUR_SUP_L(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I1bis_GENERATEUR_SUP_L.json"
         }
     ],
     "codes": []

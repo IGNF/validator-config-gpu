@@ -14,7 +14,8 @@
             "title": "DOC_URBA",
             "path": "DOC_URBA",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA.json"
         },
         {
             "id": "9bfd72642ed9240b1cbd25effc366730",
@@ -22,7 +23,8 @@
             "title": "DOC_URBA_COM",
             "path": "DOC_URBA_COM",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA_COM.json"
         },
         {
             "id": "29c4bb0de2942a9fab9c69b37a317aed",
@@ -38,7 +40,8 @@
             "title": "HABILLAGE_LIN",
             "path": "Donnees_geographiques/HABILLAGE_LIN",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_LIN.json"
         },
         {
             "id": "d24a09e10cb2d41859edaef5d0eaaf9d",
@@ -46,7 +49,8 @@
             "title": "HABILLAGE_PCT",
             "path": "Donnees_geographiques/HABILLAGE_PCT",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_PCT.json"
         },
         {
             "id": "780b80b5dfae056d59d2dfb64b8ca8e4",
@@ -54,7 +58,8 @@
             "title": "HABILLAGE_SURF",
             "path": "Donnees_geographiques/HABILLAGE_SURF",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_SURF.json"
         },
         {
             "id": "b59f81fa65fa40c9100df6a4e11e8f41",
@@ -62,7 +67,8 @@
             "title": "HABILLAGE_TXT",
             "path": "Donnees_geographiques/HABILLAGE_TXT",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_TXT.json"
         },
         {
             "id": "2a740cf3b864c45f0d291065beedfa24",
@@ -70,7 +76,8 @@
             "title": "INFO_LIN",
             "path": "Donnees_geographiques/INFO(RMATION)?_LIN",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_LIN.json"
         },
         {
             "id": "31a62bcedc7f1964943d2e3afcb1335b",
@@ -78,7 +85,8 @@
             "title": "INFO_PCT",
             "path": "Donnees_geographiques/INFO(RMATION)?_PCT",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_PCT.json"
         },
         {
             "id": "596c930226399937d9a102dab6116a55",
@@ -86,7 +94,8 @@
             "title": "INFO_SURF",
             "path": "Donnees_geographiques/INFO(RMATION)?_SURF",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_SURF.json"
         },
         {
             "id": "ac1d25ad4743d9e6a0e0b656f75aaafa",
@@ -94,7 +103,8 @@
             "title": "PRESCRIPTION_LIN",
             "path": "Donnees_geographiques/PRESCRIPTION_LIN",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PRESCRIPTION_LIN.json"
         },
         {
             "id": "019fdd43c641aa9d28cbb3a76c17df09",
@@ -102,7 +112,8 @@
             "title": "PRESCRIPTION_PCT",
             "path": "Donnees_geographiques/PRESCRIPTION_PCT",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PRESCRIPTION_PCT.json"
         },
         {
             "id": "ed947ca393061c3ad0e0b6145090d213",
@@ -110,7 +121,8 @@
             "title": "PRESCRIPTION_SURF",
             "path": "Donnees_geographiques/PRESCRIPTION_SURF",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PRESCRIPTION_SURF.json"
         },
         {
             "id": "7deeb3be76b3e16d2c39c8b285d9b4ba",
@@ -118,7 +130,8 @@
             "title": "ZONE_URBA",
             "path": "Donnees_geographiques/ZONE_URBA",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/ZONE_URBA.json"
         },
         {
             "id": "0ec053758933e3259b615f22c104171a",

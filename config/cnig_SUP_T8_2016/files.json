@@ -78,7 +78,8 @@
             "title": "T8_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/T8_ASSIETTE_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/T8_ASSIETTE_SUP_S.json"
         },
         {
             "id": "ee19a66fd4ffdf5f4d84a4384e78fe2d",
@@ -86,7 +87,8 @@
             "title": "T8_GENERATEUR_SUP_L",
             "path": "Donnees_geographiques/T8_GENERATEUR_SUP_L",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/T8_GENERATEUR_SUP_L.json"
         },
         {
             "id": "522bd29855d3e48b27252dc34bf369e9",
@@ -94,7 +96,8 @@
             "title": "T8_GENERATEUR_SUP_P",
             "path": "Donnees_geographiques/T8_GENERATEUR_SUP_P",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/T8_GENERATEUR_SUP_P.json"
         },
         {
             "id": "48e30f364c9936ad48355d41d177f073",
@@ -102,7 +105,8 @@
             "title": "T8_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/T8_GENERATEUR_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/T8_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": [

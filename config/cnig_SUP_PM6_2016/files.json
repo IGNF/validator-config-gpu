@@ -78,7 +78,8 @@
             "title": "PM6_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/PM6_ASSIETTE_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PM6_ASSIETTE_SUP_S.json"
         },
         {
             "id": "3ea7c4d30b897a153174de71faabb27f",
@@ -86,7 +87,8 @@
             "title": "PM6_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/PM6_GENERATEUR_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PM6_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": [

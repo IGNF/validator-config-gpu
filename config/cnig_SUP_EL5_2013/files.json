@@ -78,7 +78,8 @@
             "title": "EL5_ASSIETTE_SUP_P",
             "path": "Donnees_geographiques/EL5_ASSIETTE_SUP_P(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL5_ASSIETTE_SUP_P.json"
         },
         {
             "id": "aa9e293ba40d1d20ac08ccd0d6f58770",
@@ -86,7 +87,8 @@
             "title": "EL5_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/EL5_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL5_ASSIETTE_SUP_S.json"
         },
         {
             "id": "66ea05dbb4a29a07e49dd78e0bb30faa",
@@ -94,7 +96,8 @@
             "title": "EL5_GENERATEUR_SUP_P",
             "path": "Donnees_geographiques/EL5_GENERATEUR_SUP_P(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL5_GENERATEUR_SUP_P.json"
         },
         {
             "id": "c69114710336bf23f49ea01e0c4aca5e",
@@ -102,7 +105,8 @@
             "title": "EL5_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/EL5_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL5_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": []

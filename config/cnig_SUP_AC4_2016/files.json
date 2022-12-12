@@ -78,7 +78,8 @@
             "title": "AC4_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/AC4_ASSIETTE_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/AC4_ASSIETTE_SUP_S.json"
         },
         {
             "id": "c6bd394f9daaf78c0b1b0e81d27ec33c",
@@ -86,7 +87,8 @@
             "title": "AC4_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/AC4_GENERATEUR_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/AC4_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": [

@@ -78,7 +78,8 @@
             "title": "I9_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/I9_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I9_ASSIETTE_SUP_S.json"
         },
         {
             "id": "f8be48a85fcd01def91677a957bdcce4",
@@ -86,7 +87,8 @@
             "title": "I9_GENERATEUR_SUP_L",
             "path": "Donnees_geographiques/I9_GENERATEUR_SUP_L(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I9_GENERATEUR_SUP_L.json"
         }
     ],
     "codes": []
