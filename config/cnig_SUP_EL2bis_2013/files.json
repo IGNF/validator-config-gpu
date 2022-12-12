@@ -78,7 +78,8 @@
             "title": "EL2bis_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/EL2bis_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL2bis_ASSIETTE_SUP_S.json"
         },
         {
             "id": "132a3b5f6c01a44630acaa6e8c38b8d4",
@@ -86,7 +87,8 @@
             "title": "EL2bis_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/EL2bis_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL2bis_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": []

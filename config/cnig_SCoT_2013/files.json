@@ -14,7 +14,8 @@
             "title": "SCOT",
             "path": "SCOT",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/SCOT.json"
         },
         {
             "id": "8a315610d2b0f482f8dfb8c5d532de6e",

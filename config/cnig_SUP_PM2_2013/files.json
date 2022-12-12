@@ -78,7 +78,8 @@
             "title": "PM2_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/PM2_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PM2_ASSIETTE_SUP_S.json"
         },
         {
             "id": "8a2bd2a33f7a039e70a03bf5bb568e9c",
@@ -86,7 +87,8 @@
             "title": "PM2_GENERATEUR_SUP_P",
             "path": "Donnees_geographiques/PM2_GENERATEUR_SUP_P(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PM2_GENERATEUR_SUP_P.json"
         },
         {
             "id": "f7f10126797b4bd408000c9e4a637230",
@@ -94,7 +96,8 @@
             "title": "PM2_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/PM2_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PM2_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": []

@@ -78,7 +78,8 @@
             "title": "PM3_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/PM3_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PM3_ASSIETTE_SUP_S.json"
         },
         {
             "id": "f75f2540c11bdf0600250b43db3fe39a",
@@ -86,7 +87,8 @@
             "title": "PM3_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/PM3_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PM3_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": []

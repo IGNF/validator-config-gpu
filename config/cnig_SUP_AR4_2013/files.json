@@ -78,7 +78,8 @@
             "title": "AR4_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/AR4_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/AR4_ASSIETTE_SUP_S.json"
         },
         {
             "id": "03f2ef5ae6b81a29d0ced549d421cb22",
@@ -86,7 +87,8 @@
             "title": "AR4_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/AR4_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/AR4_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": []

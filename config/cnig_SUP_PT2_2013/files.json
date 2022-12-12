@@ -78,7 +78,8 @@
             "title": "PT2_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/PT2_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PT2_ASSIETTE_SUP_S.json"
         },
         {
             "id": "e29288a041737a65c69dcb17eedd1f42",
@@ -86,7 +87,8 @@
             "title": "PT2_GENERATEUR_SUP_L",
             "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_L(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PT2_GENERATEUR_SUP_L.json"
         },
         {
             "id": "a3a1b0b59e533e0ab5bdf9ed1e8270cb",
@@ -94,7 +96,8 @@
             "title": "PT2_GENERATEUR_SUP_P",
             "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_P(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PT2_GENERATEUR_SUP_P.json"
         },
         {
             "id": "1fa782f02239c55ad7e55271463d5734",
@@ -102,7 +105,8 @@
             "title": "PT2_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PT2_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": []

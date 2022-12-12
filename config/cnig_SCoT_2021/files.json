@@ -23,7 +23,8 @@
             "description": "Périmètre du SCOT",
             "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/PERIMETRE_SCOT.json"
         },
         {
             "id": "b0595a7550a0cd08553b0b14687a88ac",
@@ -147,7 +148,8 @@
             "description": "Table non géographique associant le SCOT aux communes auxquelles il s’applique",
             "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA_COM.json"
         },
         {
             "id": "27ef984811006668a0f59a35d4447a4f",
@@ -156,7 +158,8 @@
             "description": "Table géographique portant la géométrie du périmètre du SCOT approuvé",
             "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
-            "mandatory": "ERROR"
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA.json"
         }
     ],
     "codes": [

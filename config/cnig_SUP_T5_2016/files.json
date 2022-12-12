@@ -78,7 +78,8 @@
             "title": "T5_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/T5_ASSIETTE_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/T5_ASSIETTE_SUP_S.json"
         },
         {
             "id": "b2868d84d62de783cea04627bc3aff9e",
@@ -86,7 +87,8 @@
             "title": "T5_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/T5_GENERATEUR_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/T5_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": [

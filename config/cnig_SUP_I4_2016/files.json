@@ -78,7 +78,8 @@
             "title": "I4_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/I4_ASSIETTE_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I4_ASSIETTE_SUP_S.json"
         },
         {
             "id": "29fa65bd336d88f6192b047ae600c863",
@@ -86,7 +87,8 @@
             "title": "I4_GENERATEUR_SUP_L",
             "path": "Donnees_geographiques/I4_GENERATEUR_SUP_L",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I4_GENERATEUR_SUP_L.json"
         },
         {
             "id": "2d993e10da99458afeebd3cfef539b12",
@@ -94,7 +96,8 @@
             "title": "I4_GENERATEUR_SUP_P",
             "path": "Donnees_geographiques/I4_GENERATEUR_SUP_P",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I4_GENERATEUR_SUP_P.json"
         }
     ],
     "codes": [

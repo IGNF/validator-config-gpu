@@ -78,7 +78,8 @@
             "title": "EL3_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/EL3_ASSIETTE_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL3_ASSIETTE_SUP_S.json"
         },
         {
             "id": "faf76c05e6d955b54476a07dd598f87b",
@@ -86,7 +87,8 @@
             "title": "EL3_GENERATEUR_SUP_L",
             "path": "Donnees_geographiques/EL3_GENERATEUR_SUP_L",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL3_GENERATEUR_SUP_L.json"
         },
         {
             "id": "dcca7a8c90977c13804f71f6e0d43338",
@@ -94,7 +96,8 @@
             "title": "EL3_GENERATEUR_SUP_S",
             "path": "Donnees_geographiques/EL3_GENERATEUR_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL"
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL3_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": [
