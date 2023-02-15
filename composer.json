@@ -1,10 +1,19 @@
 {
   "name": "ignf/validator-config-gpu",
-  "description": "Fichiers de configuration du validateur pour les modèles CNIG",
+  "description": "Dépôt de gestion de la configuration de IGNF/validator pour la validation des standards CNIG au niveau du Géoportail de l'Urbanisme (GpU).",
+  "license": "AGPL-3.0-or-later",
   "authors": [
     {
       "name": "Clément Bouché",
       "email": "clement.bouche@ign.fr"
+    },
+    {
+      "name": "Mickael Borne",
+      "email": "mickael.borne@ign.fr"
+    },
+    {
+      "name": "Florian Cerizay",
+      "email": "florian.cerizay@ign.fr"
     }
   ]
 }
