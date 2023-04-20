@@ -74,10 +74,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "ZC",
-                    "ZCa",
-                    "ZnC",
-                    "RNU"
+                    "null"
                 ],
                 "maxLength": 12
             }
