@@ -78,7 +78,7 @@
             "title": "A5_ASSIETTE_SUP_S",
             "path": "Donnees_geographiques/A5_ASSIETTE_SUP_S",
             "type": "table",
-            "mandatory": "OPTIONAL",
+            "mandatory": "ERROR",
             "tableModel": "./types/A5_ASSIETTE_SUP_S.json"
         },
         {
@@ -87,7 +87,7 @@
             "title": "A5_GENERATEUR_SUP_L",
             "path": "Donnees_geographiques/A5_GENERATEUR_SUP_L",
             "type": "table",
-            "mandatory": "OPTIONAL",
+            "mandatory": "ERROR",
             "tableModel": "./types/A5_GENERATEUR_SUP_L.json"
         }
     ],
