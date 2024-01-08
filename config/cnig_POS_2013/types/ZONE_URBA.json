@@ -140,7 +140,7 @@
             "type": "MultiPolygon",
             "constraints": {
                 "required": true,
-                "unique": true
+                "unique": false
             }
         }
     ]

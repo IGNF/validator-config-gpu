@@ -122,6 +122,17 @@
             }
         },
         {
+            "id": "880f31cd8a08d044c98e2a764220b6e2",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPolygon",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
             "id": "a1460378b9d3edd32a2c36ed3f5c6c11",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
