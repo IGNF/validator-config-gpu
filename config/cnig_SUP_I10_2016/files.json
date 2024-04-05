@@ -1,10 +1,10 @@
 {
-    "id": "16c6bed77d405418c2a7774780a69b9f",
+    "id": "06274f4b7a05c233909ce4d9c713c8d1",
     "name": "cnig_SUP_I10_2016",
-    "title": "cnig_SUP_I9_2016",
+    "title": "cnig_SUP_I10_2016",
     "description": "cnig_SUP_I10_2016",
     "constraints": {
-        "folderName": "[0-9]{9}_I9_[a-zA-Z0-9]+_[0-9]{8}",
+        "folderName": "[0-9]{9}_I10_[a-zA-Z0-9]+_[0-9]{8}",
         "metadataSpecification": "CNIG SUP v2016"
     },
     "files": [
@@ -73,22 +73,22 @@
             "mandatory": "ERROR"
         },
         {
-            "id": "48169cfe1234a714f44672fb1bca490b",
-            "name": "I9_ASSIETTE_SUP_S",
-            "title": "I9_ASSIETTE_SUP_S",
-            "path": "Donnees_geographiques/I9_ASSIETTE_SUP_S",
+            "id": "0e4ac1ce2897a9e30f68dd4c40552911",
+            "name": "I10_ASSIETTE_SUP_S",
+            "title": "I10_ASSIETTE_SUP_S",
+            "path": "Donnees_geographiques/I10_ASSIETTE_SUP_S",
             "type": "table",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/I9_ASSIETTE_SUP_S.json"
+            "tableModel": "./types/I10_ASSIETTE_SUP_S.json"
         },
         {
-            "id": "a24ddc8b32cb6c6ef32426a6417d0d82",
-            "name": "I9_GENERATEUR_SUP_L",
-            "title": "I9_GENERATEUR_SUP_L",
-            "path": "Donnees_geographiques/I9_GENERATEUR_SUP_L",
+            "id": "7bf01761bbc99711a738099e0cb75031",
+            "name": "I10_GENERATEUR_SUP_L",
+            "title": "I10_GENERATEUR_SUP_L",
+            "path": "Donnees_geographiques/I10_GENERATEUR_SUP_L",
             "type": "table",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/I9_GENERATEUR_SUP_L.json"
+            "tableModel": "./types/I10_GENERATEUR_SUP_L.json"
         }
     ],
     "codes": [
