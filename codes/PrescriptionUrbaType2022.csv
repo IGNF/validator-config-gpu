@@ -76,6 +76,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 28,01,Conditions permettant une bonne desserte des terrains par les services publics de collecte des déchets,,R151-47 2°
 29,00,Secteur avec densité minimale de construction,,R151-39 2e al.
 29,01,Secteur avec densité minimale de construction à proximité des transports collectifs,L151-26,R151-39 2e al.
+29,02,Secteur de ZAC avec densité minimale de construction,L151-27 2°,
 30,00,Majoration des volumes constructibles,,R151-37 2°
 30,01,Majoration des volumes constructibles pour l’habitation,L151-28 1°,R151-37 5°
 30,02,Majoration des volumes constructibles pour les programmes comportant des logements locatifs sociaux,L151-28 2°,R151-37 2°
@@ -98,12 +99,12 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 37,00,Règles différenciées entre le rez-de-chaussée et les étages supérieurs des constructions,,R151-37 3°
 37,01,Règles différenciées pour le rez-de-chaussée en raison des risques inondations,,R151-42 4°
 37,02,Règles différenciées pour mixité sociale et fonctionnelle,,R151-37 1° et 3°
-38,00,Emprise au sol,,R151-39 
+38,00,Emprise au sol,,R151-39
 38,01,Emprise au sol minimale,,R151-39 2e al.
 38,02,Emprise au sol maximale,,R151-39 1er al.
 38,97,Emprise au sol règles qualitatives,,R151-39 al.
 38,98,Emprise au sol règles alternatives,,R151-41 1°
-39,00,Hauteur,,R151-39 
+39,00,Hauteur,,R151-39
 39,01,Hauteur minimale,,R151-39 2e al.
 39,02,Hauteur maximale,,R151-39 1er al.
 39,97,Hauteur règles qualitatives,,R151-39 dernier al.
@@ -117,34 +118,34 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 41,01,Aspect extérieur façades,L151-18,R151-41 2°
 41,02,Aspect extérieur toitures,L151-18,R151-41 2°
 41,03,Aspect extérieur clôtures,L151-18,R151-41 2°
-41,98,Aspect extérieur règles alternatives,,R151-13 
+41,98,Aspect extérieur règles alternatives,,R151-13
 42,00,Coefficient de biotope par surface,L151-22,R151-43 1°
 43,00,"Réalisation d’espaces libres, plantations, aires de jeux et de loisir",,R151-43 2° et 8°
 43,01,"Réalisation d’espaces libres,",,R151-43 2°
 43,02,Réalisation d’aires de jeux et de loisirs,,R151-43 2°
 43,03,Réglementation des plantations,,R151-43 8°
 44,00,Stationnement,,R151-44
-44,01,Stationnement minimal,L151-30 à L151-37,R151-44 
+44,01,Stationnement minimal,L151-30 à L151-37,R151-44
 44,02,Stationnement maximal,L151-30 à L151-37,R151-45 3°
 44,03,Caractéristiques et type de stationnement,,R151-45 1°
 44,04,Minoration des règles de stationnement,,R151-45 2°
 44,05,Réalisation d’aires de livraisons imposée,L151-33-1,
 44,98,Stationnement règles alternatives,,R151-13
-45,00,"Zone d’aménagement concerté (surface de plancher, destination)",L151-27,
+45,00,Secteur de ZAC avec surfaces de plancher déterminées,L151-27 1°,
 46,00,Constructibilité espace boisé antérieur au 20ème siècle,L151-20,
-47,00,Desserte par les réseaux,L151-39,R151-49 
-47,01,Réseaux publics d'eau,L151-39,R151-49 
-47,02,Réseaux publics d'électricité,L151-39,R151-49 
-47,03,Réseaux publics d'assainissement,L151-39,R151-49 
-47,04,Conditions de réalisation d'un assainissement non collectif,L151-39,R151-49 
+47,00,Desserte par les réseaux,L151-39,R151-49
+47,01,Réseaux publics d'eau,L151-39,R151-49
+47,02,Réseaux publics d'électricité,L151-39,R151-49
+47,03,Réseaux publics d'assainissement,L151-39,R151-49
+47,04,Conditions de réalisation d'un assainissement non collectif,L151-39,R151-49
 47,05,Infrastructures et réseaux de communications électroniques ,L151-39,R151-49 3°
 48,00,Mesures pour limiter l'imperméabilisation des sols,,R151-49 2°
 48,01,Installations nécessaires à la gestion des eaux pluviales et du ruissellement,,R151-43 7° et R151-49 2°
-49,00,Opération d'ensemble imposée en zone AU,,R151-20 
+49,00,Opération d'ensemble imposée en zone AU,,R151-20
 49,01,Urbanisation par opération d'ensemble,,R151-20 2e al.
 49,02,Urbanisation conditionnée à la réalisation des équipements internes à la zone,,R151-20 3e al.
-50,00,"Interdiction types d’activités, destinations, sous-destinations",L151-9,R151-30 
-51,00,"Autorisation sous conditions types d’activités, destinations, sous-destinations",L151-9,R151-33 
+50,00,"Interdiction types d’activités, destinations, sous-destinations",L151-9,R151-30
+51,00,"Autorisation sous conditions types d’activités, destinations, sous-destinations",L151-9,R151-33
 52,00,Infrastructures et équipements logistiques à préserver ou à développer en zones U et AU,L151-16-2,
 97,00,"Périmètre d’application d’une pièce écrite territorialisée (rapport de présentation, PADD, règlement, règlement graphique, POA)",,
 97,01,Périmètre couvert par un Plan de secteurs,L151-3,
