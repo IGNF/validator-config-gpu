@@ -1,0 +1,67 @@
+{
+    "id": "a89696e2dd7eed64307944a369768785",
+    "name": "HABILLAGE_SURF",
+    "title": "HABILLAGE_SURF",
+    "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "columns": [
+        {
+            "id": "13780184b7acbbdb17cb0783789f0948",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du polygon",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "22081518ab4f698c03422f86e7ec9e62",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "530292961cd34d4804db66a60e150590",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "5f24b257b69dce22a4078189fe506d99",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "id": "66bc93101586405f6253d587572006b4",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPolygon",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        }
+    ]
+}

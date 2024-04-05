@@ -1,0 +1,124 @@
+{
+    "id": "bab1270a1b8b4791553b91cf636dba36",
+    "name": "HABILLAGE_TXT",
+    "title": "HABILLAGE_TXT",
+    "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "columns": [
+        {
+            "id": "1ac4470675bd0c083fbbfe900c50f5b1",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "412fe8d4f9dec60d2e5f0c6ffe14ab7a",
+            "name": "TAILLE",
+            "title": "TAILLE",
+            "description": "Taille des caractères",
+            "type": "Integer",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "id": "4de9d2ce5141266c5465ec60c933bba9",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPoint",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "725079a0701de008590eea534e988748",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "8d323108b8bf569f3fc6e5d451a4b0b1",
+            "name": "STYLE",
+            "title": "STYLE",
+            "description": "Style d'écriture",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "a31a2173eadbf2090eb3990ed9c3bee1",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "id": "c63376c8d2b1ce6e6da613c1c79f681d",
+            "name": "ANGLE",
+            "title": "ANGLE",
+            "description": "Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",
+            "type": "Integer",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "id": "ceae8680db292c854aa721fb7cf91bc4",
+            "name": "POLICE",
+            "title": "POLICE",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "d5aba5215f7a70689793ede01fd94e8d",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Libellé de l'étiquette attachée au point d'habillage",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "id": "e54c4208ca4889c097b6d1e3b4403299",
+            "name": "NATECR",
+            "title": "NATECR",
+            "description": "Nature de l'écriture",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        }
+    ]
+}

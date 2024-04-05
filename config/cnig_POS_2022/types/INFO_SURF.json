@@ -1,5 +1,5 @@
 {
-    "id": "7f124773beaa04aea9b12464b078eaaf",
+    "id": "b84b98d9e38292f2a58c05ece125b861",
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "INFO_SURF",
@@ -13,31 +13,93 @@
     },
     "columns": [
         {
-            "id": "128339c050c3f7761dc50836aa6de375",
-            "name": "LIBELLE",
-            "title": "LIBELLE",
-            "description": "Nom complet du périmètre",
+            "id": "0143f24e8b704f8104b2ccd77c6f70f9",
+            "name": "SYMBOLE",
+            "title": "SYMBOLE",
+            "description": "SYMBOLE",
             "type": "String",
             "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "INF-S_[0-9]{2}-[0-9]{2}",
+                "maxLength": 20
+            }
+        },
+        {
+            "id": "071c93e821826b7cf5f1484c2516562b",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPolygon",
+            "constraints": {
                 "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "27417995c06e5ee2ef9aa1f778a05e7d",
+            "name": "LIB_IDINFO",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "3a094af7aba880b2957d0c550ce99048",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "type": "Date",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "id": "4271489935b84f2d9bd05cfeade932a4",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
+            "type": "Url",
+            "constraints": {
+                "required": false,
                 "unique": false,
                 "maxLength": 254
             }
         },
         {
-            "id": "2d22ba4fbb74b703e64730539383cd20",
-            "name": "IDURBA",
-            "title": "IDURBA",
-            "description": "Identifiant du document d'urbanisme",
+            "id": "588b9b2abe2866a2d6378e828021f7de",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier contenant le texte décrivant l'information reportée",
+            "type": "Filename",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "id": "9820fcbc4c41c5d78a0ab35c3ed3f814",
+            "name": "STYPEINF",
+            "title": "STYPEINF",
             "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 30
+                "enum": [
+                    "00",
+                    "01",
+                    "02",
+                    "03"
+                ],
+                "maxLength": 2
             }
         },
         {
-            "id": "52711c7c883ab1da7c9fde32598a6420",
+            "id": "b4a4375751e741df95f337d518ae0afc",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type de périmètre dans une liste prédéfinie",
@@ -88,18 +150,31 @@
             }
         },
         {
-            "id": "55e3893242a91bd5b0b8daaca78c7890",
-            "name": "LIB_IDINFO",
-            "description": "identifiant d'objets",
+            "id": "d81750fee978c189cf13932a24df02cd",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
             "type": "String",
             "constraints": {
-                "required": false,
+                "required": true,
                 "unique": false,
-                "maxLength": 40
+                "maxLength": 30
             }
         },
         {
-            "id": "5bf8aa42156a44549912aa8267298810",
+            "id": "e5b40b1992d2e6699a97c0bce0ca7187",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Nom complet du périmètre",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "id": "fdf417ce772afdb28a9cc763c206631e",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court du périmètre servant à faire une étiquette",
@@ -108,80 +183,6 @@
                 "required": false,
                 "unique": false,
                 "maxLength": 10
-            }
-        },
-        {
-            "id": "64516aa61218b0c5ea53e053d49a2fe9",
-            "name": "DATVALID",
-            "title": "DATVALID",
-            "type": "Date",
-            "constraints": {
-                "required": false,
-                "unique": false
-            }
-        },
-        {
-            "id": "6a9bd0f7fae51ef9afb63eeee903f933",
-            "name": "URLFIC",
-            "title": "URLFIC",
-            "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 254
-            }
-        },
-        {
-            "id": "ab48ea8213e551bed72dd27505d038ae",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Geométrie associée",
-            "type": "MultiPolygon",
-            "constraints": {
-                "required": true,
-                "unique": false
-            }
-        },
-        {
-            "id": "b9b97950faa7185e02c88a9bde0f3078",
-            "name": "NOMFIC",
-            "title": "NOMFIC",
-            "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 80
-            }
-        },
-        {
-            "id": "d4268552689e70678fad642863c6cd42",
-            "name": "STYPEINF",
-            "title": "STYPEINF",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "00",
-                    "01",
-                    "02",
-                    "03"
-                ],
-                "maxLength": 2
-            }
-        },
-        {
-            "id": "e6e8a8daeddad3a03dcfa9f363ff4ef6",
-            "name": "SYMBOLE",
-            "title": "SYMBOLE",
-            "description": "SYMBOLE",
-            "type": "String",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 20
             }
         }
     ]

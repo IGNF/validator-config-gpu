@@ -1,0 +1,67 @@
+{
+    "id": "750feea068cd28192585fc2bef064b02",
+    "name": "HABILLAGE_LIN",
+    "title": "HABILLAGE_LIN",
+    "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage",
+    "columns": [
+        {
+            "id": "029bc7b7abbb8a5fc716b0975d4184be",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "62f5bca64a19eba749e29b63e5c90736",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiLineString",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "8d98dde65497121309d066c8ea3e1e49",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "id": "a0675095f28203ec56d975b604bca268",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "c67d5cf31f1c2cd1c534d68386c1a5da",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature de la ligne",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        }
+    ]
+}

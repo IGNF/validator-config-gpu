@@ -1,0 +1,125 @@
+{
+    "id": "f260a4dc48799a86895a7d7e3dd71a1c",
+    "name": "HABILLAGE_TXT",
+    "title": "HABILLAGE_TXT",
+    "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage",
+    "columns": [
+        {
+            "id": "10de19424b4c0bd9bb4368e5934a88b3",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "1497938d2fdfe1aa9aebc7c5b8c3645c",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Libellé de l'étiquette attachée au point d'habillage",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "id": "3d3cd8104593cae0e99e6e99d325c2ef",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "id": "50772ddcf54d1234b9e5a46ebc25d22a",
+            "name": "POLICE",
+            "title": "POLICE",
+            "description": "Nom de la police d'écriture",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "84ebc23eb5db87b31925331583001247",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "a6751f28ea6f117af10010e1e2a988e6",
+            "name": "STYLE",
+            "title": "STYLE",
+            "description": "Style d'écriture",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "b267ca9cced187263d475a2c12f6c0f2",
+            "name": "NATECR",
+            "title": "NATECR",
+            "description": "Nature de l'écriture",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "b3ba2906774a30a77bbac3c713f02f12",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPoint",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "c07158ac048e0e460d50524ab7ee506e",
+            "name": "TAILLE",
+            "title": "TAILLE",
+            "description": "Taille des caractères en point",
+            "type": "Integer",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "id": "f79a724cdea46790d209de326f8f6cc4",
+            "name": "ANGLE",
+            "title": "ANGLE",
+            "description": "Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",
+            "type": "Integer",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        }
+    ]
+}

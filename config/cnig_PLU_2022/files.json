@@ -1,11 +1,11 @@
 {
     "id": "2519d80351d3bf9953751ae02421b862",
     "name": "cnig_PLU_2022",
-    "title": "cnig_PLU_2017",
+    "title": "cnig_PLU_2022",
     "description": "cnig_PLU_2022",
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_PLU_[0-9]{8}(_[a-zA-Z])?",
-        "metadataSpecification": "CNIG PLU v2017"
+        "metadataSpecification": "CNIG PLU v2022"
     },
     "files": [
         {
@@ -231,6 +231,15 @@
             "mandatory": "OPTIONAL"
         },
         {
+            "id": "2b38e27d67d73e29a46be4f9c2853db8",
+            "name": "Reglement Xml",
+            "title": "Reglement Xml",
+            "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "metadata",
+            "mandatory": "OPTIONAL"
+        },
+        {
             "id": "62db96d8c19b0f54f4fcc4ec3413480c",
             "name": "REGLEMENT",
             "title": "REGLEMENT",
@@ -245,6 +254,15 @@
             "description": "Le règlement graphique",
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement_graphique(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "00730d9c5f01cb2d9d1356ad98e00ab3",
+            "name": "Ressources",
+            "title": "Ressources",
+            "description": "Répertoire \"ressources\" contenant les images et autres ressources correspondant au règlement structuré",
+            "path": "Pieces_ecrites/3_Reglement/ressources",
+            "type": "directory",
             "mandatory": "OPTIONAL"
         },
         {
@@ -289,5 +307,42 @@
             "mandatory": "OPTIONAL"
         }
     ],
-    "codes": []
+    "codes": [
+        {
+            "id": "28daaa45c04ff83e28c299d73b97df86",
+            "name": "ListeTypedocPLU",
+            "title": "ListeTypedocPLU",
+            "data": "./codes/ListeTypedocPLU.csv"
+        },
+        {
+            "id": "3d79189450a3611c21a8b473733c5e21",
+            "name": "PrescriptionUrbaType",
+            "title": "PrescriptionUrbaType",
+            "data": "./codes/PrescriptionUrbaType.csv"
+        },
+        {
+            "id": "98594b1507c59352b4cf5a9b2aee20c6",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU",
+            "data": "./codes/ListeTyperefPLU.csv"
+        },
+        {
+            "id": "b66a6671b35de9b6184bb144e52ffc6b",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType",
+            "data": "./codes/InformationUrbaType.csv"
+        },
+        {
+            "id": "c0ac6dfae36ca23fc00aef3bdf5a646d",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU",
+            "data": "./codes/ListeEtatPLU.csv"
+        },
+        {
+            "id": "d07bd993b3f23412cad56cfb411a282a",
+            "name": "ListeTypezonePLU",
+            "title": "ListeTypezonePLU",
+            "data": "./codes/ListeTypezonePLU.csv"
+        }
+    ]
 }

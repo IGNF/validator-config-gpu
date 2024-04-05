@@ -1,0 +1,67 @@
+{
+    "id": "941fdf3e19d64eda21e3f57e1b169dde",
+    "name": "HABILLAGE_PCT",
+    "title": "HABILLAGE_PCT",
+    "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage",
+    "columns": [
+        {
+            "id": "2fa5adcb8e3f30e369aff4d957bb9c5f",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "55dfde5ca82d62fc341074f1a620d16e",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "id": "643b897379b8e351dd9f203a8b7cf886",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPoint",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "d2848da4bec21787337f68debd069653",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du point",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "d73e31b8c86b02faab652b569f71fa2b",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        }
+    ]
+}

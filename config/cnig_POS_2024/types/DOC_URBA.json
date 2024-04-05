@@ -1,0 +1,224 @@
+{
+    "id": "a6cdacb47c772cd1b674fffd0a2bb2ef",
+    "name": "DOC_URBA",
+    "title": "DOC_URBA",
+    "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
+    "constraints": {
+        "conditions": [
+            "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
+            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
+            "NOMREG IS NOT NULL OR URLREG IS NOT NULL"
+        ],
+        "foreignKeys": [
+            "(ETAT) REFERENCES ListeEtatPLU(ETAT)",
+            "(TYPEDOC) REFERENCES ListeTypedocPLU(TYPEDOC)",
+            "(TYPEREF) REFERENCES ListeTyperefPLU(TYPEREF)"
+        ]
+    },
+    "columns": [
+        {
+            "id": "1effaeeef69cc93afd1745ea97114336",
+            "name": "URLREG",
+            "title": "URLREG",
+            "description": "URL ou URI qui pointe sur le fichier du règlement papier complet scanné",
+            "type": "Url",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "id": "53d4c942eadeac396dccfaf7514c5a18",
+            "name": "URLPE",
+            "title": "URLPE",
+            "type": "Url",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "id": "5cc210228ca595e9ac4214b3227fb478",
+            "name": "NOMPLAN",
+            "title": "NOMPLAN",
+            "description": "Nom du fichier du règlement graphique ou de son tableau d'assemblage",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?(.pdf|.zip)",
+                "maxLength": 80
+            }
+        },
+        {
+            "id": "64e8b53718fa3f8b2572bca633d30357",
+            "name": "DATEFIN",
+            "title": "DATEFIN",
+            "description": "Date de fin de validité du document d'urbanisme",
+            "type": "Date",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "id": "74cb60a218257a9ea7677a37f8c7a4fb",
+            "name": "ETAT",
+            "title": "ETAT",
+            "description": "Etat juridique du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "06",
+                    "07",
+                    "08",
+                    "09"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "id": "9def08ee028c23db1e74e6ab8dcadf1e",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "a551fae4ef2f3daebc59894907e0ab09",
+            "name": "NOMREG",
+            "title": "NOMREG",
+            "description": "Nom du fichier contentant le document complet du règlement",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_reglement_[0-9]{8}.pdf",
+                "maxLength": 80
+            }
+        },
+        {
+            "id": "b2553651827d72b33655ce0c9ff8138b",
+            "name": "TYPEREF",
+            "title": "TYPEREF",
+            "description": "Nom du référentiel cadastral utilisé pour la numérisation",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "enum": [
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "id": "ba40cc432b39006dde2b19c0e470fbb0",
+            "name": "URLPLAN",
+            "title": "URLPLAN",
+            "description": "URL ou URI qui pointe sur le fichier du plan scanné",
+            "type": "Url",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "id": "c7fdc176abdaf2f2de4f4f794ede3154",
+            "name": "DATAPPRO",
+            "title": "DATAPPRO",
+            "description": "Date de la dernière approbation administrative du document d'urbanisme",
+            "type": "Date",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "id": "cb24d174cb26a32d2a0e481af2f3b8a0",
+            "name": "DATEREF",
+            "title": "DATEREF",
+            "description": "Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "id": "d24ad8d18990fa7d1ffc8ec973b0e191",
+            "name": "NOMPROC",
+            "title": "NOMPROC",
+            "description": "Nom de la dernière procédure",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "(E|R|A|MEC[0-9]+|MAJ[0-9]+|M[0-9]+|MS[0-9]+|RS[0-9]+|RA[0-9]+)",
+                "maxLength": 10
+            }
+        },
+        {
+            "id": "d8311d281e6b4e27a2ac47bf96d44bf5",
+            "name": "TYPEDOC",
+            "title": "TYPEDOC",
+            "description": "Type du document",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "PLU",
+                    "POS",
+                    "CC",
+                    "PSMV"
+                ],
+                "maxLength": 4
+            }
+        },
+        {
+            "id": "e5794b3c4840402fa832649406fe98ef",
+            "name": "SIREN",
+            "title": "SIREN",
+            "description": "Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 9
+            }
+        },
+        {
+            "id": "ea2291093d8e44001b894d6592840031",
+            "name": "SITEWEB",
+            "title": "SITEWEB",
+            "description": "Page web du service de consultation du PLU offert par la collectivité locale",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        }
+    ]
+}

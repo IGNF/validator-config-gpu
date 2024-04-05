@@ -155,9 +155,9 @@
             "description": "Nom de la dernière procédure",
             "type": "String",
             "constraints": {
-                "required": false,
+                "required": true,
                 "unique": false,
-                "pattern": "(E|R|A|MC[0-9]+|MJ[0-9]+|M[0-9]+|MS[0-9]+|RS[0-9]+)",
+                "pattern": "(E|R|A|MC[0-9]+|MJ[0-9]+|M[0-9]+|MS[0-9]+|RS[0-9]+|RA[0-9]+)",
                 "maxLength": 10
             }
         },

@@ -44,11 +44,11 @@
             "name": "NATURE",
             "title": "NATURE",
             "description": "NATURE",
-            "type": "Filename",
+            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 254
+                "maxLength": 50
             }
         },
         {
@@ -216,6 +216,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "INF-S_[0-9]{2}-[0-9]{2}",
                 "maxLength": 20
             }
         },

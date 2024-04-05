@@ -119,6 +119,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "INF-P_[0-9]{2}-[0-9]{2}",
                 "maxLength": 20
             }
         },
@@ -206,11 +207,11 @@
             "name": "NATURE",
             "title": "NATURE",
             "description": "NATURE",
-            "type": "Filename",
+            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 254
+                "maxLength": 50
             }
         },
         {

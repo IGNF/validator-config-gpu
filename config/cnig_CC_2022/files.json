@@ -1,11 +1,11 @@
 {
     "id": "00d49b46e58f4904b42d8dab5f40429c",
     "name": "cnig_CC_2022",
-    "title": "cnig_CC_2017",
+    "title": "cnig_CC_2022",
     "description": "cnig_CC_2022",
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_CC_[0-9]{8}(_[a-zA-Z])?",
-        "metadataSpecification": "CNIG CC v2017"
+        "metadataSpecification": "CNIG CC v2022"
     },
     "files": [
         {
@@ -188,5 +188,60 @@
             "tableModel": "./types/TITRES_PIECES_ECRITES.json"
         }
     ],
-    "codes": []
+    "codes": [
+        {
+            "id": "35e2edc78435a0ff99cbf4efed5017f0",
+            "name": "ListeTyperefCC",
+            "title": "ListeTyperefCC",
+            "data": "./codes/ListeTyperefCC.csv"
+        },
+        {
+            "id": "5febfbcf4c8d5056912563c5cf3819b2",
+            "name": "ListeLibelleCC",
+            "title": "ListeLibelleCC",
+            "data": "./codes/ListeLibelleCC.csv"
+        },
+        {
+            "id": "7011c03df6c73a5722f223b11c37522a",
+            "name": "ListeEtatCC",
+            "title": "ListeEtatCC",
+            "data": "./codes/ListeEtatCC.csv"
+        },
+        {
+            "id": "88d54e5e94508694fd573e490e52285e",
+            "name": "ListeTypedocCC",
+            "title": "ListeTypedocCC",
+            "data": "./codes/ListeTypedocCC.csv"
+        },
+        {
+            "id": "a11ed48f95a4172ab3040c6c2d11b284",
+            "name": "ListeTypesectCC",
+            "title": "ListeTypesectCC",
+            "data": "./codes/ListeTypesectCC.csv"
+        },
+        {
+            "id": "e05543a74c0f44631d63a8321939dc57",
+            "name": "ListeStypepCC",
+            "title": "ListeStypepCC",
+            "data": "./codes/ListeStypepCC.csv"
+        },
+        {
+            "id": "f2d10ac961ef780d878e93f4efacbdf6",
+            "name": "ListeFermrecoCC",
+            "title": "ListeFermrecoCC",
+            "data": "./codes/ListeFermrecoCC.csv"
+        },
+        {
+            "id": "f3abefd8608153743f6d37f7b1326e3a",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType",
+            "data": "./codes/InformationUrbaType.csv"
+        },
+        {
+            "id": "fadde002cd2b2ca9de693e2b855c8a4c",
+            "name": "ListeTypepCC",
+            "title": "ListeTypepCC",
+            "data": "./codes/ListeTypepCC.csv"
+        }
+    ]
 }

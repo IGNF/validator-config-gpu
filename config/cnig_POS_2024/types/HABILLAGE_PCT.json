@@ -1,0 +1,67 @@
+{
+    "id": "4be5f5e304452fd4596ce5c7fff72a83",
+    "name": "HABILLAGE_PCT",
+    "title": "HABILLAGE_PCT",
+    "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "columns": [
+        {
+            "id": "0c0f7ab9c5193d01e6decf4dc4b1fdef",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du point",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "10f0a8db94a81433d7309bf8b0138165",
+            "name": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "16865eaa32d43fc71a8a56efae7a1805",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "id": "8bd2dd78f24b77ca7dc229092e714217",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "b46da0bf87485beb58a1886408f99e53",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPoint",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        }
+    ]
+}

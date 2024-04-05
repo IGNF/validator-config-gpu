@@ -1,0 +1,226 @@
+{
+    "id": "f9da18f58b61da1c24a93e98c3dfb842",
+    "name": "PRESCRIPTION_SURF",
+    "title": "PRESCRIPTION_SURF",
+    "description": "Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionUrbaType(TYPEPSC, STYPEPSC)"
+        ]
+    },
+    "columns": [
+        {
+            "id": "1b4615a24a244fa60b6f3fe6aaf59532",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "id": "2ee24695edcb21661320557eafbaa870",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Intitulé complet de la prescription",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "id": "3bef1a2f4107f790be2741c90740b522",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier PDF décrivant la prescription",
+            "type": "Filename",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "id": "4d83e8140e9b70c267ada264b8bbd211",
+            "name": "SYMBOLE",
+            "title": "SYMBOLE",
+            "description": "SYMBOLE",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "PSC-S_[0-9]{2}-[0-9]{2}",
+                "maxLength": 20
+            }
+        },
+        {
+            "id": "7cf1902e1a8b5940289b5251146c9f1f",
+            "name": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "id": "7d9d07458e193b2ba013152437e09aa8",
+            "name": "STYPEPSC",
+            "title": "STYPEPSC",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "00",
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "06",
+                    "07",
+                    "08",
+                    "09",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "97",
+                    "98"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "id": "81c6db5609d0ae5f6f0ff076c940fb61",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
+            "type": "Url",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "id": "aaed60543c7026ddb654fea2ae2eada0",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "description": "Date de la dernière validation de la prescription",
+            "type": "Date",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "id": "ad5b99368d94d2f30e422c8a88b51e41",
+            "name": "TYPEPSC",
+            "title": "TYPEPSC",
+            "description": "Type de la prescription dans une liste prédéfinie",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "07",
+                    "08",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20",
+                    "22",
+                    "23",
+                    "24",
+                    "25",
+                    "26",
+                    "27",
+                    "28",
+                    "29",
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34",
+                    "35",
+                    "36",
+                    "37",
+                    "38",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "43",
+                    "44",
+                    "45",
+                    "46",
+                    "47",
+                    "48",
+                    "49",
+                    "50",
+                    "51",
+                    "52",
+                    "97",
+                    "99"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "id": "c5af56cbf22a402e28ae7583fc1c5632",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court de la prescription servant à faire une étiquette",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 10
+            }
+        },
+        {
+            "id": "ccced2a87526af5acefec3b50bb1b255",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Geométrie associée",
+            "type": "MultiPolygon",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "e902263021211f7ffcc8f0f8845a68ac",
+            "name": "NATURE",
+            "title": "NATURE",
+            "description": "NATURE",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 50
+            }
+        }
+    ]
+}
