@@ -188,5 +188,60 @@
             "tableModel": "./types/TITRES_PIECES_ECRITES.json"
         }
     ],
-    "codes": []
+    "codes": [
+        {
+            "id": "1d5750cbcc824903f88e1282c57e902d",
+            "name": "ListeLibelleCC",
+            "title": "ListeLibelleCC",
+            "data": "./codes/ListeLibelleCC.csv"
+        },
+        {
+            "id": "1fe1ddbd99ac2c89f4b84e3755fec7b9",
+            "name": "ListeTypedocCC",
+            "title": "ListeTypedocCC",
+            "data": "./codes/ListeTypedocCC.csv"
+        },
+        {
+            "id": "34448a766d4a32634bb55a2661dccee1",
+            "name": "ListeTypepCC",
+            "title": "ListeTypepCC",
+            "data": "./codes/ListeTypepCC.csv"
+        },
+        {
+            "id": "46c8728572e667f8009bea246c4ed4ff",
+            "name": "ListeTyperefCC",
+            "title": "ListeTyperefCC",
+            "data": "./codes/ListeTyperefCC.csv"
+        },
+        {
+            "id": "6d8b43dcfba2ac4414576f1ed77d608d",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType",
+            "data": "./codes/InformationUrbaType.csv"
+        },
+        {
+            "id": "70a3bc771cc0688845216b1e82edde7c",
+            "name": "ListeEtatCC",
+            "title": "ListeEtatCC",
+            "data": "./codes/ListeEtatCC.csv"
+        },
+        {
+            "id": "735f6c58d3d22dbb700ec87c62b391f7",
+            "name": "ListeStypepCC",
+            "title": "ListeStypepCC",
+            "data": "./codes/ListeStypepCC.csv"
+        },
+        {
+            "id": "b0230d7a2f706f10505821a68749cc84",
+            "name": "ListeTypesectCC",
+            "title": "ListeTypesectCC",
+            "data": "./codes/ListeTypesectCC.csv"
+        },
+        {
+            "id": "b4ef5ff287b0b87b2bc8edf78b6ef5a8",
+            "name": "ListeFermrecoCC",
+            "title": "ListeFermrecoCC",
+            "data": "./codes/ListeFermrecoCC.csv"
+        }
+    ]
 }
