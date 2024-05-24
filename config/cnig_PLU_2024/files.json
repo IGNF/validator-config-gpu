@@ -158,168 +158,6 @@
             "mandatory": "ERROR"
         },
         {
-            "id": "e579eb2dd735af7c55e3fefed3e66560",
-            "name": "ARRETE_DUP",
-            "title": "ARRETE_DUP",
-            "description": "Arrêté prononçant la déclaration d'utilité publique",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_arrete_dup_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "73acde709128301bfa73588806b8de49",
-            "name": "ARRETE_MAJ_ANNEXES",
-            "title": "ARRETE_MAJ_ANNEXES",
-            "description": "Arrêté de mise à jour des annexes",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_arrete_maj_annexes_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "737b83cbd09eb2f62a96f5403f4d8cf7",
-            "name": "ARRETE_MEC",
-            "title": "ARRETE_MEC",
-            "description": "Arrêté mettant en compatibilité le plan",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_arrete_mec_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "add9d56030c06a777f7e4650802ff9d2",
-            "name": "ARRETE_OBJECTIFS_MODALITES",
-            "title": "ARRETE_OBJECTIFS_MODALITES",
-            "description": "Arrêté définissant les objectifs poursuivis et les modalités de concertation",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_arrete_objectifs_modalites_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "6276ce55f9d1e6964118b07bb8f9c50c",
-            "name": "AVIS_EVAL_ENV",
-            "title": "AVIS_EVAL_ENV",
-            "description": "Avis de la commission d’évaluation environnementale",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_avis_eval_env_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "b4a640a2327db17b67e6d6fe348c663c",
-            "name": "AVIS_PPA",
-            "title": "AVIS_PPA",
-            "description": "Avis des personnes publiques associées",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_avis_ppa_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "e814757c2c3758455691427ee0a2bda4",
-            "name": "AUTRES_PIECES",
-            "title": "AUTRES_PIECES",
-            "description": "Autres pièces",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[a-z_]+_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "7f9ce2298bd0b761fff7f15f4e7916dc",
-            "name": "DECISION_DECLARATION_PROJET",
-            "title": "DECISION_DECLARATION_PROJET",
-            "description": "Décision prononçant la déclaration de projet",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_decision_declaration_projet_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "56ca091588cd3dd66ac4a20ee39acd45",
-            "name": "DECISION_EVAL_ENV",
-            "title": "DECISION_EVAL_ENV",
-            "description": "Décision de réalisation d’une évaluation environnementale",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_decision_eval_env_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "49743192a0e86024c85ad51f75ea0d03",
-            "name": "DECRET_SUP",
-            "title": "DECRET_SUP",
-            "description": "Décret prononçant la déclaration d'utilité publique",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_decret_dup_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "3fa92e979ba6d0b8a0a2fe3bff41199d",
-            "name": "DELIB_APPROBATION",
-            "title": "DELIB_APPROBATION",
-            "description": "Actes d’approbation Délibération d’approbation",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_delib_approbation_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "33f30c3023689f135ed17880a171cf7f",
-            "name": "DELIB_ARRET",
-            "title": "DELIB_ARRET",
-            "description": "Délibération d’arrêt du document d’urbanisme",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_delib_arret_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "38c921236a6a7dc241c9dcf0c1727604",
-            "name": "DELIB_DEBAT_PADD",
-            "title": "DELIB_DEBAT_PADD",
-            "description": "Délibération relative au débat sur le PADD",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_delib_debat_padd_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "0bf7d19746aa622ffb5d70862f644ea2",
-            "name": "DELIB_DECLARATION_PROJET",
-            "title": "DELIB_DECLARATION_PROJET",
-            "description": "Délibération prononçant la déclaration de projet",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_delib_declaration_projet_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "e0fee083545ce3eadb102ef4dfb88756",
-            "name": "DELIB_ENGAGEMENT",
-            "title": "Délibération d'engagement",
-            "description": "Délibération d'engagement",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_delib_engagement_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "480c24f9df0b3dc71ffbe236f1a054fd",
-            "name": "DELIB_MEC",
-            "title": "DELIB_MEC",
-            "description": "Délibération mettant en compatibilité le plan",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_delib_mec_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "e42ac4a91067d65d7cab7230a0edbf46",
-            "name": "DELIB_OBJECTIF_MODALITES",
-            "title": "Délibération objectifs modalités",
-            "description": "Délibération définissant les objectifs poursuivis et les modalités de concertation",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_delib_objectifs_modalites_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "a3897a2ca7169e44b8dff7e64a007afd",
-            "name": "DELIB_PRESCRIPTION",
-            "title": "DELIB_PRESCRIPTION",
-            "description": "Délibération de prescription",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_delib_prescription_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
             "id": "82e4d1ec5afd00deb21c62c2cee9414b",
             "name": "JUGEMENT",
             "title": "JUGEMENT",
@@ -334,6 +172,168 @@
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
+        },
+        {
+            "id": "e579eb2dd735af7c55e3fefed3e66560",
+            "name": "ARRETE_DUP",
+            "title": "ARRETE_DUP",
+            "description": "Arrêté prononçant la déclaration d'utilité publique",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_arrete_dup_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "73acde709128301bfa73588806b8de49",
+            "name": "ARRETE_MAJ_ANNEXES",
+            "title": "ARRETE_MAJ_ANNEXES",
+            "description": "Arrêté de mise à jour des annexes",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_arrete_maj_annexes_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "737b83cbd09eb2f62a96f5403f4d8cf7",
+            "name": "ARRETE_MEC",
+            "title": "ARRETE_MEC",
+            "description": "Arrêté mettant en compatibilité le plan",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_arrete_mec_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "add9d56030c06a777f7e4650802ff9d2",
+            "name": "ARRETE_OBJECTIFS_MODALITES",
+            "title": "ARRETE_OBJECTIFS_MODALITES",
+            "description": "Arrêté définissant les objectifs poursuivis et les modalités de concertation",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_arrete_objectifs_modalites_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "6276ce55f9d1e6964118b07bb8f9c50c",
+            "name": "AVIS_EVAL_ENV",
+            "title": "AVIS_EVAL_ENV",
+            "description": "Avis de la commission d’évaluation environnementale",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_avis_eval_env_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "b4a640a2327db17b67e6d6fe348c663c",
+            "name": "AVIS_PPA",
+            "title": "AVIS_PPA",
+            "description": "Avis des personnes publiques associées",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_avis_ppa_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "e814757c2c3758455691427ee0a2bda4",
+            "name": "AUTRES_PIECES",
+            "title": "AUTRES_PIECES",
+            "description": "Autres pièces",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_[a-z_]+_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "7f9ce2298bd0b761fff7f15f4e7916dc",
+            "name": "DECISION_DECLARATION_PROJET",
+            "title": "DECISION_DECLARATION_PROJET",
+            "description": "Décision prononçant la déclaration de projet",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_decision_declaration_projet_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "56ca091588cd3dd66ac4a20ee39acd45",
+            "name": "DECISION_EVAL_ENV",
+            "title": "DECISION_EVAL_ENV",
+            "description": "Décision de réalisation d’une évaluation environnementale",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_decision_eval_env_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "49743192a0e86024c85ad51f75ea0d03",
+            "name": "DECRET_SUP",
+            "title": "DECRET_SUP",
+            "description": "Décret prononçant la déclaration d'utilité publique",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_decret_dup_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "3fa92e979ba6d0b8a0a2fe3bff41199d",
+            "name": "DELIB_APPROBATION",
+            "title": "DELIB_APPROBATION",
+            "description": "Actes d’approbation Délibération d’approbation",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_delib_approbation_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "33f30c3023689f135ed17880a171cf7f",
+            "name": "DELIB_ARRET",
+            "title": "DELIB_ARRET",
+            "description": "Délibération d’arrêt du document d’urbanisme",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_delib_arret_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "38c921236a6a7dc241c9dcf0c1727604",
+            "name": "DELIB_DEBAT_PADD",
+            "title": "DELIB_DEBAT_PADD",
+            "description": "Délibération relative au débat sur le PADD",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_delib_debat_padd_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "0bf7d19746aa622ffb5d70862f644ea2",
+            "name": "DELIB_DECLARATION_PROJET",
+            "title": "DELIB_DECLARATION_PROJET",
+            "description": "Délibération prononçant la déclaration de projet",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_delib_declaration_projet_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "e0fee083545ce3eadb102ef4dfb88756",
+            "name": "DELIB_ENGAGEMENT",
+            "title": "Délibération d'engagement",
+            "description": "Délibération d'engagement",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_delib_engagement_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "480c24f9df0b3dc71ffbe236f1a054fd",
+            "name": "DELIB_MEC",
+            "title": "DELIB_MEC",
+            "description": "Délibération mettant en compatibilité le plan",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_delib_mec_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "e42ac4a91067d65d7cab7230a0edbf46",
+            "name": "DELIB_OBJECTIF_MODALITES",
+            "title": "Délibération objectifs modalités",
+            "description": "Délibération définissant les objectifs poursuivis et les modalités de concertation",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_delib_objectifs_modalites_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "a3897a2ca7169e44b8dff7e64a007afd",
+            "name": "DELIB_PRESCRIPTION",
+            "title": "DELIB_PRESCRIPTION",
+            "description": "Délibération de prescription",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_delib_prescription_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
         },
         {
             "id": "187e870757dd3d519557cd35b3d038de",
