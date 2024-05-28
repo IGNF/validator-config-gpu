@@ -39,10 +39,11 @@
             "id": "2efcd49b3c38d66583e881938f947cac",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {

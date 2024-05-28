@@ -46,10 +46,11 @@
             "name": "DATEPUB",
             "title": "DATEPUB",
             "description": "Date de parution au Journal Officiel ou de publicité dans la presse",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {
@@ -123,10 +124,11 @@
             "name": "DATEDECIS",
             "title": "DATEDECIS",
             "description": "Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {

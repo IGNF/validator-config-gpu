@@ -21,10 +21,11 @@
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date d'approbation du document d'urbanisme auquel appartient la zone",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {
@@ -51,10 +52,11 @@
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation du secteur ou de ses dispositions particulières",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {

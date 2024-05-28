@@ -9,10 +9,11 @@
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {

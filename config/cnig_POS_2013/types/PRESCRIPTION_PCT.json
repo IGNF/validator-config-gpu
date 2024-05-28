@@ -66,10 +66,11 @@
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {
@@ -112,10 +113,11 @@
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         }
     ]

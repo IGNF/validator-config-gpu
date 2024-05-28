@@ -21,10 +21,11 @@
             "name": "DATECOG",
             "title": "DATECOG",
             "description": "Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {

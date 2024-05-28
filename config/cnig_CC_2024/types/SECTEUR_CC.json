@@ -123,10 +123,11 @@
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation du secteur ou de ses dispositions particulières",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {

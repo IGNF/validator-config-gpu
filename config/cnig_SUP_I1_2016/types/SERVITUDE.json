@@ -36,10 +36,11 @@
             "name": "DATEMAJ",
             "title": "DATEMAJ",
             "description": "Date de la dernière modification apportée à la servitude",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {

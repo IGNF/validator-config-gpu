@@ -62,10 +62,11 @@
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {
@@ -125,10 +126,11 @@
             "name": "DATEFIN",
             "title": "DATEFIN",
             "description": "Date de fin de validité du document d'urbanisme",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {

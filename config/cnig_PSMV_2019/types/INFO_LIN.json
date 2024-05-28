@@ -152,10 +152,11 @@
             "id": "fc615443db1b227af597e068a05890e9",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         }
     ]

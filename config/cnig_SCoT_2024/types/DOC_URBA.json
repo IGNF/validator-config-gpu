@@ -86,10 +86,11 @@
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date d'approbation du SCOT par délibération de l'EPCI après enquête publique",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {
@@ -193,10 +194,11 @@
             "name": "DATEFIN",
             "title": "DATEFIN",
             "description": "Date de fin de validité du SCOT. Si le SCOT est remplacé, cette date correspond à la date d'approbation du SCOT qui le remplace.Si le SCOT est annulé, cette date correspond à la date d'annulation.",
-            "type": "Date",
+            "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]{8}"
             }
         },
         {
