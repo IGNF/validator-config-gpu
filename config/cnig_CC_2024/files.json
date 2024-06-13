@@ -139,6 +139,15 @@
             "mandatory": "ERROR"
         },
         {
+            "id": "76d4040591a1fa437609ead96d4bba49",
+            "name": "AUTRES_PIECES",
+            "title": "AUTRES_PIECES",
+            "description": "Autres pièces",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_[a-z_]+(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
             "id": "30dfed40457e1fd264fe5a69ff0f3f10",
             "name": "Rapport_de_presentation",
             "title": "Rapport_de_presentation",

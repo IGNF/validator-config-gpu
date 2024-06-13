@@ -220,6 +220,7 @@ d202a4cf49183a7d705ddc0e5c9b4559,34ac41b6d62e11e9bb652a2ae2dbcce4,SCOT,SCOT,,tab
 51ee7e08a1142cf0db5e30ad6b12ce33,36cbd7c9fada298d408540b6cfa5d36d,Donnees_geographiques,Donnees_geographiques,,directory,Donnees_geographiques,ERROR
 65acade47e367208997174ea4f323d73,36cbd7c9fada298d408540b6cfa5d36d,ANNEXE,ANNEXE,,pdf,Pieces_ecrites/4_Annexes/<FILENAME>,WARN
 76d4040591a1fa437609ead96d4bba48,36cbd7c9fada298d408540b6cfa5d36d,PROCEDURE,PROCEDURE,,pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+76d4040591a1fa437609ead96d4bba49,36cbd7c9fada298d408540b6cfa5d36d,AUTRES_PIECES,AUTRES_PIECES,"Autres pièces",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_[a-z_]+(_<NOMPROC>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 7a616a9b8015d5e6583c2881198bcb3a,36cbd7c9fada298d408540b6cfa5d36d,TITRES_PIECES_ECRITES,TITRES_PIECES_ECRITES,,table,Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 80fef1aeba87e5ed5346779ba9b15728,36cbd7c9fada298d408540b6cfa5d36d,Procedures,Procedures,,directory,Pieces_ecrites/0_Procedure,ERROR
 82c9b0e20369e0cd41544da0a7c9a01e,36cbd7c9fada298d408540b6cfa5d36d,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
