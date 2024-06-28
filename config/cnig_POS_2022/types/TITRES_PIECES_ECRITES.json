@@ -1,21 +1,10 @@
 {
-    "id": "3a232ceed55ded2ba17fc146d4dc9f2c",
+    "id": "24a0fdebaaca5bcd72c62fa960fd5d74",
     "name": "TITRES_PIECES_ECRITES",
     "title": "TITRES_PIECES_ECRITES",
     "columns": [
         {
-            "id": "5db603a602e670ff50bd8f599b52fb53",
-            "name": "TITRE",
-            "title": "TITRE",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 80
-            }
-        },
-        {
-            "id": "68d555cc4e6c606e10f263f5cc0a8079",
+            "id": "0b729223a6013cab8c1e14f500d79f9e",
             "name": "FICHIER",
             "title": "FICHIER",
             "type": "Filename",
@@ -23,6 +12,17 @@
                 "required": true,
                 "unique": false,
                 "maxLength": 255
+            }
+        },
+        {
+            "id": "508526b2d366bca198f960fbde9ee6ca",
+            "name": "TITRE",
+            "title": "TITRE",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 80
             }
         }
     ]

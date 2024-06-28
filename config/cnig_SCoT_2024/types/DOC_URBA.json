@@ -54,22 +54,6 @@
             }
         },
         {
-            "id": "35e232d245c382d6e50873dd406e49a3",
-            "name": "TYPEPROC",
-            "title": "TYPEPROC",
-            "description": "Nature de la procédure administrative engagée pour aboutir au document opposable",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "null"
-                ],
-                "pattern": "(E|R|MEC[0-9]+|M[0-9]+|MS[0-9]+|RS[0-9]+)",
-                "maxLength": 10
-            }
-        },
-        {
             "id": "3eb5990dbeaeac4ee05e82280a1b3ce5",
             "name": "URLPE",
             "title": "URLPE",
@@ -220,6 +204,19 @@
                     "09"
                 ],
                 "maxLength": 2
+            }
+        },
+        {
+            "id": "ed59e83008874c75c8970820aa13d0d6",
+            "name": "TYPEPROC",
+            "title": "TYPEPROC",
+            "description": "Nature de la procédure administrative engagée pour aboutir au document opposable",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "(E|R|MEC[0-9]+|M[0-9]+|MS[0-9]+|RS[0-9]+)",
+                "maxLength": 10
             }
         }
     ]
