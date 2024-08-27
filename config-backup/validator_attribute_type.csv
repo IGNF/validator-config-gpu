@@ -1832,6 +1832,8 @@ e5df60718e0ce3d1d6c1173ed1d79a00,952cf5b65fdcad267186f03fb9985367,SITEWEB,SITEWE
 2d8f643c04c3bd42ee2e936de301a1a3,9713aac3def85708d7dd1c3872ea7ebe,WKT,Géométrie,"Geométrie associée",MultiPolygon,t,f,,,,,
 759883f985f2081ea175b4500f91d242,9713aac3def85708d7dd1c3872ea7ebe,NATTRAC,NATTRAC,"Nature du polygon",String,f,f,,,,40,
 9f3b8b2766648037d223ccaf7033337b,9713aac3def85708d7dd1c3872ea7ebe,INSEE,INSEE,"Code INSEE de la commune concernée par l'élément d'habillage",String,t,f,,,,5,
+cf6053db0fa7fc6a5cbf53d60e5febbb,980ffe2707b54b5150d8f3d2ba4f833e,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation de transport de produit""]",,,40,
+d62f0690cb9b8e48eb8a1418d53ff33b,980ffe2707b54b5150d8f3d2ba4f833e,TYPE,TYPE,,String,t,f,"[""Hydrocarbures"",""Gaz"",""Produits chimiques""]",,,20,
 e30ad8a25b9c590c0c0b5f3ec34a5450,980ffe2707b54b5150d8f3d2ba4f833e,WKT,Géométrie,"Géométrie associée",MultiPolygon,t,f,,,,,
 f8e2762ba76d60c814e81fc7b01e6d13,98112985014d40563023c42fce0388ae,WKT,Géométrie,"Geométrie associée",MultiLineString,t,f,,,,,
 a22a38c3ca1bb38a3155848d92c6949d,983925dcb88f233400c7fc6758f06c52,TYPEGEN,TYPEGEN,,String,t,f,"[""Périmètre réglementé du PPR""]",,,40,
