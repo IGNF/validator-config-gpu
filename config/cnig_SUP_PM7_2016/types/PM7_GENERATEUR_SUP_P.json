@@ -1,8 +1,7 @@
 {
-    "id": "20daa8f16a943ce536abfdadc4777dc3",
-    "name": "PM1_GENERATEUR_SUP_S",
-    "title": "PM1_GENERATEUR_SUP_S",
-    "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "id": "2a28851793bcec5e8657c5c809a9ad4d",
+    "name": "PM7_GENERATEUR_SUP_P",
+    "title": "PM7_GENERATEUR_SUP_P",
     "constraints": {
         "conditions": [
             "SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')",
@@ -11,10 +10,7 @@
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
         "foreignKeys": [
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(CODE_ALEA) REFERENCES ListeCodeAleaSUP(CODE_ALEA)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
         ]
     },
     "columns": [
@@ -125,7 +121,17 @@
             }
         },
         {
-            "id": "01f0b6f3ac067f7e2bca6dd4743ecfc2",
+            "id": "00bba43c4d5c87bab8f7a45ebc01f9cf",
+            "name": "WKT",
+            "title": "Géométrie",
+            "type": "MultiPoint",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
+            "id": "e20083a7e31aa83b631cc344e33a1e16",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
             "type": "String",
@@ -133,73 +139,9 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Périmètre réglementé du PPR"
+                    "Ouvrage anti inondation submersion"
                 ],
                 "maxLength": 40
-            }
-        },
-        {
-            "id": "3399d8365d130761bda9f9377ce85ecd",
-            "name": "CODE_ALEA",
-            "title": "CODE_ALEA",
-            "description": "Identifiant GASPAR de l'aléa",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "10",
-                    "11",
-                    "12",
-                    "13",
-                    "14",
-                    "15",
-                    "16",
-                    "17",
-                    "18",
-                    "30",
-                    "31",
-                    "32",
-                    "33",
-                    "34",
-                    "99"
-                ],
-                "maxLength": 2
-            }
-        },
-        {
-            "id": "40e1b3b46df0b2042a05d035c6f88d24",
-            "name": "URL_GRISQ",
-            "title": "URL_GRISQ",
-            "description": "Hyperlien vers le PPR dans Géorisques",
-            "type": "Url",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 254
-            }
-        },
-        {
-            "id": "a4f5301190279f40f77e9d6c3ae586fd",
-            "name": "ID_GASPAR",
-            "title": "ID_GASPAR",
-            "description": "Identifiant Gaspar du PPR",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 24
-            }
-        },
-        {
-            "id": "e98664c8e2b6c68673a6a393b534074c",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Geométrie associée",
-            "type": "MultiPolygon",
-            "constraints": {
-                "required": true,
-                "unique": false
             }
         }
     ]

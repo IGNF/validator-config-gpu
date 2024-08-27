@@ -82,13 +82,22 @@
             "tableModel": "./types/PM7_ASSIETTE_SUP_S.json"
         },
         {
-            "id": "8b0f6a4439f8c65f1182c60e51f82398",
-            "name": "PM7_GENERATEUR_SUP_S",
-            "title": "PM7_GENERATEUR_SUP_S",
-            "path": "Donnees_geographiques/PM7_GENERATEUR_SUP_S",
+            "id": "714b26c752d55115f899d3b1cb905be4",
+            "name": "PM7_GENERATEUR_SUP_L",
+            "title": "PM7_GENERATEUR_SUP_L",
+            "path": "Donnees_geographiques/PM7_GENERATEUR_SUP_L",
             "type": "table",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/PM7_GENERATEUR_SUP_S.json"
+            "tableModel": "./types/PM7_GENERATEUR_SUP_L.json"
+        },
+        {
+            "id": "8b0f6a4439f8c65f1182c60e51f82398",
+            "name": "PM7_GENERATEUR_SUP_P",
+            "title": "PM7_GENERATEUR_SUP_P",
+            "path": "Donnees_geographiques/PM7_GENERATEUR_SUP_P",
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/PM7_GENERATEUR_SUP_P.json"
         }
     ],
     "codes": [

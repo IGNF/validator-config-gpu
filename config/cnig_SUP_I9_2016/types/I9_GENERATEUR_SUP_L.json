@@ -130,7 +130,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Réseau de chaleur"
+                    "Réseau de chaleur et de froid"
                 ],
                 "maxLength": 40
             }

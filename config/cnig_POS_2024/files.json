@@ -183,19 +183,19 @@
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "95f19c8d2a417a341b03028abb5d9510",
-            "name": "ARRETE_MAJ_ANNEXES",
-            "title": "ARRETE_MAJ_ANNEXES",
-            "description": "Arrêté de mise à jour des annexes",
+            "id": "fbc714b42c8f81bf74cb10a8169cf1da",
+            "name": "ARRETE_MEC",
+            "title": "ARRETE_MEC",
+            "description": "Arrêté mettant en compatibilité le plan",
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_arrete_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "fbc714b42c8f81bf74cb10a8169cf1da",
-            "name": "ARRETE_MEC",
-            "title": "ARRETE_MEC",
-            "description": "Arrêté mettant en compatibilité le plan",
+            "id": "95f19c8d2a417a341b03028abb5d9510",
+            "name": "ARRETE_MAJ_ANNEXES",
+            "title": "ARRETE_MAJ_ANNEXES",
+            "description": "Arrêté de mise à jour des annexes",
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_[0-9]{8}_arrete_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
