@@ -83,12 +83,12 @@
         },
         {
             "id": "7bf01761bbc99711a738099e0cb75031",
-            "name": "I10_GENERATEUR_SUP_L",
-            "title": "I10_GENERATEUR_SUP_L",
-            "path": "Donnees_geographiques/I10_GENERATEUR_SUP_L",
+            "name": "I10_GENERATEUR_SUP_S",
+            "title": "I10_GENERATEUR_SUP_S",
+            "path": "Donnees_geographiques/I10_GENERATEUR_SUP_S",
             "type": "table",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/I10_GENERATEUR_SUP_L.json"
+            "tableModel": "./types/I10_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": [
