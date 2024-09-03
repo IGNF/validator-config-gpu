@@ -72,7 +72,7 @@
             "name": "ARRETE_DUP",
             "title": "ARRETE_DUP",
             "description": "Arrêté prononçant la déclaration d'utilité publique",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_dup(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_dup_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -81,7 +81,7 @@
             "name": "ARRETE_MAJ_ANNEXES",
             "title": "ARRETE_MAJ_ANNEXES",
             "description": "Arrêté de mise à jour des annexes",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_maj_annexes_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -90,7 +90,7 @@
             "name": "ARRETE_MEC",
             "title": "ARRETE_MEC",
             "description": "Arrêté mettant en compatibilité le SCOT",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_mec_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -99,7 +99,7 @@
             "name": "ARRETE_OBJECTIF_MODALITES",
             "title": "ARRETE_OBJECTIF_MODALITES",
             "description": "Arrêté définissant les objectifs poursuivis et les modalités de concertation",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_objectifs(_et)?_modalites(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_objectifs(_et)?_modalites_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -117,7 +117,7 @@
             "name": "AVIS_EVAL_ENV",
             "title": "AVIS_EVAL_ENV",
             "description": "Avis de la commission d’évaluation environnementale",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_avis_(EE|eval_env)(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_avis_(EE|eval_env)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -126,7 +126,7 @@
             "name": "AVIS_PPA",
             "title": "AVIS_PPA",
             "description": "Avis des personnes publiques associées",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_avis_(ppa|PPA)(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_avis_(ppa|PPA)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -135,7 +135,7 @@
             "name": "AUTRES_PIECES",
             "title": "AUTRES_PIECES",
             "description": "Autres pièces",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_[a-z_]+(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_[a-z_]+_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -144,7 +144,7 @@
             "name": "DECISION_DECLARATION_PROJET",
             "title": "DECISION_DECLARATION_PROJET",
             "description": "Décision prononçant la déclaration de projet",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decision_declaration_projet(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decision_declaration_projet_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -153,16 +153,16 @@
             "name": "DECISION_EVAL_ENV",
             "title": "DECISION_EVAL_ENV",
             "description": "Décision de réalisation d’une évaluation environnementale",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decision_(eval_env|EE)(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decision_(eval_env|EE)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
         {
             "id": "338fdfb586fa424cb9ae4561abdfb614",
-            "name": "DECRET_DUP",
-            "title": "DECRET_DUP",
+            "name": "DECRET_SUP",
+            "title": "DECRET_SUP",
             "description": "Décret prononçant la déclaration d'utilité publique",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decret_dup(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decret_sup_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -180,7 +180,7 @@
             "name": "DELIB_ARRET",
             "title": "DELIB_ARRET",
             "description": "Délibération  d’arrêt du SCOT",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_arret(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_arret_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -189,7 +189,7 @@
             "name": "DELIB_DEBAT_PAS",
             "title": "DELIB_DEBAT_PAS",
             "description": "Délibération relative au débat sur le PAS",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_debat_(pas|PAS)(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_debat_(pas|PAS)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -198,7 +198,7 @@
             "name": "DELIB_DECLARATION_PROJET",
             "title": "DELIB_DECLARATION_PROJET",
             "description": "Délibération prononçant la déclaration de projet",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_declaration_projet(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_declaration_projet_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -216,7 +216,7 @@
             "name": "DELIB_MEC",
             "title": "DELIB_MEC",
             "description": "Délibération mettant en compatibilité le SCOT",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_mec_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -225,7 +225,7 @@
             "name": "DELIB_OBJECTIF_MODALITES",
             "title": "DELIB_OBJECTIF_MODALITES",
             "description": "Délibération définissant les objectifs poursuivis et les modalités de concertation",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_objectifs(_et)_modalites(_[a-zA-Z]+[0-9]*)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_objectifs(_et)_modalites_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
