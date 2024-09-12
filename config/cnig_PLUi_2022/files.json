@@ -20,7 +20,7 @@
             "id": "804308cfcff9bfd9280aafe2226d9398",
             "name": "HABILLAGE_LIN",
             "title": "HABILLAGE_LIN",
-            "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_LIN_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_LIN_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_LIN.json"
@@ -29,7 +29,7 @@
             "id": "1982e16581319350ebba95d1012b40a8",
             "name": "HABILLAGE_PCT",
             "title": "HABILLAGE_PCT",
-            "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_PCT_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_PCT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_PCT.json"
@@ -38,7 +38,7 @@
             "id": "0237c741033987543d756ae869fab7b2",
             "name": "HABILLAGE_SURF",
             "title": "HABILLAGE_SURF",
-            "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_SURF_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_SURF_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_SURF.json"
@@ -47,7 +47,7 @@
             "id": "dd875fd74a22585e57afb8427274620c",
             "name": "HABILLAGE_TXT",
             "title": "HABILLAGE_TXT",
-            "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_TXT_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_HABILLAGE_TXT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_TXT.json"
@@ -56,7 +56,7 @@
             "id": "c4541e3ca79e4583452dbda722d3d8f1",
             "name": "INFO_LIN",
             "title": "INFO_LIN",
-            "path": "Donnees_geographiques/[0-9]{9}_INFO_LIN_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_INFO_LIN_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_LIN.json"
@@ -65,7 +65,7 @@
             "id": "5e62a84349daafe4d42014b00a13f3f7",
             "name": "INFO_PCT",
             "title": "INFO_PCT",
-            "path": "Donnees_geographiques/[0-9]{9}_INFO_PCT_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_INFO_PCT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_PCT.json"
@@ -74,7 +74,7 @@
             "id": "18f0475dfb64f0ce8743d2ec041376c6",
             "name": "INFO_SURF",
             "title": "INFO_SURF",
-            "path": "Donnees_geographiques/[0-9]{9}_INFO_SURF_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_INFO_SURF_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_SURF.json"
@@ -83,7 +83,7 @@
             "id": "2780c1b66153dc1b75e3f0f4c3e97f7a",
             "name": "PRESCRIPTION_LIN",
             "title": "PRESCRIPTION_LIN",
-            "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_LIN_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_LIN_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_LIN.json"
@@ -92,7 +92,7 @@
             "id": "ac5c27ae80196fa97f740ccb915ac150",
             "name": "PRESCRIPTION_PCT",
             "title": "PRESCRIPTION_PCT",
-            "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_PCT_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_PCT_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_PCT.json"
@@ -101,7 +101,7 @@
             "id": "fea32a2c152203a0a34663f865bbe946",
             "name": "PRESCRIPTION_SURF",
             "title": "PRESCRIPTION_SURF",
-            "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_SURF_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_PRESCRIPTION_SURF_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_SURF.json"
@@ -110,7 +110,7 @@
             "id": "569f6be407243a4cd30b472339c84f94",
             "name": "ZONE_URBA",
             "title": "ZONE_URBA",
-            "path": "Donnees_geographiques/[0-9]{9}_ZONE_URBA_[0-9]{8}",
+            "path": "Donnees_geographiques/[0-9]{9}_ZONE_URBA_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "ERROR",
             "tableModel": "./types/ZONE_URBA.json"
@@ -222,6 +222,14 @@
             "mandatory": "OPTIONAL"
         },
         {
+            "id": "221a231eefb41222f36212c100c8354a",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
             "id": "6ca3fa88a201474eddb951ec225ac2f0",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
@@ -229,14 +237,6 @@
             "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "metadata",
             "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "221a231eefb41222f36212c100c8354a",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
         },
         {
             "id": "b39ce0ebde29a466168a5d791e2b128c",
@@ -292,7 +292,7 @@
             "id": "5a302235bee9b88fe566492c37f7604a",
             "name": "DOC_URBA_COM",
             "title": "DOC_URBA_COM",
-            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}",
+            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA_COM.json"
@@ -301,7 +301,7 @@
             "id": "99e78e04a46e54d76ac00a95f4ac9160",
             "name": "DOC_URBA",
             "title": "DOC_URBA",
-            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}",
+            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
             "type": "table",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA.json"
@@ -316,9 +316,9 @@
         },
         {
             "id": "47fd123fe88f693d896f5174cb668d79",
-            "name": "ListeTypedocPLUi",
+            "name": "ListeTypedocPLU",
             "title": "ListeTypedocPLU",
-            "data": "./codes/ListeTypedocPLUi.csv"
+            "data": "./codes/ListeTypedocPLU.csv"
         },
         {
             "id": "78e06de0134cb50f966b0e7d105681cc",
