@@ -139,11 +139,11 @@
             "id": "d37af5445156312d0fd5e65293d4349f",
             "name": "WKT",
             "title": "Géométrie",
-            "description": "Geométrie associée",
+            "description": "Géométrie associée",
             "type": "MultiPoint",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": true
             }
         }
     ]

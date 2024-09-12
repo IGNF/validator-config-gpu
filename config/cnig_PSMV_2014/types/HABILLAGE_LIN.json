@@ -45,11 +45,11 @@
             "id": "9255d798f6e4229088cb36b60bea3d88",
             "name": "WKT",
             "title": "Géométrie",
-            "description": "Geométrie associée",
+            "description": "Géométrie associée",
             "type": "MultiLineString",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": true
             }
         }
     ]

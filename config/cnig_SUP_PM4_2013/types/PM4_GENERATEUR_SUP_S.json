@@ -130,11 +130,11 @@
             "id": "1ea6e4fe3ebbc76a8470fc1f4727d89e",
             "name": "WKT",
             "title": "Géométrie",
-            "description": "Geométrie associée",
+            "description": "Géométrie associée",
             "type": "MultiPolygon",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": true
             }
         }
     ]
