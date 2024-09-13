@@ -476,6 +476,24 @@
             "mandatory": "OPTIONAL"
         },
         {
+            "id": "7d1c335a683eb9ce06781fc2671da567",
+            "name": "Ressources",
+            "title": "Ressources",
+            "description": "Répertoire \"ressources\" contenant les images et autres ressources correspondant au règlement structuré",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/ressources",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "c0bb96a86c34ddd7682f738f6d17fab1",
+            "name": "Reglement Xml",
+            "title": "Reglement Xml",
+            "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "metadata",
+            "mandatory": "OPTIONAL"
+        },
+        {
             "id": "44251958827c4b5da72d46653ba8c107",
             "name": "SECTEUR_REGLEMENT_GRAPHIQUE",
             "title": "SECTEUR_REGLEMENT_GRAPHIQUE",
