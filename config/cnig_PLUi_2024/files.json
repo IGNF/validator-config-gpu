@@ -452,6 +452,70 @@
             "mandatory": "OPTIONAL"
         },
         {
+            "id": "2a846f9682b343c6b954bb938cb0cd5b",
+            "name": "7_Plans_de_secteur",
+            "title": "7_Plans_de_secteur",
+            "path": "Pieces_ecrites/7_Plans_de_secteur",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "22a11782e8a741a0bc604291b10a8418",
+            "name": "Secteur",
+            "title": "Secteur",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "f572c01855684b93a0959cb583d5dc65",
+            "name": "Secteur_Reglement",
+            "title": "Secteur_Reglement",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "44251958827c4b5da72d46653ba8c107",
+            "name": "SECTEUR_REGLEMENT_GRAPHIQUE",
+            "title": "SECTEUR_REGLEMENT_GRAPHIQUE",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/[0-9]{9}_reglement_graphique_SECT[0-9]{2}(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "2634c9df614e45e7a9cc6159d2043799",
+            "name": "SECTEUR_REGLEMENT",
+            "title": "SECTEUR_REGLEMENT",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/[0-9]{9}_reglement_SECT[0-9]{2}_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "ecafb4b3bea846c796d27bf3f0d86fcd",
+            "name": "Secteur_Orientation_amenagament",
+            "title": "Secteur_Orientation_amenagament",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/5_Orientations_amenagement",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "fe7e46ad91914fbf84ce8021226539bc",
+            "name": "SECTEUR_ORIENTATION_AMENAGEMENT",
+            "title": "SECTEUR_ORIENTATION_AMENAGEMENT",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/5_Orientations_amenagement/[0-9]{9}_orientations_amenagement_SECT[0-9]{2}(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "5aec28c6782c4c8c929f7f88eeab8e24",
+            "name": "PLAN_DE_SECTEURS",
+            "title": "PLAN_DE_SECTEURS",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/[0-9]{9}_plan_de_secteurs_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
             "id": "98b6352b0de7e3f33c8360a91868ba92",
             "name": "DOC_URBA_COM",
             "title": "DOC_URBA_COM",

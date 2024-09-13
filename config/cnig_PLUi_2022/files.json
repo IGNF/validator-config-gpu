@@ -222,14 +222,6 @@
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "221a231eefb41222f36212c100c8354a",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
-        },
-        {
             "id": "6ca3fa88a201474eddb951ec225ac2f0",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
@@ -237,6 +229,14 @@
             "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "metadata",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "221a231eefb41222f36212c100c8354a",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
         },
         {
             "id": "b39ce0ebde29a466168a5d791e2b128c",
@@ -285,6 +285,70 @@
             "name": "ORIENTATIONS_AMENAGEMENT",
             "title": "ORIENTATIONS_AMENAGEMENT",
             "path": "Pieces_ecrites/5_Orientations_amenagement/[0-9]{9}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "cfdd7d4f33dd4c0abfb82b6472566c64",
+            "name": "7_Plans_de_secteur",
+            "title": "7_Plans_de_secteur",
+            "path": "Pieces_ecrites/7_Plans_de_secteur",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "baa6903e5a8c48ebbff7dc82cc944a5c",
+            "name": "Secteur",
+            "title": "Secteur",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "5adcfdaf4b7e40c9bf2fb5582b3987e8",
+            "name": "Secteur_Reglement",
+            "title": "Secteur_Reglement",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "a8b41a176569455fa400c9744d91b7bf",
+            "name": "SECTEUR_REGLEMENT_GRAPHIQUE",
+            "title": "SECTEUR_REGLEMENT_GRAPHIQUE",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/[0-9]{9}_reglement_graphique_SECT[0-9]{2}(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "d39e7583cae04b6f83762e6c8bc399a6",
+            "name": "SECTEUR_REGLEMENT",
+            "title": "SECTEUR_REGLEMENT",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/[0-9]{9}_reglement_SECT[0-9]{2}_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "751d078420f543be987fa655327f0808",
+            "name": "Secteur_Orientation_amenagament",
+            "title": "Secteur_Orientation_amenagament",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/5_Orientations_amenagement",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "cbe85d5cd3874a10bc5f7ac078dbbdd7",
+            "name": "SECTEUR_ORIENTATION_AMENAGEMENT",
+            "title": "SECTEUR_ORIENTATION_AMENAGEMENT",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/5_Orientations_amenagement/[0-9]{9}_orientations_amenagement_SECT[0-9]{2}(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "ec937d73e27d428e9ae789522f788abe",
+            "name": "PLAN_DE_SECTEURS",
+            "title": "PLAN_DE_SECTEURS",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/[0-9]{9}_plan_de_secteurs_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
