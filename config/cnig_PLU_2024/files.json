@@ -463,9 +463,9 @@
         },
         {
             "id": "415aef6f7594429abc45cdbab6e88239",
-            "name": "ORIENTATIONS_AMENAGEMENT",
-            "title": "ORIENTATIONS_AMENAGEMENT",
-            "path": "Pieces_ecrites/5_OAP/[AB0-9]{5}_oap?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "name": "OAP",
+            "title": "OAP",
+            "path": "Pieces_ecrites/5_OAP/[AB0-9]{5}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         }

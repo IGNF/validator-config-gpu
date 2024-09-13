@@ -143,7 +143,7 @@
             "id": "0e793a4cf4a69d02c1b58a854263eab3",
             "name": "JUGEMENT",
             "title": "JUGEMENT",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_jugement_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -266,7 +266,7 @@
             "id": "38a8d72e03d4de5c2b2ff45e68759575",
             "name": "ORIENTATIONS_AMENAGEMENT",
             "title": "ORIENTATIONS_AMENAGEMENT",
-            "path": "Pieces_ecrites/5_Orientations_amenagement/[0-9]{9}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/5_Orientations_amenagement/[0-9]{9}_orientations_amenagement(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },

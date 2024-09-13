@@ -385,8 +385,8 @@
         },
         {
             "id": "2af9d445f946acd683029fbea27d2457",
-            "name": "Reglement Xml",
-            "title": "Reglement Xml",
+            "name": "REGLEMENT_XML",
+            "title": "REGLEMENT_XML",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
             "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "metadata",
@@ -447,7 +447,7 @@
             "id": "278747ff2a3d7ab30fcf20e081cc85ba",
             "name": "ORIENTATIONS_AMENAGEMENT",
             "title": "ORIENTATIONS_AMENAGEMENT",
-            "path": "Pieces_ecrites/5_OAP/[0-9]{9}_oap?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/5_OAP/[0-9]{9}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
@@ -477,8 +477,8 @@
         },
         {
             "id": "7d1c335a683eb9ce06781fc2671da567",
-            "name": "Ressources",
-            "title": "Ressources",
+            "name": "Secteur_Reglement_ressources",
+            "title": "Secteur_Reglement_ressources",
             "description": "Répertoire \"ressources\" contenant les images et autres ressources correspondant au règlement structuré",
             "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/ressources",
             "type": "directory",
@@ -486,8 +486,8 @@
         },
         {
             "id": "c0bb96a86c34ddd7682f738f6d17fab1",
-            "name": "Reglement Xml",
-            "title": "Reglement Xml",
+            "name": "SECTEUR_REGLEMENT_XML",
+            "title": "SECTEUR_REGLEMENT_XML",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
             "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "metadata",
@@ -511,17 +511,17 @@
         },
         {
             "id": "ecafb4b3bea846c796d27bf3f0d86fcd",
-            "name": "Secteur_Orientation_amenagament",
-            "title": "Secteur_Orientation_amenagament",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/5_Orientations_amenagement",
+            "name": "Secteur_OAP",
+            "title": "Secteur_OAP",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/5_OAP",
             "type": "directory",
             "mandatory": "OPTIONAL"
         },
         {
             "id": "fe7e46ad91914fbf84ce8021226539bc",
-            "name": "SECTEUR_ORIENTATION_AMENAGEMENT",
-            "title": "SECTEUR_ORIENTATION_AMENAGEMENT",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/5_Orientations_amenagement/[0-9]{9}_orientations_amenagement_SECT[0-9]{2}(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "name": "SECTEUR_OAP",
+            "title": "SECTEUR_OAP",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/5_OAP/[0-9]{9}_oap_SECT[0-9]{2}(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
         },
