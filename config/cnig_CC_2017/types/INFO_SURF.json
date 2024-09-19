@@ -230,11 +230,13 @@
         {
             "id": "d7c7e596876f171a0d088efbd3475ecb",
             "name": "LIB_IDINFO",
+            "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[AB0-9]{5}_CC_[0-9]{8}_IS[0-9]+",
                 "maxLength": 40
             }
         },

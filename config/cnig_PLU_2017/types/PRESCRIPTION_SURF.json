@@ -66,11 +66,13 @@
         {
             "id": "812cd270fb662eb741c050af3c58bac3",
             "name": "LIB_IDPSC",
+            "title": "LIB_IDPSC",
             "description": "identifiant d'objets",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_PS[0-9]+",
                 "maxLength": 40
             }
         },

@@ -15,11 +15,13 @@
         {
             "id": "0156a3632d0c428a88b762ba92016ae8",
             "name": "LIB_IDINFO",
+            "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_IS[0-9]+",
                 "maxLength": 40
             }
         },

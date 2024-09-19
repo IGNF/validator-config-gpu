@@ -112,11 +112,13 @@
         {
             "id": "ef1366cc9722db2cf69bc354a774d2c2",
             "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[0-9]{9}_PLUi_[0-9]{8}_HT[0-9]+",
                 "maxLength": 40
             }
         }

@@ -166,11 +166,13 @@
         {
             "id": "d0fa6b19641a813b200280a1b37e1a27",
             "name": "LIB_IDINFO",
+            "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[AB0-9]{5}_POS_[0-9]{8}_IP[0-9]+",
                 "maxLength": 40
             }
         },

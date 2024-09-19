@@ -131,11 +131,13 @@
         {
             "id": "f59da6681d8b4c250eff039a16184c5f",
             "name": "LIB_IDZONE",
+            "title": "LIB_IDZONE",
             "description": "identifiant d'objets",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[AB0-9]{5}_CC_[0-9]{8}_ZO[0-9]+",
                 "maxLength": 40
             }
         },

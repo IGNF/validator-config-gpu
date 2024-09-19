@@ -15,11 +15,13 @@
         {
             "id": "27f155b4e5a48e1b3b30f663edd5a931",
             "name": "LIB_IDPSC",
+            "title": "LIB_IDPSC",
             "description": "identifiant d'objets",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[0-9]{9}_PLUi_[0-9]{8}_PS[0-9]+",
                 "maxLength": 40
             }
         },
