@@ -11,8 +11,7 @@
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(TYPE) REFERENCES ListeTypeSUP(TYPE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
         ]
     },
     "columns": [

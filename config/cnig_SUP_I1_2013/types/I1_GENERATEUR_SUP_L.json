@@ -134,6 +134,9 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "enum": [
+                    "Canalisation"
+                ],
                 "maxLength": 20
             }
         },
