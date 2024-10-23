@@ -107,7 +107,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "PSC-P_[0-9]{2}-[0-9]{2}",
+                "pattern": "PSC-P_[0-9]{2}-[0-9]{3}",
                 "maxLength": 20
             }
         },
