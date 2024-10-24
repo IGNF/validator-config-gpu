@@ -25,6 +25,14 @@
             "mandatory": "ERROR"
         },
         {
+            "id": "842f5adb7484a2af82dc15730a3e6c43",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
             "id": "8308bbc7a31b055e2b4387e8fa9740a1",
             "name": "Donnees_geographiques",
             "title": "Donnees_geographiques",

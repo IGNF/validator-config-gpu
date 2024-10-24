@@ -32,6 +32,19 @@
             }
         },
         {
+            "id": "21a98c1b6191da0723102fad20a77aca",
+            "name": "URLREG",
+            "title": "URLREG",
+            "description": "Lien d’accès au fichier pdf contenant le règlement de la servitude",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
+                "maxLength": 254
+            }
+        },
+        {
             "id": "242adcd91d5707c68cde747e3b56241b",
             "name": "DATEMAJ",
             "title": "DATEMAJ",
@@ -198,6 +211,19 @@
                 "unique": false,
                 "maxLength": 9,
                 "reference": "GESTIONNAIRE_SUP.IDGEST"
+            }
+        },
+        {
+            "id": "ab684dd618ea3d45c21bd192a60c53a5",
+            "name": "NOMREG",
+            "title": "NOMREG",
+            "description": "Nom du fichier pdf contenant le règlement de la servitude",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
+                "maxLength": 100
             }
         },
         {
