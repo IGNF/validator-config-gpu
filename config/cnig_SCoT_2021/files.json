@@ -51,6 +51,15 @@
             "mandatory": "ERROR"
         },
         {
+            "id": "4a17130582e1bc6ec39da701073823eb",
+            "name": "JUGEMENT",
+            "title": "JUGEMENT",
+            "description": "Jugement d'annulation partielle",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_jugement_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "OPTIONAL"
+        },
+        {
             "id": "890d4c22768322a600e43891c7c20589",
             "name": "PROCEDURE",
             "title": "PROCEDURE",
