@@ -1074,7 +1074,6 @@ f0053eb8a1bfe1a63daf3d260cbeb4f7,c602dd86525de9692d5ee781d6b47148,AR1_GENERATEUR
 0cde708ef776ed826be270762d1909ce,cbe1976ffeaf76d6530a0d8a931bf43c,INFO_LIN,INFO_LIN,,table,Donnees_geographiques/<MAILLAGE>_INFO_LIN_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 11ffb48b700b4df3a7870bd9b4de19e2,cbe1976ffeaf76d6530a0d8a931bf43c,ARRETE_MEC,ARRETE_MEC,"Arrêté mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 12c55174897c24bb611702af96427098,cbe1976ffeaf76d6530a0d8a931bf43c,DOC_URBA,DOC_URBA,,table,<MAILLAGE>_DOC_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
-152cfd2dfe83472e9f794010b8a8a785,cbe1976ffeaf76d6530a0d8a931bf43c,0_Procedure,0_Procedure,,directory,Pieces_ecrites/0_Procedure,ERROR
 18a293fe8f3d4e45a513f60647d19aa2,cbe1976ffeaf76d6530a0d8a931bf43c,DELIB_ENGAGEMENT,"Délibération d'engagement","Délibération d'engagement",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_engagement_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 26761923aba94a4ba7287b434377c188,cbe1976ffeaf76d6530a0d8a931bf43c,DECISION_DECLARATION_PROJET,DECISION_DECLARATION_PROJET,"Décision prononçant la déclaration de projet",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_decision_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 27c05a523b4a46609ecab93374392d8a,cbe1976ffeaf76d6530a0d8a931bf43c,JUGEMENT,JUGEMENT,,pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_jugement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
