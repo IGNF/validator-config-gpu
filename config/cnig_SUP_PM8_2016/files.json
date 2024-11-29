@@ -82,39 +82,39 @@
         },
         {
             "id": "d6ea791cc7a9a7bc890c877c3e1d9e86",
-            "name": "I1_ASSIETTE_SUP_S",
-            "title": "I1_ASSIETTE_SUP_S",
-            "path": "Donnees_geographiques/I1_ASSIETTE_SUP_S",
+            "name": "PM8_ASSIETTE_SUP_S",
+            "title": "PM8_ASSIETTE_SUP_S",
+            "path": "Donnees_geographiques/PM8_ASSIETTE_SUP_S",
             "type": "table",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/I1_ASSIETTE_SUP_S.json"
+            "tableModel": "./types/PM8_ASSIETTE_SUP_S.json"
         },
         {
             "id": "ec9a6dd7ec3ba0e38e519056a91382ea",
-            "name": "I1_GENERATEUR_SUP_L",
-            "title": "I1_GENERATEUR_SUP_L",
-            "path": "Donnees_geographiques/I1_GENERATEUR_SUP_L",
+            "name": "PM8_GENERATEUR_SUP_L",
+            "title": "PM8_GENERATEUR_SUP_L",
+            "path": "Donnees_geographiques/PM8_GENERATEUR_SUP_L",
             "type": "table",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/I1_GENERATEUR_SUP_L.json"
+            "tableModel": "./types/PM8_GENERATEUR_SUP_L.json"
         },
         {
             "id": "9f8a3d2db6f36977d65fa02a1971bc2e",
-            "name": "I1_GENERATEUR_SUP_P",
-            "title": "I1_GENERATEUR_SUP_P",
-            "path": "Donnees_geographiques/I1_GENERATEUR_SUP_P",
+            "name": "PM8_GENERATEUR_SUP_P",
+            "title": "PM8_GENERATEUR_SUP_P",
+            "path": "Donnees_geographiques/PM8_GENERATEUR_SUP_P",
             "type": "table",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/I1_GENERATEUR_SUP_P.json"
+            "tableModel": "./types/PM8_GENERATEUR_SUP_P.json"
         },
         {
             "id": "8c0f7c5acd738574b5d83a79365d60ab",
-            "name": "I1_GENERATEUR_SUP_S",
-            "title": "I1_GENERATEUR_SUP_S",
-            "path": "Donnees_geographiques/I1_GENERATEUR_SUP_S",
+            "name": "PM8_GENERATEUR_SUP_S",
+            "title": "PM8_GENERATEUR_SUP_S",
+            "path": "Donnees_geographiques/PM8_GENERATEUR_SUP_S",
             "type": "table",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/I1_GENERATEUR_SUP_S.json"
+            "tableModel": "./types/PM8_GENERATEUR_SUP_S.json"
         }
     ],
     "codes": [
