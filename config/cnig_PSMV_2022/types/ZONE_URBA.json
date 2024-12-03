@@ -215,6 +215,18 @@
                 "unique": false,
                 "maxLength": 254
             }
+        },
+        {
+            "id": "e792c3275d9bf563b9a9e32ed7563b11",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier du règlement de la zone",
+            "type": "Filename",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 80
+            }
         }
     ]
 }

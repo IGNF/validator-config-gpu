@@ -951,6 +951,7 @@ e2ea496557b3117f52f8efe1b1097f0d,422b3a84f421de600e43d03b53137653,LIBELLE,LIBELL
 9a972e78984d6797fe0b1b94b7effe2a,4273aa90b4e064b3d7ffdd16c00b831c,LIBELONG,LIBELONG,"Nom complet littéral de la zone tel qu’il apparaît dans le chapitre du règlement écrit",String,f,f,,,,254,
 ac6a87f0166c79d7e874033915031bf1,4273aa90b4e064b3d7ffdd16c00b831c,WKT,Géométrie,"Géométrie associée",MultiPolygon,t,t,,,,,
 cff4df3599a5e8c38c4e8f98ea7bbdb6,4273aa90b4e064b3d7ffdd16c00b831c,URLFIC,URLFIC,"URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",Url,f,f,,,,254,
+e792c3275d9bf563b9a9e32ed7563b11,4273aa90b4e064b3d7ffdd16c00b831c,NOMFIC,NOMFIC,"Nom du fichier du règlement de la zone",Filename,t,f,,,,80,
 b95f442e41b8805a83e72142bc39a9f2,42db1164da96ab2bff256814f5a9cbdc,WKT,Géométrie,"Géométrie associée",MultiPolygon,t,t,,,,,
 058951a65c9be8e52734c5585e7779f2,43602ccd2a6a8d73b7363a968747076e,LIB_IDPSC,LIB_IDPSC,"identifiant d'objets",String,f,f,,<SIREN>_PLUi_<YYYYMMDD>_PP<ENTIER>,,40,
 121949d6ccc800e94092970a883f941f,43602ccd2a6a8d73b7363a968747076e,STYPEPSC,STYPEPSC,,String,t,f,"[""00"",""01"",""02"",""03"",""04"",""05"",""06"",""07"",""08"",""09"",""10"",""11"",""12"",""13"",""14"",""15"",""16"",""97"",""98""]",,,2,
