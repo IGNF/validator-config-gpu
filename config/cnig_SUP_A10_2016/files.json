@@ -30,7 +30,7 @@
             "title": "REGLEMENT",
             "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
             "type": "pdf",
-            "mandatory": "ERROR"
+            "mandatory": "OPTIONAL"
         },
         {
             "id": "8308bbc7a31b055e2b4387e8fa9740a1",
