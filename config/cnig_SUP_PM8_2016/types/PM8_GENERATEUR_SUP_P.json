@@ -130,7 +130,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Point d’eau, piste DFCI, zone de coupure de combustible"
+                    "Point d’eau"
                 ],
                 "maxLength": 40
             }
