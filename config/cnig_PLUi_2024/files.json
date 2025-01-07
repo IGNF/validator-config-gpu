@@ -384,14 +384,6 @@
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "e30c33e1058d8f05a5c23936f71e4134",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
-        },
-        {
             "id": "2af9d445f946acd683029fbea27d2457",
             "name": "REGLEMENT_XML",
             "title": "REGLEMENT_XML",
@@ -399,6 +391,14 @@
             "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "metadata",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "e30c33e1058d8f05a5c23936f71e4134",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
         },
         {
             "id": "3b2d69b4bc9095e4cbb710d30691a722",
@@ -450,6 +450,24 @@
             "path": "Pieces_ecrites/5_OAP/[0-9]{9}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "5ead9b96f646f222f7d94fe9ce64e6e6",
+            "name": "6_POA",
+            "title": "6_POA",
+            "description": "6_POA",
+            "path": "Pieces_ecrites/6_POA",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "cdd9710069de9ae6ffecf14fb867161c",
+            "name": "POA",
+            "title": "POA",
+            "description": "POA",
+            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "WARN"
         },
         {
             "id": "2a846f9682b343c6b954bb938cb0cd5b",

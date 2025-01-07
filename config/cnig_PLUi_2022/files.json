@@ -289,6 +289,24 @@
             "mandatory": "OPTIONAL"
         },
         {
+            "id": "208a45c6c1d99505bd8ecc900aeb856a",
+            "name": "6_POA",
+            "title": "6_POA",
+            "description": "6_POA",
+            "path": "Pieces_ecrites/6_POA",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
+            "id": "9f4a4778dde972637edaeddc19776c20",
+            "name": "POA",
+            "title": "POA",
+            "description": "POA",
+            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "WARN"
+        },
+        {
             "id": "cfdd7d4f33dd4c0abfb82b6472566c64",
             "name": "7_Plans_de_secteur",
             "title": "7_Plans_de_secteur",
