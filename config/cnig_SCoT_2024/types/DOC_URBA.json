@@ -9,8 +9,7 @@
         ],
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatSCoT(ETAT)",
-            "(TYPEDOC) REFERENCES ListeTypedocSCoT(TYPEDOC)",
-            "(TYPEPROC) REFERENCES ListeTypeprocSCoT(TYPEPROC)"
+            "(TYPEDOC) REFERENCES ListeTypedocSCoT(TYPEDOC)"
         ]
     },
     "columns": [
