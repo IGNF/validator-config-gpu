@@ -36,11 +36,10 @@
             "name": "URLREG",
             "title": "URLREG",
             "description": "Lien d’accès au fichier pdf contenant le règlement de la servitude",
-            "type": "String",
+            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
                 "maxLength": 254
             }
         },
@@ -229,7 +228,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
+                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg.pdf",
                 "maxLength": 100
             }
         },

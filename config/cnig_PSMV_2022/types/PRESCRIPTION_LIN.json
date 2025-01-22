@@ -100,10 +100,12 @@
             "id": "a275ac422568e2ad021e594920165f18",
             "name": "NATURE",
             "title": "NATURE",
+            "description": "Libellé caractérisant un ensemble de prescription",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[a-zA-Z_]+",
                 "maxLength": 50
             }
         },
