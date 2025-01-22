@@ -336,22 +336,6 @@
             "mandatory": "OPTIONAL"
         },
         {
-            "id": "f1fb7eb878edb6ac794174a0f0f7611a",
-            "name": "JUGEMENT",
-            "title": "JUGEMENT",
-            "path": "Pieces_ecrites/0_Procedure/[a-zA-Z0-9]+_jugement_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "e862b83fac7b7d26418c02ddbfee7490",
-            "name": "PROCEDURE",
-            "title": "PROCEDURE",
-            "path": "Pieces_ecrites/0_Procedure/[a-zA-Z0-9]+_procedure_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
-        },
-        {
             "id": "5cff6ba843faf9b8d964b22a7fc564e0",
             "name": "1_Rapport_de_presentation",
             "title": "1_Rapport_de_presentation",

@@ -1117,9 +1117,7 @@ c7a9c4ea3f57982c690cdb6d1e2c0112,cbe1976ffeaf76d6530a0d8a931bf43c,HABILLAGE_LIN,
 d2779aea104824cb3cb01630b451e38b,cbe1976ffeaf76d6530a0d8a931bf43c,PRESCRIPTION,PRESCRIPTION,,pdf,Pieces_ecrites/3_Reglement/<MAILLAGE>_prescription_(lin|pct|surf)(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 e470543af3f36ffa18a9231ff27164c5,cbe1976ffeaf76d6530a0d8a931bf43c,INFO_PCT,INFO_PCT,,table,Donnees_geographiques/<MAILLAGE>_INFO_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 e8087766142099ac5f3f6183a99301b8,cbe1976ffeaf76d6530a0d8a931bf43c,Donnees_geographiques,Donnees_geographiques,,directory,Donnees_geographiques,ERROR
-e862b83fac7b7d26418c02ddbfee7490,cbe1976ffeaf76d6530a0d8a931bf43c,PROCEDURE,PROCEDURE,,pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 ec6b7a73fbd04f3bbb8ec71dcbe3ccb2,cbe1976ffeaf76d6530a0d8a931bf43c,DELIB_OBJECTIF_MODALITES,"Délibération objectifs modalités","Délibération définissant les objectifs poursuivis et les modalités de concertation",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-f1fb7eb878edb6ac794174a0f0f7611a,cbe1976ffeaf76d6530a0d8a931bf43c,JUGEMENT,JUGEMENT,,pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_jugement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 f78848db261d44fdefcc851652b2f391,cbe1976ffeaf76d6530a0d8a931bf43c,PRESCRIPTION_PCT,PRESCRIPTION_PCT,,table,Donnees_geographiques/<MAILLAGE>_PRESCRIPTION_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 13f3a3dc6bc23afb5607facc7743c19d,d26d20a4cedbc11a41af411279850199,I4_ASSIETTE_SUP_S,I4_ASSIETTE_SUP_S,,table,Donnees_geographiques/I4_ASSIETTE_SUP_S,OPTIONAL
 29fa65bd336d88f6192b047ae600c863,d26d20a4cedbc11a41af411279850199,I4_GENERATEUR_SUP_L,I4_GENERATEUR_SUP_L,,table,Donnees_geographiques/I4_GENERATEUR_SUP_L,OPTIONAL
