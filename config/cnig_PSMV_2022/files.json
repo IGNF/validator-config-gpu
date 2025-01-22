@@ -394,6 +394,15 @@
             "mandatory": "ERROR"
         },
         {
+            "id": "6f8b777be54f980ab5de326f86439d14",
+            "name": "3_Reglement_ressources",
+            "title": "3_Reglement_ressources",
+            "description": "3_Reglement_ressources",
+            "path": "Pieces_ecrites/3_Reglement/ressources",
+            "type": "directory",
+            "mandatory": "OPTIONAL"
+        },
+        {
             "id": "ba21fcdcad0f7cd9e1116bb9ad7e4948",
             "name": "4_Annexes",
             "title": "4_Annexes",

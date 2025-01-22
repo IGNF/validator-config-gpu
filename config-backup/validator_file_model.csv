@@ -1095,6 +1095,7 @@ f0053eb8a1bfe1a63daf3d260cbeb4f7,c602dd86525de9692d5ee781d6b47148,AR1_GENERATEUR
 5cff6ba843faf9b8d964b22a7fc564e0,cbe1976ffeaf76d6530a0d8a931bf43c,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
 607e975875f819e909fbaa2475881c4d,cbe1976ffeaf76d6530a0d8a931bf43c,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<MAILLAGE>_reglement_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 618c67910bf84e159636fd4fe4461894,cbe1976ffeaf76d6530a0d8a931bf43c,AVIS_EVAL_ENV,AVIS_EVAL_ENV,"Avis de la commission d’évaluation environnementale",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_avis_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+6f8b777be54f980ab5de326f86439d14,cbe1976ffeaf76d6530a0d8a931bf43c,3_Reglement_ressources,3_Reglement_ressources,3_Reglement_ressources,directory,Pieces_ecrites/3_Reglement/ressources,OPTIONAL
 7c0c67bf944e42caaa8c994be467590c,cbe1976ffeaf76d6530a0d8a931bf43c,AUTRES_PIECES,AUTRES_PIECES,"Autres pièces",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_[a-z_]+_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 818b44aa4d87a5403f05dc664b89b08c,cbe1976ffeaf76d6530a0d8a931bf43c,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<MAILLAGE>_PRESCRIPTION_SURF_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 8847a97af5085dc663c5ce4a0aea3fd6,cbe1976ffeaf76d6530a0d8a931bf43c,HABILLAGE_SURF,HABILLAGE_SURF,,table,Donnees_geographiques/<MAILLAGE>_HABILLAGE_SURF_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
