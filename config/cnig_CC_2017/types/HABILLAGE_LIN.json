@@ -48,7 +48,7 @@
             "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false,
+                "unique": true,
                 "pattern": "[AB0-9]{5}_CC_[0-9]{8}_HL[0-9]+",
                 "maxLength": 40
             }

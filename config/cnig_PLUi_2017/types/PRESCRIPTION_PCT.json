@@ -165,7 +165,7 @@
             "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false,
+                "unique": true,
                 "pattern": "[0-9]{9}_PLUi_[0-9]{8}_PP[0-9]+",
                 "maxLength": 40
             }

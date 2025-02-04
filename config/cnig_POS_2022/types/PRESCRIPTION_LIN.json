@@ -20,7 +20,7 @@
             "type": "String",
             "constraints": {
                 "required": false,
-                "unique": false,
+                "unique": true,
                 "pattern": "[AB0-9]{5}_POS_[0-9]{8}_PL[0-9]+",
                 "maxLength": 40
             }
