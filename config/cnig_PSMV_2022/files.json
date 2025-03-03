@@ -347,7 +347,7 @@
             "id": "9001d65a635f0dbc9b5ecb69d5618b4b",
             "name": "RAPPORT",
             "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[a-zA-Z0-9]+_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[a-zA-Z0-9]+_rapport(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "ERROR"
         },
@@ -368,6 +368,14 @@
             "mandatory": "OPTIONAL"
         },
         {
+            "id": "607e975875f819e909fbaa2475881c4d",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "type": "pdf",
+            "mandatory": "ERROR"
+        },
+        {
             "id": "46be4f9c2853db82b38e27d67d73e29a",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
@@ -381,17 +389,9 @@
             "name": "REGLEMENT_GRAPHIQUE",
             "title": "REGLEMENT_GRAPHIQUE",
             "description": "Le règlement graphique",
-            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement_graphique(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "type": "pdf",
             "mandatory": "OPTIONAL"
-        },
-        {
-            "id": "607e975875f819e909fbaa2475881c4d",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
         },
         {
             "id": "6f8b777be54f980ab5de326f86439d14",
