@@ -12,7 +12,7 @@
             "type": "String",
             "constraints": {
                 "required": false,
-                "unique": true,
+                "unique": false,
                 "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_HL[0-9]+",
                 "maxLength": 40
             }
