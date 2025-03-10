@@ -5,11 +5,11 @@
     "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage",
     "columns": [
         {
+            "type": "String",
             "id": "69b06d50d2d40def0ef8359ba70b4de8",
             "name": "TXT",
             "title": "TXT",
             "description": "Libellé de l'étiquette attachée au point d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -17,22 +17,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "71f5d44bdf6e2e29b7aaa4530cf2af3a",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "eeec2ee5b8ac45e7070d9dd5646a8957",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -40,11 +40,11 @@
             }
         },
         {
+            "type": "String",
             "id": "f10d7b2795d2f58647bf778ad4c2a85f",
             "name": "NATECR",
             "title": "NATECR",
             "description": "Nature de l'écriture",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

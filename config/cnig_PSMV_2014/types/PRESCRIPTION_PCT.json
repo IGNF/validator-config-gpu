@@ -5,11 +5,11 @@
     "description": "Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "columns": [
         {
+            "type": "Url",
             "id": "0dce9a17735e6b58225a37f3a1a2f5d9",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -17,22 +17,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "1423e937be09fe1be25735dea8e8893b",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "27c1e016714764f4599bb18fb5659f96",
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -40,11 +40,11 @@
             }
         },
         {
+            "type": "String",
             "id": "344f8e11c75baed635fda174e6fd063d",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -52,11 +52,11 @@
             }
         },
         {
+            "type": "String",
             "id": "5ffe0be03f44e3a509b39bc2f6b53db5",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -64,11 +64,11 @@
             }
         },
         {
+            "type": "String",
             "id": "661d4845e3b07ba39382bdd33ab94e85",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -76,11 +76,11 @@
             }
         },
         {
+            "type": "String",
             "id": "9fc7c053240cde847b1b0de58c270963",
             "name": "IDPSC",
             "title": "IDPSC",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -89,11 +89,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a0e98bf2476453638322030a3a3f3ecf",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -101,11 +101,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ad63f2405b847e71206f18135d804838",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -124,11 +124,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "dea811fc3eeda1273666c3436f5e21a9",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,

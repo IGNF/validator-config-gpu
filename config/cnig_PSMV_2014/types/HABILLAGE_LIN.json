@@ -5,11 +5,11 @@
     "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "type": "String",
             "id": "642c46d85bbb92a187a66d2b6da0b9a5",
             "name": "IDHAB",
             "title": "IDHAB",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -18,11 +18,11 @@
             }
         },
         {
+            "type": "String",
             "id": "6ad66ed127fab93c7dc7ed037f74d364",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -30,11 +30,11 @@
             }
         },
         {
+            "type": "String",
             "id": "82d59671126918239cc0a21e93968caf",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature de la ligne",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -42,11 +42,11 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "9255d798f6e4229088cb36b60bea3d88",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true

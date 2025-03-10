@@ -5,11 +5,11 @@
     "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "type": "String",
             "id": "04db373c3f2dfdd4466b22ae9de22459",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du polygon",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "099849bdbc1160323e0e23fc63ab5a1e",
             "name": "IDHAB",
             "title": "IDHAB",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -30,22 +30,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "1cdc2dc293a441bf34451252eaa6037e",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "ad6254e4f4a387c6d606a338d02b463b",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

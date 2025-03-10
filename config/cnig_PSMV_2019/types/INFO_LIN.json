@@ -3,18 +3,12 @@
     "name": "INFO_LIN",
     "title": "INFO_LIN",
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
-    "constraints": {
-        "conditions": [],
-        "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "17a06b28548a39321ec4eb1c9fd62a12",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -27,22 +21,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "29bf66f2e4b982347a0c8e95f54f5429",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Filename",
             "id": "383fd092654e0f8bd0102e238dd1172e",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -50,11 +44,11 @@
             }
         },
         {
+            "type": "String",
             "id": "734c229e76df43fb64355426927ef4c4",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information linéaire dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -101,11 +95,11 @@
             }
         },
         {
+            "type": "String",
             "id": "8ba6d981ab76242a43830f470800acf3",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de l'information servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -113,11 +107,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a9d2fd080f6a648a269ffcf1d89fe31f",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -125,11 +119,11 @@
             }
         },
         {
+            "type": "String",
             "id": "da94411b42284c739c33973cfaedce23",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -137,11 +131,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "e68ec24bc26e04e517c45da343e79bc0",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -149,15 +143,21 @@
             }
         },
         {
+            "type": "String",
             "id": "fc615443db1b227af597e068a05890e9",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+        ]
+    }
 }

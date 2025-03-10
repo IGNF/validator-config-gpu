@@ -3,20 +3,13 @@
     "name": "INFO_PCT",
     "title": "INFO_PCT",
     "description": "Table contenant les informations ponctuelles à reporter à titre  d'information",
-    "constraints": {
-        "conditions": [
-            "TYPEINF IS NULL OR TYPEP IS NULL",
-            "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
-        ],
-        "foreignKeys": []
-    },
     "columns": [
         {
+            "type": "Url",
             "id": "09a3a73aceb773bc963e8caeefeb73ee",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -24,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "2d74e8fe6e388cf2ca334bb33fd04d32",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -36,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "380e7b49d7ee28e546f1e41508bb6be2",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -52,11 +45,11 @@
             }
         },
         {
+            "type": "String",
             "id": "6f128052234bdf4e6f1fa2d303068222",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l’information reportée",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -64,11 +57,11 @@
             }
         },
         {
+            "type": "String",
             "id": "8a183c60a5279e9502786ff169a6168b",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -76,11 +69,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "90aa6c744395bf12b42310161a5a12f3",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -88,11 +81,11 @@
             }
         },
         {
+            "type": "String",
             "id": "b6115fa253ab1519164080c6cc14244b",
             "name": "TYPEP",
             "title": "TYPEP",
             "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -103,15 +96,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "c65e8e01fd3576c6595b0729cef37807",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEINF IS NULL OR TYPEP IS NULL",
+            "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
+        ],
+        "foreignKeys": []
+    }
 }

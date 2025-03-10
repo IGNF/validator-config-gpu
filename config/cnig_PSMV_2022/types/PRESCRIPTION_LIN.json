@@ -3,21 +3,12 @@
     "name": "PRESCRIPTION_LIN",
     "title": "PRESCRIPTION_LIN",
     "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
-    "constraints": {
-        "conditions": [
-            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
-            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
-        ],
-        "foreignKeys": [
-            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "12b33e0b5b1e8efc7f13290636c80f9b",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -26,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "15d68fbf7e966f3641645dce523174d2",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -38,11 +29,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "18dc7aee9801428989f96920a4ef6b39",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -50,11 +41,11 @@
             }
         },
         {
+            "type": "String",
             "id": "533994dd36146309c3f76bf60e6452c9",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -62,11 +53,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "66a5e43e84865f32c11e4bc2afc4a6e5",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -74,11 +65,11 @@
             }
         },
         {
+            "type": "String",
             "id": "8de39c917ae159512443140aee4bad39",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -86,22 +77,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "a1f0e45a94c508a016b3c97f8b1c697e",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "a275ac422568e2ad021e594920165f18",
             "name": "NATURE",
             "title": "NATURE",
             "description": "Libellé caractérisant un ensemble de prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -110,11 +101,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ad42b29a496139af5dce8ab332e23044",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -171,10 +162,10 @@
             }
         },
         {
+            "type": "String",
             "id": "c891bf876e5e37e78a6d53524dc87574",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -218,16 +209,25 @@
             }
         },
         {
+            "type": "String",
             "id": "fb57d72c498080ef571d7b8c40828642",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
+            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
+        ]
+    }
 }

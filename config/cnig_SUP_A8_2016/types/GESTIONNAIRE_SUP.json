@@ -5,11 +5,11 @@
     "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique",
     "columns": [
         {
+            "type": "String",
             "id": "2a253091358a1a36e439965c02d3f5b4",
             "name": "IDGEST",
             "title": "IDGEST",
             "description": "Identifiant du gestionnaire",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": true,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "2b697a0b7699d6f96d13e298d4830465",
             "name": "NOMCORRES",
             "title": "NOMCORRES",
             "description": "Correspondant à contacter chez le gestionnaire",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "3439a204b7308140a61be28e22c509b7",
             "name": "NUMTEL",
             "title": "NUMTEL",
             "description": "Numéro de téléphone du point de contact chez le service gestionnaire",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -41,11 +41,11 @@
             }
         },
         {
+            "type": "String",
             "id": "824e83a3efe59ab8acade88e5914ea04",
             "name": "ADRESSE",
             "title": "ADRESSE",
             "description": "Adresse de l'organisme servant aux envois postaux",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -53,11 +53,11 @@
             }
         },
         {
+            "type": "String",
             "id": "956138a6f5718530b01985649660e8cb",
             "name": "NOMGEST",
             "title": "NOMGEST",
             "description": "Nom de l'organisme gestionnaire",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -65,11 +65,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a37af33386dfe5ddeddc430d23ef1d57",
             "name": "COURRIEL",
             "title": "COURRIEL",
             "description": "Adresse électronique du point de contact chez le service gestionnaire",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,

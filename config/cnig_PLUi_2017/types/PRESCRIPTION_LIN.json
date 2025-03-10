@@ -3,21 +3,13 @@
     "name": "PRESCRIPTION_LIN",
     "title": "PRESCRIPTION_LIN",
     "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
-    "constraints": {
-        "conditions": [
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
-        ],
-        "foreignKeys": [
-            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionUrbaType(TYPEPSC, STYPEPSC)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "254261f0c90fc0a738ab91979558808f",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -25,11 +17,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "2ba202f1d71655db7c74ef6ed0c63150",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -37,22 +29,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "40f4ce4c87239403087ed5371d8be4f7",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "76de53a27825ec87ea4820e7762c7067",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -60,11 +52,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7aafdd0b0cd17e782105786fd9306a88",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -72,11 +64,11 @@
             }
         },
         {
+            "type": "String",
             "id": "9f235385708023ceaf46ed6514d0811d",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -134,10 +126,10 @@
             }
         },
         {
+            "type": "String",
             "id": "a9f02f5291791706d6c2e94e98896001",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -161,11 +153,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "c1f9f94c9f62aef27f1685c3d3b8124c",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -173,11 +165,11 @@
             }
         },
         {
+            "type": "String",
             "id": "c5e54d124dc3b4a38266daf44ab6f884",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -185,11 +177,11 @@
             }
         },
         {
+            "type": "String",
             "id": "f8c0f6b0945474049d6a9291d887d827",
             "name": "LIB_IDPSC",
             "title": "LIB_IDPSC",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -197,5 +189,13 @@
                 "maxLength": 40
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionUrbaType(TYPEPSC, STYPEPSC)"
+        ]
+    }
 }

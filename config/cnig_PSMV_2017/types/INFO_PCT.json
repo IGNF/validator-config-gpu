@@ -5,11 +5,11 @@
     "description": "Table contenant les informations ponctuelle à reporter à titre d'information",
     "columns": [
         {
+            "type": "String",
             "id": "014a68c2660c7410eda7aa8c43f8faa6",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "1abbb062a9cff1fba7da2a4ad40ded15",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information ponctuelle dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -64,10 +64,10 @@
             }
         },
         {
+            "type": "String",
             "id": "4e0dc48a1ae23975a8e625bf925de2b6",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -75,10 +75,10 @@
             }
         },
         {
+            "type": "String",
             "id": "566b64babc378f1ec30b20a4e9c2e333",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -91,11 +91,11 @@
             }
         },
         {
+            "type": "String",
             "id": "59751e70148b3c14ff468b8afbd0cffe",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de l'information servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -103,22 +103,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "5bb3fcd1c7edcbd0d732177266ed86fe",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "c33c3b855912515d68381f557567ddd6",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -126,11 +126,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "c61e03be55f7c123081e958df3db08f3",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -138,11 +138,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "d0361990c8e20d857158205f5679c0b9",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,

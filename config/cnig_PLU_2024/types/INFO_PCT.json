@@ -3,21 +3,13 @@
     "name": "INFO_PCT",
     "title": "INFO_PCT",
     "description": "Table contenant les informations ponctuelle à reporter à titre d'information",
-    "constraints": {
-        "conditions": [
-            "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
-        ],
-        "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "1004c439e3b5a120219dba6dce02fdbb",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -25,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "43dc6cf535f634cae328548d5b34ad22",
             "name": "LIB_IDINFO",
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -38,11 +30,11 @@
             }
         },
         {
+            "type": "String",
             "id": "569e9519c795aeb261c51587b107c33b",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information ponctuelle dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -89,11 +81,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7a58e94423a13cc94a2b3a509647f902",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -102,11 +94,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "832c6d83c8e4ef662ed41283a9aab935",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -114,10 +106,10 @@
             }
         },
         {
+            "type": "String",
             "id": "c58b0651f51982da695524c7cd7b65a0",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -131,11 +123,11 @@
             }
         },
         {
+            "type": "String",
             "id": "c6de6eea17daadc1dcb29e6e11a503d9",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de l'information servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -143,22 +135,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "c9a0dde7aa9c31ef092ae5a7c9e9a460",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "ee7972733c1855c8f6654c688666e5af",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -166,10 +158,10 @@
             }
         },
         {
+            "type": "String",
             "id": "ee8040b6637d207d6d9be6c08a9e3801",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -177,16 +169,24 @@
             }
         },
         {
+            "type": "Url",
             "id": "ee9f450b768dc41662880a3ab5fff938",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "maxLength": 254
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
+        ],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+        ]
+    }
 }

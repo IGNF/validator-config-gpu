@@ -3,20 +3,13 @@
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "Table contenant les périmètres à reporter à titre d'information",
-    "constraints": {
-        "conditions": [
-            "TYPEINF IS NULL OR TYPEP IS NULL",
-            "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
-        ],
-        "foreignKeys": []
-    },
     "columns": [
         {
+            "type": "String",
             "id": "06d5d06a616f64c3035b80d400fc27f1",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -24,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "1e6c3eabb6e09b4004f8f8c8e43a9592",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -41,22 +34,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "6bfc707c8c9db7dcff5e89eb82d3c3ec",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "872b227df6e80b7d31353826d5624b7d",
             "name": "TYPEP",
             "title": "TYPEP",
             "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -68,11 +61,11 @@
             }
         },
         {
+            "type": "String",
             "id": "893fc03f8d959190b9556a968de33222",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet du périmètre",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -80,11 +73,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "dbb0132600ec4da5c640bcdf1f5e1d15",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -92,11 +85,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "e5bfd62d21ab018735fe1c0bd67f3d4d",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -104,16 +97,23 @@
             }
         },
         {
+            "type": "String",
             "id": "f14734472015dd822f08900af59789ce",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court du périmètre servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "maxLength": 10
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEINF IS NULL OR TYPEP IS NULL",
+            "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
+        ],
+        "foreignKeys": []
+    }
 }

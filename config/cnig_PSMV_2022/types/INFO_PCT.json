@@ -3,19 +3,13 @@
     "name": "INFO_PCT",
     "title": "INFO_PCT",
     "description": "Table contenant les informations ponctuelle à reporter à titre d'information",
-    "constraints": {
-        "conditions": [],
-        "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "1728093d0e58a4d11c698c2e05b5f84a",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information ponctuelle dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -64,11 +58,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "3b4fb29eda9b4319e036a5d341805c6d",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -76,10 +70,10 @@
             }
         },
         {
+            "type": "String",
             "id": "41d3a2d19bfecc4c1bbf8d3e6fc75485",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -87,11 +81,11 @@
             }
         },
         {
+            "type": "String",
             "id": "5d1a53d5f57b95521aed02e029caf751",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -99,11 +93,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "67c8428591fa239786ccc316eab2ffdc",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -111,11 +105,11 @@
             }
         },
         {
+            "type": "String",
             "id": "711fe435a78d052f860a46e1a3b20340",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -123,21 +117,21 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "7e8b9eea6c0b49268a306467e85dfb5e",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "8a393551a7d1a0d5bf6db133e2374891",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -146,11 +140,11 @@
             }
         },
         {
+            "type": "String",
             "id": "9e8d7b6178aba8a7b6107387055b3ebb",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de l'information servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -158,10 +152,10 @@
             }
         },
         {
+            "type": "String",
             "id": "b32c3492c5f69fe512db1f17f8ca4c59",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -173,5 +167,11 @@
                 "maxLength": 2
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+        ]
+    }
 }

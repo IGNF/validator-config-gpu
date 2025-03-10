@@ -5,11 +5,11 @@
     "description": "Table géographique portant la géométrie du périmètre du SCOT approuvé",
     "columns": [
         {
+            "type": "String",
             "id": "307f1bfaf0ef847c9a2e1b47c9cd7839",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du SCOT (cf table DOC_URBA)",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -18,11 +18,11 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "3c85191456e4ebf7b34c3b7b5fb83250",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true

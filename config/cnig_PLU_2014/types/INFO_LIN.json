@@ -5,11 +5,11 @@
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
     "columns": [
         {
+            "type": "String",
             "id": "001f293efacd8ec4c7c92d1f2d8c5317",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "46130ba4a3bbf72f9ed8e2f212f103c4",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de l'information servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7e65d773af1dce1b5379a2a157cf5295",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -41,11 +41,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a1d6e1a108f5241f52b675ddd58f58d0",
             "name": "IDINFO",
             "title": "IDINFO",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -54,11 +54,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "bb40d844d39f9d82f8b2225b61a3895a",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -66,11 +66,11 @@
             }
         },
         {
+            "type": "String",
             "id": "c22904a140649471e9ed359be676a804",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information linéaire dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -85,22 +85,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "c2878f08163dd9833e86d440d34b4249",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Filename",
             "id": "cb63ebb6ee2a017f692511cf1f078031",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,

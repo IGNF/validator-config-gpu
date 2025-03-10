@@ -4,10 +4,10 @@
     "title": "TITRES_PIECES_ECRITES",
     "columns": [
         {
+            "type": "String",
             "id": "569dc78739a07b7a9b6b3a10b403d837",
             "name": "TITRE",
             "title": "TITRE",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -15,10 +15,10 @@
             }
         },
         {
+            "type": "Filename",
             "id": "bad56449a60bc2bd4af89eb534dbfddc",
             "name": "FICHIER",
             "title": "FICHIER",
-            "type": "Filename",
             "constraints": {
                 "required": true,
                 "unique": false,

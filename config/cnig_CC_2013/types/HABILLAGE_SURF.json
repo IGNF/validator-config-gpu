@@ -5,22 +5,22 @@
     "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage",
     "columns": [
         {
+            "type": "MultiPolygon",
             "id": "2d8f643c04c3bd42ee2e936de301a1a3",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "759883f985f2081ea175b4500f91d242",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du polygon",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -28,11 +28,11 @@
             }
         },
         {
+            "type": "String",
             "id": "9f3b8b2766648037d223ccaf7033337b",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

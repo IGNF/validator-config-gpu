@@ -5,22 +5,22 @@
     "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "type": "MultiPoint",
             "id": "764b328ee8fe65bc7b9cd0db58975258",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "9292225cc256ba0c9a18de0e57c8fe06",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du point",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -28,11 +28,11 @@
             }
         },
         {
+            "type": "String",
             "id": "e6fde4190a0f467b8d7d623593ccacd1",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

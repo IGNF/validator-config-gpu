@@ -5,11 +5,11 @@
     "description": "Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "columns": [
         {
+            "type": "Filename",
             "id": "0a55a541eaa42909b1c39e9b9df04b86",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "0bc24fd3f436268a49253c2bb3e113f7",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "18e61b74d07b87a1558cb93fc56935d0",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -89,11 +89,11 @@
             }
         },
         {
+            "type": "String",
             "id": "23bfcbf2874b506561174c76122f23bf",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -101,22 +101,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "3563186225a11713b1b2d37fd291717e",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "492526837ec3004a0e76dfb941fe69d7",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -124,11 +124,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "6a53feacb31305a4af524050c345b5fb",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -136,10 +136,10 @@
             }
         },
         {
+            "type": "String",
             "id": "aca399dfe68e969df174801017a65cb0",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -160,11 +160,11 @@
             }
         },
         {
+            "type": "String",
             "id": "fed06bfa32440259f84581c0079a34eb",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

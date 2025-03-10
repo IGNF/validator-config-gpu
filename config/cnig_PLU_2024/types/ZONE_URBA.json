@@ -3,19 +3,13 @@
     "name": "ZONE_URBA",
     "title": "ZONE_URBA",
     "description": "Table contenant les zones d'un document PLU ou POS",
-    "constraints": {
-        "conditions": [],
-        "foreignKeys": [
-            "(TYPEZONE) REFERENCES ListeTypezonePLU(TYPEZONE)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "02806811e92cf8f0b42623ab1e6580f8",
             "name": "DESTOUI",
             "title": "DESTOUI",
             "description": "DESTOUI",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -25,11 +19,11 @@
             }
         },
         {
+            "type": "String",
             "id": "17266e3970d1e4a9d82a7dddef21ac1d",
             "name": "DESTNON",
             "title": "DESTNON",
             "description": "DESTNON",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -39,11 +33,11 @@
             }
         },
         {
+            "type": "String",
             "id": "305378e2fb48115a65af891762702c10",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la zone ou de son règlement",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -51,11 +45,11 @@
             }
         },
         {
+            "type": "String",
             "id": "315adc7a6a62bea06d07bd55bf3731c4",
             "name": "TYPEZONE",
             "title": "TYPEZONE",
             "description": "Type de la zone dans une nomenclature simplifiée",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -70,11 +64,11 @@
             }
         },
         {
+            "type": "String",
             "id": "5e42a2394afee84db71c7048614fc2e6",
             "name": "LIBELONG",
             "title": "LIBELONG",
             "description": "Nom complet littéral de la zone tel qu’il apparaît dans le chapitre du règlement écrit",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -82,22 +76,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "706cda2426844fd9954ee6abcbecdad8",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Url",
             "id": "75c8f576c97aed6ffe99bc0f514659e9",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -105,11 +99,11 @@
             }
         },
         {
+            "type": "String",
             "id": "89bc532abb301e272198f9d545665b6e",
             "name": "FORMDOMI",
             "title": "FORMDOMI",
             "description": "FORMDOMI",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -167,11 +161,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "9984506fb9c35af71dd3bc532f5ce78b",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier du règlement de la zone",
-            "type": "Filename",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -179,11 +173,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a230c4918850d6fa5a7db326323c0092",
             "name": "LIB_IDZONE",
             "title": "LIB_IDZONE",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -192,11 +186,11 @@
             }
         },
         {
+            "type": "String",
             "id": "acfa9cc0c63f26d6789695849ecf87ee",
             "name": "DESTCDT",
             "title": "DESTCDT",
             "description": "DESTCDT",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -206,11 +200,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ad699f23e2922e14f767fbc689b16a9d",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -219,11 +213,11 @@
             }
         },
         {
+            "type": "String",
             "id": "cf53f7e72c720a760a17be64278c1b59",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom court de la zone tel qu’il apparaît sur le plan de zonage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -231,16 +225,22 @@
             }
         },
         {
+            "type": "String",
             "id": "d6ee680d9aad862a0d56cab10e3a2b24",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
                 "maxLength": 30
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEZONE) REFERENCES ListeTypezonePLU(TYPEZONE)"
+        ]
+    }
 }

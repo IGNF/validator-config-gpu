@@ -5,11 +5,11 @@
     "description": "Table non géographique associant le SCOT aux communes auxquelles il s’applique",
     "columns": [
         {
+            "type": "String",
             "id": "901fed1b1cf381b839ba9174ae94e7b6",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune sur laquelle il s’applique",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -18,11 +18,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a3c086263b78203c5156b280565f1e1c",
             "name": "EPCI",
             "title": "EPCI",
             "description": "Code SIREN de l’EPCI auquel appartient la commune",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -31,11 +31,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ef4859b17e1a00b049bac5eb5bf3e7d5",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du SCOT (cf table DOC_URBA)",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

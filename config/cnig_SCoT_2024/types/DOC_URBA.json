@@ -3,22 +3,13 @@
     "name": "DOC_URBA",
     "title": "DOC_URBA",
     "description": "Table décrivant le SCOT",
-    "constraints": {
-        "conditions": [
-            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')"
-        ],
-        "foreignKeys": [
-            "(ETAT) REFERENCES ListeEtatSCoT(ETAT)",
-            "(TYPEDOC) REFERENCES ListeTypedocSCoT(TYPEDOC)"
-        ]
-    },
     "columns": [
         {
+            "type": "Filename",
             "id": "0aceae39ab26fa5bfab3f6e1bcb73628",
             "name": "DOO",
             "title": "DOO",
             "description": "om du fichier contenant le document d’orientation et d’objectifs",
-            "type": "Filename",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -26,11 +17,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "1d8d67a5f7cb8f9078f0824cf17ff123",
             "name": "URLDAAC",
             "title": "URLDAAC",
             "description": "Lien d'accès au fichier du DAAC",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -38,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "2d40fad77ed693475548d535cb45e539",
             "name": "TYPEDOC",
             "title": "TYPEDOC",
             "description": "Type de document d’urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -53,11 +44,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "3eb5990dbeaeac4ee05e82280a1b3ce5",
             "name": "URLPE",
             "title": "URLPE",
             "description": "Lien d’accès à l’archive zip comprenant l’ensemble des pièces écrites",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -65,11 +56,11 @@
             }
         },
         {
+            "type": "String",
             "id": "67f85ebe1424d5175939363d8a35cee8",
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date d'approbation du SCOT par délibération de l'EPCI après enquête publique",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -77,11 +68,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "6e85c9bb3c7fa7b59d55ae790ccf6aea",
             "name": "SITEWEB",
             "title": "SITEWEB",
             "description": "Page web du service de consultation du SCOT offert par l’autorité compétente",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -89,11 +80,11 @@
             }
         },
         {
+            "type": "String",
             "id": "849a3a317a8a8162b7e27ddb847cdd4f",
             "name": "SIREN",
             "title": "SIREN",
             "description": "Code SIREN de l'organisme responsable et porteur du SCOT",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -102,10 +93,10 @@
             }
         },
         {
+            "type": "Url",
             "id": "86c0a8bb66128ed57eb5abe506523722",
             "name": "URLPAS",
             "title": "URLPAS",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -113,10 +104,10 @@
             }
         },
         {
+            "type": "Filename",
             "id": "89bf1696b11bb459eb6a77309b1ff414",
             "name": "PAS",
             "title": "PAS",
-            "type": "Filename",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -124,11 +115,11 @@
             }
         },
         {
+            "type": "String",
             "id": "acf5c7f6643b29ff927cdffb4071bc82",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du SCOTConstitue une clé externe dans les autres tables du lot de données",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -137,11 +128,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "b7f28e1e61756e84956399089a37bf9b",
             "name": "DAAC",
             "title": "DAAC",
             "description": "Nom du fichier contenant le projet d'aménagement et de développement durables",
-            "type": "Filename",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -149,11 +140,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "c66db0e96df751fd667e53ff0c21131b",
             "name": "URLDOO",
             "title": "URLDOO",
             "description": "Lien d'accès au fichier du document d’orientation et d’objectifs",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -161,11 +152,11 @@
             }
         },
         {
+            "type": "String",
             "id": "d6297aac7575621800698216408fc54b",
             "name": "NOM",
             "title": "NOM",
             "description": "Dénomination du SCOT",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -173,11 +164,11 @@
             }
         },
         {
+            "type": "String",
             "id": "d6b095875175064f97682c720a5d4f0e",
             "name": "DATEFIN",
             "title": "DATEFIN",
             "description": "Date de fin de validité du SCOT. Si le SCOT est remplacé, cette date correspond à la date d'approbation du SCOT qui le remplace.Si le SCOT est annulé, cette date correspond à la date d'annulation.",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -185,11 +176,11 @@
             }
         },
         {
+            "type": "String",
             "id": "dfef658c5e7d0fdafbe97f19fb1f673f",
             "name": "ETAT",
             "title": "ETAT",
             "description": "État du SCOT au regard de sa procédure",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -206,11 +197,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ed59e83008874c75c8970820aa13d0d6",
             "name": "TYPEPROC",
             "title": "TYPEPROC",
             "description": "Nature de la procédure administrative engagée pour aboutir au document opposable",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -218,5 +209,14 @@
                 "maxLength": 10
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')"
+        ],
+        "foreignKeys": [
+            "(ETAT) REFERENCES ListeEtatSCoT(ETAT)",
+            "(TYPEDOC) REFERENCES ListeTypedocSCoT(TYPEDOC)"
+        ]
+    }
 }

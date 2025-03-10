@@ -3,19 +3,13 @@
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "INFO_SURF",
-    "constraints": {
-        "conditions": [],
-        "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "16eb769b6a888bdf54f5a55308d7a550",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type de périmètre dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -64,10 +58,10 @@
             }
         },
         {
+            "type": "String",
             "id": "1eaa9bffdd497ab3d08dff133c09947b",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -80,11 +74,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "55f9cdda78d7d8984480d9f97f917f33",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -92,11 +86,11 @@
             }
         },
         {
+            "type": "String",
             "id": "58431b15281fb8b74569f8d4eac453d8",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court du périmètre servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -104,11 +98,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "6e51fd7bc472bc6cbb2f8b2054b57bad",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -116,22 +110,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "8350e603bfb936beb78eaea7b7a5b65a",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "923da11ceb9eb71f2f9a699e75192e2e",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -139,10 +133,10 @@
             }
         },
         {
+            "type": "String",
             "id": "9845f6907d26378c0bb58485cd4143bd",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -150,11 +144,11 @@
             }
         },
         {
+            "type": "String",
             "id": "e5dba53cd10346df350ce926958ddac0",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet du périmètre",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -162,10 +156,10 @@
             }
         },
         {
+            "type": "String",
             "id": "ee6b4b815dc3071b5fe7cbdc23b362a8",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -173,5 +167,11 @@
                 "maxLength": 20
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+        ]
+    }
 }

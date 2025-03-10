@@ -5,11 +5,11 @@
     "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage",
     "columns": [
         {
+            "type": "String",
             "id": "19592acb58ffab3e81c347b523e9675f",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -18,11 +18,11 @@
             }
         },
         {
+            "type": "String",
             "id": "1be62e1888aaffe60ce07d84e2502301",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -31,11 +31,11 @@
             }
         },
         {
+            "type": "String",
             "id": "2fecfbe103f9de320416d5b41ab97fb2",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -43,22 +43,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "7f28b3907356a64c1f10f192c07abe67",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "ebf270460ea49da83fed4a09096dd22f",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du polygon",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

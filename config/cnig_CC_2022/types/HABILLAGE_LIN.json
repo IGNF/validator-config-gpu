@@ -5,22 +5,22 @@
     "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage",
     "columns": [
         {
+            "type": "MultiLineString",
             "id": "29c39d4b12457addf61ec7930f9a64ab",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "2f7f937fe73a1df5c7ebeeaab6d84cc3",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "3621dc99430401c594a998e15cf4cbf6",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -42,11 +42,11 @@
             }
         },
         {
+            "type": "String",
             "id": "4474d72710523e375f73a0e1887b3627",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -54,11 +54,11 @@
             }
         },
         {
+            "type": "String",
             "id": "79c54cbea5acdd694b6c58fca491d2ab",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature de la ligne",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

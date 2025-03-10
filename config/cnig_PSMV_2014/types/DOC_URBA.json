@@ -5,11 +5,11 @@
     "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
     "columns": [
         {
+            "type": "String",
             "id": "1e3cc15003d3225e7e3fe2e6b6c21a6e",
             "name": "SIREN",
             "title": "SIREN",
             "description": "Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "2a98324c346b811cab9c532a12a978c3",
             "name": "URLREG",
             "title": "URLREG",
             "description": "URL ou URI qui pointe sur le fichier du règlement papier complet scanné",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "31d63a9d501de03fa7791a3de31420c1",
             "name": "DATEREF",
             "title": "DATEREF",
             "description": "Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -41,11 +41,11 @@
             }
         },
         {
+            "type": "String",
             "id": "3e63b73687f46bdd34e5507e484be086",
             "name": "TYPEREF",
             "title": "TYPEREF",
             "description": "Nom du référentiel cadastral utilisé pour la numérisation",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -57,11 +57,11 @@
             }
         },
         {
+            "type": "String",
             "id": "429407c7263ffd43dcfae3b2226eb9c0",
             "name": "INTERCO",
             "title": "INTERCO",
             "description": "Indique si le document d'urbanisme est intercommunal",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -73,11 +73,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "619376778a856d667126c97e76bf5e60",
             "name": "URLPLAN",
             "title": "URLPLAN",
             "description": "URL ou URI qui pointe sur le fichier du plan scanné",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -85,11 +85,11 @@
             }
         },
         {
+            "type": "String",
             "id": "657c4fb0c6e9f45ed2b23fa9d0bbddd4",
             "name": "TYPEDOC",
             "title": "TYPEDOC",
             "description": "Type du document",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -103,11 +103,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7002de0c77d507d4d2484a78aa951173",
             "name": "SITEWEB",
             "title": "SITEWEB",
             "description": "Page web du service de consultation du PLU offert par la collectivité locale",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -115,11 +115,11 @@
             }
         },
         {
+            "type": "String",
             "id": "b26ff16087a451aad1af52a890679e23",
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -127,11 +127,11 @@
             }
         },
         {
+            "type": "String",
             "id": "cefc82681ba3f20b0430fff59ba055bc",
             "name": "ETAT",
             "title": "ETAT",
             "description": "Etat juridique du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -148,11 +148,11 @@
             }
         },
         {
+            "type": "String",
             "id": "d5efd7b9d35e4a023ea55da47a502a39",
             "name": "NOMPLAN",
             "title": "NOMPLAN",
             "description": "Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -160,11 +160,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ea9548c41d41f6eef081ef066c7e2ef1",
             "name": "NOMREG",
             "title": "NOMREG",
             "description": "Nom du fichier contentant le document complet du règlement",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -172,11 +172,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ed3e4626423a3fd6dfb153a43b799549",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -184,11 +184,11 @@
             }
         },
         {
+            "type": "String",
             "id": "f849d628a4f1d79b0b9d3f92ff4dedee",
             "name": "DATEFIN",
             "title": "DATEFIN",
             "description": "Date de fin de validité du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,

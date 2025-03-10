@@ -5,22 +5,22 @@
     "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "type": "MultiPoint",
             "id": "01025967b47a92600feb25887cc286a7",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "915785be0fe2334b8f39421173ebaefa",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a1a666bd05f50d1468c00ae253afc1e8",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -41,11 +41,11 @@
             }
         },
         {
+            "type": "String",
             "id": "c8cccb6bf5d5a03e0ab4b56d473192e0",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du point",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

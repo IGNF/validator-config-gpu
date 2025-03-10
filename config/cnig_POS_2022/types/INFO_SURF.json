@@ -3,21 +3,13 @@
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "INFO_SURF",
-    "constraints": {
-        "conditions": [
-            "NOMFIC NOT NULL OR TYPEINF NOT LIKE '97'"
-        ],
-        "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "128339c050c3f7761dc50836aa6de375",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet du périmètre",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -25,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "2d22ba4fbb74b703e64730539383cd20",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -37,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "52711c7c883ab1da7c9fde32598a6420",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type de périmètre dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -88,11 +80,11 @@
             }
         },
         {
+            "type": "String",
             "id": "55e3893242a91bd5b0b8daaca78c7890",
             "name": "LIB_IDINFO",
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -101,11 +93,11 @@
             }
         },
         {
+            "type": "String",
             "id": "5bf8aa42156a44549912aa8267298810",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court du périmètre servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -113,21 +105,21 @@
             }
         },
         {
+            "type": "Date",
             "id": "64516aa61218b0c5ea53e053d49a2fe9",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "Date",
             "constraints": {
                 "required": false,
                 "unique": false
             }
         },
         {
+            "type": "Url",
             "id": "6a9bd0f7fae51ef9afb63eeee903f933",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -135,22 +127,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "ab48ea8213e551bed72dd27505d038ae",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Filename",
             "id": "b9b97950faa7185e02c88a9bde0f3078",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -158,10 +150,10 @@
             }
         },
         {
+            "type": "String",
             "id": "d4268552689e70678fad642863c6cd42",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -175,16 +167,24 @@
             }
         },
         {
+            "type": "String",
             "id": "e6e8a8daeddad3a03dcfa9f363ff4ef6",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "maxLength": 20
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "NOMFIC NOT NULL OR TYPEINF NOT LIKE '97'"
+        ],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+        ]
+    }
 }

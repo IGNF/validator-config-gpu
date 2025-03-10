@@ -5,11 +5,11 @@
     "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "type": "String",
             "id": "23b74f0208b04ad56812aae81530680d",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -18,11 +18,11 @@
             }
         },
         {
+            "type": "String",
             "id": "6582e0be129b81d02b250c32866c2e3f",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature de la ligne",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -30,11 +30,11 @@
             }
         },
         {
+            "type": "String",
             "id": "97bbe65de5a27dfe16e6d56b1ab7096d",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -42,22 +42,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "9a521c822c62f91af5721ef7ac2019a9",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "d69dc67a1f2e8a3e8c40a0146b7a0051",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,

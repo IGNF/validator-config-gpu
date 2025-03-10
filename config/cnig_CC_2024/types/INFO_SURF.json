@@ -3,25 +3,13 @@
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "Table contenant les périmètres à reporter à titre d'information",
-    "constraints": {
-        "conditions": [
-            "TYPEINF IS NOT NULL",
-            "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
-            "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
-        ],
-        "foreignKeys": [
-            "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
-            "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "0d035e6539cbcfb6a8329848c1015578",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -67,11 +55,11 @@
             }
         },
         {
+            "type": "String",
             "id": "1e2936cced551bd1fab3a380a79cb23f",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -79,11 +67,11 @@
             }
         },
         {
+            "type": "String",
             "id": "281a00afe47efce9495a87cd7de2ed04",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court du périmètre servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -91,11 +79,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "38c91da0e84225a0e844dda4ff1a1973",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -103,11 +91,11 @@
             }
         },
         {
+            "type": "String",
             "id": "42ec4fce000604e5b44fa375cd0d370c",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet du périmètre",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -115,11 +103,11 @@
             }
         },
         {
+            "type": "String",
             "id": "4472b0da6eb36b78bb98bb51635d578b",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -128,10 +116,10 @@
             }
         },
         {
+            "type": "String",
             "id": "63002b6096aabbbb3ada9e334a4d0392",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -139,22 +127,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "796f7883d3b8e43c94069718c77a26f0",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "8ccfbaaef0a393e4be4468a737ccea38",
             "name": "NATURE",
             "title": "NATURE",
             "description": "NATURE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -162,10 +150,10 @@
             }
         },
         {
+            "type": "String",
             "id": "cf5388762e04c808b060bc903098e6da",
             "name": "STYPEP",
             "title": "STYPEP",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -188,10 +176,10 @@
             }
         },
         {
+            "type": "String",
             "id": "da9545467756a3772fa0ee2fb3f73f90",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -204,11 +192,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "dd0d73be7372168b38d421e5f83aa908",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -216,11 +204,11 @@
             }
         },
         {
+            "type": "String",
             "id": "e245c4d17be198873103f62bc1d91d68",
             "name": "TYPEP",
             "title": "TYPEP",
             "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -277,11 +265,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ea008649c6746b466f2762143c4abbaa",
             "name": "LIB_IDINFO",
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -289,5 +277,17 @@
                 "maxLength": 40
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEINF IS NOT NULL",
+            "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
+            "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
+        ],
+        "foreignKeys": [
+            "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
+            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
+            "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
+        ]
+    }
 }

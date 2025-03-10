@@ -5,11 +5,11 @@
     "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "type": "String",
             "id": "1f10cf365087170bc2bf2930e0b3f27d",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -18,11 +18,11 @@
             }
         },
         {
+            "type": "String",
             "id": "5beb34e2cd405756e176063df4b4f380",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du point",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -30,11 +30,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7fb94fbcb9c054ec4ba7d09555f837db",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -42,11 +42,11 @@
             }
         },
         {
+            "type": "String",
             "id": "aaadca7773064f95b16b3e950757593d",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -55,11 +55,11 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "e588ec6f6cd9f1bea754d04144f6eddc",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true

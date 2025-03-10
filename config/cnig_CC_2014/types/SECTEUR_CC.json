@@ -5,11 +5,11 @@
     "description": "Table contenant les secteurs de la carte communale",
     "columns": [
         {
+            "type": "String",
             "id": "17fb98232b3efed0fee008a855f6453f",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune couverte par le secteur",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "34af6cd2ceb2af3ab12360ea70b0ee1d",
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date d'approbation du document d'urbanisme auquel appartient la zone",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "388690a6a37bce19405c283c51c4bbe8",
             "name": "DESTDOMI",
             "title": "DESTDOMI",
             "description": "Vocation dominante de la zone, concerne l’usage de la zone",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -48,11 +48,11 @@
             }
         },
         {
+            "type": "String",
             "id": "39fd8959f59d313bc92a8a1ccda1d35b",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation du secteur ou de ses dispositions particulières",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -60,11 +60,11 @@
             }
         },
         {
+            "type": "String",
             "id": "3a7526e25eed55a46fdd5014db4b1d78",
             "name": "TYPESECT",
             "title": "TYPESECT",
             "description": "Type du secteur dans une nomenclature simplifiée",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -78,11 +78,11 @@
             }
         },
         {
+            "type": "String",
             "id": "49238a7c9bdf9b82dd10bd1cbaaea8c9",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Libellé du secteur tel que le définit la carte communale",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -90,22 +90,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "88f70c36300a814b2b6e8b07e4c5f410",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Filename",
             "id": "9eb8455b227ef98f397ee0b60569b7da",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant les dispositions particulières du secteur",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -113,11 +113,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "d0345e632d58a2c137876dc44aae91eb",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -125,11 +125,11 @@
             }
         },
         {
+            "type": "String",
             "id": "d429970d8a10784776cde254b78c42e4",
             "name": "FERMRECO",
             "title": "FERMRECO",
             "description": "Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,

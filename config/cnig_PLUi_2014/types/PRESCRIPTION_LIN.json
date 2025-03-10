@@ -5,11 +5,11 @@
     "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "columns": [
         {
+            "type": "String",
             "id": "011cb40c7011bfcacd4d89352f8f9e03",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -31,22 +31,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "01a4c429c5c9476a7deefd988eb63935",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Url",
             "id": "10fcf9b0ca0bfad7e394108fbfa2969f",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -54,11 +54,11 @@
             }
         },
         {
+            "type": "String",
             "id": "61c7515ac34fe86cf7ebe76b776c2521",
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -66,11 +66,11 @@
             }
         },
         {
+            "type": "String",
             "id": "62eb6027794c3a5d820994607079eac9",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -78,11 +78,11 @@
             }
         },
         {
+            "type": "String",
             "id": "af6df72869043f9ecaa9683139e08433",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -90,11 +90,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "e43adb68e8bb88def52699347ba5dfe7",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -102,11 +102,11 @@
             }
         },
         {
+            "type": "String",
             "id": "f2c6906131b268200ff895d97e317ce4",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -114,11 +114,11 @@
             }
         },
         {
+            "type": "String",
             "id": "fc214661cfcdfa16fab8375446153231",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -126,11 +126,11 @@
             }
         },
         {
+            "type": "String",
             "id": "fed0c52cf0efb171e18dbdaef6b7ba52",
             "name": "IDPSC",
             "title": "IDPSC",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,

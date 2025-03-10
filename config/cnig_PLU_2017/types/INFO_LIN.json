@@ -3,21 +3,13 @@
     "name": "INFO_LIN",
     "title": "INFO_LIN",
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
-    "constraints": {
-        "conditions": [
-            "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
-        ],
-        "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "0d38b8258c4feeecab80112c73e08ed1",
             "name": "LIB_IDINFO",
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -26,11 +18,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "0ed02a059297df48cfac9ee82247e6f2",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -38,22 +30,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "4aeae168d4aa843c68bb3636caa40d0f",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Url",
             "id": "5bc6e97d68089f5eb2a2816301abc125",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -61,10 +53,10 @@
             }
         },
         {
+            "type": "String",
             "id": "6211c6e83ff6c1266fadefe8b2f19730",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -72,10 +64,10 @@
             }
         },
         {
+            "type": "String",
             "id": "7d68b4486392bd89c1e130056ddcff91",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -88,11 +80,11 @@
             }
         },
         {
+            "type": "String",
             "id": "8d9d4c854e5b274a50cb9d25887a5bf3",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -100,11 +92,11 @@
             }
         },
         {
+            "type": "String",
             "id": "944f043d6fff85e5c7d5f5fd2d4da533",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -112,11 +104,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ab57584520ed791453e3ffe3745a8d09",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de l'information servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -124,11 +116,11 @@
             }
         },
         {
+            "type": "String",
             "id": "dd7a0f48c6d4ed5e823d748ff3954463",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information linéaire dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -172,5 +164,13 @@
                 "maxLength": 2
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
+        ],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+        ]
+    }
 }

@@ -3,22 +3,13 @@
     "name": "PRESCRIPTION_SURF",
     "title": "PRESCRIPTION_SURF",
     "description": "Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
-    "constraints": {
-        "conditions": [
-            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
-            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
-        ],
-        "foreignKeys": [
-            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "074a49f5a796b925b3b734931110302e",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -26,22 +17,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "0f03eea848fa54207608200362dfca41",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "1f3325a8ce02e889b0a4bd95a6e351ff",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -49,11 +40,11 @@
             }
         },
         {
+            "type": "String",
             "id": "2f69318354c75a5fe88b0b2a3050cfb5",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -110,11 +101,11 @@
             }
         },
         {
+            "type": "String",
             "id": "3226a608a487e48735667def28f383fa",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -122,11 +113,11 @@
             }
         },
         {
+            "type": "String",
             "id": "74044ddc925047c24d380c45d5c9e7b3",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -134,10 +125,10 @@
             }
         },
         {
+            "type": "String",
             "id": "b80950c6344e6844b6c52cd00a7e4b59",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -179,11 +170,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "e24b2311ad3b6e4803d53433bc0cee40",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -191,16 +182,25 @@
             }
         },
         {
+            "type": "Filename",
             "id": "f0e839caa1fc6ead75f075c80bb2f5de",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "maxLength": 80
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
+            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
+        ]
+    }
 }

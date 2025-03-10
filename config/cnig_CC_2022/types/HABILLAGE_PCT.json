@@ -5,11 +5,11 @@
     "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage",
     "columns": [
         {
+            "type": "String",
             "id": "0109601a766791379df4a3ea78802115",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -18,22 +18,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "23e714ec52ca5df181a0f1d3115defe5",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "330f1cc7ae2b7a14099909c40a7e0439",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -42,11 +42,11 @@
             }
         },
         {
+            "type": "String",
             "id": "93eee3f98c19523945f35ba5681a7332",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du point",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -54,11 +54,11 @@
             }
         },
         {
+            "type": "String",
             "id": "bcfa2d7d999eca4fae19c99138a90b68",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

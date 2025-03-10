@@ -5,11 +5,11 @@
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
     "columns": [
         {
+            "type": "String",
             "id": "0a41780a46e0035b9e6b7c30e55ed7bd",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de l'information servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "4a7281028bf8b3851ba1289a6da7890f",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "4f6f97e83bb3b257ec7ce4bfc599590b",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -41,11 +41,11 @@
             }
         },
         {
+            "type": "String",
             "id": "61e630d5275101c1c263226c5415b5b6",
             "name": "IDINFO",
             "title": "IDINFO",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -54,11 +54,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "64901e3c880afad4df6fbb042d440b6a",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -66,11 +66,11 @@
             }
         },
         {
+            "type": "String",
             "id": "b72de8b92064730f325a01d5bb9caaf9",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -78,11 +78,11 @@
             }
         },
         {
+            "type": "String",
             "id": "c99728fe6c5a200da228dcd636b4436c",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information linéaire dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -97,11 +97,11 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "faba85a54a5c4335242f0fa71cf3879a",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true

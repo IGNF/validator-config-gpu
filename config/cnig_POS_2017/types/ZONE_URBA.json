@@ -5,11 +5,11 @@
     "description": "Table contenant les zones d'un document PLU ou POS",
     "columns": [
         {
+            "type": "String",
             "id": "0d72edd750d3c2d2c0709030e40f2bad",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la zone ou de son règlement",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -17,22 +17,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "4aea30516f8f22e35250b57bf30455e1",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Url",
             "id": "60637962d336531ce5ff40c755d1d72b",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -40,11 +40,11 @@
             }
         },
         {
+            "type": "String",
             "id": "89468000cd987ed4f971b3bc2a8d1bb5",
             "name": "LIBELONG",
             "title": "LIBELONG",
             "description": "Nom complet littéral de la zone tel qu’il apparaît dans le chapitre du règlement écrit",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -52,11 +52,11 @@
             }
         },
         {
+            "type": "String",
             "id": "976854606ee4653697e8e3f8681c04d1",
             "name": "TYPEZONE",
             "title": "TYPEZONE",
             "description": "Type de la zone dans une nomenclature simplifiée",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -71,11 +71,11 @@
             }
         },
         {
+            "type": "String",
             "id": "996cc74af3ea5ef4df9b5a90c6691a4b",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom court de la zone tel qu’il apparaît sur le plan de zonage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -83,11 +83,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "caf21b9c32cb2234294f7adce149d890",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier du règlement de la zone",
-            "type": "Filename",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -95,11 +95,11 @@
             }
         },
         {
+            "type": "String",
             "id": "e3f9c4c8f955fc812e10a02799818543",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

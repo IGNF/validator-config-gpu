@@ -3,26 +3,13 @@
     "name": "AR1_ASSIETTE_SUP_S",
     "title": "AR1_ASSIETTE_SUP_S",
     "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
-    "constraints": {
-        "conditions": [
-            "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
-            "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
-            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
-        ],
-        "foreignKeys": [
-            "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
-            "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
-            "(HREF) REFERENCES ListeHrefSUP(HREF)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "0023559dbbddf1de2ba179594527e8bd",
             "name": "IDASS",
             "title": "IDASS",
             "description": "Identifiant de l'assiette",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": true,
@@ -31,11 +18,11 @@
             }
         },
         {
+            "type": "String",
             "id": "03269ee3b188584738d51d38c542437c",
             "name": "IDGEN",
             "title": "IDGEN",
             "description": "Identifiant du générateur de l'assiette",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -44,11 +31,11 @@
             }
         },
         {
+            "type": "String",
             "id": "103d375653943c30dc6f6c45e4c326d6",
             "name": "SRCGEOASS",
             "title": "SRCGEOASS",
             "description": "Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -56,11 +43,11 @@
             }
         },
         {
+            "type": "String",
             "id": "1b9a55e805706f3155f9f4acd1131438",
             "name": "DATESRCASS",
             "title": "DATESRCASS",
             "description": "Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -68,11 +55,11 @@
             }
         },
         {
+            "type": "String",
             "id": "49af99b76af6e56c80ae2280e13ffbec",
             "name": "MODEGEOASS",
             "title": "MODEGEOASS",
             "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -91,62 +78,62 @@
             }
         },
         {
+            "type": "Integer",
             "id": "5ebeb3ba2af08776854483e3a86134dc",
             "name": "PARAMCALC",
             "title": "PARAMCALC",
             "description": "Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon",
-            "type": "Integer",
             "constraints": {
                 "required": false,
                 "unique": false
             }
         },
         {
+            "type": "Integer",
             "id": "084023d10d64a65537458c979eb1b6de",
             "name": "ANGLE2",
             "title": "ANGLE2",
-            "type": "Integer",
             "constraints": {
                 "required": true,
                 "unique": false
             }
         },
         {
+            "type": "Integer",
             "id": "14e6d73eaceec6c395704bcb65a762ee",
             "name": "RAYON",
             "title": "RAYON",
-            "type": "Integer",
             "constraints": {
                 "required": true,
                 "unique": false
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "1f33504053a4aee52f2cfb692ce4e7d3",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Double",
             "id": "34b909381abed3dacc7b5d8d0d2a7d77",
             "name": "H",
             "title": "H",
-            "type": "Double",
             "constraints": {
                 "required": true,
                 "unique": false
             }
         },
         {
+            "type": "String",
             "id": "9779ea613674062bcaceaaf942dddfc3",
             "name": "HREF",
             "title": "HREF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -158,20 +145,20 @@
             }
         },
         {
+            "type": "Integer",
             "id": "a513438b0721e65dd4340e9a168a3af1",
             "name": "ANGLE1",
             "title": "ANGLE1",
-            "type": "Integer",
             "constraints": {
                 "required": true,
                 "unique": false
             }
         },
         {
+            "type": "String",
             "id": "a76f8937b25ea877fbadb71195cb022c",
             "name": "NOMASS",
             "title": "NOMASS",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -180,10 +167,10 @@
             }
         },
         {
+            "type": "String",
             "id": "fe0ceb82f2b4a9d64e48cc0ef17fb63a",
             "name": "TYPEASS",
             "title": "TYPEASS",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -193,5 +180,18 @@
                 "maxLength": 40
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
+            "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
+        ],
+        "foreignKeys": [
+            "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
+            "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
+            "(HREF) REFERENCES ListeHrefSUP(HREF)"
+        ]
+    }
 }

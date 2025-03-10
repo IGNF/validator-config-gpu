@@ -5,22 +5,22 @@
     "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "columns": [
         {
+            "type": "MultiLineString",
             "id": "1cf64db5aaabccdf0147ac6b75c8b357",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "42b83fd71a22d7da92aaade6fb13143d",
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -28,11 +28,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7ed8b85067de17353443633979925424",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -50,11 +50,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7fa5b5a6ee4b891aa8a47e61bacee81c",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -62,11 +62,11 @@
             }
         },
         {
+            "type": "String",
             "id": "9692ab3ab61ede6dac8814a76300a03b",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -74,11 +74,11 @@
             }
         },
         {
+            "type": "String",
             "id": "9aad4746039b7409c00e00e12fef211a",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -86,11 +86,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "a798110b37761b767e00ede038f459b2",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -98,11 +98,11 @@
             }
         },
         {
+            "type": "String",
             "id": "c04e83139e96298b76a559da59abbb4e",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -110,11 +110,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "d138431fddd6c5c5f1ecd5d2010ace49",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,

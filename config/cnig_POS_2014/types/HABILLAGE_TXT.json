@@ -5,10 +5,10 @@
     "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "type": "String",
             "id": "245305b2536ab41ab408114d7374e836",
             "name": "POLICE",
             "title": "POLICE",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -16,20 +16,20 @@
             }
         },
         {
+            "type": "Integer",
             "id": "5c15f5ce404387c8a849b691e736e497",
             "name": "TAILLE",
             "title": "TAILLE",
-            "type": "Integer",
             "constraints": {
                 "required": true,
                 "unique": false
             }
         },
         {
+            "type": "String",
             "id": "7269cca7e9135a1bfa6e2019cf29e756",
             "name": "STYLE",
             "title": "STYLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -37,22 +37,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "9dd820a287e66d1bd18940f6886f0359",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "c51d7e7c3b5d1bfbf9d03a5691eb4086",
             "name": "NATECR",
             "title": "NATECR",
             "description": "Nature de l'écriture",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -60,11 +60,11 @@
             }
         },
         {
+            "type": "String",
             "id": "db5f25ff3d637281da66a971bd9f8d08",
             "name": "TXT",
             "title": "TXT",
             "description": "Libellé de l'étiquette attachée au point d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -72,11 +72,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ea1895f34c5ac0fc6339233fbf9bf9e3",
             "name": "IDHAB",
             "title": "IDHAB",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -85,21 +85,21 @@
             }
         },
         {
+            "type": "Integer",
             "id": "f681a9ab6719593dbc5aef94dab0ffe4",
             "name": "ANGLE",
             "title": "ANGLE",
-            "type": "Integer",
             "constraints": {
                 "required": false,
                 "unique": false
             }
         },
         {
+            "type": "String",
             "id": "f7422d2dcbfec74745ed80b8d48ebc37",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

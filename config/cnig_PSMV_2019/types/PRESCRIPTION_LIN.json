@@ -3,22 +3,13 @@
     "name": "PRESCRIPTION_LIN",
     "title": "PRESCRIPTION_LIN",
     "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
-    "constraints": {
-        "conditions": [
-            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
-            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
-        ],
-        "foreignKeys": [
-            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "19838e88f79d7ece4402ca2a50972e00",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -26,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "55614c39883cb9241b2cd3dba85167b9",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -38,10 +29,10 @@
             }
         },
         {
+            "type": "String",
             "id": "640484b22d550d0479edc88b07db8299",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -83,11 +74,11 @@
             }
         },
         {
+            "type": "String",
             "id": "87c703efc35a45f2a37b3ea3d2822ad1",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -95,22 +86,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "b30be2f774bc52ed1ba0dac94ef5ed25",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "c4483c70a294ab4544b53e25c1ea4573",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -118,11 +109,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "ceca49dca7d09bcaccf706fd167463da",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -130,11 +121,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "d5905ca96e7a0c5bf84da845acd40771",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -142,11 +133,11 @@
             }
         },
         {
+            "type": "String",
             "id": "d9bf5bdc293ea67aa5407c5daeeff8b2",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -202,5 +193,14 @@
                 "maxLength": 2
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
+            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
+        ]
+    }
 }

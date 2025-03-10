@@ -5,11 +5,11 @@
     "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage",
     "columns": [
         {
+            "type": "String",
             "id": "46a02e652e0d6efe72d19961e7859aca",
             "name": "STYLE",
             "title": "STYLE",
             "description": "Style d'écriture",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -17,22 +17,22 @@
             }
         },
         {
+            "type": "Integer",
             "id": "668f5c8c78f3d2529d59c608fcd9c0e2",
             "name": "ANGLE",
             "title": "ANGLE",
             "description": "Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",
-            "type": "Integer",
             "constraints": {
                 "required": false,
                 "unique": false
             }
         },
         {
+            "type": "String",
             "id": "66c9612fd9c0a80f2de288f6debb5934",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -41,11 +41,11 @@
             }
         },
         {
+            "type": "String",
             "id": "73f92872b5d38c3f83e950297617bc78",
             "name": "POLICE",
             "title": "POLICE",
             "description": "Nom de la police d'écriture",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -53,22 +53,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "7be7be15ea466f956c9c337d2b1400e9",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "8ee57774b0e5147f9b80937a1f9cc780",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -76,11 +76,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a697f858381b81609c416f6fac294605",
             "name": "TXT",
             "title": "TXT",
             "description": "Libellé de l'étiquette attachée au point d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -88,11 +88,11 @@
             }
         },
         {
+            "type": "String",
             "id": "cd8d2c3908f71bff568b9a63b0749804",
             "name": "NATECR",
             "title": "NATECR",
             "description": "Nature de l'écriture",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -100,22 +100,22 @@
             }
         },
         {
+            "type": "Integer",
             "id": "d43cc820e5a19ab75bbda7c28874b915",
             "name": "TAILLE",
             "title": "TAILLE",
             "description": "Taille des caractères en point",
-            "type": "Integer",
             "constraints": {
                 "required": false,
                 "unique": false
             }
         },
         {
+            "type": "String",
             "id": "e1b22962c69fb3d3c8ef5d3e5a3c08da",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,

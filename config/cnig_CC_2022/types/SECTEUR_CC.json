@@ -3,31 +3,24 @@
     "name": "SECTEUR_CC",
     "title": "SECTEUR_CC",
     "description": "Table contenant les secteurs de la carte communale",
-    "constraints": {
-        "conditions": [],
-        "foreignKeys": [
-            "(FERMRECO) REFERENCES ListeFermrecoCC(FERMRECO)",
-            "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)"
-        ]
-    },
     "columns": [
         {
+            "type": "MultiPolygon",
             "id": "10a5adafe7c881d806e0f3fe45791581",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "1503c22ba70ea85a1d597b24254106aa",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -35,11 +28,11 @@
             }
         },
         {
+            "type": "String",
             "id": "762d917184da6e87641d43c527c2fb7b",
             "name": "TYPESECT",
             "title": "TYPESECT",
             "description": "Type du secteur dans une nomenclature simplifiée",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -53,11 +46,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "7751422322530a7efd22b84749ad9155",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -65,11 +58,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7b276fec115fd4f0ba3c565181b656da",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation du secteur ou de ses dispositions particulières",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -77,11 +70,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a07f081aa3a64631a3b57f1be6f274d4",
             "name": "FERMRECO",
             "title": "FERMRECO",
             "description": "Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -93,11 +86,11 @@
             }
         },
         {
+            "type": "String",
             "id": "caaf4bfff1382befdd2cccead2ef00e0",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Libellé du secteur tel que le définit la carte communale",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -105,11 +98,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "d897ae3de192a4a825cfe83ce9f76d2b",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant les dispositions particulières du secteur",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -117,11 +110,11 @@
             }
         },
         {
+            "type": "String",
             "id": "ebbacedb5207c110b40778eca08da74d",
             "name": "LIBELONG",
             "title": "LIBELONG",
             "description": "Nom complet littéral du secteur",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -129,11 +122,11 @@
             }
         },
         {
+            "type": "String",
             "id": "f59da6681d8b4c250eff039a16184c5f",
             "name": "LIB_IDZONE",
             "title": "LIB_IDZONE",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -142,11 +135,11 @@
             }
         },
         {
+            "type": "String",
             "id": "fe42e6671b9f3564e9c1f423ec40b954",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -154,5 +147,12 @@
                 "maxLength": 20
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(FERMRECO) REFERENCES ListeFermrecoCC(FERMRECO)",
+            "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)"
+        ]
+    }
 }

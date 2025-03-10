@@ -5,11 +5,11 @@
     "description": "Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "columns": [
         {
+            "type": "Url",
             "id": "106a86c9a5b55fd66e67c11e3d9495e4",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "11df452efc689ca213b570ff4c1c7a8d",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -79,22 +79,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "145a07ebaf1a2a8e17fa5252c889791d",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "23627f0a79a73bcef5b3dcc10c33b089",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -102,11 +102,11 @@
             }
         },
         {
+            "type": "String",
             "id": "38bb97424dcd175c615bad335cc1085c",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -114,11 +114,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "70a58c295acae23ebd0fe195e38ddf0b",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -126,11 +126,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a3dbeac2cbadf52f33a01bd369d1d54f",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -138,10 +138,10 @@
             }
         },
         {
+            "type": "String",
             "id": "e343a11514df2d79990458e99e7e68d9",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -165,11 +165,11 @@
             }
         },
         {
+            "type": "String",
             "id": "e3656ae53fed53592ae801d182b6e0e2",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,

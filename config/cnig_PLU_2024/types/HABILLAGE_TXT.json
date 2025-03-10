@@ -5,22 +5,22 @@
     "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
+            "type": "Integer",
             "id": "2f035b3b66c1a93f33014b2097271735",
             "name": "ANGLE",
             "title": "ANGLE",
             "description": "Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",
-            "type": "Integer",
             "constraints": {
                 "required": false,
                 "unique": false
             }
         },
         {
+            "type": "String",
             "id": "39d7970fa5fedcec742bf593d6e8bb66",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +29,11 @@
             }
         },
         {
+            "type": "String",
             "id": "5825b2bb217a9ed3684156c35570f1ec",
             "name": "STYLE",
             "title": "STYLE",
             "description": "Style d'écriture",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -41,11 +41,11 @@
             }
         },
         {
+            "type": "String",
             "id": "669672e8668585bd559295cec9f38b03",
             "name": "TXT",
             "title": "TXT",
             "description": "Libellé de l'étiquette attachée au point d'habillage",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -53,11 +53,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7acb423d5a2547034b8df81ba925050b",
             "name": "NATECR",
             "title": "NATECR",
             "description": "Nature de l'écriture",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -65,22 +65,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "837bde16fe6c21ab569f72f570af834c",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "b57b92f4f3c52b8f6002c5c411ac0779",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -88,11 +88,11 @@
             }
         },
         {
+            "type": "String",
             "id": "c47e728d0f9752dc4c1f07a4882a6d35",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -101,10 +101,10 @@
             }
         },
         {
+            "type": "String",
             "id": "ef64ee836470f7ac904409f5576225f5",
             "name": "POLICE",
             "title": "POLICE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -112,11 +112,11 @@
             }
         },
         {
+            "type": "Integer",
             "id": "f0c4fec6426f00342db5a70296f10501",
             "name": "TAILLE",
             "title": "TAILLE",
             "description": "Taille des caractères",
-            "type": "Integer",
             "constraints": {
                 "required": false,
                 "unique": false

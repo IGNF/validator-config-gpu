@@ -3,23 +3,13 @@
     "name": "PRESCRIPTION_SURF",
     "title": "PRESCRIPTION_SURF",
     "description": "Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
-    "constraints": {
-        "conditions": [
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '01' OR TXT IS NOT NULL",
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '01' OR TXT LIKE 'SECT__'"
-        ],
-        "foreignKeys": [
-            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionUrbaType(TYPEPSC, STYPEPSC)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "024b60b100cae572600e32878ed1e39f",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -27,10 +17,10 @@
             }
         },
         {
+            "type": "String",
             "id": "193a6af78397d669eed792c95f0f9152",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -54,11 +44,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "226e6b27add1ed79969d8ff704d6e167",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -66,11 +56,11 @@
             }
         },
         {
+            "type": "String",
             "id": "2d1bfb93797584ae748fe068ba37d632",
             "name": "LIB_IDPSC",
             "title": "LIB_IDPSC",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -79,11 +69,11 @@
             }
         },
         {
+            "type": "String",
             "id": "4584bc88f7053385398bd71370487e42",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -91,11 +81,11 @@
             }
         },
         {
+            "type": "String",
             "id": "72cfa44bdd1a6830f57211acb5ea1944",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -153,11 +143,11 @@
             }
         },
         {
+            "type": "String",
             "id": "72d2a66868a39123ce391497476215d8",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -165,11 +155,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a613d9377488b4c8aa8aa032d601d0f0",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -177,27 +167,37 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "c3bdb3d3ab0f8569af1e1dc295c6ef05",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "Filename",
             "id": "e6c2c332b53e8ab7007b20a8e23fa652",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "maxLength": 80
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '01' OR TXT IS NOT NULL",
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '01' OR TXT LIKE 'SECT__'"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionUrbaType(TYPEPSC, STYPEPSC)"
+        ]
+    }
 }

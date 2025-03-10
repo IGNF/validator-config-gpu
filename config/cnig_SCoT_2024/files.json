@@ -3,357 +3,357 @@
     "name": "cnig_SCoT_2024",
     "title": "cnig_SCoT_2024",
     "description": "cnig_SCoT_2024",
-    "constraints": {
-        "folderName": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
-        "metadataSpecification": "CNIG SCoT v2024"
-    },
     "files": [
         {
+            "type": "directory",
+            "mandatory": "ERROR",
             "id": "cfcac6eb84dd99fe95edb47aefb0f3b3",
             "name": "Donnees_geographiques",
             "title": "Donnees_geographiques",
-            "path": "Donnees_geographiques",
-            "type": "directory",
-            "mandatory": "ERROR"
+            "path": "Donnees_geographiques"
         },
         {
+            "type": "table",
+            "mandatory": "ERROR",
+            "tableModel": "./types/PERIMETRE_SCOT.json",
             "id": "898cf7b6313ccb0fa2b91fce9b4a5275",
             "name": "PERIMETRE_SCOT",
             "title": "PERIMETRE_SCOT",
             "description": "Périmètre du SCOT",
-            "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?",
-            "type": "table",
-            "mandatory": "ERROR",
-            "tableModel": "./types/PERIMETRE_SCOT.json"
+            "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "metadata",
+            "mandatory": "ERROR",
             "id": "a556a128a96426c216cf4500718b9f3e",
             "name": "METADONNEES",
             "title": "METADONNEES",
-            "path": "[^\\/]*",
-            "type": "metadata",
-            "mandatory": "ERROR"
+            "path": "[^\\/]*"
         },
         {
+            "type": "directory",
+            "mandatory": "ERROR",
             "id": "60058baf64794b95ac3a4ebe6b2dfd4a",
             "name": "Pieces_ecrites",
             "title": "Pieces_ecrites",
-            "path": "Pieces_ecrites",
-            "type": "directory",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites"
         },
         {
+            "type": "directory",
+            "mandatory": "ERROR",
             "id": "7ffd6dad102c31e658aee8a652af53d0",
             "name": "0_Procedure",
             "title": "0_Procedure",
-            "path": "Pieces_ecrites/0_Procedure",
-            "type": "directory",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/0_Procedure"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "ec4fdfa0127291fc5b454b93ee4af435",
             "name": "JUGEMENT",
             "title": "JUGEMENT",
             "description": "Jugement d'annulation partielle",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_jugement_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_jugement_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
             "id": "ff2873f0f3f3133711ed6e39d33d73d3",
             "name": "PROCEDURE",
             "title": "PROCEDURE",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "f67af34b6f102ed3e4f64aa287be25b1",
             "name": "ARRETE_DUP",
             "title": "ARRETE_DUP",
             "description": "Arrêté prononçant la déclaration d'utilité publique",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_dup_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_dup_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "9cece6918efb3b1f79135c09e8a9e144",
             "name": "ARRETE_MAJ_ANNEXES",
             "title": "ARRETE_MAJ_ANNEXES",
             "description": "Arrêté de mise à jour des annexes",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_maj_annexes_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_maj_annexes_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "2d87d573c3baf9b037465db29caa01cd",
             "name": "ARRETE_MEC",
             "title": "ARRETE_MEC",
             "description": "Arrêté mettant en compatibilité le SCOT",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_mec_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_mec_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "fbd4c6f8b3ca2c32683e2238c69b647c",
             "name": "ARRETE_OBJECTIF_MODALITES",
             "title": "ARRETE_OBJECTIF_MODALITES",
             "description": "Arrêté définissant les objectifs poursuivis et les modalités de concertation",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_objectifs(_et)?_modalites_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_objectifs(_et)?_modalites_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "bf27118624f47e8388d1fb38ead74b7b",
             "name": "ARRETE_PERIMETRE",
             "title": "ARRETE_PERIMETRE",
             "description": "Arrêté préf. de délimitation ou de modification du périmètre",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_perimetre_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_arrete_perimetre_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "bb6f55285d45c0136c6dfe08fe4c8185",
             "name": "AVIS_EVAL_ENV",
             "title": "AVIS_EVAL_ENV",
             "description": "Avis de la commission d’évaluation environnementale",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_avis_(EE|eval_env)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_avis_(EE|eval_env)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "9009f09fb150a23186319db12e9ccfa8",
             "name": "AVIS_PPA",
             "title": "AVIS_PPA",
             "description": "Avis des personnes publiques associées",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_avis_(ppa|PPA)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_avis_(ppa|PPA)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "4e02da1152df50eef3d596078880814b",
             "name": "AUTRES_PIECES",
             "title": "AUTRES_PIECES",
             "description": "Autres pièces",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_[a-z_]+_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_[a-z_]+_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "2886e772cf5ae1a16b819708998bdde7",
             "name": "DECISION_DECLARATION_PROJET",
             "title": "DECISION_DECLARATION_PROJET",
             "description": "Décision prononçant la déclaration de projet",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decision_declaration_projet_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decision_declaration_projet_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "577ab878652e9bfbbad8d7e878e997b0",
             "name": "DECISION_EVAL_ENV",
             "title": "DECISION_EVAL_ENV",
             "description": "Décision de réalisation d’une évaluation environnementale",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decision_(eval_env|EE)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decision_(eval_env|EE)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "338fdfb586fa424cb9ae4561abdfb614",
             "name": "DECRET_SUP",
             "title": "DECRET_SUP",
             "description": "Décret prononçant la déclaration d'utilité publique",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decret_sup_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_decret_sup_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "51f91e1b02d48650273a380aaf0d4f2a",
             "name": "DELIB_APPROBATION",
             "title": "DELIB_APPROBATION",
             "description": "Délibération d’approbation",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_approbation_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_approbation_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "52e860dd5e7d52d2fa9a963ee34e0f1a",
             "name": "DELIB_ARRET",
             "title": "DELIB_ARRET",
             "description": "Délibération  d’arrêt du SCOT",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_arret_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_arret_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "91b76b0f9b94f0e6eed5a3f484af9bb2",
             "name": "DELIB_DEBAT_PAS",
             "title": "DELIB_DEBAT_PAS",
             "description": "Délibération relative au débat sur le PAS",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_debat_(pas|PAS)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_debat_(pas|PAS)_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "340b1ba4c3b6c01f08073f29319859f8",
             "name": "DELIB_DECLARATION_PROJET",
             "title": "DELIB_DECLARATION_PROJET",
             "description": "Délibération prononçant la déclaration de projet",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_declaration_projet_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_declaration_projet_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "58b348ffde97dba27073a65f1c2718eb",
             "name": "DELIB_ENGAGEMENT",
             "title": "DELIB_ENGAGEMENT",
             "description": "Délibération d'engagement d’une mise en compatibilité",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_engagement_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_engagement_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "17f9ba3316fb9652e48db9225b5e6427",
             "name": "DELIB_MEC",
             "title": "DELIB_MEC",
             "description": "Délibération mettant en compatibilité le SCOT",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_mec_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_mec_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "124a8ae189bc5a155fca9e4c1a77d8b1",
             "name": "DELIB_OBJECTIF_MODALITES",
             "title": "DELIB_OBJECTIF_MODALITES",
             "description": "Délibération définissant les objectifs poursuivis et les modalités de concertation",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_objectifs(_et)_modalites_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_objectifs(_et)_modalites_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "82038e128ee6f8c72341217a7b9e1559",
             "name": "DELIB_PRESCRIPTION",
             "title": "DELIB_PRESCRIPTION",
             "description": "Délibération de prescription",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_prescription_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_[0-9]{8}_delib_prescription_[a-zA-Z]+[0-9]*_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "directory",
+            "mandatory": "ERROR",
             "id": "bfe79e93c112c39584bd10e1f6fd633e",
             "name": "1_SCOT",
             "title": "1_SCOT",
-            "path": "Pieces_ecrites/1_SCOT",
-            "type": "directory",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/1_SCOT"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
             "id": "7bafa02f2f0173036122099cf333583d",
             "name": "DAAC",
             "title": "DAAC",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_daac_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_daac_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
             "id": "a18a583bd3381b6ee9edc60db82c0a2d",
             "name": "DOO",
             "title": "DOO",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
             "id": "629d152ca82ce1a7bf104254e2bc1a15",
             "name": "PAS",
             "title": "projet d'aménagement stratégique",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "directory",
+            "mandatory": "ERROR",
             "id": "a122a67b76e594ed6aa0aed49ab06c8b",
             "name": "2_Annexes",
             "title": "2_Annexes",
-            "path": "Pieces_ecrites/2_Annexes",
-            "type": "directory",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/2_Annexes"
         },
         {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
             "id": "ec8ea514907769ea43f569ed8d11973a",
             "name": "ANNEXE",
             "title": "ANNEXE",
-            "path": "Pieces_ecrites/2_Annexes/[^\\/]*",
-            "type": "pdf",
-            "mandatory": "OPTIONAL"
+            "path": "Pieces_ecrites/2_Annexes/[^\\/]*"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
             "id": "1868f2614638e0b07a0e18f62c4074ad",
             "name": "CONSOMMATION_ESPACE",
             "title": "CONSOMMATION_ESPACE",
             "description": "analyse de la consommation d'espace",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_consommation_espace_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_consommation_espace_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
             "id": "6ca908db02a7adf05105c693e0049cd7",
             "name": "DIAGNOSTIC",
             "title": "DIAGNOSTIC",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_diagnostic_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_diagnostic_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
             "id": "ce426f66a709dfefad8ef89017bb36ad",
             "name": "EVALUATION_ENVIRONNEMENTALE",
             "title": "EVALUATION_ENVIRONNEMENTALE",
             "description": "évaluation environnementale",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_evaluation_environnementale_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_evaluation_environnementale_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
             "id": "70605aa237a9ea8d1d997fb0a706eb5a",
             "name": "JUSTIFICATION_CHOIX",
             "title": "JUSTIFICATION_CHOIX",
             "description": "justification des choix",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_justification_choix_[0-9]{8}(_[a-zA-Z])?",
-            "type": "pdf",
-            "mandatory": "ERROR"
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_justification_choix_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "table",
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA_COM.json",
             "id": "40c62399d20f0314dc3fdc5bd0fa2cfc",
             "name": "DOC_URBA_COM",
             "title": "DOC_URBA_COM",
             "description": "Table non géographique associant le SCOT aux communes auxquelles il s’applique",
-            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
-            "type": "table",
-            "mandatory": "ERROR",
-            "tableModel": "./types/DOC_URBA_COM.json"
+            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "table",
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA.json",
             "id": "56a3ed2ee394948f620ec637b08031c8",
             "name": "DOC_URBA",
             "title": "DOC_URBA",
             "description": "Table géographique portant la géométrie du périmètre du SCOT approuvé",
-            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
-            "type": "table",
-            "mandatory": "ERROR",
-            "tableModel": "./types/DOC_URBA.json"
+            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
     "codes": [
         {
+            "data": "./codes/ListeTypedocSCoT.csv",
             "id": "098956a37ed4efb0a035a231bde55602",
             "name": "ListeTypedocSCoT",
-            "title": "ListeTypedocSCoT",
-            "data": "./codes/ListeTypedocSCoT.csv"
+            "title": "ListeTypedocSCoT"
         },
         {
+            "data": "./codes/ListeEtatSCoT.csv",
             "id": "c0f466c8cf4a9a41e1782b217c710360",
             "name": "ListeEtatSCoT",
-            "title": "ListeEtatSCoT",
-            "data": "./codes/ListeEtatSCoT.csv"
+            "title": "ListeEtatSCoT"
         }
-    ]
+    ],
+    "constraints": {
+        "folderName": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
+        "metadataSpecification": "CNIG SCoT v2024"
+    }
 }

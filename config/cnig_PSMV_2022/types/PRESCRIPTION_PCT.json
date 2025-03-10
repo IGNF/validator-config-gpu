@@ -3,24 +3,13 @@
     "name": "PRESCRIPTION_PCT",
     "title": "PRESCRIPTION_PCT",
     "description": "Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
-    "constraints": {
-        "conditions": [
-            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
-            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR ANGLE IS NOT NULL",
-            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR CAST(ANGLE AS INTEGER) <= 359",
-            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
-        ],
-        "foreignKeys": [
-            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
-        ]
-    },
     "columns": [
         {
+            "type": "String",
             "id": "1065874bc4dd82347b0ee5cf03d88579",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -28,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "25eec07c77ac349a3c85fb7a0ee0feda",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -89,11 +78,11 @@
             }
         },
         {
+            "type": "String",
             "id": "37fc857aef509f627300f41e231914b6",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -101,11 +90,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "3cbd895a0807bb573ad31144fc8d350e",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -113,11 +102,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "3f0239bb2140b9ae7b1bdf9694b709cc",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -125,10 +114,10 @@
             }
         },
         {
+            "type": "String",
             "id": "436bae9219a9c313b9f9f1583b739eec",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -172,11 +161,11 @@
             }
         },
         {
+            "type": "String",
             "id": "5be436dbd239812939e2b324c073cad6",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -184,11 +173,11 @@
             }
         },
         {
+            "type": "String",
             "id": "61cadfbea6e43645e5de33d696ebb25c",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -196,10 +185,10 @@
             }
         },
         {
+            "type": "String",
             "id": "6c2e8bc277452742f04f0fa3bc452312",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -208,22 +197,22 @@
             }
         },
         {
+            "type": "Integer",
             "id": "a7af5c0c4404b2fdef3d053ae710c58d",
             "name": "ANGLE",
             "title": "ANGLE",
             "description": "ANGLE",
-            "type": "Integer",
             "constraints": {
                 "required": false,
                 "unique": false
             }
         },
         {
+            "type": "String",
             "id": "be1cd63df30a5f0555cae250d58443e6",
             "name": "NATURE",
             "title": "NATURE",
             "description": "Libellé caractérisant un ensemble de prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -232,15 +221,26 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "df36195e8d90c40bd67a7900f5814ffc",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
+            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR ANGLE IS NOT NULL",
+            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR CAST(ANGLE AS INTEGER) <= 359",
+            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
+        ]
+    }
 }

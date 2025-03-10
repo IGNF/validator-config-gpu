@@ -5,11 +5,11 @@
     "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "columns": [
         {
+            "type": "String",
             "id": "3790d4033a3b94bb9ebb2e1375d82970",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation de la prescription",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -17,22 +17,22 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "58ab30e0cd729ecc56f039852564b92f",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "5c2366ea4a3db81a21d3a551269f0485",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -40,11 +40,11 @@
             }
         },
         {
+            "type": "String",
             "id": "7a61c865d25fc65ec7c42f1372212da8",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -52,11 +52,11 @@
             }
         },
         {
+            "type": "String",
             "id": "b01794c449c755c0e00d78291ec538c1",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par la prescription",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -64,11 +64,11 @@
             }
         },
         {
+            "type": "String",
             "id": "c10174d554ea67ebb83bdf73a3f1af23",
             "name": "IDPSC",
             "title": "IDPSC",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -77,11 +77,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "c3ca7a37846e4d1e8c8d28336d102a10",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -89,11 +89,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "ce15fbf5de358a793b1a0576edd92f41",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier PDF décrivant la prescription",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -101,11 +101,11 @@
             }
         },
         {
+            "type": "String",
             "id": "d513212d56dd313c67dfed47c7f606fd",
             "name": "TYPEPSC",
             "title": "TYPEPSC",
             "description": "Type de la prescription dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -127,11 +127,11 @@
             }
         },
         {
+            "type": "String",
             "id": "e77aaad29de92a25fff1d83494ee309d",
             "name": "DATAPPRO",
             "title": "DATAPPRO",
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,

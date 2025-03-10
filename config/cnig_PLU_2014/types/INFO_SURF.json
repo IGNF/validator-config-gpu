@@ -5,11 +5,11 @@
     "description": "INFO_SURF",
     "columns": [
         {
+            "type": "String",
             "id": "6265b0019c821c9061e4d2adaf9855ce",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "83191b94625f3a08fef098883d4af232",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type de périmètre dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -67,11 +67,11 @@
             }
         },
         {
+            "type": "String",
             "id": "8827a537256100a0615765e0b822df33",
             "name": "IDINFO",
             "title": "IDINFO",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -80,11 +80,11 @@
             }
         },
         {
+            "type": "String",
             "id": "8cc5f0b5fae22b8a5455d9e5b579467a",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court du périmètre servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -92,22 +92,22 @@
             }
         },
         {
+            "type": "MultiPolygon",
             "id": "b1588275b93688a773769b0057d5ebe3",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPolygon",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "c37295a84cd77c37311111335350bd0b",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet du périmètre",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -115,11 +115,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "c4dd8b1956eb4c7fcb0991a4dc23f46e",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -127,11 +127,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "fec12f355f58f3a2b2224e166506a935",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,

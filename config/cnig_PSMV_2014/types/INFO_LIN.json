@@ -5,11 +5,11 @@
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
     "columns": [
         {
+            "type": "String",
             "id": "2f77db1a7f39d8e15bf4fd8b1331def4",
             "name": "INSEE",
             "title": "INSEE",
             "description": "Code INSEE de la commune concernée par l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -17,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "52a36ede3d2f1ec07ffb165cfbbb77c2",
             "name": "IDINFO",
             "title": "IDINFO",
             "description": "Identifiant unique de l’objet",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -30,11 +30,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "63c820a8e18c2d07f6b503e6ee7682ac",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -42,11 +42,11 @@
             }
         },
         {
+            "type": "String",
             "id": "774a5f62bc180f8a2400f308dc12466c",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information linéaire dans une liste prédéfinie",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -61,11 +61,11 @@
             }
         },
         {
+            "type": "String",
             "id": "8d32604b796a15a5ef48ec9696ed1188",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de l'information servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -73,11 +73,11 @@
             }
         },
         {
+            "type": "String",
             "id": "99e7a0b9081c3cff63ee1b490bff6876",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l'information",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -85,11 +85,11 @@
             }
         },
         {
+            "type": "Url",
             "id": "cda992ee12ff0ba52d6e50354dfc7e6a",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -97,11 +97,11 @@
             }
         },
         {
+            "type": "MultiLineString",
             "id": "f5d5a01154e4baf8cd463a3a009d0f47",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiLineString",
             "constraints": {
                 "required": true,
                 "unique": true

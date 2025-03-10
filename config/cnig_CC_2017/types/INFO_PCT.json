@@ -3,25 +3,13 @@
     "name": "INFO_PCT",
     "title": "INFO_PCT",
     "description": "Table contenant les informations ponctuelles à reporter à titre  d'information",
-    "constraints": {
-        "conditions": [
-            "TYPEINF IS NOT NULL",
-            "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
-            "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
-        ],
-        "foreignKeys": [
-            "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
-            "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
-        ]
-    },
     "columns": [
         {
+            "type": "Url",
             "id": "0ca570f959810454097e5907c86521d8",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
-            "type": "Url",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -29,11 +17,11 @@
             }
         },
         {
+            "type": "String",
             "id": "15607c9553b50b3648149e544ad3f637",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court servant à faire une étiquette",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -41,10 +29,10 @@
             }
         },
         {
+            "type": "String",
             "id": "253cc0cab98c849a50d6196197b704f6",
             "name": "DATVALID",
             "title": "DATVALID",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -52,11 +40,11 @@
             }
         },
         {
+            "type": "String",
             "id": "6e02b70645cfbbaef3afa71293909e04",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -102,11 +90,11 @@
             }
         },
         {
+            "type": "String",
             "id": "72556bf21ed62b6ce431d9cf44d11d76",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -114,10 +102,10 @@
             }
         },
         {
+            "type": "String",
             "id": "92bcbcc8212e373a884c71296d5890b7",
             "name": "TYPEP",
             "title": "TYPEP",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -174,11 +162,11 @@
             }
         },
         {
+            "type": "Filename",
             "id": "978177c81f67ddc72edfba56cd2829a1",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "type": "Filename",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -186,11 +174,11 @@
             }
         },
         {
+            "type": "String",
             "id": "a24e52c215a998b1c03ce7237ec998ba",
             "name": "LIB_IDINFO",
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -199,10 +187,10 @@
             }
         },
         {
+            "type": "String",
             "id": "a57efba8998eb017eddc63e18f619374",
             "name": "STYPEINF",
             "title": "STYPEINF",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -215,11 +203,11 @@
             }
         },
         {
+            "type": "String",
             "id": "b8121ccbafd9524fee9eda49953bb3cc",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet de l’information reportée",
-            "type": "String",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -227,22 +215,22 @@
             }
         },
         {
+            "type": "MultiPoint",
             "id": "c92a38d2b9309c6e9f67c00eb686a896",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
-            "type": "MultiPoint",
             "constraints": {
                 "required": true,
                 "unique": true
             }
         },
         {
+            "type": "String",
             "id": "fc9634f2fdbcb13508ea536200af3341",
             "name": "STYPEP",
             "title": "STYPEP",
             "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
-            "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
@@ -264,5 +252,17 @@
                 "maxLength": 2
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEINF IS NOT NULL",
+            "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
+            "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
+        ],
+        "foreignKeys": [
+            "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
+            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
+            "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
+        ]
+    }
 }
