@@ -389,20 +389,20 @@
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
-            "type": "pdf",
-            "mandatory": "ERROR",
-            "id": "ed291636b7c0a994e16659157c299ddf",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
-        },
-        {
             "type": "metadata",
             "mandatory": "OPTIONAL",
             "id": "189b0ebc78b677ba67f3f8b43b0022ef",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "ed291636b7c0a994e16659157c299ddf",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {

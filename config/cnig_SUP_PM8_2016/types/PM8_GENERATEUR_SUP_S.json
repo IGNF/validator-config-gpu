@@ -124,22 +124,6 @@
             }
         },
         {
-            "type": "String",
-            "id": "82b1285af3bd63fb0abb2d173fb027e6",
-            "name": "TYPE",
-            "title": "TYPE",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "Hydrocarbures",
-                    "Gaz",
-                    "Produits chimiques"
-                ],
-                "maxLength": 20
-            }
-        },
-        {
             "type": "MultiPolygon",
             "id": "831c5e0ad4d37838ca5e1bca37ddefed",
             "name": "WKT",
