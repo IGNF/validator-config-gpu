@@ -156,6 +156,18 @@
         },
         {
             "type": "String",
+            "id": "9cb2e44c63876640c7b4d2bf52128f47",
+            "name": "NOMRAPP",
+            "title": "NOMRAPP",
+            "description": "Nom du ficher contenant le dernier rapport de présentation",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
             "id": "b8bc45916cdb3f03cb4fa36b4effc18f",
             "name": "NOMPLAN",
             "title": "NOMPLAN",
@@ -209,13 +221,26 @@
                 ],
                 "maxLength": 2
             }
+        },
+        {
+            "type": "Url",
+            "id": "fdc4ddf529d20293ae1f199743a6ac7f",
+            "name": "URLRAPP",
+            "title": "URLRAPP",
+            "description": "Lien d'accès au fichier contenant le dernier rapport de présentation",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
         }
     ],
     "constraints": {
         "conditions": [
             "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
             "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
-            "NOMREG IS NOT NULL OR URLREG IS NOT NULL"
+            "NOMREG IS NOT NULL OR URLREG IS NOT NULL",
+            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL"
         ],
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatPLU(ETAT)",

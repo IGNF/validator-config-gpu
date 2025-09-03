@@ -354,7 +354,16 @@
             "id": "16b8a12787010570c8a1d7e2925efee3",
             "name": "RAPPORT",
             "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "OPTIONAL",
+            "id": "f03385864e6fd3bb61067944cd027c59",
+            "name": "RESUME_NON_TECHNIQUE",
+            "title": "RESUME_NON_TECHNIQUE",
+            "description": "RESUME_NON_TECHNIQUE",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_rnt_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "directory",
@@ -389,20 +398,20 @@
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
-            "type": "pdf",
-            "mandatory": "ERROR",
-            "id": "d126b0c2560084520aa2adb462cd9c4e",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
-        },
-        {
             "type": "metadata",
             "mandatory": "OPTIONAL",
             "id": "d715611e9c4006db922fb71dda80b8a6",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "d126b0c2560084520aa2adb462cd9c4e",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
@@ -466,7 +475,44 @@
             "path": "Pieces_ecrites/5_OAP/[AB0-9]{5}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/PrescriptionUrbaType.csv",
+            "id": "30b22213b3ceef1069bdf140af6bd69c",
+            "name": "PrescriptionUrbaType",
+            "title": "PrescriptionUrbaType"
+        },
+        {
+            "data": "./codes/ListeTypezonePLU.csv",
+            "id": "4b36545e0933537dc3a6dafbac2f6bb7",
+            "name": "ListeTypezonePLU",
+            "title": "ListeTypezonePLU"
+        },
+        {
+            "data": "./codes/ListeEtatPLU.csv",
+            "id": "53a17cb3806a5d376501c28c410151bb",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/ListeTypedocPLU.csv",
+            "id": "b6db1e069436300254476485aacd1ce2",
+            "name": "ListeTypedocPLU",
+            "title": "ListeTypedocPLU"
+        },
+        {
+            "data": "./codes/InformationUrbaType.csv",
+            "id": "c39470ceca13f6914406e6202710867c",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType"
+        },
+        {
+            "data": "./codes/ListeTyperefPLU.csv",
+            "id": "dd73fbc822f4cc29851313abcabee3c0",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_PLU_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG PLU v2025"
