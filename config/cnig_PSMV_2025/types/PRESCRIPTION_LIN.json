@@ -1,0 +1,232 @@
+{
+    "id": "29bde073d0d0defa9d5084cbb3027899",
+    "name": "PRESCRIPTION_LIN",
+    "title": "PRESCRIPTION_LIN",
+    "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
+    "columns": [
+        {
+            "type": "String",
+            "id": "0a2ef15c225246059ce4878ad8a44942",
+            "name": "TYPEPSC",
+            "title": "TYPEPSC",
+            "description": "Type de la prescription dans une liste prédéfinie",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "07",
+                    "08",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20",
+                    "22",
+                    "23",
+                    "24",
+                    "25",
+                    "26",
+                    "27",
+                    "28",
+                    "29",
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34",
+                    "35",
+                    "36",
+                    "37",
+                    "38",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "43",
+                    "44",
+                    "45",
+                    "46",
+                    "47",
+                    "48",
+                    "49",
+                    "50",
+                    "51",
+                    "52",
+                    "53",
+                    "97",
+                    "99"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "209e8851b49ad1729b56738380683e26",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "description": "Date de la dernière validation de la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "type": "String",
+            "id": "37bb5981bb46c37db7926178989364e9",
+            "name": "LIB_IDPSC",
+            "title": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_PL[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "7ab63bd1d6bea9fc00d0a23e8a115d2f",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Intitulé complet de la prescription",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "8781d2c40f3c822f579d2cdc182301b3",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "8bd8e0813c71d4d0689ebe0e4ab5800b",
+            "name": "SYMBOLE",
+            "title": "SYMBOLE",
+            "description": "SYMBOLE",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "PSC-L_[0-9]{2}-[0-9]{2}_[0-9]{3}",
+                "maxLength": 20
+            }
+        },
+        {
+            "type": "String",
+            "id": "9e026f1c5874c673fec94d12cb7ca498",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court de la prescription servant à faire une étiquette",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 10
+            }
+        },
+        {
+            "type": "MultiLineString",
+            "id": "b19b882fdffdeb9f278423e3be7931d6",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "d1cd4208e109d6514f984cc76c9aa599",
+            "name": "NATURE",
+            "title": "NATURE",
+            "description": "NATURE",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 50
+            }
+        },
+        {
+            "type": "Filename",
+            "id": "d25d54abdb507384fa1e4d2cb43a542a",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier PDF décrivant la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "Url",
+            "id": "e01c1f0e210ea392d57192cb5f2ef98d",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "fa63f1da14e3f579115a437f0e99c017",
+            "name": "STYPEPSC",
+            "title": "STYPEPSC",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "00",
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "06",
+                    "07",
+                    "08",
+                    "09",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "97",
+                    "98"
+                ],
+                "maxLength": 2
+            }
+        }
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionUrbaType(TYPEPSC, STYPEPSC)"
+        ]
+    }
+}

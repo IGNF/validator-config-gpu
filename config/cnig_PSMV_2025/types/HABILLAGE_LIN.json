@@ -1,0 +1,69 @@
+{
+    "id": "93a0ad600677d9ca33d13cbdf26c4c14",
+    "name": "HABILLAGE_LIN",
+    "title": "HABILLAGE_LIN",
+    "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "columns": [
+        {
+            "type": "String",
+            "id": "424696689e211a213cb1cd88e758133b",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_HL[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "5efe3318d19d9c2ba2bf1accd9f778c4",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "91b188569d1679594e1f1887f596016b",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "type": "MultiLineString",
+            "id": "d3166226671e259807267e0a9fc37d69",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "f69849999e903a4cefd8952e25124189",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature de la ligne",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        }
+    ]
+}

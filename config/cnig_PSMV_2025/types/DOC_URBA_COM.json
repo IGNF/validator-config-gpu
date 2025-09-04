@@ -1,0 +1,32 @@
+{
+    "id": "eb6e919423ecdcb7198456546f18560d",
+    "name": "DOC_URBA_COM",
+    "title": "DOC_URBA_COM",
+    "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
+    "columns": [
+        {
+            "type": "String",
+            "id": "53f1cd6bd280a201977f43bd0d86dd43",
+            "name": "INSEE",
+            "title": "INSEE",
+            "description": "Code INSEE de la commune concernée par le document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 5
+            }
+        },
+        {
+            "type": "String",
+            "id": "94118ada517d2756b554e729e47adabe",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        }
+    ]
+}

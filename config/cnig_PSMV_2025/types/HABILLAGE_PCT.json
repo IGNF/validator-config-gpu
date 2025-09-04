@@ -1,0 +1,69 @@
+{
+    "id": "0e612dbd0056d8a9b8d0514ce13cc790",
+    "name": "HABILLAGE_PCT",
+    "title": "HABILLAGE_PCT",
+    "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "columns": [
+        {
+            "type": "String",
+            "id": "05be1244a7af1d2ab59bacfbdf0da516",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "0671a059e04848f30a70781fa74412a3",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_HP[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "MultiPoint",
+            "id": "2cf57c5bda4ac3c3c0d70f256d1e2068",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "5580643551b025c155bf54b8cbff8815",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du point",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "a1bc0dc372d3e31b1e472c4a0f6c257f",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        }
+    ]
+}

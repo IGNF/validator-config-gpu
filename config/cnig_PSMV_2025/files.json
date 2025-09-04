@@ -1,13 +1,13 @@
 {
-    "id": "a95f87edbaf1e2e69a6620f2d071b81b",
-    "name": "cnig_POS_2025",
-    "title": "cnig_POS_2025",
-    "description": "cnig_POS_2025",
+    "id": "cfbbf860fc024411c0df46e177114444",
+    "name": "cnig_PSMV_2025",
+    "title": "cnig_PLU_2025",
+    "description": "cnig_PSMV_2025",
     "files": [
         {
             "type": "directory",
             "mandatory": "ERROR",
-            "id": "b3ef234a24b02b019e20976d58fb62e5",
+            "id": "7144f1a1fee48f66db56c6cc75c82fe9",
             "name": "Donnees_geographiques",
             "title": "Donnees_geographiques",
             "path": "Donnees_geographiques"
@@ -16,7 +16,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_LIN.json",
-            "id": "eba3f270de576f8b4061a35c83f538ef",
+            "id": "44043b683d54aadf85b77439b1bfbae7",
             "name": "HABILLAGE_LIN",
             "title": "HABILLAGE_LIN",
             "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_LIN_[0-9]{8}"
@@ -25,7 +25,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_PCT.json",
-            "id": "0656a7a7e7230af6a8e3af032a0cda37",
+            "id": "58b0922c21e1cd66c01e38aeeb61fc1b",
             "name": "HABILLAGE_PCT",
             "title": "HABILLAGE_PCT",
             "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_PCT_[0-9]{8}"
@@ -34,7 +34,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_SURF.json",
-            "id": "ab15573166f12ac9c4a33940ec3a7bc0",
+            "id": "f67ba632eb89b04b24ab434d32196367",
             "name": "HABILLAGE_SURF",
             "title": "HABILLAGE_SURF",
             "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_SURF_[0-9]{8}"
@@ -43,7 +43,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_TXT.json",
-            "id": "bbe5acac205c70a37ef6a05eafd6e0e8",
+            "id": "63600780e9f1ef30a4e77176a6ae8f57",
             "name": "HABILLAGE_TXT",
             "title": "HABILLAGE_TXT",
             "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_TXT_[0-9]{8}"
@@ -52,7 +52,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_LIN.json",
-            "id": "b046650ea07097b1887497865106019b",
+            "id": "5598f7815ef1c82db5fc167263c8f9a4",
             "name": "INFO_LIN",
             "title": "INFO_LIN",
             "path": "Donnees_geographiques/[AB0-9]{5}_INFO_LIN_[0-9]{8}"
@@ -61,7 +61,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_PCT.json",
-            "id": "4ab5b9c89824b39b49a4cce83834671c",
+            "id": "eeda0fecbb36f0b434556c59a20b9c74",
             "name": "INFO_PCT",
             "title": "INFO_PCT",
             "path": "Donnees_geographiques/[AB0-9]{5}_INFO_PCT_[0-9]{8}"
@@ -70,7 +70,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_SURF.json",
-            "id": "acaf747353d1b82ad6cfe23e68561b67",
+            "id": "cb451ae37f1e529b09546695d718b652",
             "name": "INFO_SURF",
             "title": "INFO_SURF",
             "path": "Donnees_geographiques/[AB0-9]{5}_INFO_SURF_[0-9]{8}"
@@ -79,7 +79,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_LIN.json",
-            "id": "033469ef9f9ea062e7febf309ff9ff99",
+            "id": "111a31638cca522611835cfe525b8bbd",
             "name": "PRESCRIPTION_LIN",
             "title": "PRESCRIPTION_LIN",
             "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_LIN_[0-9]{8}"
@@ -88,7 +88,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_PCT.json",
-            "id": "04d777199017be03d51ae1d6a8064b36",
+            "id": "127adb26da07db1bc44c5b91888876e8",
             "name": "PRESCRIPTION_PCT",
             "title": "PRESCRIPTION_PCT",
             "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_PCT_[0-9]{8}"
@@ -97,7 +97,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_SURF.json",
-            "id": "b7ad06d6d3274a1619f1f7f4875c0ea5",
+            "id": "08baab3aa0b5f3a9175d9828b56b5e25",
             "name": "PRESCRIPTION_SURF",
             "title": "PRESCRIPTION_SURF",
             "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_SURF_[0-9]{8}"
@@ -106,7 +106,7 @@
             "type": "table",
             "mandatory": "ERROR",
             "tableModel": "./types/ZONE_URBA.json",
-            "id": "ecdc4bbeda20bfd9952764f9dca8a4ab",
+            "id": "0743c74fb7137971f6c2c7c6338c9e92",
             "name": "ZONE_URBA",
             "title": "ZONE_URBA",
             "path": "Donnees_geographiques/[AB0-9]{5}_ZONE_URBA_[0-9]{8}"
@@ -114,7 +114,7 @@
         {
             "type": "metadata",
             "mandatory": "ERROR",
-            "id": "4f52e9d4bbd23f1a01d9b6fe1fdcf04a",
+            "id": "8594295e5d67a2a602a862ab95cef176",
             "name": "METADONNEES",
             "title": "METADONNEES",
             "path": "[^\\/]*"
@@ -123,7 +123,7 @@
             "type": "table",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA_COM.json",
-            "id": "d29105727c0093ea327e8ede23a1f0bd",
+            "id": "4f652ca11c153a28e74821ea01db47de",
             "name": "DOC_URBA_COM",
             "title": "DOC_URBA_COM",
             "path": "[AB0-9]{5}_DOC_URBA_COM_[0-9]{8}"
@@ -132,7 +132,7 @@
             "type": "table",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA.json",
-            "id": "f7b2fb5b201de50daacf875cfd31efed",
+            "id": "29230d23bc5c2c727b27493a21ff9489",
             "name": "DOC_URBA",
             "title": "DOC_URBA",
             "path": "[AB0-9]{5}_DOC_URBA_[0-9]{8}"
@@ -140,7 +140,7 @@
         {
             "type": "directory",
             "mandatory": "ERROR",
-            "id": "476b80afa61590e89cb59a52b8483038",
+            "id": "c56166a52147c92f6153a434625baab4",
             "name": "Pieces_ecrites",
             "title": "Pieces_ecrites",
             "path": "Pieces_ecrites"
@@ -148,7 +148,7 @@
         {
             "type": "directory",
             "mandatory": "ERROR",
-            "id": "26dd8a94462224c9f23bbbc2b91c9344",
+            "id": "f02a47b8a095217a333a17542c2f7380",
             "name": "0_Procedure",
             "title": "0_Procedure",
             "path": "Pieces_ecrites/0_Procedure"
@@ -156,7 +156,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "4e13830d5727cef9e93c8f68e7f85f6a",
+            "id": "e6fa94ac8b570840992f02bd892047fa",
             "name": "JUGEMENT",
             "title": "JUGEMENT",
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement_[0-9]{8}(_[a-zA-Z])?"
@@ -164,7 +164,7 @@
         {
             "type": "pdf",
             "mandatory": "ERROR",
-            "id": "2ff78e7b9cd1dcc7be67bb08e26018fb",
+            "id": "ff175da2e4af0da0cb9da1a9b1467c05",
             "name": "PROCEDURE",
             "title": "PROCEDURE",
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_[0-9]{8}(_[a-zA-Z])?"
@@ -172,7 +172,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "01119ad46950eb45b63c57b43d440350",
+            "id": "29db9b02160c1533a0b6c606fcc8ff1d",
             "name": "ARRETE_DUP",
             "title": "ARRETE_DUP",
             "description": "Arrêté prononçant la déclaration d'utilité publique",
@@ -181,7 +181,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "c29c028ed7317c4c1c431db3458a5a17",
+            "id": "89efd6db8b94178b47a05a8fd01db542",
             "name": "ARRETE_MAJ_ANNEXES",
             "title": "ARRETE_MAJ_ANNEXES",
             "description": "Arrêté de mise à jour des annexes",
@@ -190,7 +190,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "426a524171eaccc5c4df39d10515582d",
+            "id": "8e5b14a13ef527869c81656aa8056d9e",
             "name": "ARRETE_MEC",
             "title": "ARRETE_MEC",
             "description": "Arrêté mettant en compatibilité le plan",
@@ -199,7 +199,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "4fea024e00ef8bbbf26c90ea12e4b81b",
+            "id": "969c780e86f010a90ad7c1e1dc18a4ec",
             "name": "ARRETE_OBJECTIFS_MODALITES",
             "title": "ARRETE_OBJECTIFS_MODALITES",
             "description": "Arrêté définissant les objectifs poursuivis et les modalités de concertation",
@@ -208,7 +208,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "a3aaf6d1afc5b0295596762cfa7675df",
+            "id": "41f3ac4e9afb2d84ed645874a1c8c137",
             "name": "AVIS_EVAL_ENV",
             "title": "AVIS_EVAL_ENV",
             "description": "Avis de la commission d’évaluation environnementale",
@@ -217,7 +217,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "be8b75120a51342ee1c3a62fef0f913a",
+            "id": "8837ae8f624ef4242d9a6367325f8d28",
             "name": "AVIS_PPA",
             "title": "AVIS_PPA",
             "description": "Avis des personnes publiques associées",
@@ -226,7 +226,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "e4d6adc57c0e028644192e3c96a96b6b",
+            "id": "5be9ece7409718946a5645d686bdea69",
             "name": "AUTRES_PIECES",
             "title": "AUTRES_PIECES",
             "description": "Autres pièces",
@@ -235,7 +235,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "bdc8d23c18a77b65923a93f01cfeb83d",
+            "id": "90309c47855e6d4a4c0b10abaf97aaca",
             "name": "DECISION_DECLARATION_PROJET",
             "title": "DECISION_DECLARATION_PROJET",
             "description": "Décision prononçant la déclaration de projet",
@@ -244,7 +244,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "ef0671b79554a4f48e6c2a54a65a1368",
+            "id": "4bf777425ddcb5536a421e7e9d225d69",
             "name": "DECISION_EVAL_ENV",
             "title": "DECISION_EVAL_ENV",
             "description": "Décision de réalisation d’une évaluation environnementale",
@@ -253,7 +253,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "21dc69e1a77aac633d7b6ca0bbf10335",
+            "id": "a3e88535ef2ba22bb4e8a838b6ba3639",
             "name": "DECRET_SUP",
             "title": "DECRET_SUP",
             "description": "Décret prononçant la déclaration d'utilité publique",
@@ -262,7 +262,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "bbf73d04cc7994f90b1ac7e5b1495774",
+            "id": "cbd838be2dab5f5050e742e4f1e5c9ec",
             "name": "DELIB_APPROBATION",
             "title": "DELIB_APPROBATION",
             "description": "Actes d’approbation Délibération d’approbation",
@@ -271,7 +271,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "51f865c74c49d342ab52e9d482545811",
+            "id": "00b86f5338098c4aaeae67cd81776629",
             "name": "DELIB_ARRET",
             "title": "DELIB_ARRET",
             "description": "Délibération d’arrêt du document d’urbanisme",
@@ -280,7 +280,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "8f2b72920faaaec2aba896da26d382b4",
+            "id": "d82297e3ae4be92d9bfb1f424d511d56",
             "name": "DELIB_DEBAT_PADD",
             "title": "DELIB_DEBAT_PADD",
             "description": "Délibération relative au débat sur le PADD",
@@ -289,7 +289,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "4a9dd3b27724a7496ea53b19c1c1b142",
+            "id": "1a1f4f731ea7d4bb4138a8e0eeb5f25b",
             "name": "DELIB_DECLARATION_PROJET",
             "title": "DELIB_DECLARATION_PROJET",
             "description": "Délibération prononçant la déclaration de projet",
@@ -298,7 +298,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "962e49342a05d92869cc3caa67187b66",
+            "id": "acf549f7824fb308f8c49918b76b0fb2",
             "name": "DELIB_ENGAGEMENT",
             "title": "Délibération d'engagement",
             "description": "Délibération d'engagement",
@@ -307,7 +307,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "c192c6465330cfab79c3dc0d2a4e2a57",
+            "id": "a9818473a5e21b2a4ba456b508e612c3",
             "name": "DELIB_MEC",
             "title": "DELIB_MEC",
             "description": "Délibération mettant en compatibilité le plan",
@@ -316,7 +316,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "14377a91341f3163acd4ae79f63d85b0",
+            "id": "51535f32c499335f5c7075904a2d0551",
             "name": "DELIB_OBJECTIF_MODALITES",
             "title": "Délibération objectifs modalités",
             "description": "Délibération définissant les objectifs poursuivis et les modalités de concertation",
@@ -325,7 +325,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "6d68ad298ea81b8432ee78f376562407",
+            "id": "83d58460c04897f5623b2067c0ce0dd5",
             "name": "DELIB_PRESCRIPTION",
             "title": "DELIB_PRESCRIPTION",
             "description": "Délibération de prescription",
@@ -334,7 +334,7 @@
         {
             "type": "directory",
             "mandatory": "ERROR",
-            "id": "51f2364e5c6d42056de3c0a280d2d883",
+            "id": "070b5b146ccc58c59fb76d1d22157597",
             "name": "1_Rapport_de_presentation",
             "title": "1_Rapport_de_presentation",
             "path": "Pieces_ecrites/1_Rapport_de_presentation"
@@ -342,7 +342,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "8de30a614ab9d8562bd611b0e72b3f01",
+            "id": "6e88f1713f1716ca9f6e46672d13aafb",
             "name": "EVALUATION_ENVIRONNEMENTALE",
             "title": "EVALUATION_ENVIRONNEMENTALE",
             "description": "L'évaluation environnementale",
@@ -351,7 +351,7 @@
         {
             "type": "pdf",
             "mandatory": "ERROR",
-            "id": "d615b071ce1583a4e2c095171479c5ba",
+            "id": "dc12a964a4f15503614eafb0d8987ed3",
             "name": "RAPPORT",
             "title": "RAPPORT",
             "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
@@ -359,7 +359,7 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "42b321f43fb0cc73464ab5c7682c55a1",
+            "id": "d753848b86dc47c1b8a5615447403869",
             "name": "RESUME_NON_TECHNIQUE",
             "title": "RESUME_NON_TECHNIQUE",
             "description": "RESUME_NON_TECHNIQUE",
@@ -368,7 +368,7 @@
         {
             "type": "directory",
             "mandatory": "ERROR",
-            "id": "2775e615555534d509a5fd35ea199258",
+            "id": "12b3e0c1cd76807342c1a300e4e1ddf6",
             "name": "2_PADD",
             "title": "2_PADD",
             "path": "Pieces_ecrites/2_PADD"
@@ -376,7 +376,7 @@
         {
             "type": "pdf",
             "mandatory": "ERROR",
-            "id": "299c6764e2ffbd6b72882a9c3ff433b2",
+            "id": "cc271d2f78ce436cfe45422cf4476109",
             "name": "PADD",
             "title": "PADD",
             "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
@@ -384,7 +384,7 @@
         {
             "type": "directory",
             "mandatory": "ERROR",
-            "id": "0eca9c817cdf3bcd24a6793d2db5061d",
+            "id": "059f89593aea47308ba7edaaa5a42f0a",
             "name": "3_Reglement",
             "title": "3_Reglement",
             "path": "Pieces_ecrites/3_Reglement"
@@ -392,15 +392,23 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "3d9aafce72a0b41463b5202dfd58259f",
+            "id": "edb814bf913759b2429790c232a13592",
             "name": "PRESCRIPTION",
             "title": "PRESCRIPTION",
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "029eb6af055040d62d9f089b1dffabb1",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
             "type": "metadata",
             "mandatory": "OPTIONAL",
-            "id": "a8741ed547eda83d6ffdaa14c3277a68",
+            "id": "d6e73408f06ff8b68f5d67e8ef2f594b",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
@@ -408,16 +416,8 @@
         },
         {
             "type": "pdf",
-            "mandatory": "ERROR",
-            "id": "83078e7344aa074a54ebe6b7dc7e42c7",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
-        },
-        {
-            "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "50acd372738a9c245efbaf8579a2f0d4",
+            "id": "27f4571e67c251056eba2d2ee455234d",
             "name": "REGLEMENT_GRAPHIQUE",
             "title": "REGLEMENT_GRAPHIQUE",
             "description": "Le règlement graphique",
@@ -426,7 +426,7 @@
         {
             "type": "directory",
             "mandatory": "OPTIONAL",
-            "id": "a7722f5de3df20d1f693e7fa226acffe",
+            "id": "0e594ca85247d657064dfcf1ea80ab90",
             "name": "Ressources",
             "title": "Ressources",
             "description": "Répertoire \"ressources\" contenant les images et autres ressources correspondant au règlement structuré",
@@ -435,7 +435,7 @@
         {
             "type": "directory",
             "mandatory": "ERROR",
-            "id": "c9fc2fb0a42d4ec147fcf3c0d5eeeb8a",
+            "id": "890c2ce60d65960b75595e956a3008ca",
             "name": "4_Annexes",
             "title": "4_Annexes",
             "path": "Pieces_ecrites/4_Annexes"
@@ -443,7 +443,7 @@
         {
             "type": "pdf",
             "mandatory": "ERROR",
-            "id": "600b4431772efece3007318e8bf55970",
+            "id": "ec4c9842e24888432bf2166811f1b573",
             "name": "ANNEXE",
             "title": "ANNEXE",
             "path": "Pieces_ecrites/4_Annexes/[^\\/]*"
@@ -452,7 +452,7 @@
             "type": "table",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/TITRES_PIECES_ECRITES.json",
-            "id": "18070e704f0c11850b4f53421421b13c",
+            "id": "f32d9ad8e700a265108e87dc501044f3",
             "name": "TITRES_PIECES_ECRITES",
             "title": "TITRES_PIECES_ECRITES",
             "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?"
@@ -460,7 +460,7 @@
         {
             "type": "directory",
             "mandatory": "OPTIONAL",
-            "id": "00b0b901599c781110e42cc6b5d7c3b6",
+            "id": "f7c3b86d16f8bd0bd15a8adf11daf27f",
             "name": "5_OAP",
             "title": "5_OAP",
             "description": "Orientations d'Aménagement et de Programmation",
@@ -469,15 +469,64 @@
         {
             "type": "pdf",
             "mandatory": "OPTIONAL",
-            "id": "87cff3c50edbfcc824806b2f46af832d",
+            "id": "97017532de2397aa58d68ecd1be3426d",
             "name": "OAP",
             "title": "OAP",
             "path": "Pieces_ecrites/5_OAP/[AB0-9]{5}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/PrescriptionLUrbaType.csv",
+            "id": "13c55738f73d43faa59adffc27a5e14c",
+            "name": "PrescriptionLUrbaType",
+            "title": "PrescriptionLUrbaType"
+        },
+        {
+            "data": "./codes/PrescriptionSUrbaType.csv",
+            "id": "30b22213b3ceef1069bdf140af6bd69c",
+            "name": "PrescriptionSUrbaType",
+            "title": "PrescriptionSUrbaType"
+        },
+        {
+            "data": "./codes/ListeTypezonePLU.csv",
+            "id": "4b36545e0933537dc3a6dafbac2f6bb7",
+            "name": "ListeTypezonePLU",
+            "title": "ListeTypezonePLU"
+        },
+        {
+            "data": "./codes/ListeEtatPLU.csv",
+            "id": "53a17cb3806a5d376501c28c410151bb",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/PrescriptionPUrbaType.csv",
+            "id": "8fea08bd905f51912621b00390f305df",
+            "name": "PrescriptionPUrbaType",
+            "title": "PrescriptionPUrbaType"
+        },
+        {
+            "data": "./codes/ListeTypedocPLU.csv",
+            "id": "b6db1e069436300254476485aacd1ce2",
+            "name": "ListeTypedocPLU",
+            "title": "ListeTypedocPLU"
+        },
+        {
+            "data": "./codes/InformationUrbaType.csv",
+            "id": "c39470ceca13f6914406e6202710867c",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType"
+        },
+        {
+            "data": "./codes/ListeTyperefPLU.csv",
+            "id": "dd73fbc822f4cc29851313abcabee3c0",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU"
+        }
+    ],
     "constraints": {
-        "folderName": "[a-zA-Z0-9]+_POS_[0-9]{8}(_[a-zA-Z])?",
-        "metadataSpecification": "CNIG POS v2025"
+        "folderName": "[a-zA-Z0-9]+_PLU_[0-9]{8}(_[a-zA-Z])?",
+        "metadataSpecification": "CNIG PLU v2025"
     }
 }

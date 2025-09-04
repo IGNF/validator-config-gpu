@@ -1,0 +1,69 @@
+{
+    "id": "9aed00c02abb3e2f8e6987dbd133a9df",
+    "name": "HABILLAGE_SURF",
+    "title": "HABILLAGE_SURF",
+    "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "columns": [
+        {
+            "type": "String",
+            "id": "006bd56c010a0b15837d6e0472dda154",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "67ea131ccf683be1bc5f9e8962f2ccf5",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_HS[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "MultiPolygon",
+            "id": "6fc26b85fa0d0c593ec81a3061da4aec",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "74cfb44509d8ca5fab33a5366fd743f8",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du polygon",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "d61b470d4f843b290e72a5a24fb66317",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        }
+    ]
+}
