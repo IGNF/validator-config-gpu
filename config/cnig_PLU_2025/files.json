@@ -477,10 +477,17 @@
     ],
     "codes": [
         {
-            "data": "./codes/PrescriptionUrbaType.csv",
+            "data": "./codes/PrescriptionLUrbaType.csv",
+            "id": "13c55738f73d43faa59adffc27a5e14c",
+            "name": "PrescriptionLUrbaType",
+            "title": "PrescriptionLUrbaType",
+            "description": "PrescriptionLUrbaType"
+        },
+        {
+            "data": "./codes/PrescriptionSUrbaType.csv",
             "id": "30b22213b3ceef1069bdf140af6bd69c",
-            "name": "PrescriptionUrbaType",
-            "title": "PrescriptionUrbaType"
+            "name": "PrescriptionSUrbaType",
+            "title": "PrescriptionSUrbaType"
         },
         {
             "data": "./codes/ListeTypezonePLU.csv",
@@ -493,6 +500,13 @@
             "id": "53a17cb3806a5d376501c28c410151bb",
             "name": "ListeEtatPLU",
             "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/PrescriptionPUrbaType.csv",
+            "id": "8fea08bd905f51912621b00390f305df",
+            "name": "PrescriptionPUrbaType",
+            "title": "PrescriptionPUrbaType",
+            "description": "PrescriptionPUrbaType"
         },
         {
             "data": "./codes/ListeTypedocPLU.csv",
