@@ -475,7 +475,56 @@
             "path": "Pieces_ecrites/5_OAP/[AB0-9]{5}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/PrescriptionLUrbaType.csv",
+            "id": "13c55738f73d43faa59adffc27a5e14c",
+            "name": "PrescriptionLUrbaType",
+            "title": "PrescriptionLUrbaType"
+        },
+        {
+            "data": "./codes/PrescriptionSUrbaType.csv",
+            "id": "30b22213b3ceef1069bdf140af6bd69c",
+            "name": "PrescriptionSUrbaType",
+            "title": "PrescriptionSUrbaType"
+        },
+        {
+            "data": "./codes/ListeTypezonePLU.csv",
+            "id": "4b36545e0933537dc3a6dafbac2f6bb7",
+            "name": "ListeTypezonePLU",
+            "title": "ListeTypezonePLU"
+        },
+        {
+            "data": "./codes/ListeEtatPLU.csv",
+            "id": "53a17cb3806a5d376501c28c410151bb",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/PrescriptionPUrbaType.csv",
+            "id": "8fea08bd905f51912621b00390f305df",
+            "name": "PrescriptionPUrbaType",
+            "title": "PrescriptionPUrbaType"
+        },
+        {
+            "data": "./codes/ListeTypedocPLU.csv",
+            "id": "b6db1e069436300254476485aacd1ce2",
+            "name": "ListeTypedocPLU",
+            "title": "ListeTypedocPLU"
+        },
+        {
+            "data": "./codes/InformationUrbaType.csv",
+            "id": "c39470ceca13f6914406e6202710867c",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType"
+        },
+        {
+            "data": "./codes/ListeTyperefPLU.csv",
+            "id": "dd73fbc822f4cc29851313abcabee3c0",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_POS_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG POS v2025"

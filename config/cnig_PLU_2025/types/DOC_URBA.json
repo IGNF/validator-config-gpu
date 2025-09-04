@@ -87,10 +87,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "PLU",
-                    "POS",
-                    "CC",
-                    "PSMV"
+                    "PLU"
                 ],
                 "maxLength": 4
             }
