@@ -124,7 +124,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 41,98,Aspect extérieur règles alternatives,,R151-13
 42,00,Coefficient de biotope par surface,L151-22,R151-43 1°
 43,00,"Réalisation d’espaces libres, plantations, aires de jeux et de loisir",,R151-43 2°
-43,01,"Réalisation d’espaces libres,",,R151-43 2°
+43,01,Réalisation d’espaces libres,,R151-43 2°
 43,02,Réalisation d’aires de jeux et de loisirs,,R151-43 2°
 43,03,Réalisation de plantations,,R151-43 2°
 44,00,Stationnement,,R151-44
@@ -155,6 +155,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 54,02,Zone exposée au recul du trait de côte à un horizon compris entre trente et cent ans,L121-22-2 S,
 55,01,"Secteur d’implantation d’installations de production d'énergies renouvelables, et leurs ouvrages de raccordement, soumises à conditions",L151-42-1 I S,
 55,02,"Secteur d'exclusion d'installations de prod. d'énergies renouvelables",L151-42-1 II S,
+56,00,"Secteur dans lequel toutes les constructions nouvelles de logements sont à usage exclusif de résidence principale",L151-14-1,
 97,00,"Périmètre d’application d’une pièce écrite territorialisée (rapport de présentation, PADD, règlement, règlement graphique, POA)",,
 97,01,Périmètre couvert par un Plan de secteurs,L151-3,
 99,00,Autre,,
