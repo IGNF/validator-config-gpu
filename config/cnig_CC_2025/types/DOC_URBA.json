@@ -32,6 +32,18 @@
             }
         },
         {
+            "type": "String",
+            "id": "8291cbceb070568163f471788938c710",
+            "name": "NOMRAPP",
+            "title": "NOMRAPP",
+            "description": "NOMRAPP",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
             "type": "Url",
             "id": "82fac6589c480c23d4f68cbf7d04034d",
             "name": "URLREG",
@@ -157,6 +169,18 @@
             }
         },
         {
+            "type": "Url",
+            "id": "c45daed2e211976f5501654fbd529acb",
+            "name": "URLRAPP",
+            "title": "URLRAPP",
+            "description": "URLRAPP",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
             "type": "String",
             "id": "ca6c8ef40d8f3a53163e70b32fc5cba2",
             "name": "IDURBA",
@@ -214,7 +238,8 @@
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatCC(ETAT)",
             "(TYPEDOC) REFERENCES ListeTypedocCC(TYPEDOC)",
-            "(TYPEREF) REFERENCES ListeTyperefCC(TYPEREF)"
+            "(TYPEREF) REFERENCES ListeTyperefCC(TYPEREF)",
+            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL"
         ]
     }
 }

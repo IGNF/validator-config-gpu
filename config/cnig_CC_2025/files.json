@@ -148,7 +148,16 @@
             "id": "c54f5ebde8cdd8f45b18aac1cb490498",
             "name": "RAPPORT",
             "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "WARN",
+            "id": "212e5b86328a8e7276792b451b7e9697",
+            "name": "RESUME_NON_TECHNIQUE",
+            "title": "RESUME_NON_TECHNIQUE",
+            "description": "RESUME_NON_TECHNIQUE",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_rnt_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "directory",
