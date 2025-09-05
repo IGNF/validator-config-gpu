@@ -1,0 +1,127 @@
+{
+    "id": "6678e427f0f2b7676573e50f01a545b1",
+    "name": "HABILLAGE_TXT",
+    "title": "HABILLAGE_TXT",
+    "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage",
+    "columns": [
+        {
+            "type": "String",
+            "id": "042e0eb365d875e6defa6625a7ea2100",
+            "name": "NATECR",
+            "title": "NATECR",
+            "description": "Nature de l'écriture",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "Integer",
+            "id": "24fb82273cc30166dba4610be788c01b",
+            "name": "ANGLE",
+            "title": "ANGLE",
+            "description": "Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "type": "Integer",
+            "id": "389a63a83f6ffb1ee39fae47ba04bc63",
+            "name": "TAILLE",
+            "title": "TAILLE",
+            "description": "Taille des caractères en point",
+            "constraints": {
+                "required": false,
+                "unique": false
+            }
+        },
+        {
+            "type": "String",
+            "id": "9dd113aa28a8ff5739fbb74688a5cdcf",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Libellé de l'étiquette attachée au point d'habillage",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
+            "id": "a749993ba265cf1daad2fd8e4e3e92bd",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "type": "String",
+            "id": "b2bdcf2656abdd37f6bf6e092c4bbf42",
+            "name": "STYLE",
+            "title": "STYLE",
+            "description": "Style d'écriture",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "b59d0f577fe665b0d66022963f2e0cc6",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "c26c9c15f8e585cad1be8e28794eb871",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_CC_[0-9]{8}_HT[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "MultiPoint",
+            "id": "cdec6434ad757a4b8429beffa170efe3",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "f31d190088fad9fa037e77521f468d72",
+            "name": "POLICE",
+            "title": "POLICE",
+            "description": "Nom de la police d'écriture",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        }
+    ]
+}

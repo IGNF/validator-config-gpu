@@ -475,7 +475,56 @@
             "path": "Pieces_ecrites/5_OAP/[AB0-9]{5}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/PrescriptionLUrbaType.csv",
+            "id": "023592188a2b11f0e88362966107deef",
+            "name": "PrescriptionLUrbaType",
+            "title": "PrescriptionLUrbaType"
+        },
+        {
+            "data": "./codes/ListeEtatPLU.csv",
+            "id": "023592198a2b11f0c04b67d6d68ed9d0",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/InformationUrbaType.csv",
+            "id": "0235921a8a2b11f02862ab3a2894ba14",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType"
+        },
+        {
+            "data": "./codes/PrescriptionPUrbaType.csv",
+            "id": "886bf3376d6146d79f47920623bd0637",
+            "name": "PrescriptionPUrbaType",
+            "title": "PrescriptionPUrbaType"
+        },
+        {
+            "data": "./codes/ListeTyperefPLU.csv",
+            "id": "96ab7a4f72024a18ae45a9c65af0ea30",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU"
+        },
+        {
+            "data": "./codes/PrescriptionSUrbaType.csv",
+            "id": "d12e8b1ad4a042b0952f7dbbd18158bf",
+            "name": "PrescriptionSUrbaType",
+            "title": "PrescriptionSUrbaType"
+        },
+        {
+            "data": "./codes/ListeTypedocPLU.csv",
+            "id": "f1d2de83cfd28e29b10ee88db42bcd36",
+            "name": "ListeTypedocPLU",
+            "title": "ListeTypedocPLU"
+        },
+        {
+            "data": "./codes/ListeTypezonePLU.csv",
+            "id": "f418be5007f885b68947c6f796b89161",
+            "name": "ListeTypezonePLU",
+            "title": "ListeTypezonePLU"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_PLU_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG PLU v2025"

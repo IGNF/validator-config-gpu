@@ -1,0 +1,252 @@
+{
+    "id": "77919c928a486c24b18910d176f78fd4",
+    "name": "cnig_CC_2025",
+    "title": "cnig_CC_2025",
+    "description": "cnig_CC_2025",
+    "files": [
+        {
+            "type": "directory",
+            "mandatory": "ERROR",
+            "id": "5dd5bc43a9706627028012314559d581",
+            "name": "Donnees_geographiques",
+            "title": "Donnees_geographiques",
+            "path": "Donnees_geographiques"
+        },
+        {
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_LIN.json",
+            "id": "cbc9e6f8f4f3ed4867dd0853adaa9ad8",
+            "name": "HABILLAGE_LIN",
+            "title": "HABILLAGE_LIN",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_LIN_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_PCT.json",
+            "id": "2afe115474eb80996746ff919e9e866a",
+            "name": "HABILLAGE_PCT",
+            "title": "HABILLAGE_PCT",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_PCT_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_SURF.json",
+            "id": "054967450d83980bc6797dc773dddf8a",
+            "name": "HABILLAGE_SURF",
+            "title": "HABILLAGE_SURF",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_SURF_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/HABILLAGE_TXT.json",
+            "id": "57b71693b5577bbe8d5828837979c56c",
+            "name": "HABILLAGE_TXT",
+            "title": "HABILLAGE_TXT",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_TXT_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_LIN.json",
+            "id": "34b501709b8c4db6b62ed30585de2965",
+            "name": "INFO_LIN",
+            "title": "INFO_LIN",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_LIN_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_PCT.json",
+            "id": "1eb31136d9a728ff8df4d7b3dc182365",
+            "name": "INFO_PCT",
+            "title": "INFO_PCT",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_PCT_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/INFO_SURF.json",
+            "id": "d09df26081867caeb668f6e830ec4c5a",
+            "name": "INFO_SURF",
+            "title": "INFO_SURF",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_SURF_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "ERROR",
+            "tableModel": "./types/SECTEUR_CC.json",
+            "id": "734814fdc2e015ab3317ac55a5f20c21",
+            "name": "SECTEUR_CC",
+            "title": "SECTEUR_CC",
+            "path": "Donnees_geographiques/[AB0-9]{5}_SECTEUR_CC_[0-9]{8}"
+        },
+        {
+            "type": "metadata",
+            "mandatory": "ERROR",
+            "id": "141e1ce6c4ab6c20152d99b8d1e0b2b8",
+            "name": "METADONNEES",
+            "title": "METADONNEES",
+            "path": "[^\\/]*"
+        },
+        {
+            "type": "table",
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA_COM.json",
+            "id": "01bc27fcadede8c6ceb579da30ba520e",
+            "name": "DOC_URBA_COM",
+            "title": "DOC_URBA_COM",
+            "path": "[AB0-9]{5}_DOC_URBA_COM_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "ERROR",
+            "tableModel": "./types/DOC_URBA.json",
+            "id": "1590b49521632233804b6fc35571f661",
+            "name": "DOC_URBA",
+            "title": "DOC_URBA",
+            "path": "[AB0-9]{5}_DOC_URBA_[0-9]{8}"
+        },
+        {
+            "type": "directory",
+            "mandatory": "ERROR",
+            "id": "0e21cda35e3a9dc0a626bc2589169c61",
+            "name": "Pieces_ecrites",
+            "title": "Pieces_ecrites",
+            "path": "Pieces_ecrites"
+        },
+        {
+            "type": "directory",
+            "mandatory": "ERROR",
+            "id": "689ea1bdee559b8495be17bf393aa307",
+            "name": "Procedures",
+            "title": "Procedures",
+            "path": "Pieces_ecrites/0_Procedure"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "aa0e7db5a0cceae5baf1faccef3fdd0c",
+            "name": "PROCEDURE",
+            "title": "PROCEDURE",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "directory",
+            "mandatory": "ERROR",
+            "id": "007e45710255ae78ab0c9447bc5b3fe7",
+            "name": "Rapport_de_presentation",
+            "title": "Rapport_de_presentation",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "c54f5ebde8cdd8f45b18aac1cb490498",
+            "name": "RAPPORT",
+            "title": "RAPPORT",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "directory",
+            "mandatory": "ERROR",
+            "id": "70faf5229b62214d39da8127a0199da5",
+            "name": "Annexes",
+            "title": "Annexes",
+            "path": "Pieces_ecrites/4_Annexes"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "WARN",
+            "id": "e97ba61fb2123374ac214499602216a7",
+            "name": "ANNEXE",
+            "title": "ANNEXE",
+            "path": "Pieces_ecrites/4_Annexes/[^\\/]*"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "d1eb9da53104284f73f348db11759242",
+            "name": "LISTE ANNEXES",
+            "title": "LISTE ANNEXES",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_liste_annexes_[0-9]{8}"
+        },
+        {
+            "type": "table",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/TITRES_PIECES_ECRITES.json",
+            "id": "13493208ead20389164c27633f1f952b",
+            "name": "TITRES_PIECES_ECRITES",
+            "title": "TITRES_PIECES_ECRITES",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?"
+        }
+    ],
+    "codes": [
+        {
+            "data": "./codes/ListeTypepCC.csv",
+            "id": "1431259f67ec1998eecda2725603543b",
+            "name": "ListeTypepCC",
+            "title": "ListeTypepCC",
+            "description": "ListeTypepCC"
+        },
+        {
+            "data": "./codes/ListeEtatCC.csv",
+            "id": "1f0c04b67d6d68ed9d0023592198a2b1",
+            "name": "ListeEtatCC",
+            "title": "ListeEtatCC"
+        },
+        {
+            "data": "./codes/InformationUrbaType.csv",
+            "id": "2b11f02862ab3a2894ba140235921a8a",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType"
+        },
+        {
+            "data": "./codes/ListeLibelleCC.csv",
+            "id": "4657210d0f92c528645ae4fd446263c6",
+            "name": "ListeLibelleCC",
+            "title": "ListeLibelleCC",
+            "description": "ListeLibelleCC"
+        },
+        {
+            "data": "./codes/ListeTyperefCC.csv",
+            "id": "4a1c65af0ea3096ab7a4f8ae45a97202",
+            "name": "ListeTyperefCC",
+            "title": "ListeTyperefCC"
+        },
+        {
+            "data": "./codes/ListeTypesectCC.csv",
+            "id": "7079db619c495a538c213fd4328adf5c",
+            "name": "ListeTypesectCC",
+            "title": "ListeTypesectCC",
+            "description": "ListeTypesectCC"
+        },
+        {
+            "data": "./codes/ListeFermrecoCC.csv",
+            "id": "a51a3656abd85d6abea89f91c805f4df",
+            "name": "ListeFermrecoCC",
+            "title": "ListeFermrecoCC",
+            "description": "ListeFermrecoCC"
+        },
+        {
+            "data": "./codes/ListeTypedocCC.csv",
+            "id": "b10e42bcd36f1d2de83e88dbcfd28e29",
+            "name": "ListeTypedocCC",
+            "title": "ListeTypedocCC"
+        },
+        {
+            "data": "./codes/ListeStypepCC.csv",
+            "id": "d615a5743f4526daea9014a9d94aafb3",
+            "name": "ListeStypepCC",
+            "title": "ListeStypepCC",
+            "description": "ListeStypepCC"
+        }
+    ],
+    "constraints": {
+        "folderName": "[a-zA-Z0-9]+_CC_[0-9]{8}(_[a-zA-Z])?",
+        "metadataSpecification": "CNIG CC v2025"
+    }
+}

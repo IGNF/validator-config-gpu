@@ -1,7 +1,7 @@
 {
     "id": "cfbbf860fc024411c0df46e177114444",
     "name": "cnig_PSMV_2025",
-    "title": "cnig_PLU_2025",
+    "title": "cnig_PSMV_2025",
     "description": "cnig_PSMV_2025",
     "files": [
         {
@@ -526,7 +526,7 @@
         }
     ],
     "constraints": {
-        "folderName": "[a-zA-Z0-9]+_PLU_[0-9]{8}(_[a-zA-Z])?",
-        "metadataSpecification": "CNIG PLU v2025"
+        "folderName": "[a-zA-Z0-9]+_PSMV_[0-9]{8}(_[a-zA-Z])?",
+        "metadataSpecification": "CNIG PSMV v2025"
     }
 }

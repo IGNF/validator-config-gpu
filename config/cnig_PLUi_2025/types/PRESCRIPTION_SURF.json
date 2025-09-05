@@ -1,0 +1,232 @@
+{
+    "id": "7a45f97318209fe0b387458a3a773d22",
+    "name": "PRESCRIPTION_SURF",
+    "title": "PRESCRIPTION_SURF",
+    "description": "Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
+    "columns": [
+        {
+            "type": "String",
+            "id": "14da1dcb2bf72a4f9b18309ae67c95c9",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "Url",
+            "id": "28b9aee8dcf0666d2c8f2ba80fbf8164",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "2c8655d83816e903f2ebbf4f9dbb888a",
+            "name": "NATURE",
+            "title": "NATURE",
+            "description": "NATURE",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 50
+            }
+        },
+        {
+            "type": "MultiPolygon",
+            "id": "4e0b3ef5a41693f3ce86669b3563e6f2",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "656d49af3caa4d4fed9b2dfb22018a07",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "description": "Date de la dernière validation de la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "type": "String",
+            "id": "869d08984381e76329a46b8c0d0044ef",
+            "name": "SYMBOLE",
+            "title": "SYMBOLE",
+            "description": "SYMBOLE",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "PSC-S_[0-9]{2}-[0-9]{2}_[0-9]{3}",
+                "maxLength": 20
+            }
+        },
+        {
+            "type": "String",
+            "id": "89245a4df78b31d419139561ec06c31b",
+            "name": "STYPEPSC",
+            "title": "STYPEPSC",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "00",
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "06",
+                    "07",
+                    "08",
+                    "09",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "97",
+                    "98"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "8b9de8866c22e675532efa9ae6e59750",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Intitulé complet de la prescription",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "931c3e69000026699452e6da28a529d2",
+            "name": "LIB_IDPSC",
+            "title": "LIB_IDPSC",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_PS[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "Filename",
+            "id": "c9898fef765105b098ca477be0805d81",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier PDF décrivant la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
+            "id": "d5cfe4c4171773966b3f9a331b0900f5",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court de la prescription servant à faire une étiquette",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 10
+            }
+        },
+        {
+            "type": "String",
+            "id": "fa3f59eb288d97c0d69d2d63f73358ed",
+            "name": "TYPEPSC",
+            "title": "TYPEPSC",
+            "description": "Type de la prescription dans une liste prédéfinie",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "07",
+                    "08",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20",
+                    "22",
+                    "23",
+                    "24",
+                    "25",
+                    "26",
+                    "27",
+                    "28",
+                    "29",
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34",
+                    "35",
+                    "36",
+                    "37",
+                    "38",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "43",
+                    "44",
+                    "45",
+                    "46",
+                    "47",
+                    "48",
+                    "49",
+                    "50",
+                    "51",
+                    "52",
+                    "53",
+                    "97",
+                    "99"
+                ],
+                "maxLength": 2
+            }
+        }
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
+        ],
+        "foreignKeys": [
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionUrbaType(TYPEPSC, STYPEPSC)"
+        ]
+    }
+}

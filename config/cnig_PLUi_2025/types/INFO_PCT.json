@@ -1,0 +1,192 @@
+{
+    "id": "752fff04819461c0acfc28da91673647",
+    "name": "INFO_PCT",
+    "title": "INFO_PCT",
+    "description": "Table contenant les informations ponctuelle à reporter à titre d'information",
+    "columns": [
+        {
+            "type": "String",
+            "id": "2cb999064ca38e26d0856358f6068ad2",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "type": "String",
+            "id": "3369e137f516b3b0087d6d939010a534",
+            "name": "SYMBOLE",
+            "title": "SYMBOLE",
+            "description": "SYMBOLE",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "INF-P_[0-9]{2}-[0-9]{2}_[0-9]{3}",
+                "maxLength": 20
+            }
+        },
+        {
+            "type": "String",
+            "id": "4f24dad3d95b07880214d385d61331cc",
+            "name": "TYPEINF",
+            "title": "TYPEINF",
+            "description": "Type d'information ponctuelle dans une liste prédéfinie",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "07",
+                    "08",
+                    "09",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "16",
+                    "17",
+                    "19",
+                    "20",
+                    "21",
+                    "22",
+                    "23",
+                    "25",
+                    "27",
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34",
+                    "35",
+                    "36",
+                    "37",
+                    "38",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "97",
+                    "98",
+                    "99"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "MultiPoint",
+            "id": "7b9f5462a3d168f8c2b0d4e2e9dab4d8",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "8d12cbd3fa2c865c4ad36b771fae4cae",
+            "name": "STYPEINF",
+            "title": "STYPEINF",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "00",
+                    "01",
+                    "02",
+                    "03"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "Url",
+            "id": "a9ddf9ec77b806fbe88980691be8b53f",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "af15dcfcad82128036d78137a0a12b27",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Nom complet de l'information",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "c9ed23d440f9f098887e7af190cb0a17",
+            "name": "LIB_IDINFO",
+            "title": "LIB_IDINFO",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_IP[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "Filename",
+            "id": "d192cabebeb906540a02837b6330d926",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier contenant le texte décrivant l'information reportée",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
+            "id": "da51698b97f3c7f53ad056c8ad1ac44e",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court de l'information servant à faire une étiquette",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 10
+            }
+        },
+        {
+            "type": "String",
+            "id": "f1ea920c86547b6621358dda9d9c91cd",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        }
+    ],
+    "constraints": {
+        "conditions": [
+            "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
+        ],
+        "foreignKeys": [
+            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+        ]
+    }
+}

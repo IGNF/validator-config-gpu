@@ -1,0 +1,69 @@
+{
+    "id": "2899f4c571af62a009b472e7266410af",
+    "name": "HABILLAGE_PCT",
+    "title": "HABILLAGE_PCT",
+    "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "columns": [
+        {
+            "type": "String",
+            "id": "474301e95c9a65089226ff85ae53cc29",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du point",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "65ffd3ef022b054d0f4ab007bec2495c",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "76ec26b1175e2e3750900bee58fbb1ca",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_HP[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "a0834bf8eb621f855da01bf1430e14d7",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "type": "MultiPoint",
+            "id": "f3bb2d516250b5e7324d3d5904fe07cf",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        }
+    ]
+}

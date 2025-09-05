@@ -1,0 +1,293 @@
+{
+    "id": "0231c40a8fe8579834cb931c1c4a7d3a",
+    "name": "INFO_SURF",
+    "title": "INFO_SURF",
+    "description": "Table contenant les périmètres à reporter à titre d'information",
+    "columns": [
+        {
+            "type": "String",
+            "id": "0b02c7f30adaf45902c6dee8972122d2",
+            "name": "NATURE",
+            "title": "NATURE",
+            "description": "NATURE",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 50
+            }
+        },
+        {
+            "type": "Filename",
+            "id": "0c468f2fe776b6e3293c3a4682785cf4",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier contenant le texte décrivant l'information reportée",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
+            "id": "405788e03d62d44396ea345009f59c37",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court du périmètre servant à faire une étiquette",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 10
+            }
+        },
+        {
+            "type": "MultiPolygon",
+            "id": "5489e108cb6b2e818fd6dd59c29f2869",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "5ad9ce1b0ed79f713aadf393051b2333",
+            "name": "LIB_IDINFO",
+            "title": "LIB_IDINFO",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_CC_[0-9]{8}_IS[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "65550d157602791609db26f34ba377dc",
+            "name": "TYPEP",
+            "title": "TYPEP",
+            "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "enum": [
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "07",
+                    "08",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20",
+                    "22",
+                    "23",
+                    "24",
+                    "25",
+                    "26",
+                    "27",
+                    "28",
+                    "29",
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34",
+                    "35",
+                    "36",
+                    "37",
+                    "38",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "43",
+                    "44",
+                    "45",
+                    "46",
+                    "47",
+                    "48",
+                    "49",
+                    "50",
+                    "51",
+                    "97",
+                    "99"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "Url",
+            "id": "6de84ff2656688dbda9b0b19f6270179",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "7630a79b7ecd64c1e32a80690dff1114",
+            "name": "STYPEINF",
+            "title": "STYPEINF",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "00",
+                    "01",
+                    "02"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "7dd8e96bda0a3edcf82ff260b355d961",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Nom complet du périmètre",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "8374b0985e52d21c0e1170b49c23b36d",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "a833dc33bb15e2098a7152c47b77ff1d",
+            "name": "TYPEINF",
+            "title": "TYPEINF",
+            "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "00",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "07",
+                    "08",
+                    "09",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "16",
+                    "17",
+                    "19",
+                    "20",
+                    "21",
+                    "22",
+                    "23",
+                    "25",
+                    "27",
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34",
+                    "35",
+                    "36",
+                    "37",
+                    "38",
+                    "39",
+                    "40",
+                    "97",
+                    "98",
+                    "99"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "c2cb543fc7966e30c9f13bb8322f3ba4",
+            "name": "STYPEP",
+            "title": "STYPEP",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "enum": [
+                    "00",
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "06",
+                    "07",
+                    "08",
+                    "09",
+                    "10",
+                    "97",
+                    "98"
+                ],
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "cde8867bf2f17f7d7791114542059fb0",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "type": "String",
+            "id": "f169133d5ab229bacc80dbd2afd0a509",
+            "name": "SYMBOLE",
+            "title": "SYMBOLE",
+            "description": "SYMBOLE",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "INF-S_[0-9]{2}-[0-9]{2}_[0-9]{3}",
+                "maxLength": 20
+            }
+        }
+    ],
+    "constraints": {
+        "conditions": [
+            "TYPEINF IS NOT NULL",
+            "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
+            "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
+        ],
+        "foreignKeys": [
+            "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
+            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
+            "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
+        ]
+    }
+}
