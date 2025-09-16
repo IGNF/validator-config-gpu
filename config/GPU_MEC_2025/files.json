@@ -1,8 +1,8 @@
 {
     "id": "ae1b7c300cc2bd02910b8c279cfb4af0",
-    "name": "cnig_MEC_2025",
-    "title": "cnig_MEC_2025",
-    "description": "cnig_MEC_2025",
+    "name": "GPU_MEC_2025",
+    "title": "GPU_MEC_2025",
+    "description": "GPU_MEC_2025",
     "files": [
         {
             "type": "directory",
@@ -50,7 +50,7 @@
     ],
     "codes": [],
     "constraints": {
-        "folderName": "[a-zA-Z0-9]+_(PLU|POS|CC|PLUi)_MEC_[0-9]{8}",
+        "folderName": "[a-zA-Z0-9]+_(PLU|POS|CC|PLUi|SCoT)_MEC_[0-9]{8}",
         "metadataSpecification": "GPU MEC v2025"
     }
 }
