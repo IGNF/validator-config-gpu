@@ -1,4 +1,5 @@
 {
+    "abstract": false,
     "id": "ae1b7c300cc2bd02910b8c279cfb4af0",
     "name": "GPU_MEC_2025",
     "title": "GPU_MEC_2025",
@@ -39,6 +40,15 @@
             "path": "Pieces_ecrites"
         },
         {
+            "type": "table",
+            "mandatory": "WARN",
+            "tableModel": "./types/TITRES_PIECES_ECRITES.json",
+            "id": "a7ab4f66fc82f0ed5d0764f252a692bf",
+            "name": "TITRES_PIECES_ECRITES",
+            "title": "TITRES_PIECES_ECRITES",
+            "path": "Pieces_ecrites/[a-zA-Z0-9]+_titres_pieces_ecrites_[0-9]{8}"
+        },
+        {
             "type": "pdf",
             "mandatory": "ERROR",
             "id": "00f032b6a05ccc8b7395425d62ff19f5",
@@ -46,6 +56,15 @@
             "title": "ARRETE_MEC",
             "description": "ARRETE_MEC",
             "path": "Pieces_ecrites/[a-zA-Z0-9]+_[0-9]{8}_arrete_MEC_[0-9]{8}"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "bb89ec066a7a14c37ae9c1ba34b974b2",
+            "name": "RAPPORT DE PRESENTATION",
+            "title": "RAPPORT DE PRESENTATION",
+            "description": "Rapport de présentation de la MEC qui détaille le contexte et l’ensemble des pièces du DU modifiées par la MEC",
+            "path": "Pieces_ecrites/[a-zA-Z0-9]+_[0-9]{8}_rapport_de_presentation_MEC_[0-9]{8}"
         }
     ],
     "codes": [],
