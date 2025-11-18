@@ -1,0 +1,75 @@
+{
+    "abstract": false,
+    "id": "ae1b7c300cc2bd02910b8c279cfb4af0",
+    "name": "GPU_MEC_2025",
+    "title": "GPU_MEC_2025",
+    "description": "GPU_MEC_2025",
+    "files": [
+        {
+            "type": "directory",
+            "mandatory": "ERROR",
+            "id": "77abe0633719b26e5f0e93d11cbeb07c",
+            "name": "Donnees_geographiques",
+            "title": "Donnees_geographiques",
+            "path": "Donnees_geographiques"
+        },
+        {
+            "type": "table",
+            "mandatory": "ERROR",
+            "tableModel": "./types/MEC.json",
+            "id": "b612859c9f3f98f044655f918ba760cf",
+            "name": "MEC",
+            "title": "MEC",
+            "path": "Donnees_geographiques/[a-zA-Z0-9]+_MEC_[0-9]{8}"
+        },
+        {
+            "type": "metadata",
+            "mandatory": "ERROR",
+            "id": "e42ea120ac70823c17af94bfc2fe103d",
+            "name": "METADONNEES",
+            "title": "METADONNEES",
+            "path": "[^\\/]*"
+        },
+        {
+            "type": "directory",
+            "mandatory": "WARN",
+            "id": "ef4859dacad0c8d047041651a2851ebe",
+            "name": "Pieces_ecrites",
+            "title": "Pieces_ecrites",
+            "description": "Pieces_ecrites",
+            "path": "Pieces_ecrites"
+        },
+        {
+            "type": "table",
+            "mandatory": "WARN",
+            "tableModel": "./types/TITRES_PIECES_ECRITES.json",
+            "id": "a7ab4f66fc82f0ed5d0764f252a692bf",
+            "name": "TITRES_PIECES_ECRITES",
+            "title": "TITRES_PIECES_ECRITES",
+            "path": "Pieces_ecrites/[a-zA-Z0-9]+_titres_pieces_ecrites_[0-9]{8}"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "00f032b6a05ccc8b7395425d62ff19f5",
+            "name": "ARRETE_MEC",
+            "title": "ARRETE_MEC",
+            "description": "ARRETE_MEC",
+            "path": "Pieces_ecrites/[a-zA-Z0-9]+_[0-9]{8}_arrete_MEC_[0-9]{8}"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "bb89ec066a7a14c37ae9c1ba34b974b2",
+            "name": "RAPPORT DE PRESENTATION",
+            "title": "RAPPORT DE PRESENTATION",
+            "description": "Rapport de présentation de la MEC qui détaille le contexte et l’ensemble des pièces du DU modifiées par la MEC",
+            "path": "Pieces_ecrites/[a-zA-Z0-9]+_[0-9]{8}_rapport_de_presentation_MEC_[0-9]{8}"
+        }
+    ],
+    "codes": [],
+    "constraints": {
+        "folderName": "[a-zA-Z0-9]+_(PLU|POS|CC|PLUi|SCoT)_MEC_[0-9]{8}",
+        "metadataSpecification": "GPU MEC v2025"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "id": "8a5b8dd35e3d5037a635aa0b9e8fbf87",
+    "name": "MEC",
+    "title": "MEC",
+    "columns": [
+        {
+            "type": "String",
+            "id": "9b5977865395eb190c0bf82d9eaac265",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Libellé du secteur tel que le définit la carte communale",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "a06fd45e92ad1a66f446273f073e7e03",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "MultiPolygon",
+            "id": "a0d320cb3d2173606cc9df8a5790c5f6",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "b4d7249f598514ff355215858e2dc524",
+            "name": "NOMRAPP",
+            "title": "NOMRAPP",
+            "description": "Nom du fichier relatif au rapport de présentation de la MEC",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
+            "id": "dcfeb75dcc2f683fe53aeee0ffd1aa8f",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "description": "Date de validation ou de signature de l’arrêté",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "type": "Filename",
+            "id": "f4678873a0f1c44105c3953e67ead1be",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier relatif à l’arrêté de la MEC",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
+            "id": "ffb5d583d2d2aa66e4c0d72673c8d467",
+            "name": "NOMARR",
+            "title": "NOMARR",
+            "description": "Nom du fichier relatif à l’arrêté de la MEC",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        }
+    ]
+}

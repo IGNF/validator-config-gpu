@@ -1,4 +1,5 @@
 {
+    "abstract": false,
     "id": "77919c928a486c24b18910d176f78fd4",
     "name": "cnig_CC_2025",
     "title": "cnig_CC_2025",
@@ -198,8 +199,7 @@
             "data": "./codes/ListeTypepCC.csv",
             "id": "1431259f67ec1998eecda2725603543b",
             "name": "ListeTypepCC",
-            "title": "ListeTypepCC",
-            "description": "ListeTypepCC"
+            "title": "ListeTypepCC"
         },
         {
             "data": "./codes/ListeEtatCC.csv",
@@ -217,8 +217,7 @@
             "data": "./codes/ListeLibelleCC.csv",
             "id": "4657210d0f92c528645ae4fd446263c6",
             "name": "ListeLibelleCC",
-            "title": "ListeLibelleCC",
-            "description": "ListeLibelleCC"
+            "title": "ListeLibelleCC"
         },
         {
             "data": "./codes/ListeTyperefCC.csv",
@@ -230,15 +229,13 @@
             "data": "./codes/ListeTypesectCC.csv",
             "id": "7079db619c495a538c213fd4328adf5c",
             "name": "ListeTypesectCC",
-            "title": "ListeTypesectCC",
-            "description": "ListeTypesectCC"
+            "title": "ListeTypesectCC"
         },
         {
             "data": "./codes/ListeFermrecoCC.csv",
             "id": "a51a3656abd85d6abea89f91c805f4df",
             "name": "ListeFermrecoCC",
-            "title": "ListeFermrecoCC",
-            "description": "ListeFermrecoCC"
+            "title": "ListeFermrecoCC"
         },
         {
             "data": "./codes/ListeTypedocCC.csv",
@@ -250,8 +247,7 @@
             "data": "./codes/ListeStypepCC.csv",
             "id": "d615a5743f4526daea9014a9d94aafb3",
             "name": "ListeStypepCC",
-            "title": "ListeStypepCC",
-            "description": "ListeStypepCC"
+            "title": "ListeStypepCC"
         }
     ],
     "constraints": {
