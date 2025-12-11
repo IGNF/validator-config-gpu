@@ -233,13 +233,13 @@
     "constraints": {
         "conditions": [
             "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
-            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')"
+            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
+            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL"
         ],
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatCC(ETAT)",
             "(TYPEDOC) REFERENCES ListeTypedocCC(TYPEDOC)",
-            "(TYPEREF) REFERENCES ListeTyperefCC(TYPEREF)",
-            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL"
+            "(TYPEREF) REFERENCES ListeTyperefCC(TYPEREF)"
         ]
     }
 }
