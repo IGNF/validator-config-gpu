@@ -490,6 +490,7 @@ e5aff3fb4a1a3cc49bd3a3e24452addb,4e3ba97d483523621def70e607db9704,EL8_ASSIETTE_S
 0431dad161a87bc44682143977e09a45,53b452eb31e4cd62ede3ce4a4aecd2e7,DECISION_DECLARATION_PROJET,DECISION_DECLARATION_PROJET,"Décision prononçant la déclaration de projet",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decision_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 047d9198bad989abeb90985e971372de,53b452eb31e4cd62ede3ce4a4aecd2e7,JUGEMENT,JUGEMENT,,pdf,Pieces_ecrites/0_Procedure/<SIREN>_jugement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 06d98139fc33b6d015bbace23e2c5690,53b452eb31e4cd62ede3ce4a4aecd2e7,EVALUATION_ENVIRONNEMENTALE,EVALUATION_ENVIRONNEMENTALE,"L'évaluation environnementale",pdf,Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+07135009c3dad6b8821e3ec1b5a181df,53b452eb31e4cd62ede3ce4a4aecd2e7,6_POA,6_POA,6_POA,directory,Pieces_ecrites/6_POA,OPTIONAL
 0c4cc170d22e7c155ad621f7b090dbbe,53b452eb31e4cd62ede3ce4a4aecd2e7,DELIB_DECLARATION_PROJET,DELIB_DECLARATION_PROJET,"Délibération prononçant la déclaration de projet",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 0da4d7f38096310e21c61800e984a1cc,53b452eb31e4cd62ede3ce4a4aecd2e7,ZONE_URBA,ZONE_URBA,,table,Donnees_geographiques/<SIREN>_ZONE_URBA_<YYYYMMDD>,ERROR
 0f8501cd7f619d0287adb8281f0572d9,53b452eb31e4cd62ede3ce4a4aecd2e7,PRESCRIPTION_LIN,PRESCRIPTION_LIN,,table,Donnees_geographiques/<SIREN>_PRESCRIPTION_LIN_<YYYYMMDD>,OPTIONAL
@@ -503,6 +504,7 @@ e5aff3fb4a1a3cc49bd3a3e24452addb,4e3ba97d483523621def70e607db9704,EL8_ASSIETTE_S
 34ddd7682f738f6d17fab1c0bb96a86c,53b452eb31e4cd62ede3ce4a4aecd2e7,SECTEUR_REGLEMENT_XML,SECTEUR_REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 351c2dca47573d2ff500a343d5263628,53b452eb31e4cd62ede3ce4a4aecd2e7,DOC_URBA,DOC_URBA,,table,<SIREN>_DOC_URBA_<YYYYMMDD>,ERROR
 39a724073b4ef17530026fc428c0355e,53b452eb31e4cd62ede3ce4a4aecd2e7,DELIB_ENGAGEMENT,"Délibération d'engagement","Délibération d'engagement",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_engagement_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+461831e1824c27d7b77131b91afaf0a5,53b452eb31e4cd62ede3ce4a4aecd2e7,POA,POA,POA,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,WARN
 4c8c929f7f88eeab8e245aec28c6782c,53b452eb31e4cd62ede3ce4a4aecd2e7,PLAN_DE_SECTEURS,PLAN_DE_SECTEURS,,pdf,Pieces_ecrites/7_Plans_de_secteur/<SIREN>_plan_de_secteurs_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 56db3f5108a1196dcc9457fe12966903,53b452eb31e4cd62ede3ce4a4aecd2e7,INFO_PCT,INFO_PCT,,table,Donnees_geographiques/<SIREN>_INFO_PCT_<YYYYMMDD>,OPTIONAL
 58598449a8dca07bea35ffb70a0d547b,53b452eb31e4cd62ede3ce4a4aecd2e7,HABILLAGE_LIN,HABILLAGE_LIN,,table,Donnees_geographiques/<SIREN>_HABILLAGE_LIN_<YYYYMMDD>,OPTIONAL
