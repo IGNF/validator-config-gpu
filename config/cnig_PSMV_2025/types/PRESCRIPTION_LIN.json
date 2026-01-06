@@ -88,7 +88,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_PL[0-9]+",
+                "pattern": "[AB0-9]{5}_PSMV_[0-9]{8}_PL[0-9]+",
                 "maxLength": 40
             }
         },
@@ -226,7 +226,7 @@
             "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
         ],
         "foreignKeys": [
-            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionLUrbaType(TYPEPSC, STYPEPSC)"
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
         ]
     }
 }

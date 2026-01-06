@@ -478,16 +478,10 @@
     ],
     "codes": [
         {
-            "data": "./codes/PrescriptionLUrbaType.csv",
+            "data": "./codes/PrescriptionPSMVType.csv",
             "id": "13c55738f73d43faa59adffc27a5e14c",
-            "name": "PrescriptionLUrbaType",
-            "title": "PrescriptionLUrbaType"
-        },
-        {
-            "data": "./codes/PrescriptionSUrbaType.csv",
-            "id": "30b22213b3ceef1069bdf140af6bd69c",
-            "name": "PrescriptionSUrbaType",
-            "title": "PrescriptionSUrbaType"
+            "name": "PrescriptionPSMVType",
+            "title": "PrescriptionPSMVType"
         },
         {
             "data": "./codes/ListeTypezonePLU.csv",
@@ -502,22 +496,16 @@
             "title": "ListeEtatPLU"
         },
         {
-            "data": "./codes/PrescriptionPUrbaType.csv",
-            "id": "8fea08bd905f51912621b00390f305df",
-            "name": "PrescriptionPUrbaType",
-            "title": "PrescriptionPUrbaType"
-        },
-        {
-            "data": "./codes/ListeTypedocPLU.csv",
+            "data": "./codes/ListeTypedocPSMV.csv",
             "id": "b6db1e069436300254476485aacd1ce2",
-            "name": "ListeTypedocPLU",
-            "title": "ListeTypedocPLU"
+            "name": "ListeTypedocPSMV",
+            "title": "ListeTypedocPSMV"
         },
         {
-            "data": "./codes/InformationUrbaType.csv",
+            "data": "./codes/InformationPSMVType.csv",
             "id": "c39470ceca13f6914406e6202710867c",
-            "name": "InformationUrbaType",
-            "title": "InformationUrbaType"
+            "name": "InformationPSMVType",
+            "title": "InformationPSMVType"
         },
         {
             "data": "./codes/ListeTyperefPLU.csv",
