@@ -355,7 +355,7 @@
             "id": "dc12a964a4f15503614eafb0d8987ed3",
             "name": "RAPPORT",
             "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "pdf",
@@ -364,7 +364,7 @@
             "name": "RESUME_NON_TECHNIQUE",
             "title": "RESUME_NON_TECHNIQUE",
             "description": "RESUME_NON_TECHNIQUE",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_rnt_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_rnt(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "directory",
@@ -399,20 +399,20 @@
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
-            "type": "pdf",
-            "mandatory": "ERROR",
-            "id": "029eb6af055040d62d9f089b1dffabb1",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
-        },
-        {
             "type": "metadata",
             "mandatory": "OPTIONAL",
             "id": "d6e73408f06ff8b68f5d67e8ef2f594b",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "029eb6af055040d62d9f089b1dffabb1",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {

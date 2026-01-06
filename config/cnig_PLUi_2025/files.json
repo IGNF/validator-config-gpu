@@ -337,7 +337,7 @@
             "id": "5c35dcfe48ae5a6694932bb34dfcdef1",
             "name": "RAPPORT",
             "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "pdf",
@@ -346,7 +346,7 @@
             "name": "RESUME_NON_TECHNIQUE",
             "title": "RESUME_NON_TECHNIQUE",
             "description": "RESUME_NON_TECHNIQUE",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_rnt_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_rnt(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "directory",
