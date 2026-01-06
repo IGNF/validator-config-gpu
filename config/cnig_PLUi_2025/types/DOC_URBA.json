@@ -226,7 +226,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "PLU"
+                    "PLUi"
                 ],
                 "maxLength": 4
             }
