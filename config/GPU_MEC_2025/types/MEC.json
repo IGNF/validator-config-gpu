@@ -47,6 +47,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_[0-9]{8}_rapport_de_presentation_MEC_[0-9]{8}.pdf",
                 "maxLength": 80
             }
         },

@@ -205,7 +205,7 @@
             }
         },
         {
-            "type": "String",
+            "type": "Filename",
             "id": "da4728eb25c9a206beb2bac2c6598e32",
             "name": "NOMRAPP",
             "title": "NOMRAPP",
@@ -213,6 +213,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?.pdf",
                 "maxLength": 80
             }
         },
