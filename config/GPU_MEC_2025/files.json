@@ -32,7 +32,7 @@
         },
         {
             "type": "directory",
-            "mandatory": "WARN",
+            "mandatory": "ERROR",
             "id": "ef4859dacad0c8d047041651a2851ebe",
             "name": "Pieces_ecrites",
             "title": "Pieces_ecrites",
