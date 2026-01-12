@@ -39,7 +39,7 @@
             }
         },
         {
-            "type": "String",
+            "type": "Filename",
             "id": "b4d7249f598514ff355215858e2dc524",
             "name": "NOMRAPP",
             "title": "NOMRAPP",
@@ -64,18 +64,6 @@
         },
         {
             "type": "Filename",
-            "id": "f4678873a0f1c44105c3953e67ead1be",
-            "name": "NOMFIC",
-            "title": "NOMFIC",
-            "description": "Nom du fichier relatif à l’arrêté de la MEC",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 80
-            }
-        },
-        {
-            "type": "String",
             "id": "ffb5d583d2d2aa66e4c0d72673c8d467",
             "name": "NOMARR",
             "title": "NOMARR",
