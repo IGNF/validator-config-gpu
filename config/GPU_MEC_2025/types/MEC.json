@@ -8,7 +8,7 @@
             "id": "9b5977865395eb190c0bf82d9eaac265",
             "name": "LIBELLE",
             "title": "LIBELLE",
-            "description": "Libellé du secteur tel que le définit la carte communale",
+            "description": "Nom littéral de la MEC",
             "constraints": {
                 "required": true,
                 "unique": false,
