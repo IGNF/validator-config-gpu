@@ -1533,7 +1533,7 @@ c3b041d9232d1e315e187ee11bb68480,666259d6171a811300adf85be81efd93,URLPLAN,URLPLA
 cd0331e86e231aa6250f8396e1154769,666259d6171a811300adf85be81efd93,URLRAPP,URLRAPP,"Lien d'accès au fichier contenant le dernier rapport de présentation",Url,f,f,,,,254,
 d68c718a686caadec16dbdf03272f71d,666259d6171a811300adf85be81efd93,URLREG,URLREG,"URL ou URI qui pointe sur le fichier du règlement papier complet scanné",Url,f,f,,,,254,
 da4728eb25c9a206beb2bac2c6598e32,666259d6171a811300adf85be81efd93,NOMRAPP,NOMRAPP,"Nom du ficher contenant le dernier rapport de présentation",Filename,f,f,,([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_<YYYYMMDD>_rapport_<NOMPROC>(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?.pdf,,80,
-e70456763ab95b1174f7e8de7c93c7c9,666259d6171a811300adf85be81efd93,TYPEDOC,TYPEDOC,"Type du document",String,t,f,"[""PLUi""]",,,4,
+e70456763ab95b1174f7e8de7c93c7c9,666259d6171a811300adf85be81efd93,TYPEDOC,TYPEDOC,"Type du document",String,t,f,"[""PLUI""]",,,4,
 042e0eb365d875e6defa6625a7ea2100,6678e427f0f2b7676573e50f01a545b1,NATECR,NATECR,"Nature de l'écriture",String,t,f,,,,40,
 24fb82273cc30166dba4610be788c01b,6678e427f0f2b7676573e50f01a545b1,ANGLE,ANGLE,"Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",Integer,f,f,,,,,
 389a63a83f6ffb1ee39fae47ba04bc63,6678e427f0f2b7676573e50f01a545b1,TAILLE,TAILLE,"Taille des caractères en point",Integer,f,f,,,,,
