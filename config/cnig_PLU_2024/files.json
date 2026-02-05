@@ -469,40 +469,40 @@
     ],
     "codes": [
         {
-            "data": "./codes/InformationUrbaType.csv",
-            "id": "9cfafa9b3c9b41a4b20115e47a339572",
-            "name": "InformationUrbaType",
-            "title": "InformationUrbaType"
-        },
-        {
-            "data": "./codes/ListeEtatPLU.csv",
-            "id": "63c2392713d64ed886a4c036c8ad939c",
-            "name": "ListeEtatPLU",
-            "title": "ListeEtatPLU"
-        },
-        {
             "data": "./codes/ListeTypedocPLU.csv",
-            "id": "6b68c62d92794977a41ecb69534d008e",
+            "id": "389e5aa8c94b792800e6ce8239dd0e07",
             "name": "ListeTypedocPLU",
             "title": "ListeTypedocPLU"
         },
         {
-            "data": "./codes/ListeTyperefPLU.csv",
-            "id": "c9603607ac7f415a8c081aa48a4d2221",
-            "name": "ListeTyperefPLU",
-            "title": "ListeTyperefPLU"
+            "data": "./codes/PrescriptionUrbaType.csv",
+            "id": "61867877ba147d9c1011eec925d6fdb7",
+            "name": "PrescriptionUrbaType",
+            "title": "PrescriptionUrbaType"
         },
         {
             "data": "./codes/ListeTypezonePLU.csv",
-            "id": "de062b075b3e4cdc98d11ba10d7e6f18",
+            "id": "7c2d5c979dbc43f0463ad2498c69367c",
             "name": "ListeTypezonePLU",
             "title": "ListeTypezonePLU"
         },
         {
-            "data": "./codes/PrescriptionUrbaType.csv",
-            "id": "88fba6212388431fa084ad308cc75969",
-            "name": "PrescriptionUrbaType",
-            "title": "PrescriptionUrbaType"
+            "data": "./codes/ListeEtatPLU.csv",
+            "id": "8813cf746f0ca5d95cbd9b1ab1cf6439",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/ListeTyperefPLU.csv",
+            "id": "a087671f3426e3239f1e0695e1c0a051",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU"
+        },
+        {
+            "data": "./codes/InformationUrbaType.csv",
+            "id": "e2742b4726b240b087982797fafbfe01",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType"
         }
     ],
     "constraints": {
