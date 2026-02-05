@@ -1,37 +1,35 @@
 {
-    "id": "bdddfb64acfd77cd55b1025fd9834a1f",
+    "id": "dc7f6f48d7d19aa99cc8f0e5b8d37f47",
     "name": "HABILLAGE_TXT",
     "title": "HABILLAGE_TXT",
     "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
-            "type": "String",
-            "id": "03624305487bd0f99f26bf72974115c5",
-            "name": "STYLE",
-            "title": "STYLE",
-            "description": "Style d'écriture",
+            "type": "MultiPoint",
+            "id": "1079bc89e8d7aa1b674f4397da08eb2a",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
             "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 40
+                "required": true,
+                "unique": true
             }
         },
         {
             "type": "String",
-            "id": "10e09a75fe50df229a26e98791ecbe69",
-            "name": "LIB_IDHAB",
-            "title": "LIB_IDHAB",
-            "description": "identifiant d'objets",
+            "id": "10c1c08223a563523f1399c64e3f76eb",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Libellé de l'étiquette attachée au point d'habillage",
             "constraints": {
-                "required": false,
+                "required": true,
                 "unique": false,
-                "pattern": "[AB0-9]{5}_POS_[0-9]{8}_HT[0-9]+",
-                "maxLength": 40
+                "maxLength": 80
             }
         },
         {
             "type": "String",
-            "id": "62833f0729e2844a92eb8b8b8e458555",
+            "id": "2c09b5a98ef3ee888424eb748e132d93",
             "name": "NATECR",
             "title": "NATECR",
             "description": "Nature de l'écriture",
@@ -43,7 +41,18 @@
         },
         {
             "type": "String",
-            "id": "784879a7a796992db0a8d41f70744676",
+            "id": "319bd3a137a187a782c14826c74dff79",
+            "name": "POLICE",
+            "title": "POLICE",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "35b94ccf8d47480a8a3284987ba9ea58",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
@@ -54,31 +63,8 @@
             }
         },
         {
-            "type": "String",
-            "id": "8e9d27b2409f8ec672f413126f8387d3",
-            "name": "TXT",
-            "title": "TXT",
-            "description": "Libellé de l'étiquette attachée au point d'habillage",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 80
-            }
-        },
-        {
-            "type": "MultiPoint",
-            "id": "9ae62883e734f631a193696330835d61",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "unique": true
-            }
-        },
-        {
             "type": "Integer",
-            "id": "a39242d86063713160ebeaee527ccdd1",
+            "id": "485f8d32df6a57d19fc7e974c0e5203e",
             "name": "ANGLE",
             "title": "ANGLE",
             "description": "Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",
@@ -89,18 +75,20 @@
         },
         {
             "type": "String",
-            "id": "b11172c134c6732438098385760457bd",
-            "name": "POLICE",
-            "title": "POLICE",
+            "id": "5e3cf4aca7331fc873e1c5ae0b327425",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 40
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
             }
         },
         {
             "type": "Integer",
-            "id": "bc6d7c7bab472a062c8b46d1627c0fae",
+            "id": "ba73be44b5da7ba5435c53b383169210",
             "name": "TAILLE",
             "title": "TAILLE",
             "description": "Taille des caractères",
@@ -111,15 +99,27 @@
         },
         {
             "type": "String",
-            "id": "c2a532e390d844ca3acd6bbd353e4aee",
-            "name": "COULEUR",
-            "title": "COULEUR",
-            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "id": "d484c0c0fa00b14b716ce52f1b54335c",
+            "name": "STYLE",
+            "title": "STYLE",
+            "description": "Style d'écriture",
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
-                "maxLength": 11
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "e96167cc10d6c111457ded22420f4952",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[AB0-9]{5}_POS_[0-9]{8}_HT[0-9]+",
+                "maxLength": 40
             }
         }
     ]

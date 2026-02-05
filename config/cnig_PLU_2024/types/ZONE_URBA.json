@@ -100,55 +100,6 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "0000",
-                    "0100",
-                    "0101",
-                    "0102",
-                    "0103",
-                    "0104",
-                    "0105",
-                    "0106",
-                    "0107",
-                    "0108",
-                    "0109",
-                    "0200",
-                    "0201",
-                    "0202",
-                    "0203",
-                    "0300",
-                    "0400",
-                    "0401",
-                    "0402",
-                    "0403",
-                    "0404",
-                    "0405",
-                    "0406",
-                    "0407",
-                    "0500",
-                    "0501",
-                    "0502",
-                    "0503",
-                    "0600",
-                    "0601",
-                    "0602",
-                    "0603",
-                    "0604",
-                    "0700",
-                    "0701",
-                    "0702",
-                    "0703",
-                    "0704",
-                    "0705",
-                    "0800",
-                    "0801",
-                    "0802",
-                    "0900",
-                    "0901",
-                    "0902",
-                    "0903",
-                    "9900"
-                ],
                 "minLength": 4,
                 "maxLength": 4
             }
@@ -233,7 +184,8 @@
     "constraints": {
         "conditions": [],
         "foreignKeys": [
-            "(TYPEZONE) REFERENCES ListeTypezonePLU(TYPEZONE)"
+            "(TYPEZONE) REFERENCES ListeTypezonePLU(TYPEZONE)",
+            "(FORMDOMI) REFERENCES ListeFormDomi(FORMDOMI)"
         ]
     }
 }

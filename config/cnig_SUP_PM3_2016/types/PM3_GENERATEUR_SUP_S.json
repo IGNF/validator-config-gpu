@@ -136,14 +136,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "20",
-                    "21",
-                    "22",
-                    "23",
-                    "24",
-                    "25"
-                ],
                 "maxLength": 2
             }
         },

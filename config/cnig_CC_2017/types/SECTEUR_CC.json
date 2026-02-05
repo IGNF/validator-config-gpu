@@ -25,12 +25,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "01",
-                    "02",
-                    "03",
-                    "99"
-                ],
                 "maxLength": 3
             }
         },

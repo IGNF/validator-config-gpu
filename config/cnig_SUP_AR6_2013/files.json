@@ -71,7 +71,15 @@
                 "path": "[^\\/]*"
             }
         ],
-        "codes": [],
+        "codes": [
+            {
+                "data": "./codes/ListeValidegestSUP.csv",
+                "id": "0c4082d1726a0f23aeda8bd670074237",
+                "name": "ListeValidegestSUP",
+                "title": "ListeValidegestSUP",
+                "description": "ListeValidegestSUP"
+            }
+        ],
         "constraints": {
             "folderName": null,
             "metadataSpecification": "CNIG SUP v2013"
@@ -166,7 +174,15 @@
             "path": "Donnees_geographiques/AR6_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeValidegestSUP.csv",
+            "id": "0c4082d1726a0f23aeda8bd670074237",
+            "name": "ListeValidegestSUP",
+            "title": "ListeValidegestSUP",
+            "description": "ListeValidegestSUP"
+        }
+    ],
     "constraints": {
         "folderName": "[0-9]{9}_AR6_[a-zA-Z0-9]+_[0-9]{8}",
         "metadataSpecification": "CNIG SUP v2013"

@@ -1,35 +1,12 @@
 {
-    "id": "4d2088a56cb3b80be2c4748f7a499c8d",
+    "id": "6d9ca5e3e349f11af4defd56fd28a017",
     "name": "PRESCRIPTION_SURF",
     "title": "PRESCRIPTION_SURF",
     "description": "Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit",
     "columns": [
         {
             "type": "String",
-            "id": "2ca19b8a933ca89502339803046e5636",
-            "name": "TYPEPSC",
-            "title": "TYPEPSC",
-            "description": "Type de la prescription dans une liste prédéfinie",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 2
-            }
-        },
-        {
-            "type": "MultiPolygon",
-            "id": "31f79c3e674c332ebf0a40ce626f2830",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "unique": true
-            }
-        },
-        {
-            "type": "String",
-            "id": "4fea4dbd861867e73e3a7e1ba93f53b8",
+            "id": "273c2f6701b8bb431ba5abcc1ab7f4f8",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Intitulé complet de la prescription",
@@ -40,79 +17,32 @@
             }
         },
         {
-            "type": "Filename",
-            "id": "59453f80dce80fbc14688416cff07493",
-            "name": "NOMFIC",
-            "title": "NOMFIC",
-            "description": "Nom du fichier PDF décrivant la prescription",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 80
-            }
-        },
-        {
-            "type": "Date",
-            "id": "656c689b3586a191aff707489d002962",
-            "name": "DATVALID",
-            "title": "DATVALID",
-            "description": "Date de la dernière validation de la prescription",
-            "constraints": {
-                "required": false,
-                "unique": false
-            }
-        },
-        {
             "type": "String",
-            "id": "84fd561d9159c3ed9c8defb31109d20e",
-            "name": "IDURBA",
-            "title": "IDURBA",
-            "description": "Identifiant du document d'urbanisme",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 30
-            }
-        },
-        {
-            "type": "Url",
-            "id": "a84c939b71a55a4a0e2cb9141bf27002",
-            "name": "URLFIC",
-            "title": "URLFIC",
-            "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 254
-            }
-        },
-        {
-            "type": "String",
-            "id": "c3bcdfa14531b301698feb2b49a174ea",
-            "name": "SYMBOLE",
-            "title": "SYMBOLE",
-            "description": "SYMBOLE",
-            "constraints": {
-                "required": false,
-                "unique": false,
-                "maxLength": 20
-            }
-        },
-        {
-            "type": "Filename",
-            "id": "cceacfc76ad5f3657346663732d0b638",
+            "id": "4769dbe38324521df3a3f456e287e3ef",
             "name": "NATURE",
             "title": "NATURE",
             "description": "NATURE",
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 254
+                "maxLength": 50
             }
         },
         {
             "type": "String",
-            "id": "cd22a24649bd75d76d3c34598b025961",
+            "id": "600aadbf29af8fcfd5fe3c7bd9868afa",
+            "name": "TYPEPSC",
+            "title": "TYPEPSC",
+            "description": "Type de la prescription dans une liste prédéfinie",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "65e6d03312b8f94c184cacbd31cfd706",
             "name": "LIB_IDPSC",
             "title": "LIB_IDPSC",
             "description": "identifiant d'objets",
@@ -125,7 +55,77 @@
         },
         {
             "type": "String",
-            "id": "e287ddbbc1691a550502c9db247bb7fc",
+            "id": "6e763f2761c7a2bc04cde27639c4602b",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "description": "Date de la dernière validation de la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "type": "Filename",
+            "id": "8983f3102effa38396f88be531a1d453",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier PDF décrivant la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "MultiPolygon",
+            "id": "9e1878bdc8acf9e7ad882477469f99b1",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "a395a1f99768b49e586f175ff36f8715",
+            "name": "STYPEPSC",
+            "title": "STYPEPSC",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "a47421fe0782f31411736768a1aa301f",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "Url",
+            "id": "b148c09e5a30aafbc7ae4f9093d48c34",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "cc26f3f95443eb4407567cd4b03a5999",
             "name": "TXT",
             "title": "TXT",
             "description": "Nom court de la prescription servant à faire une étiquette",
@@ -137,13 +137,15 @@
         },
         {
             "type": "String",
-            "id": "f1d5ff419757e2f01adc623d2ceb1c40",
-            "name": "STYPEPSC",
-            "title": "STYPEPSC",
+            "id": "d1693875c5db270461cac6a3640ef2ef",
+            "name": "SYMBOLE",
+            "title": "SYMBOLE",
+            "description": "SYMBOLE",
             "constraints": {
-                "required": true,
+                "required": false,
                 "unique": false,
-                "maxLength": 2
+                "pattern": "PSC-S_[0-9]{2}-[0-9]{2}_[0-9]{3}",
+                "maxLength": 20
             }
         }
     ],

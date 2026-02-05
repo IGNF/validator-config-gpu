@@ -63,9 +63,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Égale au générateur"
-                ],
                 "maxLength": 25
             }
         },

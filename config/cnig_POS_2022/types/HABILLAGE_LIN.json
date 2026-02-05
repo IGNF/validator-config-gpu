@@ -1,25 +1,35 @@
 {
-    "id": "00e3aad15fa87400a3e64340dab1ecfc",
+    "id": "9f8a2c663ccbc04f2f5a6dd218e7dd5a",
     "name": "HABILLAGE_LIN",
     "title": "HABILLAGE_LIN",
     "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
-            "type": "String",
-            "id": "0f0ac3231ce820bfb32ecb9640a73a4e",
-            "name": "COULEUR",
-            "title": "COULEUR",
-            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "type": "MultiLineString",
+            "id": "47950791f320ce519f37d33c1be371d6",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
             "constraints": {
-                "required": false,
-                "unique": false,
-                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
-                "maxLength": 11
+                "required": true,
+                "unique": true
             }
         },
         {
             "type": "String",
-            "id": "298ca2edc3e84efefe8fa20b63723a62",
+            "id": "6c2a7ea7565bf38d29a109c235a05169",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature de la ligne",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "6e6962d4e4fc538fcc6ceb7a59cb83dc",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
@@ -32,19 +42,7 @@
         },
         {
             "type": "String",
-            "id": "5009a982ea02da1bab843825be94cdd4",
-            "name": "NATTRAC",
-            "title": "NATTRAC",
-            "description": "Nature de la ligne",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 40
-            }
-        },
-        {
-            "type": "String",
-            "id": "654dd064f7b1d8bef9f06d81fda74715",
+            "id": "beb27f7a64724194600b79d9524e0c5d",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
@@ -55,14 +53,16 @@
             }
         },
         {
-            "type": "MultiLineString",
-            "id": "987d144b69e2909a231abe3494e767ef",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
+            "type": "String",
+            "id": "ca5c1847c08651cd698fd1581fcd3646",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
             "constraints": {
-                "required": true,
-                "unique": true
+                "required": false,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
             }
         }
     ]

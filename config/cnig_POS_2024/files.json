@@ -2,7 +2,7 @@
     "abstract": false,
     "id": "80a24c6421eadf84d736965385635a83",
     "name": "cnig_POS_2024",
-    "title": "cnig_PLU_2024",
+    "title": "cnig_POS_2024",
     "description": "cnig_POS_2024",
     "files": [
         {
@@ -467,7 +467,52 @@
             "path": "Pieces_ecrites/5_OAP/[AB0-9]{5}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeEtatPLU.csv",
+            "id": "1475da3b21e0404913da7dcdce6c4f03",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/InformationUrbaType.csv",
+            "id": "18632e3b7dff5419ef2e8cd9b31d09e8",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType"
+        },
+        {
+            "data": "./codes/PrescriptionUrbaType.csv",
+            "id": "56b03960a35dee0a325dba6e5ddab52e",
+            "name": "PrescriptionUrbaType",
+            "title": "PrescriptionUrbaType"
+        },
+        {
+            "data": "./codes/ListeTypedocPLU.csv",
+            "id": "721e0ba0f0c332f7c48d08da84ee6ab6",
+            "name": "ListeTypedocPLU",
+            "title": "ListeTypedocPLU",
+            "description": "ListeTypedocPLU"
+        },
+        {
+            "data": "./codes/ListeFormDomi.csv",
+            "id": "7cca7219699ddd159b98f17a3d8c95c4",
+            "name": "ListeFormDomi",
+            "title": "ListeFormDomi",
+            "description": "ListeFormDomi"
+        },
+        {
+            "data": "./codes/ListeTypezonePLU.csv",
+            "id": "ac81f146def6b028401dd9ae04732ab4",
+            "name": "ListeTypezonePLU",
+            "title": "ListeTypezonePLU"
+        },
+        {
+            "data": "./codes/ListeTyperefPLU.csv",
+            "id": "daed185f9edc331b87f0511915607490",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_POS_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG POS v2024"

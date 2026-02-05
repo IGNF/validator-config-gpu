@@ -472,7 +472,8 @@
             "data": "./codes/ListeTypedocPLU.csv",
             "id": "389e5aa8c94b792800e6ce8239dd0e07",
             "name": "ListeTypedocPLU",
-            "title": "ListeTypedocPLU"
+            "title": "ListeTypedocPLU",
+            "description": "ListeTypedocPLU"
         },
         {
             "data": "./codes/PrescriptionUrbaType.csv",
@@ -503,6 +504,13 @@
             "id": "e2742b4726b240b087982797fafbfe01",
             "name": "InformationUrbaType",
             "title": "InformationUrbaType"
+        },
+        {
+            "data": "./codes/ListeFormDomi.csv",
+            "id": "f8104d861aaf986977f1e3d8ca687bd4",
+            "name": "ListeFormDomi",
+            "title": "ListeFormDomi",
+            "description": "ListeFormDomi"
         }
     ],
     "constraints": {

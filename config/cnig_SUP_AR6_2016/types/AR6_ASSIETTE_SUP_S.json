@@ -132,10 +132,6 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "SOL",
-                    "NGF"
-                ],
                 "maxLength": 3
             }
         }

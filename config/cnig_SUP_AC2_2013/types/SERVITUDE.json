@@ -56,10 +56,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "T",
-                    "F"
-                ],
                 "maxLength": 1
             }
         },
@@ -277,6 +273,8 @@
             "QUIPROD IS NOT NULL OR MODEPROD NOT LIKE 'numérisation'",
             "DOCSOURCE IS NOT NULL OR MODEPROD NOT LIKE 'numérisation'"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(VALIDEGEST) REFERENCES ListeValidegestSUP(VALIDEGEST)"
+        ]
     }
 }
