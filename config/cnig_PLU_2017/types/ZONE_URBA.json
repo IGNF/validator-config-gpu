@@ -97,13 +97,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "U",
-                    "AUc",
-                    "AUs",
-                    "A",
-                    "N"
-                ],
                 "maxLength": 3
             }
         },

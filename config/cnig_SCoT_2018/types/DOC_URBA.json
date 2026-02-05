@@ -62,14 +62,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "01",
-                    "02",
-                    "03",
-                    "04",
-                    "05",
-                    "06"
-                ],
                 "maxLength": 2
             }
         },
@@ -106,9 +98,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "SCOT"
-                ],
                 "maxLength": 4
             }
         },
@@ -121,15 +110,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "03",
-                    "04",
-                    "05",
-                    "06",
-                    "07",
-                    "08",
-                    "09"
-                ],
                 "maxLength": 2
             }
         },

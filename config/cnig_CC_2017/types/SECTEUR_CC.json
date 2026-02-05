@@ -103,10 +103,6 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "",
-                    "oui"
-                ],
                 "maxLength": 3
             }
         },

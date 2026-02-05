@@ -86,12 +86,6 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "Digitalisation",
-                    "Duplication",
-                    "Liste de coordonnées",
-                    "Géométrie fictive"
-                ],
                 "maxLength": 50
             }
         },

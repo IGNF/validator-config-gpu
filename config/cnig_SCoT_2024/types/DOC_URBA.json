@@ -184,15 +184,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "03",
-                    "04",
-                    "05",
-                    "06",
-                    "07",
-                    "08",
-                    "09"
-                ],
                 "maxLength": 2
             }
         },

@@ -87,12 +87,6 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "Digitalisation",
-                    "Duplication",
-                    "Liste de coordonnées",
-                    "Géométrie fictive"
-                ],
                 "maxLength": 50
             }
         },
@@ -155,12 +149,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Etat",
-                    "Département",
-                    "Commune",
-                    "RFF"
-                ],
                 "maxLength": 15
             }
         },
@@ -173,10 +161,6 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Voie publique",
-                    "Voie privée"
-                ],
                 "maxLength": 15
             }
         }
