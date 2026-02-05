@@ -13,11 +13,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "T",
-                    "F"
-                ],
-                "maxLength": 1
+                "maxLength": 1,
+                "reference": "ListeAplanSUP(APLAN)"
             }
         },
         {
@@ -29,14 +26,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Création",
-                    "Modification",
-                    "Substitution",
-                    "Annulation",
-                    "Abrogation"
-                ],
-                "maxLength": 25
+                "maxLength": 25,
+                "reference": "ListeDecisionSUP(DECISION)"
             }
         },
         {
@@ -48,22 +39,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Texte de loi",
-                    "Décret en Conseil d'Etat",
-                    "Arrêté ministériel",
-                    "Arrêté interministériel",
-                    "Arrêté préfectoral",
-                    "Arrêté préfet de Région",
-                    "Décret Premier Ministre",
-                    "Décret",
-                    "Arrêté de SUP",
-                    "Convention amiable",
-                    "Arrêté municipal",
-                    "Autre",
-                    "Non renseigné"
-                ],
-                "maxLength": 50
+                "maxLength": 50,
+                "reference": "ListeTypeacteSUP(TYPEACTE)"
             }
         },
         {
@@ -138,5 +115,13 @@
                 "maxLength": 50
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(APLAN) REFERENCES ListeAplanSUP(APLAN)",
+            "(TYPEACTE) REFERENCES ListeTypeacteSUP(TYPEACTE)",
+            "(DECISION) REFERENCES ListeDecisionSUP(DECISION)"
+        ]
+    }
 }

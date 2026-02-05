@@ -87,7 +87,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 50
+                "maxLength": 50,
+                "reference": "ListeModegenereSUP(MODEGENERE)"
             }
         },
         {
@@ -149,7 +150,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 15
+                "maxLength": 15,
+                "reference": "ListeTypeGestSUP(TYPE_GEST)"
             }
         },
         {
@@ -161,7 +163,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 15
+                "maxLength": 15,
+                "reference": "ListeTypeVoieSUP(TYPE_VOIE)"
             }
         }
     ],

@@ -160,10 +160,22 @@
             "title": "ListeDestdomi"
         },
         {
+            "data": "./codes/ListeFermrecoCC.csv",
+            "id": "aa4e8caffc996e6be392f8930b1b5f4e",
+            "name": "ListeFermrecoCC",
+            "title": "ListeFermrecoCC"
+        },
+        {
             "data": "./codes/ListeInterco.csv",
             "id": "dde7e25f5962140a6c58ce3d18d1cd0f",
             "name": "ListeInterco",
             "title": "ListeInterco"
+        },
+        {
+            "data": "./codes/ListeTypesectCC.csv",
+            "id": "f874a9edd8c37048775d78110fd9fbc5",
+            "name": "ListeTypesectCC",
+            "title": "ListeTypesectCC"
         }
     ],
     "constraints": {

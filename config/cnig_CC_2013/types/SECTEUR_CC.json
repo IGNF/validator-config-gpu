@@ -25,13 +25,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "01",
-                    "02",
-                    "03",
-                    "99"
-                ],
-                "maxLength": 3
+                "maxLength": 3,
+                "reference": "ListeTypesectCC(TYPESECT)"
             }
         },
         {
@@ -79,11 +74,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "",
-                    "Oui"
-                ],
-                "maxLength": 3
+                "maxLength": 3,
+                "reference": "ListeFermrecoCC(FERMRECO)"
             }
         },
         {
@@ -138,7 +130,9 @@
     "constraints": {
         "conditions": [],
         "foreignKeys": [
-            "(DESTDOMI) REFERENCES ListeDestdomi(DESTDOMI)"
+            "(DESTDOMI) REFERENCES ListeDestdomi(DESTDOMI)",
+            "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)",
+            "(FERMRECO) REFERENCES ListeFermrecoCC(FERMRECO)"
         ]
     }
 }

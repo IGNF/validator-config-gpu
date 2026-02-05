@@ -235,7 +235,7 @@ e05062206cb15ab124499158e34555e8,0eb4dfe435308652d23a7a839d5d0d4d,WKT,Géométri
 03269ee3b188584738d51d38c542437c,0f29a5c1aea011ba3c6346401fd0dbe3,IDGEN,IDGEN,Identifiant du générateur de l'assiette,String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>,,40,
 103d375653943c30dc6f6c45e4c326d6,0f29a5c1aea011ba3c6346401fd0dbe3,SRCGEOASS,SRCGEOASS,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,f,f,,,,30,
 1b9a55e805706f3155f9f4acd1131438,0f29a5c1aea011ba3c6346401fd0dbe3,DATESRCASS,DATESRCASS,Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source,String,f,f,,<YYYYMMDD>,,,
-49af99b76af6e56c80ae2280e13ffbec,0f29a5c1aea011ba3c6346401fd0dbe3,MODEGEOASS,MODEGEOASS,Description de la méthode utilisée pour générer la géométrie de l'assiette,String,t,f,,,,25,
+49af99b76af6e56c80ae2280e13ffbec,0f29a5c1aea011ba3c6346401fd0dbe3,MODEGEOASS,MODEGEOASS,Description de la méthode utilisée pour générer la géométrie de l'assiette,String,t,f,,,,25,ListeModegeoassSUP(MODEGEOASS)
 5ebeb3ba2af08776854483e3a86134dc,0f29a5c1aea011ba3c6346401fd0dbe3,PARAMCALC,PARAMCALC,Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon,Integer,f,f,,,,,
 012d17a3cbc49189133250887f72947f,0f80b23558c2ebbe03d15554eeddb065,LIB_IDINFO,LIB_IDINFO,identifiant d'objets,String,f,f,,<SIREN>_PLUI_<YYYYMMDD>_IP<ENTIER>,,40,
 4cb5f0f9ec661ef85de83d23d6dddce1,0f80b23558c2ebbe03d15554eeddb065,NOMFIC,NOMFIC,Nom du fichier contenant le texte décrivant l'information reportée,Filename,f,f,,,,80,
@@ -542,7 +542,7 @@ c83461113e9140b61084141ccad953aa,205eca1b2044a921dbac103d5fcf0d08,DATEREF,DATERE
 ca28fcf3fdda6c32b67846d74bd1fd80,205eca1b2044a921dbac103d5fcf0d08,SIREN,SIREN,Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI,String,f,f,,,,9,
 ddfaee1317a16639be4fdd0315ae74ae,205eca1b2044a921dbac103d5fcf0d08,DATAPPRO,DATAPPRO,Date de la dernière approbation administrative du document d'urbanisme,String,f,f,,<YYYYMMDD>,,,
 01f0b6f3ac067f7e2bca6dd4743ecfc2,20daa8f16a943ce536abfdadc4777dc3,TYPEGEN,TYPEGEN,,String,t,f,"[""Périmètre réglementé du PPR""]",,,40,
-3399d8365d130761bda9f9377ce85ecd,20daa8f16a943ce536abfdadc4777dc3,CODE_ALEA,CODE_ALEA,Identifiant GASPAR de l'aléa,String,t,f,,,,2,
+3399d8365d130761bda9f9377ce85ecd,20daa8f16a943ce536abfdadc4777dc3,CODE_ALEA,CODE_ALEA,Identifiant GASPAR de l'aléa,String,t,f,,,,2,ListeCodeAleaSUP(CODE_ALEA)
 40e1b3b46df0b2042a05d035c6f88d24,20daa8f16a943ce536abfdadc4777dc3,URL_GRISQ,URL_GRISQ,Hyperlien vers le PPR dans Géorisques,Url,f,f,,,,254,
 a4f5301190279f40f77e9d6c3ae586fd,20daa8f16a943ce536abfdadc4777dc3,ID_GASPAR,ID_GASPAR,Identifiant Gaspar du PPR,String,t,f,,,,24,
 e98664c8e2b6c68673a6a393b534074c,20daa8f16a943ce536abfdadc4777dc3,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
@@ -550,11 +550,11 @@ e98664c8e2b6c68673a6a393b534074c,20daa8f16a943ce536abfdadc4777dc3,WKT,Géométri
 21a98c1b6191da0723102fad20a77aca,20f8d58633322a7973e3ded26cecc63a,URLREG,URLREG,Lien d’accès au fichier pdf contenant le règlement de la servitude,Url,f,f,,,,254,
 242adcd91d5707c68cde747e3b56241b,20f8d58633322a7973e3ded26cecc63a,DATEMAJ,DATEMAJ,Date de la dernière modification apportée à la servitude,String,t,f,,<YYYYMMDD>,,,
 29b216511462b7df7249a621db408018,20f8d58633322a7973e3ded26cecc63a,IDSUP,IDSUP,Identifiant de la SUP,String,t,t,,<CATEGORIE>-<IDGEST>-<ENTIER>,,40,
-2db5c42823c8875ea3ad948aa6696e0c,20f8d58633322a7973e3ded26cecc63a,CATEGORIE,CATEGORIE,Catégorie de la servitude dans la nomenclature nationale,String,t,f,,,,10,
+2db5c42823c8875ea3ad948aa6696e0c,20f8d58633322a7973e3ded26cecc63a,CATEGORIE,CATEGORIE,Catégorie de la servitude dans la nomenclature nationale,String,t,f,,,,10,ListeCategorieSUP(CATEGORIE)
 65b4697897ce6098c57551fa80ed9710,20f8d58633322a7973e3ded26cecc63a,QUIPROD,QUIPROD,Organisme ayant numérisé la servitude,String,f,f,,,,80,
 751916ef2f5c8e46f305fa49159da732,20f8d58633322a7973e3ded26cecc63a,OBSVALIDAT,OBSVALIDAT,"Observation relative à la validation de la servitude formulée soit par le gestionnaire, soit par le service de l'État administrant les données",String,f,f,,,,254,
 90a2061006c1f3e454e0f36b67aff58c,20f8d58633322a7973e3ded26cecc63a,DESCRIPTIO,DESCRIPTIO,Description détaillée de la servitude,String,f,f,,,,254,
-97ca66299e2cb11d06e31baaa8c31c65,20f8d58633322a7973e3ded26cecc63a,MODEPROD,MODEPROD,Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant,String,t,f,,,,25,
+97ca66299e2cb11d06e31baaa8c31c65,20f8d58633322a7973e3ded26cecc63a,MODEPROD,MODEPROD,Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant,String,t,f,,,,25,ListeModeprodSUP(MODEPROD)
 aa00edca50f3e75062f333e28a5cf815,20f8d58633322a7973e3ded26cecc63a,IDGEST,IDGEST,Identifiant du gestionnaire de la SUP,String,t,f,,,,9,GESTIONNAIRE_SUP.IDGEST
 ab684dd618ea3d45c21bd192a60c53a5,20f8d58633322a7973e3ded26cecc63a,NOMREG,NOMREG,Nom du fichier pdf contenant le règlement de la servitude,String,f,f,,<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg.pdf,,100,
 b5dd35cee002c9c1c8446ff2361e9c96,20f8d58633322a7973e3ded26cecc63a,IDINTGEST,IDINTGEST,Identifiant créé et entretenu par l'organisme gestionnaire de la servitude,String,f,f,,,,25,
@@ -623,7 +623,7 @@ bcfa2d7d999eca4fae19c99138a90b68,256eb67a15f3ea2350a55d5f58f48ded,IDURBA,IDURBA,
 6d9e53ce557a7ff535594ebf3152180f,25799ab4e7d3d17532d47bb17993a2ef,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 90688fcf29a43c6111e154c73961d35b,25799ab4e7d3d17532d47bb17993a2ef,IDBDEXT,IDBDEXT,Identifiant référençant l'objet correspondant au générateur dans le référentiel ou la base de données externe,String,f,f,,,,50,
 afd7ef36dac292c361402c1369b09723,25799ab4e7d3d17532d47bb17993a2ef,DATESRCGEN,DATESRCGEN,Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source,String,f,f,,<YYYYMMDD>,,,
-cc1e59521113bd46dbf1755bf85109b3,25799ab4e7d3d17532d47bb17993a2ef,MODEGENERE,MODEGENERE,Description du moyen utilisé pour obtenir la géométrie du générateur,String,f,f,"[""Digitalisation"",""Duplication"",""Liste de coordonnées"",""Géométrie fictive""]",,,50,
+cc1e59521113bd46dbf1755bf85109b3,25799ab4e7d3d17532d47bb17993a2ef,MODEGENERE,MODEGENERE,Description du moyen utilisé pour obtenir la géométrie du générateur,String,f,f,,,,50,ListeModegenereSUP(MODEGENERE)
 f9757587cff12e81706fc7485eaf0c30,25799ab4e7d3d17532d47bb17993a2ef,REFBDEXT,REFBDEXT,Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication,String,f,f,,,,50,
 19ce6423b6b513f9a08f73dc124492c4,25b3b754830169dfd8fd819724902c66,TYPEASS,TYPEASS,,String,t,f,"[""Zone de passage""]",,,40,
 5a5c11d419148e7668d4df29ced59f76,25b3b754830169dfd8fd819724902c66,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
@@ -985,7 +985,7 @@ ce0d1509c0f53a82b8faeb2820f303ad,43602ccd2a6a8d73b7363a968747076e,LIBELLE,LIBELL
 dbe13b3cb04a78aef6ff8cce96e44d4c,43602ccd2a6a8d73b7363a968747076e,NATURE,NATURE,NATURE,String,f,f,,,,50,
 4be39cf4223c68d95a79c3c98c6b7bc1,436a731b970329de15bf96f47820ef97,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 77b12f1254c98e286fa7c7f4c4675c66,436a731b970329de15bf96f47820ef97,URL_GRISQ,URL_GRISQ,Hyperlien vers le PPR dans Géorisques,Url,f,f,,,,254,
-9d5d4a0d17adc3db3a31f2b4d5eeb126,436a731b970329de15bf96f47820ef97,CODE_ALEA,CODE_ALEA,Identifiant GASPAR de l'aléa,String,t,f,,,,2,
+9d5d4a0d17adc3db3a31f2b4d5eeb126,436a731b970329de15bf96f47820ef97,CODE_ALEA,CODE_ALEA,Identifiant GASPAR de l'aléa,String,t,f,,,,2,ListeCodeAleaSUP(CODE_ALEA)
 d0797e3b4d1a67ca8535069e8992de95,436a731b970329de15bf96f47820ef97,TYPEGEN,TYPEGEN,,String,t,f,"[""Périmètre réglementé du PPR""]",,,40,
 d3756b40b25d7da40aafa579429701a2,436a731b970329de15bf96f47820ef97,ID_GASPAR,ID_GASPAR,Identifiant Gaspar du PPR,String,t,f,,,,24,
 5aa564d5a2c605c8c4ecb8c4bef6137d,439b13477603a29ae3d1c046ba54641e,IDACTE,IDACTE,Identifiant de l'acte instituant la SUP,String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>,,40,ACTE_SUP.IDACTE
@@ -1159,7 +1159,7 @@ eeabf7e646d761b66bce8dca2d2c7069,4e6ad9f5d659541869f90d22b7519225,DATVALID,DATVA
 56b6d7b14fc3a248e632d83f7a87f704,4edb459e86909278aba4c2af6c942b42,IDASS,IDASS,Identifiant de l'assiette,Integer,t,t,,,,,
 7427ab389841fc55e516b81a481d2939,4edb459e86909278aba4c2af6c942b42,IDGEN,IDGEN,Identifiant du générateur de l'assiette,Integer,t,f,,,,,
 89ecc28e1d7fde0cbd77d0798b496dd9,4edb459e86909278aba4c2af6c942b42,DATESRCASS,DATESRCASS,Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source,String,f,f,,<YYYYMMDD>,,,
-8b81ee4d2c2a6765894e9e0d0fa9cdda,4edb459e86909278aba4c2af6c942b42,MODEGEOASS,MODEGEOASS,Description de la méthode utilisée pour générer la géométrie de l'assiette,String,t,f,"[""Égal au générateur"",""Zone tampon"",""Digitalisation"",""Duplication"",""Liste de coordonnées"",""Secteur angulaire"",""Calculée"",""Liste de parcelles"",""Fictive""]",,,25,
+8b81ee4d2c2a6765894e9e0d0fa9cdda,4edb459e86909278aba4c2af6c942b42,MODEGEOASS,MODEGEOASS,Description de la méthode utilisée pour générer la géométrie de l'assiette,String,t,f,,,,25,ListeModegeoassSUP(MODEGEOASS)
 9647e0dff490bc52af36ef874ce440b6,4edb459e86909278aba4c2af6c942b42,PARAMCALC,PARAMCALC,Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon,Integer,f,f,,,,,
 cf3618713c7ac76f3739f4eaaab392b2,4edb459e86909278aba4c2af6c942b42,SRCGEOASS,SRCGEOASS,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,f,f,,,,30,
 efc4d73337d1cabd3e5a8f66d88238f0,4edb459e86909278aba4c2af6c942b42,NOMASS,NOMASS,"Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP",String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_<SUFFIXE_ASS>,,100,
@@ -1171,13 +1171,13 @@ fb8d38fb5ea1055b882878ff6b4edfd1,4fe1ad55b3571cb5ac5b539ba4df028f,WKT,Géométri
 49dbd7557218623740b146b0dae0a632,5045fb4cc6b6879f6b15aa504d7d0a6b,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 5a99fc00b6cc06cee6f71b2e98e8ca46,5045fb4cc6b6879f6b15aa504d7d0a6b,CROISEMENT,CROISEMENT,Indique s'il y a un croisement,Boolean,t,f,,,,,
 724b5021a5d439f91077cf29d5075fbe,5045fb4cc6b6879f6b15aa504d7d0a6b,TYPEGEN,TYPEGEN,,String,t,f,"[""Emprise chemin de fer""]",,,40,
-da012f0fd63f85266d6f6db4a14b3360,5045fb4cc6b6879f6b15aa504d7d0a6b,TYPE_GEST,TYPE_GEST,type de gestionnaire de l'infrastructure,String,t,f,,,,15,
-e0420e17c9613cd6cb002db049798ee8,5045fb4cc6b6879f6b15aa504d7d0a6b,TYPE_VOIE,TYPE_VOIE,type de la voie,String,t,f,,,,15,
+da012f0fd63f85266d6f6db4a14b3360,5045fb4cc6b6879f6b15aa504d7d0a6b,TYPE_GEST,TYPE_GEST,type de gestionnaire de l'infrastructure,String,t,f,,,,15,ListeTypeGestSUP(TYPE_GEST)
+e0420e17c9613cd6cb002db049798ee8,5045fb4cc6b6879f6b15aa504d7d0a6b,TYPE_VOIE,TYPE_VOIE,type de la voie,String,t,f,,,,15,ListeTypeVoieSUP(TYPE_VOIE)
 2d9eb4d1ca95b693d32f09e6dfe61a71,5146126394baf20af78d61bf8c20abf9,TYPEGEN,TYPEGEN,,String,t,f,,,,40,
 3410d2ec8cbd5c201be662b4cf6fe79b,5146126394baf20af78d61bf8c20abf9,IDGEN,IDGEN,Identifiant du générateur,Integer,t,t,,,,,
 39c93912ba5bf0afbad95db9ed66e78a,5146126394baf20af78d61bf8c20abf9,IDBDEXT,IDBDEXT,Identifiant référençant l'objet correspondant au générateur dans le référentiel ou la base de données externe,String,f,f,,,,50,
 42cd1e3145f31264de0e3bc881ff3655,5146126394baf20af78d61bf8c20abf9,DATESRCGEN,DATESRCGEN,Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source,String,f,f,,<YYYYMMDD>,,,
-46a1e08c752e490bb51b205d640d4a42,5146126394baf20af78d61bf8c20abf9,MODEGENERE,MODEGENERE,Description du moyen utilisé pour obtenir la géométrie du générateur,String,f,f,"[""Digitalisation"",""Duplication"",""Liste de coordonnées"",""Géométrie fictive""]",,,50,
+46a1e08c752e490bb51b205d640d4a42,5146126394baf20af78d61bf8c20abf9,MODEGENERE,MODEGENERE,Description du moyen utilisé pour obtenir la géométrie du générateur,String,f,f,,,,50,ListeModegenereSUP(MODEGENERE)
 91e4e0e9674e7d3aaef322bdd1374c71,5146126394baf20af78d61bf8c20abf9,IDSUP,IDSUP,Identifiant de la SUP,Integer,t,f,,,,,SERVITUDE.IDSUP
 b6ea4308f6cb543b9b8d197a0a312357,5146126394baf20af78d61bf8c20abf9,REFBDEXT,REFBDEXT,Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication,String,f,f,,,,50,
 ca794cb677257564b31f6828f348dabe,5146126394baf20af78d61bf8c20abf9,SRCGEOGEN,SRCGEOGEN,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,f,f,,,,30,
@@ -1268,10 +1268,10 @@ cae7ea596b3db0cc778b6c41a0cec78c,572e1b49bea63e9af02faa1a4dad9b1f,ANGLE,ANGLE,"A
 ec6a0c707e4d49ea1d93983abe5646f4,572e1b49bea63e9af02faa1a4dad9b1f,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 10a5adafe7c881d806e0f3fe45791581,57560f272916af1a48fc34a2384a724f,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 1503c22ba70ea85a1d597b24254106aa,57560f272916af1a48fc34a2384a724f,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
-762d917184da6e87641d43c527c2fb7b,57560f272916af1a48fc34a2384a724f,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,
+762d917184da6e87641d43c527c2fb7b,57560f272916af1a48fc34a2384a724f,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 7751422322530a7efd22b84749ad9155,57560f272916af1a48fc34a2384a724f,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
 7b276fec115fd4f0ba3c565181b656da,57560f272916af1a48fc34a2384a724f,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
-a07f081aa3a64631a3b57f1be6f274d4,57560f272916af1a48fc34a2384a724f,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,
+a07f081aa3a64631a3b57f1be6f274d4,57560f272916af1a48fc34a2384a724f,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)
 caaf4bfff1382befdd2cccead2ef00e0,57560f272916af1a48fc34a2384a724f,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
 d897ae3de192a4a825cfe83ce9f76d2b,57560f272916af1a48fc34a2384a724f,NOMFIC,NOMFIC,Nom du fichier contenant les dispositions particulières du secteur,Filename,f,f,,,,80,
 ebbacedb5207c110b40778eca08da74d,57560f272916af1a48fc34a2384a724f,LIBELONG,LIBELONG,Nom complet littéral du secteur,String,f,f,,,,254,
@@ -1642,11 +1642,11 @@ bce0e959857a55837ee148fbbacefb8c,6db9d4021363fb98467e3ab42c50a3f4,DATVALID,DATVA
 e6f86ffd869f4d812bc408fe4ae8b0f8,6db9d4021363fb98467e3ab42c50a3f4,INSEE,INSEE,Code INSEE de la commune couverte par la zone,String,t,f,,,,5,
 2c46f410e6b0476611c7489bbd0901f8,6de5a169ad53faf3b7cccc893d329474,LIB_IDZONE,LIB_IDZONE,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_CC_<YYYYMMDD>_ZO<ENTIER>,,40,
 2dcfaa1dd79f7e43247b9436d5a88af8,6de5a169ad53faf3b7cccc893d329474,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
-3cb0416bc375915e8ecbb12570174fa3,6de5a169ad53faf3b7cccc893d329474,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,
+3cb0416bc375915e8ecbb12570174fa3,6de5a169ad53faf3b7cccc893d329474,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 3fbd7236c8ef3eaa03a38e1b8b2c41ab,6de5a169ad53faf3b7cccc893d329474,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 653154470265a16bc3a8a2c22a5e5d41,6de5a169ad53faf3b7cccc893d329474,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
 6b5b779769f67153ea4b2e293843e6f5,6de5a169ad53faf3b7cccc893d329474,LIBELONG,LIBELONG,Nom complet littéral du secteur,String,f,f,,,,254,
-6f54b79e1766262aab728cfa5473d081,6de5a169ad53faf3b7cccc893d329474,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,
+6f54b79e1766262aab728cfa5473d081,6de5a169ad53faf3b7cccc893d329474,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)
 75992d2cb1724c6d21cefc53a8914f54,6de5a169ad53faf3b7cccc893d329474,SYMBOLE,SYMBOLE,SYMBOLE,String,f,f,,SECT_[0-9]{2}_[0-9]{3},,20,
 838c7c4f7f7193038fbbe7ce5d7cf35c,6de5a169ad53faf3b7cccc893d329474,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
 ca70651e851c515ea620e6355ba67255,6de5a169ad53faf3b7cccc893d329474,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
@@ -1949,7 +1949,7 @@ c9f190a6b361ecad29f9fdcb9ce1dece,825cf62fb28f56c3f1a690fd3c5f48f3,DATVALID,DATVA
 6cfc772b0873a75bf0e51c5b8448bd52,82f35ea660b059e947eac6fbdb5fba92,SRCGEOGEN,SRCGEOGEN,"Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",String,f,f,,,,30,
 cb79de37d889f208c3358cb2baf2f10a,82f35ea660b059e947eac6fbdb5fba92,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 da4dac2902f0d5fa50219a7003c1f098,82f35ea660b059e947eac6fbdb5fba92,NOMGEN,NOMGEN,"Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",String,t,f,,<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?,,100,
-e6104aef0e75251a025136943ce7ce3a,82f35ea660b059e947eac6fbdb5fba92,MODEGENERE,MODEGENERE,Description du moyen utilisé pour obtenir la géométrie du générateur,String,f,f,,,,50,
+e6104aef0e75251a025136943ce7ce3a,82f35ea660b059e947eac6fbdb5fba92,MODEGENERE,MODEGENERE,Description du moyen utilisé pour obtenir la géométrie du générateur,String,f,f,,,,50,ListeModegenereSUP(MODEGENERE)
 f7ae969b0e2b54812af24d4ff98b69c2,82f35ea660b059e947eac6fbdb5fba92,DATESRCGEN,DATESRCGEN,Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source,String,f,f,,<YYYYMMDD>,,,
 34748ef1389fda5d6835c16bd86cbb86,83436cfdbce66ee2a68631aceee4da9f,NATTRAC,NATTRAC,Nature de la ligne,String,t,f,,,,40,
 36aad20cb1dfa977ecbc26ec0467b772,83436cfdbce66ee2a68631aceee4da9f,COULEUR,COULEUR,"Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",String,f,f,,[0-9]{3}-[0-9]{3}-[0-9]{3},,11,
@@ -2095,9 +2095,9 @@ f1df7088b63f98e737dd1bb9a77de38e,8ae06046374656ce9997d670af3b3a01,TYPE,TYPE,type
 2e64ebe4e126e87ec331ba46f21c4ff5,8b57702a547f5592def31b37666e5547,TENSION,TENSION,Tension de la ligne en KiloVolt (KV),Integer,t,f,,,,,
 74bfbf93bcbdfb4da1c9e66d7fc3cc55,8b57702a547f5592def31b37666e5547,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 9844b20af1316419fd8e426ad49a2391,8b57702a547f5592def31b37666e5547,TYPEGEN,TYPEGEN,,String,t,f,"[""Supports et câbles""]",,,40,
-372a2ae5a0be525684435b5bf7202dcf,8bacabfa1aa091b1acb7aa8a02de4885,APLAN,APLAN,Existence d'un ou plusieurs plans annexés à l'acte,String,f,f,"[""T"",""F""]",,,1,
-38ef89f7dee63d5d0d0254039d4f02bb,8bacabfa1aa091b1acb7aa8a02de4885,DECISION,DECISION,Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude,String,t,f,"[""Création"",""Modification"",""Substitution"",""Annulation"",""Abrogation""]",,,25,
-57967eb687c1300d5cfa308134457467,8bacabfa1aa091b1acb7aa8a02de4885,TYPEACTE,TYPEACTE,Description de la nature de l'acte,String,t,f,"[""Texte de loi"",""Décret en Conseil d'Etat"",""Arrêté ministériel"",""Arrêté interministériel"",""Arrêté préfectoral"",""Arrêté préfet de Région"",""Décret Premier Ministre"",""Décret"",""Arrêté de SUP"",""Convention amiable"",""Arrêté municipal"",""Autre"",""Non renseigné""]",,,50,
+372a2ae5a0be525684435b5bf7202dcf,8bacabfa1aa091b1acb7aa8a02de4885,APLAN,APLAN,Existence d'un ou plusieurs plans annexés à l'acte,String,f,f,,,,1,ListeAplanSUP(APLAN)
+38ef89f7dee63d5d0d0254039d4f02bb,8bacabfa1aa091b1acb7aa8a02de4885,DECISION,DECISION,Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude,String,t,f,,,,25,ListeDecisionSUP(DECISION)
+57967eb687c1300d5cfa308134457467,8bacabfa1aa091b1acb7aa8a02de4885,TYPEACTE,TYPEACTE,Description de la nature de l'acte,String,t,f,,,,50,ListeTypeacteSUP(TYPEACTE)
 a1ed509fa03fb1cb683ad1bc4ee64d04,8bacabfa1aa091b1acb7aa8a02de4885,DATEPUB,DATEPUB,Date de parution au Journal Officiel ou de publicité dans la presse,String,f,f,,<YYYYMMDD>,,,
 a8833ccb9cc32ac1d6279678de4d6ac0,8bacabfa1aa091b1acb7aa8a02de4885,NOMACTE,NOMACTE,"Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP",String,t,f,,<CATEGORIE>_<RADICAL>(_<ENTIER>)?_act,,100,
 c6d46cb2b78e5800f7822c84ad28132f,8bacabfa1aa091b1acb7aa8a02de4885,IDACTE,IDACTE,Identifiant de l'acte,Integer,t,t,,,,,
@@ -2113,10 +2113,10 @@ fcc4e2f9187897acbf4fd14f43eb42a5,8bacabfa1aa091b1acb7aa8a02de4885,REFERENCE,REFE
 9f208f292a1276667ddce82d736c6a53,8c0ae058a0bec26c152f347fd0c34ba0,DATVALID,DATVALID,Date de la dernière validation de la prescription,String,f,f,,<YYYYMMDD>,,,
 a6d2cc021f5cdb21405b735aa4de4e05,8c0ae058a0bec26c152f347fd0c34ba0,URLFIC,URLFIC,URL ou URI qui pointe sur le fichier de règlement de la prescription,Url,f,f,,,,254,
 ff3ac3765bbbade25eee3b66d8b3798f,8c0ae058a0bec26c152f347fd0c34ba0,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-69c9159a15488b0c902e3dce0f95496d,8cc7e749c1bfa2131ed44fc5f9d68261,TYPE_GEST,TYPE_GEST,type de gestionnaire de l'infrastructure,String,f,f,"[""Etat"",""Département"",""Commune"",""RFF""]",,,15,
+69c9159a15488b0c902e3dce0f95496d,8cc7e749c1bfa2131ed44fc5f9d68261,TYPE_GEST,TYPE_GEST,type de gestionnaire de l'infrastructure,String,f,f,,,,15,ListeTypeGestSUP(TYPE_GEST)
 6d3e86467c2d5b8e43f1e0a28914a03f,8cc7e749c1bfa2131ed44fc5f9d68261,CROISEMENT,CROISEMENT,Indique s'il y a un croisement,Boolean,f,f,,,,,
 7b72c594029ca62c3359529af6983fd5,8cc7e749c1bfa2131ed44fc5f9d68261,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
-9c9f32b817a58c958bf8120b032796a0,8cc7e749c1bfa2131ed44fc5f9d68261,TYPE_VOIE,TYPE_VOIE,type de la voie,String,f,f,"[""Voie publique"",""Voie privée""]",,,15,
+9c9f32b817a58c958bf8120b032796a0,8cc7e749c1bfa2131ed44fc5f9d68261,TYPE_VOIE,TYPE_VOIE,type de la voie,String,f,f,,,,15,ListeTypeVoieSUP(TYPE_VOIE)
 2007f769032ba7d831833be0eee30ab8,8d60a0622bf3a7fa19e14aa54231db44,LIB_IDINFO,LIB_IDINFO,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IS<ENTIER>,,40,
 4688b5aa4755f857761710e6b59b433e,8d60a0622bf3a7fa19e14aa54231db44,NOMFIC,NOMFIC,Nom du fichier contenant le texte décrivant l'information reportée,Filename,f,f,,,,80,
 68e95d0b9be80445f16807a96019ca0f,8d60a0622bf3a7fa19e14aa54231db44,TYPEINF,TYPEINF,Type de périmètre dans une liste prédéfinie,String,t,f,,,,2,
@@ -2147,7 +2147,7 @@ fdf05aad1613a29da12fcd0119c0e298,8f571ed925c3b46df46e54600416a202,NUMTEL,NUMTEL,
 aff1e1bb12a548d566f8e1c967b3cdfd,901ea90d423629d389b0919e7fc486da,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 d51ebb69dcc5040a54c7b2c85144921b,901ea90d423629d389b0919e7fc486da,H,H,,Double,f,f,,,,,
 36f19c600f7ac22b5330454028760de5,91965408dcff3543abf0133b43ecc4a4,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
-66381d4b3078f4593da029232310f38d,91965408dcff3543abf0133b43ecc4a4,MODEGEOASS,MODEGEOASS,Description de la méthode utilisée pour générer la géométrie de l'assiette,String,t,f,,,,25,
+66381d4b3078f4593da029232310f38d,91965408dcff3543abf0133b43ecc4a4,MODEGEOASS,MODEGEOASS,Description de la méthode utilisée pour générer la géométrie de l'assiette,String,t,f,,,,25,ListeModegeoassSUP(MODEGEOASS)
 a13f113c4de5c030496cf873927dc8f8,91965408dcff3543abf0133b43ecc4a4,TYPEASS,TYPEASS,Nature de l'assiette selon sa vocation principale et la catégorie de SUP,String,t,f,"[""Zone de protection""]",,,40,
 bf3049e0acfbca1da12fec4836ae011d,91965408dcff3543abf0133b43ecc4a4,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 45dfc9d97622e7a639619659db3cd36d,91ff066b57e13b42bc6b010f9f561304,TXT,TXT,Libellé de l'étiquette attachée au point d'habillage,String,t,f,,,,80,
@@ -2507,14 +2507,14 @@ fba6779325335a158fb7da9aa7342ce8,a951b0547cc46bc0a8eda22b3a7dcd6a,WKT,Géométri
 1fd400f20db6d49d442e3a938203811e,a96e2badebaa115c57665a111ad88d9d,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 7ae83d52ae4f9034674c39eeb3e12ba8,a96e2badebaa115c57665a111ad88d9d,H,H,,Double,f,f,,,,,
 e905acfc15becede0d2f3f23f7c71251,a96e2badebaa115c57665a111ad88d9d,HREF,HREF,,String,f,f,,,,3,ListeHrefSUP(HREF)
-117abb6d4dfbd3dfbbfa4e203aa266fb,aa1a5447b1c501c77f343efd00737323,MODEPROD,MODEPROD,Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant,String,t,f,"[""import"",""numérisation"",""reconstitution""]",,,25,
+117abb6d4dfbd3dfbbfa4e203aa266fb,aa1a5447b1c501c77f343efd00737323,MODEPROD,MODEPROD,Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant,String,t,f,,,,25,ListeModeprodSUP(MODEPROD)
 12ce35e905b8d0930c13b6b734819c77,aa1a5447b1c501c77f343efd00737323,IDGEST,IDGEST,Identifiant du gestionnaire de la SUP,String,t,f,,<SIREN>,,9,GESTIONNAIRE_SUP.IDGEST
 153b3786e425d79800557ea9ec1eba5e,aa1a5447b1c501c77f343efd00737323,NOMSUPLITT,NOMSUPLITT,"Nom littéral de la servitude, figurant dans l'acte l'ayant instaurée",String,f,f,,,,100,
 247760333ef95b0b3a15b71b30d54d4f,aa1a5447b1c501c77f343efd00737323,VALIDEGEST,VALIDEGEST,Les données numérisées de la servitude ont été validées ou pas par le gestionnaire,String,t,f,,,,1,
 2ba1e993fe419d951ac5f28ef3de56db,aa1a5447b1c501c77f343efd00737323,OBSVALIDAT,OBSVALIDAT,"Observation relative à la validation de la servitude formulée soit par le gestionnaire, soit par le service de l'État administrant les données",String,f,f,,,,254,
 312007f69801fdeef57ed9cf03d9173a,aa1a5447b1c501c77f343efd00737323,IDINTGEST,IDINTGEST,Identifiant créé et entretenu par l'organisme gestionnaire de la servitude,String,f,f,,,,25,
 315c5f41febeef3fe93be6ed250f2a14,aa1a5447b1c501c77f343efd00737323,DATEMAJ,DATEMAJ,Date de la dernière modification apportée à la servitude,String,t,f,,<YYYYMMDD>,,,
-726e30853c23e1d077596a81cd55d179,aa1a5447b1c501c77f343efd00737323,CATEGORIE,CATEGORIE,Catégorie de la servitude dans la nomenclature nationale,String,t,f,"[""A1"",""A2"",""A3"",""A4"",""A5"",""A6"",""A7"",""A8"",""A9"",""A10"",""AC1"",""AC2"",""AC3"",""AC4"",""AC4bis"",""AR1"",""AR2"",""AR3"",""AR4"",""AR5"",""AR6"",""AS1"",""AS2"",""EL1"",""EL2"",""EL2bis"",""EL3"",""EL4"",""EL5"",""EL6"",""EL7"",""EL8"",""EL9"",""EL10"",""EL11"",""EL12"",""I1"",""I1bis"",""I2"",""I3"",""I4"",""I5"",""I6"",""I7"",""I8"",""I9"",""I10"",""INT1"",""JS1"",""PM1"",""PM1bis"",""PM2"",""PM3"",""PM4"",""PM5"",""PM6"",""PM7"",""PM8"",""PT1"",""PT2"",""PT3"",""PT4"",""T1"",""T2"",""T3"",""T4"",""T5"",""T6"",""T7"",""T8"",""T9""]",,,10,
+726e30853c23e1d077596a81cd55d179,aa1a5447b1c501c77f343efd00737323,CATEGORIE,CATEGORIE,Catégorie de la servitude dans la nomenclature nationale,String,t,f,,,,10,ListeCategorieSUP(CATEGORIE)
 73ab1c52127904229ee9dff021acbcc5,aa1a5447b1c501c77f343efd00737323,IDSUP,IDSUP,Identifiant de la SUP,Integer,t,t,,,,,
 8c23de7b3ab57a82fe4e0df1ca870219,aa1a5447b1c501c77f343efd00737323,ESTABROGE,ESTABROGE,Attribut dérivé renseignant sur l'état de validité de la servitude : cet attribut prend la valeur 'oui' si un acte ou une décision administrative a abrogé ou annulé la servitude,String,t,f,"[""T"",""F""]",,,1,
 a30491be7fff04a4dc4cadc8baa9fb58,aa1a5447b1c501c77f343efd00737323,NOMSUP,NOMSUP,"Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP",String,t,f,,<CATEGORIE>_<RADICAL>_sup,,100,
@@ -2664,12 +2664,12 @@ c53dcef2960e0dedfdc141d1622bd432,b45e35e68c0eeffc792938c17a1870bd,WKT,Géométri
 34af6cd2ceb2af3ab12360ea70b0ee1d,b5dee7459709be4f059c505e416cf2b6,DATAPPRO,DATAPPRO,Date d'approbation du document d'urbanisme auquel appartient la zone,String,f,f,,<YYYYMMDD>,,,
 388690a6a37bce19405c283c51c4bbe8,b5dee7459709be4f059c505e416cf2b6,DESTDOMI,DESTDOMI,"Vocation dominante de la zone, concerne l’usage de la zone",String,t,f,,,,2,ListeDestdomi(DESTDOMI)
 39fd8959f59d313bc92a8a1ccda1d35b,b5dee7459709be4f059c505e416cf2b6,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
-3a7526e25eed55a46fdd5014db4b1d78,b5dee7459709be4f059c505e416cf2b6,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,"[""01"",""02"",""03"",""99""]",,,2,
+3a7526e25eed55a46fdd5014db4b1d78,b5dee7459709be4f059c505e416cf2b6,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,2,ListeTypesectCC(TYPESECT)
 49238a7c9bdf9b82dd10bd1cbaaea8c9,b5dee7459709be4f059c505e416cf2b6,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,12,
 88f70c36300a814b2b6e8b07e4c5f410,b5dee7459709be4f059c505e416cf2b6,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 9eb8455b227ef98f397ee0b60569b7da,b5dee7459709be4f059c505e416cf2b6,NOMFIC,NOMFIC,Nom du fichier contenant les dispositions particulières du secteur,Filename,f,f,,,,80,
 d0345e632d58a2c137876dc44aae91eb,b5dee7459709be4f059c505e416cf2b6,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
-d429970d8a10784776cde254b78c42e4,b5dee7459709be4f059c505e416cf2b6,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,"["""",""Oui""]",,,3,
+d429970d8a10784776cde254b78c42e4,b5dee7459709be4f059c505e416cf2b6,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)
 280682585871f6162a707176842979f6,b606b43388e51eee525c91e723ae9a77,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 342c2e7880a91ef51f96c716efa8f284,b606b43388e51eee525c91e723ae9a77,COULEUR,COULEUR,"Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",String,f,f,,[0-9]{3}-[0-9]{3}-[0-9]{3},,11,
 6be5cc833cb101bbd2cfd9c43c4eb139,b606b43388e51eee525c91e723ae9a77,NATTRAC,NATTRAC,Nature du point,String,t,f,,,,40,
@@ -2885,11 +2885,11 @@ d13542d1f3b7db10d8a4a0028644c7e5,c251a1eb9170b0e85c672c0b53dfa244,URLPLAN,URLPLA
 f1189ccd72cedf88c22d5beaef44b680,c251a1eb9170b0e85c672c0b53dfa244,TYPEREF,TYPEREF,Nom du référentiel cadastral utilisé pour la numérisation,String,f,f,,,,2,
 fdc4ddf529d20293ae1f199743a6ac7f,c251a1eb9170b0e85c672c0b53dfa244,URLRAPP,URLRAPP,Lien d'accès au fichier contenant le dernier rapport de présentation,Url,f,f,,,,254,
 1be6d48973d1556d4fb7cf7865b6db79,c2a0782dd2345c251bc4cec34aa061d2,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
-373616397ac309e873c7d2a78ae2eb9d,c2a0782dd2345c251bc4cec34aa061d2,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,"[""01"",""02"",""03"",""99""]",,,3,
+373616397ac309e873c7d2a78ae2eb9d,c2a0782dd2345c251bc4cec34aa061d2,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 400695c3cd8bdbd7d0558cd0328fb513,c2a0782dd2345c251bc4cec34aa061d2,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
 40ba67f5cfe57750d97119510da3fad8,c2a0782dd2345c251bc4cec34aa061d2,INSEE,INSEE,Code INSEE de la commune couverte par le secteur,String,t,f,,,,5,
 510e003f6396e19bdbf253af8b754475,c2a0782dd2345c251bc4cec34aa061d2,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
-59fe911e35aa4cfdacb2ea740ddc95c3,c2a0782dd2345c251bc4cec34aa061d2,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,"["""",""Oui""]",,,3,
+59fe911e35aa4cfdacb2ea740ddc95c3,c2a0782dd2345c251bc4cec34aa061d2,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)
 86c3a04f71630bc8f1526911e172a10e,c2a0782dd2345c251bc4cec34aa061d2,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 d2f112a50a240e8f28bde7f776460cd6,c2a0782dd2345c251bc4cec34aa061d2,DESTDOMI,DESTDOMI,"Vocation dominante de la zone, concerne l’usage de la zone",String,t,f,,,,2,ListeDestdomi(DESTDOMI)
 d4907b570dfa7338cb66c27bff77947b,c2a0782dd2345c251bc4cec34aa061d2,DATAPPRO,DATAPPRO,Date d'approbation du document d'urbanisme auquel appartient la zone,String,f,f,,<YYYYMMDD>,,,
@@ -2930,7 +2930,7 @@ f6f42ffb71252d1df5a2204c9ea17fdd,c574d390f93dc8f0ff0ec0496dc995cc,INTERCO,INTERC
 2c6e86a49b19e7b667446c596336adcb,c5d9b1a7faf7028efbd3bcd5a643a535,TYPEGEN,TYPEGEN,,String,t,f,"[""Ligne souterraine de transport""]",,,40,
 63e31c2a0c0751b2989fb0ac0867e639,c5d9b1a7faf7028efbd3bcd5a643a535,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 115fcc6a5fbb460d302c4093f8674551,c600bcb7c9aa1d469114671774b0123f,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-6469fdc23ad68b78ceb5d57c3405b09f,c600bcb7c9aa1d469114671774b0123f,CODE_ALEA,CODE_ALEA,Identifiant GASPAR de l'aléa,String,f,f,"[""10"",""11"",""12"",""13"",""14"",""15"",""16"",""17"",""18"",""30"",""31"",""99""]",,,2,
+6469fdc23ad68b78ceb5d57c3405b09f,c600bcb7c9aa1d469114671774b0123f,CODE_ALEA,CODE_ALEA,Identifiant GASPAR de l'aléa,String,f,f,,,,2,ListeCodeAleaSUP(CODE_ALEA)
 8c519aac966fee4fbc32e6bf2619aafc,c600bcb7c9aa1d469114671774b0123f,ID_GASPAR,ID_GASPAR,Identifiant Gaspar du PPR,String,f,f,,,,24,
 0a15c106497d5dcad2783427c94474c5,c63828f6a15406d358299e772ee4b752,TYPEASS,TYPEASS,,String,t,f,"[""Zone de survol""]",,,40,
 a608a936c02231d070d607da7b9e7248,c63828f6a15406d358299e772ee4b752,HREF,HREF,,String,t,f,,,,3,ListeHrefSUP(HREF)
@@ -3038,9 +3038,9 @@ b12523ec0fb2052813cb9ee2fa100f46,d0b1f49afc9212835675f7c108ad8357,FICHIER,FICHIE
 9eee066ebb337fe8fb82fc30d05ca683,d0bba82677e16628b021101bc92f60f6,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 d03111babc016dc1c90115b828f42898,d0bba82677e16628b021101bc92f60f6,H,H,,Double,f,f,,,,,
 69c410062e9e6e56a66c80e31315857c,d0f80f8b51da8c2ed4ad0976ee6ffacb,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
-a9ce338d94917f146c1cfe81b96ed222,d0f80f8b51da8c2ed4ad0976ee6ffacb,TYPE_GEST,TYPE_GEST,type de gestionnaire de l'infrastructure,String,t,f,,,,15,
+a9ce338d94917f146c1cfe81b96ed222,d0f80f8b51da8c2ed4ad0976ee6ffacb,TYPE_GEST,TYPE_GEST,type de gestionnaire de l'infrastructure,String,t,f,,,,15,ListeTypeGestSUP(TYPE_GEST)
 aa8d76578b032b87fb38f574c1b171df,d0f80f8b51da8c2ed4ad0976ee6ffacb,CROISEMENT,CROISEMENT,Indique s'il y a un croisement,Boolean,t,f,,,,,
-bade3df744ab345c8b880638f3c313ca,d0f80f8b51da8c2ed4ad0976ee6ffacb,TYPE_VOIE,TYPE_VOIE,type de la voie,String,t,f,,,,15,
+bade3df744ab345c8b880638f3c313ca,d0f80f8b51da8c2ed4ad0976ee6ffacb,TYPE_VOIE,TYPE_VOIE,type de la voie,String,t,f,,,,15,ListeTypeVoieSUP(TYPE_VOIE)
 dca602045bedcf73f940874f8d93f5e9,d0f80f8b51da8c2ed4ad0976ee6ffacb,TYPEGEN,TYPEGEN,,String,t,f,"[""Emprise chemin de fer""]",,,40,
 4236b882e04e0de6d74f08f79bf22797,d0fcb802b1504cc67554db9d7bc0ae00,DATECOG,DATECOG,Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune,String,f,f,,<YYYYMMDD>,,,
 532e53d1a82318917bb50f6b30a9449b,d0fcb802b1504cc67554db9d7bc0ae00,INSEE,INSEE,Code INSEE de la commune concernée par le document d'urbanisme,String,t,f,,,,5,
@@ -3157,7 +3157,7 @@ fcef77e097f87856d4b27acdd2ff520c,d8bf6b57f8c744bcb0df0879053d44d8,NATTRAC,NATTRA
 6df265cfe2e5843c327bcd3c8656c299,d8f20d2f47dd4e124458684ba917dc65,NOMGEN,NOMGEN,"Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",String,t,f,,<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?,,100,
 bf6cc359b24ea217a012564d48e5cb77,d8f20d2f47dd4e124458684ba917dc65,REFBDEXT,REFBDEXT,Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication,String,f,f,,,,50,
 cd6f1e74c85a9107aee7db667ccb297d,d8f20d2f47dd4e124458684ba917dc65,DATESRCGEN,DATESRCGEN,Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source,String,f,f,,<YYYYMMDD>,,,
-d0347f4b396894b92734634b2971c82b,d8f20d2f47dd4e124458684ba917dc65,MODEGENERE,MODEGENERE,Description du moyen utilisé pour obtenir la géométrie du générateur,String,f,f,,,,50,
+d0347f4b396894b92734634b2971c82b,d8f20d2f47dd4e124458684ba917dc65,MODEGENERE,MODEGENERE,Description du moyen utilisé pour obtenir la géométrie du générateur,String,f,f,,,,50,ListeModegenereSUP(MODEGENERE)
 ec9419301ce9b53b55bd9e0ce94ca2cb,d8f20d2f47dd4e124458684ba917dc65,IDSUP,IDSUP,Identifiant de la SUP,String,t,f,,<CATEGORIE>-<IDGEST>-<ENTIER>,,40,SERVITUDE.IDSUP
 10bc86ddbd845b55da93c4614f194cfc,d9447969363073652955af4fc7c1f7ea,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 54fbf5a3e4962ea52b5b9cfb0fc31edd,d9447969363073652955af4fc7c1f7ea,NOMFIC,NOMFIC,Nom du fichier PDF décrivant la prescription,Filename,f,f,,,,80,
@@ -3320,17 +3320,17 @@ dcf04b69c9c665a1843d13bb5528d668,e146c70132bfacbce05ea5b20dccdcd9,TXT,TXT,Nom co
 ef4f5f91752d87925d240364756a66bb,e146c70132bfacbce05ea5b20dccdcd9,TYPEINF,TYPEINF,Type d'information ponctuelle dans une liste prédéfinie,String,t,f,,,,2,
 f68bd8254c413955a1a330b98e85cd69,e146c70132bfacbce05ea5b20dccdcd9,STYPEINF,STYPEINF,,String,t,f,,,,2,ListeStypeinf(STYPEINF)
 2c6434a45722f82133c988a794337d2b,e14c6d887b0e10f09453d25aa66af5f2,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-22e78353325b7e541a2c9d26aa758285,e212f88bc7ac2edbbabba5af6a3cdd7a,TYPE_GEST,TYPE_GEST,type de gestionnaire de l'infrastructure,String,f,f,"[""Etat"",""Département"",""Commune"",""RFF""]",,,15,
-989aa17acdb31ff13f6e82c6bdbfafdc,e212f88bc7ac2edbbabba5af6a3cdd7a,TYPE_VOIE,TYPE_VOIE,type de la voie,String,f,f,"[""Voie publique"",""Voie privée""]",,,15,
+22e78353325b7e541a2c9d26aa758285,e212f88bc7ac2edbbabba5af6a3cdd7a,TYPE_GEST,TYPE_GEST,type de gestionnaire de l'infrastructure,String,f,f,,,,15,ListeTypeGestSUP(TYPE_GEST)
+989aa17acdb31ff13f6e82c6bdbfafdc,e212f88bc7ac2edbbabba5af6a3cdd7a,TYPE_VOIE,TYPE_VOIE,type de la voie,String,f,f,,,,15,ListeTypeVoieSUP(TYPE_VOIE)
 9910388d65683b0fe1ceace68afa0ffb,e212f88bc7ac2edbbabba5af6a3cdd7a,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 f5319a26c6f36e0e6641af3da1468106,e212f88bc7ac2edbbabba5af6a3cdd7a,CROISEMENT,CROISEMENT,Indique s'il y a un croisement,Boolean,f,f,,,,,
 21102e77f9b0b419cdca2367cf114ada,e23b4485847c2c72e8ce8fdf681f5c33,REFERENCE,REFERENCE,Référence de l'acte ayant créé ou modifié la servitude,String,t,f,,,,50,
-45da2f3861b21374963200d493357dc3,e23b4485847c2c72e8ce8fdf681f5c33,DECISION,DECISION,Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude,String,t,f,,,,25,
+45da2f3861b21374963200d493357dc3,e23b4485847c2c72e8ce8fdf681f5c33,DECISION,DECISION,Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude,String,t,f,,,,25,ListeDecisionSUP(DECISION)
 5130470298b89af31028e1d3821341f9,e23b4485847c2c72e8ce8fdf681f5c33,DATEPUB,DATEPUB,Date de parution au Journal Officiel ou de publicité dans la presse,String,f,f,,<YYYYMMDD>,,,
 51e6c1b0f2db8446ba9301c385bb9e88,e23b4485847c2c72e8ce8fdf681f5c33,FICHIER,FICHIER,Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte,Filename,t,f,,,,254,
 60bb3a4308c58c838b761ef979ad2c0c,e23b4485847c2c72e8ce8fdf681f5c33,IDACTE,IDACTE,Identifiant de l'acte,String,t,t,,<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>,,40,
-689a6c986b2792a153a871d837f89fd3,e23b4485847c2c72e8ce8fdf681f5c33,APLAN,APLAN,Existence d'un ou plusieurs plans annexés à l'acte,String,f,f,,,,1,
-8b2a5deb50909f091edc15af087ea9af,e23b4485847c2c72e8ce8fdf681f5c33,TYPEACTE,TYPEACTE,Description de la nature de l'acte,String,t,f,,,,50,
+689a6c986b2792a153a871d837f89fd3,e23b4485847c2c72e8ce8fdf681f5c33,APLAN,APLAN,Existence d'un ou plusieurs plans annexés à l'acte,String,f,f,,,,1,ListeAplanSUP(APLAN)
+8b2a5deb50909f091edc15af087ea9af,e23b4485847c2c72e8ce8fdf681f5c33,TYPEACTE,TYPEACTE,Description de la nature de l'acte,String,t,f,,,,50,ListeTypeacteSUP(TYPEACTE)
 9425d3d273bce250e346bbbd26e27359,e23b4485847c2c72e8ce8fdf681f5c33,DATEDECIS,DATEDECIS,Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte,String,t,f,,<YYYYMMDD>,,,
 ff75a107ee9724b5ffb88ff1b8108d99,e23b4485847c2c72e8ce8fdf681f5c33,NOMACTE,NOMACTE,"Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP",String,t,f,,<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act,,100,
 08add7be7ed7f294f72b6fdadd826ccb,e24148583ce0fe2185511e07496244ac,URLFIC,URLFIC,URL ou URI qui pointe sur le fichier de règlement de l'information,Url,f,f,,,,254,
@@ -3372,9 +3372,9 @@ fb57d72c498080ef571d7b8c40828642,e3ea426ff7c4273c8207a133d6c8ffc1,DATVALID,DATVA
 21fc69d02bc57a7342f3a3f13763d479,e496fe3abfa524063637cd85af60eea4,LIB_IDZONE,LIB_IDZONE,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_CC_<YYYYMMDD>_ZO<ENTIER>,,40,
 3235099cd36fa77a5b817b821febec52,e496fe3abfa524063637cd85af60eea4,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 4418bc49ae72f727e58d83ea98a51171,e496fe3abfa524063637cd85af60eea4,SYMBOLE,SYMBOLE,SYMBOLE,String,f,f,,SECT_[0-9]{2}_[0-9]{3},,20,
-5db14d787b1238bd9dab98ad24072bb5,e496fe3abfa524063637cd85af60eea4,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,
+5db14d787b1238bd9dab98ad24072bb5,e496fe3abfa524063637cd85af60eea4,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)
 67223cf69fd2418b3c38cdd7f77e8a12,e496fe3abfa524063637cd85af60eea4,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
-86858262ec7f6938fef94b15e6a46d15,e496fe3abfa524063637cd85af60eea4,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,
+86858262ec7f6938fef94b15e6a46d15,e496fe3abfa524063637cd85af60eea4,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 91aaf5ad4722d1a0bb700cbfc28f0f8d,e496fe3abfa524063637cd85af60eea4,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
 bc01aba7c89134923334ebe9bccd8a4f,e496fe3abfa524063637cd85af60eea4,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
 d5880fa6911a751d732ba265df54ccee,e496fe3abfa524063637cd85af60eea4,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
@@ -3642,13 +3642,13 @@ e19cec31b77317ff0d4daeb0aba10d47,f8f109ace7412d7607c49d7f9ca64342,INSEE,INSEE,Co
 d3c58f549d79080be146be6a65a03ca3,f96303ea87f93a53451da016ff32c3b6,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 fd590771bb2f40c5bbb60cade744569e,f96303ea87f93a53451da016ff32c3b6,H,H,,Double,f,f,,,,,
 0890e2ac16a43ae3bcd9d96ad2d7e6c9,f963b627c319db8efc519b8f5f6cfb5f,LIBELONG,LIBELONG,Nom complet littéral du secteur,String,f,f,,,,254,
-5b45c0789a77d1ffc6531d24595725bd,f963b627c319db8efc519b8f5f6cfb5f,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,
+5b45c0789a77d1ffc6531d24595725bd,f963b627c319db8efc519b8f5f6cfb5f,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 5e0c889292e4514a6f31cd51e44c3a6f,f963b627c319db8efc519b8f5f6cfb5f,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 745cbd0f6528d197b7f31f48d1d64821,f963b627c319db8efc519b8f5f6cfb5f,LIB_IDZONE,LIB_IDZONE,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_CC_<YYYYMMDD>_ZO<ENTIER>,,40,
 79e915fa7f56d3c48994427c8bd5d3ba,f963b627c319db8efc519b8f5f6cfb5f,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
 b59b05a7fee4a0acd19c3eb5b91d86da,f963b627c319db8efc519b8f5f6cfb5f,NOMFIC,NOMFIC,Nom du fichier contenant les dispositions particulières du secteur,Filename,f,f,,,,80,
 c8f765ecf3489734e6a799237de386d2,f963b627c319db8efc519b8f5f6cfb5f,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
-cbffea186f2c6674654d25b684abd162,f963b627c319db8efc519b8f5f6cfb5f,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,
+cbffea186f2c6674654d25b684abd162,f963b627c319db8efc519b8f5f6cfb5f,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)
 d689c039139178c19f9a3e9c8ec42908,f963b627c319db8efc519b8f5f6cfb5f,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
 e9137d86fd96e47847398ccb1aa267e9,f963b627c319db8efc519b8f5f6cfb5f,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
 1b4615a24a244fa60b6f3fe6aaf59532,f9da18f58b61da1c24a93e98c3dfb842,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
@@ -3718,7 +3718,7 @@ eb94425e9c6ec92af7f8de66a8e312cb,fe8538681215912957dd084c354e7420,LIB_IDINFO,LIB
 f99dcf046821acd9950b6a594775c4cc,fe8538681215912957dd084c354e7420,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 0d1727d9860ab3357649957650d65955,fe9da1ca76a78e438901ab9ce5a2f96d,ID_GASPAR,ID_GASPAR,Identifiant Gaspar du PPR,String,f,f,,,,24,
 afaa64f8597d4396419b33e756c1f00c,fe9da1ca76a78e438901ab9ce5a2f96d,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-e94d88b1a8289c14c6d57792df2cda27,fe9da1ca76a78e438901ab9ce5a2f96d,CODE_ALEA,CODE_ALEA,Identifiant GASPAR de l'aléa,String,f,f,"[""20"",""21"",""22"",""23"",""24"",""25""]",,,2,
+e94d88b1a8289c14c6d57792df2cda27,fe9da1ca76a78e438901ab9ce5a2f96d,CODE_ALEA,CODE_ALEA,Identifiant GASPAR de l'aléa,String,f,f,,,,2,ListeCodeAleaSUP(CODE_ALEA)
 3e545e281ef6109f10d7bfa61b704768,fea91e62bd2c35e70081dbae1c5828ff,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 bf55b7a54ad1ffca90703084e52fb2a9,fea91e62bd2c35e70081dbae1c5828ff,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 ce989adfdca468e071901fb0b4ced57d,fea91e62bd2c35e70081dbae1c5828ff,TYPEASS,TYPEASS,,String,t,f,"[""Zone de protection""]",,,40,

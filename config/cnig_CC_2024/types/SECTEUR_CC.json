@@ -38,7 +38,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 3
+                "maxLength": 3,
+                "reference": "ListeTypesectCC(TYPESECT)"
             }
         },
         {
@@ -86,7 +87,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 3
+                "maxLength": 3,
+                "reference": "ListeFermrecoCC(FERMRECO)"
             }
         },
         {

@@ -59,13 +59,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "Digitalisation",
-                    "Duplication",
-                    "Liste de coordonnées",
-                    "Géométrie fictive"
-                ],
-                "maxLength": 50
+                "maxLength": 50,
+                "reference": "ListeModegenereSUP(MODEGENERE)"
             }
         },
         {
@@ -126,13 +121,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "Etat",
-                    "Département",
-                    "Commune",
-                    "RFF"
-                ],
-                "maxLength": 15
+                "maxLength": 15,
+                "reference": "ListeTypeGestSUP(TYPE_GEST)"
             }
         },
         {
@@ -144,11 +134,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "Voie publique",
-                    "Voie privée"
-                ],
-                "maxLength": 15
+                "maxLength": 15,
+                "reference": "ListeTypeVoieSUP(TYPE_VOIE)"
             }
         },
         {
@@ -181,6 +168,10 @@
             "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(TYPE_GEST) REFERENCES ListeTypeGestSUP(TYPE_GEST)",
+            "(TYPE_VOIE) REFERENCES ListeTypeVoieSUP(TYPE_VOIE)"
+        ]
     }
 }

@@ -63,7 +63,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 25
+                "maxLength": 25,
+                "reference": "ListeModegeoassSUP(MODEGEOASS)"
             }
         },
         {
@@ -124,6 +125,7 @@
             "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
         ],
         "foreignKeys": [
+            "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
             "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)"
         ]
     }

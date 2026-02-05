@@ -87,7 +87,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 50
+                "maxLength": 50,
+                "reference": "ListeModegenereSUP(MODEGENERE)"
             }
         },
         {
@@ -138,6 +139,7 @@
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
         "foreignKeys": [
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
         ]
     }

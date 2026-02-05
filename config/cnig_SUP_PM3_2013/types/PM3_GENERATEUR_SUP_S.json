@@ -59,13 +59,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "Digitalisation",
-                    "Duplication",
-                    "Liste de coordonnées",
-                    "Géométrie fictive"
-                ],
-                "maxLength": 50
+                "maxLength": 50,
+                "reference": "ListeModegenereSUP(MODEGENERE)"
             }
         },
         {
@@ -149,15 +144,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "20",
-                    "21",
-                    "22",
-                    "23",
-                    "24",
-                    "25"
-                ],
-                "maxLength": 2
+                "maxLength": 2,
+                "reference": "ListeCodeAleaSUP(CODE_ALEA)"
             }
         }
     ],
@@ -168,6 +156,9 @@
             "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(CODE_ALEA) REFERENCES ListeCodeAleaSUP(CODE_ALEA)"
+        ]
     }
 }

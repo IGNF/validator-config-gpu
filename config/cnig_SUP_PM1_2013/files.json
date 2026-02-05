@@ -73,10 +73,52 @@
         ],
         "codes": [
             {
+                "data": "./codes/ListeModeprodSUP.csv",
+                "id": "00ba439428a78ede6c93641a2bc0727c",
+                "name": "ListeModeprodSUP",
+                "title": "ListeModeprodSUP"
+            },
+            {
+                "data": "./codes/ListeModegeoassSUP.csv",
+                "id": "0b08ff2800aa6f68946367cbf97b4484",
+                "name": "ListeModegeoassSUP",
+                "title": "ListeModegeoassSUP"
+            },
+            {
                 "data": "./codes/ListeValidegestSUP.csv",
                 "id": "0c4082d1726a0f23aeda8bd670074237",
                 "name": "ListeValidegestSUP",
                 "title": "ListeValidegestSUP"
+            },
+            {
+                "data": "./codes/ListeCategorieSUP.csv",
+                "id": "1f307b7e147c9999c74cfb99808fb10f",
+                "name": "ListeCategorieSUP",
+                "title": "ListeCategorieSUP"
+            },
+            {
+                "data": "./codes/ListeAplanSUP.csv",
+                "id": "34325434a0cbdb1994c0f8cdfca4cab7",
+                "name": "ListeAplanSUP",
+                "title": "ListeAplanSUP"
+            },
+            {
+                "data": "./codes/ListeTypeacteSUP.csv",
+                "id": "40822127d1a0ee25c25159848a344e9d",
+                "name": "ListeTypeacteSUP",
+                "title": "ListeTypeacteSUP"
+            },
+            {
+                "data": "./codes/ListeDecisionSUP.csv",
+                "id": "53a36c61410d77961bbe01263158308d",
+                "name": "ListeDecisionSUP",
+                "title": "ListeDecisionSUP"
+            },
+            {
+                "data": "./codes/ListeModegenereSUP.csv",
+                "id": "8a7d29e884127eadb9809c4c2265b50d",
+                "name": "ListeModegenereSUP",
+                "title": "ListeModegenereSUP"
             }
         ],
         "constraints": {
@@ -175,10 +217,58 @@
     ],
     "codes": [
         {
+            "data": "./codes/ListeModeprodSUP.csv",
+            "id": "00ba439428a78ede6c93641a2bc0727c",
+            "name": "ListeModeprodSUP",
+            "title": "ListeModeprodSUP"
+        },
+        {
+            "data": "./codes/ListeModegeoassSUP.csv",
+            "id": "0b08ff2800aa6f68946367cbf97b4484",
+            "name": "ListeModegeoassSUP",
+            "title": "ListeModegeoassSUP"
+        },
+        {
             "data": "./codes/ListeValidegestSUP.csv",
             "id": "0c4082d1726a0f23aeda8bd670074237",
             "name": "ListeValidegestSUP",
             "title": "ListeValidegestSUP"
+        },
+        {
+            "data": "./codes/ListeCategorieSUP.csv",
+            "id": "1f307b7e147c9999c74cfb99808fb10f",
+            "name": "ListeCategorieSUP",
+            "title": "ListeCategorieSUP"
+        },
+        {
+            "data": "./codes/ListeAplanSUP.csv",
+            "id": "34325434a0cbdb1994c0f8cdfca4cab7",
+            "name": "ListeAplanSUP",
+            "title": "ListeAplanSUP"
+        },
+        {
+            "data": "./codes/ListeTypeacteSUP.csv",
+            "id": "40822127d1a0ee25c25159848a344e9d",
+            "name": "ListeTypeacteSUP",
+            "title": "ListeTypeacteSUP"
+        },
+        {
+            "data": "./codes/ListeDecisionSUP.csv",
+            "id": "53a36c61410d77961bbe01263158308d",
+            "name": "ListeDecisionSUP",
+            "title": "ListeDecisionSUP"
+        },
+        {
+            "data": "./codes/ListeModegenereSUP.csv",
+            "id": "8a7d29e884127eadb9809c4c2265b50d",
+            "name": "ListeModegenereSUP",
+            "title": "ListeModegenereSUP"
+        },
+        {
+            "data": "./codes/ListeCodeAleaSUP.csv",
+            "id": "ba1b73d28c71d4da7ef7d96d3100c3fa",
+            "name": "ListeCodeAleaSUP",
+            "title": "ListeCodeAleaSUP"
         }
     ],
     "constraints": {
