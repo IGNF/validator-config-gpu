@@ -243,7 +243,20 @@
             "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations_amenagement(_[0-9]+)?_[0-9]{8}"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeDestdomi.csv",
+            "id": "190dbb7abd0511e388e697133155967c",
+            "name": "ListeDestdomi",
+            "title": "ListeDestdomi"
+        },
+        {
+            "data": "./codes/ListeInterco.csv",
+            "id": "372a5156e42f6ce240633538ae5fd777",
+            "name": "ListeInterco",
+            "title": "ListeInterco"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_PLU_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG PLU v2013"

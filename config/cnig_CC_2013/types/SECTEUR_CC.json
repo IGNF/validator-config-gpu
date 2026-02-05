@@ -106,14 +106,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "01",
-                    "02",
-                    "07",
-                    "08",
-                    "99"
-                ],
-                "maxLength": 2
+                "maxLength": 2,
+                "reference": "ListeDestdomi(DESTDOMI)"
             }
         },
         {
@@ -140,5 +134,11 @@
                 "maxLength": 80
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(DESTDOMI) REFERENCES ListeDestdomi(DESTDOMI)"
+        ]
+    }
 }

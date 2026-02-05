@@ -108,7 +108,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2
+                "maxLength": 2,
+                "reference": "ListeStypeinf(STYPEINF)"
             }
         },
         {
@@ -180,7 +181,8 @@
         "foreignKeys": [
             "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
             "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
-            "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
+            "(TYPEP) REFERENCES ListeTypepCC(TYPEP)",
+            "(STYPEINF) REFERENCES ListeStypeinf(STYPEINF)"
         ]
     }
 }

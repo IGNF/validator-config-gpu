@@ -286,7 +286,14 @@
             "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations_amenagement(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "aa2ccee4e4a128a41ff7d6438cf8938f",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_POS_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG POS v2017"

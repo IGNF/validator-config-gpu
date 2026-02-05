@@ -318,11 +318,16 @@
             "title": "PrescriptionUrbaType"
         },
         {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "3dd7a7a0bd4549e81c154dbb33dc8611",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
+        },
+        {
             "data": "./codes/ListeFormDomi.csv",
             "id": "59dbf60906dc3325ea8795af392850a3",
             "name": "ListeFormDomi",
-            "title": "ListeFormDomi",
-            "description": "ListeFormDomi"
+            "title": "ListeFormDomi"
         },
         {
             "data": "./codes/ListeTyperefPLU.csv",

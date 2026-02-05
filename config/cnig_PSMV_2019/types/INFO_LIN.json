@@ -12,7 +12,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2
+                "maxLength": 2,
+                "reference": "ListeStypeinf(STYPEINF)"
             }
         },
         {
@@ -113,7 +114,8 @@
     "constraints": {
         "conditions": [],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)",
+            "(STYPEINF) REFERENCES ListeStypeinf(STYPEINF)"
         ]
     }
 }

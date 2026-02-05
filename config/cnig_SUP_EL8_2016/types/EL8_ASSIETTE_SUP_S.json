@@ -116,7 +116,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 3
+                "maxLength": 3,
+                "reference": "ListeHrefSUP(HREF)"
             }
         },
         {

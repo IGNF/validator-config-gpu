@@ -65,11 +65,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "T",
-                    "F"
-                ],
-                "maxLength": 1
+                "maxLength": 1,
+                "reference": "ListeInterco(INTERCO)"
             }
         },
         {
@@ -195,5 +192,11 @@
                 "pattern": "[0-9]{8}"
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(INTERCO) REFERENCES ListeInterco(INTERCO)"
+        ]
+    }
 }

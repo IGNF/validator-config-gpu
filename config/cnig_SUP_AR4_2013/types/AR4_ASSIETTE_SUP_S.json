@@ -117,11 +117,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "SOL",
-                    "NGF"
-                ],
-                "maxLength": 3
+                "maxLength": 3,
+                "reference": "ListeHrefSUP(HREF)"
             }
         },
         {
@@ -151,6 +148,8 @@
             "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'",
             "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Digitalisation'"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(HREF) REFERENCES ListeHrefSUP(HREF)"
+        ]
     }
 }

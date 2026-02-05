@@ -59,7 +59,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2
+                "maxLength": 2,
+                "reference": "ListeStypeinf(STYPEINF)"
             }
         },
         {
@@ -141,7 +142,8 @@
             "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
         ],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
+            "(STYPEINF) REFERENCES ListeStypeinf(STYPEINF)"
         ]
     }
 }

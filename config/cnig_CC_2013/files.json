@@ -152,7 +152,20 @@
             "path": "Pieces_ecrites/Rapport_de_presentation/[AB0-9]{5}_rapport_[0-9]{8}"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeDestdomi.csv",
+            "id": "7e51b4e047cf874060fde0a68de18ace",
+            "name": "ListeDestdomi",
+            "title": "ListeDestdomi"
+        },
+        {
+            "data": "./codes/ListeInterco.csv",
+            "id": "dde7e25f5962140a6c58ce3d18d1cd0f",
+            "name": "ListeInterco",
+            "title": "ListeInterco"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_CC_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG CC v2013"

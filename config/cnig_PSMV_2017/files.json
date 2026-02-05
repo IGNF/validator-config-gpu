@@ -277,7 +277,14 @@
             "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "cba92b4db56510d5601f3b019f340253",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_PSMV_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG PSMV v2017"

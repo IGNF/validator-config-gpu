@@ -469,11 +469,16 @@
     ],
     "codes": [
         {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "188c5896926a31a266454672ce8f9ebb",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
+        },
+        {
             "data": "./codes/ListeTypedocPLU.csv",
             "id": "389e5aa8c94b792800e6ce8239dd0e07",
             "name": "ListeTypedocPLU",
-            "title": "ListeTypedocPLU",
-            "description": "ListeTypedocPLU"
+            "title": "ListeTypedocPLU"
         },
         {
             "data": "./codes/PrescriptionUrbaType.csv",
@@ -509,8 +514,7 @@
             "data": "./codes/ListeFormDomi.csv",
             "id": "f8104d861aaf986977f1e3d8ca687bd4",
             "name": "ListeFormDomi",
-            "title": "ListeFormDomi",
-            "description": "ListeFormDomi"
+            "title": "ListeFormDomi"
         }
     ],
     "constraints": {

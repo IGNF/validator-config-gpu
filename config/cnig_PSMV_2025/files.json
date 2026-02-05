@@ -496,6 +496,12 @@
             "title": "ListeEtatPLU"
         },
         {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "93c7d82c0cbeb8e5e9ff7f9b054dc906",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
+        },
+        {
             "data": "./codes/ListeTypedocPSMV.csv",
             "id": "b6db1e069436300254476485aacd1ce2",
             "name": "ListeTypedocPSMV",
@@ -517,8 +523,7 @@
             "data": "./codes/ListeFormDomi.csv",
             "id": "e4f3b56bf95e028475b20a68a2dce29e",
             "name": "ListeFormDomi",
-            "title": "ListeFormDomi",
-            "description": "ListeFormDomi"
+            "title": "ListeFormDomi"
         }
     ],
     "constraints": {

@@ -76,8 +76,7 @@
                 "data": "./codes/ListeValidegestSUP.csv",
                 "id": "0c4082d1726a0f23aeda8bd670074237",
                 "name": "ListeValidegestSUP",
-                "title": "ListeValidegestSUP",
-                "description": "ListeValidegestSUP"
+                "title": "ListeValidegestSUP"
             }
         ],
         "constraints": {
@@ -179,8 +178,13 @@
             "data": "./codes/ListeValidegestSUP.csv",
             "id": "0c4082d1726a0f23aeda8bd670074237",
             "name": "ListeValidegestSUP",
-            "title": "ListeValidegestSUP",
-            "description": "ListeValidegestSUP"
+            "title": "ListeValidegestSUP"
+        },
+        {
+            "data": "./codes/ListeHrefSUP.csv",
+            "id": "b2e12f2e4189dada8c53bc4598c9609a",
+            "name": "ListeHrefSUP",
+            "title": "ListeHrefSUP"
         }
     ],
     "constraints": {

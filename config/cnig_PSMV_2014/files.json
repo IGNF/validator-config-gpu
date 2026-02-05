@@ -269,7 +269,20 @@
             "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations(_amenagement)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeInterco.csv",
+            "id": "59b233328db9a57db73e9994b818a105",
+            "name": "ListeInterco",
+            "title": "ListeInterco"
+        },
+        {
+            "data": "./codes/ListeDestdomi.csv",
+            "id": "c584b7b358f29779f4c082fbb3c4f038",
+            "name": "ListeDestdomi",
+            "title": "ListeDestdomi"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_PSMV_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG PSMV v2014"

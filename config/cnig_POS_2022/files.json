@@ -321,8 +321,7 @@
             "data": "./codes/ListeFormDomi.csv",
             "id": "4d48faa3393561eae209715afcf6eed2",
             "name": "ListeFormDomi",
-            "title": "ListeFormDomi",
-            "description": "ListeFormDomi"
+            "title": "ListeFormDomi"
         },
         {
             "data": "./codes/ListeEtatPLU.csv",
@@ -341,6 +340,12 @@
             "id": "a888a9374cc996f69b79b811bcfa9822",
             "name": "ListeTyperefPLU",
             "title": "ListeTyperefPLU"
+        },
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "cccfa32f09f1b201cb074b511633cd58",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
         },
         {
             "data": "./codes/InformationUrbaType.csv",

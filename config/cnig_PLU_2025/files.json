@@ -496,11 +496,16 @@
             "title": "InformationUrbaType"
         },
         {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "03d08e401646ca7bba79dc29374da0a3",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
+        },
+        {
             "data": "./codes/ListeFormDomi.csv",
             "id": "1f57afa217e66dcfe83f4184b3af8ba6",
             "name": "ListeFormDomi",
-            "title": "ListeFormDomi",
-            "description": "ListeFormDomi"
+            "title": "ListeFormDomi"
         },
         {
             "data": "./codes/PrescriptionPUrbaType.csv",

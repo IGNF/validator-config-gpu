@@ -164,11 +164,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "T",
-                    "F"
-                ],
-                "maxLength": 1
+                "maxLength": 1,
+                "reference": "ListeInterco(INTERCO)"
             }
         },
         {
@@ -203,6 +200,8 @@
             "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
             "INTERCO LIKE 'T'"
         ],
-        "foreignKeys": []
+        "foreignKeys": [
+            "(INTERCO) REFERENCES ListeInterco(INTERCO)"
+        ]
     }
 }

@@ -168,7 +168,20 @@
             "path": "Pieces_ecrites/4_Annexes/[^\\/]*"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeInterco.csv",
+            "id": "224565fa108cdc1206d3218239d18d96",
+            "name": "ListeInterco",
+            "title": "ListeInterco"
+        },
+        {
+            "data": "./codes/ListeDestdomi.csv",
+            "id": "763cbe0c4b44bc3887f5e2eeeaa54359",
+            "name": "ListeDestdomi",
+            "title": "ListeDestdomi"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_CC_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG CC v2014"

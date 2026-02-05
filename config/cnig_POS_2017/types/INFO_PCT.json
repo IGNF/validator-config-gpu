@@ -59,12 +59,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "00",
-                    "01",
-                    "02"
-                ],
-                "maxLength": 2
+                "maxLength": 2,
+                "reference": "ListeStypeinf(STYPEINF)"
             }
         },
         {
@@ -151,5 +147,11 @@
                 "maxLength": 80
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(STYPEINF) REFERENCES ListeStypeinf(STYPEINF)"
+        ]
+    }
 }

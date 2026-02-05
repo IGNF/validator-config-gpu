@@ -269,7 +269,20 @@
             "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations(_amenagement)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeInterco.csv",
+            "id": "1b4954efbb3fe3784dd9e8d4519498ec",
+            "name": "ListeInterco",
+            "title": "ListeInterco"
+        },
+        {
+            "data": "./codes/ListeDestdomi.csv",
+            "id": "234451cc9dac858b8ebea101b9d9be70",
+            "name": "ListeDestdomi",
+            "title": "ListeDestdomi"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_POS_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG POS v2014"

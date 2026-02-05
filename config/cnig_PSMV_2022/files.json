@@ -461,14 +461,19 @@
             "data": "./codes/ListeFormDomi.csv",
             "id": "bcc862e3bb184b880707ce0c6a215f19",
             "name": "ListeFormDomi",
-            "title": "ListeFormDomi",
-            "description": "ListeFormDomi"
+            "title": "ListeFormDomi"
         },
         {
             "data": "./codes/PrescriptionPSMVType.csv",
             "id": "d0fa89b0660a56c0ec39cad507d72c1c",
             "name": "PrescriptionPSMVType",
             "title": "PrescriptionPSMVType"
+        },
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "f1ee643577c94c39fe651fa1983cef34",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
         },
         {
             "data": "./codes/ListeEtatPSMV.csv",
