@@ -128,11 +128,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Eau potable",
-                    "Assainissement"
-                ],
-                "maxLength": 15
+                "maxLength": 15,
+                "reference": "ListeTypeSUPAssainissement(TYPE)"
             }
         },
         {
@@ -156,7 +153,8 @@
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(TYPE) REFERENCES ListeTypeSUPAssainissement(TYPE)"
         ]
     }
 }

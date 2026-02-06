@@ -62,7 +62,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 254
+                "maxLength": 254,
+                "reference": "ListeLibelleCC(LIBELLE)"
             }
         },
         {
@@ -131,7 +132,8 @@
         "conditions": [],
         "foreignKeys": [
             "(FERMRECO) REFERENCES ListeFermrecoCC(FERMRECO)",
-            "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)"
+            "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)",
+            "(LIBELLE) REFERENCES ListeLibelleCC(LIBELLE)"
         ]
     }
 }

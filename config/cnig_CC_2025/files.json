@@ -214,12 +214,6 @@
             "title": "InformationUrbaType"
         },
         {
-            "data": "./codes/ListeLibelleCC.csv",
-            "id": "4657210d0f92c528645ae4fd446263c6",
-            "name": "ListeLibelleCC",
-            "title": "ListeLibelleCC"
-        },
-        {
             "data": "./codes/ListeTyperefCC.csv",
             "id": "4a1c65af0ea3096ab7a4f8ae45a97202",
             "name": "ListeTyperefCC",
@@ -244,16 +238,16 @@
             "title": "ListeTypedocCC"
         },
         {
-            "data": "./codes/ListeStypeinf.csv",
-            "id": "d02d4010cfd6ad56e6ca30bc5b34aaf0",
-            "name": "ListeStypeinf",
-            "title": "ListeStypeinf"
-        },
-        {
             "data": "./codes/ListeStypepCC.csv",
             "id": "d615a5743f4526daea9014a9d94aafb3",
             "name": "ListeStypepCC",
             "title": "ListeStypepCC"
+        },
+        {
+            "data": "./codes/ListeLibelleCC.csv",
+            "id": "e8f26a48bca44e58a1d86b2ccb8ccd5c",
+            "name": "ListeLibelleCC",
+            "title": "ListeLibelleCC"
         }
     ],
     "constraints": {

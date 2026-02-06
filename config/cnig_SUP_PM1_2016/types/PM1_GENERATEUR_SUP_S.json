@@ -178,7 +178,6 @@
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
             "(CODE_ALEA) REFERENCES ListeCodeAleaSUP(CODE_ALEA)"
         ]
     }

@@ -114,11 +114,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Aérien",
-                    "Souterrain"
-                ],
-                "maxLength": 10
+                "maxLength": 10,
+                "reference": "ListeTypeSUPVoie(TYPE)"
             }
         },
         {
@@ -167,7 +164,8 @@
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(TYPE) REFERENCES ListeTypeSUPVoie(TYPE)"
         ]
     }
 }

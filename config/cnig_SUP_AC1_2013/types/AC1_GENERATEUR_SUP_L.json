@@ -133,11 +133,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "Inscrit",
-                    "Classé"
-                ],
-                "maxLength": 10
+                "maxLength": 10,
+                "reference": "ListeTypeSUPMonument(TYPE)"
             }
         },
         {
@@ -160,7 +157,8 @@
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
         "foreignKeys": [
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)"
         ]
     }
 }

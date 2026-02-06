@@ -75,7 +75,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 12
+                "maxLength": 12,
+                "reference": "ListeLibelleCC(LIBELLE)"
             }
         },
         {
@@ -132,7 +133,8 @@
         "foreignKeys": [
             "(DESTDOMI) REFERENCES ListeDestdomi(DESTDOMI)",
             "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)",
-            "(FERMRECO) REFERENCES ListeFermrecoCC(FERMRECO)"
+            "(FERMRECO) REFERENCES ListeFermrecoCC(FERMRECO)",
+            "(LIBELLE) REFERENCES ListeLibelleCC(LIBELLE)"
         ]
     }
 }

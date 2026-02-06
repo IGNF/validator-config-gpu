@@ -125,11 +125,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Eau minérale",
-                    "Eau potable"
-                ],
-                "maxLength": 20
+                "maxLength": 20,
+                "reference": "ListeTypeSUPEau(TYPE)"
             }
         },
         {
@@ -156,7 +153,8 @@
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(TYPE) REFERENCES ListeTypeSUPEau(TYPE)"
         ]
     }
 }

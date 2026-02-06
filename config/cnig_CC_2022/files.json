@@ -187,28 +187,22 @@
     ],
     "codes": [
         {
+            "data": "./codes/ListeLibelleCC.csv",
+            "id": "2d749af5ef4e4e84a67462d43096b727",
+            "name": "ListeLibelleCC",
+            "title": "ListeLibelleCC"
+        },
+        {
             "data": "./codes/ListeTyperefCC.csv",
             "id": "35e2edc78435a0ff99cbf4efed5017f0",
             "name": "ListeTyperefCC",
             "title": "ListeTyperefCC"
         },
         {
-            "data": "./codes/ListeLibelleCC.csv",
-            "id": "5febfbcf4c8d5056912563c5cf3819b2",
-            "name": "ListeLibelleCC",
-            "title": "ListeLibelleCC"
-        },
-        {
             "data": "./codes/ListeEtatCC.csv",
             "id": "7011c03df6c73a5722f223b11c37522a",
             "name": "ListeEtatCC",
             "title": "ListeEtatCC"
-        },
-        {
-            "data": "./codes/ListeStypeinf.csv",
-            "id": "7448c107f87fb112baddad0291100ecf",
-            "name": "ListeStypeinf",
-            "title": "ListeStypeinf"
         },
         {
             "data": "./codes/ListeTypedocCC.csv",

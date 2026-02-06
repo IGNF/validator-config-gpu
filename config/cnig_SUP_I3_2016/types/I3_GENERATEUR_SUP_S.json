@@ -127,12 +127,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Hydrocarbures",
-                    "Gaz",
-                    "Produits chimiques"
-                ],
-                "maxLength": 20
+                "maxLength": 20,
+                "reference": "ListeTypeSUPGaz(TYPE)"
             }
         },
         {
@@ -161,7 +157,7 @@
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(TYPE) REFERENCES ListeTypeSUPGaz(TYPE)"
         ]
     }
 }

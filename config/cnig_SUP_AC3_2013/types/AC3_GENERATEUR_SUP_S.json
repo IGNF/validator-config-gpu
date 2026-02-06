@@ -121,12 +121,8 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "enum": [
-                    "Réserve naturelle nationale",
-                    "Réserve naturelle régionale",
-                    "Réserve naturelle de Corse"
-                ],
-                "maxLength": 30
+                "maxLength": 30,
+                "reference": "ListeTypeSUPReserve(TYPE)"
             }
         },
         {
@@ -149,7 +145,8 @@
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
         "foreignKeys": [
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(TYPE) REFERENCES ListeTypeSUPReserve(TYPE)"
         ]
     }
 }

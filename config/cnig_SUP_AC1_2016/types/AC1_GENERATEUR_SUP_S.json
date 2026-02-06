@@ -140,13 +140,8 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "enum": [
-                    "Inscrit",
-                    "Classé",
-                    "Mixte",
-                    "sans objet"
-                ],
-                "maxLength": 10
+                "maxLength": 10,
+                "reference": "ListeTypeSUPMonument(TYPE)"
             }
         },
         {
@@ -170,7 +165,8 @@
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)"
         ]
     }
 }

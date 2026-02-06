@@ -96,7 +96,7 @@ c352132d21fbe1c6818f58dad1945da3,05f9a369eb2eafd74aa37350e2ae404d,URLPLAN,URLPLA
 c381ae63699df717fcd49f1a8cf7a287,05f9a369eb2eafd74aa37350e2ae404d,ETAT,ETAT,Etat juridique du document d'urbanisme,String,t,f,,,,2,
 cc350c4714f1d9136b365f4f1dbddb87,05f9a369eb2eafd74aa37350e2ae404d,NOMPLAN,NOMPLAN,Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique,String,f,f,,<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip),,80,
 cd866fb8f4729e607b931847c43bcc66,05f9a369eb2eafd74aa37350e2ae404d,DATEFIN,DATEFIN,Date de fin de validité du document d'urbanisme,String,f,f,,<YYYYMMDD>,,,
-5fdc837575c4e8c1261786dfed5c6baa,05ff06f1e2a4c77ac1e8c450971d66e6,TYPE,TYPE,type de centre,String,f,f,"[""niveau 1"",""niveau 2"",""niveau 3""]",,,10,
+5fdc837575c4e8c1261786dfed5c6baa,05ff06f1e2a4c77ac1e8c450971d66e6,TYPE,TYPE,type de centre,String,f,f,,,,10,ListeTypeSUPNiveau(TYPE)
 a9b1f02494f4718c2ebd87102fccc635,05ff06f1e2a4c77ac1e8c450971d66e6,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 457db4b26ced1c2a3089a2ac3fdc1efe,0615e4812f3600c91caf53a89b7465ed,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 256b552810ff05af6249cc561104eb8f,0647796de76dd1dfe5a6346ffa40d27e,TITRE,TITRE,,String,t,f,,,,80,
@@ -460,7 +460,7 @@ a83ca765d7eda1c0701f2cfb7154ad55,1cd3248ab297e8cd3e017463c5ecd8c2,TXT,TXT,Nom co
 a9360a036ca4f92b9b027194cbd672a4,1cd3248ab297e8cd3e017463c5ecd8c2,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 b4a15fe51bc7c0b7906cfa517a72ac5d,1cd3248ab297e8cd3e017463c5ecd8c2,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 e94e7e5ba88af0745a028b1145dc29f5,1cd3248ab297e8cd3e017463c5ecd8c2,LIBELLE,LIBELLE,Intitulé complet de la prescription,String,t,f,,,,254,
-21637a5bcc0d37edfe0185331df3a812,1de98f600439327c884dc80c9900ce47,TYPE,TYPE,,String,t,f,"[""Hydrocarbures"",""Gaz"",""Produits chimiques""]",,,20,
+21637a5bcc0d37edfe0185331df3a812,1de98f600439327c884dc80c9900ce47,TYPE,TYPE,,String,t,f,,,,20,ListeTypeSUPGaz(TYPE)
 cda7f9ed4151c58e6b793acf0ffd5f0f,1de98f600439327c884dc80c9900ce47,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation (maîtrise urbanisation)""]",,,40,
 f56186da42cf9ede872b5cbc2883d314,1de98f600439327c884dc80c9900ce47,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 133430b5c5eb48a7052662bcc86eb054,1df44911a69fd617250dda6e75f3f5ff,URLFIC,URLFIC,URL ou URI qui pointe sur le fichier de règlement de la prescription,Url,f,f,,,,254,
@@ -656,7 +656,7 @@ d0361990c8e20d857158205f5679c0b9,285ac1f333016a95ccea0f80ac363833,URLFIC,URLFIC,
 a0834bf8eb621f855da01bf1430e14d7,2899f4c571af62a009b472e7266410af,COULEUR,COULEUR,"Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",String,f,f,,<COULEUR>,,11,
 f3bb2d516250b5e7324d3d5904fe07cf,2899f4c571af62a009b472e7266410af,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 7df4706833b28173e8073941997d67d7,2901fae135812155c76d644226b7695a,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-95a166c871ac85c065d67661999a1ab8,2901fae135812155c76d644226b7695a,TYPE,TYPE,type de centre,String,f,f,"[""niveau 1"",""niveau 2"",""niveau 3""]",,,10,
+95a166c871ac85c065d67661999a1ab8,2901fae135812155c76d644226b7695a,TYPE,TYPE,type de centre,String,f,f,,,,10,ListeTypeSUPNiveau(TYPE)
 0a2ef15c225246059ce4878ad8a44942,29bde073d0d0defa9d5084cbb3027899,TYPEPSC,TYPEPSC,Type de la prescription dans une liste prédéfinie,String,t,f,,,,2,
 209e8851b49ad1729b56738380683e26,29bde073d0d0defa9d5084cbb3027899,DATVALID,DATVALID,Date de la dernière validation de la prescription,String,f,f,,<YYYYMMDD>,,,
 37bb5981bb46c37db7926178989364e9,29bde073d0d0defa9d5084cbb3027899,LIB_IDPSC,LIB_IDPSC,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_PSMV_<YYYYMMDD>_PL<ENTIER>,,40,
@@ -693,7 +693,7 @@ bd0ca06520dfd69ec94dd725d7d2547d,2af3bf56ce13dc5db3a03e899328f356,WKT,Géométri
 9bc46200aae1e97ab0173904f3935de6,2b26c3bee6f7cd1b62bed622eceacb95,COULEUR,COULEUR,"Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",String,f,f,,<COULEUR>,,11,
 e8ba82e3da3cf5f943f06447e9ff308f,2b26c3bee6f7cd1b62bed622eceacb95,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 6dafc59fb3802fa955777a3050e2ca23,2b694c5725f64ba714fc0cf84b171daf,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
-b17d1a9f01be80be981eabd587435684,2b694c5725f64ba714fc0cf84b171daf,TYPE,TYPE,,String,t,f,"[""Hydrocarbures"",""Gaz"",""Produits chimiques""]",,,20,
+b17d1a9f01be80be981eabd587435684,2b694c5725f64ba714fc0cf84b171daf,TYPE,TYPE,,String,t,f,,,,20,ListeTypeSUPGaz(TYPE)
 c71572fa413659162d762f0b967d0b3d,2b694c5725f64ba714fc0cf84b171daf,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation (maîtrise urbanisation)""]",,,40,
 0b5e200821a6528c40dfa97004f360e5,2c39f5db48c5d333ccd38e79c54ad05d,URLFIC,URLFIC,URL ou URI qui pointe sur le fichier de règlement de l'information,Url,f,f,,,,254,
 2130fee24df09e39a97f8f41e3d8a6a6,2c39f5db48c5d333ccd38e79c54ad05d,TXT,TXT,Nom court du périmètre servant à faire une étiquette,String,f,f,,,,10,
@@ -752,7 +752,7 @@ cdc2ec38ed910d0afe7b9767fa760cbb,325e3f582056900dc58aae554f423834,IDURBA,IDURBA,
 d139b078aa5e970e07819f3cf0bedde9,325e3f582056900dc58aae554f423834,TYPEPSC,TYPEPSC,Type de la prescription dans une liste prédéfinie,String,t,f,,,,2,
 ea3a429863f11dae8727233e06d115c5,325e3f582056900dc58aae554f423834,NOMFIC,NOMFIC,Nom du fichier PDF décrivant la prescription,Filename,f,f,,,,80,
 9ea62428c186bfc56c79f24bb216f447,329c8d43c5b7862abd937d22132f40e0,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-79a12c11f093d62263115652e23bf435,33b3ea00b4e54bba79e7ebf9512a2ced,TYPE,TYPE,type du monument,String,f,f,"[""Inscrit"",""Classé""]",,,10,
+79a12c11f093d62263115652e23bf435,33b3ea00b4e54bba79e7ebf9512a2ced,TYPE,TYPE,type du monument,String,f,f,,,,10,ListeTypeSUPMonument(TYPE)
 d30b5ead11f9308eec4ef57b3385e54d,33b3ea00b4e54bba79e7ebf9512a2ced,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 ede41478101003599d3157dde5ae035c,33b3ea00b4e54bba79e7ebf9512a2ced,ADRESSE,ADRESSE,Adresse du monument,String,f,f,,,,100,
 001f293efacd8ec4c7c92d1f2d8c5317,33e6b6a82643433e039a853d5c6222c2,INSEE,INSEE,Code INSEE de la commune concernée par l'information,String,t,f,,,,5,
@@ -1070,7 +1070,7 @@ ee02282941bfae4bcbf097993c2096b2,48ac04777ad427d939e25ed2350f8787,URLREG,URLREG,
 51abbe43ee5f3252650b792bb834c70a,48c0d6ebed94be057651bf1ffb36e2eb,NATTRAC,NATTRAC,Nature de la ligne,String,t,f,,,,40,
 af705c42cc461f6f7c1ca824aefe3969,48c0d6ebed94be057651bf1ffb36e2eb,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 e3934655d9a0740f6dc2d282f2cd12f9,48c0d6ebed94be057651bf1ffb36e2eb,COULEUR,COULEUR,"Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",String,f,f,,<COULEUR>,,11,
-01488a3f1a0e0fe1bd978bdf82ed74f9,49bac3f0d69c064e36ef063c50ed08d3,TYPE,TYPE,type du site,String,t,f,"[""Inscrit"",""Classé""]",,,10,
+01488a3f1a0e0fe1bd978bdf82ed74f9,49bac3f0d69c064e36ef063c50ed08d3,TYPE,TYPE,type du site,String,t,f,,,,10,ListeTypeSUPMonument(TYPE)
 65d6574d02079152860648f6e4e3f662,49bac3f0d69c064e36ef063c50ed08d3,TYPEGEN,TYPEGEN,,String,t,f,"[""Site""]",,,40,
 c48c1a3dda48368cb80724d8b308e919,49bac3f0d69c064e36ef063c50ed08d3,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 0dbecd86f59c93f48ba8ecc3c31045d0,4a2501dc009137897d0312c88a923065,INSEE,INSEE,Code INSEE de la commune concernée par le document d'urbanisme,String,t,f,,,,5,
@@ -1272,13 +1272,13 @@ ec6a0c707e4d49ea1d93983abe5646f4,572e1b49bea63e9af02faa1a4dad9b1f,WKT,Géométri
 7751422322530a7efd22b84749ad9155,57560f272916af1a48fc34a2384a724f,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
 7b276fec115fd4f0ba3c565181b656da,57560f272916af1a48fc34a2384a724f,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
 a07f081aa3a64631a3b57f1be6f274d4,57560f272916af1a48fc34a2384a724f,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)
-caaf4bfff1382befdd2cccead2ef00e0,57560f272916af1a48fc34a2384a724f,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
+caaf4bfff1382befdd2cccead2ef00e0,57560f272916af1a48fc34a2384a724f,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,ListeLibelleCC(LIBELLE)
 d897ae3de192a4a825cfe83ce9f76d2b,57560f272916af1a48fc34a2384a724f,NOMFIC,NOMFIC,Nom du fichier contenant les dispositions particulières du secteur,Filename,f,f,,,,80,
 ebbacedb5207c110b40778eca08da74d,57560f272916af1a48fc34a2384a724f,LIBELONG,LIBELONG,Nom complet littéral du secteur,String,f,f,,,,254,
 f59da6681d8b4c250eff039a16184c5f,57560f272916af1a48fc34a2384a724f,LIB_IDZONE,LIB_IDZONE,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_CC_<YYYYMMDD>_ZO<ENTIER>,,40,
 fe42e6671b9f3564e9c1f423ec40b954,57560f272916af1a48fc34a2384a724f,SYMBOLE,SYMBOLE,SYMBOLE,String,f,f,,SECT_<ENTIER_2>_<ENTIER_3>,,20,
 1d0aa5e584e1ad8dae4a4c16f5d09147,575e3ece467810ab0e2e6e502638e4a8,TYPEGEN,TYPEGEN,,String,t,f,"[""Réserve naturelle""]",,,40,
-63119c69de78ec68f3b3e2de9a5c33fa,575e3ece467810ab0e2e6e502638e4a8,TYPE,TYPE,type du site,String,t,f,"[""Réserve naturelle nationale"",""Réserve naturelle régionale"",""Réserve naturelle de Corse""]",,,30,
+63119c69de78ec68f3b3e2de9a5c33fa,575e3ece467810ab0e2e6e502638e4a8,TYPE,TYPE,type du site,String,t,f,,,,30,ListeTypeSUPReserve(TYPE)
 85adc0ae9d805e08aa4966d0da1fb0b5,575e3ece467810ab0e2e6e502638e4a8,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 25042580f52889144104f3f2fdfccbb2,57726384fb706fb8e490e6abd97f82d3,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 4fc4b6b6dc69b22b92ac4e4f9d40f974,57726384fb706fb8e490e6abd97f82d3,HREF,HREF,,String,f,f,,,,3,ListeHrefSUP(HREF)
@@ -1486,7 +1486,7 @@ f31d190088fad9fa037e77521f468d72,6678e427f0f2b7676573e50f01a545b1,POLICE,POLICE,
 941de0f838e5e34da0bcb2821acc0d2b,66a97340f4a6a409576636b9ed51c983,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 f8148844f928f648cace7348b32ddac3,66a97340f4a6a409576636b9ed51c983,INSEE,INSEE,Code INSEE de la commune concernée par le document d'urbanisme,String,t,f,,,,5,
 97b7390050fc6ce09942a331975ce30a,66bdffb3453cbca6243f87415edd774d,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation d'eau et d'assainissement""]",,,40,
-c6c1587f4ff87aae688f7cd47cfcb552,66bdffb3453cbca6243f87415edd774d,TYPE,TYPE,type de la canalisation,String,t,f,"[""Eau potable"",""Assainissement""]",,,15,
+c6c1587f4ff87aae688f7cd47cfcb552,66bdffb3453cbca6243f87415edd774d,TYPE,TYPE,type de la canalisation,String,t,f,,,,15,ListeTypeSUPAssainissement(TYPE)
 d0c53bbda92cb009906250cc8d4f1d27,66bdffb3453cbca6243f87415edd774d,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 0b5edbb8ebd989c17965d5d1c37abc20,66e547d99a8c85159c26648c14cab6ea,DATVALID,DATVALID,,String,f,f,,<YYYYMMDD>,,,
 3054c09c8094fb639b0ce6d8bf0abcc3,66e547d99a8c85159c26648c14cab6ea,TXT,TXT,Nom court du périmètre servant à faire une étiquette,String,f,f,,,,10,
@@ -1641,7 +1641,7 @@ b69261753bad9fc24c61e5575982f395,6db9d4021363fb98467e3ab42c50a3f4,WKT,Géométri
 bce0e959857a55837ee148fbbacefb8c,6db9d4021363fb98467e3ab42c50a3f4,DATVALID,DATVALID,Date de la dernière validation de la zone ou de son règlement,String,f,f,,<YYYYMMDD>,,,
 e6f86ffd869f4d812bc408fe4ae8b0f8,6db9d4021363fb98467e3ab42c50a3f4,INSEE,INSEE,Code INSEE de la commune couverte par la zone,String,t,f,,,,5,
 2c46f410e6b0476611c7489bbd0901f8,6de5a169ad53faf3b7cccc893d329474,LIB_IDZONE,LIB_IDZONE,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_CC_<YYYYMMDD>_ZO<ENTIER>,,40,
-2dcfaa1dd79f7e43247b9436d5a88af8,6de5a169ad53faf3b7cccc893d329474,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
+2dcfaa1dd79f7e43247b9436d5a88af8,6de5a169ad53faf3b7cccc893d329474,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,ListeLibelleCC(LIBELLE)
 3cb0416bc375915e8ecbb12570174fa3,6de5a169ad53faf3b7cccc893d329474,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 3fbd7236c8ef3eaa03a38e1b8b2c41ab,6de5a169ad53faf3b7cccc893d329474,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 653154470265a16bc3a8a2c22a5e5d41,6de5a169ad53faf3b7cccc893d329474,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
@@ -1714,7 +1714,7 @@ ea0a4b44fbae0bd477f84aaa7baa63fc,70d2dbb291b6a7f0a06d9e2b503c8f08,WKT,Géométri
 b254341a7f94ab3d14ac86258353aba3,7146ff554bbe3d14e958e2242abc19af,INSEE,INSEE,Code INSEE de la commune concernée par l'information,String,t,f,,,,5,
 ff53808cc034713abb826fbc4a6a2090,7146ff554bbe3d14e958e2242abc19af,URLFIC,URLFIC,URL ou URI qui pointe sur le fichier de règlement de l'information,Url,f,f,,,,254,
 dc41196f240cdd2c02e5d42c1e943242,71a7b32a5a02cf6cb55f3cd52e811cc0,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
-2bf27b8927df791efdbe0e2edc69f9ad,720d29fb45284e808f32745127fdc8fc,TYPE,TYPE,type du site,String,f,f,"[""Inscrit"",""Classé""]",,,10,
+2bf27b8927df791efdbe0e2edc69f9ad,720d29fb45284e808f32745127fdc8fc,TYPE,TYPE,type du site,String,f,f,,,,10,ListeTypeSUPMonument(TYPE)
 3a1674b0fe9f7e7832321e8897542738,720d29fb45284e808f32745127fdc8fc,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 23b74f0208b04ad56812aae81530680d,727da290b74c68aad36ae8281bafb8d6,LIB_IDHAB,LIB_IDHAB,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HL<ENTIER>,,40,
 6582e0be129b81d02b250c32866c2e3f,727da290b74c68aad36ae8281bafb8d6,NATTRAC,NATTRAC,Nature de la ligne,String,t,f,,,,40,
@@ -1744,7 +1744,7 @@ dbb0132600ec4da5c640bcdf1f5e1d15,737762203a0bc2d6371c23d577491fea,NOMFIC,NOMFIC,
 e5bfd62d21ab018735fe1c0bd67f3d4d,737762203a0bc2d6371c23d577491fea,URLFIC,URLFIC,Lien URL d’accès au fichier contenant le texte décrivant l'information,Url,f,f,,,,254,
 f14734472015dd822f08900af59789ce,737762203a0bc2d6371c23d577491fea,TXT,TXT,Nom court du périmètre servant à faire une étiquette,String,f,f,,,,10,
 7b14a12deaa811fc7bf756c6ef6e3505,74456f0a0fc65ca8ec194c3c620ecd4c,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-afde438f1caaa3ea7c08bacbac6f71b3,74456f0a0fc65ca8ec194c3c620ecd4c,TYPE,TYPE,type d'eau,String,f,f,"[""Eau minérale"",""Eau potable""]",,,20,
+afde438f1caaa3ea7c08bacbac6f71b3,74456f0a0fc65ca8ec194c3c620ecd4c,TYPE,TYPE,type d'eau,String,f,f,,,,20,ListeTypeSUPEau(TYPE)
 1e0444eb40b0039d1e774eb92522db01,747305428b0fb83c29c577ce02f3e830,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 30bf749f36abf413672cb092cda6bc08,747305428b0fb83c29c577ce02f3e830,URLFIC,URLFIC,URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé,Url,f,f,,,,254,
 368f37e453b91815d9322d97bb3b24fe,747305428b0fb83c29c577ce02f3e830,DESTNON,DESTNON,DESTNON,String,f,f,,(-?(10|11|12|20|21|22|30|31|32|33|34|35|36|37|40|41|42|43|44|45|46|47|50|51|52|53|54|55|99))+,2,120,
@@ -2062,7 +2062,7 @@ dcc80f39fd82072aacf2a499be4e4f7a,8869215cc6ee5999f2bf8d89b736faf0,STYPEINF,STYPE
 e101fdcc365c9b3324a0dc98b7d87622,8869215cc6ee5999f2bf8d89b736faf0,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 e6378dd7eb30177675c8972327653cef,8869215cc6ee5999f2bf8d89b736faf0,NOMFIC,NOMFIC,Nom du fichier contenant le texte décrivant l'information reportée,Filename,f,f,,,,80,
 670f973f5792081d80bf0bf520ec7cbf,889904c687c40cbde62b86ac4e1d6c01,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-111e350bbfcdff0dfd456322f550223c,88a09d2cb2deb86c8d57179506f78fdd,TYPE,TYPE,type d'eau,String,f,f,"[""Eau minérale"",""Eau potable""]",,,20,
+111e350bbfcdff0dfd456322f550223c,88a09d2cb2deb86c8d57179506f78fdd,TYPE,TYPE,type d'eau,String,f,f,,,,20,ListeTypeSUPEau(TYPE)
 16a0dc8308675a68513b775f6cbf761e,88a09d2cb2deb86c8d57179506f78fdd,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 a2e3944b25b96ddba283e94be25075fb,89becce2485eb801fc16a8cd66878508,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 837ebe86e8a3ad8dd6d7ccf8f13d0527,8a1cdad7c2f1328fdda6db56ee972b8b,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
@@ -2089,9 +2089,9 @@ f4580f6686fa55b637b4beb360720889,8a94a4c30fa01685cdef99d73bb3c4f8,ANGLE,ANGLE,"A
 1637ae292d3098ac44dcd60b8d282d2c,8ae06046374656ce9997d670af3b3a01,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 4b47db4b7b207c5b89ccef3444cedd3c,8ae06046374656ce9997d670af3b3a01,TYPEGEN,TYPEGEN,,String,t,f,"[""Monument""]",,,40,
 8471e559971966e4374595e3b0986906,8ae06046374656ce9997d670af3b3a01,ADRESSE,ADRESSE,Adresse du monument,String,t,f,,,,254,
-f1df7088b63f98e737dd1bb9a77de38e,8ae06046374656ce9997d670af3b3a01,TYPE,TYPE,type du monument,String,t,f,"[""Inscrit"",""Classé"",""Mixte"",""sans objet""]",,,10,
+f1df7088b63f98e737dd1bb9a77de38e,8ae06046374656ce9997d670af3b3a01,TYPE,TYPE,type du monument,String,t,f,,,,10,ListeTypeSUPMonument(TYPE)
 8d34a091ed48e3af5bbc15f91924cfb1,8ae74cd341eb04dec12f5101f1fa7e5f,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
-164c94b29bde161d7bacd147774cbb05,8b57702a547f5592def31b37666e5547,TYPE,TYPE,,String,t,f,"[""Aérien"",""Souterrain""]",,,10,
+164c94b29bde161d7bacd147774cbb05,8b57702a547f5592def31b37666e5547,TYPE,TYPE,,String,t,f,,,,10,ListeTypeSUPVoie(TYPE)
 2e64ebe4e126e87ec331ba46f21c4ff5,8b57702a547f5592def31b37666e5547,TENSION,TENSION,Tension de la ligne en KiloVolt (KV),Integer,t,f,,,,,
 74bfbf93bcbdfb4da1c9e66d7fc3cc55,8b57702a547f5592def31b37666e5547,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 9844b20af1316419fd8e426ad49a2391,8b57702a547f5592def31b37666e5547,TYPEGEN,TYPEGEN,,String,t,f,"[""Supports et câbles""]",,,40,
@@ -2128,7 +2128,7 @@ ab8853786255a45df455ce7ed1318798,8d60a0622bf3a7fa19e14aa54231db44,DATVALID,DATVA
 af5edbb759dc6d153947c7dcf823adcb,8d60a0622bf3a7fa19e14aa54231db44,URLFIC,URLFIC,URL ou URI qui pointe sur le fichier de règlement de l'information,Url,f,f,,,,254,
 dfe87a1b367114aa3261aba0177f575b,8d60a0622bf3a7fa19e14aa54231db44,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 e4b239b7efa452e599e79c6a33085ddf,8d60a0622bf3a7fa19e14aa54231db44,SYMBOLE,SYMBOLE,SYMBOLE,String,f,f,,INF-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>,,20,
-2b641a40cafc3d2a5e3af59b96e906ca,8e2de6f3e0e8f295b73ced55441ac903,TYPE,TYPE,type de centre,String,t,f,"[""niveau 1"",""niveau 2"",""niveau 3""]",,,10,
+2b641a40cafc3d2a5e3af59b96e906ca,8e2de6f3e0e8f295b73ced55441ac903,TYPE,TYPE,type de centre,String,t,f,,,,10,ListeTypeSUPNiveau(TYPE)
 52cfde9dde9a1910dc0c449da6c5c313,8e2de6f3e0e8f295b73ced55441ac903,TYPEGEN,TYPEGEN,,String,t,f,"[""Centre de réception""]",,,40,
 8dc05d76a5c3c9909b6176f37d4b6c08,8e2de6f3e0e8f295b73ced55441ac903,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 8d7b0ded1e5388616ab8913dd152e300,8e62bee69fff333daa7946ce569d5c6f,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
@@ -2255,7 +2255,7 @@ deb3347e81eaca6ef1f677b0ee2897d6,9575ffa39fcbf1c6d7db1775ba9b5f6c,NOMPLAN,NOMPLA
 55eee9eaef522bafec7e196ff9072ed7,97970ffe4bfcc9c31327c80f263a219e,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 6cce22276a97610ffe3a12feee35d067,97970ffe4bfcc9c31327c80f263a219e,NATTRAC,NATTRAC,Nature du point,String,t,f,,,,40,
 cf6053db0fa7fc6a5cbf53d60e5febbb,980ffe2707b54b5150d8f3d2ba4f833e,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation de transport de produit""]",,,40,
-d62f0690cb9b8e48eb8a1418d53ff33b,980ffe2707b54b5150d8f3d2ba4f833e,TYPE,TYPE,,String,t,f,"[""Hydrocarbures"",""Gaz"",""Produits chimiques""]",,,20,
+d62f0690cb9b8e48eb8a1418d53ff33b,980ffe2707b54b5150d8f3d2ba4f833e,TYPE,TYPE,,String,t,f,,,,20,ListeTypeSUPGaz(TYPE)
 e30ad8a25b9c590c0c0b5f3ec34a5450,980ffe2707b54b5150d8f3d2ba4f833e,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 f8e2762ba76d60c814e81fc7b01e6d13,98112985014d40563023c42fce0388ae,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 a22a38c3ca1bb38a3155848d92c6949d,983925dcb88f233400c7fc6758f06c52,TYPEGEN,TYPEGEN,,String,t,f,"[""Périmètre réglementé du PPR""]",,,40,
@@ -2373,7 +2373,7 @@ c7401711b0e92fd7a7f38b2fdb386572,9cf35d5fcacef9fd63f31d25d729868e,INSEE,INSEE,Co
 0a326e71c9d479e46019f24f1533a7db,9ed1ac2f2e053aab7ada0ff2f584e73a,TYPEGEN,TYPEGEN,,String,t,f,"[""Canal, émissaire""]",,,40,
 8c351a8a56dc40bd4b958bad5171e1a5,9ed1ac2f2e053aab7ada0ff2f584e73a,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 0999486e9fb278fa98f9e36d2ae29ffd,9f8a01163a1908a96d50b9989722bcab,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
-598754116c126129cacd930c862966e0,9f8a01163a1908a96d50b9989722bcab,TYPE,TYPE,type du monument,String,t,f,"[""Inscrit"",""Classé"",""Mixte"",""sans objet""]",,,10,
+598754116c126129cacd930c862966e0,9f8a01163a1908a96d50b9989722bcab,TYPE,TYPE,type du monument,String,t,f,,,,10,ListeTypeSUPMonument(TYPE)
 63110e68e0a502ad6df53f38be182acd,9f8a01163a1908a96d50b9989722bcab,TYPEGEN,TYPEGEN,,String,t,f,"[""Monument""]",,,40,
 f78cdf0fade052e0f2feb5c133bc3728,9f8a01163a1908a96d50b9989722bcab,ADRESSE,ADRESSE,Adresse du monument,String,t,f,,,,254,
 47950791f320ce519f37d33c1be371d6,9f8a2c663ccbc04f2f5a6dd218e7dd5a,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
@@ -2496,7 +2496,7 @@ e4e83d504c6cc38c9baaa1aada674a91,a6e6a75efbb36f915aa80d2e49c36f99,WKT,Géométri
 38eb5555d73b3af500482beb392007c9,a8aab9d21293bba32540b36ed25ad7a7,TYPE,TYPE,,String,f,f,"[""Canalisation""]",,,20,
 434d86345c666ee5443f69abb0878684,a8c6102eb8623c0f956616d37ff3509b,TYPEGEN,TYPEGEN,,String,t,f,"[""Monument""]",,,40,
 4454e6783deebd51a75a34223d888faf,a8c6102eb8623c0f956616d37ff3509b,ADRESSE,ADRESSE,Adresse du monument,String,t,f,,,,254,
-563eb7e95793a89db9af0b65ab7f7680,a8c6102eb8623c0f956616d37ff3509b,TYPE,TYPE,type du monument,String,t,f,"[""Inscrit"",""Classé"",""Mixte"",""sans objet""]",,,10,
+563eb7e95793a89db9af0b65ab7f7680,a8c6102eb8623c0f956616d37ff3509b,TYPE,TYPE,type du monument,String,t,f,,,,10,ListeTypeSUPMonument(TYPE)
 b8ec866559eff70129d39b1f8f1fd87e,a8c6102eb8623c0f956616d37ff3509b,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 324db9ba1e48f93163e037ad55aefddb,a91caa811fc84f6d7b2b63614836b0dd,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,,
 6fc9d478ef23cdd06b726046ad296e18,a91caa811fc84f6d7b2b63614836b0dd,TYPEASS,TYPEASS,,String,t,f,"[""Zone de protection""]",,,40,
@@ -2614,7 +2614,7 @@ e47625056498b580bf448b077425ffef,aefd0a88e72f75531633d6e65b11f8d2,NOMASS,NOMASS,
 a798110b37761b767e00ede038f459b2,b017337d4b9a70ac2b5fff083235e999,NOMFIC,NOMFIC,Nom du fichier PDF décrivant la prescription,Filename,f,f,,,,80,
 c04e83139e96298b76a559da59abbb4e,b017337d4b9a70ac2b5fff083235e999,LIBELLE,LIBELLE,Intitulé complet de la prescription,String,t,f,,,,254,
 d138431fddd6c5c5f1ecd5d2010ace49,b017337d4b9a70ac2b5fff083235e999,URLFIC,URLFIC,URL ou URI qui pointe sur le fichier de règlement de la prescription,Url,f,f,,,,254,
-126965ddc6f5443e1d2463e80b2d1ef2,b0caba4828531c205d7c2d4c8bb618bf,TYPE,TYPE,type de la ligne,String,t,f,"[""Aérien"",""Souterrain""]",,,10,
+126965ddc6f5443e1d2463e80b2d1ef2,b0caba4828531c205d7c2d4c8bb618bf,TYPE,TYPE,type de la ligne,String,t,f,,,,10,ListeTypeSUPVoie(TYPE)
 5c03dc3995ee410ad556f10af6fda327,b0caba4828531c205d7c2d4c8bb618bf,TENSION,TENSION,Tension de la ligne en KiloVolt (KV),Integer,t,f,,,,,
 abff42efb16ec5df70b71052306a514e,b0caba4828531c205d7c2d4c8bb618bf,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 d232f26631d9ad0a2758a5bf5afc9390,b0caba4828531c205d7c2d4c8bb618bf,TYPEGEN,TYPEGEN,,String,t,f,"[""Supports et câbles""]",,,40,
@@ -2642,7 +2642,7 @@ af790d44e36d31e6b4555e10b0c289ea,b161d88193c4dd16c24c954b343d965d,DATVALID,DATVA
 b884f9542144fc685cbc66ddb37aa7ce,b161d88193c4dd16c24c954b343d965d,LIBELLE,LIBELLE,Nom complet du périmètre,String,t,f,,,,254,
 bb297d1daaad9e069b9342b2ff608a5e,b161d88193c4dd16c24c954b343d965d,LIB_IDINFO,LIB_IDINFO,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_PLUi_<YYYYMMDD>_IS<ENTIER>,,40,
 35351f32e4cc055c9741ccc23592343f,b212b48e37b7ce4b5381bc1ee37fe36d,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
-434f2c468550a874dda84262c40d8785,b212b48e37b7ce4b5381bc1ee37fe36d,TYPE,TYPE,,String,t,f,"[""Hydrocarbures"",""Gaz"",""Produits chimiques""]",,,20,
+434f2c468550a874dda84262c40d8785,b212b48e37b7ce4b5381bc1ee37fe36d,TYPE,TYPE,,String,t,f,,,,20,ListeTypeSUPGaz(TYPE)
 4f0c983273abd80a5991b7e28118478d,b212b48e37b7ce4b5381bc1ee37fe36d,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation de transport de produit""]",,,40,
 40bf103a54613bb0a94b9bd14d71945d,b27482936d53b6eba27c12683bb9b6c8,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 b14e709f815a6d760c4baecee7ef8333,b27482936d53b6eba27c12683bb9b6c8,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
@@ -2665,7 +2665,7 @@ c53dcef2960e0dedfdc141d1622bd432,b45e35e68c0eeffc792938c17a1870bd,WKT,Géométri
 388690a6a37bce19405c283c51c4bbe8,b5dee7459709be4f059c505e416cf2b6,DESTDOMI,DESTDOMI,"Vocation dominante de la zone, concerne l’usage de la zone",String,t,f,,,,2,ListeDestdomi(DESTDOMI)
 39fd8959f59d313bc92a8a1ccda1d35b,b5dee7459709be4f059c505e416cf2b6,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
 3a7526e25eed55a46fdd5014db4b1d78,b5dee7459709be4f059c505e416cf2b6,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,2,ListeTypesectCC(TYPESECT)
-49238a7c9bdf9b82dd10bd1cbaaea8c9,b5dee7459709be4f059c505e416cf2b6,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,12,
+49238a7c9bdf9b82dd10bd1cbaaea8c9,b5dee7459709be4f059c505e416cf2b6,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,12,ListeLibelleCC(LIBELLE)
 88f70c36300a814b2b6e8b07e4c5f410,b5dee7459709be4f059c505e416cf2b6,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 9eb8455b227ef98f397ee0b60569b7da,b5dee7459709be4f059c505e416cf2b6,NOMFIC,NOMFIC,Nom du fichier contenant les dispositions particulières du secteur,Filename,f,f,,,,80,
 d0345e632d58a2c137876dc44aae91eb,b5dee7459709be4f059c505e416cf2b6,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
@@ -2755,7 +2755,7 @@ b4a4375751e741df95f337d518ae0afc,b84b98d9e38292f2a58c05ece125b861,TYPEINF,TYPEIN
 d81750fee978c189cf13932a24df02cd,b84b98d9e38292f2a58c05ece125b861,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 e5b40b1992d2e6699a97c0bce0ca7187,b84b98d9e38292f2a58c05ece125b861,LIBELLE,LIBELLE,Nom complet du périmètre,String,t,f,,,,254,
 fdf417ce772afdb28a9cc763c206631e,b84b98d9e38292f2a58c05ece125b861,TXT,TXT,Nom court du périmètre servant à faire une étiquette,String,f,f,,,,10,
-0bfd77e4e3b8696232bde6a25d28cb10,b91de2bd024334a56581e1027a5277c3,TYPE,TYPE,,String,t,f,"[""Hydrocarbures"",""Gaz"",""Produits chimiques""]",,,20,
+0bfd77e4e3b8696232bde6a25d28cb10,b91de2bd024334a56581e1027a5277c3,TYPE,TYPE,,String,t,f,,,,20,ListeTypeSUPGaz(TYPE)
 6306f5619d802fa4c038e05578028faf,b91de2bd024334a56581e1027a5277c3,TYPEGEN,TYPEGEN,,String,t,f,"[""Canalisation (maîtrise urbanisation)""]",,,40,
 ff1f315e2bfb3da02252bb6515d7b636,b91de2bd024334a56581e1027a5277c3,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 17f44d7ae44611d444560953fb230892,b93b5dc245a7e73fa9f612fc162a098e,LIBELLE,LIBELLE,Nom complet de l'information,String,t,f,,,,254,
@@ -2862,7 +2862,7 @@ a77dd42289bcc621b8e18f0717d7b32a,c0eaf7648822861e8e877ab5715c93cb,DESTDOMI,DESTD
 a3bc387c2ac89c217739a9c4239fa376,c126e7e7300c3463a155bc56e4512572,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 f53fc5fa1f755ccd02b852b6ec864fdd,c126e7e7300c3463a155bc56e4512572,TYPEGEN,TYPEGEN,,String,t,f,"[""Aérodrome""]",,,40,
 8893b3b3eaac06d89703fce3e29a6c89,c1c43baa446275005ba3469e1f954343,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
-c726b10259e11ad176c18cb5fafb4833,c1c43baa446275005ba3469e1f954343,TYPE,TYPE,type d'eau,String,t,f,"[""Eau minérale"",""Eau potable""]",,,20,
+c726b10259e11ad176c18cb5fafb4833,c1c43baa446275005ba3469e1f954343,TYPE,TYPE,type d'eau,String,t,f,,,,20,ListeTypeSUPEau(TYPE)
 f779a4b8dec763f139cac5f32b63936e,c1c43baa446275005ba3469e1f954343,TYPEGEN,TYPEGEN,,String,t,f,"[""Captage""]",,,40,
 62ea67042a2bf79c370bcf9ec80fe25d,c2339f163029bed207e4b11b52a50bc1,TYPEASS,TYPEASS,,String,t,f,"[""Enveloppe des zonages réglementaires""]",,,40,
 e9d9dec572dfbd68801f01493ae6b37b,c2339f163029bed207e4b11b52a50bc1,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
@@ -2884,7 +2884,7 @@ b9fe206a156e4c48a36299a222fd5c7d,c251a1eb9170b0e85c672c0b53dfa244,SIREN,SIREN,In
 d13542d1f3b7db10d8a4a0028644c7e5,c251a1eb9170b0e85c672c0b53dfa244,URLPLAN,URLPLAN,URL ou URI qui pointe sur le fichier du plan scanné,Url,f,f,,,,254,
 f1189ccd72cedf88c22d5beaef44b680,c251a1eb9170b0e85c672c0b53dfa244,TYPEREF,TYPEREF,Nom du référentiel cadastral utilisé pour la numérisation,String,f,f,,,,2,
 fdc4ddf529d20293ae1f199743a6ac7f,c251a1eb9170b0e85c672c0b53dfa244,URLRAPP,URLRAPP,Lien d'accès au fichier contenant le dernier rapport de présentation,Url,f,f,,,,254,
-1be6d48973d1556d4fb7cf7865b6db79,c2a0782dd2345c251bc4cec34aa061d2,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
+1be6d48973d1556d4fb7cf7865b6db79,c2a0782dd2345c251bc4cec34aa061d2,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,ListeLibelleCC(LIBELLE)
 373616397ac309e873c7d2a78ae2eb9d,c2a0782dd2345c251bc4cec34aa061d2,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 400695c3cd8bdbd7d0558cd0328fb513,c2a0782dd2345c251bc4cec34aa061d2,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
 40ba67f5cfe57750d97119510da3fad8,c2a0782dd2345c251bc4cec34aa061d2,INSEE,INSEE,Code INSEE de la commune couverte par le secteur,String,t,f,,,,5,
@@ -2911,7 +2911,7 @@ ce6edd42cf61bf5f7e418bf4e57b5b7b,c3bae8696a2bbf41fe61306f9c751e29,TYPEINF,TYPEIN
 bbe650b1ab4037d029d3be777499824e,c45974ef4492b9ecbc2fd41c36a7bfc4,TYPEASS,TYPEASS,,String,t,f,"[""Zone de protection""]",,,40,
 eb14a9e65480e6e58ac261d0ca7454c5,c45974ef4492b9ecbc2fd41c36a7bfc4,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 667f27c03bd2465e45eb0ea0b4b3ba90,c4bbcd5fffdc675a79bc8ee6f8e6d100,ADRESSE,ADRESSE,Adresse du monument,String,f,f,,,,100,
-76616485b83d7d555b7ff1644da8a2e4,c4bbcd5fffdc675a79bc8ee6f8e6d100,TYPE,TYPE,type du monument,String,f,f,"[""Inscrit"",""Classé""]",,,10,
+76616485b83d7d555b7ff1644da8a2e4,c4bbcd5fffdc675a79bc8ee6f8e6d100,TYPE,TYPE,type du monument,String,f,f,,,,10,ListeTypeSUPMonument(TYPE)
 b5c04916c1c415809df3fc662ea456e5,c4bbcd5fffdc675a79bc8ee6f8e6d100,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 099853b5a7d6d113dc6249644e362888,c574d390f93dc8f0ff0ec0496dc995cc,URLPLAN,URLPLAN,URL ou URI qui pointe sur le fichier du plan scanné,Url,f,f,,,,254,
 205a8d0f0ea01b09644b118b62deddad,c574d390f93dc8f0ff0ec0496dc995cc,NOMREG,NOMREG,Nom du fichier contentant le document complet du règlement,String,f,f,,,,80,
@@ -3065,7 +3065,7 @@ bb52196d81d5df08b3340e79b82b5a50,d15855ea2358a5a090a3ad37cc7223a0,STYLE,STYLE,St
 a513438b0721e65dd4340e9a168a3af1,d1700d551e97de4762fabf95238658bd,ANGLE1,ANGLE1,,Integer,t,f,,,,,
 a76f8937b25ea877fbadb71195cb022c,d1700d551e97de4762fabf95238658bd,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 fe0ceb82f2b4a9d64e48cc0ef17fb63a,d1700d551e97de4762fabf95238658bd,TYPEASS,TYPEASS,,String,t,f,"[""Zone de protection""]",,,40,
-193e65877defcf259db4f292296d3f94,d25873afe1b50fe9b680a6171e02ba15,TYPE,TYPE,type du site,String,f,f,"[""Inscrit"",""Classé""]",,,10,
+193e65877defcf259db4f292296d3f94,d25873afe1b50fe9b680a6171e02ba15,TYPE,TYPE,type du site,String,f,f,,,,10,ListeTypeSUPMonument(TYPE)
 7ca75e0a988d7c8be1cb7eaf09d13a4d,d25873afe1b50fe9b680a6171e02ba15,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 7dcd582b03ab797d16e4945e4acbe853,d2a7d75183ab8e98cb2d7f00b75f0516,INSEE,INSEE,Code INSEE de la commune concernée par l'information,String,t,f,,,,5,
 8c4249968908249f2ce193606f49a0c9,d2a7d75183ab8e98cb2d7f00b75f0516,IDINFO,IDINFO,Identifiant unique de l’objet,String,f,f,,POIN(<ENTIER>)?,,10,
@@ -3135,7 +3135,7 @@ f0b8fa3d8ec95b7880f816ef63d4f526,d54c50849ef259176b3ca4166e8fb74b,H,H,,Double,f,
 ab916404d6efda9453968f0de72c056c,d60b5f34567d78af88f9adf73875ddee,FICHIER,FICHIER,,Filename,t,f,,,,255,
 1df06992931dc0f73c73556b8244192f,d6f1a869acad64a60d9131add4cb0562,TYPEGEN,TYPEGEN,,String,t,f,"[""Captage""]",,,40,
 4772f842b74212f3fb828c638eee96b2,d6f1a869acad64a60d9131add4cb0562,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
-e4da4548d2230bb66b289509cee893bf,d6f1a869acad64a60d9131add4cb0562,TYPE,TYPE,type d'eau,String,t,f,"[""Eau minérale"",""Eau potable""]",,,20,
+e4da4548d2230bb66b289509cee893bf,d6f1a869acad64a60d9131add4cb0562,TYPE,TYPE,type d'eau,String,t,f,,,,20,ListeTypeSUPEau(TYPE)
 179ecfe44efaabbdcd3a4aba2b518e07,d70be46b36329683981be27e8f9f7c0b,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_(zhlg|zmcp),,100,
 1fcbedd6e78daad2bf095db79d6dc578,d70be46b36329683981be27e8f9f7c0b,TYPEASS,TYPEASS,,String,t,f,"[""Halage"",""Marchepied""]",,,40,
 97ea7a06e65f109d1880b22c96cfdd0f,d70be46b36329683981be27e8f9f7c0b,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
@@ -3200,7 +3200,7 @@ e3576fa8c832d8c90cc73c1d99c247a0,daba5594637b1b5ee5e7fb9f10602991,TYPEGEN,TYPEGE
 816998f51ffed946cec79a896697d5c7,db5a3a46c84154f133fb2df555ef7122,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 a26660a4de11599d03dc281d0361d958,db5a3a46c84154f133fb2df555ef7122,TYPEASS,TYPEASS,,String,t,f,"[""Enceinte du site""]",,,40,
 badbaea1c255071e53807715b6198038,db5a3a46c84154f133fb2df555ef7122,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
-137c8ee7906af9548829f6eab56f46b8,dc26e676af01073ed99dce62c2fef6ee,TYPE,TYPE,type de centre,String,t,f,"[""niveau 1"",""niveau 2"",""niveau 3""]",,,10,
+137c8ee7906af9548829f6eab56f46b8,dc26e676af01073ed99dce62c2fef6ee,TYPE,TYPE,type de centre,String,t,f,,,,10,ListeTypeSUPNiveau(TYPE)
 4d03727e90ca03ddcaa36bba1527cc8c,dc26e676af01073ed99dce62c2fef6ee,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 68e46599611e70856c4908044657b92d,dc26e676af01073ed99dce62c2fef6ee,TYPEGEN,TYPEGEN,,String,t,f,"[""Centre de réception""]",,,40,
 1079bc89e8d7aa1b674f4397da08eb2a,dc7f6f48d7d19aa99cc8f0e5b8d37f47,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
@@ -3217,7 +3217,7 @@ e96167cc10d6c111457ded22420f4952,dc7f6f48d7d19aa99cc8f0e5b8d37f47,LIB_IDHAB,LIB_
 50b2989b6cb06f4256be4c45fb0ffb4a,dca63cdf569fa66188e9aaa68433ea53,TYPEGEN,TYPEGEN,,String,t,f,"[""Station""]",,,40,
 8200ce683ce3355a0a257dc9c3abd983,dcfbb183fb59b198911385092a3e00cc,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
 b013a94f6356a3e85bc8cb9aba8fb6c4,dcfbb183fb59b198911385092a3e00cc,TYPEGEN,TYPEGEN,,String,t,f,"[""Zone dégagement""]",,,40,
-b121c65f8ef0371dedbd41b8a7f115a2,dd2a46d4b29e7ae56149831b07fb9bb2,TYPE,TYPE,type du site,String,f,f,"[""Réserve naturelle nationale"",""Réserve naturelle régionale"",""Réserve naturelle de Corse""]",,,30,
+b121c65f8ef0371dedbd41b8a7f115a2,dd2a46d4b29e7ae56149831b07fb9bb2,TYPE,TYPE,type du site,String,f,f,,,,30,ListeTypeSUPReserve(TYPE)
 c5061f19dcf4c88827f1063898772be2,dd2a46d4b29e7ae56149831b07fb9bb2,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 17ea2070428e18fc64d3deabb8626eeb,dd7a16937d21311e6208a3371665beda,NOMASS,NOMASS,,String,t,f,,<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass,,100,
 74b76514cf738c601a59ced67cae3134,dd7a16937d21311e6208a3371665beda,TYPEASS,TYPEASS,,String,t,f,"[""Zone de protection""]",,,40,
@@ -3373,7 +3373,7 @@ fb57d72c498080ef571d7b8c40828642,e3ea426ff7c4273c8207a133d6c8ffc1,DATVALID,DATVA
 3235099cd36fa77a5b817b821febec52,e496fe3abfa524063637cd85af60eea4,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 4418bc49ae72f727e58d83ea98a51171,e496fe3abfa524063637cd85af60eea4,SYMBOLE,SYMBOLE,SYMBOLE,String,f,f,,SECT_<ENTIER_2>_<ENTIER_3>,,20,
 5db14d787b1238bd9dab98ad24072bb5,e496fe3abfa524063637cd85af60eea4,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)
-67223cf69fd2418b3c38cdd7f77e8a12,e496fe3abfa524063637cd85af60eea4,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
+67223cf69fd2418b3c38cdd7f77e8a12,e496fe3abfa524063637cd85af60eea4,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,ListeLibelleCC(LIBELLE)
 86858262ec7f6938fef94b15e6a46d15,e496fe3abfa524063637cd85af60eea4,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 91aaf5ad4722d1a0bb700cbfc28f0f8d,e496fe3abfa524063637cd85af60eea4,DATVALID,DATVALID,Date de la dernière validation du secteur ou de ses dispositions particulières,String,f,f,,<YYYYMMDD>,,,
 bc01aba7c89134923334ebe9bccd8a4f,e496fe3abfa524063637cd85af60eea4,URLFIC,URLFIC,"Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",Url,f,f,,,,254,
@@ -3393,7 +3393,7 @@ b4d88e81c60aa535ff238a8144b05e19,e5cbf5a3be6561202cf42bac3e48210d,LIB_IDHAB,LIB_
 d35b00bdae390d5684b0a9c76f226dcb,e5cbf5a3be6561202cf42bac3e48210d,COULEUR,COULEUR,"Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",String,f,f,,<COULEUR>,,11,
 61ca0180b612857e027d544e2d17774a,e63414b16451514769db2a4710cf6dc9,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 944bda571c68240a30afd1869489688b,e63414b16451514769db2a4710cf6dc9,TENSION,TENSION,Tension de la ligne en KiloVolt (KV),Integer,f,f,,,,,
-b2f611fd07d1ddede7ed0c6213215b1f,e63414b16451514769db2a4710cf6dc9,TYPE,TYPE,type de la ligne,String,f,f,"[""Aérien"",""Souterrain""]",,,10,
+b2f611fd07d1ddede7ed0c6213215b1f,e63414b16451514769db2a4710cf6dc9,TYPE,TYPE,type de la ligne,String,f,f,,,,10,ListeTypeSUPVoie(TYPE)
 2b53778060dc24bc21d145e32db7655c,e665ac91c1c31d1d0ec21e30e318c48f,WKT,Géométrie,Géométrie associée,MultiLineString,t,t,,,,,
 2f04529b03ac5f5c9a3304c8c156730e,e665ac91c1c31d1d0ec21e30e318c48f,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 4e337eb45a00cf3934d7101b6629170a,e665ac91c1c31d1d0ec21e30e318c48f,NATTRAC,NATTRAC,Nature de la ligne,String,t,f,,,,40,
@@ -3634,7 +3634,7 @@ f0fa7f4848b7c0ec289f45cde50375bf,f84f55f60d4f2e1c574a91ddc43bd27a,NOMFIC,NOMFIC,
 f316dca89614399c4b7b54a72983dd23,f84f55f60d4f2e1c574a91ddc43bd27a,SYMBOLE,SYMBOLE,SYMBOLE,String,f,f,,ZONE_<CHAR>+_<ENTIER_3>,,20,
 fdbda49ca7143d64edd33c6b09bdcbea,f84f55f60d4f2e1c574a91ddc43bd27a,DESTNON,DESTNON,DESTNON,String,f,f,,(-?(10|11|12|20|21|22|30|31|32|33|34|35|36|37|40|41|42|43|44|45|46|47|50|51|52|53|54|55|99))+,2,120,
 75fbdd50fba1d46d51ba039c681b2ac3,f890900ff8787f067c3a7f975f4d5cef,WKT,Géométrie,Géométrie associée,MultiPoint,t,t,,,,,
-7617164aa574bba921769753f6777d4e,f890900ff8787f067c3a7f975f4d5cef,TYPE,TYPE,type du monument,String,f,f,"[""Inscrit"",""Classé""]",,,10,
+7617164aa574bba921769753f6777d4e,f890900ff8787f067c3a7f975f4d5cef,TYPE,TYPE,type du monument,String,f,f,,,,10,ListeTypeSUPMonument(TYPE)
 769cb824ffb779025693b6bf1035998e,f890900ff8787f067c3a7f975f4d5cef,ADRESSE,ADRESSE,Adresse du monument,String,f,f,,,,100,
 0737af491c6b5a043ff408af25e7337c,f8f109ace7412d7607c49d7f9ca64342,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 e19cec31b77317ff0d4daeb0aba10d47,f8f109ace7412d7607c49d7f9ca64342,INSEE,INSEE,Code INSEE de la commune concernée par le document d'urbanisme,String,t,f,,,,5,
@@ -3645,7 +3645,7 @@ fd590771bb2f40c5bbb60cade744569e,f96303ea87f93a53451da016ff32c3b6,H,H,,Double,f,
 5b45c0789a77d1ffc6531d24595725bd,f963b627c319db8efc519b8f5f6cfb5f,TYPESECT,TYPESECT,Type du secteur dans une nomenclature simplifiée,String,t,f,,,,3,ListeTypesectCC(TYPESECT)
 5e0c889292e4514a6f31cd51e44c3a6f,f963b627c319db8efc519b8f5f6cfb5f,WKT,Géométrie,Géométrie associée,MultiPolygon,t,t,,,,,
 745cbd0f6528d197b7f31f48d1d64821,f963b627c319db8efc519b8f5f6cfb5f,LIB_IDZONE,LIB_IDZONE,identifiant d'objets,String,f,f,,<INSEE_COMMUNE>_CC_<YYYYMMDD>_ZO<ENTIER>,,40,
-79e915fa7f56d3c48994427c8bd5d3ba,f963b627c319db8efc519b8f5f6cfb5f,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,
+79e915fa7f56d3c48994427c8bd5d3ba,f963b627c319db8efc519b8f5f6cfb5f,LIBELLE,LIBELLE,Libellé du secteur tel que le définit la carte communale,String,t,f,,,,254,ListeLibelleCC(LIBELLE)
 b59b05a7fee4a0acd19c3eb5b91d86da,f963b627c319db8efc519b8f5f6cfb5f,NOMFIC,NOMFIC,Nom du fichier contenant les dispositions particulières du secteur,Filename,f,f,,,,80,
 c8f765ecf3489734e6a799237de386d2,f963b627c319db8efc519b8f5f6cfb5f,IDURBA,IDURBA,Identifiant du document d'urbanisme,String,t,f,,,,30,
 cbffea186f2c6674654d25b684abd162,f963b627c319db8efc519b8f5f6cfb5f,FERMRECO,FERMRECO,Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise,String,f,f,,,,3,ListeFermrecoCC(FERMRECO)

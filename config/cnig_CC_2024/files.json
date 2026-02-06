@@ -187,12 +187,6 @@
     ],
     "codes": [
         {
-            "data": "./codes/ListeLibelleCC.csv",
-            "id": "1d5750cbcc824903f88e1282c57e902d",
-            "name": "ListeLibelleCC",
-            "title": "ListeLibelleCC"
-        },
-        {
             "data": "./codes/ListeTypedocCC.csv",
             "id": "1fe1ddbd99ac2c89f4b84e3755fec7b9",
             "name": "ListeTypedocCC",
@@ -203,6 +197,12 @@
             "id": "34448a766d4a32634bb55a2661dccee1",
             "name": "ListeTypepCC",
             "title": "ListeTypepCC"
+        },
+        {
+            "data": "./codes/ListeLibelleCC.csv",
+            "id": "3a35a9b8edda488d87c3de9c978181e9",
+            "name": "ListeLibelleCC",
+            "title": "ListeLibelleCC"
         },
         {
             "data": "./codes/ListeTyperefCC.csv",
@@ -239,12 +239,6 @@
             "id": "b4ef5ff287b0b87b2bc8edf78b6ef5a8",
             "name": "ListeFermrecoCC",
             "title": "ListeFermrecoCC"
-        },
-        {
-            "data": "./codes/ListeStypeinf.csv",
-            "id": "ca79bad2900c9bb9d05c1e2d68fe35eb",
-            "name": "ListeStypeinf",
-            "title": "ListeStypeinf"
         }
     ],
     "constraints": {
