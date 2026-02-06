@@ -52,7 +52,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "ZONE_[a-zA-Z]+_[0-9]{3}",
+                "pattern": "ZONE_[a-zA-Z]+_<ENTIER_3>",
                 "maxLength": 20
             }
         },

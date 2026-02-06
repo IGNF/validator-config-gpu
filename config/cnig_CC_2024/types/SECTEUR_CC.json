@@ -100,7 +100,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "SECT_[0-9]{2}_[0-9]{3}",
+                "pattern": "SECT_<ENTIER_2>_<ENTIER_3>",
                 "maxLength": 20
             }
         },

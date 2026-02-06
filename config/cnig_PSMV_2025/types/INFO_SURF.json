@@ -84,7 +84,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "INF-S_[0-9]{2}-[0-9]{2}_[0-9]{3}",
+                "pattern": "INF-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>",
                 "maxLength": 20
             }
         },
@@ -142,8 +142,7 @@
             "NOMFIC NOT NULL OR TYPEINF NOT LIKE '97'"
         ],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)",
-            "(STYPEINF) REFERENCES ListeStypeinf(STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
         ]
     }
 }

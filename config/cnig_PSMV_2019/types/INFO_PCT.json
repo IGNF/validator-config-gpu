@@ -114,8 +114,7 @@
     "constraints": {
         "conditions": [],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)",
-            "(STYPEINF) REFERENCES ListeStypeinf(STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
         ]
     }
 }
