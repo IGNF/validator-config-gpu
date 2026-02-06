@@ -63,8 +63,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 25,
-                "reference": "ListeModegeoassSUP(MODEGEOASS)"
+                "maxLength": 25
             }
         },
         {
@@ -108,8 +107,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 3,
-                "reference": "ListeHrefSUP(HREF)"
+                "maxLength": 3
             }
         },
         {

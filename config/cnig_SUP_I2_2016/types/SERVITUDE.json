@@ -62,8 +62,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 10,
-                "reference": "ListeCategorieSUP(CATEGORIE)"
+                "maxLength": 10
             }
         },
         {
@@ -111,8 +110,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 25,
-                "reference": "ListeModeprodSUP(MODEPROD)"
+                "maxLength": 25
             }
         },
         {
@@ -124,8 +122,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 9,
-                "reference": "GESTIONNAIRE_SUP.IDGEST"
+                "maxLength": 9
             }
         },
         {

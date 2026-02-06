@@ -37,8 +37,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2,
-                "reference": "ListeDestdomi(DESTDOMI)"
+                "maxLength": 2
             }
         },
         {
@@ -62,8 +61,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2,
-                "reference": "ListeTypesectCC(TYPESECT)"
+                "maxLength": 2
             }
         },
         {
@@ -75,8 +73,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 12,
-                "reference": "ListeLibelleCC(LIBELLE)"
+                "maxLength": 12
             }
         },
         {
@@ -123,8 +120,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 3,
-                "reference": "ListeFermrecoCC(FERMRECO)"
+                "maxLength": 3
             }
         }
     ],

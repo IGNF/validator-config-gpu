@@ -12,8 +12,7 @@
             "description": "Identifiant de l'acte instituant la SUP",
             "constraints": {
                 "required": true,
-                "unique": false,
-                "reference": "ACTE_SUP.IDACTE"
+                "unique": false
             }
         },
         {
@@ -24,8 +23,7 @@
             "description": "Identifiant de la SUP",
             "constraints": {
                 "required": true,
-                "unique": false,
-                "reference": "SERVITUDE.IDSUP"
+                "unique": false
             }
         }
     ]

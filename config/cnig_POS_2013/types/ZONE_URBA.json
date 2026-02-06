@@ -70,8 +70,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2,
-                "reference": "ListeDestdomi(DESTDOMI)"
+                "maxLength": 2
             }
         },
         {

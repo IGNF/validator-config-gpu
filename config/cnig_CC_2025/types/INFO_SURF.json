@@ -96,8 +96,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2,
-                "reference": "ListeStypeinf(STYPEINF)"
+                "maxLength": 2
             }
         },
         {
@@ -167,7 +166,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "INF-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>",
+                "pattern": "INF-S_[0-9]{2}-[0-9]{2}_[0-9]{3}",
                 "maxLength": 20
             }
         }

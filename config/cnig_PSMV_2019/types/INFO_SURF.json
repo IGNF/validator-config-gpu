@@ -58,8 +58,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2,
-                "reference": "ListeStypeinf(STYPEINF)"
+                "maxLength": 2
             }
         },
         {

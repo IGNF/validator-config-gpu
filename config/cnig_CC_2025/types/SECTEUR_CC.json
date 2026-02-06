@@ -49,7 +49,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "SECT_<ENTIER_2>_<ENTIER_3>",
+                "pattern": "SECT_[0-9]{2}_[0-9]{3}",
                 "maxLength": 20
             }
         },
@@ -62,8 +62,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 3,
-                "reference": "ListeFermrecoCC(FERMRECO)"
+                "maxLength": 3
             }
         },
         {
@@ -75,8 +74,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 254,
-                "reference": "ListeLibelleCC(LIBELLE)"
+                "maxLength": 254
             }
         },
         {
@@ -88,8 +86,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 3,
-                "reference": "ListeTypesectCC(TYPESECT)"
+                "maxLength": 3
             }
         },
         {

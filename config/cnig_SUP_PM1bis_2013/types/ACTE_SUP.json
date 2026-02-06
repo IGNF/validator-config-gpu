@@ -13,8 +13,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 1,
-                "reference": "ListeAplanSUP(APLAN)"
+                "maxLength": 1
             }
         },
         {
@@ -26,8 +25,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 25,
-                "reference": "ListeDecisionSUP(DECISION)"
+                "maxLength": 25
             }
         },
         {
@@ -39,8 +37,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 50,
-                "reference": "ListeTypeacteSUP(TYPEACTE)"
+                "maxLength": 50
             }
         },
         {

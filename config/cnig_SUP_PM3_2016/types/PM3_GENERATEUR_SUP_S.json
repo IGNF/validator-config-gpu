@@ -87,8 +87,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 50,
-                "reference": "ListeModegenereSUP(MODEGENERE)"
+                "maxLength": 50
             }
         },
         {
@@ -101,8 +100,7 @@
                 "required": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+",
-                "maxLength": 40,
-                "reference": "SERVITUDE.IDSUP"
+                "maxLength": 40
             }
         },
         {
@@ -137,8 +135,7 @@
             "constraints": {
                 "required": true,
                 "unique": false,
-                "maxLength": 2,
-                "reference": "ListeCodeAleaSUP(CODE_ALEA)"
+                "maxLength": 2
             }
         },
         {

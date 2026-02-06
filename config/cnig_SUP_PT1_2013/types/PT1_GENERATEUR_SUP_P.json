@@ -59,8 +59,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 50,
-                "reference": "ListeModegenereSUP(MODEGENERE)"
+                "maxLength": 50
             }
         },
         {
@@ -71,8 +70,7 @@
             "description": "Identifiant de la SUP",
             "constraints": {
                 "required": true,
-                "unique": false,
-                "reference": "SERVITUDE.IDSUP"
+                "unique": false
             }
         },
         {
@@ -121,8 +119,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "maxLength": 10,
-                "reference": "ListeTypeSUPNiveau(TYPE)"
+                "maxLength": 10
             }
         },
         {
