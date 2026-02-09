@@ -177,7 +177,7 @@
                 "required": false,
                 "presenceRequired": false,
                 "unique": false,
-                "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_IL[0-9]+",
+                "pattern": "[AB0-9]{5}_PSMV_[0-9]{8}_IL[0-9]+",
                 "maxLength": 40
             }
         }
@@ -187,7 +187,7 @@
             "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
         ],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
         ]
     }
 }

@@ -467,7 +467,44 @@
             "path": "Pieces_ecrites/5_OAP/[AB0-9]{5}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         }
     ],
-    "codes": [],
+    "codes": [
+        {
+            "data": "./codes/ListeTypedocPLU.csv",
+            "id": "389e5aa8c94b792800e6ce8239dd0e07",
+            "name": "ListeTypedocPLU",
+            "title": "ListeTypedocPLU"
+        },
+        {
+            "data": "./codes/PrescriptionUrbaType.csv",
+            "id": "61867877ba147d9c1011eec925d6fdb7",
+            "name": "PrescriptionUrbaType",
+            "title": "PrescriptionUrbaType"
+        },
+        {
+            "data": "./codes/ListeTypezonePLU.csv",
+            "id": "7c2d5c979dbc43f0463ad2498c69367c",
+            "name": "ListeTypezonePLU",
+            "title": "ListeTypezonePLU"
+        },
+        {
+            "data": "./codes/ListeEtatPLU.csv",
+            "id": "8813cf746f0ca5d95cbd9b1ab1cf6439",
+            "name": "ListeEtatPLU",
+            "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/ListeTyperefPLU.csv",
+            "id": "a087671f3426e3239f1e0695e1c0a051",
+            "name": "ListeTyperefPLU",
+            "title": "ListeTyperefPLU"
+        },
+        {
+            "data": "./codes/InformationUrbaType.csv",
+            "id": "e2742b4726b240b087982797fafbfe01",
+            "name": "InformationUrbaType",
+            "title": "InformationUrbaType"
+        }
+    ],
     "constraints": {
         "folderName": "[a-zA-Z0-9]+_PLU_[0-9]{8}(_[a-zA-Z])?",
         "metadataSpecification": "CNIG PLU v2024"

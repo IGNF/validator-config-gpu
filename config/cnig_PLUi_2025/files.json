@@ -337,7 +337,7 @@
             "id": "5c35dcfe48ae5a6694932bb34dfcdef1",
             "name": "RAPPORT",
             "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "pdf",
@@ -346,7 +346,7 @@
             "name": "RESUME_NON_TECHNIQUE",
             "title": "RESUME_NON_TECHNIQUE",
             "description": "RESUME_NON_TECHNIQUE",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_rnt_(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[0-9]{9}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*_rnt(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "directory",
@@ -390,20 +390,20 @@
             "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
-            "type": "pdf",
-            "mandatory": "ERROR",
-            "id": "b45721fb4970a5ec53d8aff16c56b49d",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
-        },
-        {
             "type": "metadata",
             "mandatory": "OPTIONAL",
             "id": "90386bfe4ff0d22e2c84afaf75539be3",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "ERROR",
+            "id": "b45721fb4970a5ec53d8aff16c56b49d",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT",
             "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
@@ -456,6 +456,24 @@
             "name": "OAP",
             "title": "OAP",
             "path": "Pieces_ecrites/5_OAP/[0-9]{9}_oap(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+        },
+        {
+            "type": "directory",
+            "mandatory": "OPTIONAL",
+            "id": "07135009c3dad6b8821e3ec1b5a181df",
+            "name": "6_POA",
+            "title": "6_POA",
+            "description": "6_POA",
+            "path": "Pieces_ecrites/6_POA"
+        },
+        {
+            "type": "pdf",
+            "mandatory": "WARN",
+            "id": "461831e1824c27d7b77131b91afaf0a5",
+            "name": "POA",
+            "title": "POA",
+            "description": "POA",
+            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
         },
         {
             "type": "directory",
@@ -566,10 +584,10 @@
             "title": "ListeTypezonePLU"
         },
         {
-            "data": "./codes/ListeTypedocPLU.csv",
+            "data": "./codes/ListeTypedocPLUi.csv",
             "id": "023592178a2b11f0dfe0b2f97a9b7059",
-            "name": "ListeTypedocPLU",
-            "title": "ListeTypedocPLU"
+            "name": "ListeTypedocPLUi",
+            "title": "ListeTypedocPLUi"
         },
         {
             "data": "./codes/PrescriptionLUrbaType.csv",

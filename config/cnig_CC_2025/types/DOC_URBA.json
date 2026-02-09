@@ -32,7 +32,7 @@
             }
         },
         {
-            "type": "String",
+            "type": "Filename",
             "id": "8291cbceb070568163f471788938c710",
             "name": "NOMRAPP",
             "title": "NOMRAPP",
@@ -40,6 +40,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?.pdf",
                 "maxLength": 80
             }
         },
@@ -233,13 +234,13 @@
     "constraints": {
         "conditions": [
             "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
-            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')"
+            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
+            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL"
         ],
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatCC(ETAT)",
             "(TYPEDOC) REFERENCES ListeTypedocCC(TYPEDOC)",
-            "(TYPEREF) REFERENCES ListeTyperefCC(TYPEREF)",
-            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL"
+            "(TYPEREF) REFERENCES ListeTyperefCC(TYPEREF)"
         ]
     }
 }

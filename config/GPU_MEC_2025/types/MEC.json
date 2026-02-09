@@ -8,7 +8,7 @@
             "id": "9b5977865395eb190c0bf82d9eaac265",
             "name": "LIBELLE",
             "title": "LIBELLE",
-            "description": "Libellé du secteur tel que le définit la carte communale",
+            "description": "Nom littéral de la MEC",
             "constraints": {
                 "required": true,
                 "unique": false,
@@ -39,7 +39,7 @@
             }
         },
         {
-            "type": "String",
+            "type": "Filename",
             "id": "b4d7249f598514ff355215858e2dc524",
             "name": "NOMRAPP",
             "title": "NOMRAPP",
@@ -47,6 +47,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_<YYYMMDD>_rapport_de_presentation_MEC[0-9]+_<YYYMMDD>.pdf",
                 "maxLength": 80
             }
         },
@@ -64,18 +65,6 @@
         },
         {
             "type": "Filename",
-            "id": "f4678873a0f1c44105c3953e67ead1be",
-            "name": "NOMFIC",
-            "title": "NOMFIC",
-            "description": "Nom du fichier relatif à l’arrêté de la MEC",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "maxLength": 80
-            }
-        },
-        {
-            "type": "String",
             "id": "ffb5d583d2d2aa66e4c0d72673c8d467",
             "name": "NOMARR",
             "title": "NOMARR",
@@ -83,6 +72,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
+                "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_<YYYMMDD>_arrete_MEC[0-9]+_<YYYMMDD>.pdf",
                 "maxLength": 80
             }
         }
