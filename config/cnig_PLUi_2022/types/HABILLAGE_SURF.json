@@ -25,6 +25,7 @@
             "description": "identifiant d'objets",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}_PLUI_[0-9]{8}_HS[0-9]+",
                 "maxLength": 40

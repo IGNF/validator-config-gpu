@@ -162,6 +162,7 @@
             "description": "identifiant d'objets",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_POS_[0-9]{8}_IP[0-9]+",
                 "maxLength": 40
