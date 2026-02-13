@@ -12,6 +12,7 @@
             "description": "Libellé du secteur tel que le définit la carte communale",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -24,6 +25,7 @@
             "description": "Type du secteur dans une nomenclature simplifiée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 3
             }
@@ -36,6 +38,7 @@
             "description": "Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -48,6 +51,7 @@
             "description": "Code INSEE de la commune couverte par le secteur",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }
@@ -60,6 +64,7 @@
             "description": "Date de la dernière validation du secteur ou de ses dispositions particulières",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -72,6 +77,7 @@
             "description": "Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 3
             }
@@ -84,6 +90,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -95,6 +102,7 @@
             "description": "Vocation dominante de la zone, concerne l’usage de la zone",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -107,6 +115,7 @@
             "description": "Date d'approbation du document d'urbanisme auquel appartient la zone",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -119,6 +128,7 @@
             "description": "Nom du fichier contenant les dispositions particulières du secteur",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }

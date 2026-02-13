@@ -12,6 +12,7 @@
             "description": "Identifiant de l'acte instituant la SUP",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -23,6 +24,7 @@
             "description": "Identifiant de la SUP",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false
             }
         }

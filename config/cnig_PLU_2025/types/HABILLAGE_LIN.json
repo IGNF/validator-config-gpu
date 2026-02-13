@@ -12,6 +12,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -23,6 +24,7 @@
             "description": "identifiant d'objets",
             "constraints": {
                 "required": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_HL[0-9]+",
                 "maxLength": 40
@@ -36,6 +38,7 @@
             "description": "Nature de la ligne",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -48,6 +51,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -60,6 +64,7 @@
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
                 "maxLength": 11

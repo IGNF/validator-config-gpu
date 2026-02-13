@@ -12,6 +12,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -23,6 +24,7 @@
             "description": "Nature du polygon",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -35,6 +37,7 @@
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }

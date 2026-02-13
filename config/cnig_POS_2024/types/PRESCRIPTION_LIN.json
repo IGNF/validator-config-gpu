@@ -12,6 +12,7 @@
             "description": "Nom court de la prescription servant à faire une étiquette",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 10
             }
@@ -24,6 +25,7 @@
             "description": "Date de la dernière validation de la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -36,6 +38,7 @@
             "description": "identifiant d'objets",
             "constraints": {
                 "required": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_POS_[0-9]{8}_PL[0-9]+",
                 "maxLength": 40
@@ -49,6 +52,7 @@
             "description": "Nom du fichier PDF décrivant la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -61,6 +65,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -72,6 +77,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -84,6 +90,7 @@
             "description": "Type de la prescription dans une liste prédéfinie",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -96,6 +103,7 @@
             "description": "NATURE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 50
             }
@@ -108,6 +116,7 @@
             "description": "Intitulé complet de la prescription",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -120,6 +129,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -131,6 +141,7 @@
             "title": "STYPEPSC",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -143,6 +154,7 @@
             "description": "SYMBOLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "PSC-L_[0-9]{2}-[0-9]{2}_[0-9]{3}",
                 "maxLength": 20

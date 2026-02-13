@@ -12,6 +12,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -24,6 +25,7 @@
             "description": "SYMBOLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "INF-S_[0-9]{2}-[0-9]{2}_[0-9]{3}",
                 "maxLength": 20
@@ -37,6 +39,7 @@
             "description": "Nom court du périmètre servant à faire une étiquette",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 10
             }
@@ -49,6 +52,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -59,6 +63,7 @@
             "title": "STYPEINF",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -71,6 +76,7 @@
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -83,6 +89,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -95,6 +102,7 @@
             "description": "Type de périmètre dans une liste prédéfinie",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -106,6 +114,7 @@
             "title": "DATVALID",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -118,6 +127,7 @@
             "description": "Nom complet du périmètre",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -130,6 +140,7 @@
             "description": "identifiant d'objets",
             "constraints": {
                 "required": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_PLUi_[0-9]{8}_IS[0-9]+",
                 "maxLength": 40

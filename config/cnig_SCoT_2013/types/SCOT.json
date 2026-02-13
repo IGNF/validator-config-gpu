@@ -11,6 +11,7 @@
             "description": "Nom du Scot",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 32
             }
@@ -23,6 +24,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -34,6 +36,7 @@
             "description": "Titre du Scot",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -46,6 +49,7 @@
             "description": "Identifiant du document sur le GPU",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 32
             }

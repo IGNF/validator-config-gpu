@@ -12,6 +12,7 @@
             "description": "Nom du fichier contentant le document complet du règlement",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -24,6 +25,7 @@
             "description": "URL ou URI qui pointe sur le fichier du plan scanné",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -36,6 +38,7 @@
             "description": "Type du document",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "PLU",
@@ -54,6 +57,7 @@
             "description": "Etat juridique du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "01",
@@ -75,6 +79,7 @@
             "description": "Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -87,6 +92,7 @@
             "description": "URL ou URI qui pointe sur le fichier du règlement papier complet scanné",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -99,6 +105,7 @@
             "description": "Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 9
             }
@@ -111,6 +118,7 @@
             "description": "Date de fin de validité du document d'urbanisme",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -123,6 +131,7 @@
             "description": "Indique si le document d'urbanisme est intercommunal",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 1
             }
@@ -135,6 +144,7 @@
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -147,6 +157,7 @@
             "description": "Nom du référentiel cadastral utilisé pour la numérisation",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "01",
@@ -163,6 +174,7 @@
             "description": "Page web du service de consultation du PLU offert par la collectivité locale",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -175,6 +187,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 20
             }
@@ -187,6 +200,7 @@
             "description": "Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }

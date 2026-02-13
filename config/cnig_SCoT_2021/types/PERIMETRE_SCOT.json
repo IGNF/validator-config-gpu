@@ -12,6 +12,7 @@
             "description": "Identifiant du SCOT (cf table DOC_URBA)",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
                 "maxLength": 30
@@ -25,6 +26,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         }

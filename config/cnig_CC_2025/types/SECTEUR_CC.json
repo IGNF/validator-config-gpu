@@ -12,6 +12,7 @@
             "description": "Nom du fichier contenant les dispositions particulières du secteur",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -24,6 +25,7 @@
             "description": "identifiant d'objets",
             "constraints": {
                 "required": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_CC_[0-9]{8}_ZO[0-9]+",
                 "maxLength": 40
@@ -37,6 +39,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -48,6 +51,7 @@
             "description": "SYMBOLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "SECT_[0-9]{2}_[0-9]{3}",
                 "maxLength": 20
@@ -61,6 +65,7 @@
             "description": "Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 3
             }
@@ -73,6 +78,7 @@
             "description": "Libellé du secteur tel que le définit la carte communale",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -85,6 +91,7 @@
             "description": "Type du secteur dans une nomenclature simplifiée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 3
             }
@@ -97,6 +104,7 @@
             "description": "Date de la dernière validation du secteur ou de ses dispositions particulières",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -109,6 +117,7 @@
             "description": "Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -121,6 +130,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -133,6 +143,7 @@
             "description": "Nom complet littéral du secteur",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }

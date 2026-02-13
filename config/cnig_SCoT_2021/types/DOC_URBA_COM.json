@@ -12,6 +12,7 @@
             "description": "Code SIREN de l’EPCI auquel appartient la commune",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}",
                 "maxLength": 9
@@ -25,6 +26,7 @@
             "description": "Identifiant du SCOT (cf table DOC_URBA)",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
                 "maxLength": 30
@@ -38,6 +40,7 @@
             "description": "Code INSEE de la commune sur laquelle il s’applique",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[AB0-9]{5}",
                 "maxLength": 5

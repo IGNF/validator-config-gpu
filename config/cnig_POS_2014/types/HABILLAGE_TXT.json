@@ -11,6 +11,7 @@
             "title": "POLICE",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -22,6 +23,7 @@
             "title": "TAILLE",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -32,6 +34,7 @@
             "title": "STYLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -44,6 +47,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -55,6 +59,7 @@
             "description": "Nature de l'écriture",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -67,6 +72,7 @@
             "description": "Libellé de l'étiquette attachée au point d'habillage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -79,6 +85,7 @@
             "description": "Identifiant unique de l’objet",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "HT([0-9]+)?",
                 "maxLength": 10
@@ -91,6 +98,7 @@
             "title": "ANGLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -102,6 +110,7 @@
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }

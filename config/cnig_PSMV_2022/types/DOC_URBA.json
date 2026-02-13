@@ -12,6 +12,7 @@
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -24,6 +25,7 @@
             "description": "Lien d’accès à l’archive zip comprenant l’ensemble des pièces écrites",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -36,6 +38,7 @@
             "description": "Le cas échéant, numéro SIREN de l'intercommunalité compétente en matière d'urbanisme ayant pris part à l’élaboration du PSMV",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 9
             }
@@ -48,6 +51,7 @@
             "description": "Nom du fichier contentant le document complet du règlement",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_reglement_[0-9]{8}(_[a-zA-Z])?.pdf",
                 "maxLength": 80
@@ -61,6 +65,7 @@
             "description": "Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -73,6 +78,7 @@
             "description": "Nom du référentiel cadastral utilisé pour la numérisation",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -85,6 +91,7 @@
             "description": "Nom de la dernière procédure",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "(E|R|A|MC[0-9]+|MJ[0-9]+|M[0-9]+|MS[0-9]+|RS[0-9]+)",
                 "maxLength": 10
@@ -98,6 +105,7 @@
             "description": "Page web du service de consultation du PSMV",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -110,6 +118,7 @@
             "description": "Type du document",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 4
             }
@@ -122,6 +131,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -134,6 +144,7 @@
             "description": "URL ou URI qui pointe sur le fichier du règlement papier complet scanné",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -146,6 +157,7 @@
             "description": "URL ou URI qui pointe sur le fichier du plan scanné",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -158,6 +170,7 @@
             "description": "Etat juridique du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -170,6 +183,7 @@
             "description": "Nom du fichier contenant le plan origine scanné. Il s'agit du plan sur lequel figure le tampon juridique",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?(.pdf|.zip)",
                 "maxLength": 80
@@ -183,6 +197,7 @@
             "description": "Date de fin de validité du document d'urbanisme",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }

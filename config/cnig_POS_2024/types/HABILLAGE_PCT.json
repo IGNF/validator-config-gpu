@@ -12,6 +12,7 @@
             "description": "Nature du point",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -24,6 +25,7 @@
             "description": "identifiant d'objets",
             "constraints": {
                 "required": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_POS_[0-9]{8}_HP[0-9]+",
                 "maxLength": 40
@@ -37,6 +39,7 @@
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
                 "maxLength": 11
@@ -50,6 +53,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -62,6 +66,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         }

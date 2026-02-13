@@ -12,6 +12,7 @@
             "description": "Date de fin de validité du SCOT. Si le SCOT est remplacé, cette date correspond à la date d'approbation du SCOT qui le remplace.Si le SCOT est annulé, cette date correspond à la date d'annulation.",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -24,6 +25,7 @@
             "description": "om du fichier contenant le document d’orientation et d’objectifs",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -36,6 +38,7 @@
             "description": "Nom du fichier contenant le rapport de présentation",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -48,6 +51,7 @@
             "description": "Code SIREN de l'organisme responsable et porteur du SCOT",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}",
                 "maxLength": 9
@@ -61,6 +65,7 @@
             "description": "Nature de la procédure administrative engagée pour aboutir au document opposable",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -73,6 +78,7 @@
             "description": "Lien d’accès à l’archive zip comprenant l’ensemble des pièces écrites",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -85,6 +91,7 @@
             "description": "Lien d'accès au fichier du PADD",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -97,6 +104,7 @@
             "description": "Type de document d’urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 4
             }
@@ -109,6 +117,7 @@
             "description": "État du SCOT au regard de sa procédure",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -121,6 +130,7 @@
             "description": "Identifiant du SCOTConstitue une clé externe dans les autres tables du lot de données",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
                 "maxLength": 30
@@ -134,6 +144,7 @@
             "description": "Lien d'accès au fichier du document d’orientation et d’objectifs",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -146,6 +157,7 @@
             "description": "Date d'approbation du SCOT par délibération de l'EPCI après enquête publique",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -158,6 +170,7 @@
             "description": "Dénomination du SCOT",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -170,6 +183,7 @@
             "description": "Page web du service de consultation du SCOT offert par l’autorité compétente",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -182,6 +196,7 @@
             "description": "Lien d'accès au fichier du rapport de présentation sous forme numérique",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -194,6 +209,7 @@
             "description": "Nom du fichier contenant le projet d'aménagement et de développement durables",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }

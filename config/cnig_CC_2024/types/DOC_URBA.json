@@ -12,6 +12,7 @@
             "description": "Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 9
             }
@@ -24,6 +25,7 @@
             "description": "Nom de la dernière procédure",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "(E|R|A|MAJ[0-9]+|MS[0-9]+)",
                 "maxLength": 10
@@ -37,6 +39,7 @@
             "description": "Nom du fichier contentant le document complet du règlement",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -49,6 +52,7 @@
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -61,6 +65,7 @@
             "description": "Date d'actualité ou de mise à jour du référentiel cadastral utilisé pour la création ou la numérisation des documents graphiques.",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -73,6 +78,7 @@
             "description": "Type du document",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 4
             }
@@ -85,6 +91,7 @@
             "description": "Etat juridique du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -97,6 +104,7 @@
             "description": "Date de fin de validité du document d'urbanisme",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -109,6 +117,7 @@
             "description": "Lien d’accès à l’archive zip comprenant l’ensemble des pièces écrites",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -121,6 +130,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -133,6 +143,7 @@
             "description": "Nom du fichier du plan graphique",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_sectorisation_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?(.pdf|.zip)",
                 "maxLength": 80
@@ -146,6 +157,7 @@
             "description": "Nom du référentiel cadastral utilisé pour la numérisation",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 2
             }
@@ -158,6 +170,7 @@
             "description": "URL ou URI qui pointe sur le fichier du plan scanné",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -170,6 +183,7 @@
             "description": "Page web du service de consultation du PLU offert par la collectivité locale",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -182,6 +196,7 @@
             "description": "URL ou URI qui pointe sur le fichier du règlement papier complet scanné",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }

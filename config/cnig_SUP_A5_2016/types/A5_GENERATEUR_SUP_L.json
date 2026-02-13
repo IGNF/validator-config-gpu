@@ -12,6 +12,7 @@
             "description": "Identifiant référençant l'objet correspondant au générateur dans le référentiel ou la base de données externe",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 50
             }
@@ -24,6 +25,7 @@
             "description": "Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -36,6 +38,7 @@
             "description": "Identifiant du générateur",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+",
                 "maxLength": 40
@@ -49,6 +52,7 @@
             "description": "Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?",
                 "maxLength": 100
@@ -62,6 +66,7 @@
             "description": "Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 50
             }
@@ -74,6 +79,7 @@
             "description": "Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -86,6 +92,7 @@
             "description": "Description du moyen utilisé pour obtenir la géométrie du générateur",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 50
             }
@@ -98,6 +105,7 @@
             "description": "Identifiant de la SUP",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+",
                 "maxLength": 40
@@ -110,6 +118,7 @@
             "title": "TYPEGEN",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "Canalisation d'eau et d'assainissement"
@@ -125,6 +134,7 @@
             "description": "type de la canalisation",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 15
             }
@@ -137,6 +147,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         }

@@ -12,6 +12,7 @@
             "description": "Identifiant unique de l’objet",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "HT([0-9]+)?",
                 "maxLength": 10
@@ -25,6 +26,7 @@
             "description": "Nature de l'écriture",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -37,6 +39,7 @@
             "description": "Libellé de l'étiquette attachée au point d'habillage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -49,6 +52,7 @@
             "description": "Taille des caractères",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -60,6 +64,7 @@
             "description": "Angle de l'écriture exprimé endegré, par rapport à l'horizontale,dans le sens trigonométrique",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -71,6 +76,7 @@
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }
@@ -83,6 +89,7 @@
             "description": "Style d'écriture",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -95,6 +102,7 @@
             "description": "Police d'écriture",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -107,6 +115,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         }
