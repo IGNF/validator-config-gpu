@@ -12,6 +12,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -23,6 +24,7 @@
             "description": "Type de la prescription dans une liste prédéfinie",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "01",
@@ -65,6 +67,7 @@
             "description": "Nom court de la prescription servant à faire une étiquette",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 10
             }
@@ -77,6 +80,7 @@
             "description": "Nom du fichier PDF décrivant la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -89,6 +93,7 @@
             "description": "Intitulé complet de la prescription",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -101,6 +106,7 @@
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -113,6 +119,7 @@
             "description": "Date de la dernière validation de la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -125,6 +132,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -137,6 +145,7 @@
             "description": "Code INSEE de la commune concernée par la prescription",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }

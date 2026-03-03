@@ -12,6 +12,7 @@
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -24,6 +25,7 @@
             "description": "Nom court de l'information servant à faire une étiquette",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 10
             }
@@ -35,6 +37,7 @@
             "title": "STYPEINF",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "00",
@@ -53,6 +56,7 @@
             "description": "Type d'information linéaire dans une liste prédéfinie",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "02",
@@ -104,6 +108,7 @@
             "description": "SYMBOLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 20
             }
@@ -130,6 +135,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -141,6 +147,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -153,6 +160,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -164,6 +172,7 @@
             "title": "DATVALID",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -175,6 +184,7 @@
             "description": "Nom complet de l'information",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }

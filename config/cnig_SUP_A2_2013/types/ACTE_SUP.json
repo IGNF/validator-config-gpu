@@ -12,6 +12,7 @@
             "description": "Existence d'un ou plusieurs plans annexés à l'acte",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "T",
@@ -28,6 +29,7 @@
             "description": "Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "Création",
@@ -47,6 +49,7 @@
             "description": "Description de la nature de l'acte",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "Texte de loi",
@@ -74,6 +77,7 @@
             "description": "Date de parution au Journal Officiel ou de publicité dans la presse",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -86,6 +90,7 @@
             "description": "Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_[0-9]+)?_act",
                 "maxLength": 100
@@ -99,6 +104,7 @@
             "description": "Identifiant de l'acte",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -110,6 +116,7 @@
             "description": "Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -122,6 +129,7 @@
             "description": "Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -134,6 +142,7 @@
             "description": "Référence de l'acte ayant créé ou modifié la servitude",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 50
             }

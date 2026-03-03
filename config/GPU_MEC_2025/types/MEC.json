@@ -11,6 +11,7 @@
             "description": "Nom littéral de la MEC",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -23,6 +24,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -35,6 +37,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -46,6 +49,7 @@
             "description": "Nom du fichier relatif au rapport de présentation de la MEC",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_<YYYMMDD>_rapport_de_presentation_MEC[0-9]+_<YYYMMDD>.pdf",
                 "maxLength": 80
@@ -59,6 +63,7 @@
             "description": "Date de validation ou de signature de l’arrêté",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -71,6 +76,7 @@
             "description": "Nom du fichier relatif à l’arrêté de la MEC",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_<YYYMMDD>_arrete_MEC[0-9]+_<YYYMMDD>.pdf",
                 "maxLength": 80

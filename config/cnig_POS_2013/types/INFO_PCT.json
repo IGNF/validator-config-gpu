@@ -12,6 +12,7 @@
             "description": "Nom court de l'information servant à faire une étiquette",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 10
             }
@@ -24,6 +25,7 @@
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -36,6 +38,7 @@
             "description": "Type d'information ponctuelle dans une liste prédéfinie",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "16",
@@ -52,6 +55,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -63,6 +67,7 @@
             "description": "Nom complet de l'information",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -75,6 +80,7 @@
             "description": "Code INSEE de la commune concernée par l'information",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }
@@ -87,6 +93,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }

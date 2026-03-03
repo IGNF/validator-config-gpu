@@ -12,6 +12,7 @@
             "description": "Les données numérisées de la servitude ont été validées ou pas par le gestionnaire",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "T",
@@ -28,6 +29,7 @@
             "description": "Lien d’accès au fichier pdf contenant le règlement de la servitude",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -40,6 +42,7 @@
             "description": "Date de la dernière modification apportée à la servitude",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -52,6 +55,7 @@
             "description": "Identifiant de la SUP",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+",
                 "maxLength": 40
@@ -65,6 +69,7 @@
             "description": "Catégorie de la servitude dans la nomenclature nationale",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "A1",
@@ -150,6 +155,7 @@
             "description": "Organisme ayant numérisé la servitude",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -162,6 +168,7 @@
             "description": "Observation relative à la validation de la servitude formulée soit par le gestionnaire, soit par le service de l'État administrant les données",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -174,6 +181,7 @@
             "description": "Description détaillée de la servitude",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -186,6 +194,7 @@
             "description": "Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "import",
@@ -203,9 +212,9 @@
             "description": "Identifiant du gestionnaire de la SUP",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
-                "maxLength": 9,
-                "reference": "GESTIONNAIRE_SUP.IDGEST"
+                "maxLength": 9
             }
         },
         {
@@ -216,6 +225,7 @@
             "description": "Nom du fichier pdf contenant le règlement de la servitude",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg.pdf",
                 "maxLength": 100
@@ -229,6 +239,7 @@
             "description": "Identifiant créé et entretenu par l'organisme gestionnaire de la servitude",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 25
             }
@@ -241,6 +252,7 @@
             "description": "Nom littéral de la servitude, figurant dans l'acte l'ayant instaurée",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 100
             }
@@ -253,6 +265,7 @@
             "description": "Dénominateur de l'échelle à laquelle a été numérisée la servitude",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -264,6 +277,7 @@
             "description": "Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_sup",
                 "maxLength": 100
@@ -277,6 +291,7 @@
             "description": "Document graphique ayant été numérisé",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }

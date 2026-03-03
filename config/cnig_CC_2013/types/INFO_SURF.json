@@ -12,6 +12,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -23,6 +24,7 @@
             "description": "Nom court du périmètre servant à faire une étiquette",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 10
             }
@@ -35,6 +37,7 @@
             "description": "Nom complet du périmètre",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -47,6 +50,7 @@
             "description": "Code INSEE de la commune concernée par l'information",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }
@@ -59,6 +63,7 @@
             "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -71,6 +76,7 @@
             "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "22",
@@ -88,6 +94,7 @@
             "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "11",
@@ -104,6 +111,7 @@
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }

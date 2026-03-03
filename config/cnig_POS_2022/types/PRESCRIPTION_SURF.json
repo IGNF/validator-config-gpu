@@ -12,6 +12,7 @@
             "description": "Type de la prescription dans une liste prédéfinie",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "01",
@@ -74,6 +75,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -85,6 +87,7 @@
             "description": "Intitulé complet de la prescription",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -97,6 +100,7 @@
             "description": "Nom du fichier PDF décrivant la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -109,6 +113,7 @@
             "description": "Date de la dernière validation de la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -120,6 +125,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -132,6 +138,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -144,6 +151,7 @@
             "description": "SYMBOLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 20
             }
@@ -156,6 +164,7 @@
             "description": "NATURE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -182,6 +191,7 @@
             "description": "Nom court de la prescription servant à faire une étiquette",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 10
             }
@@ -193,6 +203,7 @@
             "title": "STYPEPSC",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "00",

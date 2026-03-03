@@ -10,6 +10,7 @@
             "title": "FICHIER",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true,
                 "maxLength": 255
             }
@@ -21,6 +22,7 @@
             "title": "TITRE",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }

@@ -11,6 +11,7 @@
             "title": "STYLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -23,6 +24,7 @@
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }
@@ -34,6 +36,7 @@
             "title": "TAILLE",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -45,6 +48,7 @@
             "description": "Nature de l'écriture",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -56,6 +60,7 @@
             "title": "POLICE",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -68,6 +73,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -78,6 +84,7 @@
             "title": "ANGLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         },
@@ -89,6 +96,7 @@
             "description": "Libellé de l'étiquette attachée au point d'habillage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }

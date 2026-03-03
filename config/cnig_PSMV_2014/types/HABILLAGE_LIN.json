@@ -12,6 +12,7 @@
             "description": "Identifiant unique de l’objet",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "HL([0-9]+)?",
                 "maxLength": 10
@@ -25,6 +26,7 @@
             "description": "Code INSEE de la commune concernée par l'élément d'habillage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 5
             }
@@ -37,6 +39,7 @@
             "description": "Nature de la ligne",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 40
             }
@@ -49,6 +52,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         }

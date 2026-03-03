@@ -12,6 +12,7 @@
             "description": "Type de la zone dans une nomenclature simplifiée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "U",
@@ -31,6 +32,7 @@
             "description": "Nom du fichier du règlement de la zone",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -43,6 +45,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -55,6 +58,7 @@
             "description": "FORMDOMI",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "0000",
@@ -117,6 +121,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -129,6 +134,7 @@
             "description": "DESTCDT",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "10",
@@ -171,6 +177,7 @@
             "description": "Nom complet littéral de la zone tel qu’il apparaît dans le chapitre du règlement écrit",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -183,6 +190,7 @@
             "description": "Nom court de la zone tel qu’il apparaît sur le plan de zonage",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 12
             }
@@ -195,6 +203,7 @@
             "description": "DESTNON",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "10",
@@ -251,6 +260,7 @@
             "description": "SYMBOLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 20
             }
@@ -263,6 +273,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -274,6 +285,7 @@
             "description": "DESTOUI",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "10",
@@ -316,6 +328,7 @@
             "description": "Date de la dernière validation de la zone ou de son règlement",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false
             }
         }

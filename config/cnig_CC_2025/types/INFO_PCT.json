@@ -12,6 +12,7 @@
             "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -24,6 +25,7 @@
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 80
             }
@@ -35,6 +37,7 @@
             "title": "DATVALID",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -60,6 +63,7 @@
             "title": "STYPEINF",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "00",
@@ -76,6 +80,7 @@
             "title": "TYPEP",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "01",
@@ -137,6 +142,7 @@
             "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "00",
@@ -187,6 +193,7 @@
             "description": "NATURE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 50
             }
@@ -199,6 +206,7 @@
             "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "enum": [
                     "00",
@@ -226,6 +234,7 @@
             "description": "Nom complet de l’information reportée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 254
             }
@@ -238,6 +247,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": true
             }
         },
@@ -249,6 +259,7 @@
             "description": "SYMBOLE",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "INF-P_[0-9]{2}-[0-9]{2}_[0-9]{3}",
                 "maxLength": 20
@@ -262,6 +273,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 30
             }
@@ -274,6 +286,7 @@
             "description": "Nom court servant à faire une étiquette",
             "constraints": {
                 "required": false,
+                "presenceRequired": false,
                 "unique": false,
                 "maxLength": 10
             }
