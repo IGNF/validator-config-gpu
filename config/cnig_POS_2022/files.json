@@ -7,301 +7,301 @@
     "files": [
         {
             "type": "directory",
+            "path": "Donnees_geographiques",
             "mandatory": "ERROR",
             "id": "ccced4aafa79890077d941be235ccb65",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques",
-            "path": "Donnees_geographiques"
+            "title": "Donnees_geographiques"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_LIN_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_LIN.json",
             "id": "c3890fcb3197ecad08c57b10c2714e6d",
             "name": "HABILLAGE_LIN",
-            "title": "HABILLAGE_LIN",
-            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_LIN_[0-9]{8}"
+            "title": "HABILLAGE_LIN"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_PCT_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_PCT.json",
             "id": "5cb1af562a5a156e89b4ceef8337d930",
             "name": "HABILLAGE_PCT",
-            "title": "HABILLAGE_PCT",
-            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_PCT_[0-9]{8}"
+            "title": "HABILLAGE_PCT"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_SURF_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_SURF.json",
             "id": "3dfa2b751b27cb3d5e2e7d51af8596c9",
             "name": "HABILLAGE_SURF",
-            "title": "HABILLAGE_SURF",
-            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_SURF_[0-9]{8}"
+            "title": "HABILLAGE_SURF"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_TXT_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_TXT.json",
             "id": "72b2c5a0cc82eb8e7edbed070343bc0a",
             "name": "HABILLAGE_TXT",
-            "title": "HABILLAGE_TXT",
-            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_TXT_[0-9]{8}"
+            "title": "HABILLAGE_TXT"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_LIN_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_LIN.json",
             "id": "84e2a0474e80e9e6e3262acc0a557b2c",
             "name": "INFO_LIN",
-            "title": "INFO_LIN",
-            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_LIN_[0-9]{8}"
+            "title": "INFO_LIN"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_PCT_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_PCT.json",
             "id": "10b0ac416d9aff19df46b71d6dadd192",
             "name": "INFO_PCT",
-            "title": "INFO_PCT",
-            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_PCT_[0-9]{8}"
+            "title": "INFO_PCT"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_SURF_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_SURF.json",
             "id": "a65cd09471eec0a077a8f602947707e7",
             "name": "INFO_SURF",
-            "title": "INFO_SURF",
-            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_SURF_[0-9]{8}"
+            "title": "INFO_SURF"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_LIN_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_LIN.json",
             "id": "6d928f5397f3d1289873bcb81452438d",
             "name": "PRESCRIPTION_LIN",
-            "title": "PRESCRIPTION_LIN",
-            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_LIN_[0-9]{8}"
+            "title": "PRESCRIPTION_LIN"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_PCT_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_PCT.json",
             "id": "2edad10b7bebacc44c8cde8bb54dbb81",
             "name": "PRESCRIPTION_PCT",
-            "title": "PRESCRIPTION_PCT",
-            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_PCT_[0-9]{8}"
+            "title": "PRESCRIPTION_PCT"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_SURF_[0-9]{8}",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_SURF.json",
             "id": "f17c614c538d8245f26ad44dd1132dc1",
             "name": "PRESCRIPTION_SURF",
-            "title": "PRESCRIPTION_SURF",
-            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_SURF_[0-9]{8}"
+            "title": "PRESCRIPTION_SURF"
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/[AB0-9]{5}_ZONE_URBA_[0-9]{8}",
             "mandatory": "ERROR",
             "tableModel": "./types/ZONE_URBA.json",
             "id": "359bb6064a4db9f064e5e1848ce84fe5",
             "name": "ZONE_URBA",
-            "title": "ZONE_URBA",
-            "path": "Donnees_geographiques/[AB0-9]{5}_ZONE_URBA_[0-9]{8}"
+            "title": "ZONE_URBA"
         },
         {
             "type": "metadata",
+            "path": "[^\\/]*",
             "mandatory": "ERROR",
             "id": "e277c73e33a606be0b1b511627faad71",
             "name": "METADONNEES",
-            "title": "METADONNEES",
-            "path": "[^\\/]*"
+            "title": "METADONNEES"
         },
         {
             "type": "table",
+            "path": "[AB0-9]{5}_DOC_URBA_COM_[0-9]{8}",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA_COM.json",
             "id": "6228276dd8ec4080fe4291169cc1269a",
             "name": "DOC_URBA_COM",
-            "title": "DOC_URBA_COM",
-            "path": "[AB0-9]{5}_DOC_URBA_COM_[0-9]{8}"
+            "title": "DOC_URBA_COM"
         },
         {
             "type": "table",
+            "path": "[AB0-9]{5}_DOC_URBA_[0-9]{8}",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA.json",
             "id": "f3e54488887d0449eb7ac5385ff27e77",
             "name": "DOC_URBA",
-            "title": "DOC_URBA",
-            "path": "[AB0-9]{5}_DOC_URBA_[0-9]{8}"
+            "title": "DOC_URBA"
         },
         {
             "type": "directory",
+            "path": "Pieces_ecrites",
             "mandatory": "ERROR",
             "id": "fd7146f190382e27358bcd2839c6a100",
             "name": "Pieces_ecrites",
-            "title": "Pieces_ecrites",
-            "path": "Pieces_ecrites"
+            "title": "Pieces_ecrites"
         },
         {
             "type": "directory",
+            "path": "Pieces_ecrites/0_Procedure",
             "mandatory": "ERROR",
             "id": "2ce16ca64ebf43253df2c41a537f846f",
             "name": "0_Procedure",
-            "title": "0_Procedure",
-            "path": "Pieces_ecrites/0_Procedure"
+            "title": "0_Procedure"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "6f57878b200ac349b5e1b675f2dd9fb7",
             "name": "JUGEMENT",
-            "title": "JUGEMENT",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement_[0-9]{8}(_[a-zA-Z])?"
+            "title": "JUGEMENT"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "6d5feeb8815f577b36150bc436485c56",
             "name": "PROCEDURE",
-            "title": "PROCEDURE",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_[0-9]{8}(_[a-zA-Z])?"
+            "title": "PROCEDURE"
         },
         {
             "type": "directory",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation",
             "mandatory": "ERROR",
             "id": "ef4bd5ba1b5953e04bb27ebe923059b3",
             "name": "1_Rapport_de_presentation",
-            "title": "1_Rapport_de_presentation",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation"
+            "title": "1_Rapport_de_presentation"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_eval_environnement_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "c7823b912014c6ab16c280702b719921",
             "name": "EVALUATION_ENVIRONNEMENTALE",
             "title": "EVALUATION_ENVIRONNEMENTALE",
-            "description": "L'évaluation environnementale",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_eval_environnement_[0-9]{8}(_[a-zA-Z])?"
+            "description": "L'évaluation environnementale"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "52d1961c7630db94738d89b5c9afd1cf",
             "name": "RAPPORT",
-            "title": "RAPPORT",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "title": "RAPPORT"
         },
         {
             "type": "directory",
+            "path": "Pieces_ecrites/2_PADD",
             "mandatory": "ERROR",
             "id": "d7400dc138dfa897b7370a6b84439d0b",
             "name": "2_PADD",
-            "title": "2_PADD",
-            "path": "Pieces_ecrites/2_PADD"
+            "title": "2_PADD"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "b829c37a920a520d39c99d30a4e06115",
             "name": "PADD",
-            "title": "PADD",
-            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
+            "title": "PADD"
         },
         {
             "type": "directory",
+            "path": "Pieces_ecrites/3_Reglement",
             "mandatory": "ERROR",
             "id": "caaccdc44b4dad8b56b0cd82303b3c1c",
             "name": "3_Reglement",
-            "title": "3_Reglement",
-            "path": "Pieces_ecrites/3_Reglement"
+            "title": "3_Reglement"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "ee854c985777d8bf47c764cf4a060d45",
             "name": "PRESCRIPTION",
-            "title": "PRESCRIPTION",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_prescription_(lin|pct|surf)(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "title": "PRESCRIPTION"
         },
         {
             "type": "metadata",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "8ab135a6bdb6c56a06a06045ab692e20",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
-            "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
+            "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "a6359376b88f55fc3a23ae9048573bbb",
             "name": "REGLEMENT",
-            "title": "REGLEMENT",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?"
+            "title": "REGLEMENT"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement_graphique(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "572765e1fbade701565338c20e339cd7",
             "name": "REGLEMENT_GRAPHIQUE",
             "title": "REGLEMENT_GRAPHIQUE",
-            "description": "Le règlement graphique",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement_graphique(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "description": "Le règlement graphique"
         },
         {
             "type": "directory",
+            "path": "Pieces_ecrites/3_Reglement/ressources",
             "mandatory": "OPTIONAL",
             "id": "2dd1797aec2454ba6f891603bb34d0fb",
             "name": "Ressources",
             "title": "Ressources",
-            "description": "Répertoire \"ressources\" contenant les images et autres ressources correspondant au règlement structuré",
-            "path": "Pieces_ecrites/3_Reglement/ressources"
+            "description": "Répertoire \"ressources\" contenant les images et autres ressources correspondant au règlement structuré"
         },
         {
             "type": "directory",
+            "path": "Pieces_ecrites/4_Annexes",
             "mandatory": "ERROR",
             "id": "1a0ffc7cfe181cacd61f3630a3186bbb",
             "name": "4_Annexes",
-            "title": "4_Annexes",
-            "path": "Pieces_ecrites/4_Annexes"
+            "title": "4_Annexes"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/4_Annexes/[^\\/]*",
             "mandatory": "ERROR",
             "id": "f3c8fdb994ba204f0343b28e9f561979",
             "name": "ANNEXE",
-            "title": "ANNEXE",
-            "path": "Pieces_ecrites/4_Annexes/[^\\/]*"
+            "title": "ANNEXE"
         },
         {
             "type": "table",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/TITRES_PIECES_ECRITES.json",
             "id": "cb3c2fdbe58aaf54068700fe00eca67a",
             "name": "TITRES_PIECES_ECRITES",
-            "title": "TITRES_PIECES_ECRITES",
-            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_titres_pieces_ecrites_[0-9]{8}(_[a-zA-Z])?"
+            "title": "TITRES_PIECES_ECRITES"
         },
         {
             "type": "directory",
+            "path": "Pieces_ecrites/5_Orientations_amenagement",
             "mandatory": "OPTIONAL",
             "id": "d6906be906c669677cdb45d67040e034",
             "name": "5_Orientations_amenagement",
-            "title": "5_Orientations_amenagement",
-            "path": "Pieces_ecrites/5_Orientations_amenagement"
+            "title": "5_Orientations_amenagement"
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "cd79a08f77316b6a93086462f894a92f",
             "name": "ORIENTATIONS_AMENAGEMENT",
-            "title": "ORIENTATIONS_AMENAGEMENT",
-            "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations(_amenagement)?(_[0-9]+)?(_[0-9]+)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?"
+            "title": "ORIENTATIONS_AMENAGEMENT"
         }
     ],
     "codes": [

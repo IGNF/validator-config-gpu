@@ -13,7 +13,7 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": false,
-                "unique": false,
+                "unique": true,
                 "maxLength": 5
             }
         },
