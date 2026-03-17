@@ -78,7 +78,7 @@
             "description": "Type de la prescription dans une liste prédéfinie",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "01",
@@ -123,7 +123,7 @@
             "description": "Intitulé complet de la prescription",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -149,7 +149,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -161,7 +161,7 @@
             "description": "Code INSEE de la commune concernée par la prescription",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 5
             }

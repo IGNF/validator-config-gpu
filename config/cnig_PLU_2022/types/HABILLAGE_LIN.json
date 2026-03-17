@@ -11,8 +11,8 @@
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
             "constraints": {
-                "required": false,
-                "presenceRequired": true,
+                "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_HL[0-9]+",
                 "maxLength": 40
@@ -26,7 +26,7 @@
             "description": "Nature de la ligne",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 40
             }
@@ -39,7 +39,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 30
             }
@@ -52,7 +52,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },

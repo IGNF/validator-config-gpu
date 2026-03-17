@@ -12,7 +12,7 @@
             "description": "Identifiant de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+-[0-9]+",
                 "maxLength": 40
@@ -26,7 +26,7 @@
             "description": "Identifiant du générateur de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+",
                 "maxLength": 40
@@ -66,7 +66,7 @@
             "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 25
             }
@@ -90,7 +90,7 @@
             "title": "H",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -101,7 +101,7 @@
             "title": "TYPEASS",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "Zone maximale de dégagement"
@@ -117,7 +117,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -128,7 +128,7 @@
             "title": "NOMASS",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_ass",
                 "maxLength": 100
@@ -141,7 +141,7 @@
             "title": "HREF",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 3
             }

@@ -38,7 +38,7 @@
             "description": "Type d'information ponctuelle dans une liste prédéfinie",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -51,7 +51,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -62,7 +62,7 @@
             "title": "STYPEINF",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -88,7 +88,7 @@
             "description": "Nom complet de l'information",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -100,8 +100,8 @@
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
             "constraints": {
-                "required": false,
-                "presenceRequired": true,
+                "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_PLUi_[0-9]{8}_IP[0-9]+",
                 "maxLength": 40
@@ -141,7 +141,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 30
             }

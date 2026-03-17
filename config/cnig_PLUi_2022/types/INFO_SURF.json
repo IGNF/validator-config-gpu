@@ -39,7 +39,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 30
             }
@@ -63,8 +63,8 @@
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
             "constraints": {
-                "required": false,
-                "presenceRequired": true,
+                "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}_PLUI_[0-9]{8}_IS[0-9]+",
                 "maxLength": 40
@@ -78,7 +78,7 @@
             "description": "Nom complet du périmètre",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -104,7 +104,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -128,7 +128,7 @@
             "title": "STYPEINF",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -141,7 +141,7 @@
             "description": "Type de périmètre dans une liste prédéfinie",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }

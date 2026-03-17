@@ -25,7 +25,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -64,7 +64,7 @@
             "description": "Type d'information ponctuelle dans une liste prédéfinie",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "16",
@@ -83,7 +83,7 @@
             "description": "Nom complet de l'information",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -109,7 +109,7 @@
             "description": "Code INSEE de la commune concernée par l'information",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 5
             }

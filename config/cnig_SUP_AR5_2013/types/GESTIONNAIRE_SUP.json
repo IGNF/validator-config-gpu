@@ -51,7 +51,7 @@
             "description": "Identifiant du gestionnaire",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -63,7 +63,7 @@
             "description": "Nom de l'organisme gestionnaire",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }

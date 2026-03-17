@@ -38,7 +38,7 @@
             "description": "Identifiant du générateur",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+",
                 "maxLength": 40
@@ -52,7 +52,7 @@
             "description": "Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?",
                 "maxLength": 100
@@ -105,7 +105,7 @@
             "description": "Identifiant de la SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+",
                 "maxLength": 40
@@ -118,7 +118,7 @@
             "title": "TYPE",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 20
             }
@@ -130,7 +130,7 @@
             "title": "TYPEGEN",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "Canalisation (maîtrise urbanisation)"
@@ -146,7 +146,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         }

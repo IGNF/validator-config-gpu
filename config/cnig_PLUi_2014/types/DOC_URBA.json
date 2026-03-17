@@ -12,7 +12,7 @@
             "description": "Etat juridique du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "01",
@@ -64,7 +64,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 20
             }
@@ -116,7 +116,7 @@
             "description": "Type du document",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "PLU",
@@ -161,7 +161,7 @@
             "description": "Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLUi. Clé externe permettant de faire le lien avec la table des EPCI",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 9
             }
@@ -174,7 +174,7 @@
             "description": "Indique si le document d'urbanisme est intercommunal",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 1
             }

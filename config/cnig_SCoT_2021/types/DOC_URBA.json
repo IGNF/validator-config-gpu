@@ -25,7 +25,7 @@
             "description": "om du fichier contenant le document d’orientation et d’objectifs",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 50
             }
@@ -38,7 +38,7 @@
             "description": "Identifiant du SCOTConstitue une clé externe dans les autres tables du lot de données",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
                 "maxLength": 30
@@ -78,7 +78,7 @@
             "description": "Date d'approbation du SCOT par délibération de l'EPCI après enquête publique",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -91,7 +91,7 @@
             "description": "Nature de la procédure administrative engagée pour aboutir au document opposable",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -103,7 +103,7 @@
             "title": "PAS",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 50
             }
@@ -116,7 +116,7 @@
             "description": "Code SIREN de l'organisme responsable et porteur du SCOT",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{9}",
                 "maxLength": 9
@@ -130,7 +130,7 @@
             "description": "Dénomination du SCOT",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -169,7 +169,7 @@
             "description": "Nom du fichier contenant le projet d'aménagement et de développement durables",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 50
             }
@@ -182,7 +182,7 @@
             "description": "Type de document d’urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 4
             }
@@ -195,7 +195,7 @@
             "description": "État du SCOT au regard de sa procédure",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }

@@ -25,7 +25,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 30
             }
@@ -38,7 +38,7 @@
             "description": "Type de la prescription dans une liste prédéfinie",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -64,8 +64,8 @@
             "title": "LIB_IDPSC",
             "description": "identifiant d'objets",
             "constraints": {
-                "required": false,
-                "presenceRequired": true,
+                "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}_PLUI_[0-9]{8}_PP[0-9]+",
                 "maxLength": 40
@@ -79,7 +79,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -91,7 +91,7 @@
             "description": "Intitulé complet de la prescription",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -116,7 +116,7 @@
             "title": "STYPEPSC",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }

@@ -12,7 +12,7 @@
             "description": "Nature de l'écriture",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 40
             }
@@ -49,7 +49,7 @@
             "description": "Libellé de l'étiquette attachée au point d'habillage",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }
@@ -89,7 +89,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 30
             }
@@ -101,8 +101,8 @@
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
             "constraints": {
-                "required": false,
-                "presenceRequired": true,
+                "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[AB0-9]{5}_CC_[0-9]{8}_HT[0-9]+",
                 "maxLength": 40
@@ -116,7 +116,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },

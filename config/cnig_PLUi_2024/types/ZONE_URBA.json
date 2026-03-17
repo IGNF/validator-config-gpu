@@ -12,7 +12,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -52,7 +52,7 @@
             "description": "Nom court de la zone tel qu’il apparaît sur le plan de zonage",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 12
             }
@@ -65,7 +65,7 @@
             "description": "Type de la zone dans une nomenclature simplifiée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 3
             }
@@ -106,7 +106,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 30
             }
@@ -148,7 +148,7 @@
             "description": "Nom du fichier du règlement de la zone",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }
@@ -160,8 +160,8 @@
             "title": "LIB_IDZONE",
             "description": "identifiant d'objets",
             "constraints": {
-                "required": false,
-                "presenceRequired": true,
+                "required": true,
+                "presenceRequired": false,
                 "unique": false,
                 "pattern": "[0-9]{9}_PLUI_[0-9]{8}_ZO[0-9]+",
                 "maxLength": 40
