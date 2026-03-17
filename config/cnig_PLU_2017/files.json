@@ -205,7 +205,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "87b157855c19e026b3df29e0aa5a5b2b",
             "name": "PADD",
@@ -229,7 +229,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "fb128470f09bed05e64c73dd85f9b911",
             "name": "REGLEMENT",

@@ -205,7 +205,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "1603fe4e51f6a291ff0a6a35e7ebf211",
             "name": "PADD",
@@ -229,7 +229,7 @@
         },
         {
             "type": "metadata",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "2b38e27d67d73e29a46be4f9c2853db8",
             "name": "Reglement Xml",
@@ -238,7 +238,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "62db96d8c19b0f54f4fcc4ec3413480c",
             "name": "REGLEMENT",

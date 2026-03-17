@@ -366,7 +366,7 @@
         },
         {
             "type": "metadata",
-            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "46be4f9c2853db82b38e27d67d73e29a",
             "name": "Reglement Xml",
@@ -375,7 +375,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "607e975875f819e909fbaa2475881c4d",
             "name": "REGLEMENT",

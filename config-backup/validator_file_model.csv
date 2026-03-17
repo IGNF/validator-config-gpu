@@ -158,19 +158,19 @@ f9a001f990ad8022115f41a2c7781720,239b5fe0b432df6108d848ae84a3c5d3,PRESCRIPTION,P
 00730d9c5f01cb2d9d1356ad98e00ab3,2519d80351d3bf9953751ae02421b862,Ressources,Ressources,"Répertoire ""ressources"" contenant les images et autres ressources correspondant au règlement structuré",directory,Pieces_ecrites/3_Reglement/ressources,OPTIONAL
 0bacc2b26e6587c2f0dca86e5a764b43,2519d80351d3bf9953751ae02421b862,2_PADD,2_PADD,,directory,Pieces_ecrites/2_PADD,ERROR
 0e066ef7b88bb5953aaab36e06bf2742,2519d80351d3bf9953751ae02421b862,Donnees_geographiques,Donnees_geographiques,,directory,Donnees_geographiques,ERROR
-1603fe4e51f6a291ff0a6a35e7ebf211,2519d80351d3bf9953751ae02421b862,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+1603fe4e51f6a291ff0a6a35e7ebf211,2519d80351d3bf9953751ae02421b862,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 16806862c4de2e29667d01997b103c29,2519d80351d3bf9953751ae02421b862,DOC_URBA,DOC_URBA,,table,<INSEE_COMMUNE>_DOC_URBA_<YYYYMMDD>,ERROR
 18b181c15507ebb06b76e5d407cdf41f,2519d80351d3bf9953751ae02421b862,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
 1d101f1fc5e6a68cfe7dbcc37441c843,2519d80351d3bf9953751ae02421b862,PRESCRIPTION_PCT,PRESCRIPTION_PCT,,table,Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_PCT_<YYYYMMDD>,OPTIONAL
 23e026adb9d6ad2a8478c11b3a4b77fc,2519d80351d3bf9953751ae02421b862,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
 25ed68c2c0bdebd4950ef0fc93176462,2519d80351d3bf9953751ae02421b862,ANNEXE,ANNEXE,,pdf,Pieces_ecrites/4_Annexes/<FILENAME>,ERROR
-2b38e27d67d73e29a46be4f9c2853db8,2519d80351d3bf9953751ae02421b862,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+2b38e27d67d73e29a46be4f9c2853db8,2519d80351d3bf9953751ae02421b862,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 3784311da81c2fbe0af6e7a57feebd71,2519d80351d3bf9953751ae02421b862,EVALUATION_ENVIRONNEMENTALE,EVALUATION_ENVIRONNEMENTALE,"L'évaluation environnementale",pdf,Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 498b1d93e3d25f1777ed852f2f9df0bd,2519d80351d3bf9953751ae02421b862,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_SURF_<YYYYMMDD>,OPTIONAL
 4d123946a8d375027f21fe6dc1036a41,2519d80351d3bf9953751ae02421b862,5_Orientations_amenagement,5_Orientations_amenagement,,directory,Pieces_ecrites/5_Orientations_amenagement,OPTIONAL
 56580771b92a3c888468e39910c200c9,2519d80351d3bf9953751ae02421b862,TITRES_PIECES_ECRITES,TITRES_PIECES_ECRITES,,table,Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 57c4ae5dd41dee9547d12c9bd54c534a,2519d80351d3bf9953751ae02421b862,PROCEDURE,PROCEDURE,,pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
-62db96d8c19b0f54f4fcc4ec3413480c,2519d80351d3bf9953751ae02421b862,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+62db96d8c19b0f54f4fcc4ec3413480c,2519d80351d3bf9953751ae02421b862,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 6bacd2c0b17cba344285bfbf15c73a10,2519d80351d3bf9953751ae02421b862,4_Annexes,4_Annexes,,directory,Pieces_ecrites/4_Annexes,ERROR
 6d1fe804c1bcbec475719ce8ae4766b9,2519d80351d3bf9953751ae02421b862,RAPPORT,RAPPORT,,pdf,Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_rapport(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 6e0b097d899312f479c5ec11677556d5,2519d80351d3bf9953751ae02421b862,INFO_LIN,INFO_LIN,,table,Donnees_geographiques/<INSEE_COMMUNE>_INFO_LIN_<YYYYMMDD>,OPTIONAL
@@ -248,7 +248,7 @@ e8e7e5cf4de28fbf46162156eb20697c,36cbd7c9fada298d408540b6cfa5d36d,RAPPORT,RAPPOR
 278747ff2a3d7ab30fcf20e081cc85ba,385a0aa2bea1dcc985f73b8c1ae906d7,ORIENTATIONS_AMENAGEMENT,ORIENTATIONS_AMENAGEMENT,,pdf,Pieces_ecrites/5_OAP/<SIREN>_oap(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 27d82950966e9989905fbeb19d640868,385a0aa2bea1dcc985f73b8c1ae906d7,DELIB_ENGAGEMENT,"Délibération d'engagement","Délibération d'engagement",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_engagement_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 2a846f9682b343c6b954bb938cb0cd5b,385a0aa2bea1dcc985f73b8c1ae906d7,7_Plans_de_secteur,7_Plans_de_secteur,,directory,Pieces_ecrites/7_Plans_de_secteur,OPTIONAL
-2af9d445f946acd683029fbea27d2457,385a0aa2bea1dcc985f73b8c1ae906d7,REGLEMENT_XML,REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+2af9d445f946acd683029fbea27d2457,385a0aa2bea1dcc985f73b8c1ae906d7,REGLEMENT_XML,REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 2c7089340827b72b5d49bd6a1f7fc53a,385a0aa2bea1dcc985f73b8c1ae906d7,2_PADD,2_PADD,,directory,Pieces_ecrites/2_PADD,ERROR
 2ed66ade5f5033952cc9cced4d52cefe,385a0aa2bea1dcc985f73b8c1ae906d7,HABILLAGE_LIN,HABILLAGE_LIN,,table,Donnees_geographiques/<SIREN>_HABILLAGE_LIN_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 37d2845b1ccaeb7d6bd13f7d50bf3019,385a0aa2bea1dcc985f73b8c1ae906d7,3_Reglement,3_Reglement,,directory,Pieces_ecrites/3_Reglement,ERROR
@@ -275,20 +275,20 @@ e8e7e5cf4de28fbf46162156eb20697c,36cbd7c9fada298d408540b6cfa5d36d,RAPPORT,RAPPOR
 9286946094fade3a35d1f36f1340c8d4,385a0aa2bea1dcc985f73b8c1ae906d7,PRESCRIPTION_LIN,PRESCRIPTION_LIN,,table,Donnees_geographiques/<SIREN>_PRESCRIPTION_LIN_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 92e8044675e0b7ff2968779bb9f854d4,385a0aa2bea1dcc985f73b8c1ae906d7,INFO_LIN,INFO_LIN,,table,Donnees_geographiques/<SIREN>_INFO_LIN_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 937c164328c68a5cadf12ae8402f9ccb,385a0aa2bea1dcc985f73b8c1ae906d7,ARRETE_MEC,ARRETE_MEC,"Arrêté mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-93a22184465b3f8fb68dbd0937630473,385a0aa2bea1dcc985f73b8c1ae906d7,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+93a22184465b3f8fb68dbd0937630473,385a0aa2bea1dcc985f73b8c1ae906d7,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 98b6352b0de7e3f33c8360a91868ba92,385a0aa2bea1dcc985f73b8c1ae906d7,DOC_URBA_COM,DOC_URBA_COM,,table,<SIREN>_DOC_URBA_COM_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 a1fc303bd5f6c2a869261b4a79a0779f,385a0aa2bea1dcc985f73b8c1ae906d7,DELIB_ARRET,DELIB_ARRET,"Délibération d’arrêt du document d’urbanisme",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_arret_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 aee3d6b5e5aff6c145a7eb3aa6c08cd8,385a0aa2bea1dcc985f73b8c1ae906d7,INFO_PCT,INFO_PCT,,table,Donnees_geographiques/<SIREN>_INFO_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 b808ef7985a3acc2a13d7aa9569a33c0,385a0aa2bea1dcc985f73b8c1ae906d7,4_Annexes,4_Annexes,,directory,Pieces_ecrites/4_Annexes,ERROR
 bf890af03bdcd96e6808133e041fe90a,385a0aa2bea1dcc985f73b8c1ae906d7,AUTRES_PIECES,AUTRES_PIECES,"Autres pièces",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_[a-z_]+_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 c020a82191f54bcd4da21fcca71868a6,385a0aa2bea1dcc985f73b8c1ae906d7,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<SIREN>_PRESCRIPTION_SURF_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-c0bb96a86c34ddd7682f738f6d17fab1,385a0aa2bea1dcc985f73b8c1ae906d7,SECTEUR_REGLEMENT_XML,SECTEUR_REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-cdd9710069de9ae6ffecf14fb867161c,385a0aa2bea1dcc985f73b8c1ae906d7,POA,POA,POA,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,WARN
+c0bb96a86c34ddd7682f738f6d17fab1,385a0aa2bea1dcc985f73b8c1ae906d7,SECTEUR_REGLEMENT_XML,SECTEUR_REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+cdd9710069de9ae6ffecf14fb867161c,385a0aa2bea1dcc985f73b8c1ae906d7,POA,POA,POA,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,WARN
 d998c64669eafe236bc05f056ca029ac,385a0aa2bea1dcc985f73b8c1ae906d7,DELIB_PRESCRIPTION,DELIB_PRESCRIPTION,"Délibération de prescription",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 dabdec9cac4c93847feb3d7483b5d987,385a0aa2bea1dcc985f73b8c1ae906d7,PRESCRIPTION_PCT,PRESCRIPTION_PCT,,table,Donnees_geographiques/<SIREN>_PRESCRIPTION_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 dd09c52dab9c9dfab0d07aea0f4be740,385a0aa2bea1dcc985f73b8c1ae906d7,EVALUATION_ENVIRONNEMENTALE,EVALUATION_ENVIRONNEMENTALE,"L'évaluation environnementale",pdf,Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 de4647de0f1f5cf0a8b3ff14faf2939a,385a0aa2bea1dcc985f73b8c1ae906d7,DELIB_MEC,DELIB_MEC,"Délibération mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-e30c33e1058d8f05a5c23936f71e4134,385a0aa2bea1dcc985f73b8c1ae906d7,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+e30c33e1058d8f05a5c23936f71e4134,385a0aa2bea1dcc985f73b8c1ae906d7,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 e6ba3f64cc56332afdb6a64a465a32da,385a0aa2bea1dcc985f73b8c1ae906d7,DECRET_SUP,DECRET_SUP,"Décret prononçant la déclaration d'utilité publique",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decret_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 eade6ad01817874262c7d9cc599b3320,385a0aa2bea1dcc985f73b8c1ae906d7,HABILLAGE_TXT,HABILLAGE_TXT,,table,Donnees_geographiques/<SIREN>_HABILLAGE_TXT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 ecafb4b3bea846c796d27bf3f0d86fcd,385a0aa2bea1dcc985f73b8c1ae906d7,Secteur_OAP,Secteur_OAP,,directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/5_OAP,OPTIONAL
@@ -324,7 +324,7 @@ fed6c92e18fc45467ab41b3d77ff9c23,385a0aa2bea1dcc985f73b8c1ae906d7,TITRES_PIECES_
 783ef4c8ffd20ca20fdb26245246a20d,3935ffc17d3dabe0d77ea7d3c416695d,5_OAP,5_OAP,"Orientations d'Aménagement et de Programmation",directory,Pieces_ecrites/5_OAP,OPTIONAL
 793d8dfd57cc26ba5a1ed0d3049b1c99,3935ffc17d3dabe0d77ea7d3c416695d,DECRET_SUP,DECRET_SUP,"Décret prononçant la déclaration d'utilité publique",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_decret_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 7ff91569c55430cd1cb01df1ff33d4ca,3935ffc17d3dabe0d77ea7d3c416695d,ARRETE_MEC,ARRETE_MEC,"Arrêté mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-81a20de3e416326463e857f9c714aede,3935ffc17d3dabe0d77ea7d3c416695d,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+81a20de3e416326463e857f9c714aede,3935ffc17d3dabe0d77ea7d3c416695d,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 84a3e81a607acd6990061ba26499119a,3935ffc17d3dabe0d77ea7d3c416695d,DELIB_ARRET,DELIB_ARRET,"Délibération d’arrêt du document d’urbanisme",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_arret_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 84da4a65ab38dd7eb172543886e2e454,3935ffc17d3dabe0d77ea7d3c416695d,DOC_URBA,DOC_URBA,,table,<INSEE_COMMUNE>_DOC_URBA_<YYYYMMDD>,ERROR
 8ed50916477d2512f15e7e1102e54c85,3935ffc17d3dabe0d77ea7d3c416695d,DELIB_DECLARATION_PROJET,DELIB_DECLARATION_PROJET,"Délibération prononçant la déclaration de projet",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
@@ -340,10 +340,10 @@ ad43a0ca827e2532fe5c169a8ad893bd,3935ffc17d3dabe0d77ea7d3c416695d,INFO_LIN,INFO_
 b8bed7df139be87772f24ff5aa6b6f39,3935ffc17d3dabe0d77ea7d3c416695d,TITRES_PIECES_ECRITES,TITRES_PIECES_ECRITES,,table,Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 b9f9043f7ac2db63bf7bef75fb2b6c75,3935ffc17d3dabe0d77ea7d3c416695d,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_SURF_<YYYYMMDD>,OPTIONAL
 c855a47b8dc58f91b3d49b50e53af3d7,3935ffc17d3dabe0d77ea7d3c416695d,ARRETE_OBJECTIFS_MODALITES,ARRETE_OBJECTIFS_MODALITES,"Arrêté définissant les objectifs poursuivis et les modalités de concertation",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-d126b0c2560084520aa2adb462cd9c4e,3935ffc17d3dabe0d77ea7d3c416695d,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+d126b0c2560084520aa2adb462cd9c4e,3935ffc17d3dabe0d77ea7d3c416695d,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 d1514ef9815c869c018bb39449bceeee,3935ffc17d3dabe0d77ea7d3c416695d,DELIB_PRESCRIPTION,DELIB_PRESCRIPTION,"Délibération de prescription",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 d6d186b9483b7b34e54dfd012fa9efc0,3935ffc17d3dabe0d77ea7d3c416695d,0_Procedure,0_Procedure,,directory,Pieces_ecrites/0_Procedure,ERROR
-d715611e9c4006db922fb71dda80b8a6,3935ffc17d3dabe0d77ea7d3c416695d,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+d715611e9c4006db922fb71dda80b8a6,3935ffc17d3dabe0d77ea7d3c416695d,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 dbec828acf58612be4d252ddde4edadb,3935ffc17d3dabe0d77ea7d3c416695d,AVIS_EVAL_ENV,AVIS_EVAL_ENV,"Avis de la commission d’évaluation environnementale",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_avis_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 e7ea62f6246f398a576de3fc7fcf4b4c,3935ffc17d3dabe0d77ea7d3c416695d,DELIB_MEC,DELIB_MEC,"Délibération mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 e9fb427c7c82da9f0d8adf13c0c00cd7,3935ffc17d3dabe0d77ea7d3c416695d,DELIB_ENGAGEMENT,"Délibération d'engagement","Délibération d'engagement",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_engagement_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
@@ -398,7 +398,7 @@ ff283bc914d33b728131e0ee8badb7c3,39c84789b97ac1944ff285abf3c1354c,DOC_URBA,DOC_U
 60eb1ac26cf131395e46d9cf46d76c4c,3ba473adab9ca7decfbf6c505c2ac8af,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_SURF_<YYYYMMDD>,OPTIONAL
 6276ce55f9d1e6964118b07bb8f9c50c,3ba473adab9ca7decfbf6c505c2ac8af,AVIS_EVAL_ENV,AVIS_EVAL_ENV,"Avis de la commission d’évaluation environnementale",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_avis_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 6e316113d11925c7e2d1d4ae638f4678,3ba473adab9ca7decfbf6c505c2ac8af,HABILLAGE_PCT,HABILLAGE_PCT,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_PCT_<YYYYMMDD>,OPTIONAL
-6f3ab79b153e4d098dc86bb280cbcac2,3ba473adab9ca7decfbf6c505c2ac8af,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+6f3ab79b153e4d098dc86bb280cbcac2,3ba473adab9ca7decfbf6c505c2ac8af,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 737b83cbd09eb2f62a96f5403f4d8cf7,3ba473adab9ca7decfbf6c505c2ac8af,ARRETE_MEC,ARRETE_MEC,"Arrêté mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 73acde709128301bfa73588806b8de49,3ba473adab9ca7decfbf6c505c2ac8af,ARRETE_MAJ_ANNEXES,ARRETE_MAJ_ANNEXES,"Arrêté de mise à jour des annexes",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_maj_annexes_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 74f490cd1bde32520387bbf451d08153,3ba473adab9ca7decfbf6c505c2ac8af,REGLEMENT_GRAPHIQUE,REGLEMENT_GRAPHIQUE,"Le règlement graphique",pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement_graphique(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
@@ -409,14 +409,14 @@ ff283bc914d33b728131e0ee8badb7c3,39c84789b97ac1944ff285abf3c1354c,DOC_URBA,DOC_U
 929fb6a347d0a22611d58c2e4f6dafe1,3ba473adab9ca7decfbf6c505c2ac8af,5_OAP,5_OAP,"Orientations d'Aménagement et de Programmation",directory,Pieces_ecrites/5_OAP,OPTIONAL
 9afe7c1fd5df2623ad42d7df70d58df5,3ba473adab9ca7decfbf6c505c2ac8af,Ressources,Ressources,"Répertoire ""ressources"" contenant les images et autres ressources correspondant au règlement structuré",directory,Pieces_ecrites/3_Reglement/ressources,OPTIONAL
 a3897a2ca7169e44b8dff7e64a007afd,3ba473adab9ca7decfbf6c505c2ac8af,DELIB_PRESCRIPTION,DELIB_PRESCRIPTION,"Délibération de prescription",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-a5ec3aff798be95c239776c501bdb31a,3ba473adab9ca7decfbf6c505c2ac8af,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+a5ec3aff798be95c239776c501bdb31a,3ba473adab9ca7decfbf6c505c2ac8af,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 adafa06cd00f2439d62f832381121da1,3ba473adab9ca7decfbf6c505c2ac8af,4_Annexes,4_Annexes,,directory,Pieces_ecrites/4_Annexes,ERROR
 add9d56030c06a777f7e4650802ff9d2,3ba473adab9ca7decfbf6c505c2ac8af,ARRETE_OBJECTIFS_MODALITES,ARRETE_OBJECTIFS_MODALITES,"Arrêté définissant les objectifs poursuivis et les modalités de concertation",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 af139602b24d674cb74a69048797ab7e,3ba473adab9ca7decfbf6c505c2ac8af,ZONE_URBA,ZONE_URBA,,table,Donnees_geographiques/<INSEE_COMMUNE>_ZONE_URBA_<YYYYMMDD>,ERROR
 af6f754ab2b9620cfb8af3788b326706,3ba473adab9ca7decfbf6c505c2ac8af,PRESCRIPTION,PRESCRIPTION,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_prescription_(lin|pct|surf)(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 b4a640a2327db17b67e6d6fe348c663c,3ba473adab9ca7decfbf6c505c2ac8af,AVIS_PPA,AVIS_PPA,"Avis des personnes publiques associées",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_avis_(ppa|PPA)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 bf731efacf1a48fccf9714f72474601d,3ba473adab9ca7decfbf6c505c2ac8af,ANNEXE,ANNEXE,,pdf,Pieces_ecrites/4_Annexes/<FILENAME>,ERROR
-bf97646dffe33df82f4558f2a91cd7b9,3ba473adab9ca7decfbf6c505c2ac8af,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+bf97646dffe33df82f4558f2a91cd7b9,3ba473adab9ca7decfbf6c505c2ac8af,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 c9bed539857c910cd149ac93e258ac65,3ba473adab9ca7decfbf6c505c2ac8af,EVALUATION_ENVIRONNEMENTALE,EVALUATION_ENVIRONNEMENTALE,"L'évaluation environnementale",pdf,Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 d2589600fdd1747e530de6100c4c1f3d,3ba473adab9ca7decfbf6c505c2ac8af,TITRES_PIECES_ECRITES,TITRES_PIECES_ECRITES,,table,Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 d74bf43df7f00a2136b2a48d0009ed2c,3ba473adab9ca7decfbf6c505c2ac8af,INFO_LIN,INFO_LIN,,table,Donnees_geographiques/<INSEE_COMMUNE>_INFO_LIN_<YYYYMMDD>,OPTIONAL
@@ -501,10 +501,10 @@ e5aff3fb4a1a3cc49bd3a3e24452addb,4e3ba97d483523621def70e607db9704,EL8_ASSIETTE_S
 2e8a741a0bc604291b10a841822a1178,53b452eb31e4cd62ede3ce4a4aecd2e7,Secteur,Secteur,,directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>,OPTIONAL
 2f6cb202e49a578ee71c170f25eab8da,53b452eb31e4cd62ede3ce4a4aecd2e7,PRESCRIPTION,PRESCRIPTION,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_prescription_(lin|pct|surf)(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 33e6330fb45fcdea4b7234c0aa91a861,53b452eb31e4cd62ede3ce4a4aecd2e7,RESUME_NON_TECHNIQUE,RESUME_NON_TECHNIQUE,RESUME_NON_TECHNIQUE,pdf,Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_<YYYYMMDD>_rapport_<NOMPROC>_rnt(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-34ddd7682f738f6d17fab1c0bb96a86c,53b452eb31e4cd62ede3ce4a4aecd2e7,SECTEUR_REGLEMENT_XML,SECTEUR_REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+34ddd7682f738f6d17fab1c0bb96a86c,53b452eb31e4cd62ede3ce4a4aecd2e7,SECTEUR_REGLEMENT_XML,SECTEUR_REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 351c2dca47573d2ff500a343d5263628,53b452eb31e4cd62ede3ce4a4aecd2e7,DOC_URBA,DOC_URBA,,table,<SIREN>_DOC_URBA_<YYYYMMDD>,ERROR
 39a724073b4ef17530026fc428c0355e,53b452eb31e4cd62ede3ce4a4aecd2e7,DELIB_ENGAGEMENT,"Délibération d'engagement","Délibération d'engagement",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_engagement_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-461831e1824c27d7b77131b91afaf0a5,53b452eb31e4cd62ede3ce4a4aecd2e7,POA,POA,POA,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,WARN
+461831e1824c27d7b77131b91afaf0a5,53b452eb31e4cd62ede3ce4a4aecd2e7,POA,POA,POA,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,WARN
 4c8c929f7f88eeab8e245aec28c6782c,53b452eb31e4cd62ede3ce4a4aecd2e7,PLAN_DE_SECTEURS,PLAN_DE_SECTEURS,,pdf,Pieces_ecrites/7_Plans_de_secteur/<SIREN>_plan_de_secteurs_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 56db3f5108a1196dcc9457fe12966903,53b452eb31e4cd62ede3ce4a4aecd2e7,INFO_PCT,INFO_PCT,,table,Donnees_geographiques/<SIREN>_INFO_PCT_<YYYYMMDD>,OPTIONAL
 58598449a8dca07bea35ffb70a0d547b,53b452eb31e4cd62ede3ce4a4aecd2e7,HABILLAGE_LIN,HABILLAGE_LIN,,table,Donnees_geographiques/<SIREN>_HABILLAGE_LIN_<YYYYMMDD>,OPTIONAL
@@ -515,7 +515,7 @@ e5aff3fb4a1a3cc49bd3a3e24452addb,4e3ba97d483523621def70e607db9704,EL8_ASSIETTE_S
 64d46c6f88b17af3aab599cf0c283834,53b452eb31e4cd62ede3ce4a4aecd2e7,DELIB_DEBAT_PADD,DELIB_DEBAT_PADD,"Délibération relative au débat sur le PADD",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_debat_padd_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 671c6411a9213289647f258ddee07c09,53b452eb31e4cd62ede3ce4a4aecd2e7,DELIB_MEC,DELIB_MEC,"Délibération mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 684b93a0959cb583d5dc65f572c01855,53b452eb31e4cd62ede3ce4a4aecd2e7,Secteur_Reglement,Secteur_Reglement,,directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement,OPTIONAL
-68b9c0d78da5e5537981279e84687a42,53b452eb31e4cd62ede3ce4a4aecd2e7,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+68b9c0d78da5e5537981279e84687a42,53b452eb31e4cd62ede3ce4a4aecd2e7,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 6f159da4bc1c2b73ec9cd80199ef542e,53b452eb31e4cd62ede3ce4a4aecd2e7,TITRES_PIECES_ECRITES,TITRES_PIECES_ECRITES,,table,Pieces_ecrites/4_Annexes/<SIREN>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 7219d426602bd941af987219676a6a35,53b452eb31e4cd62ede3ce4a4aecd2e7,AVIS_PPA,AVIS_PPA,"Avis des personnes publiques associées",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_avis_(ppa|PPA)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 781ddb1faf028ec8e6c8ebd01f4c9fb9,53b452eb31e4cd62ede3ce4a4aecd2e7,PRESCRIPTION_PCT,PRESCRIPTION_PCT,,table,Donnees_geographiques/<SIREN>_PRESCRIPTION_PCT_<YYYYMMDD>,OPTIONAL
@@ -527,13 +527,13 @@ e5aff3fb4a1a3cc49bd3a3e24452addb,4e3ba97d483523621def70e607db9704,EL8_ASSIETTE_S
 846c796d27bf3f0d86fcdecafb4b3bea,53b452eb31e4cd62ede3ce4a4aecd2e7,Secteur_OAP,Secteur_OAP,,directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/5_OAP,OPTIONAL
 85219b8d1cd1941dfa36fa56cad53cf2,53b452eb31e4cd62ede3ce4a4aecd2e7,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<SIREN>_PRESCRIPTION_SURF_<YYYYMMDD>,OPTIONAL
 8f17bb719e3cb16eaaed640d62d5144c,53b452eb31e4cd62ede3ce4a4aecd2e7,DELIB_PRESCRIPTION,DELIB_PRESCRIPTION,"Délibération de prescription",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-90386bfe4ff0d22e2c84afaf75539be3,53b452eb31e4cd62ede3ce4a4aecd2e7,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+90386bfe4ff0d22e2c84afaf75539be3,53b452eb31e4cd62ede3ce4a4aecd2e7,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 99abbc963cf87c25eac0b7faff6673a2,53b452eb31e4cd62ede3ce4a4aecd2e7,HABILLAGE_SURF,HABILLAGE_SURF,,table,Donnees_geographiques/<SIREN>_HABILLAGE_SURF_<YYYYMMDD>,OPTIONAL
 9cd2232be7740e333968874d75e7e2ee,53b452eb31e4cd62ede3ce4a4aecd2e7,ARRETE_MEC,ARRETE_MEC,"Arrêté mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 9fbd622cee92f0d640147af167765ab2,53b452eb31e4cd62ede3ce4a4aecd2e7,INFO_SURF,INFO_SURF,,table,Donnees_geographiques/<SIREN>_INFO_SURF_<YYYYMMDD>,OPTIONAL
 af222a096bc7ba2295fa8ed24a58f767,53b452eb31e4cd62ede3ce4a4aecd2e7,4_Annexes,4_Annexes,,directory,Pieces_ecrites/4_Annexes,ERROR
 b1ba7141294753d6dae85951e71ee8c4,53b452eb31e4cd62ede3ce4a4aecd2e7,DECISION_EVAL_ENV,DECISION_EVAL_ENV,"Décision de réalisation d’une évaluation environnementale",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decision_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-b45721fb4970a5ec53d8aff16c56b49d,53b452eb31e4cd62ede3ce4a4aecd2e7,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+b45721fb4970a5ec53d8aff16c56b49d,53b452eb31e4cd62ede3ce4a4aecd2e7,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 b6948e87796e4234fa048c8ee9cbc42b,53b452eb31e4cd62ede3ce4a4aecd2e7,DECRET_SUP,DECRET_SUP,"Décret prononçant la déclaration d'utilité publique",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decret_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 b9ce06781fc2671da5677d1c335a683e,53b452eb31e4cd62ede3ce4a4aecd2e7,Secteur_Reglement_ressources,Secteur_Reglement_ressources,"Répertoire ""ressources"" contenant les images et autres ressources correspondant au règlement structuré",directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/ressources,OPTIONAL
 bdf547395f9fec494a345fdcf9896716,53b452eb31e4cd62ede3ce4a4aecd2e7,DELIB_OBJECTIF_MODALITES,"Délibération objectifs modalités","Délibération définissant les objectifs poursuivis et les modalités de concertation",pdf,Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
@@ -590,10 +590,10 @@ ff3b5e373e5ea2569fa14a38875763d9,549d80d774bc11bbea9ad213210b9a3d,HABILLAGE_LIN,
 23ac928202baa37bef7f2a8f2394ffb1,55d03b797785ba6501364707bf8d8ec4,Secteur_Orientation_amenagament,Secteur_Orientation_amenagament,,directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/5_Orientations_amenagement,OPTIONAL
 24d7d7800ff9e508399c9a4ab5b6d9dd,55d03b797785ba6501364707bf8d8ec4,RAPPORT,RAPPORT,,pdf,Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_rapport(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 2735ee39ca806b56c1373f6bf079a73c,55d03b797785ba6501364707bf8d8ec4,3_Reglement,3_Reglement,,directory,Pieces_ecrites/3_Reglement,ERROR
-27fe726ab532cf8d3ceb0f1da472d23d,55d03b797785ba6501364707bf8d8ec4,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+27fe726ab532cf8d3ceb0f1da472d23d,55d03b797785ba6501364707bf8d8ec4,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 2b8049b14c894b4b03792df6ae45e959,55d03b797785ba6501364707bf8d8ec4,ZONE_URBA,ZONE_URBA,,table,Donnees_geographiques/<SIREN>_ZONE_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 2cdd1e797a055a032ce66c5602605d35,55d03b797785ba6501364707bf8d8ec4,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
-32e66d0bf8a4cfd8e5aaab5b6c117064,55d03b797785ba6501364707bf8d8ec4,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+32e66d0bf8a4cfd8e5aaab5b6c117064,55d03b797785ba6501364707bf8d8ec4,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 38a8d72e03d4de5c2b2ff45e68759575,55d03b797785ba6501364707bf8d8ec4,ORIENTATIONS_AMENAGEMENT,ORIENTATIONS_AMENAGEMENT,,pdf,Pieces_ecrites/5_Orientations_amenagement/<SIREN>_orientations_amenagement(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 3b01b6c44072c49b9fc95368dc8e4fc2,55d03b797785ba6501364707bf8d8ec4,6_POA,6_POA,,directory,Pieces_ecrites/6_POA,OPTIONAL
 3e6adddb76196b5b4936f1ce5c0a8073,55d03b797785ba6501364707bf8d8ec4,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
@@ -617,7 +617,7 @@ e273787686480f0d7df0baa1f11620b6,55d03b797785ba6501364707bf8d8ec4,PRESCRIPTION_L
 e919d7516cf53d0207b5da21feacb4ef,55d03b797785ba6501364707bf8d8ec4,PRESCRIPTION,PRESCRIPTION,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_prescription_(lin|pct|surf)(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 f381d0927774120b07843f4729a97b5c,55d03b797785ba6501364707bf8d8ec4,ANNEXE,ANNEXE,,pdf,Pieces_ecrites/4_Annexes/<FILENAME>,ERROR
 fa864a584f870eac642aaca693ba8bfb,55d03b797785ba6501364707bf8d8ec4,SECTEUR_REGLEMENT_GRAPHIQUE,SECTEUR_REGLEMENT_GRAPHIQUE,,pdf,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement_graphique_SECT<SECTEUR_INDICE>(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-fc61332cf8335e86fe35e1cfafefb375,55d03b797785ba6501364707bf8d8ec4,POA,POA,,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+fc61332cf8335e86fe35e1cfafefb375,55d03b797785ba6501364707bf8d8ec4,POA,POA,,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 fd68af8f576dd3f12bafb043134dbc9d,55d03b797785ba6501364707bf8d8ec4,HABILLAGE_TXT,HABILLAGE_TXT,,table,Donnees_geographiques/<SIREN>_HABILLAGE_TXT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 b2813c8bd18071f874d4d4f0d344ab08,5687595a41c4d8554f00f069928849f1,EL3_ASSIETTE_SUP_S,EL3_ASSIETTE_SUP_S,,table,Donnees_geographiques/EL3_ASSIETTE_SUP_S,OPTIONAL
 dcca7a8c90977c13804f71f6e0d43338,5687595a41c4d8554f00f069928849f1,EL3_GENERATEUR_SUP_S,EL3_GENERATEUR_SUP_S,,table,Donnees_geographiques/EL3_GENERATEUR_SUP_S,OPTIONAL
@@ -682,7 +682,7 @@ f5b107426f9188821f8584f85be57ce7,5c17eab2272e97f4c57bc2d257d583f2,A8_GENERATEUR_
 71d09b48365f45394f230de7875f5c5d,5cfa0bc38b59d69ee7b185cfda007a6d,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_SURF_<YYYYMMDD>,OPTIONAL
 766b37e35f43ca36bccbe2b515299c63,5cfa0bc38b59d69ee7b185cfda007a6d,HABILLAGE_LIN,HABILLAGE_LIN,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_LIN_<YYYYMMDD>,OPTIONAL
 7cf5c8543b706a7ad8e4cd0fd859391e,5cfa0bc38b59d69ee7b185cfda007a6d,2_PADD,2_PADD,,directory,Pieces_ecrites/2_PADD,ERROR
-87b157855c19e026b3df29e0aa5a5b2b,5cfa0bc38b59d69ee7b185cfda007a6d,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+87b157855c19e026b3df29e0aa5a5b2b,5cfa0bc38b59d69ee7b185cfda007a6d,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 970c2e79a1c374b12826561eb27ed0d3,5cfa0bc38b59d69ee7b185cfda007a6d,EVALUATION_ENVIRONNEMENTALE,EVALUATION_ENVIRONNEMENTALE,"L'évaluation environnementale",pdf,Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 9ba51182fe7cdc5066313c4c819979bf,5cfa0bc38b59d69ee7b185cfda007a6d,REGLEMENT_GRAPHIQUE,REGLEMENT_GRAPHIQUE,"Le règlement graphique",pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement_graphique(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 9d8374e9dbff1e47924dcf6b9c29f84d,5cfa0bc38b59d69ee7b185cfda007a6d,3_Reglement,3_Reglement,,directory,Pieces_ecrites/3_Reglement,ERROR
@@ -694,7 +694,7 @@ c0f26881416ba2532004b7de56f6a0e2,5cfa0bc38b59d69ee7b185cfda007a6d,TITRES_PIECES_
 d10720540d78ac0ac4912b2106a177a6,5cfa0bc38b59d69ee7b185cfda007a6d,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
 ea9dc7ce3efbfe9c3ddb1f9cad6143b7,5cfa0bc38b59d69ee7b185cfda007a6d,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
 ee1c8e98d630a350923967a3d458af5c,5cfa0bc38b59d69ee7b185cfda007a6d,5_Orientations_amenagement,5_Orientations_amenagement,,directory,Pieces_ecrites/5_Orientations_amenagement,OPTIONAL
-fb128470f09bed05e64c73dd85f9b911,5cfa0bc38b59d69ee7b185cfda007a6d,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+fb128470f09bed05e64c73dd85f9b911,5cfa0bc38b59d69ee7b185cfda007a6d,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 fe6b9a6edbcd5e07972e64d0d4e20948,5cfa0bc38b59d69ee7b185cfda007a6d,INFO_PCT,INFO_PCT,,table,Donnees_geographiques/<INSEE_COMMUNE>_INFO_PCT_<YYYYMMDD>,OPTIONAL
 064d2950381f7a2a035b341366dc502f,5e55f442d9c945176811f302bf1f90ca,HABILLAGE_TXT,HABILLAGE_TXT,,table,Donnees_geographiques/<MAILLAGE>_HABILLAGE_TXT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 06822125e4a92c8abbce2e48c749c57a,5e55f442d9c945176811f302bf1f90ca,METADONNEES,METADONNEES,,metadata,<FILENAME>,ERROR
@@ -717,7 +717,7 @@ fe6b9a6edbcd5e07972e64d0d4e20948,5cfa0bc38b59d69ee7b185cfda007a6d,INFO_PCT,INFO_
 9e9a3672b41cdaf27841b467f2b0aaaf,5e55f442d9c945176811f302bf1f90ca,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<MAILLAGE>_PRESCRIPTION_SURF_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 a85848099cdfb91e110f35cf9910b29e,5e55f442d9c945176811f302bf1f90ca,ZONE_URBA,ZONE_URBA,,table,Donnees_geographiques/<MAILLAGE>_ZONE_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 b42ec8546c155b8f588195cf424f156c,5e55f442d9c945176811f302bf1f90ca,ORIENTATIONS_AMENAGEMENT,ORIENTATIONS_AMENAGEMENT,,pdf,Pieces_ecrites/5_Orientations_amenagement/<MAILLAGE>_orientations_amenagement(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-c0ee02f903c916c8c0ef7167a2152e8a,5e55f442d9c945176811f302bf1f90ca,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<MAILLAGE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+c0ee02f903c916c8c0ef7167a2152e8a,5e55f442d9c945176811f302bf1f90ca,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<MAILLAGE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 c7217c8261de5a640aec4b9367a192b4,5e55f442d9c945176811f302bf1f90ca,HABILLAGE_LIN,HABILLAGE_LIN,,table,Donnees_geographiques/<MAILLAGE>_HABILLAGE_LIN_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 cf1f430abcb5cc7ea375bc840ffebf8a,5e55f442d9c945176811f302bf1f90ca,PRESCRIPTION_PCT,PRESCRIPTION_PCT,,table,Donnees_geographiques/<MAILLAGE>_PRESCRIPTION_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 dad71fd86f8efaefc154437a57d123c3,5e55f442d9c945176811f302bf1f90ca,DOC_URBA,DOC_URBA,,table,<MAILLAGE>_DOC_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
@@ -802,10 +802,10 @@ edfc549623753724a30d33164c7996ca,6ced85e6a7b22c034b61915ba110a289,AC4_GENERATEUR
 6f57878b200ac349b5e1b675f2dd9fb7,7090dba2b7965df890bc8d7a30d9b20f,JUGEMENT,JUGEMENT,,pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_jugement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 72b2c5a0cc82eb8e7edbed070343bc0a,7090dba2b7965df890bc8d7a30d9b20f,HABILLAGE_TXT,HABILLAGE_TXT,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_TXT_<YYYYMMDD>,OPTIONAL
 84e2a0474e80e9e6e3262acc0a557b2c,7090dba2b7965df890bc8d7a30d9b20f,INFO_LIN,INFO_LIN,,table,Donnees_geographiques/<INSEE_COMMUNE>_INFO_LIN_<YYYYMMDD>,OPTIONAL
-8ab135a6bdb6c56a06a06045ab692e20,7090dba2b7965df890bc8d7a30d9b20f,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-a6359376b88f55fc3a23ae9048573bbb,7090dba2b7965df890bc8d7a30d9b20f,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+8ab135a6bdb6c56a06a06045ab692e20,7090dba2b7965df890bc8d7a30d9b20f,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+a6359376b88f55fc3a23ae9048573bbb,7090dba2b7965df890bc8d7a30d9b20f,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 a65cd09471eec0a077a8f602947707e7,7090dba2b7965df890bc8d7a30d9b20f,INFO_SURF,INFO_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_INFO_SURF_<YYYYMMDD>,OPTIONAL
-b829c37a920a520d39c99d30a4e06115,7090dba2b7965df890bc8d7a30d9b20f,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+b829c37a920a520d39c99d30a4e06115,7090dba2b7965df890bc8d7a30d9b20f,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 c3890fcb3197ecad08c57b10c2714e6d,7090dba2b7965df890bc8d7a30d9b20f,HABILLAGE_LIN,HABILLAGE_LIN,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_LIN_<YYYYMMDD>,OPTIONAL
 c7823b912014c6ab16c280702b719921,7090dba2b7965df890bc8d7a30d9b20f,EVALUATION_ENVIRONNEMENTALE,EVALUATION_ENVIRONNEMENTALE,"L'évaluation environnementale",pdf,Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 caaccdc44b4dad8b56b0cd82303b3c1c,7090dba2b7965df890bc8d7a30d9b20f,3_Reglement,3_Reglement,,directory,Pieces_ecrites/3_Reglement,ERROR
@@ -889,7 +889,7 @@ f56012bd56e5fcd93c63217f8f835023,7bcf02040f0996b62be9666117f6be05,A9_GENERATEUR_
 0368b9878fdaabfca29a20a37075e4f1,80a24c6421eadf84d736965385635a83,INFO_SURF,INFO_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_INFO_SURF_<YYYYMMDD>,OPTIONAL
 03798ec9dccaeaf998a0a903df30ef76,80a24c6421eadf84d736965385635a83,Ressources,Ressources,"Répertoire ""ressources"" contenant les images et autres ressources correspondant au règlement structuré",directory,Pieces_ecrites/3_Reglement/ressources,OPTIONAL
 06c0caadce0ead3afb440b402cb89862,80a24c6421eadf84d736965385635a83,DELIB_MEC,DELIB_MEC,"Délibération mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-189b0ebc78b677ba67f3f8b43b0022ef,80a24c6421eadf84d736965385635a83,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+189b0ebc78b677ba67f3f8b43b0022ef,80a24c6421eadf84d736965385635a83,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 1b6a2d7619b8e41edbd8791ff76098b9,80a24c6421eadf84d736965385635a83,HABILLAGE_SURF,HABILLAGE_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_SURF_<YYYYMMDD>,OPTIONAL
 1c8382ee479fe91ce1122489feb4e4f5,80a24c6421eadf84d736965385635a83,AVIS_EVAL_ENV,AVIS_EVAL_ENV,"Avis de la commission d’évaluation environnementale",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_avis_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 1f0fde957e76c6a5f064a8239f869b4c,80a24c6421eadf84d736965385635a83,2_PADD,2_PADD,,directory,Pieces_ecrites/2_PADD,ERROR
@@ -925,13 +925,13 @@ acdc551de9d9e32cdb3a2c5550a033c3,80a24c6421eadf84d736965385635a83,0_Procedure,0_
 aef1c4e870d734f013edf1b5f09dce49,80a24c6421eadf84d736965385635a83,DECISION_DECLARATION_PROJET,DECISION_DECLARATION_PROJET,"Décision prononçant la déclaration de projet",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_decision_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 b30fb7b96fc659b2f5f983c31d0f9a62,80a24c6421eadf84d736965385635a83,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
 bbbc2a2614f4356f1a709696ef4cf87a,80a24c6421eadf84d736965385635a83,DECISION_EVAL_ENV,DECISION_EVAL_ENV,"Décision de réalisation d’une évaluation environnementale",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_decision_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-bbbd844b45998caf9c872e1dd7deff55,80a24c6421eadf84d736965385635a83,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+bbbd844b45998caf9c872e1dd7deff55,80a24c6421eadf84d736965385635a83,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 c083b138e0ea75df7a7adda218576aaf,80a24c6421eadf84d736965385635a83,PRESCRIPTION_PCT,PRESCRIPTION_PCT,,table,Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_PCT_<YYYYMMDD>,OPTIONAL
 d115f6a5c78bc257471991e1862d14e9,80a24c6421eadf84d736965385635a83,ARRETE_OBJECTIFS_MODALITES,ARRETE_OBJECTIFS_MODALITES,"Arrêté définissant les objectifs poursuivis et les modalités de concertation",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 d3989a0f01d79d416e0b739c270d5cd9,80a24c6421eadf84d736965385635a83,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
 dd0ecb06d232f5a66bf2a7ad35c981ac,80a24c6421eadf84d736965385635a83,ARRETE_DUP,ARRETE_DUP,"Arrêté prononçant la déclaration d'utilité publique",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 e2ec34a2c1beb2441cff712c8b279555,80a24c6421eadf84d736965385635a83,HABILLAGE_TXT,HABILLAGE_TXT,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_TXT_<YYYYMMDD>,OPTIONAL
-ed291636b7c0a994e16659157c299ddf,80a24c6421eadf84d736965385635a83,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+ed291636b7c0a994e16659157c299ddf,80a24c6421eadf84d736965385635a83,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 f13db21150b3c264427b2d81bb788b26,80a24c6421eadf84d736965385635a83,DELIB_PRESCRIPTION,DELIB_PRESCRIPTION,"Délibération de prescription",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 f2d7f580f4d62c54142c82e144dbf8e7,80a24c6421eadf84d736965385635a83,ZONE_URBA,ZONE_URBA,,table,Donnees_geographiques/<INSEE_COMMUNE>_ZONE_URBA_<YYYYMMDD>,ERROR
 f53c1eca8a3101fd55a910204f93738b,80a24c6421eadf84d736965385635a83,PRESCRIPTION_SURF,PRESCRIPTION_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_SURF_<YYYYMMDD>,OPTIONAL
@@ -1064,7 +1064,7 @@ b75a3af73c15fc1655f2c312a1dbe25a,b47179a9b46721626eabcaebfdc78116,A2_GENERATEUR_
 696bf5cd3bca2cec0f88aa5d53e5371a,b4f09a52c081104203f01ec99856d766,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
 6c5602645955e858a29e864772f34687,b4f09a52c081104203f01ec99856d766,PROCEDURE,PROCEDURE,,pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 6cd5ac325d95897a37ad6de93df0164c,b4f09a52c081104203f01ec99856d766,ORIENTATIONS_AMENAGEMENT,ORIENTATIONS_AMENAGEMENT,,pdf,Pieces_ecrites/5_Orientations_amenagement/<INSEE_COMMUNE>_orientations_amenagement(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-6d7ea778a37de936b2e7e6eeebe940c4,b4f09a52c081104203f01ec99856d766,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+6d7ea778a37de936b2e7e6eeebe940c4,b4f09a52c081104203f01ec99856d766,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 6fd0cf8cca829365e355527125b76645,b4f09a52c081104203f01ec99856d766,ANNEXE,ANNEXE,,pdf,Pieces_ecrites/4_Annexes/<FILENAME>,ERROR
 76925a36531088e447fecb5e03ef8a3a,b4f09a52c081104203f01ec99856d766,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
 77556aa1b94c3a2bcefa7d4bac19e69a,b4f09a52c081104203f01ec99856d766,INFO_LIN,INFO_LIN,,table,Donnees_geographiques/<INSEE_COMMUNE>_INFO_LIN_<YYYYMMDD>,OPTIONAL
@@ -1078,7 +1078,7 @@ b75a3af73c15fc1655f2c312a1dbe25a,b47179a9b46721626eabcaebfdc78116,A2_GENERATEUR_
 a0a838d22b5d52d4cc5799003775916e,b4f09a52c081104203f01ec99856d766,HABILLAGE_LIN,HABILLAGE_LIN,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_LIN_<YYYYMMDD>,OPTIONAL
 afa863a1ab6ae5769f5f0618f9c019a8,b4f09a52c081104203f01ec99856d766,HABILLAGE_TXT,HABILLAGE_TXT,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_TXT_<YYYYMMDD>,OPTIONAL
 b85d8a5e0b0aef19ad352c51c27c7aea,b4f09a52c081104203f01ec99856d766,3_Reglement,3_Reglement,,directory,Pieces_ecrites/3_Reglement,ERROR
-d4dfb6e3a3706c03cf9b6a88bf7f31d7,b4f09a52c081104203f01ec99856d766,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+d4dfb6e3a3706c03cf9b6a88bf7f31d7,b4f09a52c081104203f01ec99856d766,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 d7eb5db9f200e1498ef7f8e3fdfb7a00,b4f09a52c081104203f01ec99856d766,TITRES_PIECES_ECRITES,TITRES_PIECES_ECRITES,,table,Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 dba3b61a1f79b3cdb16a7faaf2f96570,b4f09a52c081104203f01ec99856d766,2_PADD,2_PADD,,directory,Pieces_ecrites/2_PADD,OPTIONAL
 e2eeb2c03338030bf12d701b574ad8cb,b4f09a52c081104203f01ec99856d766,HABILLAGE_SURF,HABILLAGE_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_SURF_<YYYYMMDD>,OPTIONAL
@@ -1183,7 +1183,7 @@ f0053eb8a1bfe1a63daf3d260cbeb4f7,c602dd86525de9692d5ee781d6b47148,AR1_GENERATEUR
 3a9b04db91113ced45d039740ad7019e,cbe1976ffeaf76d6530a0d8a931bf43c,INFO_SURF,INFO_SURF,,table,Donnees_geographiques/<MAILLAGE>_INFO_SURF_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 3f2e689a1926cbb24c27da2dbaa8d369,cbe1976ffeaf76d6530a0d8a931bf43c,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
 41c8eceea3c769dc03ab9293c5152250,cbe1976ffeaf76d6530a0d8a931bf43c,ORIENTATIONS_AMENAGEMENT,ORIENTATIONS_AMENAGEMENT,,pdf,Pieces_ecrites/5_Orientations_amenagement/<MAILLAGE>_orientations_amenagement(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-46be4f9c2853db82b38e27d67d73e29a,cbe1976ffeaf76d6530a0d8a931bf43c,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<MAILLAGE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+46be4f9c2853db82b38e27d67d73e29a,cbe1976ffeaf76d6530a0d8a931bf43c,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<MAILLAGE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 4abe70ccdd064e688aa52deca70211e2,cbe1976ffeaf76d6530a0d8a931bf43c,ARRETE_MAJ_ANNEXES,ARRETE_MAJ_ANNEXES,"Arrêté de mise à jour des annexes",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_arrete_maj_annexes_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 4ff502abe0a8beb66abbf5a54fabbf62,cbe1976ffeaf76d6530a0d8a931bf43c,DOC_URBA_COM,DOC_URBA_COM,,table,<MAILLAGE>_DOC_URBA_COM_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 51d1f01acc85481ab31e0fa476f244d2,cbe1976ffeaf76d6530a0d8a931bf43c,DECRET_SUP,DECRET_SUP,"Décret prononçant la déclaration d'utilité publique",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_decret_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
@@ -1191,7 +1191,7 @@ f0053eb8a1bfe1a63daf3d260cbeb4f7,c602dd86525de9692d5ee781d6b47148,AR1_GENERATEUR
 5abbe41d97294a399541312f82fd8bcf,cbe1976ffeaf76d6530a0d8a931bf43c,DELIB_MEC,DELIB_MEC,"Délibération mettant en compatibilité le plan",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_delib_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 5c420f52d8c04108b9135fcff45611a2,cbe1976ffeaf76d6530a0d8a931bf43c,DELIB_PRESCRIPTION,DELIB_PRESCRIPTION,"Délibération de prescription",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 5cff6ba843faf9b8d964b22a7fc564e0,cbe1976ffeaf76d6530a0d8a931bf43c,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
-607e975875f819e909fbaa2475881c4d,cbe1976ffeaf76d6530a0d8a931bf43c,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<MAILLAGE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+607e975875f819e909fbaa2475881c4d,cbe1976ffeaf76d6530a0d8a931bf43c,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<MAILLAGE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 618c67910bf84e159636fd4fe4461894,cbe1976ffeaf76d6530a0d8a931bf43c,AVIS_EVAL_ENV,AVIS_EVAL_ENV,"Avis de la commission d’évaluation environnementale",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_avis_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 6f8b777be54f980ab5de326f86439d14,cbe1976ffeaf76d6530a0d8a931bf43c,3_Reglement_ressources,3_Reglement_ressources,3_Reglement_ressources,directory,Pieces_ecrites/3_Reglement/ressources,OPTIONAL
 7c0c67bf944e42caaa8c994be467590c,cbe1976ffeaf76d6530a0d8a931bf43c,AUTRES_PIECES,AUTRES_PIECES,"Autres pièces",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_[a-z_]+_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
@@ -1219,7 +1219,7 @@ e8087766142099ac5f3f6183a99301b8,cbe1976ffeaf76d6530a0d8a931bf43c,Donnees_geogra
 ec6b7a73fbd04f3bbb8ec71dcbe3ccb2,cbe1976ffeaf76d6530a0d8a931bf43c,DELIB_OBJECTIF_MODALITES,"Délibération objectifs modalités","Délibération définissant les objectifs poursuivis et les modalités de concertation",pdf,Pieces_ecrites/0_Procedure/<MAILLAGE>_<YYYYMMDD>_delib_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 f78848db261d44fdefcc851652b2f391,cbe1976ffeaf76d6530a0d8a931bf43c,PRESCRIPTION_PCT,PRESCRIPTION_PCT,,table,Donnees_geographiques/<MAILLAGE>_PRESCRIPTION_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 00b86f5338098c4aaeae67cd81776629,cfbbf860fc024411c0df46e177114444,DELIB_ARRET,DELIB_ARRET,"Délibération d’arrêt du document d’urbanisme",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_arret_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-029eb6af055040d62d9f089b1dffabb1,cfbbf860fc024411c0df46e177114444,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+029eb6af055040d62d9f089b1dffabb1,cfbbf860fc024411c0df46e177114444,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 059f89593aea47308ba7edaaa5a42f0a,cfbbf860fc024411c0df46e177114444,3_Reglement,3_Reglement,,directory,Pieces_ecrites/3_Reglement,ERROR
 070b5b146ccc58c59fb76d1d22157597,cfbbf860fc024411c0df46e177114444,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
 0743c74fb7137971f6c2c7c6338c9e92,cfbbf860fc024411c0df46e177114444,ZONE_URBA,ZONE_URBA,,table,Donnees_geographiques/<INSEE_COMMUNE>_ZONE_URBA_<YYYYMMDD>,ERROR
@@ -1258,8 +1258,8 @@ acf549f7824fb308f8c49918b76b0fb2,cfbbf860fc024411c0df46e177114444,DELIB_ENGAGEME
 c56166a52147c92f6153a434625baab4,cfbbf860fc024411c0df46e177114444,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
 cb451ae37f1e529b09546695d718b652,cfbbf860fc024411c0df46e177114444,INFO_SURF,INFO_SURF,,table,Donnees_geographiques/<INSEE_COMMUNE>_INFO_SURF_<YYYYMMDD>,OPTIONAL
 cbd838be2dab5f5050e742e4f1e5c9ec,cfbbf860fc024411c0df46e177114444,DELIB_APPROBATION,DELIB_APPROBATION,"Actes d’approbation Délibération d’approbation",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_approbation_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
-cc271d2f78ce436cfe45422cf4476109,cfbbf860fc024411c0df46e177114444,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
-d6e73408f06ff8b68f5d67e8ef2f594b,cfbbf860fc024411c0df46e177114444,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+cc271d2f78ce436cfe45422cf4476109,cfbbf860fc024411c0df46e177114444,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+d6e73408f06ff8b68f5d67e8ef2f594b,cfbbf860fc024411c0df46e177114444,"Reglement Xml","Reglement Xml","Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 d753848b86dc47c1b8a5615447403869,cfbbf860fc024411c0df46e177114444,RESUME_NON_TECHNIQUE,RESUME_NON_TECHNIQUE,RESUME_NON_TECHNIQUE,pdf,Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_<YYYYMMDD>_rapport_<NOMPROC>_rnt(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 d82297e3ae4be92d9bfb1f424d511d56,cfbbf860fc024411c0df46e177114444,DELIB_DEBAT_PADD,DELIB_DEBAT_PADD,"Délibération relative au débat sur le PADD",pdf,Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_debat_padd_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 dc12a964a4f15503614eafb0d8987ed3,cfbbf860fc024411c0df46e177114444,RAPPORT,RAPPORT,,pdf,Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_<YYYYMMDD>_rapport_<NOMPROC>(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
@@ -1294,24 +1294,24 @@ b4ddd7977c166a7abeac11aa1900e530,e3a47b50ddef003239ff54ed29a84679,A6_ASSIETTE_SU
 18f0475dfb64f0ce8743d2ec041376c6,e8657bc76307b81202b63cc0cf014c35,INFO_SURF,INFO_SURF,,table,Donnees_geographiques/<SIREN>_INFO_SURF_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 1982e16581319350ebba95d1012b40a8,e8657bc76307b81202b63cc0cf014c35,HABILLAGE_PCT,HABILLAGE_PCT,,table,Donnees_geographiques/<SIREN>_HABILLAGE_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 208a45c6c1d99505bd8ecc900aeb856a,e8657bc76307b81202b63cc0cf014c35,6_POA,6_POA,6_POA,directory,Pieces_ecrites/6_POA,OPTIONAL
-221a231eefb41222f36212c100c8354a,e8657bc76307b81202b63cc0cf014c35,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+221a231eefb41222f36212c100c8354a,e8657bc76307b81202b63cc0cf014c35,REGLEMENT,REGLEMENT,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 2780c1b66153dc1b75e3f0f4c3e97f7a,e8657bc76307b81202b63cc0cf014c35,PRESCRIPTION_LIN,PRESCRIPTION_LIN,,table,Donnees_geographiques/<SIREN>_PRESCRIPTION_LIN_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 32463fd2520e70976d60f1e029be0e00,e8657bc76307b81202b63cc0cf014c35,2_PADD,2_PADD,,directory,Pieces_ecrites/2_PADD,ERROR
 3b7c97fd78ea4111c6b9ab5cbb86bdb0,e8657bc76307b81202b63cc0cf014c35,PRESCRIPTION,PRESCRIPTION,,pdf,Pieces_ecrites/3_Reglement/<SIREN>_prescription_(lin|pct|surf)(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 3fce96e1ee300ce1ea02ebc32c44dd64,e8657bc76307b81202b63cc0cf014c35,0_Procedure,0_Procedure,,directory,Pieces_ecrites/0_Procedure,ERROR
 4afab58591f6a0e8dac49e2d0c8114c4,e8657bc76307b81202b63cc0cf014c35,PROCEDURE,PROCEDURE,,pdf,Pieces_ecrites/0_Procedure/<SIREN>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
-4c1658e38030d27a599738656f50749f,e8657bc76307b81202b63cc0cf014c35,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
+4c1658e38030d27a599738656f50749f,e8657bc76307b81202b63cc0cf014c35,PADD,PADD,,pdf,Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 569f6be407243a4cd30b472339c84f94,e8657bc76307b81202b63cc0cf014c35,ZONE_URBA,ZONE_URBA,,table,Donnees_geographiques/<SIREN>_ZONE_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 5a302235bee9b88fe566492c37f7604a,e8657bc76307b81202b63cc0cf014c35,DOC_URBA_COM,DOC_URBA_COM,,table,<SIREN>_DOC_URBA_COM_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 5a536b43c90d4917520008ed85e7fcf8,e8657bc76307b81202b63cc0cf014c35,Pieces_ecrites,Pieces_ecrites,,directory,Pieces_ecrites,ERROR
 5adcfdaf4b7e40c9bf2fb5582b3987e8,e8657bc76307b81202b63cc0cf014c35,Secteur_Reglement,Secteur_Reglement,,directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement,OPTIONAL
-5b8f9f6c903675a9f8c80489f55bc629,e8657bc76307b81202b63cc0cf014c35,SECTEUR_REGLEMENT_XML,SECTEUR_REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+5b8f9f6c903675a9f8c80489f55bc629,e8657bc76307b81202b63cc0cf014c35,SECTEUR_REGLEMENT_XML,SECTEUR_REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 5df78e58f8a3b69a0740d48695ef4230,e8657bc76307b81202b63cc0cf014c35,RAPPORT,RAPPORT,,pdf,Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_rapport(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
 5e62a84349daafe4d42014b00a13f3f7,e8657bc76307b81202b63cc0cf014c35,INFO_PCT,INFO_PCT,,table,Donnees_geographiques/<SIREN>_INFO_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 61086568b2cc82842dff4ca0d5882633,e8657bc76307b81202b63cc0cf014c35,3_Reglement,3_Reglement,,directory,Pieces_ecrites/3_Reglement,ERROR
 626548221ce85409678204767a4ada0d,e8657bc76307b81202b63cc0cf014c35,1_Rapport_de_presentation,1_Rapport_de_presentation,,directory,Pieces_ecrites/1_Rapport_de_presentation,ERROR
 66dca81a084503093ddd9a4b72808015,e8657bc76307b81202b63cc0cf014c35,4_Annexes,4_Annexes,,directory,Pieces_ecrites/4_Annexes,ERROR
-6ca3fa88a201474eddb951ec225ac2f0,e8657bc76307b81202b63cc0cf014c35,REGLEMENT_XML,REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
+6ca3fa88a201474eddb951ec225ac2f0,e8657bc76307b81202b63cc0cf014c35,REGLEMENT_XML,REGLEMENT_XML,"Règlement littéral au format XML et structuré suivant le standard CNIG SRU",metadata,Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 751d078420f543be987fa655327f0808,e8657bc76307b81202b63cc0cf014c35,Secteur_Orientation_amenagament,Secteur_Orientation_amenagament,,directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/5_Orientations_amenagement,OPTIONAL
 77ca82d317a8e3ce8948a8cc8927c209,e8657bc76307b81202b63cc0cf014c35,Secteur_Reglement_ressources,Secteur_Reglement_ressources,"Répertoire ""ressources"" contenant les images et autres ressources correspondant au règlement structuré",directory,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/ressources,OPTIONAL
 804308cfcff9bfd9280aafe2226d9398,e8657bc76307b81202b63cc0cf014c35,HABILLAGE_LIN,HABILLAGE_LIN,,table,Donnees_geographiques/<SIREN>_HABILLAGE_LIN_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
@@ -1319,7 +1319,7 @@ b4ddd7977c166a7abeac11aa1900e530,e3a47b50ddef003239ff54ed29a84679,A6_ASSIETTE_SU
 90540b301aab9aa3f8b40043489dcd3c,e8657bc76307b81202b63cc0cf014c35,EVALUATION_ENVIRONNEMENTALE,EVALUATION_ENVIRONNEMENTALE,"L'évaluation environnementale",pdf,Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 9180a463e2ab5a2a72635e289c4b6764,e8657bc76307b81202b63cc0cf014c35,METADONNEES,METADONNEES,,metadata,<FILENAME>,ERROR
 99e78e04a46e54d76ac00a95f4ac9160,e8657bc76307b81202b63cc0cf014c35,DOC_URBA,DOC_URBA,,table,<SIREN>_DOC_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?,ERROR
-9f4a4778dde972637edaeddc19776c20,e8657bc76307b81202b63cc0cf014c35,POA,POA,POA,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,WARN
+9f4a4778dde972637edaeddc19776c20,e8657bc76307b81202b63cc0cf014c35,POA,POA,POA,pdf,Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,WARN
 a164be8411ba6bdd8d852649e4574f84,e8657bc76307b81202b63cc0cf014c35,ANNEXE,ANNEXE,,pdf,Pieces_ecrites/4_Annexes/<FILENAME>,ERROR
 a8b41a176569455fa400c9744d91b7bf,e8657bc76307b81202b63cc0cf014c35,SECTEUR_REGLEMENT_GRAPHIQUE,SECTEUR_REGLEMENT_GRAPHIQUE,,pdf,Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement_graphique_SECT<SECTEUR_INDICE>(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL
 ac5c27ae80196fa97f740ccb915ac150,e8657bc76307b81202b63cc0cf014c35,PRESCRIPTION_PCT,PRESCRIPTION_PCT,,table,Donnees_geographiques/<SIREN>_PRESCRIPTION_PCT_<YYYYMMDD>(_<DOCUMENT_PART>)?,OPTIONAL

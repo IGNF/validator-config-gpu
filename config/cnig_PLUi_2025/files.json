@@ -358,7 +358,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_PADD/[0-9]{9}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_PADD/[0-9]{9}_padd(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "68b9c0d78da5e5537981279e84687a42",
             "name": "PADD",
@@ -391,7 +391,7 @@
         },
         {
             "type": "metadata",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "90386bfe4ff0d22e2c84afaf75539be3",
             "name": "Reglement Xml",
@@ -400,7 +400,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[0-9]{9}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "b45721fb4970a5ec53d8aff16c56b49d",
             "name": "REGLEMENT",
@@ -468,7 +468,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/6_POA/[0-9]{9}_POA(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "WARN",
             "id": "461831e1824c27d7b77131b91afaf0a5",
             "name": "POA",
@@ -510,7 +510,7 @@
         },
         {
             "type": "metadata",
-            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/[0-9]{9}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_[0-9]{2}/3_Reglement/[0-9]{9}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "34ddd7682f738f6d17fab1c0bb96a86c",
             "name": "SECTEUR_REGLEMENT_XML",

@@ -204,7 +204,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[a-zA-Z0-9]+_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "c0ee02f903c916c8c0ef7167a2152e8a",
             "name": "REGLEMENT",

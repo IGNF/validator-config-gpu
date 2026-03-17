@@ -376,7 +376,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "cc271d2f78ce436cfe45422cf4476109",
             "name": "PADD",
@@ -399,21 +399,21 @@
             "title": "PRESCRIPTION"
         },
         {
-            "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
-            "mandatory": "ERROR",
-            "id": "029eb6af055040d62d9f089b1dffabb1",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT"
-        },
-        {
             "type": "metadata",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "d6e73408f06ff8b68f5d67e8ef2f594b",
             "name": "Reglement Xml",
             "title": "Reglement Xml",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "mandatory": "ERROR",
+            "id": "029eb6af055040d62d9f089b1dffabb1",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT"
         },
         {
             "type": "pdf",
