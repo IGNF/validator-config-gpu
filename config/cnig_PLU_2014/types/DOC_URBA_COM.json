@@ -12,7 +12,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 20
             }

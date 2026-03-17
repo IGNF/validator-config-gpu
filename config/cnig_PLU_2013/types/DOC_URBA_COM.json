@@ -25,7 +25,7 @@
             "description": "Millésime ou année de référence du code officiel géographique de l'INSEE utilisé pour obtenir le code INSEE de la commune",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -38,7 +38,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 20
             }

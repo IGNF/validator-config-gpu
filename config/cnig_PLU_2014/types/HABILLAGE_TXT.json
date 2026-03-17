@@ -24,7 +24,7 @@
             "description": "Style d'écriture",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 40
             }
@@ -62,7 +62,7 @@
             "description": "Identifiant unique de l’objet",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "HT([0-9]+)?",
                 "maxLength": 10
@@ -76,7 +76,7 @@
             "description": "Angle de l'écriture exprimé en degré, par rapport à l'horizontale, dans le sens trigonométrique",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },

@@ -51,7 +51,7 @@
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }
@@ -63,7 +63,7 @@
             "title": "DATVALID",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -88,7 +88,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -127,7 +127,7 @@
             "description": "Nom court du périmètre servant à faire une étiquette",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 10
             }

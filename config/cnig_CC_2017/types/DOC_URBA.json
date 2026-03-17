@@ -25,7 +25,7 @@
             "description": "Lien d’accès à l’archive zip comprenant l’ensemble des pièces écrites",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -38,7 +38,7 @@
             "description": "Date de fin de validité du document d'urbanisme",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -51,7 +51,7 @@
             "description": "Nom du fichier contentant le document complet du règlement",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }
@@ -64,7 +64,7 @@
             "description": "Page web du service de consultation du PLU offert par la collectivité locale",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -77,7 +77,7 @@
             "description": "Nom du référentiel cadastral utilisé pour la numérisation",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -90,7 +90,7 @@
             "description": "Nom du fichier du plan graphique",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "([0-9]{9}|(2A|2B|[0-9]{2})[0-9]{3})_sectorisation_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?(.pdf|.zip)",
                 "maxLength": 80
@@ -117,7 +117,7 @@
             "description": "URL ou URI qui pointe sur le fichier du règlement papier complet scanné",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -130,7 +130,7 @@
             "description": "Nom de la dernière procédure",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "(E|R|A|MJ[0-9]+|MS[0-9]+)",
                 "maxLength": 10
@@ -170,7 +170,7 @@
             "description": "Indique le numéro SIREN de l'intercommunalité ayant approuvé le PLU. Clé externe permettant de faire le lien avec la table des EPCI",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 9
             }
@@ -183,7 +183,7 @@
             "description": "URL ou URI qui pointe sur le fichier du plan scanné",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -196,7 +196,7 @@
             "description": "Date de la dernière approbation administrative du document d'urbanisme",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }

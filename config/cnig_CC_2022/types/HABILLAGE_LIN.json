@@ -24,7 +24,7 @@
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
                 "maxLength": 11

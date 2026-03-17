@@ -38,7 +38,7 @@
             "description": "Date de parution au Journal Officiel ou de publicité dans la presse",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -78,7 +78,7 @@
             "description": "Existence d'un ou plusieurs plans annexés à l'acte",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 1
             }

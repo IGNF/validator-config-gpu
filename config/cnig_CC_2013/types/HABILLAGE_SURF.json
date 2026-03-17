@@ -24,7 +24,7 @@
             "description": "Nature du polygon",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 40
             }

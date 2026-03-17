@@ -50,7 +50,7 @@
             "description": "Identifiant unique de l’objet",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "HL([0-9]+)?",
                 "maxLength": 10

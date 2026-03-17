@@ -11,7 +11,7 @@
             "title": "STYLE",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 40
             }
@@ -84,7 +84,7 @@
             "title": "ANGLE",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },

@@ -25,7 +25,7 @@
             "description": "Nature de la ligne",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 40
             }

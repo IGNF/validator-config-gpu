@@ -25,7 +25,7 @@
             "description": "Lien d’accès au fichier pdf contenant le règlement de la servitude",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -78,7 +78,7 @@
             "description": "Organisme ayant numérisé la servitude",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }
@@ -91,7 +91,7 @@
             "description": "Observation relative à la validation de la servitude formulée soit par le gestionnaire, soit par le service de l'État administrant les données",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -104,7 +104,7 @@
             "description": "Description détaillée de la servitude",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -143,7 +143,7 @@
             "description": "Nom du fichier pdf contenant le règlement de la servitude",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg.pdf",
                 "maxLength": 100
@@ -157,7 +157,7 @@
             "description": "Identifiant créé et entretenu par l'organisme gestionnaire de la servitude",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 25
             }
@@ -170,7 +170,7 @@
             "description": "Nom littéral de la servitude, figurant dans l'acte l'ayant instaurée",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 100
             }
@@ -209,7 +209,7 @@
             "description": "Document graphique ayant été numérisé",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }

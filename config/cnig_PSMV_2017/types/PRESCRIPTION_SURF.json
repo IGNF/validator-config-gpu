@@ -12,7 +12,7 @@
             "description": "Nom du fichier PDF décrivant la prescription",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }
@@ -25,7 +25,7 @@
             "description": "Date de la dernière validation de la prescription",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -124,7 +124,7 @@
             "description": "Nom court de la prescription servant à faire une étiquette",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 10
             }
@@ -137,7 +137,7 @@
             "description": "URL ou URI qui pointe sur le fichier de règlement de la prescription",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }

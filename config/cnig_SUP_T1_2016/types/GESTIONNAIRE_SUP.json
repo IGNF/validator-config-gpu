@@ -25,7 +25,7 @@
             "description": "Correspondant à contacter chez le gestionnaire",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }
@@ -38,7 +38,7 @@
             "description": "Numéro de téléphone du point de contact chez le service gestionnaire",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 10
             }
@@ -51,7 +51,7 @@
             "description": "Adresse de l'organisme servant aux envois postaux",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -77,7 +77,7 @@
             "description": "Adresse électronique du point de contact chez le service gestionnaire",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }

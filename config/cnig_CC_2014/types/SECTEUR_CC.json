@@ -25,7 +25,7 @@
             "description": "Date d'approbation du document d'urbanisme auquel appartient la zone",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -51,7 +51,7 @@
             "description": "Date de la dernière validation du secteur ou de ses dispositions particulières",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -102,7 +102,7 @@
             "description": "Nom du fichier contenant les dispositions particulières du secteur",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 80
             }
@@ -115,7 +115,7 @@
             "description": "Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 254
             }
@@ -128,7 +128,7 @@
             "description": "Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise",
             "constraints": {
                 "required": false,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 3
             }
