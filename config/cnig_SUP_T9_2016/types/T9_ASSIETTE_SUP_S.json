@@ -11,7 +11,7 @@
             "description": "Identifiant de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+-[0-9]+",
                 "maxLength": 40
@@ -25,7 +25,7 @@
             "description": "Identifiant du générateur de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+",
                 "maxLength": 40
@@ -65,7 +65,7 @@
             "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 25
             }
@@ -90,7 +90,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -101,7 +101,7 @@
             "title": "TYPEASS",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "Zone d’atterrage",
@@ -117,7 +117,7 @@
             "title": "NOMASS",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_(zatt|zsur)",
                 "maxLength": 100

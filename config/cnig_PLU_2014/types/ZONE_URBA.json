@@ -12,7 +12,7 @@
             "description": "Vocation dominante de la zone, concerne l’usage de la zone",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -25,7 +25,7 @@
             "description": "Code INSEE de la commune couverte par la zone",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 5
             }
@@ -91,7 +91,7 @@
             "description": "Type de la zone dans une nomenclature simplifiée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "U",
@@ -140,7 +140,7 @@
             "description": "Nom court de la zone tel qu’il apparaît sur le plan de zonage",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 12
             }
@@ -153,7 +153,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         }

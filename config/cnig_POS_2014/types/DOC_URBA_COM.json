@@ -12,7 +12,7 @@
             "description": "Identifiant du document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 20
             }
@@ -25,7 +25,7 @@
             "description": "Code INSEE de la commune concernée par le document d'urbanisme",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true,
                 "maxLength": 5
             }

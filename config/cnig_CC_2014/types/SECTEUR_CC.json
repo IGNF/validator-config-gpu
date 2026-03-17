@@ -12,7 +12,7 @@
             "description": "Code INSEE de la commune couverte par le secteur",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 5
             }
@@ -38,7 +38,7 @@
             "description": "Vocation dominante de la zone, concerne l’usage de la zone",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -64,7 +64,7 @@
             "description": "Type du secteur dans une nomenclature simplifiée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 2
             }
@@ -77,7 +77,7 @@
             "description": "Libellé du secteur tel que le définit la carte communale",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 12
             }
@@ -90,7 +90,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },

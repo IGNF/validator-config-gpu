@@ -11,7 +11,7 @@
             "title": "TYPEGEN",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 40
             }
@@ -24,7 +24,7 @@
             "description": "Identifiant du générateur",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -75,7 +75,7 @@
             "description": "Identifiant de la SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -113,7 +113,7 @@
             "description": "Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?",
                 "maxLength": 100
@@ -127,7 +127,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },

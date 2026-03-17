@@ -12,7 +12,7 @@
             "description": "Identifiant de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+-[0-9]+",
                 "maxLength": 40
@@ -26,7 +26,7 @@
             "description": "Identifiant du générateur de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+",
                 "maxLength": 40
@@ -66,7 +66,7 @@
             "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 25
             }
@@ -90,7 +90,7 @@
             "title": "LARGEUR",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -101,7 +101,7 @@
             "title": "H",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -112,7 +112,7 @@
             "title": "NOMASS",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_(zpri|zsec|zspe|sect)",
                 "maxLength": 100
@@ -125,7 +125,7 @@
             "title": "XFINAL",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -136,7 +136,7 @@
             "title": "ANGLE2",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -147,7 +147,7 @@
             "title": "YFINAL",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -158,7 +158,7 @@
             "title": "TYPEASS",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "Zone primaire de dégagement",
@@ -177,7 +177,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -188,7 +188,7 @@
             "title": "HREF",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 3
             }
@@ -200,7 +200,7 @@
             "title": "XDEBUT",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -211,7 +211,7 @@
             "title": "RAYON",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -222,7 +222,7 @@
             "title": "YDEBUT",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -233,7 +233,7 @@
             "title": "ANGLE1",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         }

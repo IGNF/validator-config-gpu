@@ -12,7 +12,7 @@
             "description": "Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 25
             }
@@ -25,7 +25,7 @@
             "description": "Identifiant du gestionnaire de la SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{9}",
                 "maxLength": 9
@@ -52,7 +52,7 @@
             "description": "Les données numérisées de la servitude ont été validées ou pas par le gestionnaire",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 1
             }
@@ -91,7 +91,7 @@
             "description": "Date de la dernière modification apportée à la servitude",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -104,7 +104,7 @@
             "description": "Catégorie de la servitude dans la nomenclature nationale",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 10
             }
@@ -117,7 +117,7 @@
             "description": "Identifiant de la SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -129,7 +129,7 @@
             "description": "Attribut dérivé renseignant sur l'état de validité de la servitude : cet attribut prend la valeur 'oui' si un acte ou une décision administrative a abrogé ou annulé la servitude",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "enum": [
                     "T",
@@ -146,7 +146,7 @@
             "description": "Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_sup",
                 "maxLength": 100
@@ -160,7 +160,7 @@
             "description": "Dénominateur de l'échelle à laquelle a été numérisée la servitude",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },

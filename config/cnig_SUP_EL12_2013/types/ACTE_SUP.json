@@ -25,7 +25,7 @@
             "description": "Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 25
             }
@@ -38,7 +38,7 @@
             "description": "Description de la nature de l'acte",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 50
             }
@@ -64,7 +64,7 @@
             "description": "Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_[0-9]+)?_act",
                 "maxLength": 100
@@ -78,7 +78,7 @@
             "description": "Identifiant de l'acte",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -90,7 +90,7 @@
             "description": "Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[0-9]{8}"
             }
@@ -116,7 +116,7 @@
             "description": "Référence de l'acte ayant créé ou modifié la servitude",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 50
             }

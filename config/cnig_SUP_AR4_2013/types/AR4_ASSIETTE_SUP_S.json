@@ -12,7 +12,7 @@
             "description": "Nature de l'assiette selon sa vocation principale et la catégorie de SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 40
             }
@@ -25,7 +25,7 @@
             "description": "Identifiant de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
@@ -37,7 +37,7 @@
             "description": "Identifiant du générateur de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false
             }
         },
@@ -62,7 +62,7 @@
             "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "maxLength": 25
             }
@@ -100,7 +100,7 @@
             "description": "Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": false,
                 "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+(_gen[0-9]+)?_(mh|abor|ass|zpr1|zpr2|ziso|pepi|pepr|pepe|zhlg|zmcp|zpro|zgar|zpri|zsec|zspe|sect|zatt|zsur)",
                 "maxLength": 100
@@ -126,7 +126,7 @@
             "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
+                "presenceRequired": true,
                 "unique": true
             }
         },
