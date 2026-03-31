@@ -41,4 +41,3 @@ Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IG
 
 * La convergence avec [Table Schema](https://specs.frictionlessdata.io/table-schema/) pour "validator_feature_type" et "validator_attribute_type" mis en avant par [schema.data.gouv.fr](http://schema.data.gouv.fr/) pour la modélisation des tables devra être ré-étudiée. Pour l'heure, il subsiste des difficultés pour modéliser certains aspects des standards CNIG à l'aide de ce modèle.
 * La gestion des modèles directement en JSON devra elle aussi être envisagés. Pour l'heure, le modèle BDD/CSV offre une notion d'héritage non présente en JSON qui facilite la gestion des standards pour les différentes catégories de SUP.
-
