@@ -127,7 +127,7 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": false,
-                "unique": false,
+                "unique": true,
                 "pattern": "[AB0-9]{5}_PLU_[0-9]{8}_IS[0-9]+",
                 "maxLength": 40
             }

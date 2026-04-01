@@ -102,7 +102,7 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": false,
-                "unique": false,
+                "unique": true,
                 "pattern": "[0-9]{9}_PLUI_[0-9]{8}_HT[0-9]+",
                 "maxLength": 40
             }
