@@ -193,7 +193,7 @@
         ],
         "foreignKeys": [
             "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
+            "(TYPEINF, STYPEINF) REFERENCES InformationSUrbaType(TYPEINF, STYPEINF)",
             "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
         ]
     }

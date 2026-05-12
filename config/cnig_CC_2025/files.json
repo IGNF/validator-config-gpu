@@ -208,12 +208,6 @@
             "title": "ListeEtatCC"
         },
         {
-            "data": "./codes/InformationUrbaType.csv",
-            "id": "2b11f02862ab3a2894ba140235921a8a",
-            "name": "InformationUrbaType",
-            "title": "InformationUrbaType"
-        },
-        {
             "data": "./codes/ListeTyperefCC.csv",
             "id": "4a1c65af0ea3096ab7a4f8ae45a97202",
             "name": "ListeTyperefCC",
@@ -224,6 +218,18 @@
             "id": "7079db619c495a538c213fd4328adf5c",
             "name": "ListeTypesectCC",
             "title": "ListeTypesectCC"
+        },
+        {
+            "data": "./codes/InformationLUrbaType.csv",
+            "id": "a29fd914726341e1b7ed3ad663e4cbc6",
+            "name": "InformationLUrbaType",
+            "title": "InformationLUrbaType"
+        },
+        {
+            "data": "./codes/InformationPUrbaType.csv",
+            "id": "a4b87d2c33c54a079b13bb0c8494e3aa",
+            "name": "InformationPUrbaType",
+            "title": "InformationPUrbaType"
         },
         {
             "data": "./codes/ListeFermrecoCC.csv",
@@ -248,6 +254,12 @@
             "id": "e8f26a48bca44e58a1d86b2ccb8ccd5c",
             "name": "ListeLibelleCC",
             "title": "ListeLibelleCC"
+        },
+        {
+            "data": "./codes/InformationSUrbaType.csv",
+            "id": "fa7c7c34603d48d0bd30fd94c46056ea",
+            "name": "InformationSUrbaType",
+            "title": "InformationSUrbaType"
         }
     ],
     "constraints": {

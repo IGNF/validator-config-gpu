@@ -21,7 +21,7 @@ Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IG
   * [validator_file_model](config-backup/validator_file_model.csv) : Liste des fichiers attendus pour chaque standard
   * [validator_feature_type](config-backup/validator_feature_type.csv) : Modélisation des fichiers de type "table"
   * [validator_attribute_type](config-backup/validator_attribute_type.csv) : Modélisation des colonnes des tables
-  * [validator_static_table](config-backup/validator_static_table.csv) : Liste des tables de codes (ex : [PrescriptionPSMVType2019](codes/PrescriptionPSMVType2019.csv))
+  * [validator_static_table](config-backup/validator_static_table.csv) : Liste des tables de codes (ex : [Prescription_PSMV_2019](codes/Prescription_PSMV_2019.csv))
 
 * La base de données est exportée en CSV dans le dossier `config-backup/` pour permettre la gestion des versions à l'aide de GIT.
 

@@ -152,7 +152,7 @@
             "NOMFIC NOT NULL OR TYPEINF NOT LIKE '97'"
         ],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationSPSMVType(TYPEINF, STYPEINF)"
         ]
     }
 }

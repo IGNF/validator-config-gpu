@@ -399,6 +399,14 @@
             "title": "PRESCRIPTION"
         },
         {
+            "type": "pdf",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "mandatory": "ERROR",
+            "id": "029eb6af055040d62d9f089b1dffabb1",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT"
+        },
+        {
             "type": "metadata",
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
@@ -406,14 +414,6 @@
             "name": "Reglement Xml",
             "title": "Reglement Xml",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU"
-        },
-        {
-            "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
-            "mandatory": "ERROR",
-            "id": "029eb6af055040d62d9f089b1dffabb1",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT"
         },
         {
             "type": "pdf",
@@ -484,6 +484,18 @@
             "title": "PrescriptionPSMVType"
         },
         {
+            "data": "./codes/InformationLPSMVType.csv",
+            "id": "2bfbd525346145a7ad19a712b4ab8a57",
+            "name": "InformationLPSMVType",
+            "title": "InformationLPSMVType"
+        },
+        {
+            "data": "./codes/InformationPPSMVType.csv",
+            "id": "37bb4960b07b45688d222d65a96cfc40",
+            "name": "InformationPPSMVType",
+            "title": "InformationPPSMVType"
+        },
+        {
             "data": "./codes/ListeTypezonePLU.csv",
             "id": "4b36545e0933537dc3a6dafbac2f6bb7",
             "name": "ListeTypezonePLU",
@@ -502,10 +514,10 @@
             "title": "ListeTypedocPSMV"
         },
         {
-            "data": "./codes/InformationPSMVType.csv",
-            "id": "c39470ceca13f6914406e6202710867c",
-            "name": "InformationPSMVType",
-            "title": "InformationPSMVType"
+            "data": "./codes/InformationSPSMVType.csv",
+            "id": "ce1bbb45a9614f51a300512e3fd467f7",
+            "name": "InformationSPSMVType",
+            "title": "InformationSPSMVType"
         },
         {
             "data": "./codes/ListeTyperefPLU.csv",

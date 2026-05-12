@@ -590,6 +590,12 @@
             "title": "ListeTypedocPLUi"
         },
         {
+            "data": "./codes/InformationSUrbaType.csv",
+            "id": "412a3c56ade94754abdb518d18bde030",
+            "name": "InformationSUrbaType",
+            "title": "InformationSUrbaType"
+        },
+        {
             "data": "./codes/ListeFormDomi.csv",
             "id": "50bbfe5c9019db837d922dece6d5cad1",
             "name": "ListeFormDomi",
@@ -608,10 +614,10 @@
             "title": "ListeEtatPLU"
         },
         {
-            "data": "./codes/InformationUrbaType.csv",
-            "id": "c54752f430e6451fa12ced1d7a469330",
-            "name": "InformationUrbaType",
-            "title": "InformationUrbaType"
+            "data": "./codes/InformationPUrbaType.csv",
+            "id": "a151d5cd80c44934a8366c6fcf8955cf",
+            "name": "InformationPUrbaType",
+            "title": "InformationPUrbaType"
         },
         {
             "data": "./codes/PrescriptionPUrbaType.csv",
@@ -630,6 +636,12 @@
             "id": "cc9b383f7f60be4201e5e61382fb3351",
             "name": "PrescriptionSUrbaType",
             "title": "PrescriptionSUrbaType"
+        },
+        {
+            "data": "./codes/InformationLUrbaType.csv",
+            "id": "f885869cc6d144cb91eb0e9ea91ce2bf",
+            "name": "InformationLUrbaType",
+            "title": "InformationLUrbaType"
         }
     ],
     "constraints": {

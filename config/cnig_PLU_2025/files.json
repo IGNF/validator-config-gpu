@@ -490,16 +490,22 @@
             "title": "ListeEtatPLU"
         },
         {
-            "data": "./codes/InformationUrbaType.csv",
-            "id": "0235921a8a2b11f02862ab3a2894ba14",
-            "name": "InformationUrbaType",
-            "title": "InformationUrbaType"
-        },
-        {
             "data": "./codes/ListeFormDomi.csv",
             "id": "1f57afa217e66dcfe83f4184b3af8ba6",
             "name": "ListeFormDomi",
             "title": "ListeFormDomi"
+        },
+        {
+            "data": "./codes/InformationLUrbaType.csv",
+            "id": "31cf35b9b865403f902241d2a256656e",
+            "name": "InformationLUrbaType",
+            "title": "InformationLUrbaType"
+        },
+        {
+            "data": "./codes/InformationPUrbaType.csv",
+            "id": "7e9a5f9ddb7440c3985b5c22221199fd",
+            "name": "InformationPUrbaType",
+            "title": "InformationPUrbaType"
         },
         {
             "data": "./codes/PrescriptionPUrbaType.csv",
@@ -518,6 +524,12 @@
             "id": "d12e8b1ad4a042b0952f7dbbd18158bf",
             "name": "PrescriptionSUrbaType",
             "title": "PrescriptionSUrbaType"
+        },
+        {
+            "data": "./codes/InformationSUrbaType.csv",
+            "id": "d648dcb6a4e341a4b91cb46d32d826ab",
+            "name": "InformationSUrbaType",
+            "title": "InformationSUrbaType"
         },
         {
             "data": "./codes/ListeTypedocPLU.csv",

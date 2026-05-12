@@ -152,7 +152,7 @@
             "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
         ],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationPUrbaType(TYPEINF, STYPEINF)"
         ]
     }
 }
