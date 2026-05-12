@@ -1,7 +1,7 @@
 {
-    "id": "fb32aa5632c67988133e2f326d9011a5",
-    "name": "I2_GENERATEUR_SUP_S",
-    "title": "I2_GENERATEUR_SUP_S",
+    "id": "f0d9695a4fa9529b7e4156f56644c5a1",
+    "name": "I5_GENERATEUR_SUP_S",
+    "title": "I5_GENERATEUR_SUP_S",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "columns": [
         {
@@ -113,7 +113,7 @@
         },
         {
             "type": "MultiPolygon",
-            "id": "4d3e5620ca6e745914560229cfedbc6d",
+            "id": "288b42d8705da1c6cf4d30fc42ee78f9",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
@@ -125,7 +125,7 @@
         },
         {
             "type": "String",
-            "id": "e2c9193aae4a4a00a8ca6ad40237ff91",
+            "id": "c055c47add29cbc28cff4a96b94d9bd6",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
             "constraints": {
@@ -133,7 +133,7 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Poste électrique"
+                    "Installations annexes"
                 ],
                 "maxLength": 40
             }

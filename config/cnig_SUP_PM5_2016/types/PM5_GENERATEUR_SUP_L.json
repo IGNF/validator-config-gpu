@@ -1,7 +1,7 @@
 {
-    "id": "fb32aa5632c67988133e2f326d9011a5",
-    "name": "I2_GENERATEUR_SUP_S",
-    "title": "I2_GENERATEUR_SUP_S",
+    "id": "7daa6e24c8f0c7be27caeb5c9eb2493d",
+    "name": "PM5_GENERATEUR_SUP_L",
+    "title": "PM5_GENERATEUR_SUP_L",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "columns": [
         {
@@ -112,8 +112,8 @@
             }
         },
         {
-            "type": "MultiPolygon",
-            "id": "4d3e5620ca6e745914560229cfedbc6d",
+            "type": "MultiLineString",
+            "id": "26730f39d59fa1ab586ce485047b3323",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
@@ -125,7 +125,7 @@
         },
         {
             "type": "String",
-            "id": "e2c9193aae4a4a00a8ca6ad40237ff91",
+            "id": "c3ccbf340a1c3e32fb8f3c98cbca3c86",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
             "constraints": {
@@ -133,7 +133,7 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Poste électrique"
+                    "Linéaire du système d’endiguement"
                 ],
                 "maxLength": 40
             }

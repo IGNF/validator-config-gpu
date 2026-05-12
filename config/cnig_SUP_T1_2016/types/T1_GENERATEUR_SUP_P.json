@@ -1,7 +1,7 @@
 {
-    "id": "fb32aa5632c67988133e2f326d9011a5",
-    "name": "I2_GENERATEUR_SUP_S",
-    "title": "I2_GENERATEUR_SUP_S",
+    "id": "5045fb4cc6b6879f6b15aa504d7d0a6b",
+    "name": "T1_GENERATEUR_SUP_P",
+    "title": "T1_GENERATEUR_SUP_P",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "columns": [
         {
@@ -113,7 +113,7 @@
         },
         {
             "type": "MultiPolygon",
-            "id": "4d3e5620ca6e745914560229cfedbc6d",
+            "id": "49dbd7557218623740b146b0dae0a632",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
@@ -124,8 +124,20 @@
             }
         },
         {
+            "type": "Boolean",
+            "id": "5a99fc00b6cc06cee6f71b2e98e8ca46",
+            "name": "CROISEMENT",
+            "title": "CROISEMENT",
+            "description": "Indique s'il y a un croisement",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false
+            }
+        },
+        {
             "type": "String",
-            "id": "e2c9193aae4a4a00a8ca6ad40237ff91",
+            "id": "724b5021a5d439f91077cf29d5075fbe",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
             "constraints": {
@@ -133,9 +145,35 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Poste électrique"
+                    "Passage à niveau"
                 ],
                 "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "da012f0fd63f85266d6f6db4a14b3360",
+            "name": "TYPE_GEST",
+            "title": "TYPE_GEST",
+            "description": "type de gestionnaire de l'infrastructure",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 15
+            }
+        },
+        {
+            "type": "String",
+            "id": "e0420e17c9613cd6cb002db049798ee8",
+            "name": "TYPE_VOIE",
+            "title": "TYPE_VOIE",
+            "description": "type de la voie",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 15
             }
         }
     ],
@@ -147,7 +185,10 @@
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
         "foreignKeys": [
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(TYPE_GEST) REFERENCES ListeTypeGestSUP(TYPE_GEST)",
+            "(TYPE_VOIE) REFERENCES ListeTypeVoieSUP(TYPE_VOIE)"
         ]
     }
 }

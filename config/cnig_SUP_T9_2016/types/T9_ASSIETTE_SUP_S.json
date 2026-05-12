@@ -104,8 +104,7 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Zone d’atterrage",
-                    "Zone de survol"
+                    "Zone de passage"
                 ],
                 "maxLength": 40
             }

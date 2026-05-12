@@ -223,12 +223,12 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/EL2bis_GENERATEUR_SUP_S",
+            "path": "Donnees_geographiques/EL2bis_GENERATEUR_SUP_L",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/EL2bis_GENERATEUR_SUP_S.json",
+            "tableModel": "./types/EL2bis_GENERATEUR_SUP_L.json",
             "id": "6685f6366c64b311a1aea5280e7615ea",
-            "name": "EL2bis_GENERATEUR_SUP_S",
-            "title": "EL2bis_GENERATEUR_SUP_S"
+            "name": "EL2bis_GENERATEUR_SUP_L",
+            "title": "EL2bis_GENERATEUR_SUP_L"
         }
     ],
     "codes": [

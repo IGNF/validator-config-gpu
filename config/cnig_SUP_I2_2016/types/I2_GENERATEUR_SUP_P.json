@@ -1,7 +1,7 @@
 {
-    "id": "fb32aa5632c67988133e2f326d9011a5",
-    "name": "I2_GENERATEUR_SUP_S",
-    "title": "I2_GENERATEUR_SUP_S",
+    "id": "cedcd6b5846a4cf6c193ca38ee69791d",
+    "name": "I2_GENERATEUR_SUP_P",
+    "title": "I2_GENERATEUR_SUP_P",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "columns": [
         {
@@ -112,20 +112,8 @@
             }
         },
         {
-            "type": "MultiPolygon",
-            "id": "4d3e5620ca6e745914560229cfedbc6d",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": true
-            }
-        },
-        {
             "type": "String",
-            "id": "e2c9193aae4a4a00a8ca6ad40237ff91",
+            "id": "55f1d28e24d9d03619e00dc9ca37995f",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
             "constraints": {
@@ -133,9 +121,21 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Poste électrique"
+                    "Pylône ou turbine"
                 ],
                 "maxLength": 40
+            }
+        },
+        {
+            "type": "MultiPoint",
+            "id": "e4b18646323f0612fe6d1448622fe85b",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": true
             }
         }
     ],

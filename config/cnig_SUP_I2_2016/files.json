@@ -223,6 +223,24 @@
         },
         {
             "type": "table",
+            "path": "Donnees_geographiques/I2_GENERATEUR_SUP_L",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I2_GENERATEUR_SUP_L.json",
+            "id": "7707b1980c030ed65066a72a2015ed26",
+            "name": "I2_GENERATEUR_SUP_L",
+            "title": "I2_GENERATEUR_SUP_L"
+        },
+        {
+            "type": "table",
+            "path": "Donnees_geographiques/I2_GENERATEUR_SUP_P",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I2_GENERATEUR_SUP_P.json",
+            "id": "865718c486f49551c1da95cb8c86f1c7",
+            "name": "I2_GENERATEUR_SUP_P",
+            "title": "I2_GENERATEUR_SUP_P"
+        },
+        {
+            "type": "table",
             "path": "Donnees_geographiques/I2_GENERATEUR_SUP_S",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/I2_GENERATEUR_SUP_S.json",

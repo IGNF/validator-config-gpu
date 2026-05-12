@@ -1,7 +1,7 @@
 {
-    "id": "fb32aa5632c67988133e2f326d9011a5",
-    "name": "I2_GENERATEUR_SUP_S",
-    "title": "I2_GENERATEUR_SUP_S",
+    "id": "d65a77ee9b5919936ec4e4fa3d51a6e8",
+    "name": "EL4_GENERATEUR_SUP_L",
+    "title": "EL4_GENERATEUR_SUP_L",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "columns": [
         {
@@ -112,8 +112,8 @@
             }
         },
         {
-            "type": "MultiPolygon",
-            "id": "4d3e5620ca6e745914560229cfedbc6d",
+            "type": "MultiLineString",
+            "id": "cd1c54010ba5a1579d7a51564f503405",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
@@ -125,7 +125,7 @@
         },
         {
             "type": "String",
-            "id": "e2c9193aae4a4a00a8ca6ad40237ff91",
+            "id": "e28e881e661002a64dc6db409739cb57",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
             "constraints": {
@@ -133,7 +133,7 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Poste électrique"
+                    "Remontée mécanique ou piste de ski"
                 ],
                 "maxLength": 40
             }
@@ -144,9 +144,14 @@
             "SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')",
             "DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL",
             "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
+            "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL",
+            "SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')",
+            "DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL",
+            "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
         "foreignKeys": [
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
         ]
     }

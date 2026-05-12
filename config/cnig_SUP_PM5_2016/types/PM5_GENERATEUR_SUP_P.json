@@ -1,7 +1,7 @@
 {
-    "id": "fb32aa5632c67988133e2f326d9011a5",
-    "name": "I2_GENERATEUR_SUP_S",
-    "title": "I2_GENERATEUR_SUP_S",
+    "id": "346ce5f43484137d608293142d5951f4",
+    "name": "PM5_GENERATEUR_SUP_P",
+    "title": "PM5_GENERATEUR_SUP_P",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "columns": [
         {
@@ -112,8 +112,8 @@
             }
         },
         {
-            "type": "MultiPolygon",
-            "id": "4d3e5620ca6e745914560229cfedbc6d",
+            "type": "MultiPoint",
+            "id": "4a1b098f35006672a729020a2b095ceb",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
@@ -125,7 +125,7 @@
         },
         {
             "type": "String",
-            "id": "e2c9193aae4a4a00a8ca6ad40237ff91",
+            "id": "735c73c962d86ddbd72b5a02c4342bc5",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
             "constraints": {
@@ -133,7 +133,7 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Poste électrique"
+                    "Conduite forcée"
                 ],
                 "maxLength": 40
             }

@@ -232,12 +232,12 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/T1_GENERATEUR_SUP_S",
+            "path": "Donnees_geographiques/T1_GENERATEUR_SUP_P",
             "mandatory": "OPTIONAL",
-            "tableModel": "./types/T1_GENERATEUR_SUP_S.json",
+            "tableModel": "./types/T1_GENERATEUR_SUP_P.json",
             "id": "76999bd51dee027f10554c377df68c30",
-            "name": "T1_GENERATEUR_SUP_S",
-            "title": "T1_GENERATEUR_SUP_S"
+            "name": "T1_GENERATEUR_SUP_P",
+            "title": "T1_GENERATEUR_SUP_P"
         }
     ],
     "codes": [

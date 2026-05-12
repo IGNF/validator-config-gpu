@@ -229,6 +229,15 @@
             "id": "f8ac0b2b6da47a6c6795ce6af24e431d",
             "name": "I5_GENERATEUR_SUP_L",
             "title": "I5_GENERATEUR_SUP_L"
+        },
+        {
+            "type": "table",
+            "path": "Donnees_geographiques/I5_GENERATEUR_SUP_S",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/I5_GENERATEUR_SUP_S.json",
+            "id": "e20c20976f85a12903fe5edfa849c8dd",
+            "name": "I5_GENERATEUR_SUP_S",
+            "title": "I5_GENERATEUR_SUP_S"
         }
     ],
     "codes": [

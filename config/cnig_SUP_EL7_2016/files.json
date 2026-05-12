@@ -214,15 +214,6 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/EL7_ASSIETTE_SUP_L",
-            "mandatory": "OPTIONAL",
-            "tableModel": "./types/EL7_ASSIETTE_SUP_L.json",
-            "id": "0fc9fac0502c05cbbfef3d5cfe08ae1b",
-            "name": "EL7_ASSIETTE_SUP_L",
-            "title": "EL7_ASSIETTE_SUP_L"
-        },
-        {
-            "type": "table",
             "path": "Donnees_geographiques/EL7_ASSIETTE_SUP_S",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/EL7_ASSIETTE_SUP_S.json",
@@ -238,15 +229,6 @@
             "id": "b43a780aeca328aea3bcbc1d8099a7a3",
             "name": "EL7_GENERATEUR_SUP_L",
             "title": "EL7_GENERATEUR_SUP_L"
-        },
-        {
-            "type": "table",
-            "path": "Donnees_geographiques/EL7_GENERATEUR_SUP_S",
-            "mandatory": "OPTIONAL",
-            "tableModel": "./types/EL7_GENERATEUR_SUP_S.json",
-            "id": "a67c93f383786a788ab719c6e9a81096",
-            "name": "EL7_GENERATEUR_SUP_S",
-            "title": "EL7_GENERATEUR_SUP_S"
         }
     ],
     "codes": [

@@ -1,7 +1,7 @@
 {
-    "id": "fb32aa5632c67988133e2f326d9011a5",
-    "name": "I2_GENERATEUR_SUP_S",
-    "title": "I2_GENERATEUR_SUP_S",
+    "id": "1e658883b2c205cfa61d265102278304",
+    "name": "EL2bis_GENERATEUR_SUP_L",
+    "title": "EL2bis_GENERATEUR_SUP_L",
     "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
     "columns": [
         {
@@ -112,20 +112,8 @@
             }
         },
         {
-            "type": "MultiPolygon",
-            "id": "4d3e5620ca6e745914560229cfedbc6d",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": true
-            }
-        },
-        {
             "type": "String",
-            "id": "e2c9193aae4a4a00a8ca6ad40237ff91",
+            "id": "44f9696eeb2b5ff32ec4abeda97cf685",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
             "constraints": {
@@ -133,9 +121,21 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Poste électrique"
+                    "Pied de la levée ou de la digue "
                 ],
                 "maxLength": 40
+            }
+        },
+        {
+            "type": "MultiLineString",
+            "id": "ac95a326c847780cbd92b4100896598a",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": true
             }
         }
     ],
