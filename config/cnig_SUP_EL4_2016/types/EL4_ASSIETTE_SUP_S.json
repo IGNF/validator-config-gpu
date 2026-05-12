@@ -89,7 +89,7 @@
             "name": "H",
             "title": "H",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -113,7 +113,7 @@
             "name": "HREF",
             "title": "HREF",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false,
                 "maxLength": 3
