@@ -166,7 +166,7 @@
             "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
         ],
         "foreignKeys": [
-            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"
+            "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPPSMVType(TYPEPSC, STYPEPSC)"
         ]
     }
 }

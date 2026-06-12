@@ -3221,7 +3221,7 @@ ba73be44b5da7ba5435c53b383169210,dc7f6f48d7d19aa99cc8f0e5b8d37f47,TAILLE,TAILLE,
 d484c0c0fa00b14b716ce52f1b54335c,dc7f6f48d7d19aa99cc8f0e5b8d37f47,STYLE,STYLE,"Style d'écriture",String,f,t,f,,,,40,
 e96167cc10d6c111457ded22420f4952,dc7f6f48d7d19aa99cc8f0e5b8d37f47,LIB_IDHAB,LIB_IDHAB,"identifiant d'objets",String,t,f,t,,<INSEE_COMMUNE>_POS_<YYYYMMDD>_HT<ENTIER>,,40,
 141baeca8a42ca851caf164cf13c79da,dca63cdf569fa66188e9aaa68433ea53,WKT,Géométrie,"Géométrie associée",MultiPolygon,t,t,t,,,,,
-50b2989b6cb06f4256be4c45fb0ffb4a,dca63cdf569fa66188e9aaa68433ea53,TYPEGEN,TYPEGEN,,String,t,t,f,"[""Station""]",,,40,
+50b2989b6cb06f4256be4c45fb0ffb4a,dca63cdf569fa66188e9aaa68433ea53,TYPEGEN,TYPEGEN,,String,t,t,f,"[""Remontée mécanique ou piste de ski""]",,,40,
 8200ce683ce3355a0a257dc9c3abd983,dcfbb183fb59b198911385092a3e00cc,WKT,Géométrie,"Géométrie associée",MultiPoint,t,t,t,,,,,
 b013a94f6356a3e85bc8cb9aba8fb6c4,dcfbb183fb59b198911385092a3e00cc,TYPEGEN,TYPEGEN,,String,t,t,f,"[""Zone dégagement""]",,,40,
 b121c65f8ef0371dedbd41b8a7f115a2,dd2a46d4b29e7ae56149831b07fb9bb2,TYPE,TYPE,"type du site",String,f,t,f,,,,30,ListeTypeSUPReserve(TYPE)

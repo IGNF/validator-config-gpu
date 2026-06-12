@@ -478,10 +478,17 @@
     ],
     "codes": [
         {
-            "data": "./codes/PrescriptionPSMVType.csv",
+            "data": "./codes/PrescriptionLPSMVType.csv",
+            "id": "0bc5e5cf31755f77f04d91d554c0d540",
+            "name": "PrescriptionLPSMVType",
+            "title": "PrescriptionLPSMVType",
+            "description": "PrescriptionLPSMVType"
+        },
+        {
+            "data": "./codes/PrescriptionPPSMVType.csv",
             "id": "13c55738f73d43faa59adffc27a5e14c",
-            "name": "PrescriptionPSMVType",
-            "title": "PrescriptionPSMVType"
+            "name": "PrescriptionPPSMVType",
+            "title": "PrescriptionPPSMVType"
         },
         {
             "data": "./codes/InformationLPSMVType.csv",
@@ -506,6 +513,13 @@
             "id": "53a17cb3806a5d376501c28c410151bb",
             "name": "ListeEtatPLU",
             "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/PrescriptionSPSMVType.csv",
+            "id": "b22bb2218dd01b2f970ab28e679fa182",
+            "name": "PrescriptionSPSMVType",
+            "title": "PrescriptionSPSMVType",
+            "description": "PrescriptionSPSMVType"
         },
         {
             "data": "./codes/ListeTypedocPSMV.csv",
