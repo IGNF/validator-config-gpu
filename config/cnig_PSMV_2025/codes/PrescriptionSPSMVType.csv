@@ -7,6 +7,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 02,02,"Secteur avec conditions spéciales de constructibilité pour des raisons environnementales, de risques, d’intérêt général",,R151-34 1°
 03,00,"Secteur avec disposition de reconstruction / démolition",L151-10,R151-34 3°
 03,02,Interdiction de restauration de bâtiment dont il reste l’essentiel des murs porteurs,L111-23,
+03,03,Interdiction de reconstruction à l'identique,,
 03,51,"Immeuble ou partie d’immeuble dont la démolition peut être imposée à l’occasion d’opérations d’aménagement publiques ou privées","L313-1 III 2°","R313-5 3e alinéa"
 05,01,Emplacement réservé aux voies publiques,,R151-48 2°
 05,02,Emplacement réservé aux ouvrages publics,,R151-50 1°
@@ -14,6 +15,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 05,04,Emplacement réservé aux espaces verts/continuités écologiques,,R151-43 3°
 05,05,Emplacement réservé logement social/mixité sociale,,R151-38 1°
 05,07,Secteur de projet en attente d’un projet d’aménagement global,,R151-32 
+05,08,"Emplacements réservés à la relocalisation d’équipements, de constructions et d’installations exposés au recul du trait de côte",,
 07,00,"Patrimoine bâti, paysager ou éléments de paysages à protéger pour des motifs d'ordre culturel, historique, architectural ou écologique","L313-1 III 1°, L313-1 IV et L631-4 CP I 2°c","R313-5 4e al, R151-41 3° et R151-43 5°"
 07,01,"Patrimoine bâti à protéger pour des motifs d'ordre culturel, historique, architectural",,R151-41 3°
 07,02,"Patrimoine paysager à protéger pour des motifs d'ordre culturel, historique, architectural",,R151-41 3°
@@ -50,9 +52,14 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 18,02,OAP entrées de ville,L151-7 1°,R313-4
 18,05,"OAP patrimoniales, architecturales et écologiques",,
 18,08,OAP relatives aux transports et aux déplacements,,
+18,09,OAP relatives aux espaces publics en zone d’aménagement concerté S
+18,10,OAP relatives aux ouvrages publics, installations d’intérêt général et espaces verts en zone d’aménagement concerté,
+18,11,OAP valant création de zone d’aménagement concerté,
 18,12,OAP secteurs de renaturation L.,151-7 I 4°,
 18,13,OAP relatives à la protection des franges urbaines et rurales,L.151-7 I 7°,
 18,14,OAP recul du trait de côte,L.151-7 III,
+18,15,OAP trames vertes et bleues,
+18,16,OAP zone d’accélération de la production d’énergies renouvelables,
 19,00,Secteur protégé en raison de la richesse du sol et du sous-sol,,R151-34 2°
 20,00,Secteur à transfert de constructibilité en zone N,,R151-36 
 22,00,Diversité commerciale à protéger ou à développer,,R151-37 4°
@@ -126,7 +133,6 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 44,02,Stationnement maximal,,R151-45 3°
 44,03,Caractéristiques et type de stationnement,,R151-45 1°
 44,04,Minoration des règles de stationnement,,R151-45 2°
-44,05,Réalisation d’aires de livraisons imposée,L151-33-1,
 44,98,Stationnement règles alternatives,,R151-13
 47,00,Desserte par les réseaux,,R151-49 
 47,01,Réseaux publics d'eau,,R151-49 
@@ -145,8 +151,8 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 53,00,"dérogation à l’article L.111-6 pour l’implantation des constructions le long des grands axes routiers",L.111-8,
 54,01,Zone exposée au recul du trait de côte à l'horizon de trente ans,,
 54,02,Zone exposée au recul du trait de côte à un horizon compris entre trente et cent ans,,
-55,00,"Secteur d’implantation d’installations de production d'énergies renouvelables, et leurs ouvrages de raccordement, soumises à conditions",,
-55,01,Secteur d'exclusion d'installations de prod. d'énergies renouvelables,,
+55,01,"Secteur d’implantation d’installations de production d'énergies renouvelables, et leurs ouvrages de raccordement, soumises à conditions",,
+55,02,Secteur d'exclusion d'installations de prod. d'énergies renouvelables,,
 56,00,Secteur dans lequel toutes les constructions nouvelles de logements sont à usage exclusif de résidence principale,,
 97,00,"Périmètre d’application d’une pièce écrite territorialisée (rapport de présentation, PADD, règlement, règlement graphique, POA)",,
 99,00,Autre,,
