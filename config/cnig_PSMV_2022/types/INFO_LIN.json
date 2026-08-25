@@ -1,12 +1,12 @@
 {
-    "id": "03e3284def29a409c67d8edc0bec5460",
+    "id": "e782d911268f1b2a943c8ce7664a7fc4",
     "name": "INFO_LIN",
     "title": "INFO_LIN",
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
     "columns": [
         {
             "type": "MultiLineString",
-            "id": "13a1e9482bf5560b2c15c1a844eb3ddb",
+            "id": "29ae7ceca250d09f22d23aa0edeb2d5e",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
@@ -18,9 +18,10 @@
         },
         {
             "type": "String",
-            "id": "1bc54b2b2081801d20631e85097acd4f",
-            "name": "STYPEINF",
-            "title": "STYPEINF",
+            "id": "38bfeaa9f10544054e0a2c65cc635956",
+            "name": "TYPEINF",
+            "title": "TYPEINF",
+            "description": "Type d'information linéaire dans une liste prédéfinie",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -30,9 +31,10 @@
         },
         {
             "type": "String",
-            "id": "3f3d5193572cfcbcc33dad55f6ce525f",
+            "id": "41c60df02a285a1a44e96760d422eba9",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
+            "description": "SYMBOLE",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -43,20 +45,33 @@
         },
         {
             "type": "String",
-            "id": "46ac427b0b8dc6e5cdedd577a8651ac1",
-            "name": "TXT",
-            "title": "TXT",
-            "description": "Nom court de l'information servant à faire une étiquette",
+            "id": "4b7ea42cc5711743fb60dc57caf41a2e",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Nom complet de l'information",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "Url",
+            "id": "4f9d4d0e8e19f7ac817abca7a7c63cfc",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "maxLength": 10
+                "maxLength": 254
             }
         },
         {
             "type": "Filename",
-            "id": "52351be87931dc998f5b66b1053f8bd5",
+            "id": "7108b3b44ad50312d1af79b0c241c793",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
@@ -69,7 +84,31 @@
         },
         {
             "type": "String",
-            "id": "6575f5fb6f3391cb247a97d71c77b586",
+            "id": "7eb637f9a8b02d1f8574c72414a6a618",
+            "name": "STYPEINF",
+            "title": "STYPEINF",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "862e0f80d14c245afb0a13aad1de227e",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "type": "String",
+            "id": "a0cd9e38cba2fce8493d497da6301c6e",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
@@ -82,60 +121,38 @@
         },
         {
             "type": "String",
-            "id": "c55e29a593312388a15085c8172e814a",
-            "name": "TYPEINF",
-            "title": "TYPEINF",
-            "description": "Type d'information linéaire dans une liste prédéfinie",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 2
-            }
-        },
-        {
-            "type": "Url",
-            "id": "fdc9e483ed3fb037fca6b89fa32a663e",
-            "name": "URLFIC",
-            "title": "URLFIC",
-            "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
+            "id": "a36c7c9a6f52edfc1b22b9669f7970f5",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court de l'information servant à faire une étiquette",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "maxLength": 254
+                "maxLength": 10
             }
         },
         {
             "type": "String",
-            "id": "fede8cd7de097e84ece8052d2d9cc588",
-            "name": "DATVALID",
-            "title": "DATVALID",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "pattern": "[0-9]{8}"
-            }
-        },
-        {
-            "type": "String",
-            "id": "ff7360b934029e037d3d387bbf0dd153",
-            "name": "LIBELLE",
-            "title": "LIBELLE",
-            "description": "Nom complet de l'information",
+            "id": "f9d980f062d7a8c043c4ee8ccff56a33",
+            "name": "LIB_IDINFO",
+            "title": "LIB_IDINFO",
+            "description": "identifiant d'objets",
             "constraints": {
                 "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 254
+                "presenceRequired": false,
+                "unique": true,
+                "pattern": "[AB0-9]{5}_PSMV_[0-9]{8}_IL[0-9]+",
+                "maxLength": 40
             }
         }
     ],
     "constraints": {
-        "conditions": [],
+        "conditions": [
+            "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
+        ],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationPSMVType(TYPEINF, STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationLPSMVType(TYPEINF, STYPEINF)"
         ]
     }
 }

@@ -1,12 +1,12 @@
 {
-    "id": "2c39f5db48c5d333ccd38e79c54ad05d",
+    "id": "b161d88193c4dd16c24c954b343d965d",
     "name": "INFO_SURF",
     "title": "INFO_SURF",
     "description": "INFO_SURF",
     "columns": [
         {
             "type": "Url",
-            "id": "0b5e200821a6528c40dfa97004f360e5",
+            "id": "0c595a8199cbb88e8f8797c730d33829",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
@@ -19,84 +19,7 @@
         },
         {
             "type": "String",
-            "id": "2130fee24df09e39a97f8f41e3d8a6a6",
-            "name": "TXT",
-            "title": "TXT",
-            "description": "Nom court du périmètre servant à faire une étiquette",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 10
-            }
-        },
-        {
-            "type": "String",
-            "id": "2b2b062347787a3e432bdbd8a7a9dc83",
-            "name": "LIB_IDINFO",
-            "title": "LIB_IDINFO",
-            "description": "identifiant d'objets",
-            "constraints": {
-                "required": true,
-                "presenceRequired": false,
-                "unique": true,
-                "pattern": "[0-9]{9}_PLUI_[0-9]{8}_IS[0-9]+",
-                "maxLength": 40
-            }
-        },
-        {
-            "type": "String",
-            "id": "3127ea5231945a3b2ddde92dbd8d67c0",
-            "name": "DATVALID",
-            "title": "DATVALID",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "pattern": "[0-9]{8}"
-            }
-        },
-        {
-            "type": "String",
-            "id": "323df7577eb8e439a6ce83a5ccf25b8f",
-            "name": "IDURBA",
-            "title": "IDURBA",
-            "description": "Identifiant du document d'urbanisme",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 30
-            }
-        },
-        {
-            "type": "String",
-            "id": "3c901580980b757eeecccde26258d06b",
-            "name": "TYPEINF",
-            "title": "TYPEINF",
-            "description": "Type de périmètre dans une liste prédéfinie",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 2
-            }
-        },
-        {
-            "type": "MultiPolygon",
-            "id": "3edbb775ed6123082c1bd7199b26d4eb",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": true
-            }
-        },
-        {
-            "type": "String",
-            "id": "78a2625437684fce99719161184085d3",
+            "id": "0f48aaea912d1599e6930b303b56fa89",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
@@ -109,8 +32,45 @@
             }
         },
         {
+            "type": "String",
+            "id": "19df66a832c612ea828219a856756d8d",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court du périmètre servant à faire une étiquette",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 10
+            }
+        },
+        {
+            "type": "MultiPolygon",
+            "id": "1c0021b25195d35a9197811818c53fa3",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "5c87792d7b844c439cb3e3de18270d91",
+            "name": "STYPEINF",
+            "title": "STYPEINF",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 2
+            }
+        },
+        {
             "type": "Filename",
-            "id": "82e3bca538def3c8cc60042a0b425122",
+            "id": "821384e3e1f7f8d99b96623ae26ac30e",
             "name": "NOMFIC",
             "title": "NOMFIC",
             "description": "Nom du fichier contenant le texte décrivant l'information reportée",
@@ -123,7 +83,45 @@
         },
         {
             "type": "String",
-            "id": "be8e169277c055958bfdd61c64850fa3",
+            "id": "8268a16c7bb0dab980b3b32d2cd61b9b",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "868599c6ade42acd4c8678873347d8b6",
+            "name": "TYPEINF",
+            "title": "TYPEINF",
+            "description": "Type de périmètre dans une liste prédéfinie",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "af790d44e36d31e6b4555e10b0c289ea",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        },
+        {
+            "type": "String",
+            "id": "b884f9542144fc685cbc66ddb37aa7ce",
             "name": "LIBELLE",
             "title": "LIBELLE",
             "description": "Nom complet du périmètre",
@@ -136,14 +134,16 @@
         },
         {
             "type": "String",
-            "id": "e875bd90d4d0740cf524c9f64416411e",
-            "name": "STYPEINF",
-            "title": "STYPEINF",
+            "id": "bb297d1daaad9e069b9342b2ff608a5e",
+            "name": "LIB_IDINFO",
+            "title": "LIB_IDINFO",
+            "description": "identifiant d'objets",
             "constraints": {
                 "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 2
+                "presenceRequired": false,
+                "unique": true,
+                "pattern": "[0-9]{9}_PLUi_[0-9]{8}_IS[0-9]+",
+                "maxLength": 40
             }
         }
     ],
@@ -152,7 +152,7 @@
             "NOMFIC NOT NULL OR TYPEINF NOT LIKE '97'"
         ],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationSUrbaType(TYPEINF, STYPEINF)"
         ]
     }
 }

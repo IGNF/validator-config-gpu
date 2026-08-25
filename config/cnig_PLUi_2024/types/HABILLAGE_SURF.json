@@ -1,26 +1,24 @@
 {
-    "id": "1e0b25367c705e2a51e62276668c1d7a",
+    "id": "6d6e3c4a48fb72b5d0cec2d6e7baa2eb",
     "name": "HABILLAGE_SURF",
     "title": "HABILLAGE_SURF",
     "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
-            "type": "String",
-            "id": "0455f479379385a06a4c96639e65defe",
-            "name": "LIB_IDHAB",
-            "title": "LIB_IDHAB",
-            "description": "identifiant d'objets",
+            "type": "MultiPolygon",
+            "id": "05760c204bb4740eb997b55057943749",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
             "constraints": {
                 "required": true,
-                "presenceRequired": false,
-                "unique": true,
-                "pattern": "[0-9]{9}_PLUI_[0-9]{8}_HS[0-9]+",
-                "maxLength": 40
+                "presenceRequired": true,
+                "unique": true
             }
         },
         {
             "type": "String",
-            "id": "af48ba37b9f73ad938739d7022ab3b24",
+            "id": "39769a5dbac86a1079cb1058b6c2bb8c",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
@@ -33,7 +31,21 @@
         },
         {
             "type": "String",
-            "id": "c89bb006da82775b591d3b3e2f3c76d6",
+            "id": "400414d9abadb6ff9a5f6b8cd01765ca",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": true,
+                "presenceRequired": false,
+                "unique": true,
+                "pattern": "[0-9]{9}_PLUi_[0-9]{8}_HS[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "513c8e1e1dca34ce50904957eded17fe",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature du polygon",
@@ -46,7 +58,7 @@
         },
         {
             "type": "String",
-            "id": "db37c51953e88165224a9bb759b76ad9",
+            "id": "b093a66fc541966b34abdc8a406a54f3",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
@@ -56,18 +68,6 @@
                 "unique": false,
                 "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
                 "maxLength": 11
-            }
-        },
-        {
-            "type": "MultiPolygon",
-            "id": "e20b543727dda78d098e1bb538399b03",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": true
             }
         }
     ]

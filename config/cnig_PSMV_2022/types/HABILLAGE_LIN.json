@@ -1,12 +1,26 @@
 {
-    "id": "9b26d41c4b264af1642609caed4d2759",
+    "id": "93a0ad600677d9ca33d13cbdf26c4c14",
     "name": "HABILLAGE_LIN",
     "title": "HABILLAGE_LIN",
     "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
             "type": "String",
-            "id": "38a0b536e9f5d0c2878e341fbf34ffb2",
+            "id": "424696689e211a213cb1cd88e758133b",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": true,
+                "presenceRequired": false,
+                "unique": true,
+                "pattern": "[AB0-9]{5}_PSMV_[0-9]{8}_HL[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "5efe3318d19d9c2ba2bf1accd9f778c4",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
@@ -18,20 +32,8 @@
             }
         },
         {
-            "type": "MultiLineString",
-            "id": "53763fada0ac54fcde60a675940bee9e",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": true
-            }
-        },
-        {
             "type": "String",
-            "id": "670feeb42a9a1e46c404a1f9b23fa767",
+            "id": "91b188569d1679594e1f1887f596016b",
             "name": "COULEUR",
             "title": "COULEUR",
             "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
@@ -44,8 +46,20 @@
             }
         },
         {
+            "type": "MultiLineString",
+            "id": "d3166226671e259807267e0a9fc37d69",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": true
+            }
+        },
+        {
             "type": "String",
-            "id": "79297be844cbc1078e85e53977aff128",
+            "id": "f69849999e903a4cefd8952e25124189",
             "name": "NATTRAC",
             "title": "NATTRAC",
             "description": "Nature de la ligne",

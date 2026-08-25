@@ -1,26 +1,25 @@
 {
-    "id": "97970ffe4bfcc9c31327c80f263a219e",
+    "id": "2899f4c571af62a009b472e7266410af",
     "name": "HABILLAGE_PCT",
     "title": "HABILLAGE_PCT",
     "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
     "columns": [
         {
             "type": "String",
-            "id": "00f967785eeee5999a83c5f5f180c96e",
-            "name": "COULEUR",
-            "title": "COULEUR",
-            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "id": "474301e95c9a65089226ff85ae53cc29",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du point",
             "constraints": {
-                "required": false,
+                "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
-                "maxLength": 11
+                "maxLength": 40
             }
         },
         {
             "type": "String",
-            "id": "1508048e93b245c15255ebfea84986a5",
+            "id": "65ffd3ef022b054d0f4ab007bec2495c",
             "name": "IDURBA",
             "title": "IDURBA",
             "description": "Identifiant du document d'urbanisme",
@@ -33,7 +32,7 @@
         },
         {
             "type": "String",
-            "id": "1c076e3cb6d59370b9735325237f6458",
+            "id": "76ec26b1175e2e3750900bee58fbb1ca",
             "name": "LIB_IDHAB",
             "title": "LIB_IDHAB",
             "description": "identifiant d'objets",
@@ -41,13 +40,27 @@
                 "required": true,
                 "presenceRequired": false,
                 "unique": true,
-                "pattern": "[0-9]{9}_PLUI_[0-9]{8}_HP[0-9]+",
+                "pattern": "[0-9]{9}_PLUi_[0-9]{8}_HP[0-9]+",
                 "maxLength": 40
             }
         },
         {
+            "type": "String",
+            "id": "a0834bf8eb621f855da01bf1430e14d7",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
             "type": "MultiPoint",
-            "id": "55eee9eaef522bafec7e196ff9072ed7",
+            "id": "f3bb2d516250b5e7324d3d5904fe07cf",
             "name": "WKT",
             "title": "Géométrie",
             "description": "Géométrie associée",
@@ -55,19 +68,6 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": true
-            }
-        },
-        {
-            "type": "String",
-            "id": "6cce22276a97610ffe3a12feee35d067",
-            "name": "NATTRAC",
-            "title": "NATTRAC",
-            "description": "Nature du point",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 40
             }
         }
     ]

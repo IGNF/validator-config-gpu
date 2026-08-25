@@ -1,12 +1,25 @@
 {
-    "id": "6de5a169ad53faf3b7cccc893d329474",
+    "id": "e496fe3abfa524063637cd85af60eea4",
     "name": "SECTEUR_CC",
     "title": "SECTEUR_CC",
     "description": "Table contenant les secteurs de la carte communale",
     "columns": [
         {
+            "type": "Filename",
+            "id": "1d1c2a093f7a668f531f2cce83d74ac5",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier contenant les dispositions particulières du secteur",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
             "type": "String",
-            "id": "2c46f410e6b0476611c7489bbd0901f8",
+            "id": "21fc69d02bc57a7342f3a3f13763d479",
             "name": "LIB_IDZONE",
             "title": "LIB_IDZONE",
             "description": "identifiant d'objets",
@@ -19,86 +32,20 @@
             }
         },
         {
-            "type": "String",
-            "id": "2dcfaa1dd79f7e43247b9436d5a88af8",
-            "name": "LIBELLE",
-            "title": "LIBELLE",
-            "description": "Libellé du secteur tel que le définit la carte communale",
+            "type": "MultiPolygon",
+            "id": "3235099cd36fa77a5b817b821febec52",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": false,
-                "maxLength": 254
+                "unique": true
             }
         },
         {
             "type": "String",
-            "id": "3cb0416bc375915e8ecbb12570174fa3",
-            "name": "TYPESECT",
-            "title": "TYPESECT",
-            "description": "Type du secteur dans une nomenclature simplifiée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 3
-            }
-        },
-        {
-            "type": "String",
-            "id": "3fbd7236c8ef3eaa03a38e1b8b2c41ab",
-            "name": "IDURBA",
-            "title": "IDURBA",
-            "description": "Identifiant du document d'urbanisme",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 30
-            }
-        },
-        {
-            "type": "Url",
-            "id": "653154470265a16bc3a8a2c22a5e5d41",
-            "name": "URLFIC",
-            "title": "URLFIC",
-            "description": "Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 254
-            }
-        },
-        {
-            "type": "String",
-            "id": "6b5b779769f67153ea4b2e293843e6f5",
-            "name": "LIBELONG",
-            "title": "LIBELONG",
-            "description": "Nom complet littéral du secteur",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 254
-            }
-        },
-        {
-            "type": "String",
-            "id": "6f54b79e1766262aab728cfa5473d081",
-            "name": "FERMRECO",
-            "title": "FERMRECO",
-            "description": "Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 3
-            }
-        },
-        {
-            "type": "String",
-            "id": "75992d2cb1724c6d21cefc53a8914f54",
+            "id": "4418bc49ae72f727e58d83ea98a51171",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
@@ -112,7 +59,46 @@
         },
         {
             "type": "String",
-            "id": "838c7c4f7f7193038fbbe7ce5d7cf35c",
+            "id": "5db14d787b1238bd9dab98ad24072bb5",
+            "name": "FERMRECO",
+            "title": "FERMRECO",
+            "description": "Le secteur est fermé à la reconstruction à l'identique si la carte communale le précise",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 3
+            }
+        },
+        {
+            "type": "String",
+            "id": "67223cf69fd2418b3c38cdd7f77e8a12",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Libellé du secteur tel que le définit la carte communale",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "86858262ec7f6938fef94b15e6a46d15",
+            "name": "TYPESECT",
+            "title": "TYPESECT",
+            "description": "Type du secteur dans une nomenclature simplifiée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 3
+            }
+        },
+        {
+            "type": "String",
+            "id": "91aaf5ad4722d1a0bb700cbfc28f0f8d",
             "name": "DATVALID",
             "title": "DATVALID",
             "description": "Date de la dernière validation du secteur ou de ses dispositions particulières",
@@ -124,28 +110,42 @@
             }
         },
         {
-            "type": "MultiPolygon",
-            "id": "ca70651e851c515ea620e6355ba67255",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": true
-            }
-        },
-        {
-            "type": "Filename",
-            "id": "fb04af520d0e6d02380b94a453ea993a",
-            "name": "NOMFIC",
-            "title": "NOMFIC",
-            "description": "Nom du fichier contenant les dispositions particulières du secteur",
+            "type": "Url",
+            "id": "bc01aba7c89134923334ebe9bccd8a4f",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "Lien URL ou URI d’accès aux dispositions particulières du secteur, contenues dans le rapport de présentation de la carte communale",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "maxLength": 80
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "d5880fa6911a751d732ba265df54ccee",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "dbe99128ebff091560c6587a9fae1bc0",
+            "name": "LIBELONG",
+            "title": "LIBELONG",
+            "description": "Nom complet littéral du secteur",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 254
             }
         }
     ],

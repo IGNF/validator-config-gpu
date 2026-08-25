@@ -1,25 +1,12 @@
 {
-    "id": "6135d9393706f96978745a457331d5f0",
+    "id": "818cc1bed15eab2eecfa2378fd95262b",
     "name": "INFO_PCT",
     "title": "INFO_PCT",
     "description": "Table contenant les informations ponctuelles à reporter à titre  d'information",
     "columns": [
         {
-            "type": "String",
-            "id": "08694d45e6004d5db2b6737ee36fdd5f",
-            "name": "LIBELLE",
-            "title": "LIBELLE",
-            "description": "Nom complet de l’information reportée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 254
-            }
-        },
-        {
             "type": "Url",
-            "id": "19f763ac69e9d6846aab0eaf035f7fa6",
+            "id": "0fbcea1211ba0f73112f627cea485efc",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "Lien URL d’accès au fichier contenant le texte décrivant l'information",
@@ -31,34 +18,21 @@
             }
         },
         {
-            "type": "String",
-            "id": "1ca9def26efdfc9988f0c8f7d6365d73",
-            "name": "IDURBA",
-            "title": "IDURBA",
-            "description": "Identifiant du document d'urbanisme",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 30
-            }
-        },
-        {
-            "type": "String",
-            "id": "2d373a4f962bdd3dbca589dc988bad01",
-            "name": "TXT",
-            "title": "TXT",
-            "description": "Nom court servant à faire une étiquette",
+            "type": "Filename",
+            "id": "2c493eff4f8e0698c084686d7dca799f",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier contenant le texte décrivant l'information reportée",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "maxLength": 10
+                "maxLength": 80
             }
         },
         {
             "type": "String",
-            "id": "3667213e420765e0a0c238fc7012ad6f",
+            "id": "3b2e8760e965c2444b28da04333082b8",
             "name": "DATVALID",
             "title": "DATVALID",
             "constraints": {
@@ -70,46 +44,7 @@
         },
         {
             "type": "String",
-            "id": "4188d0644d26bd61f57be92a00b728f7",
-            "name": "STYPEP",
-            "title": "STYPEP",
-            "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 2
-            }
-        },
-        {
-            "type": "String",
-            "id": "62ad28905c997b301e9c6b2831f07f54",
-            "name": "TYPEINF",
-            "title": "TYPEINF",
-            "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 2
-            }
-        },
-        {
-            "type": "String",
-            "id": "bad3d2edcd3a294e11faa9d6f11df581",
-            "name": "NATURE",
-            "title": "NATURE",
-            "description": "NATURE",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 50
-            }
-        },
-        {
-            "type": "String",
-            "id": "c09759c5818268f9e06f40325ff33788",
+            "id": "4fd9c091e383c07fc802fef12fc6b6b3",
             "name": "LIB_IDINFO",
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
@@ -122,33 +57,8 @@
             }
         },
         {
-            "type": "Filename",
-            "id": "cd7b5cf0996ab031d6a4f8929076758c",
-            "name": "NOMFIC",
-            "title": "NOMFIC",
-            "description": "Nom du fichier contenant le texte décrivant l'information reportée",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 80
-            }
-        },
-        {
-            "type": "MultiPoint",
-            "id": "d2a8c40b76bf09f9269f133bfb410381",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": true
-            }
-        },
-        {
             "type": "String",
-            "id": "ed400c237800cf1b92f71fbfe3f030b2",
+            "id": "5a51f5c32c4df12f716a5783f4eec6cc",
             "name": "STYPEINF",
             "title": "STYPEINF",
             "constraints": {
@@ -160,7 +70,7 @@
         },
         {
             "type": "String",
-            "id": "f506c299700d9636f8fad84ef9e1e1f0",
+            "id": "613d9a5a97609d2c2c5489a0783f4ac6",
             "name": "TYPEP",
             "title": "TYPEP",
             "constraints": {
@@ -172,7 +82,71 @@
         },
         {
             "type": "String",
-            "id": "f656df8e0132928775594c87aa30f908",
+            "id": "6b48374972893db21391fbe54c08cc7e",
+            "name": "TYPEINF",
+            "title": "TYPEINF",
+            "description": "Type de l’information. Les valeurs mentionnées sont celles qui ont une justification au regard du code de l’urbanisme",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "74da1e0b31dd00c7b30c916b199cbecb",
+            "name": "NATURE",
+            "title": "NATURE",
+            "description": "NATURE",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 50
+            }
+        },
+        {
+            "type": "String",
+            "id": "ad7998d643d6ae315b7e36f788cb9d4c",
+            "name": "STYPEP",
+            "title": "STYPEP",
+            "description": "Type complémentaire qualifiant l’information selon la classification utilisée pour les prescriptions",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 2
+            }
+        },
+        {
+            "type": "String",
+            "id": "ba4f867f88aedb968f66d87e39a38cc0",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Nom complet de l’information reportée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "MultiPoint",
+            "id": "c0e5396edb63627dcf644e9ba623cac1",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "String",
+            "id": "c11a715a623f4fc27926f04153aba31b",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
@@ -182,6 +156,32 @@
                 "unique": false,
                 "pattern": "INF-P_[0-9]{2}-[0-9]{2}_[0-9]{3}",
                 "maxLength": 20
+            }
+        },
+        {
+            "type": "String",
+            "id": "c3d8d6667b8e84c8db24cad2ed945e62",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "ebc15b772b7fafe6ae376ded3162f492",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court servant à faire une étiquette",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 10
             }
         }
     ],
@@ -193,7 +193,7 @@
         ],
         "foreignKeys": [
             "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)",
+            "(TYPEINF, STYPEINF) REFERENCES InformationPUrbaType(TYPEINF, STYPEINF)",
             "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
         ]
     }

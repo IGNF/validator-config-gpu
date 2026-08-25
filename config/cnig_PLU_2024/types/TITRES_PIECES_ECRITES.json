@@ -1,11 +1,11 @@
 {
-    "id": "faedf6085074ace158ca6050fa3bac84",
+    "id": "d14952f58ebf1b180dd2c3a8abc5fb9b",
     "name": "TITRES_PIECES_ECRITES",
     "title": "TITRES_PIECES_ECRITES",
     "columns": [
         {
             "type": "String",
-            "id": "8c087cdc8951fdfb7e5c6d4d8ae82192",
+            "id": "350c69e757655ee320b4137b6b5510d6",
             "name": "TITRE",
             "title": "TITRE",
             "constraints": {
@@ -17,7 +17,7 @@
         },
         {
             "type": "Filename",
-            "id": "e2d7f75e02898e27f75370e7e50f8238",
+            "id": "5a70f9f55996fad979e73becf731d164",
             "name": "FICHIER",
             "title": "FICHIER",
             "constraints": {

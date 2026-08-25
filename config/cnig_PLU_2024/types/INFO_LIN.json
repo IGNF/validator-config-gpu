@@ -1,12 +1,25 @@
 {
-    "id": "36f0005543b8e7a769384b546d56ed34",
+    "id": "cdc224f016595cc49d968f0c4a8af992",
     "name": "INFO_LIN",
     "title": "INFO_LIN",
     "description": "Table contenant les informations linéaires à reporter à titre d'information",
     "columns": [
         {
             "type": "String",
-            "id": "0349858d1b18414fd3362983feb1b92f",
+            "id": "1c37db058946a811594af48417596b9c",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Nom complet de l'information",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "3eff82b65c648d49e8588e570d275970",
             "name": "STYPEINF",
             "title": "STYPEINF",
             "constraints": {
@@ -17,21 +30,20 @@
             }
         },
         {
-            "type": "Filename",
-            "id": "1e2f39abcb4c4974e14a74ef14af83cc",
-            "name": "NOMFIC",
-            "title": "NOMFIC",
-            "description": "Nom du fichier contenant le texte décrivant l'information reportée",
+            "type": "String",
+            "id": "5f222065729483bf9a01281d627990d6",
+            "name": "DATVALID",
+            "title": "DATVALID",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "maxLength": 80
+                "pattern": "[0-9]{8}"
             }
         },
         {
             "type": "String",
-            "id": "37e25c854006bfbc6506fb3a8c6e2363",
+            "id": "893ddd805b6de56fae9169f878c1dacd",
             "name": "TYPEINF",
             "title": "TYPEINF",
             "description": "Type d'information linéaire dans une liste prédéfinie",
@@ -43,8 +55,21 @@
             }
         },
         {
+            "type": "String",
+            "id": "8f3175924d5ea83b21d740d4ca0032f7",
+            "name": "TXT",
+            "title": "TXT",
+            "description": "Nom court de l'information servant à faire une étiquette",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 10
+            }
+        },
+        {
             "type": "Url",
-            "id": "7336f3774827e61ece49560498db7e46",
+            "id": "9036e39c50267888c817a7f2a14dbb9b",
             "name": "URLFIC",
             "title": "URLFIC",
             "description": "URL ou URI qui pointe sur le fichier de règlement de l'information",
@@ -57,7 +82,33 @@
         },
         {
             "type": "String",
-            "id": "80212fa5a3f8eb6518e9495ba4e43047",
+            "id": "9373f7592ed1be9aca06ade75657b0a4",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "Filename",
+            "id": "a371f5d8adb7b2eca068093c447a1a64",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier contenant le texte décrivant l'information reportée",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
+            "id": "a9ea8c0807639fb2e0851525fdef00f7",
             "name": "LIB_IDINFO",
             "title": "LIB_IDINFO",
             "description": "identifiant d'objets",
@@ -71,44 +122,7 @@
         },
         {
             "type": "String",
-            "id": "877a8f3087b86c11515925c2b18911a6",
-            "name": "DATVALID",
-            "title": "DATVALID",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "pattern": "[0-9]{8}"
-            }
-        },
-        {
-            "type": "MultiLineString",
-            "id": "8a20fc5e196289bdc6a4e8a55dd367e9",
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": true
-            }
-        },
-        {
-            "type": "String",
-            "id": "9e6946f3c3232c1f54b5f872900a79bd",
-            "name": "LIBELLE",
-            "title": "LIBELLE",
-            "description": "Nom complet de l'information",
-            "constraints": {
-                "required": true,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 254
-            }
-        },
-        {
-            "type": "String",
-            "id": "cf16020e81b98b84c21a62a40868877b",
+            "id": "cbb43c19d0b3c6ff18d1288b0f69fdba",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
             "description": "SYMBOLE",
@@ -121,29 +135,15 @@
             }
         },
         {
-            "type": "String",
-            "id": "dc5aead62b00083912e2f13375819fd9",
-            "name": "TXT",
-            "title": "TXT",
-            "description": "Nom court de l'information servant à faire une étiquette",
-            "constraints": {
-                "required": false,
-                "presenceRequired": true,
-                "unique": false,
-                "maxLength": 10
-            }
-        },
-        {
-            "type": "String",
-            "id": "f867739c2ed9393b3a2594d4d25ccfb1",
-            "name": "IDURBA",
-            "title": "IDURBA",
-            "description": "Identifiant du document d'urbanisme",
+            "type": "MultiLineString",
+            "id": "f54c13a66d035f10a95804ffa1d5fdbf",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": false,
-                "maxLength": 30
+                "unique": true
             }
         }
     ],
@@ -152,7 +152,7 @@
             "NOMFIC IS NOT NULL OR TYPEINF NOT LIKE '97'"
         ],
         "foreignKeys": [
-            "(TYPEINF, STYPEINF) REFERENCES InformationUrbaType(TYPEINF, STYPEINF)"
+            "(TYPEINF, STYPEINF) REFERENCES InformationLUrbaType(TYPEINF, STYPEINF)"
         ]
     }
 }
