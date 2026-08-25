@@ -1,0 +1,74 @@
+{
+    "id": "1e0b25367c705e2a51e62276668c1d7a",
+    "name": "HABILLAGE_SURF",
+    "title": "HABILLAGE_SURF",
+    "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "columns": [
+        {
+            "type": "String",
+            "id": "0455f479379385a06a4c96639e65defe",
+            "name": "LIB_IDHAB",
+            "title": "LIB_IDHAB",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": true,
+                "presenceRequired": false,
+                "unique": true,
+                "pattern": "[0-9]{9}_PLUI_[0-9]{8}_HS[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "af48ba37b9f73ad938739d7022ab3b24",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "c89bb006da82775b591d3b3e2f3c76d6",
+            "name": "NATTRAC",
+            "title": "NATTRAC",
+            "description": "Nature du polygon",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "db37c51953e88165224a9bb759b76ad9",
+            "name": "COULEUR",
+            "title": "COULEUR",
+            "description": "Couleur de l’élément graphique, sous la forme rouge-vert-bleu (RVB)",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{3}",
+                "maxLength": 11
+            }
+        },
+        {
+            "type": "MultiPolygon",
+            "id": "e20b543727dda78d098e1bb538399b03",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": true
+            }
+        }
+    ]
+}

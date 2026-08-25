@@ -1,0 +1,205 @@
+{
+    "id": "747305428b0fb83c29c577ce02f3e830",
+    "name": "ZONE_URBA",
+    "title": "ZONE_URBA",
+    "description": "Table contenant les zones d'un document PLU ou POS",
+    "columns": [
+        {
+            "type": "MultiPolygon",
+            "id": "1e0444eb40b0039d1e774eb92522db01",
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": true
+            }
+        },
+        {
+            "type": "Url",
+            "id": "30bf749f36abf413672cb092cda6bc08",
+            "name": "URLFIC",
+            "title": "URLFIC",
+            "description": "URL ou URI qui pointe sur le fichier de règlement de la zone ou à défaut du règlement intégral indexé",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "368f37e453b91815d9322d97bb3b24fe",
+            "name": "DESTNON",
+            "title": "DESTNON",
+            "description": "DESTNON",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "(-?(10|11|12|20|21|22|30|31|32|33|34|35|36|37|40|41|42|43|44|45|46|47|50|51|52|53|54|55|99))+",
+                "minLength": 2,
+                "maxLength": 120
+            }
+        },
+        {
+            "type": "String",
+            "id": "46a84c28d55742f8c7f222f7beb63f7f",
+            "name": "LIBELLE",
+            "title": "LIBELLE",
+            "description": "Nom court de la zone tel qu’il apparaît sur le plan de zonage",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 12
+            }
+        },
+        {
+            "type": "String",
+            "id": "4aa7998ba4b57878f5875231f144ddce",
+            "name": "TYPEZONE",
+            "title": "TYPEZONE",
+            "description": "Type de la zone dans une nomenclature simplifiée",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 3
+            }
+        },
+        {
+            "type": "String",
+            "id": "6bf1aa12867dda15694a438d67d3f2f7",
+            "name": "LIBELONG",
+            "title": "LIBELONG",
+            "description": "Nom complet littéral de la zone tel qu’il apparaît dans le chapitre du règlement écrit",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 254
+            }
+        },
+        {
+            "type": "String",
+            "id": "7a4ff612f24176499b62dc0f4b1fe74e",
+            "name": "DESTCDT",
+            "title": "DESTCDT",
+            "description": "DESTCDT",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "(-?(10|11|12|20|21|22|30|31|32|33|34|35|36|37|40|41|42|43|44|45|46|47|50|51|52|53|54|55|99))+",
+                "minLength": 2,
+                "maxLength": 120
+            }
+        },
+        {
+            "type": "String",
+            "id": "9b89484f8afb91f8592ad6b0e84ea84e",
+            "name": "IDURBA",
+            "title": "IDURBA",
+            "description": "Identifiant du document d'urbanisme",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 30
+            }
+        },
+        {
+            "type": "String",
+            "id": "bbe103d80ae1c2281d2ac7212079891c",
+            "name": "DESTOUI",
+            "title": "DESTOUI",
+            "description": "DESTOUI",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "(-?(10|11|12|20|21|22|30|31|32|33|34|35|36|37|40|41|42|43|44|45|46|47|50|51|52|53|54|55|99))+",
+                "minLength": 2,
+                "maxLength": 120
+            }
+        },
+        {
+            "type": "String",
+            "id": "bc8dc893e891cb9c9e858e5072f2abaf",
+            "name": "FORMDOMI",
+            "title": "FORMDOMI",
+            "description": "FORMDOMI",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "minLength": 4,
+                "maxLength": 4
+            }
+        },
+        {
+            "type": "Filename",
+            "id": "be120a8f1ee9210ccfac3c0666baf935",
+            "name": "NOMFIC",
+            "title": "NOMFIC",
+            "description": "Nom du fichier du règlement de la zone",
+            "constraints": {
+                "required": true,
+                "presenceRequired": true,
+                "unique": false,
+                "maxLength": 80
+            }
+        },
+        {
+            "type": "String",
+            "id": "c2828361a63f5f351d5f8fbffc0fb2f9",
+            "name": "LIB_IDZONE",
+            "title": "LIB_IDZONE",
+            "description": "identifiant d'objets",
+            "constraints": {
+                "required": true,
+                "presenceRequired": false,
+                "unique": true,
+                "pattern": "[0-9]{9}_PLUI_[0-9]{8}_ZO[0-9]+",
+                "maxLength": 40
+            }
+        },
+        {
+            "type": "String",
+            "id": "ea6f9b8b880298edb332fad47b314472",
+            "name": "SYMBOLE",
+            "title": "SYMBOLE",
+            "description": "SYMBOLE",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "ZONE_[a-zA-Z]+_[0-9]{3}",
+                "maxLength": 20
+            }
+        },
+        {
+            "type": "String",
+            "id": "f01eff52b1b1ffd0ee7f9757a3fb62dd",
+            "name": "DATVALID",
+            "title": "DATVALID",
+            "description": "Date de la dernière validation de la zone ou de son règlement",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false,
+                "pattern": "[0-9]{8}"
+            }
+        }
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(TYPEZONE) REFERENCES ListeTypezonePLU(TYPEZONE)",
+            "(FORMDOMI) REFERENCES ListeFormDomi(FORMDOMI)"
+        ]
+    }
+}
