@@ -2,7 +2,7 @@
     "abstract": false,
     "id": "80a24c6421eadf84d736965385635a83",
     "name": "cnig_POS_2024",
-    "title": "cnig_POS_2024",
+    "title": "cnig_POS_2024 v2025",
     "description": "cnig_POS_2024",
     "files": [
         {
@@ -390,6 +390,14 @@
             "title": "PRESCRIPTION"
         },
         {
+            "type": "pdf",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "mandatory": "ERROR",
+            "id": "ed291636b7c0a994e16659157c299ddf",
+            "name": "REGLEMENT",
+            "title": "REGLEMENT"
+        },
+        {
             "type": "metadata",
             "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
@@ -397,14 +405,6 @@
             "name": "Reglement Xml",
             "title": "Reglement Xml",
             "description": "Règlement littéral au format XML et structuré suivant le standard CNIG SRU"
-        },
-        {
-            "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
-            "mandatory": "ERROR",
-            "id": "ed291636b7c0a994e16659157c299ddf",
-            "name": "REGLEMENT",
-            "title": "REGLEMENT"
         },
         {
             "type": "pdf",
@@ -503,6 +503,12 @@
             "id": "ac81f146def6b028401dd9ae04732ab4",
             "name": "ListeTypezonePLU",
             "title": "ListeTypezonePLU"
+        },
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "cea4649c7df43da79e6e5e27082e3b82",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
         },
         {
             "data": "./codes/ListeTyperefPLU.csv",

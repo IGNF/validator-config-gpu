@@ -2,7 +2,7 @@
     "abstract": false,
     "id": "3935ffc17d3dabe0d77ea7d3c416695d",
     "name": "cnig_PLU_2024",
-    "title": "cnig_PLU_2024",
+    "title": "cnig_PLU_2024 v2025",
     "description": "cnig_PLU_2024",
     "files": [
         {
@@ -488,6 +488,12 @@
             "id": "023592198a2b11f0c04b67d6d68ed9d0",
             "name": "ListeEtatPLU",
             "title": "ListeEtatPLU"
+        },
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "1cd1d5e0640c449ac677dc860206d390",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
         },
         {
             "data": "./codes/ListeFormDomi.csv",

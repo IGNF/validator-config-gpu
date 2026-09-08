@@ -2,7 +2,7 @@
     "abstract": false,
     "id": "77919c928a486c24b18910d176f78fd4",
     "name": "cnig_CC_2024",
-    "title": "cnig_CC_2024",
+    "title": "cnig_CC_2024 v2025",
     "description": "cnig_CC_2024",
     "files": [
         {
@@ -242,6 +242,12 @@
             "id": "b10e42bcd36f1d2de83e88dbcfd28e29",
             "name": "ListeTypedocCC",
             "title": "ListeTypedocCC"
+        },
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "bbdc3b843ab10a2a77c9bf778ba50769",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
         },
         {
             "data": "./codes/ListeStypepCC.csv",

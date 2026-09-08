@@ -2,7 +2,7 @@
     "abstract": false,
     "id": "53b452eb31e4cd62ede3ce4a4aecd2e7",
     "name": "cnig_PLUi_2024",
-    "title": "cnig_PLUi_2024",
+    "title": "cnig_PLUi_2024 v2025",
     "description": "cnig_PLUi_2024",
     "files": [
         {
@@ -636,6 +636,12 @@
             "id": "cc9b383f7f60be4201e5e61382fb3351",
             "name": "PrescriptionSUrbaType",
             "title": "PrescriptionSUrbaType"
+        },
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "ea15783466adf134320814395f8f99e3",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
         },
         {
             "data": "./codes/InformationLUrbaType.csv",

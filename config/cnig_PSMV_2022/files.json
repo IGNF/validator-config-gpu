@@ -2,7 +2,7 @@
     "abstract": false,
     "id": "cfbbf860fc024411c0df46e177114444",
     "name": "cnig_PSMV_2022",
-    "title": "cnig_PSMV_2022",
+    "title": "cnig_PSMV_2022 v2025",
     "description": "cnig_PSMV_2022",
     "files": [
         {
@@ -524,6 +524,12 @@
             "id": "b6db1e069436300254476485aacd1ce2",
             "name": "ListeTypedocPSMV",
             "title": "ListeTypedocPSMV"
+        },
+        {
+            "data": "./codes/ListeStypeinf.csv",
+            "id": "cad0b80bc769fa25ad0abdd06c70ed9c",
+            "name": "ListeStypeinf",
+            "title": "ListeStypeinf"
         },
         {
             "data": "./codes/InformationSPSMVType.csv",
