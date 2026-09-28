@@ -367,14 +367,6 @@
             "description": "RESUME_NON_TECHNIQUE"
         },
         {
-            "type": "directory",
-            "path": "Pieces_ecrites/2_PADD",
-            "mandatory": "ERROR",
-            "id": "12b3e0c1cd76807342c1a300e4e1ddf6",
-            "name": "2_PADD",
-            "title": "2_PADD"
-        },
-        {
             "type": "pdf",
             "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_padd(_97_00_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
             "mandatory": "ERROR",
