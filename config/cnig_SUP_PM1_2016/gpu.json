@@ -1,0 +1,32 @@
+{
+    "validator_document_model": {
+        "4eaf8dbefb33efb25792b55b95e8b5f7": {
+            "folder_name": "<IDGEST>_PM1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "20daa8f16a943ce536abfdadc4777dc3": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(CODE_ALEA) REFERENCES ListeCodeAleaSUP(CODE_ALEA)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "c2339f163029bed207e4b11b52a50bc1": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_static_table": {
+        "3d57e562a294984173fa3366be9a451b": {
+            "path": "CodeAlea_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "3399d8365d130761bda9f9377ce85ecd": {
+            "reference_target": "ListeCodeAleaSUP(CODE_ALEA)"
+        },
+        "e9d9dec572dfbd68801f01493ae6b37b": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        }
+    }
+}

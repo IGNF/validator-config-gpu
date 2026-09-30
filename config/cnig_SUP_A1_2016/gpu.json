@@ -1,0 +1,27 @@
+{
+    "validator_document_model": {
+        "a96fb88dc8c104db036af82893f67c2c": {
+            "folder_name": "<IDGEST>_A1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "91965408dcff3543abf0133b43ecc4a4": {
+            "conditions": null,
+            "foreign_keys": "null",
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        },
+        "9270680b261da4d97f19519878aa0cca": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        }
+    },
+    "validator_attribute_type": {
+        "36f19c600f7ac22b5330454028760de5": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "66381d4b3078f4593da029232310f38d": {
+            "reference_target": "ListeModegeoassSUP(MODEGEOASS)"
+        }
+    }
+}

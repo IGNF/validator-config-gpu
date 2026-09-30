@@ -1,0 +1,32 @@
+{
+    "validator_document_model": {
+        "97d420ac7515ebfd554da4685b588b41": {
+            "folder_name": "<IDGEST>_AC2_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "49bac3f0d69c064e36ef063c50ed08d3": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "db5a3a46c84154f133fb2df555ef7122": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_static_table": {
+        "551672afeebb478e9b9bf4c6b89c5101": {
+            "path": "Type_SUP_Monument.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "01488a3f1a0e0fe1bd978bdf82ed74f9": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        },
+        "badbaea1c255071e53807715b6198038": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "validator_document_model": {
+        "b50e9004642b9a565c9e7d832dc974a2": {
+            "folder_name": "<IDGEST>_PM3_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "7158312d1431b9022712adc95d8ec6c1": {
+            "path": "Donnees_geographiques/PM3_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "f75f2540c11bdf0600250b43db3fe39a": {
+            "path": "Donnees_geographiques/PM3_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "1314efbecbcf4ba12ec0069454dfb756": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "fe9da1ca76a78e438901ab9ce5a2f96d": {
+            "conditions": null,
+            "foreign_keys": "[\"(CODE_ALEA) REFERENCES ListeCodeAleaSUP(CODE_ALEA)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        }
+    },
+    "validator_static_table": {
+        "f90400c4b8368975ce5ab66d80690159": {
+            "path": "CodeAlea_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "e94d88b1a8289c14c6d57792df2cda27": {
+            "reference_target": "ListeCodeAleaSUP(CODE_ALEA)"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "validator_document_model": {
+        "bdca94c64778dce5233427892c1a66f5": {
+            "folder_name": "<IDGEST>_A5_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "66bdffb3453cbca6243f87415edd774d": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPAssainissement(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "de974b89648e52abda029c52a39a3830": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_static_table": {
+        "635ebe28026e433a9bb71cc4b44d4850": {
+            "path": "Type_SUP_Assainissement.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "c6c1587f4ff87aae688f7cd47cfcb552": {
+            "reference_target": "ListeTypeSUPAssainissement(TYPE)"
+        },
+        "f19583e4724b78f3215a363e59ab5901": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        }
+    }
+}

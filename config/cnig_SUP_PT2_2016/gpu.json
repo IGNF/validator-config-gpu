@@ -1,0 +1,42 @@
+{
+    "validator_document_model": {
+        "daa5b8660a6a7b55b8a378e49ee4b7ca": {
+            "folder_name": "<IDGEST>_PT2_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "0b030aa1cc02a1f6c00f2c0d02a1f1c3": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "1ec4998bd67b304bfca0b22c8e8b897a": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "4ba1590d35fa445d7d10291597a92c5e": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)\", \"(HREF) REFERENCES ListeHrefSUP(HREF)\"]",
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        },
+        "5e65470af5004dea9ae4eec9dc431097": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        }
+    },
+    "validator_static_table": {
+        "3f2c203e6bd29d90ca8346f17aeac7e7": {
+            "path": "Href_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "309424a0c3a6aeafc42462ca40c03cc2": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_(zpri|zsec|zspe|sect)"
+        },
+        "8cff145aebc45afbcc49a39fdf3c767b": {
+            "reference_target": "ListeHrefSUP(HREF)"
+        }
+    }
+}

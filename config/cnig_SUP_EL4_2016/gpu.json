@@ -1,0 +1,37 @@
+{
+    "validator_document_model": {
+        "72180d46c5433c7c20cf1b9c87faf56f": {
+            "folder_name": "<IDGEST>_EL4_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "d65a77ee9b5919936ec4e4fa3d51a6e8": {
+            "conditions": "[\"SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')\",\"DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL\",\"REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'\",\"IDBDEXT IS NOT NULL OR REFBDEXT IS NULL\"]",
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "dca63cdf569fa66188e9aaa68433ea53": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "f2105554798ed998d0845ba22aafd860": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)\", \"(HREF) REFERENCES ListeHrefSUP(HREF)\"]",
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_static_table": {
+        "c17dd4015ce82cd3a9cc87f9211e950c": {
+            "path": "Href_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "5932443c1102df505d95bd221bd6980c": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "9f54a0fe22aa835842ed5ee837fdd1c9": {
+            "reference_target": "ListeHrefSUP(HREF)"
+        }
+    }
+}

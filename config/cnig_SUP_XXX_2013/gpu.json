@@ -1,0 +1,182 @@
+{
+    "validator_document_model": {
+        "f7526b9ec3392244397b5278a68bd7e6": {
+            "folder_name": null
+        }
+    },
+    "validator_file_model": {
+        "2adf5d4585941974dce879ec9dbd5762": {
+            "path": "Donnees_geographiques/SERVITUDE_ACTE_SUP(_<MAILLAGE>)?"
+        },
+        "76b0a43489e216854d5a7a8c9fc6715e": {
+            "path": "<FILENAME>"
+        },
+        "98b971148593040338aca056e1e4f96b": {
+            "path": "Donnees_geographiques/GESTIONNAIRE_SUP(_<MAILLAGE>)?"
+        },
+        "b15effb3cbbfb4dfcfc8e57442308ad6": {
+            "path": "Donnees_geographiques/ACTE_SUP(_<MAILLAGE>)?"
+        },
+        "c0da9aa02ed6f0881eaa40fb6ffbaeb7": {
+            "path": "Donnees_geographiques/SERVITUDE(_<MAILLAGE>)?"
+        },
+        "d5ddd7409887f2dff12a42403931b658": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
+        }
+    },
+    "validator_feature_type": {
+        "4edb459e86909278aba4c2af6c942b42": {
+            "abstract": "t",
+            "primary_key": null,
+            "conditions": "[\"PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'\",\"SRCGEOASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Digitalisation'\"]",
+            "foreign_keys": "[\"(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)\"]",
+            "id": "4edb459e86909278aba4c2af6c942b42",
+            "name": "XXX_ASSIETTE_SUP",
+            "title": "XXX_ASSIETTE_SUP",
+            "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+            "parent_id": null,
+            "document_model_id": "f7526b9ec3392244397b5278a68bd7e6"
+        },
+        "5146126394baf20af78d61bf8c20abf9": {
+            "abstract": "t",
+            "primary_key": null,
+            "conditions": "[\"SRCGEOGEN IS NOT NULL OR MODEGENERE NOT LIKE 'Digitalisation'\",\"DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL\",\"REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'\",\"IDBDEXT IS NOT NULL OR REFBDEXT IS NULL\"]",
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\"]",
+            "id": "5146126394baf20af78d61bf8c20abf9",
+            "name": "XXX_GENERATEUR_SUP",
+            "title": "XXX_GENERATEUR_SUP",
+            "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+            "parent_id": null,
+            "document_model_id": "f7526b9ec3392244397b5278a68bd7e6"
+        },
+        "8bacabfa1aa091b1acb7aa8a02de4885": {
+            "conditions": null
+        }
+    },
+    "validator_static_table": {
+        "00ba439428a78ede6c93641a2bc0727c": {
+            "path": "Modeprod_SUP.csv"
+        },
+        "0b08ff2800aa6f68946367cbf97b4484": {
+            "path": "Modegeoass_SUP.csv"
+        },
+        "0c4082d1726a0f23aeda8bd670074237": {
+            "path": "Validegest_SUP.csv"
+        },
+        "1f307b7e147c9999c74cfb99808fb10f": {
+            "path": "Categorie_SUP.csv"
+        },
+        "34325434a0cbdb1994c0f8cdfca4cab7": {
+            "path": "Aplan_SUP.csv"
+        },
+        "40822127d1a0ee25c25159848a344e9d": {
+            "path": "Typeacte_SUP.csv"
+        },
+        "53a36c61410d77961bbe01263158308d": {
+            "path": "Decision_SUP.csv"
+        },
+        "8a7d29e884127eadb9809c4c2265b50d": {
+            "path": "Modegenere_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "117abb6d4dfbd3dfbbfa4e203aa266fb": {
+            "reference_target": "ListeModeprodSUP(MODEPROD)"
+        },
+        "12ce35e905b8d0930c13b6b734819c77": {
+            "pattern": "<SIREN>",
+            "reference_target": "GESTIONNAIRE_SUP.IDGEST"
+        },
+        "16cb5914fd03e3537143180e3e38f70a": {
+            "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "2d9eb4d1ca95b693d32f09e6dfe61a71": {
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "315c5f41febeef3fe93be6ed250f2a14": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "3410d2ec8cbd5c201be662b4cf6fe79b": {
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "372a2ae5a0be525684435b5bf7202dcf": {
+            "reference_target": "ListeAplanSUP(APLAN)"
+        },
+        "38ef89f7dee63d5d0d0254039d4f02bb": {
+            "reference_target": "ListeDecisionSUP(DECISION)"
+        },
+        "39c93912ba5bf0afbad95db9ed66e78a": {
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "42cd1e3145f31264de0e3bc881ff3655": {
+            "pattern": "<YYYYMMDD>",
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "46a1e08c752e490bb51b205d640d4a42": {
+            "reference_target": "ListeModegenereSUP(MODEGENERE)",
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "56b6d7b14fc3a248e632d83f7a87f704": {
+            "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "57967eb687c1300d5cfa308134457467": {
+            "reference_target": "ListeTypeacteSUP(TYPEACTE)"
+        },
+        "726e30853c23e1d077596a81cd55d179": {
+            "reference_target": "ListeCategorieSUP(CATEGORIE)"
+        },
+        "7427ab389841fc55e516b81a481d2939": {
+            "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "89ecc28e1d7fde0cbd77d0798b496dd9": {
+            "pattern": "<YYYYMMDD>",
+            "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "89f0aaf24a703a318a3094a72c68bf3b": {
+            "reference_target": "ACTE_SUP.IDACTE"
+        },
+        "8b81ee4d2c2a6765894e9e0d0fa9cdda": {
+            "reference_target": "ListeModegeoassSUP(MODEGEOASS)",
+            "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "91e4e0e9674e7d3aaef322bdd1374c71": {
+            "reference_target": "SERVITUDE.IDSUP",
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "9647e0dff490bc52af36ef874ce440b6": {
+            "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "a1ed509fa03fb1cb683ad1bc4ee64d04": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "a30491be7fff04a4dc4cadc8baa9fb58": {
+            "pattern": "<CATEGORIE>_<RADICAL>_sup"
+        },
+        "a8833ccb9cc32ac1d6279678de4d6ac0": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_<ENTIER>)?_act"
+        },
+        "b6ea4308f6cb543b9b8d197a0a312357": {
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "b8172389de2db4d746b273d07e07eab1": {
+            "reference_target": "SERVITUDE.IDSUP"
+        },
+        "ca794cb677257564b31f6828f348dabe": {
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "cf3618713c7ac76f3739f4eaaab392b2": {
+            "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "d463b500b048983f9b000e8dded11951": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "dbff3aecc6bba23c7b9d6ab419537b04": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?",
+            "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "efc4d73337d1cabd3e5a8f66d88238f0": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_<SUFFIXE_ASS>",
+            "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
+        }
+    }
+}

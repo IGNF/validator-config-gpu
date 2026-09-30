@@ -1,0 +1,336 @@
+{
+    "validator_document_model": {
+        "53b452eb31e4cd62ede3ce4a4aecd2e7": {
+            "folder_name": "<MAILLAGE>_PLUi_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "0431dad161a87bc44682143977e09a45": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decision_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "047d9198bad989abeb90985e971372de": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_jugement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "06d98139fc33b6d015bbace23e2c5690": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "0c4cc170d22e7c155ad621f7b090dbbe": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "0da4d7f38096310e21c61800e984a1cc": {
+            "path": "Donnees_geographiques/<SIREN>_ZONE_URBA_<YYYYMMDD>"
+        },
+        "0f8501cd7f619d0287adb8281f0572d9": {
+            "path": "Donnees_geographiques/<SIREN>_PRESCRIPTION_LIN_<YYYYMMDD>"
+        },
+        "16640ff06be8133c8ce4e5e08b5b7570": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "19fd54610ad39ea945cea73b1ed1083a": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_arret_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "2ba2c13936de1f55306610be952e489f": {
+            "path": "<FILENAME>"
+        },
+        "2e8a741a0bc604291b10a841822a1178": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>"
+        },
+        "2f6cb202e49a578ee71c170f25eab8da": {
+            "path": "Pieces_ecrites/3_Reglement/<SIREN>_prescription_(lin|pct|surf)(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "33e6330fb45fcdea4b7234c0aa91a861": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_<YYYYMMDD>_rapport_<NOMPROC>_rnt(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "34ddd7682f738f6d17fab1c0bb96a86c": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "351c2dca47573d2ff500a343d5263628": {
+            "path": "<SIREN>_DOC_URBA_<YYYYMMDD>"
+        },
+        "39a724073b4ef17530026fc428c0355e": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_engagement_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "461831e1824c27d7b77131b91afaf0a5": {
+            "path": "Pieces_ecrites/6_POA/<SIREN>_POA(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "4c8c929f7f88eeab8e245aec28c6782c": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/<SIREN>_plan_de_secteurs_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "56db3f5108a1196dcc9457fe12966903": {
+            "path": "Donnees_geographiques/<SIREN>_INFO_PCT_<YYYYMMDD>"
+        },
+        "58598449a8dca07bea35ffb70a0d547b": {
+            "path": "Donnees_geographiques/<SIREN>_HABILLAGE_LIN_<YYYYMMDD>"
+        },
+        "5c35dcfe48ae5a6694932bb34dfcdef1": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_<YYYYMMDD>_rapport_<NOMPROC>(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "5df9831ee4a6d323bc27b81011cc1660": {
+            "path": "Pieces_ecrites/3_Reglement/<SIREN>_reglement_graphique(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "600c4490d9424bfe9b01fdfd54f2d1dc": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_avis_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "614e45e7a9cc6159d20437992634c9df": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement_SECT<SECTEUR_INDICE>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "64d46c6f88b17af3aab599cf0c283834": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_debat_padd_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "671c6411a9213289647f258ddee07c09": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "684b93a0959cb583d5dc65f572c01855": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement"
+        },
+        "68b9c0d78da5e5537981279e84687a42": {
+            "path": "Pieces_ecrites/2_PADD/<SIREN>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "6f159da4bc1c2b73ec9cd80199ef542e": {
+            "path": "Pieces_ecrites/4_Annexes/<SIREN>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "7219d426602bd941af987219676a6a35": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_avis_(ppa|PPA)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "781ddb1faf028ec8e6c8ebd01f4c9fb9": {
+            "path": "Donnees_geographiques/<SIREN>_PRESCRIPTION_PCT_<YYYYMMDD>"
+        },
+        "7c4b5da72d46653ba8c1074425195882": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/<SIREN>_reglement_graphique_SECT<SECTEUR_INDICE>(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "7f3762fb4d48fb716ad1777bfa58efc4": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_maj_annexes_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "846c796d27bf3f0d86fcdecafb4b3bea": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/5_OAP"
+        },
+        "85219b8d1cd1941dfa36fa56cad53cf2": {
+            "path": "Donnees_geographiques/<SIREN>_PRESCRIPTION_SURF_<YYYYMMDD>"
+        },
+        "8f17bb719e3cb16eaaed640d62d5144c": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "90386bfe4ff0d22e2c84afaf75539be3": {
+            "path": "Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "99abbc963cf87c25eac0b7faff6673a2": {
+            "path": "Donnees_geographiques/<SIREN>_HABILLAGE_SURF_<YYYYMMDD>"
+        },
+        "9cd2232be7740e333968874d75e7e2ee": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "9fbd622cee92f0d640147af167765ab2": {
+            "path": "Donnees_geographiques/<SIREN>_INFO_SURF_<YYYYMMDD>"
+        },
+        "b1ba7141294753d6dae85951e71ee8c4": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decision_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "b45721fb4970a5ec53d8aff16c56b49d": {
+            "path": "Pieces_ecrites/3_Reglement/<SIREN>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "b6948e87796e4234fa048c8ee9cbc42b": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decret_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "b9ce06781fc2671da5677d1c335a683e": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/3_Reglement/ressources"
+        },
+        "bdf547395f9fec494a345fdcf9896716": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "bed4ee51afa394dcbc16f062b8dae5f4": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "c341b7bb2d44b40d45efaff6406afecb": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_[a-z_]+_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "c35c945903ba0918bb0faece0700cd5f": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "c67aaf20276dd6ff98de3062c62841e5": {
+            "path": "Donnees_geographiques/<SIREN>_HABILLAGE_PCT_<YYYYMMDD>"
+        },
+        "ca817d5daf06c6dd15cfa942f2d11088": {
+            "path": "Donnees_geographiques/<SIREN>_INFO_LIN_<YYYYMMDD>"
+        },
+        "de143795525dc31c0df1c3ce36cb2d0f": {
+            "path": "<SIREN>_DOC_URBA_COM_<YYYYMMDD>"
+        },
+        "de17778bc301bd1357561192a3d9d1d4": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_approbation_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "e59dfe3e9e0d2019f8e3073f8937e6f7": {
+            "path": "Pieces_ecrites/5_OAP/<SIREN>_oap(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "f091985875f9415287e4965a7064a39c": {
+            "path": "Pieces_ecrites/4_Annexes/<FILENAME>"
+        },
+        "f2ff7c69c40e00916cd2512f395f794c": {
+            "path": "Donnees_geographiques/<SIREN>_HABILLAGE_TXT_<YYYYMMDD>"
+        },
+        "fbf84ce8021226539bcfe7e46ad91914": {
+            "path": "Pieces_ecrites/7_Plans_de_secteur/Secteur_<SECTEUR_INDICE>/5_OAP/<SIREN>_oap_SECT<SECTEUR_INDICE>(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_feature_type": {
+        "5475a8de3b3ff042aa53c62e4343798b": {
+            "conditions": "null"
+        }
+    },
+    "validator_static_table": {
+        "023592168a2b11f02b8d04f535022af5": {
+            "path": "Typezone_PLU.csv"
+        },
+        "023592178a2b11f0dfe0b2f97a9b7059": {
+            "path": "Typedoc_PLUi.csv"
+        },
+        "412a3c56ade94754abdb518d18bde030": {
+            "path": "Information_S_DU_2025.csv"
+        },
+        "50bbfe5c9019db837d922dece6d5cad1": {
+            "path": "FormDomi_2025.csv"
+        },
+        "6574c6437bb744ad93425557814a2af2": {
+            "path": "Prescription_L_DU_2025.csv"
+        },
+        "843f8eeb47b84700bbfe9cbc3711606b": {
+            "path": "Etat_PLU.csv"
+        },
+        "a151d5cd80c44934a8366c6fcf8955cf": {
+            "path": "Information_P_DU_2025.csv"
+        },
+        "c601717148e14f7910faebc0530d666a": {
+            "path": "Prescription_P_DU_2025.csv"
+        },
+        "c60c747f351e60b103ed920adab9a145": {
+            "path": "Typeref_PLU.csv"
+        },
+        "cc9b383f7f60be4201e5e61382fb3351": {
+            "path": "Prescription_S_DU_2025.csv"
+        },
+        "ea15783466adf134320814395f8f99e3": {
+            "path": "Stypeinf.csv"
+        },
+        "f885869cc6d144cb91eb0e9ea91ce2bf": {
+            "path": "Information_L_DU_2025.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "0f48aaea912d1599e6930b303b56fa89": {
+            "pattern": "INF-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "1fb5d05bc091f7e7cabe4c006d7134cf": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_PP<ENTIER>"
+        },
+        "2623c6ad4de9201b6d414b62f07e9175": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "2b46d72fc893a0d4c10c8d87d8bc01c5": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "2bef03fe2d3c5dda87e349c680b43c9a": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_PL<ENTIER>"
+        },
+        "2cb999064ca38e26d0856358f6068ad2": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "3369e137f516b3b0087d6d939010a534": {
+            "pattern": "INF-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "3643111b07dce83e05843c1dbc8c0cb4": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_IL<ENTIER>"
+        },
+        "3b708cce031ec0e5938a6a31cc3e5d8c": {
+            "pattern": "<COULEUR>"
+        },
+        "3e811c38cee1ffe91a2d9d0f23ee438a": {
+            "pattern": "<INSEE_SIREN>_reglement_[0-9]{8}.pdf"
+        },
+        "400414d9abadb6ff9a5f6b8cd01765ca": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_HS<ENTIER>"
+        },
+        "566c4fadaf694172f0c6ccd6f0468730": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "5c49570a286af16e5b5a1a2e95036043": {
+            "pattern": "(E|R|A|MEC<ENTIER>|MAJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
+        },
+        "5c87792d7b844c439cb3e3de18270d91": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "6342f6ae69f568944e6d6fc613f51e3a": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "656d49af3caa4d4fed9b2dfb22018a07": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "672e5490ef2e56d199de09038b389c3d": {
+            "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
+        },
+        "69198b3cd2645eb8e9653c7c9f34d773": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "6a1056a886c9cc8db3d36ca99426e1fd": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_HL<ENTIER>"
+        },
+        "6c1aabb017bfcc8e99e42a60b0de77bb": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "76ec26b1175e2e3750900bee58fbb1ca": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_HP<ENTIER>"
+        },
+        "84b903072e8ed8ba93630a2bcb36ebfa": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_HT<ENTIER>"
+        },
+        "869d08984381e76329a46b8c0d0044ef": {
+            "pattern": "PSC-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "8d12cbd3fa2c865c4ad36b771fae4cae": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "931c3e69000026699452e6da28a529d2": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_PS<ENTIER>"
+        },
+        "a0834bf8eb621f855da01bf1430e14d7": {
+            "pattern": "<COULEUR>"
+        },
+        "adbf5b79492a7d76e2b7e761e9beeafc": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "af790d44e36d31e6b4555e10b0c289ea": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "b093a66fc541966b34abdc8a406a54f3": {
+            "pattern": "<COULEUR>"
+        },
+        "baef742ada3deea7c42b2169eec3564c": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "bb297d1daaad9e069b9342b2ff608a5e": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_IS<ENTIER>"
+        },
+        "c9ed23d440f9f098887e7af190cb0a17": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_IP<ENTIER>"
+        },
+        "cfc857908c8d75d5dc587594c888503c": {
+            "pattern": "INF-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "d6c2970e57a89dfe30d1ad81d6d1d145": {
+            "pattern": "ZONE_<CHAR>+_<ENTIER_3>"
+        },
+        "d7993f1c57381b030ab84e6a5238ab46": {
+            "pattern": "<SIREN>_PLUi_<YYYYMMDD>_ZO<ENTIER>"
+        },
+        "da4728eb25c9a206beb2bac2c6598e32": {
+            "pattern": "<INSEE_SIREN>_<YYYYMMDD>_rapport_<NOMPROC>(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?.pdf"
+        },
+        "db449f6d671fddf58068a5208006c135": {
+            "pattern": "<COULEUR>"
+        },
+        "e524725b50c41a40232012686849c1e9": {
+            "pattern": "PSC-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "ebdca94fa2d6a7afa90c387a78ae49d8": {
+            "pattern": "PSC-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        }
+    }
+}

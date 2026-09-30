@@ -1,0 +1,88 @@
+{
+    "validator_document_model": {
+        "1b95722d3c2f3b568a448f4cc66fd80d": {
+            "folder_name": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "03fb931af98073a336219842fc7be1f8": {
+            "path": "Pieces_ecrites/1_SCOT/<SIREN>_doo_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "1cf1821b88a1fd59755bd26f6dfa6a50": {
+            "path": "Pieces_ecrites/2_Annexes/<SIREN>_diagnostic_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "27ef984811006668a0f59a35d4447a4f": {
+            "path": "<SIREN>_DOC_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "4a17130582e1bc6ec39da701073823eb": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_jugement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "7cab2a4cdcadeabf340390f6145b2045": {
+            "path": "Pieces_ecrites/1_SCOT/<SIREN>_daac_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "890d4c22768322a600e43891c7c20589": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "90572c3a3bec3688fc876cfa842cf5b0": {
+            "path": "<SIREN>_DOC_URBA_COM_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "a21be0f733243cadc28ba17f8e47c480": {
+            "path": "Donnees_geographiques/<SIREN>_PERIMETRE_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "a2c1371ca85ba976965abeb166a91981": {
+            "path": "Pieces_ecrites/2_Annexes/<SIREN>_justification_choix_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "aca0327d514106bedb175b951db76cb1": {
+            "path": "Pieces_ecrites/2_Annexes/<SIREN>_consommation_espace_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "b0595a7550a0cd08553b0b14687a88ac": {
+            "path": "<FILENAME>"
+        },
+        "c92dfa670bbc157dab5b4bb87690679f": {
+            "path": "Pieces_ecrites/1_SCOT/<SIREN>_pas_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "e06e8be25321b62a0ac418bfe99bb7d1": {
+            "path": "Pieces_ecrites/2_Annexes/<FILENAME>"
+        },
+        "ebd956c65290ac47b64de1b861e57c9a": {
+            "path": "Pieces_ecrites/2_Annexes/<SIREN>_evaluation_environnementale_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_static_table": {
+        "067946f4eaae7682ee859506bd09a360": {
+            "path": "Typedoc_SCoT.csv"
+        },
+        "9cc5e23a08c3c08114b68ba1f065702f": {
+            "path": "Typeproc_SCoT.csv"
+        },
+        "cd9b5b5d405ce1ecd8838d47bb15d186": {
+            "path": "Etat_SCoT.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "06487e862cb6dd47e02b0e5be58eeaa3": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "131ae7054073c885fb2bde802c962a50": {
+            "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "2cbf43c1e3d8f045c6339bcafc5335ac": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "307f1bfaf0ef847c9a2e1b47c9cd7839": {
+            "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "60e690bca6057723c0cfb68e152aa82e": {
+            "pattern": "<SIREN>"
+        },
+        "903243031c717b6bc9681c37d8032446": {
+            "pattern": "<SIREN>"
+        },
+        "b652769e77cee113ccd26993bdfb58b4": {
+            "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "ce68a3d1467a389b9b7225aed353ca18": {
+            "pattern": "<INSEE_COMMUNE>"
+        }
+    }
+}

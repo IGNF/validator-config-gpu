@@ -1,0 +1,24 @@
+{
+    "validator_document_model": {
+        "6ff336e2af9ca64f74639921120c5ae8": {
+            "folder_name": "<IDGEST>_PT3_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "852135bba7925e31d8b32379016de8c8": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        },
+        "d9557a52159c38fb51313147cb1ee624": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        }
+    },
+    "validator_attribute_type": {
+        "362e66de0027b65964765dfa164a6d4e": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        }
+    }
+}

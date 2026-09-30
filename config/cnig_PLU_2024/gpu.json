@@ -1,0 +1,306 @@
+{
+    "validator_document_model": {
+        "3935ffc17d3dabe0d77ea7d3c416695d": {
+            "folder_name": "<MAILLAGE>_PLU_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "07aefd88872d05bc00b729d5ea51cac2": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "0e6e1e77c4fa913807e711ad7f936a78": {
+            "path": "Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_prescription_(lin|pct|surf)(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "12ce0d88786f35338f0582fafa2f817f": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_INFO_PCT_<YYYYMMDD>"
+        },
+        "135e793e7ceddac34321b999a49e1311": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_SURF_<YYYYMMDD>"
+        },
+        "14d1489cd40bac9f50bb8a26765b5633": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_decision_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "1590c6ec04f3b62d5b3cdc5189ef320d": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_avis_(ppa|PPA)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "16b8a12787010570c8a1d7e2925efee3": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_<YYYYMMDD>_rapport_<NOMPROC>(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "1857f6b21967d7b4fe899c1aa9e3e3b8": {
+            "path": "Pieces_ecrites/5_OAP/<INSEE_COMMUNE>_oap(_<ENTIER>)?(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "19b5a8bfa5158cf4ccfa1c5cff536d03": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_approbation_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "24f14f61873803aacd5c26cfbe98407b": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_[a-z_]+_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "2a6149d64de53cbd11e662ebaa924bd2": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_PCT_<YYYYMMDD>"
+        },
+        "39f088bd1be7b3092485c21aecf509fd": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_ZONE_URBA_<YYYYMMDD>"
+        },
+        "3b3b308dd434ca9920ed3ecad42d6b36": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_jugement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "3b5df08300ca545e1c947cfeff1a8af9": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_TXT_<YYYYMMDD>"
+        },
+        "5c3dd17962e2577b125ddea1bce6e696": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_LIN_<YYYYMMDD>"
+        },
+        "6a9621e927ebe3c02d330deb38510c05": {
+            "path": "<FILENAME>"
+        },
+        "6dfa859f97a2c3d728bde8e9a3f07a12": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_debat_padd_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "793d8dfd57cc26ba5a1ed0d3049b1c99": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_decret_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "7ff91569c55430cd1cb01df1ff33d4ca": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "81a20de3e416326463e857f9c714aede": {
+            "path": "Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_padd(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "84a3e81a607acd6990061ba26499119a": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_arret_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "84da4a65ab38dd7eb172543886e2e454": {
+            "path": "<INSEE_COMMUNE>_DOC_URBA_<YYYYMMDD>"
+        },
+        "8ed50916477d2512f15e7e1102e54c85": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "90dcdf9bafce76114af9afbe3c92f512": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_maj_annexes_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "9381194e87c7d6cd9b46df59a0693b2f": {
+            "path": "Pieces_ecrites/4_Annexes/<FILENAME>"
+        },
+        "944afd600be2789c6776fbde0b770ed1": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_PCT_<YYYYMMDD>"
+        },
+        "990618964169cf4f4ca7f2295c5b8927": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_decision_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "9bfdd7ed390f90e660e3028529e448f2": {
+            "path": "Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement_graphique(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "9c0e80ffe6bf973be903d12c7614a8ac": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_INFO_SURF_<YYYYMMDD>"
+        },
+        "a43e040430b4c3d7dcd6b25f74f71b04": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "ad43a0ca827e2532fe5c169a8ad893bd": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_INFO_LIN_<YYYYMMDD>"
+        },
+        "b8bed7df139be87772f24ff5aa6b6f39": {
+            "path": "Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "b9f9043f7ac2db63bf7bef75fb2b6c75": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_PRESCRIPTION_SURF_<YYYYMMDD>"
+        },
+        "c855a47b8dc58f91b3d49b50e53af3d7": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "d126b0c2560084520aa2adb462cd9c4e": {
+            "path": "Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "d1514ef9815c869c018bb39449bceeee": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "d715611e9c4006db922fb71dda80b8a6": {
+            "path": "Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement(_97_00_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "dbec828acf58612be4d252ddde4edadb": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_avis_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "e7ea62f6246f398a576de3fc7fcf4b4c": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "e9fb427c7c82da9f0d8adf13c0c00cd7": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_delib_engagement_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "edd6a9618c377b98af045a2421ec0c50": {
+            "path": "<INSEE_COMMUNE>_DOC_URBA_COM_<YYYYMMDD>"
+        },
+        "ee0d570522f83a665134675aa5241d57": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_LIN_<YYYYMMDD>"
+        },
+        "f03385864e6fd3bb61067944cd027c59": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_<YYYYMMDD>_rapport_<NOMPROC>_rnt(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "f8157ff5ba07f1ad94e06ce1e4bd32c5": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_<YYYYMMDD>_arrete_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "fefc6b5d79d54a4cec46aaf516e64b02": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_feature_type": {
+        "f84f55f60d4f2e1c574a91ddc43bd27a": {
+            "conditions": "null"
+        }
+    },
+    "validator_static_table": {
+        "023592188a2b11f0e88362966107deef": {
+            "path": "Prescription_L_DU_2025.csv"
+        },
+        "023592198a2b11f0c04b67d6d68ed9d0": {
+            "path": "Etat_PLU.csv"
+        },
+        "1cd1d5e0640c449ac677dc860206d390": {
+            "path": "Stypeinf.csv"
+        },
+        "1f57afa217e66dcfe83f4184b3af8ba6": {
+            "path": "FormDomi_2025.csv"
+        },
+        "31cf35b9b865403f902241d2a256656e": {
+            "path": "Information_L_DU_2025.csv"
+        },
+        "7e9a5f9ddb7440c3985b5c22221199fd": {
+            "path": "Information_P_DU_2025.csv"
+        },
+        "886bf3376d6146d79f47920623bd0637": {
+            "path": "Prescription_P_DU_2025.csv"
+        },
+        "96ab7a4f72024a18ae45a9c65af0ea30": {
+            "path": "Typeref_PLU.csv"
+        },
+        "d12e8b1ad4a042b0952f7dbbd18158bf": {
+            "path": "Prescription_S_DU_2025.csv"
+        },
+        "d648dcb6a4e341a4b91cb46d32d826ab": {
+            "path": "Information_S_DU_2025.csv"
+        },
+        "f1d2de83cfd28e29b10ee88db42bcd36": {
+            "path": "Typedoc_PLU.csv"
+        },
+        "f418be5007f885b68947c6f796b89161": {
+            "path": "Typezone_PLU.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "0573fdbb4d6d69cdaa39688c578d48d5": {
+            "pattern": "PSC-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "1830619f638bc60de1f020628addefba": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "1d61edd83104db974c045be275c4f169": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HL<ENTIER>"
+        },
+        "2f5999f8939d23dabd7d22b10c661048": {
+            "pattern": "(E|R|A|MEC<ENTIER>|MAJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
+        },
+        "2f720990063e08526bf38e4fba20dba5": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "3371e5a75baf0704fb89ea0d3dea47a7": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HT<ENTIER>"
+        },
+        "33f7176cde52156f1706fd148f822bec": {
+            "pattern": "<INSEE_SIREN>_reglement_[0-9]{8}.pdf"
+        },
+        "3979804ac81d4e443c8e55265bb24b94": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "3eff82b65c648d49e8588e570d275970": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "4e094d31476df252a2bd5064107a7783": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "512d8cd188499ee038b2550f0c0612f1": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PP<ENTIER>"
+        },
+        "5d2279a4b866dcb5f9f0d2474a063538": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "5e842f0080f7962045ffc06ca8013a6a": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PS<ENTIER>"
+        },
+        "5f222065729483bf9a01281d627990d6": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "60f524c1605932a2396e0295cc1ad9c8": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "68627184d4d16d1e59889dba5e44b306": {
+            "pattern": "INF-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "6dd14e57b954de147919f6441636f2b1": {
+            "pattern": "INF-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "734474766062efd8eb0152bff61cfe3f": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HS<ENTIER>"
+        },
+        "74fd333272a59f022e050d5d6dd37d5c": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IS<ENTIER>"
+        },
+        "7e9a96555f7d321830f5a841793adc17": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "883c47f33e4974b89e3186751d00ef3f": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "897d0f335a1812f3b5b9eab199697431": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "92decfa64ee3d524a0ed37129af85621": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PL<ENTIER>"
+        },
+        "9325f9f6db9a0d0a3db3ec85dd53dcbe": {
+            "pattern": "<COULEUR>"
+        },
+        "9527d1148ee3f071c31d9f886e75da85": {
+            "pattern": "<COULEUR>"
+        },
+        "99ed84084ba900252cfbc19832801005": {
+            "pattern": "<COULEUR>"
+        },
+        "9cb2e44c63876640c7b4d2bf52128f47": {
+            "pattern": "<INSEE_COMMUNE>_<YYYYMMDD>_rapport_<NOMPROC>(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?.pdf"
+        },
+        "a60039393e9b322d72cca9e6541eddc4": {
+            "pattern": "PSC-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "a637197d1ac28b1fe6c952df05c90b9a": {
+            "pattern": "PSC-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "a9ea8c0807639fb2e0851525fdef00f7": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IL<ENTIER>"
+        },
+        "b80fdceeec2d6e0b8fb67537fc41d437": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "b8bc45916cdb3f03cb4fa36b4effc18f": {
+            "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
+        },
+        "cbb43c19d0b3c6ff18d1288b0f69fdba": {
+            "pattern": "INF-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
+        },
+        "d271f26b1ceee4c3d8df2af71e5c4d9d": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_ZO<ENTIER>"
+        },
+        "d4fffc2ecf9269045c2ba3d797745728": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IP<ENTIER>"
+        },
+        "e3934655d9a0740f6dc2d282f2cd12f9": {
+            "pattern": "<COULEUR>"
+        },
+        "e8457571d8f7dc313fd0d69c54fbc4a3": {
+            "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HP<ENTIER>"
+        },
+        "efb4fa406232bf96eb726bc859ca3296": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "f316dca89614399c4b7b54a72983dd23": {
+            "pattern": "ZONE_<CHAR>+_<ENTIER_3>"
+        }
+    }
+}

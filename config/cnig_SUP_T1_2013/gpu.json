@@ -1,0 +1,63 @@
+{
+    "validator_document_model": {
+        "e9fb0f3e027ac23046b9435e94a5048f": {
+            "folder_name": "<IDGEST>_T1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "1819155c22f8411afb3e635a98d29219": {
+            "path": "Donnees_geographiques/T1_GENERATEUR_SUP_L(_<MAILLAGE>)?"
+        },
+        "4bec018e3d3a48f5ea5c0a58912d2949": {
+            "path": "Donnees_geographiques/T1_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "cea3aa7afff5055ac81b4fdfd4d217d3": {
+            "path": "Donnees_geographiques/T1_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "1e8a1c29c5c58f0dca7e2574a0f1001e": {
+            "conditions": null,
+            "foreign_keys": "[\"(HREF) REFERENCES ListeHrefSUP(HREF)\"]",
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "8cc7e749c1bfa2131ed44fc5f9d68261": {
+            "conditions": null,
+            "foreign_keys": "[\"(TYPE_GEST) REFERENCES ListeTypeGestSUP(TYPE_GEST)\", \"(TYPE_VOIE) REFERENCES ListeTypeVoieSUP(TYPE_VOIE)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "e212f88bc7ac2edbbabba5af6a3cdd7a": {
+            "conditions": null,
+            "foreign_keys": "[\"(TYPE_GEST) REFERENCES ListeTypeGestSUP(TYPE_GEST)\", \"(TYPE_VOIE) REFERENCES ListeTypeVoieSUP(TYPE_VOIE)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        }
+    },
+    "validator_static_table": {
+        "3777c7ab143171d9c3962ab6445ced48": {
+            "path": "TypeGest_SUP.csv"
+        },
+        "7f10f62c1e99e0819df05ab7baf9eb84": {
+            "path": "Type_SUP_TypeVoie.csv"
+        },
+        "c79f4d375646ce997d0262b4b13e09b2": {
+            "path": "Href_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "22e78353325b7e541a2c9d26aa758285": {
+            "reference_target": "ListeTypeGestSUP(TYPE_GEST)"
+        },
+        "69c9159a15488b0c902e3dce0f95496d": {
+            "reference_target": "ListeTypeGestSUP(TYPE_GEST)"
+        },
+        "8e499567db4dbf3b352629a4f4e02f57": {
+            "reference_target": "ListeHrefSUP(HREF)"
+        },
+        "989aa17acdb31ff13f6e82c6bdbfafdc": {
+            "reference_target": "ListeTypeVoieSUP(TYPE_VOIE)"
+        },
+        "9c9f32b817a58c958bf8120b032796a0": {
+            "reference_target": "ListeTypeVoieSUP(TYPE_VOIE)"
+        }
+    }
+}

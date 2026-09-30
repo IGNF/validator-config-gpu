@@ -1,0 +1,114 @@
+{
+    "validator_document_model": {
+        "39c84789b97ac1944ff285abf3c1354c": {
+            "folder_name": "<MAILLAGE>_CC_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "345c7db79b41a27e5c66d6750d1d96c4": {
+            "path": "Pieces_ecrites/Rapport_de_presentation/<INSEE_COMMUNE>_rapport_<YYYYMMDD>"
+        },
+        "3ddd67f78ef7d53cd7835fb1906ec650": {
+            "path": "Donnees_geographiques/INFO_LIN(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "475291bc8e567f32df017ea8ca75eff1": {
+            "path": "Donnees_geographiques/HABILLAGE_TXT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "4f79a5712f568596b1ec4cf5eb8d4455": {
+            "path": "Donnees_geographiques/INFO_SURF(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "5758fa2185331d8be69bea806fcb08c1": {
+            "path": "DOC(UMENT)?_URBA_COM(_<INSEE_DEPARTEMENT>)?"
+        },
+        "60cd9830b31d33e96741bf2767f3fda7": {
+            "path": "Pieces_ecrites/Annexes/<FILENAME>"
+        },
+        "67cde7e9f839938a4dc3ec8875f09105": {
+            "path": "Donnees_geographiques/HABILLAGE_LIN(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "6868b3d8251f332bd0fd9126768c58db": {
+            "path": "Donnees_geographiques/HABILLAGE_SURF(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "6f8f27f965019c8ee5d71a8ed074ef5d": {
+            "path": "Donnees_geographiques/HABILLAGE_PCT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "7ff1e2741debd578ea917d9e004be64e": {
+            "path": "Donnees_geographiques/SECTEUR_CC(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "9b931b59a7e214c80efa48e85b9694fa": {
+            "path": "Donnees_geographiques/INFO_PCT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "f693b3713587bc63a4641353cfaf4fb5": {
+            "path": "<FILENAME>"
+        },
+        "ff283bc914d33b728131e0ee8badb7c3": {
+            "path": "DOC(UMENT)?_URBA(_<INSEE_DEPARTEMENT>)?"
+        }
+    },
+    "validator_feature_type": {
+        "3b31c624149d65a8615a4d31975f36e9": {
+            "foreign_keys": null
+        },
+        "6290167e09ed0236b6db532f24590863": {
+            "foreign_keys": null
+        },
+        "bfb1ec32fb0500e2b5cfb95f593e8b9e": {
+            "foreign_keys": null
+        },
+        "c2a0782dd2345c251bc4cec34aa061d2": {
+            "conditions": null
+        }
+    },
+    "validator_static_table": {
+        "7e51b4e047cf874060fde0a68de18ace": {
+            "path": "Destdomi.csv"
+        },
+        "aa4e8caffc996e6be392f8930b1b5f4e": {
+            "path": "Fermreco_CC.csv"
+        },
+        "dde7e25f5962140a6c58ce3d18d1cd0f": {
+            "path": "Interco.csv"
+        },
+        "e8cdadccf67b448aa9835acbbe02742b": {
+            "path": "Libelle_CC.csv"
+        },
+        "f874a9edd8c37048775d78110fd9fbc5": {
+            "path": "Typesect_CC.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "1be6d48973d1556d4fb7cf7865b6db79": {
+            "reference_target": "ListeLibelleCC(LIBELLE)"
+        },
+        "2ee36d50992089d2cd1b2058f4a0d44e": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "373616397ac309e873c7d2a78ae2eb9d": {
+            "reference_target": "ListeTypesectCC(TYPESECT)"
+        },
+        "4236b882e04e0de6d74f08f79bf22797": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "510e003f6396e19bdbf253af8b754475": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "59fe911e35aa4cfdacb2ea740ddc95c3": {
+            "reference_target": "ListeFermrecoCC(FERMRECO)"
+        },
+        "d2f112a50a240e8f28bde7f776460cd6": {
+            "reference_target": "ListeDestdomi(DESTDOMI)"
+        },
+        "d4907b570dfa7338cb66c27bff77947b": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "e0d2959b3f7ca50ee805d5b3738e9929": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "e3f04ef323440b94aaf8bf190692a504": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "ff7f825a52aa243dd691435779d68446": {
+            "reference_target": "ListeInterco(INTERCO)"
+        }
+    }
+}

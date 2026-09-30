@@ -1,0 +1,32 @@
+{
+    "validator_document_model": {
+        "68193fc2a161f6974fea1be4e949f2d4": {
+            "folder_name": "<IDGEST>_AR1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "aa8cc90d1e1602efb3ac0312c0cf5f5b": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "d1700d551e97de4762fabf95238658bd": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)\", \"(HREF) REFERENCES ListeHrefSUP(HREF)\"]",
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_static_table": {
+        "63f2954a203f6ea34348e521c8959119": {
+            "path": "Href_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "9779ea613674062bcaceaaf942dddfc3": {
+            "reference_target": "ListeHrefSUP(HREF)"
+        },
+        "a76f8937b25ea877fbadb71195cb022c": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        }
+    }
+}

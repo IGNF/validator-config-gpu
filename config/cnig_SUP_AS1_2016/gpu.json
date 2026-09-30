@@ -1,0 +1,40 @@
+{
+    "validator_document_model": {
+        "9bdba8799616832b2f623881ce006243": {
+            "folder_name": "<IDGEST>_AS1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "31dfb90d186f0c49a2af3ac43474a8d0": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        },
+        "c1c43baa446275005ba3469e1f954343": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPEau(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "d6f1a869acad64a60d9131add4cb0562": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPEau(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        }
+    },
+    "validator_static_table": {
+        "7470fcc732dc42beaa41b3d12ff4b6f8": {
+            "path": "Type_SUP_Eau.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "5ccecac67fc0d2cac0dab8f36ea702e2": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_(pepi|pepr|pepe|pepm)"
+        },
+        "c726b10259e11ad176c18cb5fafb4833": {
+            "reference_target": "ListeTypeSUPEau(TYPE)"
+        },
+        "e4da4548d2230bb66b289509cee893bf": {
+            "reference_target": "ListeTypeSUPEau(TYPE)"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "validator_document_model": {
+        "3b7b230aca4ef150ffc3f22b7f281acb": {
+            "folder_name": "<IDGEST>_I1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "4d58bf774c459e00fc2bea50347a1b0e": {
+            "path": "Donnees_geographiques/I1_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "4e06fade0d8deae5734780104dba1a8d": {
+            "path": "Donnees_geographiques/I1_GENERATEUR_SUP_L(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "7c4e0075aafabf0cc14610febe147b7d": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "8379a7f3e8fb1b20dd016d591647cfcb": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        }
+    }
+}

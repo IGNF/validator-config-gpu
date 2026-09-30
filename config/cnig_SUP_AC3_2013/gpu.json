@@ -1,0 +1,37 @@
+{
+    "validator_document_model": {
+        "a760c383d30d91539312e2c99ceab15c": {
+            "folder_name": "<IDGEST>_AC3_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "1f088c19d81db5e0b55a20cc67167272": {
+            "path": "Donnees_geographiques/AC3_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "3dc9629854abc9ce64570383f0ada05c": {
+            "path": "Donnees_geographiques/AC3_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "329c8d43c5b7862abd937d22132f40e0": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "dd2a46d4b29e7ae56149831b07fb9bb2": {
+            "conditions": null,
+            "foreign_keys": "[\"(TYPE) REFERENCES ListeTypeSUPReserve(TYPE)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        }
+    },
+    "validator_static_table": {
+        "ca6981a821e240ceb9fe82bbd3627cf8": {
+            "path": "Type_SUP_Reserve.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "b121c65f8ef0371dedbd41b8a7f115a2": {
+            "reference_target": "ListeTypeSUPReserve(TYPE)"
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "validator_document_model": {
+        "0848d5fe9ed44479476fb2c2fcbe89b0": {
+            "folder_name": "<MAILLAGE>_POS_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "08e95c97ee3ddeafd4965ec6aa01e0b9": {
+            "path": "Donnees_geographiques/PRESCRIPTION_LIN(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "13fa9ed73b8a7b264b16f9691938ea6a": {
+            "path": "Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_(PADD|padd)_<YYYYMMDD>"
+        },
+        "1ff1896661c61eb48f58523afca4ccce": {
+            "path": "Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_info_<GEOM>(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>"
+        },
+        "2d85436417112d295facc085d118ef7b": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_rapport_<YYYYMMDD>"
+        },
+        "369f98daad1ea1009c21b1c520a9e082": {
+            "path": "Pieces_ecrites/5_Orientations_amenagement/<INSEE_COMMUNE>_orientations_amenagement(_<ENTIER>)?_<YYYYMMDD>"
+        },
+        "3a3fcbeb83ecfdef5b2b9edcddd00f15": {
+            "path": "Donnees_geographiques/ZONE_URBA(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "4adb4a7de404353787e6e476fa45e3bc": {
+            "path": "Donnees_geographiques/PRESCRIPTION_PCT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "566a8bd709ec8c2e0f98ed86afb7b1dc": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_procedure_<YYYYMMDD>"
+        },
+        "5ba0154bf6092df4190a003bf76b1ea8": {
+            "path": "Donnees_geographiques/PRESCRIPTION_SURF(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "8253523748616448b3de26540fede09f": {
+            "path": "DOC(UMENT)?_URBA(_<INSEE_DEPARTEMENT>)?"
+        },
+        "94808c871118a75caa584054484c55eb": {
+            "path": "DOC(UMENT)?_URBA_COM(_<INSEE_DEPARTEMENT>)?"
+        },
+        "9a5e3cee69b56885859bbb1466f78687": {
+            "path": "Donnees_geographiques/INFO_SURF(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "9c050832e4ba7f754743debf7ebf7255": {
+            "path": "Donnees_geographiques/INFO_LIN(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "ac3b3e367fe47bcca2aeceb006fe93c4": {
+            "path": "Donnees_geographiques/INFO_PCT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "ba53ac51bc9dbb101fc549dd81822a46": {
+            "path": "Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_prescription_<GEOM>(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>"
+        },
+        "d20d599707de5295b4d45e04d16842e8": {
+            "path": "Pieces_ecrites/4_Annexes/<FILENAME>"
+        },
+        "d2fe970beba48cd28c822f5633000023": {
+            "path": "Donnees_geographiques/HABILLAGE_TXT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "d8a48424d7712b355d6498caf8b17a19": {
+            "path": "Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement_<YYYYMMDD>"
+        },
+        "dffea2b34ff1f07adfc30dda17a98da8": {
+            "path": "<FILENAME>"
+        },
+        "f7bd95930e0a2ab3881865e4d0a96841": {
+            "path": "Donnees_geographiques/HABILLAGE_PCT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "f83e13cf1db7aff41d3dd7ea79e1f27e": {
+            "path": "Donnees_geographiques/HABILLAGE_LIN(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "f9cdf5384136d812bd5a1dab86773e0d": {
+            "path": "Donnees_geographiques/HABILLAGE_SURF(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        }
+    },
+    "validator_feature_type": {
+        "b6c06e076c6d7cb5953a27a91e446ccb": {
+            "conditions": null
+        },
+        "e139447bb20c067c1ad6303034f804ad": {
+            "conditions": null
+        }
+    },
+    "validator_static_table": {
+        "795313473bfad62179b1a0441427a2fe": {
+            "path": "Interco.csv"
+        },
+        "fca0ae03866f9d61c43f0a2e6f4f5fff": {
+            "path": "Destdomi.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "2ee27946da6de3f7473371a55d3cdaa0": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "42b83fd71a22d7da92aaade6fb13143d": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "5311448fdfbec8d2b9425b76106b5ca9": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "5b08198ff849fdcfbef54d2ebdc103ef": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "5de5609d80374995d83a59dfd20af17b": {
+            "reference_target": "ListeInterco(INTERCO)"
+        },
+        "6360287f14a071d5af963544cbc45984": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "7c2fe5c13a0a84a0dc192f23b7a6826d": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "7fa5b5a6ee4b891aa8a47e61bacee81c": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "8608995ef97a9957d0ec0365161ebfed": {
+            "reference_target": "ListeDestdomi(DESTDOMI)"
+        },
+        "9dc3d4161072a0e15af4ad82a6a346c5": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "a68783c4994026ba99fa61a95a511bb0": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "d143a42f877b6d63f17d1c8d4d23dad6": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "d4c67d3bf0d5c8ce0c0def8dd3e37f8f": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "e510a267639dae9bbff26c9fc0899421": {
+            "pattern": "<YYYYMMDD>"
+        }
+    }
+}

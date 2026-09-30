@@ -1,0 +1,37 @@
+{
+    "validator_document_model": {
+        "e6c3f11c13d0aaf5edad924cd59042e7": {
+            "folder_name": "<IDGEST>_EL4_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "16b1cd0c0e817cd1163802af24b551e8": {
+            "path": "Donnees_geographiques/EL4_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        },
+        "2eb7bcfc4e0e992ede27c148f1387fa3": {
+            "path": "Donnees_geographiques/EL4_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "1354d0b3da52dac25c9e66792d0ac0d1": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "eebe8a7d99abda3f75dedc7aa3f7b0fb": {
+            "conditions": null,
+            "foreign_keys": "[\"(HREF) REFERENCES ListeHrefSUP(HREF)\"]",
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        }
+    },
+    "validator_static_table": {
+        "53d1e201a4560e7f13fbb59da10b7eb4": {
+            "path": "Href_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "b71799e1cbb3055e36c0c2450f056807": {
+            "reference_target": "ListeHrefSUP(HREF)"
+        }
+    }
+}

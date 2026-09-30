@@ -1,0 +1,43 @@
+{
+    "validator_document_model": {
+        "859defebe2fcef45c8638abbff01ed6b": {
+            "folder_name": "<IDGEST>_PM5_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "c21b58513f2aace669dd68f62327f14a": {
+            "path": "Donnees_geographiques/PM5_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "db953d39831d34fdda6376ac93c7ebe6": {
+            "path": "Donnees_geographiques/PM5_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "25799ab4e7d3d17532d47bb17993a2ef": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "e53e240a71fc7d13f8fb277acd561100": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        }
+    },
+    "validator_static_table": {
+        "7b7b913a5c82c96fdc5b20c643fe53e7": {
+            "path": "Modegenere_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "11ec5a745f01bd0f3ac90e8f63cb82c4": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
+        "afd7ef36dac292c361402c1369b09723": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "cc1e59521113bd46dbf1755bf85109b3": {
+            "reference_target": "ListeModegenereSUP(MODEGENERE)"
+        }
+    }
+}

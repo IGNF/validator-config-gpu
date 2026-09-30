@@ -1,0 +1,40 @@
+{
+    "validator_document_model": {
+        "4dc8c0e4ba4f2d8a5d65f0ed4c48ceb6": {
+            "folder_name": "<IDGEST>_I3_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "3b541534400561e8453f47ccfd30b192": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        },
+        "980ffe2707b54b5150d8f3d2ba4f833e": {
+            "conditions": "[\"SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')\",\"DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL\",\"REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'\",\"IDBDEXT IS NOT NULL OR REFBDEXT IS NULL\"]",
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPGaz(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "b212b48e37b7ce4b5381bc1ee37fe36d": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPGaz(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        }
+    },
+    "validator_static_table": {
+        "9773be151c9748838ea9c069011d3d7d": {
+            "path": "Type_SUP_Gaz.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "03db5deb0fc73e0a5e1ab5038537c0e5": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "434f2c468550a874dda84262c40d8785": {
+            "reference_target": "ListeTypeSUPGaz(TYPE)"
+        },
+        "d62f0690cb9b8e48eb8a1418d53ff33b": {
+            "reference_target": "ListeTypeSUPGaz(TYPE)"
+        }
+    }
+}

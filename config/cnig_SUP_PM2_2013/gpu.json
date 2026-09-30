@@ -1,0 +1,35 @@
+{
+    "validator_document_model": {
+        "29a976c20b8c6a712fa1847040958e28": {
+            "folder_name": "<IDGEST>_PM2_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "5a5b7fa213cccf4fa0da33da9e82fac4": {
+            "path": "Donnees_geographiques/PM2_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "8a2bd2a33f7a039e70a03bf5bb568e9c": {
+            "path": "Donnees_geographiques/PM2_GENERATEUR_SUP_P(_<MAILLAGE>)?"
+        },
+        "f7f10126797b4bd408000c9e4a637230": {
+            "path": "Donnees_geographiques/PM2_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "078027c579d7d0370976d87d0b6e6452": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "b0f72d8cf9099420afba8f04855faf96": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "de25fd70db811f8976e3e4ac8516557b": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "validator_document_model": {
+        "ae1b7c300cc2bd02910b8c279cfb4af0": {
+            "folder_name": "<MAILLAGE>_(PLU|POS|CC|PLUi|SCoT)_MEC<ENTIER>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "00f032b6a05ccc8b7395425d62ff19f5": {
+            "path": "Pieces_ecrites/<MAILLAGE>_<YYYYMMDD>_arrete_MEC<ENTIER>_<YYYYMMDD>"
+        },
+        "a7ab4f66fc82f0ed5d0764f252a692bf": {
+            "path": "Pieces_ecrites/<MAILLAGE>_titres_pieces_ecrites_<YYYYMMDD>"
+        },
+        "b612859c9f3f98f044655f918ba760cf": {
+            "path": "Donnees_geographiques/<MAILLAGE>_MEC<ENTIER>_<YYYYMMDD>"
+        },
+        "bb89ec066a7a14c37ae9c1ba34b974b2": {
+            "path": "Pieces_ecrites/<MAILLAGE>_<YYYYMMDD>_rapport_de_presentation_MEC<ENTIER>_<YYYYMMDD>"
+        },
+        "e42ea120ac70823c17af94bfc2fe103d": {
+            "path": "<FILENAME>"
+        }
+    },
+    "validator_feature_type": {
+        "8a5b8dd35e3d5037a635aa0b9e8fbf87": {
+            "conditions": "null",
+            "foreign_keys": "null"
+        },
+        "f26178a77941d3970f3b7bc0432dac1b": {
+            "conditions": "null",
+            "foreign_keys": "null"
+        }
+    },
+    "validator_attribute_type": {
+        "b4d7249f598514ff355215858e2dc524": {
+            "pattern": "<INSEE_SIREN>_<YYYMMDD>_rapport_de_presentation_MEC<ENTIER>_<YYYMMDD>.pdf"
+        },
+        "dcfeb75dcc2f683fe53aeee0ffd1aa8f": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "ffb5d583d2d2aa66e4c0d72673c8d467": {
+            "pattern": "<INSEE_SIREN>_<YYYMMDD>_arrete_MEC<ENTIER>_<YYYMMDD>.pdf"
+        }
+    }
+}

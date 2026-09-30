@@ -1,0 +1,29 @@
+{
+    "validator_document_model": {
+        "5687595a41c4d8554f00f069928849f1": {
+            "folder_name": "<IDGEST>_EL3_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "6004a58a86135a68040463fd26764140": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "72dab79893ed644892ef2cca3e7c9838": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "d70be46b36329683981be27e8f9f7c0b": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_attribute_type": {
+        "179ecfe44efaabbdcd3a4aba2b518e07": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_(zhlg|zmcp)"
+        }
+    }
+}

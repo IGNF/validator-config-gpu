@@ -1,0 +1,145 @@
+{
+    "validator_document_model": {
+        "3fddb8c0a252db7712177e7e75802299": {
+            "folder_name": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "124a8ae189bc5a155fca9e4c1a77d8b1": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_objectifs(_et)_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "17f9ba3316fb9652e48db9225b5e6427": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "1868f2614638e0b07a0e18f62c4074ad": {
+            "path": "Pieces_ecrites/2_Annexes/<SIREN>_consommation_espace_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "2886e772cf5ae1a16b819708998bdde7": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decision_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "2d87d573c3baf9b037465db29caa01cd": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_mec_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "338fdfb586fa424cb9ae4561abdfb614": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decret_sup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "340b1ba4c3b6c01f08073f29319859f8": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_declaration_projet_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "40c62399d20f0314dc3fdc5bd0fa2cfc": {
+            "path": "<SIREN>_DOC_URBA_COM_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "4e02da1152df50eef3d596078880814b": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_[a-z_]+_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "51f91e1b02d48650273a380aaf0d4f2a": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_approbation_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "52e860dd5e7d52d2fa9a963ee34e0f1a": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_arret_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "56a3ed2ee394948f620ec637b08031c8": {
+            "path": "<SIREN>_DOC_URBA_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "577ab878652e9bfbbad8d7e878e997b0": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_decision_(eval_env|EE)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "58b348ffde97dba27073a65f1c2718eb": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_engagement_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "629d152ca82ce1a7bf104254e2bc1a15": {
+            "path": "Pieces_ecrites/1_SCOT/<SIREN>_pas_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "6ca908db02a7adf05105c693e0049cd7": {
+            "path": "Pieces_ecrites/2_Annexes/<SIREN>_diagnostic_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "70605aa237a9ea8d1d997fb0a706eb5a": {
+            "path": "Pieces_ecrites/2_Annexes/<SIREN>_justification_choix_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "7bafa02f2f0173036122099cf333583d": {
+            "path": "Pieces_ecrites/1_SCOT/<SIREN>_daac_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "82038e128ee6f8c72341217a7b9e1559": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_prescription_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "898cf7b6313ccb0fa2b91fce9b4a5275": {
+            "path": "Donnees_geographiques/<SIREN>_PERIMETRE_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "9009f09fb150a23186319db12e9ccfa8": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_avis_(ppa|PPA)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "91b76b0f9b94f0e6eed5a3f484af9bb2": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_delib_debat_(pas|PAS)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "9cece6918efb3b1f79135c09e8a9e144": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_maj_annexes_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "a18a583bd3381b6ee9edc60db82c0a2d": {
+            "path": "Pieces_ecrites/1_SCOT/<SIREN>_doo_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "a556a128a96426c216cf4500718b9f3e": {
+            "path": "<FILENAME>"
+        },
+        "bb6f55285d45c0136c6dfe08fe4c8185": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_avis_(EE|eval_env)_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "bf27118624f47e8388d1fb38ead74b7b": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_perimetre_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "ce426f66a709dfefad8ef89017bb36ad": {
+            "path": "Pieces_ecrites/2_Annexes/<SIREN>_evaluation_environnementale_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "ec4fdfa0127291fc5b454b93ee4af435": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_jugement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "ec8ea514907769ea43f569ed8d11973a": {
+            "path": "Pieces_ecrites/2_Annexes/<FILENAME>"
+        },
+        "f67af34b6f102ed3e4f64aa287be25b1": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_dup_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "fbd4c6f8b3ca2c32683e2238c69b647c": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_<YYYYMMDD>_arrete_objectifs(_et)?_modalites_<NOMPROC>_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "ff2873f0f3f3133711ed6e39d33d73d3": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_static_table": {
+        "098956a37ed4efb0a035a231bde55602": {
+            "path": "Typedoc_SCoT.csv"
+        },
+        "c0f466c8cf4a9a41e1782b217c710360": {
+            "path": "Etat_SCoT.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "004543a3399b0f3a1ef7d9bbea6c1430": {
+            "pattern": "<SIREN>"
+        },
+        "53c6e0f7c13bff609bca45cb33425a61": {
+            "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "67f85ebe1424d5175939363d8a35cee8": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "849a3a317a8a8162b7e27ddb847cdd4f": {
+            "pattern": "<SIREN>"
+        },
+        "9f8d123af44d21b9971bf40e2f434828": {
+            "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "acf5c7f6643b29ff927cdffb4071bc82": {
+            "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "d6b095875175064f97682c720a5d4f0e": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "dc2aad157850514bca94b56469fee436": {
+            "pattern": "<INSEE_COMMUNE>"
+        },
+        "ed59e83008874c75c8970820aa13d0d6": {
+            "pattern": "(E|R|MEC<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
+        }
+    }
+}

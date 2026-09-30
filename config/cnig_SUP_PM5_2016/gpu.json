@@ -1,0 +1,48 @@
+{
+    "validator_document_model": {
+        "b1766cedddcd650be0e4ab7a474f3e74": {
+            "folder_name": "<IDGEST>_PM5_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "346ce5f43484137d608293142d5951f4": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "7daa6e24c8f0c7be27caeb5c9eb2493d": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "82f35ea660b059e947eac6fbdb5fba92": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "f5ed4c68bfe7ad1d6566d1e4479543d2": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_static_table": {
+        "80f3589096cef1bf141a6ae9fba4f380": {
+            "path": "Modegenere_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "c41dff2280044aaf957f2f1ea2677315": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "da4dac2902f0d5fa50219a7003c1f098": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
+        "e6104aef0e75251a025136943ce7ce3a": {
+            "reference_target": "ListeModegenereSUP(MODEGENERE)"
+        },
+        "f7ae969b0e2b54812af24d4ff98b69c2": {
+            "pattern": "<YYYYMMDD>"
+        }
+    }
+}

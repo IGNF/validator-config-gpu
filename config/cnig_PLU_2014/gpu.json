@@ -1,0 +1,165 @@
+{
+    "validator_document_model": {
+        "a92b92f73d59917d050de93dbb4e74c7": {
+            "folder_name": "<MAILLAGE>_PLU_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "03d497e82f490fe134cc661a3d0cabd1": {
+            "path": "<FILENAME>"
+        },
+        "22afe8bc815eebdb665cef0b1f0be8aa": {
+            "path": "Pieces_ecrites/5_Orientations_amenagement/<INSEE_COMMUNE>_orientations(_amenagement)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "357e29ca1bda8c52887373e0be176887": {
+            "path": "Donnees_geographiques/INFO_SURF(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "406748dfd7b28451647c6860dcfde056": {
+            "path": "Donnees_geographiques/PRESCRIPTION_SURF(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "4708bf1184e40ee7aa7b6d4f529331f0": {
+            "path": "Pieces_ecrites/2_PADD/<INSEE_COMMUNE>_(PADD|padd)_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "57ae9bfeb037364c8e0de9eaf8b4431e": {
+            "path": "Donnees_geographiques/HABILLAGE_LIN(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "72da484d6634db30124a42d5cfb8fadb": {
+            "path": "Donnees_geographiques/HABILLAGE_PCT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "766a513304de1a426a715048477f21b2": {
+            "path": "Donnees_geographiques/ZONE_URBA(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "81c765b004c69cfb88ea12e00ca42c63": {
+            "path": "DOC_URBA(_<INSEE_DEPARTEMENT>)?"
+        },
+        "844305554f8fbdcf589c3d68d8547015": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_rapport(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "8e4388991dea2e969aac2b5b5fa74055": {
+            "path": "Donnees_geographiques/HABILLAGE_SURF(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "94df13cff06bd6b15cb35bb0d564110a": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "9998c533ee7e24adfd15bff4d9bd4adb": {
+            "path": "Donnees_geographiques/INFO_LIN(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "a4ca0afdc13b260779c2e1f70aea4699": {
+            "path": "Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_prescription_(lin|pct|surf)(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "b1891ccf8c04f127064dbd8971d0ec63": {
+            "path": "Donnees_geographiques/PRESCRIPTION_LIN(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "b5acf1244eab8fb52691154859bd781d": {
+            "path": "Pieces_ecrites/4_Annexes/<FILENAME>"
+        },
+        "bf55ae40cde2ff97c755bb4775da4374": {
+            "path": "DOC_URBA_COM(_<INSEE_DEPARTEMENT>)?"
+        },
+        "d4ed9e8634b669769bb6edc110efdddf": {
+            "path": "Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement_graphique(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "d8c95096656b298ceb37138953f77d4a": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "e6a84a9d821a8f73f4a174fd2ba874f4": {
+            "path": "Donnees_geographiques/INFO_PCT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "e786f3afc60b4234bcf79c82f27939e6": {
+            "path": "Donnees_geographiques/HABILLAGE_TXT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        },
+        "e78b5301e71be1f3a1accc9113a8558a": {
+            "path": "Pieces_ecrites/3_Reglement/<INSEE_COMMUNE>_reglement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "eeee6c9903a753f2c8c6e9707b684707": {
+            "path": "Donnees_geographiques/PRESCRIPTION_PCT(_<INSEE_COMMUNE>)?(_<INSEE_DEPARTEMENT>)?"
+        }
+    },
+    "validator_feature_type": {
+        "353f879824ced4083ff0726b606e3b5b": {
+            "conditions": null
+        }
+    },
+    "validator_static_table": {
+        "15a956b26813ab33914598eda1dfb69f": {
+            "path": "Interco.csv"
+        },
+        "19c80471d7fe3d2d87b5e42732b9950f": {
+            "path": "Destdomi.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "15af7a7b61ce458c1ca857a839d4d592": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "175001591209bb41e8f0e31b73d45655": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "1b2cf8ca524463c2c5e91182aad704cc": {
+            "pattern": "S(<ENTIER>)?"
+        },
+        "30a3e2766365644aa32dcecc56c8586e": {
+            "reference_target": "ListeInterco(INTERCO)"
+        },
+        "3342d358fc721093518077a37f3957e6": {
+            "pattern": "HS(<ENTIER>)?"
+        },
+        "3790d4033a3b94bb9ebb2e1375d82970": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "48c561dd3880fb1ee722528bd5e9a96a": {
+            "reference_target": "ListeDestdomi(DESTDOMI)"
+        },
+        "5d3a21d212f8bd48cee06951a1b3d94b": {
+            "pattern": "POIN(<ENTIER>)?"
+        },
+        "6e79d03548c480837af440f611e12694": {
+            "pattern": "Z(<ENTIER>)?"
+        },
+        "781057cab7870a1664eba1327e78b803": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "79b192ab4ffc512269bd4f3ef9b02009": {
+            "pattern": "HT(<ENTIER>)?"
+        },
+        "85a68a878a5cb30dbb3fbd4e7017dfa1": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "8827a537256100a0615765e0b822df33": {
+            "pattern": "PERI(<ENTIER>)?"
+        },
+        "8f92993c402b6847086f59aa93d5afff": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "a1d6e1a108f5241f52b675ddd58f58d0": {
+            "pattern": "LINE(<ENTIER>)?"
+        },
+        "b0e4bc2b4d3f3c1da7e8e9d850b71fd6": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "b295ea213d1c74dadac7511da195651b": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "c10174d554ea67ebb83bdf73a3f1af23": {
+            "pattern": "L(<ENTIER>)?"
+        },
+        "c83461113e9140b61084141ccad953aa": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "ddfaee1317a16639be4fdd0315ae74ae": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "e77aaad29de92a25fff1d83494ee309d": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "ea366eccd959e1519c1f75c509ee437a": {
+            "pattern": "HP(<ENTIER>)?"
+        },
+        "efd9cf2ff9ef5d8786a7907903ca0cc7": {
+            "pattern": "HL(<ENTIER>)?"
+        },
+        "ffa821e814d58f5e4a17254c0cba86b7": {
+            "pattern": "P(<ENTIER>)?"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "validator_document_model": {
+        "b427504670bfdc417647977abd8580e8": {
+            "folder_name": "<IDGEST>_AC1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "519221ebc4fda94fac9c2fe547c68744": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        },
+        "8ae06046374656ce9997d670af3b3a01": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "9f8a01163a1908a96d50b9989722bcab": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "a8c6102eb8623c0f956616d37ff3509b": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        }
+    },
+    "validator_static_table": {
+        "e3a7152a82c7423099ede6cfb62974fc": {
+            "path": "Type_SUP_Monument.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "563eb7e95793a89db9af0b65ab7f7680": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        },
+        "598754116c126129cacd930c862966e0": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        },
+        "a7d3896f09ec472743db35aa86ab6c6b": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_(abor|mh)"
+        },
+        "f1df7088b63f98e737dd1bb9a77de38e": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "validator_document_model": {
+        "34ac41b6d62e11e9bb652a2ae2dbcce4": {
+            "enabled": "f",
+            "folder_name": "<SIREN>_SCOT"
+        }
+    },
+    "validator_file_model": {
+        "6376c47acf5938873936806f05e5df1b": {
+            "path": "<SIREN>_rapport_<YYYYMMDD>"
+        },
+        "8a315610d2b0f482f8dfb8c5d532de6e": {
+            "path": "<SIREN>_doo_<YYYYMMDD>"
+        },
+        "9f29e5d6dc283479ee2a282ff283ed90": {
+            "path": "<SIREN>_padd_<YYYYMMDD>"
+        }
+    }
+}

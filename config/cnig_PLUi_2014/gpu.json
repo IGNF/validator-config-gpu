@@ -1,0 +1,135 @@
+{
+    "validator_document_model": {
+        "602d607c66d4bb2de7215e007031f894": {
+            "folder_name": "<MAILLAGE>_PLUi_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "0c1ddbdebc11e1ed9bb1736d7a375f32": {
+            "path": "Pieces_ecrites/3_Reglement/<SIREN>_reglement_graphique(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "0ec053758933e3259b615f22c104171a": {
+            "path": "<FILENAME>"
+        },
+        "18a45ea31e53df5f931b8a4b078efa49": {
+            "path": "Pieces_ecrites/6_POA/<SIREN>_PLH(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "447b8a2e6086552c8698a86f8c97e250": {
+            "path": "Pieces_ecrites/5_Orientations_amenagement/<SIREN>_orientations(_amenagement)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "5242dd678b7e8cbcce64e208e2a35cb3": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_eval_environnement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "6da72d29e2035df5b627910f44302ed3": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<SIREN>_rapport(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "7719ad6bc59bc629eea9e3cd151cc7b9": {
+            "path": "Pieces_ecrites/2_PADD/<SIREN>_(PADD|padd)_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "b0892b32510806ddf91ec586f0763fb6": {
+            "path": "Pieces_ecrites/3_Reglement/<SIREN>_info_<GEOM>(_<ENTIER>)?(_<DOCUMENT_PART>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "b5c2726b52749aecf2e36887b30b7fcb": {
+            "path": "Pieces_ecrites/6_POA/<SIREN>_PDU(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "cd589c29c3f8e259b1042fe603283e5b": {
+            "path": "Pieces_ecrites/4_Annexes/<FILENAME>"
+        },
+        "db4886792a2a57a3d8230396a7b3cee9": {
+            "path": "Pieces_ecrites/3_Reglement/<SIREN>_prescription_<GEOM>(_<ENTIER>)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "f729e2de1b45b45b48c628b53bd1b55c": {
+            "path": "Pieces_ecrites/3_Reglement/<SIREN>_reglement_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "ff1de5adbae98ff6e46e33ab2e03ae93": {
+            "path": "Pieces_ecrites/0_Procedure/<SIREN>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_feature_type": {
+        "c0eaf7648822861e8e877ab5715c93cb": {
+            "conditions": null
+        }
+    },
+    "validator_static_table": {
+        "69a753e22296484bca35b190ac1b2602": {
+            "path": "Interco.csv"
+        },
+        "d9c5ea6f0a9562ef380f0f7afe75a423": {
+            "path": "Destdomi.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "09954ba9b243c4fc0bc5364305442dce": {
+            "pattern": "HP(<ENTIER>)?"
+        },
+        "0a8131b549f6e6de26be1bd889e4d149": {
+            "pattern": "HT(<ENTIER>)?"
+        },
+        "18402c9b7cf1dada5aaadd12f99644a1": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "21b8777e6da3d7c25e2985b3923a1df7": {
+            "pattern": "S(<ENTIER>)?"
+        },
+        "24fcb2ce92ad038bc42134217ff869d2": {
+            "pattern": "Z(<ENTIER>)?"
+        },
+        "371fa0f2de7c24538d5cc8e2acde9e33": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "3cbd1497cb9450e3763c40c461711ae8": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "5397c253ad350d3c2bdaf7b3ff7f7a5d": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "563d49425b353b5751db8fa812cf89ea": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "6177b2b7dc49a423b26a8e9b9ec340e2": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "61c7515ac34fe86cf7ebe76b776c2521": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "61e630d5275101c1c263226c5415b5b6": {
+            "pattern": "LINE(<ENTIER>)?"
+        },
+        "68abea448cecfa723577dc17696d3c2d": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "6fd969e34202d7076f154a5015b3f7c0": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "7294d898e4f406955b6114c017ca1417": {
+            "pattern": "HS(<ENTIER>)?"
+        },
+        "824f935280a966e0de3378015518ffd5": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "8cda4abdb46712dd51200ca2141e6716": {
+            "reference_target": "ListeInterco(INTERCO)"
+        },
+        "a77dd42289bcc621b8e18f0717d7b32a": {
+            "reference_target": "ListeDestdomi(DESTDOMI)"
+        },
+        "af6df72869043f9ecaa9683139e08433": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "b317462d1fc1ea40c668d8060a0578c1": {
+            "pattern": "POIN(<ENTIER>)?"
+        },
+        "d55ffe91ddb2d62046a7fd574e910cac": {
+            "pattern": "PERI(<ENTIER>)?"
+        },
+        "e5a29267bfcf617160c76c82086505ef": {
+            "pattern": "P(<ENTIER>)?"
+        },
+        "fed0c52cf0efb171e18dbdaef6b7ba52": {
+            "pattern": "L(<ENTIER>)?"
+        },
+        "ff737c2ce991ecbead2c028340dd8aef": {
+            "pattern": "HL(<ENTIER>)?"
+        }
+    }
+}

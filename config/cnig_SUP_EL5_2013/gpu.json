@@ -1,0 +1,43 @@
+{
+    "validator_document_model": {
+        "a6f5ba842e151219298bf5456dbb24d6": {
+            "folder_name": "<IDGEST>_EL5_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "1ea44aef8df436ac9e5e48f5569f98ec": {
+            "path": "Donnees_geographiques/EL5_ASSIETTE_SUP_P(_<MAILLAGE>)?"
+        },
+        "66ea05dbb4a29a07e49dd78e0bb30faa": {
+            "path": "Donnees_geographiques/EL5_GENERATEUR_SUP_P(_<MAILLAGE>)?"
+        },
+        "aa9e293ba40d1d20ac08ccd0d6f58770": {
+            "path": "Donnees_geographiques/EL5_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "c69114710336bf23f49ea01e0c4aca5e": {
+            "path": "Donnees_geographiques/EL5_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "5526f383f54f349808e95400c4421803": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "5a33c1e552569f4dd30ff9f8c34e3ed1": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "a21611d12ea0a67fa867dafeef717250": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "c68281c3511596c2c818b45296697921": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        }
+    }
+}

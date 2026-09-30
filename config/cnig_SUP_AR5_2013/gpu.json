@@ -1,0 +1,27 @@
+{
+    "validator_document_model": {
+        "6b1856f59db06c3f2bae51e94a29fc74": {
+            "folder_name": "<IDGEST>_AR5_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "983898bbc70a5349ce3ac2c2cafefc02": {
+            "path": "Donnees_geographiqmaillageues/AR5_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "fe91817dddc57dcf0593cc20b8399d04": {
+            "path": "Donnees_geographiques/AR5_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "3043d7e3c7066893881dc5530ee130ac": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "40e47cd90e5c079eb1cf07acc0c063fc": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        }
+    }
+}

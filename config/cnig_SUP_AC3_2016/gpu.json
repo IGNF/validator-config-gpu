@@ -1,0 +1,32 @@
+{
+    "validator_document_model": {
+        "b49158183ad616e5f6dd9b87dbc01c07": {
+            "folder_name": "<IDGEST>_AC3_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "575e3ece467810ab0e2e6e502638e4a8": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPReserve(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "6d53fae5531db8ec67190bf9b8f17058": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_static_table": {
+        "3674d1f3b80442fabaa788263f010049": {
+            "path": "Type_SUP_Reserve.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "5f0bd47a819b82cf6be8ebda8c546992": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "63119c69de78ec68f3b3e2de9a5c33fa": {
+            "reference_target": "ListeTypeSUPReserve(TYPE)"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "validator_document_model": {
+        "139504abb2ed128b8b0195139b6c76ca": {
+            "folder_name": "<IDGEST>_I1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "1de98f600439327c884dc80c9900ce47": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPGaz(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "2b694c5725f64ba714fc0cf84b171daf": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPGaz(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "b91de2bd024334a56581e1027a5277c3": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(TYPE) REFERENCES ListeTypeSUPGaz(TYPE)\"]",
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        },
+        "fc85fb86e8a09d9c3d45b9e084562bc9": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        }
+    },
+    "validator_static_table": {
+        "5338e1b347564b58be9fe2d65d4f96d7": {
+            "path": "Type_SUP_Gaz.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "0bfd77e4e3b8696232bde6a25d28cb10": {
+            "reference_target": "ListeTypeSUPGaz(TYPE)"
+        },
+        "21637a5bcc0d37edfe0185331df3a812": {
+            "reference_target": "ListeTypeSUPGaz(TYPE)"
+        },
+        "68f5531b25af3d778a589d976465c50e": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "b17d1a9f01be80be981eabd587435684": {
+            "reference_target": "ListeTypeSUPGaz(TYPE)"
+        }
+    }
+}

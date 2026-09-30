@@ -1,0 +1,56 @@
+{
+    "validator_document_model": {
+        "0c205df3ddf16921cd1e23cc454a77a2": {
+            "folder_name": "<IDGEST>_AC2_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "3c6d67360258c573d822f64ef21cd59f": {
+            "path": "Donnees_geographiques/AC2_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        },
+        "8d291ad83f0ba1efca570e7be0ff63c8": {
+            "path": "Donnees_geographiques/AC2_GENERATEUR_SUP_P(_<MAILLAGE>)?"
+        },
+        "9ec5033308e529d7622aaa6646136e4a": {
+            "path": "Donnees_geographiques/AC2_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "fe6aa78d9dcc57bab73cefeeea8c65d0": {
+            "path": "Donnees_geographiques/AC2_ASSIETTE_SUP_P(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "147ed5992e3c7a5c00131c7eaf381146": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "720d29fb45284e808f32745127fdc8fc": {
+            "conditions": null,
+            "foreign_keys": "[\"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "c9118f093a78efa7522f988e2179672e": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "d25873afe1b50fe9b680a6171e02ba15": {
+            "conditions": null,
+            "foreign_keys": "[\"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        }
+    },
+    "validator_static_table": {
+        "d38370b1d9be4ff8a1f182f54c862bef": {
+            "path": "Type_SUP_Monument.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "193e65877defcf259db4f292296d3f94": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        },
+        "2bf27b8927df791efdbe0e2edc69f9ad": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "validator_document_model": {
+        "047e623390c31e28eb78d2372de2ee24": {
+            "folder_name": "<IDGEST>_T4_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "6546549etfg8749retgh6874etgh684e": {
+            "conditions": null,
+            "foreign_keys": "[\"(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)\", \"(HREF) REFERENCES ListeHrefSUP(HREF)\"]",
+            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        },
+        "c126e7e7300c3463a155bc56e4512572": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        }
+    },
+    "validator_static_table": {
+        "47c425904b7eb36250177efb763e4e50": {
+            "path": "Href_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "bb0de93e7620c10f52b5fe8312ebf803": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "d460a5f77065d36c3607c9265065c767": {
+            "reference_target": "ListeHrefSUP(HREF)"
+        }
+    }
+}

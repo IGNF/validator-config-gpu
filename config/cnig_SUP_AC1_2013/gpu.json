@@ -1,0 +1,59 @@
+{
+    "validator_document_model": {
+        "b9360879175654424b5057171226954f": {
+            "folder_name": "<IDGEST>_AC1_<MAILLAGE>_<YYYYMMDD>"
+        }
+    },
+    "validator_file_model": {
+        "12dffd3d5e2b2afdb85136780189429d": {
+            "path": "Donnees_geographiques/AC1_GENERATEUR_SUP_P(_<MAILLAGE>)?"
+        },
+        "1385dded4fc44b67d3d4f89f5d284c80": {
+            "path": "Donnees_geographiques/AC1_ASSIETTE_SUP_S(_<MAILLAGE>)?"
+        },
+        "2d02618652f20c199f10791c2a88c741": {
+            "path": "Donnees_geographiques/AC1_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        },
+        "6c9bb3c9b38d903f387aa340da3dad80": {
+            "path": "Donnees_geographiques/AC1_GENERATEUR_SUP_L(_<MAILLAGE>)?"
+        }
+    },
+    "validator_feature_type": {
+        "33b3ea00b4e54bba79e7ebf9512a2ced": {
+            "conditions": null,
+            "foreign_keys": "[\"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "c4bbcd5fffdc675a79bc8ee6f8e6d100": {
+            "conditions": null,
+            "foreign_keys": "[\"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        },
+        "e14c6d887b0e10f09453d25aa66af5f2": {
+            "conditions": null,
+            "foreign_keys": null,
+            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        },
+        "f890900ff8787f067c3a7f975f4d5cef": {
+            "conditions": null,
+            "foreign_keys": "[\"(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)\"]",
+            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+        }
+    },
+    "validator_static_table": {
+        "671ed4febb104df8b7eea09904f838e5": {
+            "path": "Type_SUP_Monument.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "7617164aa574bba921769753f6777d4e": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        },
+        "76616485b83d7d555b7ff1644da8a2e4": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        },
+        "79a12c11f093d62263115652e23bf435": {
+            "reference_target": "ListeTypeSUPMonument(TYPE)"
+        }
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "validator_document_model": {
+        "549d80d774bc11bbea9ad213210b9a3d": {
+            "folder_name": "<MAILLAGE>_CC_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        }
+    },
+    "validator_file_model": {
+        "07f258b5d1df5208dafac96c86d57160": {
+            "path": "<FILENAME>"
+        },
+        "11cb15ca8edf93d0032771d681b05591": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_SURF_<YYYYMMDD>"
+        },
+        "20c39b8993a14bcdcc801e7f0bd00e8c": {
+            "path": "Pieces_ecrites/0_Procedure/<INSEE_COMMUNE>_procedure_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "26d78ffc6b4800622efedf863684e801": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_TXT_<YYYYMMDD>"
+        },
+        "27b0b7b5d9a674a4c0baa4398c50d2be": {
+            "path": "Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_titres_pieces_ecrites_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "2947c1e1dab246bbdc143f43b69bff54": {
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/<INSEE_COMMUNE>_rapport(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "49eaca0acabb339d816548d8dee52ab0": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_SECTEUR_CC_<YYYYMMDD>"
+        },
+        "61492fc8de414718d97bae268413aebb": {
+            "path": "Pieces_ecrites/4_Annexes/<INSEE_COMMUNE>_liste_annexes_<YYYYMMDD>"
+        },
+        "6fb6a1861e7ebb923bf956fab87d3d99": {
+            "path": "<INSEE_COMMUNE>_DOC_URBA_COM_<YYYYMMDD>"
+        },
+        "8494589cca07531f8207d6408829351d": {
+            "path": "Pieces_ecrites/4_Annexes/<FILENAME>"
+        },
+        "87fb7c7272ea52125b199c6a338502a1": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_INFO_LIN_<YYYYMMDD>"
+        },
+        "980e584c38bd4bcd35818a3c35a61084": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_INFO_PCT_<YYYYMMDD>"
+        },
+        "d5e2b9b6fab55afbfaff610a85a2d2eb": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_INFO_SURF_<YYYYMMDD>"
+        },
+        "db09ae4f4c8a74288ea6b9793df107bb": {
+            "path": "<INSEE_COMMUNE>_DOC_URBA_<YYYYMMDD>"
+        },
+        "e562ba7f7e4f925cc425e7a078f78c62": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_PCT_<YYYYMMDD>"
+        },
+        "ff3b5e373e5ea2569fa14a38875763d9": {
+            "path": "Donnees_geographiques/<INSEE_COMMUNE>_HABILLAGE_LIN_<YYYYMMDD>"
+        }
+    },
+    "validator_feature_type": {
+        "f963b627c319db8efc519b8f5f6cfb5f": {
+            "conditions": "null"
+        }
+    },
+    "validator_static_table": {
+        "043bcc06a3ebb42382404f9d1d0523c4": {
+            "path": "Stypep_CC.csv"
+        },
+        "05289e53497dc8393ef80c9ba1cb202b": {
+            "path": "Information_DU_2017.csv"
+        },
+        "074cf1179a7c8de7dc662f172a288c63": {
+            "path": "Stypeinf.csv"
+        },
+        "56804ceb0fc2f508688c5305d4339e42": {
+            "path": "Typep_CC.csv"
+        },
+        "ca664b0d8ef557219cac4e4b9e0b2a42": {
+            "path": "Typedoc_CC.csv"
+        },
+        "cc68cea9ad1f82232436bc1f8ec2775e": {
+            "path": "Typeref_CC.csv"
+        },
+        "df7f27393fc83a1412997ce530689e25": {
+            "path": "Fermreco_CC.csv"
+        },
+        "e1ca8d9133a83ca76206ebfdcce4b8ac": {
+            "path": "Typesect_CC.csv"
+        },
+        "e2056690a4aed3c62273e0eef8995802": {
+            "path": "Etat_PLU.csv"
+        },
+        "ffcbcf06ac1b473e8098ae7132d468f3": {
+            "path": "Libelle_CC.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "183161f4cbe0d2c7a8db020bcdac05bc": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "253cc0cab98c849a50d6196197b704f6": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "2a8b633d3557fbd421e87b6f89d6ecf1": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "324379e0ba52dc6f0f6c334669cd8e5f": {
+            "pattern": "<COULEUR>"
+        },
+        "36aad20cb1dfa977ecbc26ec0467b772": {
+            "pattern": "<COULEUR>"
+        },
+        "407d66d34369a81119879ed1fe908d0c": {
+            "pattern": "<COULEUR>"
+        },
+        "468d8ead4288e480f066c7c4b31eeaa6": {
+            "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IL<ENTIER>"
+        },
+        "5b45c0789a77d1ffc6531d24595725bd": {
+            "reference_target": "ListeTypesectCC(TYPESECT)"
+        },
+        "745cbd0f6528d197b7f31f48d1d64821": {
+            "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_ZO<ENTIER>"
+        },
+        "7840c987706f926d80c333188f38fec1": {
+            "pattern": "<INSEE_SIREN>_sectorisation_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
+        },
+        "79e915fa7f56d3c48994427c8bd5d3ba": {
+            "reference_target": "ListeLibelleCC(LIBELLE)"
+        },
+        "7bb324e17a41c9297b2c9170790c66f6": {
+            "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HT<ENTIER>"
+        },
+        "80dfbb2314ddb682e26187589e9db9b4": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "866dbe0693b2349a31e3e057d996e608": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "89e6c4795e74af443b86db1c623a73ee": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "8c1d554b96ddcf044d514beac4f0efda": {
+            "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HS<ENTIER>"
+        },
+        "9bb913a3d905c21fee94b2a1e9bc5667": {
+            "pattern": "(E|R|A|MJ<ENTIER>|MS<ENTIER>)"
+        },
+        "a24e52c215a998b1c03ce7237ec998ba": {
+            "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IP<ENTIER>"
+        },
+        "a57efba8998eb017eddc63e18f619374": {
+            "reference_target": "ListeStypeinf(STYPEINF)"
+        },
+        "c6ae01e81f05f35b6b757cc97e4b6d62": {
+            "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HL<ENTIER>"
+        },
+        "cbc989f1b64372cde3a6df214b4ba553": {
+            "pattern": "<COULEUR>"
+        },
+        "cbffea186f2c6674654d25b684abd162": {
+            "reference_target": "ListeFermrecoCC(FERMRECO)"
+        },
+        "d689c039139178c19f9a3e9c8ec42908": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "d7c7e596876f171a0d088efbd3475ecb": {
+            "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IS<ENTIER>"
+        },
+        "e1f38130abdd0d501c492bb20ddd4e98": {
+            "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HP<ENTIER>"
+        },
+        "eeabf7e646d761b66bce8dca2d2c7069": {
+            "pattern": "<YYYYMMDD>"
+        },
+        "f71a99c56c4fc4a46b185b66e93b2c4f": {
+            "pattern": "<YYYYMMDD>"
+        }
+    }
+}
