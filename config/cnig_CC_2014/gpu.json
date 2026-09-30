@@ -83,17 +83,8 @@
         "34af6cd2ceb2af3ab12360ea70b0ee1d": {
             "pattern": "<YYYYMMDD>"
         },
-        "388690a6a37bce19405c283c51c4bbe8": {
-            "reference_target": "ListeDestdomi(DESTDOMI)"
-        },
         "39fd8959f59d313bc92a8a1ccda1d35b": {
             "pattern": "<YYYYMMDD>"
-        },
-        "3a7526e25eed55a46fdd5014db4b1d78": {
-            "reference_target": "ListeTypesectCC(TYPESECT)"
-        },
-        "49238a7c9bdf9b82dd10bd1cbaaea8c9": {
-            "reference_target": "ListeLibelleCC(LIBELLE)"
         },
         "87c4fe0f555b9e1bfaf3652742e94a27": {
             "pattern": "<YYYYMMDD>"
@@ -101,14 +92,8 @@
         "d26ce301c5af1306e1795b0bd2caf5b9": {
             "pattern": "<YYYYMMDD>"
         },
-        "d429970d8a10784776cde254b78c42e4": {
-            "reference_target": "ListeFermrecoCC(FERMRECO)"
-        },
         "ef6fad7808a7155f595334b7a63a83ad": {
             "pattern": "<YYYYMMDD>"
-        },
-        "f6f42ffb71252d1df5a2204c9ea17fdd": {
-            "reference_target": "ListeInterco(INTERCO)"
         }
     }
 }

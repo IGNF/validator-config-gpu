@@ -75,9 +75,6 @@
         "a11ed48f95a4172ab3040c6c2d11b284": {
             "path": "Typesect_CC.csv"
         },
-        "db4d83480d2841e52db99cd3d749261f": {
-            "path": "Stypeinf.csv"
-        },
         "e05543a74c0f44631d63a8321939dc57": {
             "path": "Stypep_CC.csv"
         },
@@ -125,20 +122,11 @@
         "66c9612fd9c0a80f2de288f6debb5934": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HT<ENTIER>"
         },
-        "74b9c213fbf1747e88526cc54c252ee6": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
-        "762d917184da6e87641d43c527c2fb7b": {
-            "reference_target": "ListeTypesectCC(TYPESECT)"
-        },
         "778746fe2a46e17b05f36b5d33089911": {
             "pattern": "<YYYYMMDD>"
         },
         "7b276fec115fd4f0ba3c565181b656da": {
             "pattern": "<YYYYMMDD>"
-        },
-        "80e3a977756b345be9e90009ff083647": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "8a4d20801c86dd71ffd5be2cc7f61ee1": {
             "pattern": "<YYYYMMDD>"
@@ -152,9 +140,6 @@
         "9b0ca4505068466732ee62a6c62c5238": {
             "pattern": "<YYYYMMDD>"
         },
-        "a07f081aa3a64631a3b57f1be6f274d4": {
-            "reference_target": "ListeFermrecoCC(FERMRECO)"
-        },
         "a3a4fceb27cfd724df9b216117d950ed": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HS<ENTIER>"
         },
@@ -167,14 +152,8 @@
         "caa1f3cc1363fce57b20b4b7c755e5de": {
             "pattern": "<YYYYMMDD>"
         },
-        "caaf4bfff1382befdd2cccead2ef00e0": {
-            "reference_target": "ListeLibelleCC(LIBELLE)"
-        },
         "cc237886b50d5b53ce09fb7f9fdd20fb": {
             "pattern": "(E|R|A|MJ<ENTIER>|MS<ENTIER>)"
-        },
-        "d0b456745a4d217f82c3fe6d9317a330": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "e1b22962c69fb3d3c8ef5d3e5a3c08da": {
             "pattern": "<COULEUR>"

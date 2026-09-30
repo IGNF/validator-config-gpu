@@ -153,9 +153,6 @@
         "023592198a2b11f0c04b67d6d68ed9d0": {
             "path": "Etat_PLU.csv"
         },
-        "1cd1d5e0640c449ac677dc860206d390": {
-            "path": "Stypeinf.csv"
-        },
         "1f57afa217e66dcfe83f4184b3af8ba6": {
             "path": "FormDomi_2025.csv"
         },
@@ -209,9 +206,6 @@
         "3979804ac81d4e443c8e55265bb24b94": {
             "pattern": "<YYYYMMDD>"
         },
-        "3eff82b65c648d49e8588e570d275970": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "4e094d31476df252a2bd5064107a7783": {
             "pattern": "<YYYYMMDD>"
         },
@@ -242,9 +236,6 @@
         "74fd333272a59f022e050d5d6dd37d5c": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IS<ENTIER>"
         },
-        "7e9a96555f7d321830f5a841793adc17": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "883c47f33e4974b89e3186751d00ef3f": {
             "pattern": "<YYYYMMDD>"
         },
@@ -274,9 +265,6 @@
         },
         "a9ea8c0807639fb2e0851525fdef00f7": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IL<ENTIER>"
-        },
-        "b80fdceeec2d6e0b8fb67537fc41d437": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "b8bc45916cdb3f03cb4fa36b4effc18f": {
             "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"

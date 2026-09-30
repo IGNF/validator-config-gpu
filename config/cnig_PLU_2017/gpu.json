@@ -104,9 +104,6 @@
         },
         "ce9bc7ad35ab6bfa61affd6b54beb980": {
             "path": "Typeref_CC.csv"
-        },
-        "e2ba307a1311c80f3314b5bbf65799c5": {
-            "path": "Stypeinf.csv"
         }
     },
     "validator_attribute_type": {
@@ -137,9 +134,6 @@
         "2dc46839fe512fc2aeb62da2c188a7b6": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HS<ENTIER>"
         },
-        "373253ad2ff785109cf0e4dbbfc33bcd": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "513171b55409a2319e5321189dd896bf": {
             "pattern": "<COULEUR>"
         },
@@ -151,9 +145,6 @@
         },
         "6a5eba354a40cab282b1d027455ee85e": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PL<ENTIER>"
-        },
-        "7d68b4486392bd89c1e130056ddcff91": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "7dc1e07efcce0435b1c61775ba23bc60": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IP<ENTIER>"
@@ -190,9 +181,6 @@
         },
         "f62eaf749ba9b7650ed1bf8d8d2305be": {
             "pattern": "<COULEUR>"
-        },
-        "f68bd8254c413955a1a330b98e85cd69": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "f9575be3bb1d81613de38fc5cfd7eb1f": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HL<ENTIER>"

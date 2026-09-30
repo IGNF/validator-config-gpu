@@ -33,13 +33,13 @@
     },
     "validator_attribute_type": {
         "b4d7249f598514ff355215858e2dc524": {
-            "pattern": "<INSEE_SIREN>_<YYYMMDD>_rapport_de_presentation_MEC<ENTIER>_<YYYMMDD>.pdf"
+            "pattern": "<INSEE_SIREN>_<YYYYMMDD>_rapport_de_presentation_MEC<ENTIER>_<YYYYMMDD>.pdf"
         },
         "dcfeb75dcc2f683fe53aeee0ffd1aa8f": {
             "pattern": "<YYYYMMDD>"
         },
         "ffb5d583d2d2aa66e4c0d72673c8d467": {
-            "pattern": "<INSEE_SIREN>_<YYYMMDD>_arrete_MEC<ENTIER>_<YYYMMDD>.pdf"
+            "pattern": "<INSEE_SIREN>_<YYYYMMDD>_arrete_MEC<ENTIER>_<YYYYMMDD>.pdf"
         }
     }
 }

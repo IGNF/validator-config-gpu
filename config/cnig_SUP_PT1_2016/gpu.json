@@ -27,12 +27,6 @@
         }
     },
     "validator_attribute_type": {
-        "137c8ee7906af9548829f6eab56f46b8": {
-            "reference_target": "ListeTypeSUPNiveau(TYPE)"
-        },
-        "2b641a40cafc3d2a5e3af59b96e906ca": {
-            "reference_target": "ListeTypeSUPNiveau(TYPE)"
-        },
         "a92bd75e9714472c0d13fedf44de2c30": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_(zpro|zgar)"
         }

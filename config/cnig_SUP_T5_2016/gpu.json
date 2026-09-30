@@ -7,7 +7,6 @@
     "validator_feature_type": {
         "83626de6b572c9480a820f15f5eee4ad": {
             "conditions": null,
-            "foreign_keys": "[\"(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)\", \"(HREF) REFERENCES ListeHrefSUP(HREF)\"]",
             "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
         },
         "c9bff79ee9888d5a14c714780650ed42": {
@@ -24,9 +23,6 @@
     "validator_attribute_type": {
         "591ebf5408b92afba91e400c69614c2c": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
-        },
-        "c4ee8f0c74a02432c75dd722304d171c": {
-            "reference_target": "ListeHrefSUP(HREF)"
         }
     }
 }

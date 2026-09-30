@@ -171,9 +171,6 @@
         "b6db1e069436300254476485aacd1ce2": {
             "path": "Typedoc_PSMV.csv"
         },
-        "cad0b80bc769fa25ad0abdd06c70ed9c": {
-            "path": "Stypeinf.csv"
-        },
         "ce1bbb45a9614f51a300512e3fd467f7": {
             "path": "Information_S_PSMV_2025.csv"
         },
@@ -206,9 +203,6 @@
         "30b5b45c9718870e0fa385794fa495c0": {
             "pattern": "<INSEE_SIREN>_reglement_[0-9]{8}.pdf"
         },
-        "3419aca5a48a4053f80cc8bf96fed893": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "37bb5981bb46c37db7926178989364e9": {
             "pattern": "<INSEE_COMMUNE>_PSMV_<YYYYMMDD>_PL<ENTIER>"
         },
@@ -235,9 +229,6 @@
         },
         "7eaace065f098ccdb8ff368fe2cbb5fc": {
             "pattern": "<YYYYMMDD>"
-        },
-        "7eb637f9a8b02d1f8574c72414a6a618": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "862e0f80d14c245afb0a13aad1de227e": {
             "pattern": "<YYYYMMDD>"
@@ -283,9 +274,6 @@
         },
         "e32fe23e0e3150ea4bc948f3de36a462": {
             "pattern": "<YYYYMMDD>"
-        },
-        "eaa9975eea74dfd7a7729c834092140e": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "eb94425e9c6ec92af7f8de66a8e312cb": {
             "pattern": "<INSEE_COMMUNE>_PSMV_<YYYYMMDD>_IP<ENTIER>"

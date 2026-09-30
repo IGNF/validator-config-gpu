@@ -51,7 +51,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_<YYYMMDD>_rapport_de_presentation_MEC[0-9]+_<YYYMMDD>.pdf",
+                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_[0-9]{8}_rapport_de_presentation_MEC[0-9]+_[0-9]{8}.pdf",
                 "maxLength": 80
             }
         },
@@ -78,7 +78,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_<YYYMMDD>_arrete_MEC[0-9]+_<YYYMMDD>.pdf",
+                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_[0-9]{8}_arrete_MEC[0-9]+_[0-9]{8}.pdf",
                 "maxLength": 80
             }
         }

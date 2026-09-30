@@ -119,9 +119,6 @@
         "854be61cf2d65ff02ef8185f1896c618": {
             "pattern": "<COULEUR>"
         },
-        "8566ae5c492af9c86cc0636918f7a01f": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "8a812e9d6fffc23c0a123a8fab90f18b": {
             "pattern": "<COULEUR>"
         },
@@ -130,9 +127,6 @@
         },
         "8f70b482edbe2191069c519b3d5c1e43": {
             "pattern": "<YYYYMMDD>"
-        },
-        "962cc339db0f437cd54d6f8bdcaaf6f9": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "983704ddcc21ded593fb3dfbb58905f4": {
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
@@ -151,9 +145,6 @@
         },
         "c23fe86b00bf69796f5d1a934fb10826": {
             "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
-        },
-        "f20cbd67ebb0dd4a1b73a65342d7b364": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         }
     }
 }

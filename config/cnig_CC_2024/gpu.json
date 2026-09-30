@@ -87,9 +87,6 @@
         "b10e42bcd36f1d2de83e88dbcfd28e29": {
             "path": "Typedoc_CC.csv"
         },
-        "bbdc3b843ab10a2a77c9bf778ba50769": {
-            "path": "Stypeinf.csv"
-        },
         "d615a5743f4526daea9014a9d94aafb3": {
             "path": "Stypep_CC.csv"
         },
@@ -125,32 +122,14 @@
         "54667edcc6cd81cdd485229796c3dc0d": {
             "pattern": "<YYYYMMDD>"
         },
-        "5a51f5c32c4df12f716a5783f4eec6cc": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "5ad9ce1b0ed79f713aadf393051b2333": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IS<ENTIER>"
-        },
-        "5db14d787b1238bd9dab98ad24072bb5": {
-            "reference_target": "ListeFermrecoCC(FERMRECO)"
-        },
-        "67223cf69fd2418b3c38cdd7f77e8a12": {
-            "reference_target": "ListeLibelleCC(LIBELLE)"
-        },
-        "7630a79b7ecd64c1e32a80690dff1114": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "8291cbceb070568163f471788938c710": {
             "pattern": "<INSEE_COMMUNE>_<YYYYMMDD>_rapport_<NOMPROC>(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?.pdf"
         },
         "82d30643d37477996286aea28e6e88a0": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HS<ENTIER>"
-        },
-        "85005e4f67b75a1747b603f2928aefaf": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
-        "86858262ec7f6938fef94b15e6a46d15": {
-            "reference_target": "ListeTypesectCC(TYPESECT)"
         },
         "91aaf5ad4722d1a0bb700cbfc28f0f8d": {
             "pattern": "<YYYYMMDD>"

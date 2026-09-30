@@ -28,5 +28,12 @@
                 "unique": false
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [],
+        "foreignKeys": [
+            "(IDACTE) REFERENCES ACTE_SUP(IDACTE)",
+            "(IDSUP) REFERENCES SERVITUDE(IDSUP)"
+        ]
+    }
 }

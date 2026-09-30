@@ -40,9 +40,6 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "enum": [
-                    "SCOT"
-                ],
                 "maxLength": 4
             }
         },

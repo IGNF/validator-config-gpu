@@ -40,11 +40,14 @@
             "parent_id": null,
             "document_model_id": "ffcddc2f34028e3a966a0f6583963625"
         },
+        "439b13477603a29ae3d1c046ba54641e": {
+            "conditions": null
+        },
         "d8f20d2f47dd4e124458684ba917dc65": {
             "abstract": "t",
             "primary_key": null,
             "conditions": "[\"SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')\",\"DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL\",\"REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'\",\"IDBDEXT IS NOT NULL OR REFBDEXT IS NULL\"]",
-            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\"]",
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(IDSUP) REFERENCES SERVITUDE(IDSUP)\"]",
             "id": "d8f20d2f47dd4e124458684ba917dc65",
             "name": "XXX_GENERATEUR_SUP",
             "title": "XXX_GENERATEUR_SUP",
@@ -107,17 +110,10 @@
         "29b216511462b7df7249a621db408018": {
             "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
         },
-        "2db5c42823c8875ea3ad948aa6696e0c": {
-            "reference_target": "ListeCategorieSUP(CATEGORIE)"
-        },
-        "45da2f3861b21374963200d493357dc3": {
-            "reference_target": "ListeDecisionSUP(DECISION)"
-        },
         "45f70d6a6b1277b4e57236f160d1f347": {
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "49af99b76af6e56c80ae2280e13ffbec": {
-            "reference_target": "ListeModegeoassSUP(MODEGEOASS)",
             "feature_type_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
         },
         "5130470298b89af31028e1d3821341f9": {
@@ -128,8 +124,7 @@
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "5aa564d5a2c605c8c4ecb8c4bef6137d": {
-            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>",
-            "reference_target": "ACTE_SUP.IDACTE"
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
         },
         "5ebeb3ba2af08776854483e3a86134dc": {
             "feature_type_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
@@ -137,24 +132,12 @@
         "60bb3a4308c58c838b761ef979ad2c0c": {
             "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
         },
-        "689a6c986b2792a153a871d837f89fd3": {
-            "reference_target": "ListeAplanSUP(APLAN)"
-        },
         "6df265cfe2e5843c327bcd3c8656c299": {
             "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?",
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
-        "8b2a5deb50909f091edc15af087ea9af": {
-            "reference_target": "ListeTypeacteSUP(TYPEACTE)"
-        },
         "9425d3d273bce250e346bbbd26e27359": {
             "pattern": "<YYYYMMDD>"
-        },
-        "97ca66299e2cb11d06e31baaa8c31c65": {
-            "reference_target": "ListeModeprodSUP(MODEPROD)"
-        },
-        "aa00edca50f3e75062f333e28a5cf815": {
-            "reference_target": "GESTIONNAIRE_SUP.IDGEST"
         },
         "ab684dd618ea3d45c21bd192a60c53a5": {
             "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg.pdf"
@@ -167,7 +150,6 @@
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "d0347f4b396894b92734634b2971c82b": {
-            "reference_target": "ListeModegenereSUP(MODEGENERE)",
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "da03f184be9ea6fd1c6cfa8b784314b9": {
@@ -175,12 +157,10 @@
         },
         "ec9419301ce9b53b55bd9e0ce94ca2cb": {
             "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>",
-            "reference_target": "SERVITUDE.IDSUP",
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "edb5b56686bb6dbacc05f784ac54a8d3": {
-            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>",
-            "reference_target": "SERVITUDE.IDSUP"
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
         },
         "ff75a107ee9724b5ffb88ff1b8108d99": {
             "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"

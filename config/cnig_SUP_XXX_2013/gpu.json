@@ -25,6 +25,9 @@
         }
     },
     "validator_feature_type": {
+        "38ca707f44376b8afb069dc866110bbe": {
+            "conditions": null
+        },
         "4edb459e86909278aba4c2af6c942b42": {
             "abstract": "t",
             "primary_key": null,
@@ -41,7 +44,7 @@
             "abstract": "t",
             "primary_key": null,
             "conditions": "[\"SRCGEOGEN IS NOT NULL OR MODEGENERE NOT LIKE 'Digitalisation'\",\"DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL\",\"REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'\",\"IDBDEXT IS NOT NULL OR REFBDEXT IS NULL\"]",
-            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\"]",
+            "foreign_keys": "[\"(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)\", \"(IDSUP) REFERENCES SERVITUDE(IDSUP)\"]",
             "id": "5146126394baf20af78d61bf8c20abf9",
             "name": "XXX_GENERATEUR_SUP",
             "title": "XXX_GENERATEUR_SUP",
@@ -80,12 +83,8 @@
         }
     },
     "validator_attribute_type": {
-        "117abb6d4dfbd3dfbbfa4e203aa266fb": {
-            "reference_target": "ListeModeprodSUP(MODEPROD)"
-        },
         "12ce35e905b8d0930c13b6b734819c77": {
-            "pattern": "<SIREN>",
-            "reference_target": "GESTIONNAIRE_SUP.IDGEST"
+            "pattern": "<SIREN>"
         },
         "16cb5914fd03e3537143180e3e38f70a": {
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
@@ -99,12 +98,6 @@
         "3410d2ec8cbd5c201be662b4cf6fe79b": {
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
         },
-        "372a2ae5a0be525684435b5bf7202dcf": {
-            "reference_target": "ListeAplanSUP(APLAN)"
-        },
-        "38ef89f7dee63d5d0d0254039d4f02bb": {
-            "reference_target": "ListeDecisionSUP(DECISION)"
-        },
         "39c93912ba5bf0afbad95db9ed66e78a": {
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
         },
@@ -113,17 +106,10 @@
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
         },
         "46a1e08c752e490bb51b205d640d4a42": {
-            "reference_target": "ListeModegenereSUP(MODEGENERE)",
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
         },
         "56b6d7b14fc3a248e632d83f7a87f704": {
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
-        },
-        "57967eb687c1300d5cfa308134457467": {
-            "reference_target": "ListeTypeacteSUP(TYPEACTE)"
-        },
-        "726e30853c23e1d077596a81cd55d179": {
-            "reference_target": "ListeCategorieSUP(CATEGORIE)"
         },
         "7427ab389841fc55e516b81a481d2939": {
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
@@ -132,15 +118,10 @@
             "pattern": "<YYYYMMDD>",
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
         },
-        "89f0aaf24a703a318a3094a72c68bf3b": {
-            "reference_target": "ACTE_SUP.IDACTE"
-        },
         "8b81ee4d2c2a6765894e9e0d0fa9cdda": {
-            "reference_target": "ListeModegeoassSUP(MODEGEOASS)",
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
         },
         "91e4e0e9674e7d3aaef322bdd1374c71": {
-            "reference_target": "SERVITUDE.IDSUP",
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
         },
         "9647e0dff490bc52af36ef874ce440b6": {
@@ -157,9 +138,6 @@
         },
         "b6ea4308f6cb543b9b8d197a0a312357": {
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
-        },
-        "b8172389de2db4d746b273d07e07eab1": {
-            "reference_target": "SERVITUDE.IDSUP"
         },
         "ca794cb677257564b31f6828f348dabe": {
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"

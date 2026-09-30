@@ -186,7 +186,7 @@
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(IDSUP) REFERENCES SERVITUDE(IDSUP)",
             "(TYPE_GEST) REFERENCES ListeTypeGestSUP(TYPE_GEST)",
             "(TYPE_VOIE) REFERENCES ListeTypeVoieSUP(TYPE_VOIE)"
         ]

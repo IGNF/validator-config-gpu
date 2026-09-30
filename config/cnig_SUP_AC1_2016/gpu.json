@@ -32,17 +32,8 @@
         }
     },
     "validator_attribute_type": {
-        "563eb7e95793a89db9af0b65ab7f7680": {
-            "reference_target": "ListeTypeSUPMonument(TYPE)"
-        },
-        "598754116c126129cacd930c862966e0": {
-            "reference_target": "ListeTypeSUPMonument(TYPE)"
-        },
         "a7d3896f09ec472743db35aa86ab6c6b": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_(abor|mh)"
-        },
-        "f1df7088b63f98e737dd1bb9a77de38e": {
-            "reference_target": "ListeTypeSUPMonument(TYPE)"
         }
     }
 }

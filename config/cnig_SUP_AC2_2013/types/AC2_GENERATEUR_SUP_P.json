@@ -154,6 +154,7 @@
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(IDSUP) REFERENCES SERVITUDE(IDSUP)",
             "(TYPE) REFERENCES ListeTypeSUPMonument(TYPE)"
         ]
     }

@@ -108,9 +108,6 @@
         "c0ac6dfae36ca23fc00aef3bdf5a646d": {
             "path": "Etat_PLU.csv"
         },
-        "cfa4840ecd9cc1db699d2d69111dfc39": {
-            "path": "Stypeinf.csv"
-        },
         "d07bd993b3f23412cad56cfb411a282a": {
             "path": "Typezone_PLU.csv"
         }
@@ -164,9 +161,6 @@
         "475fb28befa7f25d072357904d1551ff": {
             "pattern": "ZONE_<CHAR>+_<ENTIER_3>"
         },
-        "4931f83a31000ad7f395d12bbc47d8a2": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "6f0d3b5655154f7a5c2c5ec0f1cff9a9": {
             "pattern": "<YYYYMMDD>"
         },
@@ -188,9 +182,6 @@
         "965e4ad64c05f95b12f60ec1167791b9": {
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
         },
-        "9d496eb00c2eda719740c261c6716eee": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "ab8853786255a45df455ce7ed1318798": {
             "pattern": "<YYYYMMDD>"
         },
@@ -199,9 +190,6 @@
         },
         "be3004167cda825d5d2ab3f39a4c2694": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PS<ENTIER>"
-        },
-        "c8da19c80e0229cc6ad257ec3a6ea8c3": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "c9f190a6b361ecad29f9fdcb9ce1dece": {
             "pattern": "<YYYYMMDD>"

@@ -98,17 +98,11 @@
         "1b2cf8ca524463c2c5e91182aad704cc": {
             "pattern": "S(<ENTIER>)?"
         },
-        "30a3e2766365644aa32dcecc56c8586e": {
-            "reference_target": "ListeInterco(INTERCO)"
-        },
         "3342d358fc721093518077a37f3957e6": {
             "pattern": "HS(<ENTIER>)?"
         },
         "3790d4033a3b94bb9ebb2e1375d82970": {
             "pattern": "<YYYYMMDD>"
-        },
-        "48c561dd3880fb1ee722528bd5e9a96a": {
-            "reference_target": "ListeDestdomi(DESTDOMI)"
         },
         "5d3a21d212f8bd48cee06951a1b3d94b": {
             "pattern": "POIN(<ENTIER>)?"

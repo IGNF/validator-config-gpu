@@ -22,9 +22,6 @@
         }
     },
     "validator_attribute_type": {
-        "c6c1587f4ff87aae688f7cd47cfcb552": {
-            "reference_target": "ListeTypeSUPAssainissement(TYPE)"
-        },
         "f19583e4724b78f3215a363e59ab5901": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
         }

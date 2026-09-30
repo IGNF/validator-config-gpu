@@ -114,9 +114,6 @@
         "01f38a0b5bab0805a76e6c32621c3bcf": {
             "path": "Typezone_PLU.csv"
         },
-        "3f28779a0128a950bb2feffbc7cec425": {
-            "path": "Stypeinf.csv"
-        },
         "4b26536f095974b6dd19845fa013fdc0": {
             "path": "Etat_PLU.csv"
         },
@@ -136,9 +133,6 @@
     "validator_attribute_type": {
         "086b064ba0b75fa9233f575d1d113d63": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_HS<ENTIER>"
-        },
-        "144e8d3ba147228189e0a278ffd1e7c0": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "16af50a0f5f3192150ddca71745e4568": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_HP<ENTIER>"
@@ -188,9 +182,6 @@
         "8219af8a4bc90ed39794fbdd9b18f7fd": {
             "pattern": "<COULEUR>"
         },
-        "9566b12fccc9ded4c4c96ad28a5dd4c4": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "96e33ccf8d0df12e1b917b299bf76b92": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_ZO<ENTIER>"
         },
@@ -217,9 +208,6 @@
         },
         "e541a2ab610625f2d4b867ed24d1e491": {
             "pattern": "<COULEUR>"
-        },
-        "ece0af0f0eb3e370faffc08cf6858370": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "f78f3b24a6290dd2801065d56df6a729": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_IP<ENTIER>"

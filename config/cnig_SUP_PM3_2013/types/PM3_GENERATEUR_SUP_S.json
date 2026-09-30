@@ -167,6 +167,7 @@
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(IDSUP) REFERENCES SERVITUDE(IDSUP)",
             "(CODE_ALEA) REFERENCES ListeCodeAleaSUP(CODE_ALEA)"
         ]
     }

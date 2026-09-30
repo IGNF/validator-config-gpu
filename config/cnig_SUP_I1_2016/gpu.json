@@ -32,17 +32,8 @@
         }
     },
     "validator_attribute_type": {
-        "0bfd77e4e3b8696232bde6a25d28cb10": {
-            "reference_target": "ListeTypeSUPGaz(TYPE)"
-        },
-        "21637a5bcc0d37edfe0185331df3a812": {
-            "reference_target": "ListeTypeSUPGaz(TYPE)"
-        },
         "68f5531b25af3d778a589d976465c50e": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
-        },
-        "b17d1a9f01be80be981eabd587435684": {
-            "reference_target": "ListeTypeSUPGaz(TYPE)"
         }
     }
 }

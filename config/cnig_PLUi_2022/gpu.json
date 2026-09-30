@@ -126,9 +126,6 @@
         "47fd123fe88f693d896f5174cb668d79": {
             "path": "Typedoc_PLUi.csv"
         },
-        "4ad2d1210b1de9385bb7e22d902d89ae": {
-            "path": "Stypeinf.csv"
-        },
         "78e06de0134cb50f966b0e7d105681cc": {
             "path": "Prescription_DU_2022.csv"
         },
@@ -209,9 +206,6 @@
         "98df37d01052318bbbcdeff17c0052d2": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_PP<ENTIER>"
         },
-        "aa3ae153d881a9e5775b6cd4a18f526c": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "b3ae8e79b82db9812b225f87f42df7d0": {
             "pattern": "PSC-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
         },
@@ -226,9 +220,6 @@
         },
         "c7585bd09f505d0e89d9e2ea97f2f003": {
             "pattern": "<YYYYMMDD>"
-        },
-        "cabe01ed1f957d6156dc95562ac8bbb5": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "cdc01751206fc413cefbd10d85c06792": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_IL<ENTIER>"
@@ -253,9 +244,6 @@
         },
         "f2043012ff2965868a16abfd69ae2a0a": {
             "pattern": "PSC-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
-        },
-        "f4a40464aad6119ae337c7e12a216f2e": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "f548c1ede65671b9b9159c67edbaddfd": {
             "pattern": "<YYYYMMDD>"

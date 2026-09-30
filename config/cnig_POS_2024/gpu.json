@@ -162,9 +162,6 @@
         "ac81f146def6b028401dd9ae04732ab4": {
             "path": "Typezone_PLU.csv"
         },
-        "cea4649c7df43da79e6e5e27082e3b82": {
-            "path": "Stypeinf.csv"
-        },
         "daed185f9edc331b87f0511915607490": {
             "path": "Typeref_PLU.csv"
         }
@@ -188,23 +185,14 @@
         "22081518ab4f698c03422f86e7ec9e62": {
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_HS<ENTIER>"
         },
-        "22b0608e1af7f74fb2e276fb583368f5": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
-        },
         "256f5f40ce3b5a730fb086c49f47ae48": {
             "pattern": "<YYYYMMDD>"
-        },
-        "3bb2bde4b3b036c7b61734107de35624": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "3bd1b30061536e4bf8d3dc4efc20666f": {
             "pattern": "PSC-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
         },
         "3dedd5e2ca218416e33ed2ee5ef916b3": {
             "pattern": "INF-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
-        },
-        "4294d6f209e63cbdd4bf5d4d9e96eb87": {
-            "reference_target": "ListeStypeinf(STYPEINF)"
         },
         "42c9fbf52869c3c9e961eb8805dcb457": {
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_IS<ENTIER>"

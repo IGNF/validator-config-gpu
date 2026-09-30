@@ -155,7 +155,8 @@
             "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
         ],
         "foreignKeys": [
-            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)"
+            "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",
+            "(IDSUP) REFERENCES SERVITUDE(IDSUP)"
         ]
     }
 }

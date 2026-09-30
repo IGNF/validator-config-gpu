@@ -32,18 +32,6 @@
     "validator_attribute_type": {
         "5d2951afd0281a65b34655165b26c604": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
-        },
-        "a9ce338d94917f146c1cfe81b96ed222": {
-            "reference_target": "ListeTypeGestSUP(TYPE_GEST)"
-        },
-        "bade3df744ab345c8b880638f3c313ca": {
-            "reference_target": "ListeTypeVoieSUP(TYPE_VOIE)"
-        },
-        "da012f0fd63f85266d6f6db4a14b3360": {
-            "reference_target": "ListeTypeGestSUP(TYPE_GEST)"
-        },
-        "e0420e17c9613cd6cb002db049798ee8": {
-            "reference_target": "ListeTypeVoieSUP(TYPE_VOIE)"
         }
     }
 }

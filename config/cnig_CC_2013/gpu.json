@@ -77,26 +77,14 @@
         }
     },
     "validator_attribute_type": {
-        "1be6d48973d1556d4fb7cf7865b6db79": {
-            "reference_target": "ListeLibelleCC(LIBELLE)"
-        },
         "2ee36d50992089d2cd1b2058f4a0d44e": {
             "pattern": "<YYYYMMDD>"
-        },
-        "373616397ac309e873c7d2a78ae2eb9d": {
-            "reference_target": "ListeTypesectCC(TYPESECT)"
         },
         "4236b882e04e0de6d74f08f79bf22797": {
             "pattern": "<YYYYMMDD>"
         },
         "510e003f6396e19bdbf253af8b754475": {
             "pattern": "<YYYYMMDD>"
-        },
-        "59fe911e35aa4cfdacb2ea740ddc95c3": {
-            "reference_target": "ListeFermrecoCC(FERMRECO)"
-        },
-        "d2f112a50a240e8f28bde7f776460cd6": {
-            "reference_target": "ListeDestdomi(DESTDOMI)"
         },
         "d4907b570dfa7338cb66c27bff77947b": {
             "pattern": "<YYYYMMDD>"
@@ -106,9 +94,6 @@
         },
         "e3f04ef323440b94aaf8bf190692a504": {
             "pattern": "<YYYYMMDD>"
-        },
-        "ff7f825a52aa243dd691435779d68446": {
-            "reference_target": "ListeInterco(INTERCO)"
         }
     }
 }

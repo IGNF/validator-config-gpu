@@ -19,7 +19,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 05,06,"Servitude de localisation des voies, ouvrages publics, installations d’intérêt général et espaces verts en zone U ou AU",L151-41 dernier alinéa,
 05,07,Secteur de projet en attente d’un projet d’aménagement global,L151-41 5°,R151-32
 05,08,"Emplacements réservés à la relocalisation d’équipements, de constructions et d’installations exposés au recul du trait de côte",L151-41 6°,en attente
-07,00,"Patrimoine bâti, paysager ou éléments de paysages à protéger pour des motifs d'ordre culturel, historique, architectural ou écologique",L151-19 et L151-23,R151-41 3° Et R151-43  
+07,00,"Patrimoine bâti, paysager ou éléments de paysages à protéger pour des motifs d'ordre culturel, historique, architectural ou écologique",L151-19 et L151-23,R151-41 3° Et R151-43
 07,01,"Patrimoine bâti à protéger pour des motifs d'ordre culturel, historique, architectural",L151-19,R151-41 3°
 07,02,"Patrimoine paysager à protéger pour des motifs d'ordre culturel, historique, architectural",L151-19,R151-41 3°
 07,03,"Patrimoine paysager correspondant à un espace boisé à protéger pour des motifs d'ordre culturel, historique, architectural",L151-19,R151-41 3°
@@ -33,8 +33,8 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 15,02,Implantation des constructions par rapport aux limites séparatives latérales,L151-17 et L151-18,R151-39
 15,03,Implantation des constructions par rapport aux limites des fonds de parcelles,L151-17,R151-39
 15,98,Implantation alternative des constructions,L151-17,R151-39
-16,00,Constructions et installations nécessaires à des équipements collectifs en zone A ou N,L151-11 1°,R151-23 2°et R151-25  
-16,01,Bâtiment susceptible de changer de destination en zone A ou N,L151-11 2°,"R151-23 2°, R151-25 2° et R151-35 "
+16,00,Constructions et installations nécessaires à des équipements collectifs en zone A ou N,L151-11 1°,R151-23 2°et R151-25
+16,01,Bâtiment susceptible de changer de destination en zone A ou N,L151-11 2°,"R151-23 2°, R151-25 2° et R151-35"
 16,02,Bâtiments d’habitation existants pouvant faire l’objet d’extensions ou d’annexes en zone A ou N,L151-12,R151-23 2° et R151-25 2°
 16,03,Secteur de taille et de capacité d’accueil limitées (STECAL) en zone A ou N,L151-13,R151-23 2° et R151-25 2°
 16,04,Constructions et installations nécessaires à l’activité agricole en zone A ou N,L151-11 II,R151-23 1° et R151-25 1°
@@ -47,7 +47,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 18,04,OAP d’adaptation des périmètres de transports collectifs,L151-7 6°,
 18,05,"OAP patrimoniales, architecturales et écologiques",L151-6 et L151-7,R151-7
 18,06,OAP relatives à l’habitat,L151-6 et L151-46,
-18,07,OAP comprenant des dispositions relatives à l'équipement commercial, artisanal et logistique,L151-6 2e alinéa et L151-7 2°,
+18,07,"OAP comprenant des dispositions relatives à l'équipement commercial, artisanal et logistique",L151-6 2e alinéa et L151-7 2°,
 18,08,OAP relatives aux transports et aux déplacements,L151-6 ou L151-47,
 18,09,OAP relatives aux espaces publics en zone d’aménagement concerté,L151-7-1 1°,
 18,10,"OAP relatives aux ouvrages publics, installations d’intérêt général et espaces verts en zone d’aménagement concerté",L151-7-1 2°,
@@ -56,7 +56,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 18,13,OAP relatives à la protection des franges urbaines et rurales,L.151-7 I 7°,
 18,14,OAP recul du trait de côte,L.151-7 III,
 19,00,Secteur protégé en raison de la richesse du sol et du sous-sol,,R151-34 2°
-20,00,Secteur à transfert de constructibilité en zone N,L151-25,R151-36 
+20,00,Secteur à transfert de constructibilité en zone N,L151-25,R151-36
 22,00,Diversité commerciale à protéger ou à développer,L151-16,R151-37 4°
 22,01,Diversité commerciale à protéger,L151-16,R151-37 4°
 22,02,Diversité commerciale à développer,L151-16,R151-37 4°
@@ -89,7 +89,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 31,04,"Parties naturelles des estuaires, des rias ou abers et des caps",L121-23,R121-4  4°
 31,05,"Marais, vasières, tourbières, plans d'eau, les zones humides et milieux temporairement immergés",L121-23,R121-4  5°
 31,06,Milieux abritant des concentrations naturelles d'espèces animales ou végétales,L121-23,R121-4  6°
-31,07,Parties naturelles des sites inscrits ou classés ,L121-23,R121-4  7°
+31,07,Parties naturelles des sites inscrits ou classés,L121-23,R121-4  7°
 31,08,Formations géologiques,L121-23,R121-4  8°
 32,00,Exclusion protection de plans d’eau de faible importance,L122-12,R122-2
 33,00,Secteur de dérogation aux protections des rives des plans d'eau en zone de montagne,L122-14 1°,
@@ -138,7 +138,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 47,02,Réseaux publics d'électricité,L151-39,R151-49
 47,03,Réseaux publics d'assainissement,L151-39,R151-49
 47,04,Conditions de réalisation d'un assainissement non collectif,L151-39,R151-49
-47,05,Infrastructures et réseaux de communications électroniques ,L151-39,R151-49 3°
+47,05,Infrastructures et réseaux de communications électroniques,L151-39,R151-49 3°
 48,00,Mesures pour limiter l'imperméabilisation des sols,,R151-49 2°
 48,01,Installations nécessaires à la gestion des eaux pluviales et du ruissellement,,R151-43 7° et R151-49 2°
 49,00,Opération d'ensemble imposée en zone AU,,R151-20
@@ -150,13 +150,13 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 97,00,"Périmètre d’application d’une pièce écrite territorialisée (rapport de présentation, PADD, règlement, règlement graphique, POA)",,
 97,01,Périmètre couvert par un Plan de secteurs,L151-3,
 99,00,Autre,,
-99,01,Autre: affectation des sols et destination des constructions,L151-9 à L151-10,R151-27 à R151-29 et R151-30 à R151-36 
-99,02,"Autre: zones naturelles, agricoles ou forestières",L151-11 à L151-13,R151-17 à R151-26 
-99,03,Autre: mixité sociale et fonctionnelle en zones urbaines ou à urbaniser,L151-14 à L151-16,R151-37 à R151-38 
+99,01,Autre: affectation des sols et destination des constructions,L151-9 à L151-10,R151-27 à R151-29 et R151-30 à R151-36
+99,02,"Autre: zones naturelles, agricoles ou forestières",L151-11 à L151-13,R151-17 à R151-26
+99,03,Autre: mixité sociale et fonctionnelle en zones urbaines ou à urbaniser,L151-14 à L151-16,R151-37 à R151-38
 99,04,Autre: qualité du cadre de vie,L151-17 à L151-25,
-99,05,"Autre : Qualité urbaine, architecturale, environnementale et paysagère",,R151-41 à R151-42 
-99,06,Autre: Traitement environnemental et paysager des espaces non bâtis et abords des constructions,,R151-43 
-99,07,Autre: densité,L151-26 à L151-29,R151-39 à R151-40 
+99,05,"Autre : Qualité urbaine, architecturale, environnementale et paysagère",,R151-41 à R151-42
+99,06,Autre: Traitement environnemental et paysager des espaces non bâtis et abords des constructions,,R151-43
+99,07,Autre: densité,L151-26 à L151-29,R151-39 à R151-40
 99,08,"Autre: équipements, réseaux et emplacements réservés",L151-38 à L151-42,R151-47 à R151-48 et R151-49 à R151-50
 99,09,Autre: plan local d’urbanisme tenant lieu de programme local de l’habitat et de plan de déplacements urbains,L151-44 à L151-48,R151-54 à R151-55
 99,10,Autre: plan local d’urbanisme tenant lieu de plan de déplacements urbains,L151-44 à L151-48,R151-55

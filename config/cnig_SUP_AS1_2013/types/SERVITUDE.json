@@ -212,7 +212,8 @@
         "foreignKeys": [
             "(VALIDEGEST) REFERENCES ListeValidegestSUP(VALIDEGEST)",
             "(CATEGORIE) REFERENCES ListeCategorieSUP(CATEGORIE)",
-            "(MODEPROD) REFERENCES ListeModeprodSUP(MODEPROD)"
+            "(MODEPROD) REFERENCES ListeModeprodSUP(MODEPROD)",
+            "(IDGEST) REFERENCES GESTIONNAIRE_SUP(IDGEST)"
         ]
     }
 }

@@ -101,9 +101,6 @@
         "0f3f671550ee91d0641d9b2690c76de5": {
             "pattern": "<YYYYMMDD>"
         },
-        "0f6a2c20c512f96e1845ae3e5496fe26": {
-            "reference_target": "ListeDestdomi(DESTDOMI)"
-        },
         "1b50638baf445cb9b4b7ebaeb745d7c9": {
             "pattern": "L(<ENTIER>)?"
         },
@@ -121,9 +118,6 @@
         },
         "344f8e11c75baed635fda174e6fd063d": {
             "pattern": "<YYYYMMDD>"
-        },
-        "429407c7263ffd43dcfae3b2226eb9c0": {
-            "reference_target": "ListeInterco(INTERCO)"
         },
         "44979a03678b0b37d167be10acc0ab75": {
             "pattern": "<YYYYMMDD>"
