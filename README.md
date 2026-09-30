@@ -83,4 +83,13 @@ Le rapprochement avec les schémas publiés par le CNIG est suivi dans l'issue [
 | https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017                      | CNIG PLU v2017 (HTML)                   |
 | https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017.json                 | CNIG PLU v2017 (JSON)                   |
 | https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017#table-ZONE_URBA      | CNIG PLU v2017 - table ZONE_URBA (HTML) |
-| https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017/types/ZONE_URBA.json | CNIG PLU v2017 - table ZONE_URBA (JSON) |
+| https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017/types/ZONE_URBA.json | CNIG PLU v2017 - table ZONE_URBA (JSON validateur) |
+| https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017/files.json           | CNIG PLU v2017 (JSON validateur)        |
+
+* Les URL `files.json` et `types/<TABLE>.json` servent les fichiers de `config/` : le modèle peut être utilisé directement par IGNF/validator, les chemins relatifs vers les tables (`./types/`) et les tables de codes (`./codes/`) étant résolus par le portail :
+
+```bash
+java -jar validator-cli.jar document_validator \
+    --model https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017/files.json \
+    --input <dossier du document> ...
+```
