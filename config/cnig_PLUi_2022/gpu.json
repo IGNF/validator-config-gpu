@@ -159,10 +159,10 @@
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_HS<ENTIER>"
         },
         "364196a669d12c1984b8b156874b56f6": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3c5134cf87745a083c231e0ceddd2339": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "46b23d6a5293505c414dc4e5b198366e": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_IS<ENTIER>"
@@ -189,13 +189,13 @@
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_PL<ENTIER>"
         },
         "81245580cd0e1f8582182f94d274397f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "8aa2c56aaaecdda45ea401e62d4e21d4": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "901ab1f67c4e72a678250d0bc3fd39c0": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "906ff763dd48d0fdcb191e3fe8bdb152": {
             "pattern": "PSC-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -216,10 +216,10 @@
             "pattern": "<COULEUR>"
         },
         "c27e7de4b77a0b3275704a6cc78bcd01": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "c7585bd09f505d0e89d9e2ea97f2f003": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "cdc01751206fc413cefbd10d85c06792": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_IL<ENTIER>"
@@ -228,7 +228,7 @@
             "pattern": "<INSEE_SIREN>_reglement_[0-9]{8}(_<DOCUMENT_PART>)?.pdf"
         },
         "d27b02edf9337fab1f16361f33bf8737": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d7a4189db339c6b4584aef74d8af0b39": {
             "pattern": "ZONE_<CHAR>+_<ENTIER_3>"
@@ -240,13 +240,13 @@
             "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
         },
         "f114d6e34faa49474618b6bbf3360ff0": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "f2043012ff2965868a16abfd69ae2a0a": {
             "pattern": "PSC-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
         },
         "f548c1ede65671b9b9159c67edbaddfd": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         }
     }
 }

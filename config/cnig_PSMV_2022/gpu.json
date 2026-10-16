@@ -183,13 +183,13 @@
             "pattern": "<COULEUR>"
         },
         "1055f2a11ee6a6e10e21f6577ed22c8a": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "181198b8bc2caa4ae53ba27ccb8e51b7": {
             "pattern": "<INSEE_COMMUNE>_<YYYYMMDD>_rapport_<NOMPROC>(_97_00)?(_<ENTIER>)?_<YYYYMMDD>(_<DOCUMENT_PART>)?.pdf"
         },
         "209e8851b49ad1729b56738380683e26": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2690113206632d0b5c93284ce371c073": {
             "pattern": "PSC-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -210,7 +210,7 @@
             "pattern": "PSC-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
         },
         "603dea3791f747f7a9d0ac0b613b1925": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "63685465f5f42b1fad82aa23dbdf1863": {
             "pattern": "<INSEE_COMMUNE>_PSMV_<YYYYMMDD>_HT<ENTIER>"
@@ -222,10 +222,10 @@
             "pattern": "<INSEE_COMMUNE>_PSMV_<YYYYMMDD>_ZO<ENTIER>"
         },
         "7eaace065f098ccdb8ff368fe2cbb5fc": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "862e0f80d14c245afb0a13aad1de227e": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "8bd8e0813c71d4d0689ebe0e4ab5800b": {
             "pattern": "PSC-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -237,7 +237,7 @@
             "pattern": "<COULEUR>"
         },
         "92405cfe2902999c9f15e66eb73bb25f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "9e20b68b013c80f3197539e4522ccf43": {
             "pattern": "INF-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -255,7 +255,7 @@
             "pattern": "ZONE_<CHAR>+_<ENTIER_3>"
         },
         "c7f5eb1b9970b5b8fcb5fd933a5b3935": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d009e5eb90b887d4eee7654990920f54": {
             "pattern": "(E|R|A|MEC<ENTIER>|MAJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
@@ -267,16 +267,16 @@
             "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
         },
         "e32fe23e0e3150ea4bc948f3de36a462": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "eb94425e9c6ec92af7f8de66a8e312cb": {
             "pattern": "<INSEE_COMMUNE>_PSMV_<YYYYMMDD>_IP<ENTIER>"
         },
         "f2c89095f66420917d852685988abe4b": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "f85dfb7bc466356af4274d689c0de435": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "f9d980f062d7a8c043c4ee8ccff56a33": {
             "pattern": "<INSEE_COMMUNE>_PSMV_<YYYYMMDD>_IL<ENTIER>"

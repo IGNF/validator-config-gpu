@@ -123,13 +123,13 @@
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_PP<ENTIER>"
         },
         "151ecca7fd26c051a5c61468201ca255": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "18325bc957ae659f0003ee760ff270a2": {
             "pattern": "<INSEE_COMMUNE>_PLOS_<YYYYMMDD>_IL<ENTIER>"
         },
         "1a13bc40bf9748ff17412ad76fcf4698": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2342a019e818d26c120259814e95cc86": {
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
@@ -144,19 +144,19 @@
             "pattern": "<COULEUR>"
         },
         "2d31e82ede708f1c0893d1cbe53763fd": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2efcd49b3c38d66583e881938f947cac": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3516e9d449cc9dd38ee7d705d04df4a4": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "359ff179818c47e9736a7b329aef6969": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3a094af7aba880b2957d0c550ce99048": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "540622f46b1df270f128d2f1d47db8d3": {
             "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
@@ -177,13 +177,13 @@
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_HL<ENTIER>"
         },
         "6e763f2761c7a2bc04cde27639c4602b": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "707b3cef022f73da5327f4db3ef7452c": {
             "pattern": "<COULEUR>"
         },
         "7875eb55635602697e5c0d0c185da38d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "80b4995ef30c8c3e7ed348a896663d25": {
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_IP<ENTIER>"
@@ -201,7 +201,7 @@
             "pattern": "<COULEUR>"
         },
         "d14756abbf052c449d2b4d8095c80266": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d1693875c5db270461cac6a3640ef2ef": {
             "pattern": "PSC-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"

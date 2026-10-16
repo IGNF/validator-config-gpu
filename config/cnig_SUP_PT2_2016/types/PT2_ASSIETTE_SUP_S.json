@@ -55,7 +55,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{8}"
+                "pattern": "[0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])"
             }
         },
         {
@@ -89,7 +89,7 @@
             "name": "LARGEUR",
             "title": "LARGEUR",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -124,7 +124,7 @@
             "name": "XFINAL",
             "title": "XFINAL",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -135,7 +135,7 @@
             "name": "ANGLE2",
             "title": "ANGLE2",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -146,7 +146,7 @@
             "name": "YFINAL",
             "title": "YFINAL",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -199,7 +199,7 @@
             "name": "XDEBUT",
             "title": "XDEBUT",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -210,7 +210,7 @@
             "name": "RAYON",
             "title": "RAYON",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -221,7 +221,7 @@
             "name": "YDEBUT",
             "title": "YDEBUT",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -232,7 +232,7 @@
             "name": "ANGLE1",
             "title": "ANGLE1",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -243,7 +243,15 @@
             "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
             "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
             "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
-            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'",
+            "XDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "YDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "XFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "YFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "LARGEUR IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "ANGLE1 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
+            "ANGLE2 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
+            "RAYON IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'"
         ],
         "foreignKeys": [
             "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",

@@ -114,10 +114,10 @@
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_ZO<ENTIER>"
         },
         "0a567cf4b9e64f8b0489c9782f606b50": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "0b5edbb8ebd989c17965d5d1c37abc20": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "0d38b8258c4feeecab80112c73e08ed1": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IL<ENTIER>"
@@ -129,7 +129,7 @@
             "pattern": "<COULEUR>"
         },
         "292cd3a7b05c6b3a3096101bd711ca1e": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2dc46839fe512fc2aeb62da2c188a7b6": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HS<ENTIER>"
@@ -141,7 +141,7 @@
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
         },
         "6211c6e83ff6c1266fadefe8b2f19730": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "6a5eba354a40cab282b1d027455ee85e": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PL<ENTIER>"
@@ -159,10 +159,10 @@
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HT<ENTIER>"
         },
         "9a01d0d3477a210d16b9fbac99b30498": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "9e2f244b68140f3215603b7761ac275f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a75bc15219002f06c90d6decb7a1fc13": {
             "pattern": "<COULEUR>"
@@ -171,13 +171,13 @@
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PP<ENTIER>"
         },
         "bd4b8ac0bf5ca1be763b5db1cc735921": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "c40c49a1fb652acd8e86c31cbbcaa95f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "de038bb28e1723a9df3cf7f1c6bf4fb6": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "f62eaf749ba9b7650ed1bf8d8d2305be": {
             "pattern": "<COULEUR>"
@@ -189,7 +189,7 @@
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IS<ENTIER>"
         },
         "ffc91913ae638dcc95007cf78a3096f9": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         }
     }
 }

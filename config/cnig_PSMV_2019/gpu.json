@@ -108,19 +108,19 @@
     },
     "validator_attribute_type": {
         "01b090187067822ef24ba702ed1d3bd8": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3226a608a487e48735667def28f383fa": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "55e13567a0e44e0ceda2d71b349b0bfb": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "606b25e85fabe14113e792fef5eb426a": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "863e5c555e36fbe9c2a38d015046054f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "8e9188ff024156ab9c7c006433a77e22": {
             "pattern": "<COULEUR>"
@@ -135,13 +135,13 @@
             "pattern": "<COULEUR>"
         },
         "a44f9688fc99e6aa2f9ccf04f6556077": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "c0eac3ecef8880e70f17feec0e4e4afa": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "c4483c70a294ab4544b53e25c1ea4573": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "cea6c783226937cd94a1eae1b2b6dcf6": {
             "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
@@ -150,13 +150,13 @@
             "pattern": "<COULEUR>"
         },
         "d70cd6880d898967b11de846c71ebb0d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "e1534b79f23a3c3b544399e3aa368ac6": {
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
         },
         "fc615443db1b227af597e068a05890e9": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         }
     }
 }

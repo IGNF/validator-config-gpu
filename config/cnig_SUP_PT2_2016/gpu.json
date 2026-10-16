@@ -16,7 +16,7 @@
             "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "4ba1590d35fa445d7d10291597a92c5e": {
-            "conditions": null,
+            "conditions": "[\"XDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"YDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"XFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"YFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"LARGEUR IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"ANGLE1 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'\",\"ANGLE2 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'\",\"RAYON IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'\"]",
             "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
         },
         "5e65470af5004dea9ae4eec9dc431097": {

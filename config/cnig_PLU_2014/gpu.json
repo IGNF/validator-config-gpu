@@ -90,10 +90,10 @@
     },
     "validator_attribute_type": {
         "15af7a7b61ce458c1ca857a839d4d592": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "175001591209bb41e8f0e31b73d45655": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "1b2cf8ca524463c2c5e91182aad704cc": {
             "pattern": "S(<ENTIER>)?"
@@ -102,7 +102,7 @@
             "pattern": "HS(<ENTIER>)?"
         },
         "3790d4033a3b94bb9ebb2e1375d82970": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "5d3a21d212f8bd48cee06951a1b3d94b": {
             "pattern": "POIN(<ENTIER>)?"
@@ -111,40 +111,40 @@
             "pattern": "Z(<ENTIER>)?"
         },
         "781057cab7870a1664eba1327e78b803": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "79b192ab4ffc512269bd4f3ef9b02009": {
             "pattern": "HT(<ENTIER>)?"
         },
         "85a68a878a5cb30dbb3fbd4e7017dfa1": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "8827a537256100a0615765e0b822df33": {
             "pattern": "PERI(<ENTIER>)?"
         },
         "8f92993c402b6847086f59aa93d5afff": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a1d6e1a108f5241f52b675ddd58f58d0": {
             "pattern": "LINE(<ENTIER>)?"
         },
         "b0e4bc2b4d3f3c1da7e8e9d850b71fd6": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "b295ea213d1c74dadac7511da195651b": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "c10174d554ea67ebb83bdf73a3f1af23": {
             "pattern": "L(<ENTIER>)?"
         },
         "c83461113e9140b61084141ccad953aa": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ddfaee1317a16639be4fdd0315ae74ae": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "e77aaad29de92a25fff1d83494ee309d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ea366eccd959e1519c1f75c509ee437a": {
             "pattern": "HP(<ENTIER>)?"

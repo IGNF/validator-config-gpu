@@ -96,19 +96,19 @@
     },
     "validator_attribute_type": {
         "0bc24fd3f436268a49253c2bb3e113f7": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "1be696ec0a277c2c09f1f2b1a61d4e47": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "28769cbbe32d1a917588d6d356280755": {
             "pattern": "<COULEUR>"
         },
         "4e0dc48a1ae23975a8e625bf925de2b6": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "6731e547a2764a70fce92972b71f741c": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "70dc11e2886f5cd9cbcafff487540208": {
             "pattern": "<COULEUR>"
@@ -117,28 +117,28 @@
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
         },
         "a3c2c16600a392eef580c0171a1bf1a8": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ad936aa32fcb6d2a2caaad0d0601c40f": {
             "pattern": "<COULEUR>"
         },
         "adf1589be542ab27cc4d6da2a814975c": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "be056276ac74beddc93751997a017723": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d46cb15032c9f8163baa16f9acd286fb": {
             "pattern": "<COULEUR>"
         },
         "e12546cbb39f0834b8ee2557380eca31": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "fe2b9fbae5eb94bf005b6bcc67af24fe": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ff86df082e29f4ef61d97d759617b2ce": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         }
     }
 }

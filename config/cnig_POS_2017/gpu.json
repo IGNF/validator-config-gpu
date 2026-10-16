@@ -99,22 +99,22 @@
     },
     "validator_attribute_type": {
         "021fcfbe71b7db9eb0ede47bd3bfdde9": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "0b0f6f42255460235c620b021501b9bb": {
             "pattern": "<COULEUR>"
         },
         "0d72edd750d3c2d2c0709030e40f2bad": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "110bd622ba795716176b37dd29f0809a": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "4ae7ff5575f951169f9a4355e3ec49e5": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "7284127ea346f24de28ba04a501d0d8b": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "854be61cf2d65ff02ef8185f1896c618": {
             "pattern": "<COULEUR>"
@@ -123,22 +123,22 @@
             "pattern": "<COULEUR>"
         },
         "8c946f9203ba5486ce56c2ba14a1270c": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "8f70b482edbe2191069c519b3d5c1e43": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "983704ddcc21ded593fb3dfbb58905f4": {
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
         },
         "9f208f292a1276667ddce82d736c6a53": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a3dbeac2cbadf52f33a01bd369d1d54f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ab279dd49191a07470b9740f01c93898": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "b730b4e606f820c9488cd43f4d4e416c": {
             "pattern": "<COULEUR>"

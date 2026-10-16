@@ -39,7 +39,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{8}"
+                "pattern": "[0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])"
             }
         },
         {
@@ -52,7 +52,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{8}"
+                "pattern": "[0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])"
             }
         },
         {
@@ -120,7 +120,7 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{8}"
+                "pattern": "[0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])"
             }
         },
         {
@@ -234,7 +234,8 @@
             "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
             "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
             "NOMREG IS NOT NULL OR URLREG IS NOT NULL",
-            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL"
+            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL",
+            "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1"
         ],
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatPLU(ETAT)",

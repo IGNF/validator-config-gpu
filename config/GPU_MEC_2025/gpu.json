@@ -36,7 +36,7 @@
             "pattern": "<INSEE_SIREN>_<YYYYMMDD>_rapport_de_presentation_MEC<ENTIER>_<YYYYMMDD>.pdf"
         },
         "dcfeb75dcc2f683fe53aeee0ffd1aa8f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ffb5d583d2d2aa66e4c0d72673c8d467": {
             "pattern": "<INSEE_SIREN>_<YYYYMMDD>_arrete_MEC<ENTIER>_<YYYYMMDD>.pdf"

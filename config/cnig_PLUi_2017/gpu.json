@@ -144,10 +144,10 @@
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_IL<ENTIER>"
         },
         "254261f0c90fc0a738ab91979558808f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2890143caecc5a92a4470491bf6ba317": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2d1bfb93797584ae748fe068ba37d632": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_PS<ENTIER>"
@@ -156,10 +156,10 @@
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
         },
         "3bc073ee52407861e4105a57bfcfe0f0": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "4584bc88f7053385398bd71370487e42": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "5d105875b17751bf766af2daf58e3971": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_IS<ENTIER>"
@@ -168,13 +168,13 @@
             "pattern": "<INSEE_SIREN>_reglement_[0-9]{8}(_<DOCUMENT_PART>)?.pdf"
         },
         "6518d7cc46cf4007341e061d835f7fc3": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "70d2b9dc09d440316d8bae1ef622994b": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "7596a36cd45d957e55c926bf1340252a": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "7d01abbe9de912310076605d3cc2ef23": {
             "pattern": "<COULEUR>"
@@ -186,13 +186,13 @@
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_ZO<ENTIER>"
         },
         "971fe5baf1ea1c792566d2676ab83951": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "97edb0f65ac0a6f52cfe15c4b2248a0d": {
             "pattern": "<COULEUR>"
         },
         "9e948f42b578f2c0fb61ce2003f0bd21": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a0a304d77fb86802b586921f4abece65": {
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_PP<ENTIER>"
@@ -204,7 +204,7 @@
             "pattern": "<SIREN>_PLUI_<YYYYMMDD>_HL<ENTIER>"
         },
         "ce15aa9d7d2ea1efc76d00536e4bccd4": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "e541a2ab610625f2d4b867ed24d1e491": {
             "pattern": "<COULEUR>"

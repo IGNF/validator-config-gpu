@@ -168,7 +168,7 @@
     },
     "validator_attribute_type": {
         "0bf2af781df65c51b5340df7ec0d1a3e": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "10f0a8db94a81433d7309bf8b0138165": {
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_HP<ENTIER>"
@@ -177,7 +177,7 @@
             "pattern": "<COULEUR>"
         },
         "1977c643a02aa0c97980eee1a8de5df2": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "1ac4470675bd0c083fbbfe900c50f5b1": {
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_HT<ENTIER>"
@@ -186,7 +186,7 @@
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_HS<ENTIER>"
         },
         "256f5f40ce3b5a730fb086c49f47ae48": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3bd1b30061536e4bf8d3dc4efc20666f": {
             "pattern": "PSC-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -207,7 +207,7 @@
             "pattern": "PSC-S_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
         },
         "50907705a11456e3da36f81476d5e524": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "5cc210228ca595e9ac4214b3227fb478": {
             "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
@@ -219,10 +219,10 @@
             "pattern": "<COULEUR>"
         },
         "62d32b518b02712916631d277defc016": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "64e8b53718fa3f8b2572bca633d30357": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "738c40f3d829df8e8c6afc1b6b0ac806": {
             "pattern": "<INSEE_COMMUNE>_PLOS_<YYYYMMDD>_IL<ENTIER>"
@@ -249,13 +249,13 @@
             "pattern": "<INSEE_SIREN>_reglement_[0-9]{8}.pdf"
         },
         "aaed60543c7026ddb654fea2ae2eada0": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "c7fdc176abdaf2f2de4f4f794ede3154": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "cb24d174cb26a32d2a0e481af2f3b8a0": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d0fa6b19641a813b200280a1b37e1a27": {
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_IP<ENTIER>"
@@ -264,7 +264,7 @@
             "pattern": "(E|R|A|MEC<ENTIER>|MAJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
         },
         "e9223acaf25f300f011d28e788f347a7": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ebb2453b201c58e2d70c2fd7d7eb7f16": {
             "pattern": "<INSEE_COMMUNE>_POS_<YYYYMMDD>_HL<ENTIER>"

@@ -121,7 +121,7 @@
             "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
         },
         "67f85ebe1424d5175939363d8a35cee8": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "849a3a317a8a8162b7e27ddb847cdd4f": {
             "pattern": "<SIREN>"
@@ -133,7 +133,7 @@
             "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
         },
         "d6b095875175064f97682c720a5d4f0e": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "dc2aad157850514bca94b56469fee436": {
             "pattern": "<INSEE_COMMUNE>"

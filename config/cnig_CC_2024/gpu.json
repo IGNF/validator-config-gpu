@@ -105,10 +105,10 @@
             "pattern": "INF-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
         },
         "349f390fa15d51d8f3defffaf27feb2b": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3b2e8760e965c2444b28da04333082b8": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3fe48eb119e2083434bbb1be1712764d": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HL<ENTIER>"
@@ -120,7 +120,7 @@
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IP<ENTIER>"
         },
         "54667edcc6cd81cdd485229796c3dc0d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "5ad9ce1b0ed79f713aadf393051b2333": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IS<ENTIER>"
@@ -132,10 +132,10 @@
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HS<ENTIER>"
         },
         "91aaf5ad4722d1a0bb700cbfc28f0f8d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a2ee01e151b7f52c4f5d10b5744f85b9": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a463001247f3fc935664123f1f4453c0": {
             "pattern": "<INSEE_SIREN>_sectorisation_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
@@ -159,13 +159,13 @@
             "pattern": "<COULEUR>"
         },
         "cde8867bf2f17f7d7791114542059fb0": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d35b00bdae390d5684b0a9c76f226dcb": {
             "pattern": "<COULEUR>"
         },
         "d624c2232d8c1b792a3c0cf5998f58b8": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d7b18ef05995a258ed89b8811b03bf60": {
             "pattern": "<COULEUR>"

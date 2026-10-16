@@ -114,7 +114,7 @@
     },
     "validator_attribute_type": {
         "062e903d275e812f9465ce438d9490d0": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "0645cbc06e8127f206a745a8152f49f1": {
             "pattern": "PSC-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -141,7 +141,7 @@
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IS<ENTIER>"
         },
         "2387e92488b8c9ba831589e1def3b560": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "23b74f0208b04ad56812aae81530680d": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HL<ENTIER>"
@@ -153,7 +153,7 @@
             "pattern": "<COULEUR>"
         },
         "38997ed01b7236a6108fe98086fcded6": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3c8104b2d7dcc82c6c0c8ca3cc110200": {
             "pattern": "PSC-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -162,10 +162,10 @@
             "pattern": "ZONE_<CHAR>+_<ENTIER_3>"
         },
         "6f0d3b5655154f7a5c2c5ec0f1cff9a9": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "7bc6ac1a651d41701020f844f763e131": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "86f2a580461df48fd672977b64fe0968": {
             "pattern": "INF-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -183,7 +183,7 @@
             "pattern": "(E|R|A|MC<ENTIER>|MJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
         },
         "ab8853786255a45df455ce7ed1318798": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "b896b583323cab5e1e23b17a55228547": {
             "pattern": "<INSEE_SIREN>_reglement_[0-9]{8}.pdf"
@@ -192,13 +192,13 @@
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PS<ENTIER>"
         },
         "c9f190a6b361ecad29f9fdcb9ce1dece": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ccc307c81765e34c6dc5a32f15380454": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "cd22996f62bddb8141d3629edb333430": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d69dc67a1f2e8a3e8c40a0146b7a0051": {
             "pattern": "<COULEUR>"
@@ -216,7 +216,7 @@
             "pattern": "INF-L_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
         },
         "f2dcf83a03853f76557efea02c7968d1": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         }
     }
 }

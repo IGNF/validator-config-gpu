@@ -96,10 +96,10 @@
             "pattern": "HS(<ENTIER>)?"
         },
         "0bc0906d56c71b154f0edf23962ce469": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "0f3f671550ee91d0641d9b2690c76de5": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "1b50638baf445cb9b4b7ebaeb745d7c9": {
             "pattern": "L(<ENTIER>)?"
@@ -108,19 +108,19 @@
             "pattern": "PERI(<ENTIER>)?"
         },
         "27c1e016714764f4599bb18fb5659f96": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "31b4c0388ccc064ad08dd4b85687416b": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "31d63a9d501de03fa7791a3de31420c1": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "344f8e11c75baed635fda174e6fd063d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "44979a03678b0b37d167be10acc0ab75": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "52a36ede3d2f1ec07ffb165cfbbb77c2": {
             "pattern": "LINE(<ENTIER>)?"
@@ -135,7 +135,7 @@
             "pattern": "POIN(<ENTIER>)?"
         },
         "984153f204ee0ba7f5a2ce09cc089d1d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "9fc7c053240cde847b1b0de58c270963": {
             "pattern": "P(<ENTIER>)?"
@@ -144,10 +144,10 @@
             "pattern": "HP(<ENTIER>)?"
         },
         "b26ff16087a451aad1af52a890679e23": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d59099b8d2e55f93ce354766b1fb376a": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d736e842fc9bda3003eb9704e83cb08d": {
             "pattern": "HT(<ENTIER>)?"
@@ -156,7 +156,7 @@
             "pattern": "S(<ENTIER>)?"
         },
         "f849d628a4f1d79b0b9d3f92ff4dedee": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         }
     }
 }

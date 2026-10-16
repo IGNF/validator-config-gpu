@@ -43,7 +43,7 @@
     },
     "validator_attribute_type": {
         "01024af971c7eea829eabb9070f2cb0f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "16c703a7151c97451c514e3355dadda2": {
             "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
@@ -61,7 +61,7 @@
             "pattern": "<INSEE_COMMUNE>"
         },
         "941e9f8bdb763953c5bcfa9d88eebb93": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a3c086263b78203c5156b280565f1e1c": {
             "pattern": "<SIREN>"

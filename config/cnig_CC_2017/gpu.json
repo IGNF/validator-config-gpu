@@ -90,13 +90,13 @@
     },
     "validator_attribute_type": {
         "183161f4cbe0d2c7a8db020bcdac05bc": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "253cc0cab98c849a50d6196197b704f6": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2a8b633d3557fbd421e87b6f89d6ecf1": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "324379e0ba52dc6f0f6c334669cd8e5f": {
             "pattern": "<COULEUR>"
@@ -120,7 +120,7 @@
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HT<ENTIER>"
         },
         "80dfbb2314ddb682e26187589e9db9b4": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "8c1d554b96ddcf044d514beac4f0efda": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HS<ENTIER>"
@@ -138,7 +138,7 @@
             "pattern": "<COULEUR>"
         },
         "d689c039139178c19f9a3e9c8ec42908": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "d7c7e596876f171a0d088efbd3475ecb": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IS<ENTIER>"
@@ -147,10 +147,10 @@
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HP<ENTIER>"
         },
         "eeabf7e646d761b66bce8dca2d2c7069": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "f71a99c56c4fc4a46b185b66e93b2c4f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         }
     }
 }

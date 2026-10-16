@@ -93,7 +93,7 @@
             "pattern": "<COULEUR>"
         },
         "012b040fd50d9ec44eb6bec3c10e4277": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "08f1be012493bbcf29341cd795fb1bac": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IP<ENTIER>"
@@ -123,22 +123,22 @@
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HT<ENTIER>"
         },
         "778746fe2a46e17b05f36b5d33089911": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "7b276fec115fd4f0ba3c565181b656da": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "8a4d20801c86dd71ffd5be2cc7f61ee1": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "951d5f4b2299444c4e25239a242d68c6": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "9743b635621f57cec8b376afc7df30ef": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_IS<ENTIER>"
         },
         "9b0ca4505068466732ee62a6c62c5238": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a3a4fceb27cfd724df9b216117d950ed": {
             "pattern": "<INSEE_COMMUNE>_CC_<YYYYMMDD>_HS<ENTIER>"
@@ -150,7 +150,7 @@
             "pattern": "<COULEUR>"
         },
         "caa1f3cc1363fce57b20b4b7c755e5de": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "cc237886b50d5b53ce09fb7f9fdd20fb": {
             "pattern": "(E|R|A|MJ<ENTIER>|MS<ENTIER>)"

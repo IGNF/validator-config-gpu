@@ -186,7 +186,7 @@
             "pattern": "PSC-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
         },
         "1830619f638bc60de1f020628addefba": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "1d61edd83104db974c045be275c4f169": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HL<ENTIER>"
@@ -195,7 +195,7 @@
             "pattern": "(E|R|A|MEC<ENTIER>|MAJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
         },
         "2f720990063e08526bf38e4fba20dba5": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3371e5a75baf0704fb89ea0d3dea47a7": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HT<ENTIER>"
@@ -204,25 +204,25 @@
             "pattern": "<INSEE_SIREN>_reglement_[0-9]{8}.pdf"
         },
         "3979804ac81d4e443c8e55265bb24b94": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "4e094d31476df252a2bd5064107a7783": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "512d8cd188499ee038b2550f0c0612f1": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PP<ENTIER>"
         },
         "5d2279a4b866dcb5f9f0d2474a063538": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "5e842f0080f7962045ffc06ca8013a6a": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PS<ENTIER>"
         },
         "5f222065729483bf9a01281d627990d6": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "60f524c1605932a2396e0295cc1ad9c8": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "68627184d4d16d1e59889dba5e44b306": {
             "pattern": "INF-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -237,10 +237,10 @@
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_IS<ENTIER>"
         },
         "883c47f33e4974b89e3186751d00ef3f": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "897d0f335a1812f3b5b9eab199697431": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "92decfa64ee3d524a0ed37129af85621": {
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_PL<ENTIER>"
@@ -285,7 +285,7 @@
             "pattern": "<INSEE_COMMUNE>_PLU_<YYYYMMDD>_HP<ENTIER>"
         },
         "efb4fa406232bf96eb726bc859ca3296": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "f316dca89614399c4b7b54a72983dd23": {
             "pattern": "ZONE_<CHAR>+_<ENTIER_3>"

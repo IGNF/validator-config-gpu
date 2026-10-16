@@ -66,7 +66,7 @@
             "pattern": "HT(<ENTIER>)?"
         },
         "18402c9b7cf1dada5aaadd12f99644a1": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "21b8777e6da3d7c25e2985b3923a1df7": {
             "pattern": "S(<ENTIER>)?"
@@ -75,40 +75,40 @@
             "pattern": "Z(<ENTIER>)?"
         },
         "371fa0f2de7c24538d5cc8e2acde9e33": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3cbd1497cb9450e3763c40c461711ae8": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "5397c253ad350d3c2bdaf7b3ff7f7a5d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "563d49425b353b5751db8fa812cf89ea": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "6177b2b7dc49a423b26a8e9b9ec340e2": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "61c7515ac34fe86cf7ebe76b776c2521": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "61e630d5275101c1c263226c5415b5b6": {
             "pattern": "LINE(<ENTIER>)?"
         },
         "68abea448cecfa723577dc17696d3c2d": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "6fd969e34202d7076f154a5015b3f7c0": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "7294d898e4f406955b6114c017ca1417": {
             "pattern": "HS(<ENTIER>)?"
         },
         "824f935280a966e0de3378015518ffd5": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "af6df72869043f9ecaa9683139e08433": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "b317462d1fc1ea40c668d8060a0578c1": {
             "pattern": "POIN(<ENTIER>)?"

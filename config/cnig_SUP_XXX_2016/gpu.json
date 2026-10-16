@@ -41,7 +41,7 @@
             "document_model_id": "ffcddc2f34028e3a966a0f6583963625"
         },
         "439b13477603a29ae3d1c046ba54641e": {
-            "conditions": null
+            "conditions": "[\"IDACTE LIKE IDSUP || '-%'\"]"
         },
         "d8f20d2f47dd4e124458684ba917dc65": {
             "abstract": "t",
@@ -98,14 +98,14 @@
             "feature_type_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
         },
         "1b9a55e805706f3155f9f4acd1131438": {
-            "pattern": "<YYYYMMDD>",
+            "pattern": "<DATE>",
             "feature_type_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
         },
         "202073fb00f6049f7ca061907feeecd8": {
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "242adcd91d5707c68cde747e3b56241b": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "29b216511462b7df7249a621db408018": {
             "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
@@ -117,7 +117,7 @@
             "feature_type_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
         },
         "5130470298b89af31028e1d3821341f9": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "53a064decb952b57296d15a4129c84dd": {
             "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>",
@@ -137,7 +137,7 @@
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "9425d3d273bce250e346bbbd26e27359": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "ab684dd618ea3d45c21bd192a60c53a5": {
             "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg.pdf"
@@ -146,7 +146,7 @@
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "cd6f1e74c85a9107aee7db667ccb297d": {
-            "pattern": "<YYYYMMDD>",
+            "pattern": "<DATE>",
             "feature_type_id": "d8f20d2f47dd4e124458684ba917dc65"
         },
         "d0347f4b396894b92734634b2971c82b": {

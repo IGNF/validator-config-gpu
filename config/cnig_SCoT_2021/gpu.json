@@ -58,13 +58,13 @@
     },
     "validator_attribute_type": {
         "06487e862cb6dd47e02b0e5be58eeaa3": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "131ae7054073c885fb2bde802c962a50": {
             "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
         },
         "2cbf43c1e3d8f045c6339bcafc5335ac": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "307f1bfaf0ef847c9a2e1b47c9cd7839": {
             "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"

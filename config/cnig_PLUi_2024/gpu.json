@@ -219,16 +219,16 @@
             "pattern": "<SIREN>_PLUi_<YYYYMMDD>_PP<ENTIER>"
         },
         "2623c6ad4de9201b6d414b62f07e9175": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2b46d72fc893a0d4c10c8d87d8bc01c5": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "2bef03fe2d3c5dda87e349c680b43c9a": {
             "pattern": "<SIREN>_PLUi_<YYYYMMDD>_PL<ENTIER>"
         },
         "2cb999064ca38e26d0856358f6068ad2": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3369e137f516b3b0087d6d939010a534": {
             "pattern": "INF-P_<ENTIER_2>-<ENTIER_2>_<ENTIER_3>"
@@ -246,22 +246,22 @@
             "pattern": "<SIREN>_PLUi_<YYYYMMDD>_HS<ENTIER>"
         },
         "566c4fadaf694172f0c6ccd6f0468730": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "5c49570a286af16e5b5a1a2e95036043": {
             "pattern": "(E|R|A|MEC<ENTIER>|MAJ<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>|RA<ENTIER>)"
         },
         "6342f6ae69f568944e6d6fc613f51e3a": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "656d49af3caa4d4fed9b2dfb22018a07": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "672e5490ef2e56d199de09038b389c3d": {
             "pattern": "<INSEE_SIREN>_reglement_graphique(_<ENTIER>)?_[0-9]{8}(_<DOCUMENT_PART>)?(.pdf|.zip)"
         },
         "69198b3cd2645eb8e9653c7c9f34d773": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "6a1056a886c9cc8db3d36ca99426e1fd": {
             "pattern": "<SIREN>_PLUi_<YYYYMMDD>_HL<ENTIER>"
@@ -282,16 +282,16 @@
             "pattern": "<COULEUR>"
         },
         "adbf5b79492a7d76e2b7e761e9beeafc": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "af790d44e36d31e6b4555e10b0c289ea": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "b093a66fc541966b34abdc8a406a54f3": {
             "pattern": "<COULEUR>"
         },
         "baef742ada3deea7c42b2169eec3564c": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "bb297d1daaad9e069b9342b2ff608a5e": {
             "pattern": "<SIREN>_PLUi_<YYYYMMDD>_IS<ENTIER>"

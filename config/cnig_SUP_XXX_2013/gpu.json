@@ -93,7 +93,7 @@
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
         },
         "315c5f41febeef3fe93be6ed250f2a14": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "3410d2ec8cbd5c201be662b4cf6fe79b": {
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
@@ -102,7 +102,7 @@
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
         },
         "42cd1e3145f31264de0e3bc881ff3655": {
-            "pattern": "<YYYYMMDD>",
+            "pattern": "<DATE>",
             "feature_type_id": "5146126394baf20af78d61bf8c20abf9"
         },
         "46a1e08c752e490bb51b205d640d4a42": {
@@ -115,7 +115,7 @@
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
         },
         "89ecc28e1d7fde0cbd77d0798b496dd9": {
-            "pattern": "<YYYYMMDD>",
+            "pattern": "<DATE>",
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
         },
         "8b81ee4d2c2a6765894e9e0d0fa9cdda": {
@@ -128,7 +128,7 @@
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
         },
         "a1ed509fa03fb1cb683ad1bc4ee64d04": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "a30491be7fff04a4dc4cadc8baa9fb58": {
             "pattern": "<CATEGORIE>_<RADICAL>_sup"
@@ -146,7 +146,7 @@
             "feature_type_id": "4edb459e86909278aba4c2af6c942b42"
         },
         "d463b500b048983f9b000e8dded11951": {
-            "pattern": "<YYYYMMDD>"
+            "pattern": "<DATE>"
         },
         "dbff3aecc6bba23c7b9d6ab419537b04": {
             "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?",
