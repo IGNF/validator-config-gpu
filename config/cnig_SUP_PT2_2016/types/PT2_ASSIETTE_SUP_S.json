@@ -247,7 +247,6 @@
         ],
         "foreignKeys": [
             "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
-            "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
             "(HREF) REFERENCES ListeHrefSUP(HREF)"
         ]
     }
