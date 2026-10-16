@@ -1,0 +1,35 @@
+{
+  "name": "validator-config-gpu",
+  "version": "8.0.1",
+  "private": true,
+  "description": "Dépôt de gestion de la configuration de IGNF/validator pour la validation des standards CNIG au niveau du Géoportail de l'Urbanisme (GpU).",
+  "keywords": [
+    "validator",
+    "cnig",
+    "gpu",
+    "urbanisme"
+  ],
+  "homepage": "https://github.com/IGNF/validator-config-gpu#readme",
+  "bugs": {
+    "url": "https://github.com/IGNF/validator-config-gpu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGNF/validator-config-gpu.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "IGN",
+    "email": "gpu-dev@ign.fr"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "edit": "vce serve config",
+    "check": "vce check config"
+  },
+  "devDependencies": {
+    "validator-config-editor": "github:IGNF/validator-config-editor#v0.1.0"
+  }
+}

@@ -52,9 +52,6 @@
         "067946f4eaae7682ee859506bd09a360": {
             "path": "Typedoc_SCoT.csv"
         },
-        "9cc5e23a08c3c08114b68ba1f065702f": {
-            "path": "Typeproc_SCoT.csv"
-        },
         "cd9b5b5d405ce1ecd8838d47bb15d186": {
             "path": "Etat_SCoT.csv"
         }
@@ -71,6 +68,9 @@
         },
         "307f1bfaf0ef847c9a2e1b47c9cd7839": {
             "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"
+        },
+        "3fd4a63d84e61ee119389973cad1f1d7": {
+            "pattern": "(E|R|MEC<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
         },
         "60e690bca6057723c0cfb68e152aa82e": {
             "pattern": "<SIREN>"

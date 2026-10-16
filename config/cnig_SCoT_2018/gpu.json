@@ -39,9 +39,6 @@
         },
         "db166d7415485baaa342acea360b10a0": {
             "path": "Typedoc_SCoT.csv"
-        },
-        "fe2047ed7e575430bbec299b2a3848ce": {
-            "path": "Typeproc_SCoT.csv"
         }
     },
     "validator_attribute_type": {
@@ -53,6 +50,9 @@
         },
         "1ad73c143b8b94026a6f0fcf91c93459": {
             "pattern": "<SIREN>"
+        },
+        "1dce46eda511ad031cc637a5b89da25c": {
+            "pattern": "(E|R|MEC<ENTIER>|M<ENTIER>|MS<ENTIER>|RS<ENTIER>)"
         },
         "8c3855bb2ebb1ed6c1c3fff423c1e07a": {
             "pattern": "<SIREN>_SCOT_<YYYYMMDD>(_<DOCUMENT_PART>)?"

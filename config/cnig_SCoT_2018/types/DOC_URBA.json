@@ -67,7 +67,8 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "maxLength": 2
+                "pattern": "(E|R|MEC[0-9]+|M[0-9]+|MS[0-9]+|RS[0-9]+)",
+                "maxLength": 10
             }
         },
         {
@@ -221,8 +222,7 @@
         ],
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatSCoT(ETAT)",
-            "(TYPEDOC) REFERENCES ListeTypedocSCoT(TYPEDOC)",
-            "(TYPEPROC) REFERENCES ListeTypeprocSCoT(TYPEPROC)"
+            "(TYPEDOC) REFERENCES ListeTypedocSCoT(TYPEDOC)"
         ]
     }
 }
