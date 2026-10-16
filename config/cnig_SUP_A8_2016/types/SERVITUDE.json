@@ -1,12 +1,12 @@
 {
-    "id": "20f8d58633322a7973e3ded26cecc63a",
+    "id": "bbc79cf1ce07ba68d456aaf972bcfb7e",
     "name": "SERVITUDE",
     "title": "SERVITUDE",
     "description": "Table contenant la liste des servitudes d'utilité publique",
     "columns": [
         {
             "type": "String",
-            "id": "08bd23ab9037c95dd9610064dc920232",
+            "id": "84f2611fa18ba41d59d232ef1f07dc9b",
             "name": "VALIDEGEST",
             "title": "VALIDEGEST",
             "description": "Les données numérisées de la servitude ont été validées ou pas par le gestionnaire",
@@ -19,7 +19,7 @@
         },
         {
             "type": "Url",
-            "id": "21a98c1b6191da0723102fad20a77aca",
+            "id": "13ad77c3a35bf88fd6b13bfb68412574",
             "name": "URLREG",
             "title": "URLREG",
             "description": "Lien d’accès au fichier pdf contenant le règlement de la servitude",
@@ -32,7 +32,7 @@
         },
         {
             "type": "String",
-            "id": "242adcd91d5707c68cde747e3b56241b",
+            "id": "72d87fa5b9fe46d23935bcbdb4f2370e",
             "name": "DATEMAJ",
             "title": "DATEMAJ",
             "description": "Date de la dernière modification apportée à la servitude",
@@ -45,7 +45,7 @@
         },
         {
             "type": "String",
-            "id": "29b216511462b7df7249a621db408018",
+            "id": "72006046af6becc8d7c4cd3e786b9c89",
             "name": "IDSUP",
             "title": "IDSUP",
             "description": "Identifiant de la SUP",
@@ -59,7 +59,7 @@
         },
         {
             "type": "String",
-            "id": "2db5c42823c8875ea3ad948aa6696e0c",
+            "id": "6fc11ff46f0c2bf469b21e6826971ede",
             "name": "CATEGORIE",
             "title": "CATEGORIE",
             "description": "Catégorie de la servitude dans la nomenclature nationale",
@@ -72,7 +72,7 @@
         },
         {
             "type": "String",
-            "id": "65b4697897ce6098c57551fa80ed9710",
+            "id": "d2bc052edd6960514885cd2661c27f60",
             "name": "QUIPROD",
             "title": "QUIPROD",
             "description": "Organisme ayant numérisé la servitude",
@@ -85,7 +85,7 @@
         },
         {
             "type": "String",
-            "id": "751916ef2f5c8e46f305fa49159da732",
+            "id": "697be224336f47f5c23c794ef208c13c",
             "name": "OBSVALIDAT",
             "title": "OBSVALIDAT",
             "description": "Observation relative à la validation de la servitude formulée soit par le gestionnaire, soit par le service de l'État administrant les données",
@@ -98,7 +98,7 @@
         },
         {
             "type": "String",
-            "id": "90a2061006c1f3e454e0f36b67aff58c",
+            "id": "abfcdbab2e2efb3ae9f74fc2fbd161c3",
             "name": "DESCRIPTIO",
             "title": "DESCRIPTIO",
             "description": "Description détaillée de la servitude",
@@ -111,7 +111,7 @@
         },
         {
             "type": "String",
-            "id": "97ca66299e2cb11d06e31baaa8c31c65",
+            "id": "512b3aaf86784020d2bfe1d109e40697",
             "name": "MODEPROD",
             "title": "MODEPROD",
             "description": "Mode d'obtention de la SUP : import de données échangées avec les gestionnaires ; numérisation (digitalisation) de la SUP annexée au document d'urbanisme ; ou reconstitution à partir de l'acte l'instituant",
@@ -124,7 +124,7 @@
         },
         {
             "type": "String",
-            "id": "aa00edca50f3e75062f333e28a5cf815",
+            "id": "897d878d4bcd72484b5a0179c54cc8de",
             "name": "IDGEST",
             "title": "IDGEST",
             "description": "Identifiant du gestionnaire de la SUP",
@@ -137,7 +137,7 @@
         },
         {
             "type": "String",
-            "id": "ab684dd618ea3d45c21bd192a60c53a5",
+            "id": "94eb9c1f270da4854c4199a22a9b52c9",
             "name": "NOMREG",
             "title": "NOMREG",
             "description": "Nom du fichier pdf contenant le règlement de la servitude",
@@ -151,7 +151,7 @@
         },
         {
             "type": "String",
-            "id": "b5dd35cee002c9c1c8446ff2361e9c96",
+            "id": "cfa55b884a269c37398debb7e3ef4964",
             "name": "IDINTGEST",
             "title": "IDINTGEST",
             "description": "Identifiant créé et entretenu par l'organisme gestionnaire de la servitude",
@@ -164,7 +164,7 @@
         },
         {
             "type": "String",
-            "id": "bc06a6442b0b624bfc8a42e0689c3291",
+            "id": "9662baa03aa8308248ce41f5ce74d8ea",
             "name": "NOMSUPLITT",
             "title": "NOMSUPLITT",
             "description": "Nom littéral de la servitude, figurant dans l'acte l'ayant instaurée",
@@ -177,7 +177,7 @@
         },
         {
             "type": "Integer",
-            "id": "bfe28f8b5410fc69d92471ea4f96b02d",
+            "id": "eaefd0aa38ac6621178afe88b83d7e60",
             "name": "ECHNUM",
             "title": "ECHNUM",
             "description": "Dénominateur de l'échelle à laquelle a été numérisée la servitude",
@@ -189,7 +189,7 @@
         },
         {
             "type": "String",
-            "id": "da03f184be9ea6fd1c6cfa8b784314b9",
+            "id": "08937ba37a768901b9341530c0828f37",
             "name": "NOMSUP",
             "title": "NOMSUP",
             "description": "Nom abrégé de la servitude, respectant les règles de nommage nationales des SUP",
@@ -203,7 +203,7 @@
         },
         {
             "type": "String",
-            "id": "e32419431ee4600f4b141b575edb1fe8",
+            "id": "2ba2ea6e41be6782f77c82fc3bcaff84",
             "name": "DOCSOURCE",
             "title": "DOCSOURCE",
             "description": "Document graphique ayant été numérisé",

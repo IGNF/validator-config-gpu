@@ -1,12 +1,12 @@
 {
-    "id": "38ca707f44376b8afb069dc866110bbe",
+    "id": "00efb763677d4432cf71ebbe7c47698c",
     "name": "SERVITUDE_ACTE_SUP",
     "title": "SERVITUDE_ACTE_SUP",
     "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes",
     "columns": [
         {
             "type": "Integer",
-            "id": "89f0aaf24a703a318a3094a72c68bf3b",
+            "id": "3ea05fbd08a3decdc13b74c8cad6b4b6",
             "name": "IDACTE",
             "title": "IDACTE",
             "description": "Identifiant de l'acte instituant la SUP",
@@ -18,7 +18,7 @@
         },
         {
             "type": "Integer",
-            "id": "b8172389de2db4d746b273d07e07eab1",
+            "id": "81b634852e4f33608fe164e6ef130819",
             "name": "IDSUP",
             "title": "IDSUP",
             "description": "Identifiant de la SUP",

@@ -6,7 +6,7 @@
     "columns": [
         {
             "type": "String",
-            "id": "16cb5914fd03e3537143180e3e38f70a",
+            "id": "f08e03c27e5aed504f01b47bbb316f61",
             "name": "TYPEASS",
             "title": "TYPEASS",
             "description": "Nature de l'assiette selon sa vocation principale et la catégorie de SUP",
@@ -19,7 +19,7 @@
         },
         {
             "type": "Integer",
-            "id": "56b6d7b14fc3a248e632d83f7a87f704",
+            "id": "4709e0a95d1f6e6a70780bd39c02f6b4",
             "name": "IDASS",
             "title": "IDASS",
             "description": "Identifiant de l'assiette",
@@ -31,7 +31,7 @@
         },
         {
             "type": "Integer",
-            "id": "7427ab389841fc55e516b81a481d2939",
+            "id": "423245f61674f7510011bd3335c64ebc",
             "name": "IDGEN",
             "title": "IDGEN",
             "description": "Identifiant du générateur de l'assiette",
@@ -43,7 +43,7 @@
         },
         {
             "type": "String",
-            "id": "89ecc28e1d7fde0cbd77d0798b496dd9",
+            "id": "d232542aee42fc5ebc8cf7bee590d5c9",
             "name": "DATESRCASS",
             "title": "DATESRCASS",
             "description": "Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",
@@ -56,7 +56,7 @@
         },
         {
             "type": "String",
-            "id": "8b81ee4d2c2a6765894e9e0d0fa9cdda",
+            "id": "4e48fa76209c2782529a2be4f84e1fa8",
             "name": "MODEGEOASS",
             "title": "MODEGEOASS",
             "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
@@ -69,7 +69,7 @@
         },
         {
             "type": "Integer",
-            "id": "9647e0dff490bc52af36ef874ce440b6",
+            "id": "6121c38787dd73c19f5500a39a4e0503",
             "name": "PARAMCALC",
             "title": "PARAMCALC",
             "description": "Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon",
@@ -81,7 +81,7 @@
         },
         {
             "type": "String",
-            "id": "cf3618713c7ac76f3739f4eaaab392b2",
+            "id": "7694f2aeb7ce37b6b0bd9f4836700ea2",
             "name": "SRCGEOASS",
             "title": "SRCGEOASS",
             "description": "Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",
@@ -94,7 +94,7 @@
         },
         {
             "type": "String",
-            "id": "efc4d73337d1cabd3e5a8f66d88238f0",
+            "id": "201c0b082dc34f7cf5f397d640b96ed7",
             "name": "NOMASS",
             "title": "NOMASS",
             "description": "Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP",

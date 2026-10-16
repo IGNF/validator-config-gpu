@@ -1,12 +1,12 @@
 {
-    "id": "e23b4485847c2c72e8ce8fdf681f5c33",
+    "id": "5e8210df330a99328e9c172941352bc2",
     "name": "ACTE_SUP",
     "title": "ACTE_SUP",
     "description": "Table contenant la liste des actes instituant une servitude d'utilité publique",
     "columns": [
         {
             "type": "String",
-            "id": "21102e77f9b0b419cdca2367cf114ada",
+            "id": "b1a33577bfc29d4b0e1812f013e0574c",
             "name": "REFERENCE",
             "title": "REFERENCE",
             "description": "Référence de l'acte ayant créé ou modifié la servitude",
@@ -19,7 +19,7 @@
         },
         {
             "type": "String",
-            "id": "45da2f3861b21374963200d493357dc3",
+            "id": "1071b986a532833ee6110fea95ceac42",
             "name": "DECISION",
             "title": "DECISION",
             "description": "Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude",
@@ -32,7 +32,7 @@
         },
         {
             "type": "String",
-            "id": "5130470298b89af31028e1d3821341f9",
+            "id": "f7009b9e19bbb15dd65613e2851330bc",
             "name": "DATEPUB",
             "title": "DATEPUB",
             "description": "Date de parution au Journal Officiel ou de publicité dans la presse",
@@ -45,7 +45,7 @@
         },
         {
             "type": "Filename",
-            "id": "51e6c1b0f2db8446ba9301c385bb9e88",
+            "id": "fbd0eac9eb6ec40b651fe3b3cc9950c1",
             "name": "FICHIER",
             "title": "FICHIER",
             "description": "Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte",
@@ -58,7 +58,7 @@
         },
         {
             "type": "String",
-            "id": "60bb3a4308c58c838b761ef979ad2c0c",
+            "id": "e63e3e084f3c95037e2a8e9ec7b8ffcb",
             "name": "IDACTE",
             "title": "IDACTE",
             "description": "Identifiant de l'acte",
@@ -72,7 +72,7 @@
         },
         {
             "type": "String",
-            "id": "689a6c986b2792a153a871d837f89fd3",
+            "id": "8a2d78bf221e6ffef646b21be079ae94",
             "name": "APLAN",
             "title": "APLAN",
             "description": "Existence d'un ou plusieurs plans annexés à l'acte",
@@ -85,7 +85,7 @@
         },
         {
             "type": "String",
-            "id": "8b2a5deb50909f091edc15af087ea9af",
+            "id": "010823f9d5f1e968112d8d3c235091a5",
             "name": "TYPEACTE",
             "title": "TYPEACTE",
             "description": "Description de la nature de l'acte",
@@ -98,7 +98,7 @@
         },
         {
             "type": "String",
-            "id": "9425d3d273bce250e346bbbd26e27359",
+            "id": "61c364d11725208bd592e1d06dedd147",
             "name": "DATEDECIS",
             "title": "DATEDECIS",
             "description": "Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",
@@ -111,7 +111,7 @@
         },
         {
             "type": "String",
-            "id": "ff75a107ee9724b5ffb88ff1b8108d99",
+            "id": "27f7066cd2a18b4cd34c2d4ef07dab5d",
             "name": "NOMACTE",
             "title": "NOMACTE",
             "description": "Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP",

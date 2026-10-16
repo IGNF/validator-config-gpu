@@ -4,21 +4,109 @@
             "folder_name": "<IDGEST>_T3_<MAILLAGE>_<YYYYMMDD>"
         }
     },
-    "validator_feature_type": {
-        "c5d9b1a7faf7028efbd3bcd5a643a535": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+    "validator_file_model": {
+        "3be79e2f3a77ba0502a912365ab564cb": {
+            "path": "<FILENAME>"
         },
-        "ed56b966c166e06376ff487dce229a7b": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        "3dd25336d1e65d03dfc25b6de64d266e": {
+            "path": "Donnees_geographiques/<CATEGORIE>_SERVITUDE"
+        },
+        "4bcc615431b90d05fb407c571fbd5de3": {
+            "path": "Donnees_geographiques/<CATEGORIE>_GESTIONNAIRE_SUP"
+        },
+        "5bfcd409c1040eb2eed6a8f836c37c74": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg"
+        },
+        "a412572d9cd7e27846629e153d43e544": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
+        },
+        "a51048510f684dfc50b525ed2f0258a8": {
+            "path": "Donnees_geographiques/<CATEGORIE>_SERVITUDE_ACTE_SUP"
+        },
+        "f21feb9b4680400440f1d8cbed9a44bf": {
+            "path": "Donnees_geographiques/<CATEGORIE>_ACTE_SUP"
+        }
+    },
+    "validator_static_table": {
+        "2cafe1d0519c8963316ee29c66f21f59": {
+            "path": "Validegest_SUP.csv"
+        },
+        "39dc60d03ecbf5d38e4113b2f5e96aa7": {
+            "path": "Modegenere_SUP.csv"
+        },
+        "5e29b8e40eb0552caa794b5607f7ece1": {
+            "path": "Modeprod_SUP.csv"
+        },
+        "9c44135bdc0258849855f7164b8c6b3e": {
+            "path": "Aplan_SUP.csv"
+        },
+        "bb2117c58d037e2403cde8c59527a32f": {
+            "path": "Decision_SUP.csv"
+        },
+        "c9a8ec8483afca5428043b92707fb617": {
+            "path": "Categorie_SUP.csv"
+        },
+        "e1fc6bf671703e309e2cdfe473576e54": {
+            "path": "Modegeoass_SUP.csv"
+        },
+        "f97f32557fa65ee5d4b522f8e93c6658": {
+            "path": "Typeacte_SUP.csv"
         }
     },
     "validator_attribute_type": {
         "00eb6baf47e0ea22a002bc8f27f30399": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "066659d73772e8b8e7812d0b1a62e6d5": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
+        "0a76c75fc8cd934c42f621831bb7030f": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "1ab8af2784b241ce0336b706a563d763": {
+            "pattern": "<DATE>"
+        },
+        "4748bc1dba802c0a0e5a28f20d8cefcc": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "644216042da9ad90ee8b7fd20fac9a98": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "70ac60cecc2b0d137a07ac050f0855e0": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "7acd1a9ad526b9e37c672e67840d2937": {
+            "pattern": "<DATE>"
+        },
+        "8717f90ae974acb5a8d744b446b9413c": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "94a4df9ac5578c7a2015494f20fc20aa": {
+            "pattern": "<DATE>"
+        },
+        "9750dfaafddc0c432fbb8e460344c6ef": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "9f360b059dcce7738a393a6738267722": {
+            "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg.pdf"
+        },
+        "a84d44e9cd96a275c8515e93ef443c7c": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>-<ENTIER>"
+        },
+        "bf32863862e883a5f79912e18c9f42f7": {
+            "pattern": "<DATE>"
+        },
+        "c08b950dcc7174c6d841dc48652c28a6": {
+            "pattern": "<CATEGORIE>_<RADICAL>_sup"
+        },
+        "c43182da984e909ae88df64a23a9fca7": {
+            "pattern": "<DATE>"
+        },
+        "d0a1d81f42d81c5e94c457e93817de4f": {
+            "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
+        },
+        "d8f09a62b0a74adc26376593a9a91b9b": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
         }
     }
 }

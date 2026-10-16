@@ -6,7 +6,7 @@
     "columns": [
         {
             "type": "String",
-            "id": "202073fb00f6049f7ca061907feeecd8",
+            "id": "92457fe7243ba14922403174653e9c8b",
             "name": "IDBDEXT",
             "title": "IDBDEXT",
             "description": "Identifiant référençant l'objet correspondant au générateur dans le référentiel ou la base de données externe",
@@ -19,7 +19,7 @@
         },
         {
             "type": "String",
-            "id": "45f70d6a6b1277b4e57236f160d1f347",
+            "id": "2101d2e85b1c5f17225f38de5c902f09",
             "name": "SRCGEOGEN",
             "title": "SRCGEOGEN",
             "description": "Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",
@@ -32,7 +32,7 @@
         },
         {
             "type": "String",
-            "id": "53a064decb952b57296d15a4129c84dd",
+            "id": "08d96741b106cdb588e96fe38df07859",
             "name": "IDGEN",
             "title": "IDGEN",
             "description": "Identifiant du générateur",
@@ -46,7 +46,7 @@
         },
         {
             "type": "String",
-            "id": "6df265cfe2e5843c327bcd3c8656c299",
+            "id": "0050b3861939d6bddec27b35f6f904c7",
             "name": "NOMGEN",
             "title": "NOMGEN",
             "description": "Nom abrégé du générateur, respectant les règles de nommage nationales des SUP",
@@ -60,7 +60,7 @@
         },
         {
             "type": "String",
-            "id": "bf6cc359b24ea217a012564d48e5cb77",
+            "id": "d40bbed554fc4fa54a453c80d910094b",
             "name": "REFBDEXT",
             "title": "REFBDEXT",
             "description": "Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication",
@@ -73,7 +73,7 @@
         },
         {
             "type": "String",
-            "id": "cd6f1e74c85a9107aee7db667ccb297d",
+            "id": "992985221576257c7a0f4f10337cf0da",
             "name": "DATESRCGEN",
             "title": "DATESRCGEN",
             "description": "Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",
@@ -86,7 +86,7 @@
         },
         {
             "type": "String",
-            "id": "d0347f4b396894b92734634b2971c82b",
+            "id": "86ce730a0a6a7ebe7a0b6c896b0f32d5",
             "name": "MODEGENERE",
             "title": "MODEGENERE",
             "description": "Description du moyen utilisé pour obtenir la géométrie du générateur",
@@ -99,7 +99,7 @@
         },
         {
             "type": "String",
-            "id": "ec9419301ce9b53b55bd9e0ce94ca2cb",
+            "id": "edf0ccd951d9a2a5ba70d948e75bb377",
             "name": "IDSUP",
             "title": "IDSUP",
             "description": "Identifiant de la SUP",

@@ -4,26 +4,121 @@
             "folder_name": "<IDGEST>_PM2_<MAILLAGE>_<YYYYMMDD>"
         }
     },
-    "validator_feature_type": {
-        "6adb9321f757d6eee12b9054c3ec7960": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+    "validator_file_model": {
+        "0cdb6761b4c26aa5c7a51f4599c7576f": {
+            "path": "Donnees_geographiques/<CATEGORIE>_ACTE_SUP"
         },
-        "98505ffdd7dcbf005d4062364c463880": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        "3ac86dcdd3938402b38a4a3b25decd60": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg"
         },
-        "daba5594637b1b5ee5e7fb9f10602991": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        "5eecb64341028cb0e5ae922838702789": {
+            "path": "<FILENAME>"
+        },
+        "90af52f8171cdd731df6a82f07294773": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
+        },
+        "bd607f45741e001e74787fa7aa3c5dee": {
+            "path": "Donnees_geographiques/<CATEGORIE>_GESTIONNAIRE_SUP"
+        },
+        "cafde20b0d43e1707937bce6d9682e71": {
+            "path": "Donnees_geographiques/<CATEGORIE>_SERVITUDE"
+        },
+        "fa5ff02d070f56d2ca951b30bda73051": {
+            "path": "Donnees_geographiques/<CATEGORIE>_SERVITUDE_ACTE_SUP"
+        }
+    },
+    "validator_static_table": {
+        "2d8b543e57c3451929a48a3a24f78bb5": {
+            "path": "Modegenere_SUP.csv"
+        },
+        "2f96421d31572aeeb4b87451fb9d6c35": {
+            "path": "Typeacte_SUP.csv"
+        },
+        "2ff35630349507991d1d9dbe1aa35554": {
+            "path": "Modegeoass_SUP.csv"
+        },
+        "362ab38c1d7fd8d3ca095b4debed7102": {
+            "path": "Aplan_SUP.csv"
+        },
+        "3eec140104e7635e78dbc9f683699cc9": {
+            "path": "Decision_SUP.csv"
+        },
+        "5db0581c0505e39b7332362175c7c388": {
+            "path": "Modeprod_SUP.csv"
+        },
+        "62c077ac572870f4363da10a808d4f1b": {
+            "path": "Validegest_SUP.csv"
+        },
+        "dbad2583e4bde4f52edba71854f7c254": {
+            "path": "Categorie_SUP.csv"
         }
     },
     "validator_attribute_type": {
+        "01c1b42daadfe4d4592698ee72aaf8c2": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "0255b04c66e184b05a86733a7dc2097b": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "0ac93179d6ccdafa082a6993dc4993b5": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "111a250975a2a651431c66e97ccd7b93": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "11e01b4c88b012e2a9fe64746cbc44a0": {
+            "pattern": "<DATE>"
+        },
+        "1f4ed0c8e3caba2feae22d91b1055aff": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
+        "25989b23c225f8b2d910f4adbe3fed07": {
+            "pattern": "<DATE>"
+        },
+        "35c03600a24022d2f68033b9f3116eec": {
+            "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg.pdf"
+        },
+        "4d0c78ee4f9e2b11d4e2af00d7dcbc48": {
+            "pattern": "<DATE>"
+        },
+        "735b18606b30c4045e3a0a372d4d70bf": {
+            "pattern": "<CATEGORIE>_<RADICAL>_sup"
+        },
+        "7b142def61e6217781eda6b003515f27": {
+            "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
+        },
+        "7b225e4e27b111db407530a6c568af97": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>-<ENTIER>"
+        },
+        "8036da094485cbf008ec5d831fae5b77": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "98ea81f8f207668a36bce77d919d2d79": {
+            "pattern": "<DATE>"
+        },
+        "c847757b76287bd46c5baf04886e278a": {
+            "pattern": "<DATE>"
+        },
+        "cc03a1688785e009d8142ec88e08f14c": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "cc28d2c6c7dff388f17eac76329eb5dc": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "cc5f7800a1d5085fcf1d0d26c195f001": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
         "d1061a3e9585244a6796b18df636d6fb": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "e794746b5c18d748d8c1f71e492e6fa4": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "ead6377f5e5b355775dbb90069805ff0": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "f97ce574645b084ca9f9fb99f3cc5661": {
+            "pattern": "<DATE>"
         }
     }
 }

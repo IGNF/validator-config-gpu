@@ -31,7 +31,7 @@ Remarques :
 
 * L'année figurant dans le nom du modèle correspond à la version du standard (ex : `cnig_PLU_2017` pour le standard CNIG PLU v2017).
 * Les modèles POS reprennent le standard PLU ; ils existent séparément pour faciliter l'automatisation de la validation dans le GpU.
-* Les modèles SUP sont déclinés par catégorie de servitude (ex : `cnig_SUP_AC1_2016`) à partir d'un modèle abstrait commun (`cnig_SUP_XXX_2013`, `cnig_SUP_XXX_2016`) portant les tables communes (`SERVITUDE`, `ACTE_SUP`, `GESTIONNAIRE_SUP`, `SERVITUDE_ACTE_SUP`).
+* Les modèles SUP sont déclinés par catégorie de servitude (ex : `cnig_SUP_AC1_2016`) ; chacun contient sa propre copie des tables communes (`SERVITUDE`, `ACTE_SUP`, `GESTIONNAIRE_SUP`, `SERVITUDE_ACTE_SUP`).
 * `GPU_MEC_2025` est un modèle propre au GpU (mise en compatibilité), sans standard CNIG équivalent.
 
 ## Méta-modèle : pourquoi pas TableSchema ?
@@ -71,7 +71,9 @@ Le rapprochement avec les schémas publiés par le CNIG est suivi dans l'issue [
 
 * La base de données est exportée dans le dossier `config/` dans un format JSON attendu par [IGNF/validator](https://github.com/IGNF/validator). Ce dossier est la source versionnée : il permet aussi de restaurer la base de données.
 
-* Chaque modèle comporte un fichier `gpu.json`, ignoré par le validateur, qui contient les informations de la base de données non représentées dans le format JSON du validateur (héritage entre modèles et entre tables, tables abstraites, variables `<...>` avant remplacement, activation, fichier source des tables de codes). Les modèles abstraits (ex : `cnig_SUP_XXX_2013`) ont un dossier ne contenant que `gpu.json`.
+* Chaque modèle comporte un fichier `gpu.json`, ignoré par le validateur, qui contient les informations de la base de données non représentées dans le format JSON du validateur (variables `<...>` avant remplacement, activation, fichier source des tables de codes).
+
+* Pas d'héritage : chaque modèle est autonome (ni modèle parent ni table abstraite) et chaque identifiant appartient à un seul modèle.
 
 * Les fichiers de `config/` sont produits par l'export et ne doivent pas être modifiés à la main : une valeur présente dans `gpu.json` l'emporte sur celle des fichiers du validateur lors de la restauration.
 

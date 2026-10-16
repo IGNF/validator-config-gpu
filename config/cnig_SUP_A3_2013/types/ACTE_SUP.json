@@ -1,12 +1,12 @@
 {
-    "id": "8bacabfa1aa091b1acb7aa8a02de4885",
+    "id": "f8b55294402cf2586eaed14276f50852",
     "name": "ACTE_SUP",
     "title": "ACTE_SUP",
     "description": "Table contenant la liste des actes instituant une servitude d'utilité publique",
     "columns": [
         {
             "type": "String",
-            "id": "372a2ae5a0be525684435b5bf7202dcf",
+            "id": "0d85b3932539c0e35a4bdaec79b1b436",
             "name": "APLAN",
             "title": "APLAN",
             "description": "Existence d'un ou plusieurs plans annexés à l'acte",
@@ -19,7 +19,7 @@
         },
         {
             "type": "String",
-            "id": "38ef89f7dee63d5d0d0254039d4f02bb",
+            "id": "5e16ff60412969f9872bd11e9f50972e",
             "name": "DECISION",
             "title": "DECISION",
             "description": "Nature de la décision prise dans l'acte : l'autorité compétente prend une décision qui crée ou modifie l'état de la servitude",
@@ -32,7 +32,7 @@
         },
         {
             "type": "String",
-            "id": "57967eb687c1300d5cfa308134457467",
+            "id": "74a0a71397e7807ed5ed0dba5a7ccd01",
             "name": "TYPEACTE",
             "title": "TYPEACTE",
             "description": "Description de la nature de l'acte",
@@ -45,7 +45,7 @@
         },
         {
             "type": "String",
-            "id": "a1ed509fa03fb1cb683ad1bc4ee64d04",
+            "id": "8817769c56c0a5ed2f69bc13ab4844bc",
             "name": "DATEPUB",
             "title": "DATEPUB",
             "description": "Date de parution au Journal Officiel ou de publicité dans la presse",
@@ -58,7 +58,7 @@
         },
         {
             "type": "String",
-            "id": "a8833ccb9cc32ac1d6279678de4d6ac0",
+            "id": "e7c8af795049ce27b03248734ee3f9db",
             "name": "NOMACTE",
             "title": "NOMACTE",
             "description": "Nom abrégé de l'acte, respectant les règles de nommage nationales des SUP",
@@ -72,7 +72,7 @@
         },
         {
             "type": "Integer",
-            "id": "c6d46cb2b78e5800f7822c84ad28132f",
+            "id": "69ffef84a1f147342759f7a057f08e92",
             "name": "IDACTE",
             "title": "IDACTE",
             "description": "Identifiant de l'acte",
@@ -84,7 +84,7 @@
         },
         {
             "type": "String",
-            "id": "d463b500b048983f9b000e8dded11951",
+            "id": "7a5a6372638ff7b42ffcb9cf5daf6802",
             "name": "DATEDECIS",
             "title": "DATEDECIS",
             "description": "Date à laquelle la décision a été prise. Il s'agit de la date de signature de l'acte",
@@ -97,7 +97,7 @@
         },
         {
             "type": "Filename",
-            "id": "f84224b7dd622513260e6cc8a3bb2e0d",
+            "id": "842167e7fbdea16d5fe11a0c272daf92",
             "name": "FICHIER",
             "title": "FICHIER",
             "description": "Nom ou référence du ficher contenant l'acte instituant la servitude. Ce fichier contient le cas échéant les plans annexés à l'acte",
@@ -110,7 +110,7 @@
         },
         {
             "type": "String",
-            "id": "fcc4e2f9187897acbf4fd14f43eb42a5",
+            "id": "5ef03236ff5b76d0d1745f610d1e3475",
             "name": "REFERENCE",
             "title": "REFERENCE",
             "description": "Référence de l'acte ayant créé ou modifié la servitude",

@@ -4,21 +4,109 @@
             "folder_name": "<IDGEST>_PT3_<MAILLAGE>_<YYYYMMDD>"
         }
     },
-    "validator_feature_type": {
-        "852135bba7925e31d8b32379016de8c8": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+    "validator_file_model": {
+        "174c97d629de0ec2d04a2bb3f788907c": {
+            "path": "<FILENAME>"
         },
-        "d9557a52159c38fb51313147cb1ee624": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        "3c375e2c2e650cc423f3d3b9c867bdcd": {
+            "path": "Donnees_geographiques/<CATEGORIE>_ACTE_SUP"
+        },
+        "860a4e83abdff9a520d284b32e5a11a9": {
+            "path": "Donnees_geographiques/<CATEGORIE>_SERVITUDE"
+        },
+        "910c7ae01e9c4023f4aa8aca86647a23": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
+        },
+        "c8ca7bae2ee407b0585672a32084c5ee": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg"
+        },
+        "d78936aa1786c832ae3c20ef8eafd753": {
+            "path": "Donnees_geographiques/<CATEGORIE>_GESTIONNAIRE_SUP"
+        },
+        "f247fb5d9d59e38c1bab005c36925e03": {
+            "path": "Donnees_geographiques/<CATEGORIE>_SERVITUDE_ACTE_SUP"
+        }
+    },
+    "validator_static_table": {
+        "0a99d24941f6e8ea8533d1542db961fd": {
+            "path": "Validegest_SUP.csv"
+        },
+        "4c6ab8dc144b88401a0baced71772643": {
+            "path": "Modegeoass_SUP.csv"
+        },
+        "6a2e13b282b60c386d24bfe3a7830aba": {
+            "path": "Categorie_SUP.csv"
+        },
+        "78342b1aed239280dbdf7211fe139a25": {
+            "path": "Decision_SUP.csv"
+        },
+        "815718af23af6a5dd482d92c8e806848": {
+            "path": "Typeacte_SUP.csv"
+        },
+        "9ad86c7b85daa91549c25ea076cd3185": {
+            "path": "Aplan_SUP.csv"
+        },
+        "e962579bf34a61e9370f78f37a3f29b8": {
+            "path": "Modegenere_SUP.csv"
+        },
+        "f06e2b46306c933c504e692a245a70d0": {
+            "path": "Modeprod_SUP.csv"
         }
     },
     "validator_attribute_type": {
+        "15e86ba3c41bc2d6c6be7535f03c7010": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>-<ENTIER>"
+        },
+        "211175d7221473389b96503d551425c4": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
+        "2163bb4fa219da391759d14fa2b19a03": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "29e1ce055fa4687416008d66eb16d94d": {
+            "pattern": "<CATEGORIE>_<RADICAL>_sup"
+        },
         "362e66de0027b65964765dfa164a6d4e": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_ass"
+        },
+        "48c69eab38495e65dbe5cc319bffbb62": {
+            "pattern": "<DATE>"
+        },
+        "4e37e8cadac59788db28603b92cd036e": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "57e13327b47ca175a06313efa20a4b55": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "610920620810421055371501f7059021": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "73a203955335ba8e22af707e44f46b0a": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "7e288dd8c5fe5784cdca31e230964bfb": {
+            "pattern": "<DATE>"
+        },
+        "85763368d75ad5c06a4c93b96053d57d": {
+            "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
+        },
+        "8ed89eab92d23eb8b69819adbcf124dc": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "a94a8494c51106fc5607328732ffb784": {
+            "pattern": "<DATE>"
+        },
+        "ca271a648d0d30c9174b91aea7f2aade": {
+            "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg.pdf"
+        },
+        "cc11922c2544c486dad314fd79583f05": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "e0a5c8e7bf075631311add9ee41716f5": {
+            "pattern": "<DATE>"
+        },
+        "e5ff84619aa277870d675c94854f6b67": {
+            "pattern": "<DATE>"
         }
     }
 }

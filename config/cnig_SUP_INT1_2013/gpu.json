@@ -5,23 +5,87 @@
         }
     },
     "validator_file_model": {
+        "057df2499f811f6f4fc08e4d6bc73ad2": {
+            "path": "Donnees_geographiques/ACTE_SUP(_<MAILLAGE>)?"
+        },
+        "24e5a827311ce687fdab2ca4f80a1bc2": {
+            "path": "Donnees_geographiques/SERVITUDE_ACTE_SUP(_<MAILLAGE>)?"
+        },
         "4f023238fd99beb83a091d2777252ce1": {
             "path": "Donnees_geographiques/INT1_ASSIETTE_SUP_S(_<MAILLAGE>)?"
         },
+        "6711f12e0611c778f9408efcecf72c52": {
+            "path": "Donnees_geographiques/SERVITUDE(_<MAILLAGE>)?"
+        },
+        "8c344c9e4c816b3ae8007c1377fba1a5": {
+            "path": "<FILENAME>"
+        },
         "98df6901ee40de10adf64f8d3d78f4a1": {
             "path": "Donnees_geographiques/INT1_GENERATEUR_SUP_S(_<MAILLAGE>)?"
+        },
+        "9e0c35edcde9911c2dadf3b1c49da86a": {
+            "path": "Donnees_geographiques/GESTIONNAIRE_SUP(_<MAILLAGE>)?"
+        },
+        "fb693f9fc98a9f71543e79905d012d6e": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
         }
     },
-    "validator_feature_type": {
-        "4fe1ad55b3571cb5ac5b539ba4df028f": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "5146126394baf20af78d61bf8c20abf9"
+    "validator_static_table": {
+        "210f1519454e1e46b3ae6f619a95c4fc": {
+            "path": "Modeprod_SUP.csv"
         },
-        "6d87ee730b803c42fabc8818c62a4577": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "4edb459e86909278aba4c2af6c942b42"
+        "3e00908cbf4ca0a2b20de045ff88f825": {
+            "path": "Aplan_SUP.csv"
+        },
+        "713c1c5000f21be1469812e3ed2b3389": {
+            "path": "Decision_SUP.csv"
+        },
+        "b78d666a5f3cb3f3fefd2b93e7b3fde6": {
+            "path": "Modegeoass_SUP.csv"
+        },
+        "bd1e64c098d983f38c47d660d1e58456": {
+            "path": "Categorie_SUP.csv"
+        },
+        "bf18c418eac335587c6dedd51dfedf85": {
+            "path": "Modegenere_SUP.csv"
+        },
+        "ef925bb530d5d9852477636a6074b813": {
+            "path": "Validegest_SUP.csv"
+        },
+        "f5b65e1745c44aca535a4ad62e17014c": {
+            "path": "Typeacte_SUP.csv"
+        }
+    },
+    "validator_attribute_type": {
+        "2fca6291e0944b0711e7008779f34501": {
+            "pattern": "<DATE>"
+        },
+        "4d1e0d923ea4b816fe5daccdf48dae0c": {
+            "pattern": "<SIREN>"
+        },
+        "58b31cbbb11590aeb79c89fdb8ff96ad": {
+            "pattern": "<DATE>"
+        },
+        "5fb500d1a68ec17b7373d4ea2f1fd76c": {
+            "pattern": "<DATE>"
+        },
+        "897f51e97a00bf81fdfe6d1dc0dff59d": {
+            "pattern": "<DATE>"
+        },
+        "a74ae3ebbe7af8b0c83d9b829aaee0f0": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_<SUFFIXE_ASS>"
+        },
+        "a8ce8f8f889adf3c5a55cabadec47865": {
+            "pattern": "<DATE>"
+        },
+        "aab354c6953137d544f8b9697801a861": {
+            "pattern": "<CATEGORIE>_<RADICAL>(_<ENTIER>)?_act"
+        },
+        "af183ecd60a6ea84b1148d9b5388aaa2": {
+            "pattern": "<CATEGORIE>_<RADICAL>_sup"
+        },
+        "bd9a3367769b80981bd36ff7db7a3cca": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
         }
     }
 }

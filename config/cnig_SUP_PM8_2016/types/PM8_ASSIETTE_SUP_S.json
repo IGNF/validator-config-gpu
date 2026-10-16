@@ -6,7 +6,7 @@
     "columns": [
         {
             "type": "String",
-            "id": "0023559dbbddf1de2ba179594527e8bd",
+            "id": "84a4c79373a90e9a519e0db6fb60dc5f",
             "name": "IDASS",
             "title": "IDASS",
             "description": "Identifiant de l'assiette",
@@ -20,7 +20,7 @@
         },
         {
             "type": "String",
-            "id": "03269ee3b188584738d51d38c542437c",
+            "id": "09a826d92c3d4f338bd358f72066a38a",
             "name": "IDGEN",
             "title": "IDGEN",
             "description": "Identifiant du générateur de l'assiette",
@@ -34,7 +34,7 @@
         },
         {
             "type": "String",
-            "id": "103d375653943c30dc6f6c45e4c326d6",
+            "id": "5fdf8d45e3b28677b5c03c72fec9b1b5",
             "name": "SRCGEOASS",
             "title": "SRCGEOASS",
             "description": "Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie",
@@ -47,7 +47,7 @@
         },
         {
             "type": "String",
-            "id": "1b9a55e805706f3155f9f4acd1131438",
+            "id": "41449eb8368817badea86bebce810133",
             "name": "DATESRCASS",
             "title": "DATESRCASS",
             "description": "Date d'actualité du référentiel utilisé lors du géoréférencement de l'objet. Il s'agit d'indiquer le millésime des données référentielles source",
@@ -60,7 +60,7 @@
         },
         {
             "type": "String",
-            "id": "49af99b76af6e56c80ae2280e13ffbec",
+            "id": "8c09588d80be7dddd9d92078b403ee5b",
             "name": "MODEGEOASS",
             "title": "MODEGEOASS",
             "description": "Description de la méthode utilisée pour générer la géométrie de l'assiette",
@@ -73,7 +73,7 @@
         },
         {
             "type": "Integer",
-            "id": "5ebeb3ba2af08776854483e3a86134dc",
+            "id": "38709dd3e4c1b67c041535152f0899d7",
             "name": "PARAMCALC",
             "title": "PARAMCALC",
             "description": "Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon",

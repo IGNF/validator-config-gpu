@@ -1,139 +1,4 @@
 {
-    "parent": {
-        "abstract": true,
-        "id": "ffcddc2f34028e3a966a0f6583963625",
-        "name": "cnig_SUP_XXX_2016",
-        "title": "cnig_SUP_XXX_2016",
-        "description": "cnig_SUP_XXX_2016",
-        "files": [
-            {
-                "type": "directory",
-                "path": "Actes",
-                "mandatory": "ERROR",
-                "id": "0912d1d5f0a2f7c345f736a8c81389e6",
-                "name": "Actes",
-                "title": "Actes"
-            },
-            {
-                "type": "pdf",
-                "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_act",
-                "mandatory": "ERROR",
-                "id": "ba1bf50c7eb67650678a2f7f4e550c8f",
-                "name": "ACTE",
-                "title": "ACTE"
-            },
-            {
-                "type": "pdf",
-                "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
-                "mandatory": "OPTIONAL",
-                "id": "842f5adb7484a2af82dc15730a3e6c43",
-                "name": "REGLEMENT",
-                "title": "REGLEMENT"
-            },
-            {
-                "type": "directory",
-                "path": "Donnees_geographiques",
-                "mandatory": "ERROR",
-                "id": "8308bbc7a31b055e2b4387e8fa9740a1",
-                "name": "Donnees_geographiques",
-                "title": "Donnees_geographiques"
-            },
-            {
-                "type": "table",
-                "path": "Donnees_geographiques/[a-zA-Z0-9]+_ACTE_SUP",
-                "mandatory": "ERROR",
-                "id": "f843636fbd4907cc7fdcf46320919a78",
-                "name": "ACTE_SUP",
-                "title": "ACTE_SUP"
-            },
-            {
-                "type": "table",
-                "path": "Donnees_geographiques/[a-zA-Z0-9]+_GESTIONNAIRE_SUP",
-                "mandatory": "ERROR",
-                "id": "47ff80e66586361ded3b89408bd55c8b",
-                "name": "GESTIONNAIRE_SUP",
-                "title": "GESTIONNAIRE_SUP"
-            },
-            {
-                "type": "table",
-                "path": "Donnees_geographiques/[a-zA-Z0-9]+_SERVITUDE",
-                "mandatory": "ERROR",
-                "id": "1e852b52de3618b68c5518a50886df2c",
-                "name": "SERVITUDE",
-                "title": "SERVITUDE"
-            },
-            {
-                "type": "table",
-                "path": "Donnees_geographiques/[a-zA-Z0-9]+_SERVITUDE_ACTE_SUP",
-                "mandatory": "ERROR",
-                "id": "afcaba63eca4d22f9db8f0894bca12c8",
-                "name": "SERVITUDE_ACTE_SUP",
-                "title": "SERVITUDE_ACTE_SUP"
-            },
-            {
-                "type": "metadata",
-                "path": "[^\\/]*",
-                "mandatory": "ERROR",
-                "id": "5f2a30e79dd6adfc45deaaca400a4e67",
-                "name": "METADONNEES",
-                "title": "METADONNEES"
-            }
-        ],
-        "codes": [
-            {
-                "data": "./codes/ListeValidegestSUP.csv",
-                "id": "23030c428c9eae529d13d479da0b832f",
-                "name": "ListeValidegestSUP",
-                "title": "ListeValidegestSUP"
-            },
-            {
-                "data": "./codes/ListeTypeacteSUP.csv",
-                "id": "32ebbfb6b062b4239342b0c040a14dd9",
-                "name": "ListeTypeacteSUP",
-                "title": "ListeTypeacteSUP"
-            },
-            {
-                "data": "./codes/ListeCategorieSUP.csv",
-                "id": "4aa24d9ed68d1b2a0efe57a570a0ccee",
-                "name": "ListeCategorieSUP",
-                "title": "ListeCategorieSUP"
-            },
-            {
-                "data": "./codes/ListeModegenereSUP.csv",
-                "id": "50db8c188280f1b897365526175022a0",
-                "name": "ListeModegenereSUP",
-                "title": "ListeModegenereSUP"
-            },
-            {
-                "data": "./codes/ListeAplanSUP.csv",
-                "id": "88ed0acd65f7229ab7666872927058e6",
-                "name": "ListeAplanSUP",
-                "title": "ListeAplanSUP"
-            },
-            {
-                "data": "./codes/ListeModegeoassSUP.csv",
-                "id": "9059692af64ac2cadb7ef8c69e8c316a",
-                "name": "ListeModegeoassSUP",
-                "title": "ListeModegeoassSUP"
-            },
-            {
-                "data": "./codes/ListeDecisionSUP.csv",
-                "id": "a4566ce450f379b75e3ddc478926965f",
-                "name": "ListeDecisionSUP",
-                "title": "ListeDecisionSUP"
-            },
-            {
-                "data": "./codes/ListeModeprodSUP.csv",
-                "id": "abc46e469e0a94e7dac241d2585d8349",
-                "name": "ListeModeprodSUP",
-                "title": "ListeModeprodSUP"
-            }
-        ],
-        "constraints": {
-            "folderName": "",
-            "metadataSpecification": "CNIG SUP v2016"
-        }
-    },
     "abstract": false,
     "id": "5b111d8da99f2f37062584a1c25dac9b",
     "name": "cnig_SUP_AR5_2016",
@@ -144,7 +9,7 @@
             "type": "directory",
             "path": "Actes",
             "mandatory": "ERROR",
-            "id": "0912d1d5f0a2f7c345f736a8c81389e6",
+            "id": "045a30710309765da1d78e1df89d58b0",
             "name": "Actes",
             "title": "Actes"
         },
@@ -152,7 +17,7 @@
             "type": "pdf",
             "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_act",
             "mandatory": "ERROR",
-            "id": "ba1bf50c7eb67650678a2f7f4e550c8f",
+            "id": "42d0e32816d91a5f322c8db8b6c13eab",
             "name": "ACTE",
             "title": "ACTE"
         },
@@ -160,7 +25,7 @@
             "type": "pdf",
             "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
             "mandatory": "OPTIONAL",
-            "id": "842f5adb7484a2af82dc15730a3e6c43",
+            "id": "471823454cc6b5d62530933526b22a79",
             "name": "REGLEMENT",
             "title": "REGLEMENT"
         },
@@ -168,7 +33,7 @@
             "type": "directory",
             "path": "Donnees_geographiques",
             "mandatory": "ERROR",
-            "id": "8308bbc7a31b055e2b4387e8fa9740a1",
+            "id": "427b49b049169ebe9eb4b84e4acb5a8b",
             "name": "Donnees_geographiques",
             "title": "Donnees_geographiques"
         },
@@ -176,7 +41,8 @@
             "type": "table",
             "path": "Donnees_geographiques/[a-zA-Z0-9]+_ACTE_SUP",
             "mandatory": "ERROR",
-            "id": "f843636fbd4907cc7fdcf46320919a78",
+            "tableModel": "./types/ACTE_SUP.json",
+            "id": "584516c829eb100262c223922e134b77",
             "name": "ACTE_SUP",
             "title": "ACTE_SUP"
         },
@@ -184,7 +50,8 @@
             "type": "table",
             "path": "Donnees_geographiques/[a-zA-Z0-9]+_GESTIONNAIRE_SUP",
             "mandatory": "ERROR",
-            "id": "47ff80e66586361ded3b89408bd55c8b",
+            "tableModel": "./types/GESTIONNAIRE_SUP.json",
+            "id": "c7b90491ed60bb009f7f0bfa38754408",
             "name": "GESTIONNAIRE_SUP",
             "title": "GESTIONNAIRE_SUP"
         },
@@ -192,7 +59,8 @@
             "type": "table",
             "path": "Donnees_geographiques/[a-zA-Z0-9]+_SERVITUDE",
             "mandatory": "ERROR",
-            "id": "1e852b52de3618b68c5518a50886df2c",
+            "tableModel": "./types/SERVITUDE.json",
+            "id": "df35745d987f92ae66dafb15277ef6a6",
             "name": "SERVITUDE",
             "title": "SERVITUDE"
         },
@@ -200,7 +68,8 @@
             "type": "table",
             "path": "Donnees_geographiques/[a-zA-Z0-9]+_SERVITUDE_ACTE_SUP",
             "mandatory": "ERROR",
-            "id": "afcaba63eca4d22f9db8f0894bca12c8",
+            "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
+            "id": "1895dbc04cf1528bef0bc82cbd0c40f2",
             "name": "SERVITUDE_ACTE_SUP",
             "title": "SERVITUDE_ACTE_SUP"
         },
@@ -208,7 +77,7 @@
             "type": "metadata",
             "path": "[^\\/]*",
             "mandatory": "ERROR",
-            "id": "5f2a30e79dd6adfc45deaaca400a4e67",
+            "id": "e9cb124f0c22fc59fa588a0be590b3f3",
             "name": "METADONNEES",
             "title": "METADONNEES"
         },
@@ -234,49 +103,49 @@
     "codes": [
         {
             "data": "./codes/ListeValidegestSUP.csv",
-            "id": "23030c428c9eae529d13d479da0b832f",
+            "id": "610682b26341641919f59833fc742b11",
             "name": "ListeValidegestSUP",
             "title": "ListeValidegestSUP"
         },
         {
             "data": "./codes/ListeTypeacteSUP.csv",
-            "id": "32ebbfb6b062b4239342b0c040a14dd9",
+            "id": "f4ad34257ff2bb219f64f28209fd04ed",
             "name": "ListeTypeacteSUP",
             "title": "ListeTypeacteSUP"
         },
         {
             "data": "./codes/ListeCategorieSUP.csv",
-            "id": "4aa24d9ed68d1b2a0efe57a570a0ccee",
+            "id": "e13f8378aa262858b9771185082dd3af",
             "name": "ListeCategorieSUP",
             "title": "ListeCategorieSUP"
         },
         {
             "data": "./codes/ListeModegenereSUP.csv",
-            "id": "50db8c188280f1b897365526175022a0",
+            "id": "2d17d88b3f3b5e32e93686af86072af3",
             "name": "ListeModegenereSUP",
             "title": "ListeModegenereSUP"
         },
         {
             "data": "./codes/ListeAplanSUP.csv",
-            "id": "88ed0acd65f7229ab7666872927058e6",
+            "id": "32688b1846c4f4388e3e303cd669cc18",
             "name": "ListeAplanSUP",
             "title": "ListeAplanSUP"
         },
         {
             "data": "./codes/ListeModegeoassSUP.csv",
-            "id": "9059692af64ac2cadb7ef8c69e8c316a",
+            "id": "3ca0d41a73a29f8b53d5a7b523e47dc5",
             "name": "ListeModegeoassSUP",
             "title": "ListeModegeoassSUP"
         },
         {
             "data": "./codes/ListeDecisionSUP.csv",
-            "id": "a4566ce450f379b75e3ddc478926965f",
+            "id": "fb51d11cf05ccff02f5b2bc77ee590ce",
             "name": "ListeDecisionSUP",
             "title": "ListeDecisionSUP"
         },
         {
             "data": "./codes/ListeModeprodSUP.csv",
-            "id": "abc46e469e0a94e7dac241d2585d8349",
+            "id": "5cba3d717a06148a0e621e251ba8207f",
             "name": "ListeModeprodSUP",
             "title": "ListeModeprodSUP"
         }

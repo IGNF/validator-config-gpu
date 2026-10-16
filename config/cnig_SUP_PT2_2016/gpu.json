@@ -4,35 +4,136 @@
             "folder_name": "<IDGEST>_PT2_<MAILLAGE>_<YYYYMMDD>"
         }
     },
-    "validator_feature_type": {
-        "0b030aa1cc02a1f6c00f2c0d02a1f1c3": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+    "validator_file_model": {
+        "0905f6c02536b7985908b7870a315b60": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
         },
-        "1ec4998bd67b304bfca0b22c8e8b897a": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        "2bced60f20e8d615728e41062463386b": {
+            "path": "Donnees_geographiques/<CATEGORIE>_GESTIONNAIRE_SUP"
         },
-        "4ba1590d35fa445d7d10291597a92c5e": {
-            "conditions": "[\"XDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"YDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"XFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"YFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"LARGEUR IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'\",\"ANGLE1 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'\",\"ANGLE2 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'\",\"RAYON IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'\"]",
-            "parent_id": "0f29a5c1aea011ba3c6346401fd0dbe3"
+        "57c159496f87ef25e91429ed944d6f1d": {
+            "path": "Donnees_geographiques/<CATEGORIE>_SERVITUDE"
         },
-        "5e65470af5004dea9ae4eec9dc431097": {
-            "conditions": null,
-            "foreign_keys": null,
-            "parent_id": "d8f20d2f47dd4e124458684ba917dc65"
+        "70e3fad13d5b5547e63fecea2f11d4f6": {
+            "path": "<FILENAME>"
+        },
+        "87bf3d31cddd20789a6b08bbdaf08878": {
+            "path": "Donnees_geographiques/<CATEGORIE>_SERVITUDE_ACTE_SUP"
+        },
+        "8e4f6914b0a3d1ba06918e5e64d2d105": {
+            "path": "Actes/<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg"
+        },
+        "f2ff2861225d3aefdd13d4aa40d0290b": {
+            "path": "Donnees_geographiques/<CATEGORIE>_ACTE_SUP"
         }
     },
     "validator_static_table": {
+        "065492901607b7265ecd15a24f6f8111": {
+            "path": "Typeacte_SUP.csv"
+        },
+        "08300cdc9bb873e961cae3aac604ffaa": {
+            "path": "Validegest_SUP.csv"
+        },
+        "337e38e904c99e7a88f9f8f5c8a7e4ae": {
+            "path": "Modeprod_SUP.csv"
+        },
         "3f2c203e6bd29d90ca8346f17aeac7e7": {
             "path": "Href_SUP.csv"
+        },
+        "412904808e9263595fb9e2c86721b9ab": {
+            "path": "Categorie_SUP.csv"
+        },
+        "4fa569ba0552d5b339f72b66bdc24968": {
+            "path": "Decision_SUP.csv"
+        },
+        "5aab233194510ad92dfe28f7e81a6e1e": {
+            "path": "Aplan_SUP.csv"
+        },
+        "6bb21a6918030478d06a10a5d3167fa3": {
+            "path": "Modegeoass_SUP.csv"
+        },
+        "bcf65721518acc8f68a24014c6d2f5ea": {
+            "path": "Modegenere_SUP.csv"
         }
     },
     "validator_attribute_type": {
+        "13766152bfdc841adc93c458c2030198": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "1582eb9a9e5ee4dcb2aceb6930412b91": {
+            "pattern": "<DATE>"
+        },
+        "1de744d3c0cf618dee330b729e8dcd3d": {
+            "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_reg.pdf"
+        },
+        "2485ae0772ed3c72d78c942d3f14e19c": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
+        "27f7066cd2a18b4cd34c2d4ef07dab5d": {
+            "pattern": "<CATEGORIE>_<RADICAL>_<YYYYMMDD>_act"
+        },
+        "29decd5bcd845d059a7667ca31790053": {
+            "pattern": "<CATEGORIE>_<RADICAL>_sup"
+        },
         "309424a0c3a6aeafc42462ca40c03cc2": {
             "pattern": "<CATEGORIE>_<RADICAL>(_gen<ENTIER>)?_(zpri|zsec|zspe|sect)"
+        },
+        "4583e7e1884ed06480a9b8dc26f2d645": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "4c2037a754f60ea5ced7183965e92fc7": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
+        "4fc24cc57279b4fae2695449e89719a6": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>-<ENTIER>"
+        },
+        "61c364d11725208bd592e1d06dedd147": {
+            "pattern": "<DATE>"
+        },
+        "852360ac89c5b0af96b5d5b92ded02bd": {
+            "pattern": "<DATE>"
+        },
+        "85661727e327ec359e4e300277fd63ec": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "8a8b263face534e8f75fa690043ea074": {
+            "pattern": "<DATE>"
+        },
+        "8ba7ef3228dea682107aaba2477baca5": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "9362a7be937400f338c2de133c2ca883": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "adc9233d8a03cda77894aacbbc98539f": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "cea1768f728168555c092e3d34c058e9": {
+            "pattern": "<DATE>"
+        },
+        "d997e61629874a20fc226b2bd7175da8": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "e63e3e084f3c95037e2a8e9ec7b8ffcb": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
+        },
+        "e72e021f987bf38d28bcad6f8006d5bf": {
+            "pattern": "<CATEGORIE>_<RADICAL>_gen(<ENTIER>)?"
+        },
+        "ecbbb25477c70324b2434b6d1203927a": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "f68f3251e83a9c0eec887452b72053ed": {
+            "pattern": "<DATE>"
+        },
+        "f7009b9e19bbb15dd65613e2851330bc": {
+            "pattern": "<DATE>"
+        },
+        "f783d79650c52e2604fa58118460b869": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>"
+        },
+        "fba9110ac6b12eefff615821f16719ab": {
+            "pattern": "<CATEGORIE>-<IDGEST>-<ENTIER>-<ENTIER>"
         }
     }
 }
