@@ -15,7 +15,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/PERIMETRE_SCOT.json",
             "id": "9c14238c59a7bfd01f9dc7035d7d187e",
@@ -49,7 +49,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "7a5838bf0547be2a0e75968d5943c604",
             "name": "PROCEDURE",
@@ -65,7 +65,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "ae873609567b5afff04997deedaeb632",
             "name": "DOO",
@@ -73,7 +73,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_padd_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_padd_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "42986519e27c8f83a99db14cb6698148",
             "name": "PADD",
@@ -81,7 +81,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_rapport(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_rapport(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "WARN",
             "id": "266250a2dc3ce5526ec99b2de853c3b8",
             "name": "RAPPORT",
@@ -105,7 +105,7 @@
         },
         {
             "type": "table",
-            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
+            "path": "[0-9]{9}_DOC_URBA_COM_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA_COM.json",
             "id": "8eeb5b3bd9de308140f13e84099d3242",
@@ -115,7 +115,7 @@
         },
         {
             "type": "table",
-            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
+            "path": "[0-9]{9}_DOC_URBA_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA.json",
             "id": "7ef4c206b08d12883dbcf9fcf8b17618",
@@ -139,7 +139,7 @@
         }
     ],
     "constraints": {
-        "folderName": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
+        "folderName": "[0-9]{9}_SCOT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
         "metadataSpecification": "CNIG SCoT v2018"
     }
 }

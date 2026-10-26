@@ -15,7 +15,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_MEC[0-9]+_[0-9]{8}",
+            "path": "Donnees_geographiques/(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_MEC[0-9]+_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "ERROR",
             "tableModel": "./types/MEC.json",
             "id": "b612859c9f3f98f044655f918ba760cf",
@@ -41,7 +41,7 @@
         },
         {
             "type": "table",
-            "path": "Pieces_ecrites/(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_titres_pieces_ecrites_[0-9]{8}",
+            "path": "Pieces_ecrites/(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_titres_pieces_ecrites_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "WARN",
             "tableModel": "./types/TITRES_PIECES_ECRITES.json",
             "id": "a7ab4f66fc82f0ed5d0764f252a692bf",
@@ -50,7 +50,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_[0-9]{8}_arrete_MEC[0-9]+_[0-9]{8}",
+            "path": "Pieces_ecrites/(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_MEC[0-9]+_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "ERROR",
             "id": "00f032b6a05ccc8b7395425d62ff19f5",
             "name": "ARRETE_MEC",
@@ -59,7 +59,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_[0-9]{8}_rapport_de_presentation_MEC[0-9]+_[0-9]{8}",
+            "path": "Pieces_ecrites/(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_rapport_de_presentation_MEC[0-9]+_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "ERROR",
             "id": "bb89ec066a7a14c37ae9c1ba34b974b2",
             "name": "RAPPORT DE PRESENTATION",
@@ -69,7 +69,7 @@
     ],
     "codes": [],
     "constraints": {
-        "folderName": "(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_(PLU|POS|CC|PLUi|SCoT)_MEC[0-9]+_[0-9]{8}",
+        "folderName": "(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_(PLU|POS|CC|PLUi|SCoT)_MEC[0-9]+_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
         "metadataSpecification": "GPU MEC v2025"
     }
 }

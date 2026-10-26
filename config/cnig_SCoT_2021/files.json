@@ -15,7 +15,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Donnees_geographiques/[0-9]{9}_PERIMETRE_SCOT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/PERIMETRE_SCOT.json",
             "id": "a21be0f733243cadc28ba17f8e47c480",
@@ -49,7 +49,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_jugement_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_jugement_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "4a17130582e1bc6ec39da701073823eb",
             "name": "JUGEMENT",
@@ -58,7 +58,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_procedure_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "890d4c22768322a600e43891c7c20589",
             "name": "PROCEDURE",
@@ -74,7 +74,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_daac_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_daac_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "7cab2a4cdcadeabf340390f6145b2045",
             "name": "DAAC",
@@ -82,7 +82,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "03fb931af98073a336219842fc7be1f8",
             "name": "DOO",
@@ -90,7 +90,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "c92dfa670bbc157dab5b4bb87690679f",
             "name": "PAS",
@@ -114,7 +114,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_consommation_espace_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_consommation_espace_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "aca0327d514106bedb175b951db76cb1",
             "name": "CONSOMMATION_ESPACE",
@@ -123,7 +123,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_diagnostic_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_diagnostic_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "1cf1821b88a1fd59755bd26f6dfa6a50",
             "name": "DIAGNOSTIC",
@@ -131,7 +131,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_evaluation_environnementale_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_evaluation_environnementale_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "ebd956c65290ac47b64de1b861e57c9a",
             "name": "EVALUATION_ENVIRONNEMENTALE",
@@ -140,7 +140,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_justification_choix_[0-9]{8}(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_justification_choix_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "a2c1371ca85ba976965abeb166a91981",
             "name": "JUSTIFICATION_CHOIX",
@@ -149,7 +149,7 @@
         },
         {
             "type": "table",
-            "path": "[0-9]{9}_DOC_URBA_COM_[0-9]{8}(_[a-zA-Z])?",
+            "path": "[0-9]{9}_DOC_URBA_COM_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA_COM.json",
             "id": "90572c3a3bec3688fc876cfa842cf5b0",
@@ -159,7 +159,7 @@
         },
         {
             "type": "table",
-            "path": "[0-9]{9}_DOC_URBA_[0-9]{8}(_[a-zA-Z])?",
+            "path": "[0-9]{9}_DOC_URBA_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA.json",
             "id": "27ef984811006668a0f59a35d4447a4f",
@@ -183,7 +183,7 @@
         }
     ],
     "constraints": {
-        "folderName": "[0-9]{9}_SCOT_[0-9]{8}(_[a-zA-Z])?",
+        "folderName": "[0-9]{9}_SCOT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
         "metadataSpecification": "CNIG SCoT v2021"
     }
 }

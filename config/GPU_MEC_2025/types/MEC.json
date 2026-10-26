@@ -51,7 +51,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_[0-9]{8}_rapport_de_presentation_MEC[0-9]+_[0-9]{8}.pdf",
+                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_rapport_de_presentation_MEC[0-9]+_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)\\.pdf",
                 "maxLength": 80
             }
         },
@@ -65,7 +65,7 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])"
+                "pattern": "([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)"
             }
         },
         {
@@ -78,7 +78,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_[0-9]{8}_arrete_MEC[0-9]+_[0-9]{8}.pdf",
+                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_MEC[0-9]+_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)\\.pdf",
                 "maxLength": 80
             }
         }

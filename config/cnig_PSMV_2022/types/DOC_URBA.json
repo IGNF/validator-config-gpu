@@ -39,7 +39,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])"
+                "pattern": "([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)"
             }
         },
         {
@@ -52,7 +52,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[AB0-9]{5}_[0-9]{8}_rapport_[a-zA-Z]+[0-9]*(_97_00)?(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?.pdf",
+                "pattern": "[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_rapport_[a-zA-Z]+[0-9]*(_97_00)?(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?\\.pdf",
                 "maxLength": 80
             }
         },
@@ -66,7 +66,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_reglement_[0-9]{8}.pdf",
+                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_reglement_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)\\.pdf",
                 "maxLength": 80
             }
         },
@@ -119,7 +119,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])"
+                "pattern": "([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)"
             }
         },
         {
@@ -197,7 +197,7 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])"
+                "pattern": "([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)"
             }
         },
         {
@@ -224,7 +224,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_reglement_graphique(_[0-9]+)?_[0-9]{8}(_[a-zA-Z])?(.pdf|.zip)",
+                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_reglement_graphique(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?(\\.pdf|\\.zip)",
                 "maxLength": 80
             }
         }

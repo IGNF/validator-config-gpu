@@ -156,7 +156,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_[0-9]{8}",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "ERROR",
             "id": "566a8bd709ec8c2e0f98ed86afb7b1dc",
             "name": "PROCEDURE",
@@ -172,7 +172,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport_[0-9]{8}",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "ERROR",
             "id": "2d85436417112d295facc085d118ef7b",
             "name": "RAPPORT",
@@ -188,7 +188,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_(PADD|padd)_[0-9]{8}",
+            "path": "Pieces_ecrites/2_PADD/[AB0-9]{5}_(PADD|padd)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "OPTIONAL",
             "id": "13fa9ed73b8a7b264b16f9691938ea6a",
             "name": "PADD",
@@ -204,7 +204,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement_[0-9]{8}",
+            "path": "Pieces_ecrites/3_Reglement/[AB0-9]{5}_reglement_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "ERROR",
             "id": "d8a48424d7712b355d6498caf8b17a19",
             "name": "REGLEMENT",
@@ -228,7 +228,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_info_(pct|lin|surf)(_[0-9]+)?(_[0-9]+)?_[0-9]{8}",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_info_(pct|lin|surf)(_[0-9]+)?(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "OPTIONAL",
             "id": "1ff1896661c61eb48f58523afca4ccce",
             "name": "INFORMATION",
@@ -236,7 +236,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_prescription_(pct|lin|surf)(_[0-9]+)?(_[0-9]+)?_[0-9]{8}",
+            "path": "Pieces_ecrites/4_Annexes/[AB0-9]{5}_prescription_(pct|lin|surf)(_[0-9]+)?(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "OPTIONAL",
             "id": "ba53ac51bc9dbb101fc549dd81822a46",
             "name": "PRESCRIPTION",
@@ -252,7 +252,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations_amenagement(_[0-9]+)?_[0-9]{8}",
+            "path": "Pieces_ecrites/5_Orientations_amenagement/[AB0-9]{5}_orientations_amenagement(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
             "mandatory": "OPTIONAL",
             "id": "369f98daad1ea1009c21b1c520a9e082",
             "name": "ORIENTATIONS_AMENAGEMENT",
@@ -274,7 +274,7 @@
         }
     ],
     "constraints": {
-        "folderName": "(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_POS_[0-9]{8}(_[a-zA-Z])?",
+        "folderName": "(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_POS_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
         "metadataSpecification": "CNIG POS v2013"
     }
 }
