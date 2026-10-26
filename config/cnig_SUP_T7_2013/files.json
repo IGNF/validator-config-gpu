@@ -15,7 +15,7 @@
         },
         {
             "type": "pdf",
-            "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_act",
+            "path": "Actes/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_[A-Za-z0-9_-]+_[0-9]{8}_act",
             "mandatory": "OPTIONAL",
             "id": "78c105f50b7ab5de32ebb460793a712b",
             "name": "ACTE",
@@ -31,7 +31,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/ACTE_SUP(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/ACTE_SUP(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "ERROR",
             "tableModel": "./types/ACTE_SUP.json",
             "id": "b4f99f721fa447d04bcc581504a075d9",
@@ -40,7 +40,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/GESTIONNAIRE_SUP(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/GESTIONNAIRE_SUP(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "ERROR",
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "dfabddcc207d9942e51b6d9e2fe0f299",
@@ -49,7 +49,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/SERVITUDE_ACTE_SUP(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/SERVITUDE_ACTE_SUP(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "ERROR",
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "1ebc6e7528d37bb04f22af9cb0dcfa8d",
@@ -58,7 +58,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/SERVITUDE(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/SERVITUDE(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "ERROR",
             "tableModel": "./types/SERVITUDE.json",
             "id": "90857651dc9915e780511bcb51cc362e",
@@ -75,7 +75,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/T7_ASSIETTE_SUP_P(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/T7_ASSIETTE_SUP_P(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/T7_ASSIETTE_SUP_P.json",
             "id": "bb56c23aeff5419f2a5856ba7f1af7a0",
@@ -84,7 +84,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/T7_GENERATEUR_SUP_P(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/T7_GENERATEUR_SUP_P(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/T7_GENERATEUR_SUP_P.json",
             "id": "4637769a23f0d39b765751f069148a0f",
@@ -149,7 +149,7 @@
         }
     ],
     "constraints": {
-        "folderName": "[0-9]{9}_T7_[a-zA-Z0-9]+_[0-9]{8}",
+        "folderName": "[0-9]{9}_T7_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_[0-9]{8}",
         "metadataSpecification": "CNIG SUP v2013"
     }
 }

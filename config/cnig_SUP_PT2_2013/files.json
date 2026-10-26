@@ -15,7 +15,7 @@
         },
         {
             "type": "pdf",
-            "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_act",
+            "path": "Actes/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_[A-Za-z0-9_-]+_[0-9]{8}_act",
             "mandatory": "OPTIONAL",
             "id": "1e1394ea37c49f76f115f43153616806",
             "name": "ACTE",
@@ -31,7 +31,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/ACTE_SUP(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/ACTE_SUP(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "ERROR",
             "tableModel": "./types/ACTE_SUP.json",
             "id": "6a0cee599114c8f3a8ce498ab1d6bec8",
@@ -40,7 +40,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/GESTIONNAIRE_SUP(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/GESTIONNAIRE_SUP(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "ERROR",
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "2df89d299fc45238da920f1ed406f91e",
@@ -49,7 +49,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/SERVITUDE_ACTE_SUP(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/SERVITUDE_ACTE_SUP(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "ERROR",
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "b3b700467a58f7a95610d003815651c7",
@@ -58,7 +58,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/SERVITUDE(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/SERVITUDE(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "ERROR",
             "tableModel": "./types/SERVITUDE.json",
             "id": "484eb66ec56860abfd71f9eb124931ab",
@@ -75,7 +75,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/PT2_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/PT2_ASSIETTE_SUP_S(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PT2_ASSIETTE_SUP_S.json",
             "id": "7fd850b7bba4ed79d22b77d0833c3320",
@@ -84,7 +84,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_L(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_L(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PT2_GENERATEUR_SUP_L.json",
             "id": "e29288a041737a65c69dcb17eedd1f42",
@@ -93,7 +93,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_P(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_P(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PT2_GENERATEUR_SUP_P.json",
             "id": "a3a1b0b59e533e0ab5bdf9ed1e8270cb",
@@ -102,7 +102,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_S(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/PT2_GENERATEUR_SUP_S(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PT2_GENERATEUR_SUP_S.json",
             "id": "1fa782f02239c55ad7e55271463d5734",
@@ -167,7 +167,7 @@
         }
     ],
     "constraints": {
-        "folderName": "[0-9]{9}_PT2_[a-zA-Z0-9]+_[0-9]{8}",
+        "folderName": "[0-9]{9}_PT2_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_[0-9]{8}",
         "metadataSpecification": "CNIG SUP v2013"
     }
 }

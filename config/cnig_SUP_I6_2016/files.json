@@ -15,7 +15,7 @@
         },
         {
             "type": "pdf",
-            "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_act",
+            "path": "Actes/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_[A-Za-z0-9_-]+_[0-9]{8}_act",
             "mandatory": "ERROR",
             "id": "12c16579c5ce634466249e96102a495b",
             "name": "ACTE",
@@ -23,7 +23,7 @@
         },
         {
             "type": "pdf",
-            "path": "Actes/[a-zA-Z0-9]+_[A-Za-z0-9_-]+_[0-9]{8}_reg",
+            "path": "Actes/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_[A-Za-z0-9_-]+_[0-9]{8}_reg",
             "mandatory": "OPTIONAL",
             "id": "5c51e4cddc971716e04e5ad36e1b57db",
             "name": "REGLEMENT",
@@ -39,7 +39,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[a-zA-Z0-9]+_ACTE_SUP",
+            "path": "Donnees_geographiques/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_ACTE_SUP",
             "mandatory": "ERROR",
             "tableModel": "./types/ACTE_SUP.json",
             "id": "0c6e1e8e319ce864e29350067c699410",
@@ -48,7 +48,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[a-zA-Z0-9]+_GESTIONNAIRE_SUP",
+            "path": "Donnees_geographiques/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_GESTIONNAIRE_SUP",
             "mandatory": "ERROR",
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "74584ae0afe7b443a44ba3045832a465",
@@ -57,7 +57,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[a-zA-Z0-9]+_SERVITUDE",
+            "path": "Donnees_geographiques/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_SERVITUDE",
             "mandatory": "ERROR",
             "tableModel": "./types/SERVITUDE.json",
             "id": "1154a9c0362f7fa826efa5306e0fa459",
@@ -66,7 +66,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[a-zA-Z0-9]+_SERVITUDE_ACTE_SUP",
+            "path": "Donnees_geographiques/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_SERVITUDE_ACTE_SUP",
             "mandatory": "ERROR",
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "c4fae00f4dcbe59fbaf6e1c51495d2c6",
@@ -151,7 +151,7 @@
         }
     ],
     "constraints": {
-        "folderName": "[0-9]{9}_I6_[a-zA-Z0-9]+_[0-9]{8}",
+        "folderName": "[0-9]{9}_I6_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})_[0-9]{8}",
         "metadataSpecification": "CNIG SUP v2016"
     }
 }

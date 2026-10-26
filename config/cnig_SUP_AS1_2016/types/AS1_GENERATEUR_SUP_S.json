@@ -40,7 +40,7 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": true,
-                "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+-[0-9]+",
+                "pattern": "[A-Za-z]{1,3}[0-9]{1,2}(bis)?-[0-9]{9}-[0-9]+-[0-9]+",
                 "maxLength": 40
             }
         },
@@ -54,7 +54,7 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[a-zA-Z0-9]+_[A-Za-z0-9_-]+_gen([0-9]+)?",
+                "pattern": "[A-Za-z]{1,3}[0-9]{1,2}(bis)?_[A-Za-z0-9_-]+_gen([0-9]+)?",
                 "maxLength": 100
             }
         },
@@ -107,7 +107,7 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "[a-zA-Z0-9]+-[0-9]{9}-[0-9]+",
+                "pattern": "[A-Za-z]{1,3}[0-9]{1,2}(bis)?-[0-9]{9}-[0-9]+",
                 "maxLength": 40
             }
         },

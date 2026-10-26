@@ -55,9 +55,9 @@ Le rapprochement avec les schémas publiés par le CNIG est suivi dans l'issue [
 * `config/<modèle>/` : un dossier par modèle, lu par IGNF/validator :
   * `files.json` : description du document (fichiers attendus, tables de codes, contraintes sur le nom du dossier et les métadonnées) ;
   * `types/<TABLE>.json` : description des colonnes et des contraintes de chaque table (dont les clés étrangères `foreignKeys`) ;
-  * `codes/` : copie des tables de codes utilisées par le modèle ;
-  * `gpu.json` : informations propres au GpU, ignorées par le validateur (voir ci-dessous).
-* `codes/` : tables de codes sources, copiées dans chaque modèle à l'export.
+  * `codes/` : tables de codes utilisées par le modèle (lues par le validateur et par le GpU) ;
+  * `gpu.json` (rare, facultatif) : informations propres au GpU, ignorées par le validateur (voir ci-dessous).
+* `config/variables.json` : dictionnaire des variables d'affichage des expressions régulières (nom → regex), ignoré par le validateur.
 
 ## Principes de gestion des modèles
 
@@ -67,11 +67,13 @@ Le rapprochement avec les schémas publiés par le CNIG est suivi dans l'issue [
   * `validator_file_model` : Liste des fichiers attendus pour chaque standard
   * `validator_feature_type` : Modélisation des fichiers de type "table"
   * `validator_attribute_type` : Modélisation des colonnes des tables
-  * `validator_static_table` : Liste des tables de codes (ex : [Prescription_PSMV_2019](codes/Prescription_PSMV_2019.csv))
+  * `validator_static_table` : Liste des tables de codes (ex : [PrescriptionUrbaType](config/cnig_PLU_2017/codes/PrescriptionUrbaType.csv))
 
 * La base de données est exportée dans le dossier `config/` dans un format JSON attendu par [IGNF/validator](https://github.com/IGNF/validator). Ce dossier est la source versionnée : il permet aussi de restaurer la base de données.
 
-* Chaque modèle comporte un fichier `gpu.json`, ignoré par le validateur, qui contient les informations de la base de données non représentées dans le format JSON du validateur (variables `<...>` avant remplacement, activation, fichier source des tables de codes).
+* Les expressions régulières de `config/` sont complètes (sans variable). Les variables `<...>` (ex. `<MAILLAGE>_PLU_<YYYYMMDD>`) ne servent qu'à l'affichage : le GpU et l'éditeur les calculent à partir des regex avec `config/variables.json`.
+
+* Un modèle peut comporter un fichier `gpu.json`, ignoré par le validateur, pour les informations de la base de données non représentées dans le format JSON du validateur (ex. activation).
 
 * Pas d'héritage : chaque modèle est autonome (ni modèle parent ni table abstraite) et chaque identifiant appartient à un seul modèle.
 
