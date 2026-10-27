@@ -15,7 +15,7 @@
         },
         {
             "type": "pdf",
-            "path": "Actes/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_[A-Za-z0-9_-]+_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_act",
+            "path": "Actes/[A-Za-z]{1,3}[0-9]{1,2}(bis)?_[A-Za-z0-9_-]+(_([0-9]{4}((0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|0000)))?_act",
             "mandatory": "ERROR",
             "id": "2eded2413e5fe5872b8e38ae8af096de",
             "name": "ACTE",
@@ -98,6 +98,15 @@
             "id": "e32ac150dece0c6a9dea9964bb526023",
             "name": "EL9_GENERATEUR_SUP_L",
             "title": "EL9_GENERATEUR_SUP_L"
+        },
+        {
+            "type": "table",
+            "path": "Donnees_geographiques/EL9_GENERATEUR_SUP_S",
+            "mandatory": "OPTIONAL",
+            "tableModel": "./types/EL9_GENERATEUR_SUP_S.json",
+            "id": "ce0c0e260219477892d4cc3dfd55f9cb",
+            "name": "EL9_GENERATEUR_SUP_S",
+            "title": "EL9_GENERATEUR_SUP_S"
         }
     ],
     "codes": [

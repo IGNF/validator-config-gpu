@@ -55,7 +55,7 @@
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
-                "pattern": "([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)"
+                "pattern": "([0-9]{4}((0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|0000))"
             }
         },
         {
@@ -128,7 +128,7 @@
             "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
             "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
             "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
-            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone tampon'"
         ],
         "foreignKeys": [
             "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)"
