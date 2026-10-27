@@ -172,7 +172,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_dup_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_dup_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "dd0ecb06d232f5a66bf2a7ad35c981ac",
             "name": "ARRETE_DUP",
@@ -181,7 +181,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_maj_annexes_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_maj_annexes_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "95f19c8d2a417a341b03028abb5d9510",
             "name": "ARRETE_MAJ_ANNEXES",
@@ -190,7 +190,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_mec_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_mec_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "fbc714b42c8f81bf74cb10a8169cf1da",
             "name": "ARRETE_MEC",
@@ -199,7 +199,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_objectifs(_et)?_modalites_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_objectifs(_et)?_modalites_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "d115f6a5c78bc257471991e1862d14e9",
             "name": "ARRETE_OBJECTIFS_MODALITES",
@@ -208,7 +208,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_avis_(eval_env|EE)_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_avis_(eval_env|EE)_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "1c8382ee479fe91ce1122489feb4e4f5",
             "name": "AVIS_EVAL_ENV",
@@ -217,7 +217,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_avis_(PPA|ppa)_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_avis_(PPA|ppa)_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "94affe6ea59d527d2d3eae7bd3ad454c",
             "name": "AVIS_PPA",
@@ -226,7 +226,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_[a-z_]+_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_[a-z_]+_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "73a25889c3bee74b47892b766ac994cf",
             "name": "AUTRES_PIECES",
@@ -235,7 +235,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decision_declaration_projet_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decision_declaration_projet_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "aef1c4e870d734f013edf1b5f09dce49",
             "name": "DECISION_DECLARATION_PROJET",
@@ -244,7 +244,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decision_(eval_env|EE)_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decision_(eval_env|EE)_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "bbbc2a2614f4356f1a709696ef4cf87a",
             "name": "DECISION_EVAL_ENV",
@@ -253,7 +253,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decret_dup_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decret_dup_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "7316d45207dbd19701a4c358b10fe348",
             "name": "DECRET_SUP",
@@ -262,7 +262,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_approbation_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_approbation_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "57047478de9bc6cc58516282c30376a0",
             "name": "DELIB_APPROBATION",
@@ -271,7 +271,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_arret_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_arret_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "2629830a317747f81ae49cb4c426a9f4",
             "name": "DELIB_ARRET",
@@ -280,7 +280,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_debat_padd_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_debat_padd_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "5c7c7464fb44ba75f71f2f4d723e7c09",
             "name": "DELIB_DEBAT_PADD",
@@ -289,7 +289,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_declaration_projet_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_declaration_projet_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "28b44bc2b454452ac86157504565b0c6",
             "name": "DELIB_DECLARATION_PROJET",
@@ -298,7 +298,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_engagement_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_engagement_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "9455ec03e2791ebcb14b8490083a2255",
             "name": "DELIB_ENGAGEMENT",
@@ -307,7 +307,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_mec_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_mec_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "06c0caadce0ead3afb440b402cb89862",
             "name": "DELIB_MEC",
@@ -316,7 +316,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_objectifs(_et)?_modalites_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_objectifs(_et)?_modalites_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "9160ef0dff6c3b0faee296c67c0fc1b6",
             "name": "DELIB_OBJECTIF_MODALITES",
@@ -325,7 +325,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_prescription_[a-zA-Z]+[0-9]*_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_prescription_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "f13db21150b3c264427b2d81bb788b26",
             "name": "DELIB_PRESCRIPTION",
@@ -351,7 +351,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_rapport((_97_00)?_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_Rapport_de_presentation/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_rapport_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)((_97_00)?_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "99b930dee99b96e68d296cc397fc14e6",
             "name": "RAPPORT",
