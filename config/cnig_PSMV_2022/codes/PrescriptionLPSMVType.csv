@@ -74,7 +74,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 41,03,Aspect extérieur clôtures,L631-4 CP I 2°a,R151-41 2°
 41,98,Aspect extérieur règles alternatives,L631-4 CP I 2°a,R151-13
 43,00,"Réalisation d’espaces libres, plantations, aires de jeux et de loisir",,R151-43 2° et 8°
-43,01,"Réalisation d’espaces libres,",,R151-43 2°
+43,01,Réalisation d’espaces libres,,R151-43 2°
 43,02,Réalisation d’aires de jeux et de loisirs,,R151-43 2°
 43,03,Réglementation des plantations,,R151-43 8°
 44,00,Stationnement,,R151-44
@@ -82,6 +82,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 44,02,Stationnement maximal,,R151-45 3°
 44,03,Caractéristiques et type de stationnement,,R151-45 1°
 44,04,Minoration des règles de stationnement,,R151-45 2°
+44,05,Réalisation d’aires de livraisons imposée,L151-33-1,
 44,98,Stationnement règles alternatives,,R151-13
 47,00,Desserte par les réseaux,,R151-49
 47,01,Réseaux publics d'eau,,R151-49

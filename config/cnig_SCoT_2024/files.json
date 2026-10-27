@@ -156,11 +156,11 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decret_sup_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/0_Procedure/[0-9]{9}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decret_dup_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "338fdfb586fa424cb9ae4561abdfb614",
-            "name": "DECRET_SUP",
-            "title": "DECRET_SUP",
+            "name": "DECRET_DUP",
+            "title": "DECRET_DUP",
             "description": "Décret prononçant la déclaration d'utilité publique"
         },
         {
@@ -245,7 +245,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_daac_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_daac(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "7bafa02f2f0173036122099cf333583d",
             "name": "DAAC",
@@ -253,7 +253,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_doo(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "a18a583bd3381b6ee9edc60db82c0a2d",
             "name": "DOO",
@@ -261,7 +261,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/1_SCOT/[0-9]{9}_pas(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "629d152ca82ce1a7bf104254e2bc1a15",
             "name": "PAS",
@@ -285,7 +285,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_consommation_espace_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_consommation_espace(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "1868f2614638e0b07a0e18f62c4074ad",
             "name": "CONSOMMATION_ESPACE",
@@ -294,7 +294,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_diagnostic_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_diagnostic(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "6ca908db02a7adf05105c693e0049cd7",
             "name": "DIAGNOSTIC",
@@ -302,7 +302,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_evaluation_environnementale_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_evaluation_environnementale(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "ce426f66a709dfefad8ef89017bb36ad",
             "name": "EVALUATION_ENVIRONNEMENTALE",
@@ -311,7 +311,7 @@
         },
         {
             "type": "pdf",
-            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_justification_choix_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "path": "Pieces_ecrites/2_Annexes/[0-9]{9}_justification_choix(_[0-9]+)?_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "70605aa237a9ea8d1d997fb0a706eb5a",
             "name": "JUSTIFICATION_CHOIX",

@@ -80,7 +80,7 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "maxLength": 254
+                "maxLength": 12
             }
         },
         {
@@ -153,8 +153,7 @@
         "conditions": [],
         "foreignKeys": [
             "(FERMRECO) REFERENCES ListeFermrecoCC(FERMRECO)",
-            "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)",
-            "(LIBELLE) REFERENCES ListeLibelleCC(LIBELLE)"
+            "(TYPESECT) REFERENCES ListeTypesectCC(TYPESECT)"
         ]
     }
 }

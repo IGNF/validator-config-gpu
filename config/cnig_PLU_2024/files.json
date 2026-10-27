@@ -256,8 +256,8 @@
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decret_dup_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "id": "793d8dfd57cc26ba5a1ed0d3049b1c99",
-            "name": "DECRET_SUP",
-            "title": "DECRET_SUP",
+            "name": "DECRET_DUP",
+            "title": "DECRET_DUP",
             "description": "Décret prononçant la déclaration d'utilité publique"
         },
         {

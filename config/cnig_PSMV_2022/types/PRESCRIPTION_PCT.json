@@ -53,7 +53,7 @@
                 "required": true,
                 "presenceRequired": false,
                 "unique": true,
-                "pattern": "[AB0-9]{5}_PSMV_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?_PP[0-9]+",
+                "pattern": "(\\d{9}|(2A|2B|\\d{2})\\d{3})_PSMV_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?_PP[0-9]+",
                 "maxLength": 40
             }
         },
@@ -160,11 +160,26 @@
                 "pattern": "[a-zA-Z0-9_.-]+",
                 "maxLength": 50
             }
+        },
+        {
+            "type": "Integer",
+            "id": "899eef8aa5654165bfdebb45fb929070",
+            "name": "ANGLE",
+            "title": "ANGLE",
+            "description": "Angle du symbole ponctuel exprimé en degré par rapport à l’horizontale dans le sens anti-trigonométrique",
+            "constraints": {
+                "required": false,
+                "presenceRequired": true,
+                "unique": false
+            }
         }
     ],
     "constraints": {
         "conditions": [
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
+            "TXT IS NOT NULL OR TYPEPSC NOT LIKE '39'",
+            "ANGLE IS NULL OR (ANGLE >= 0 AND ANGLE <= 359)",
+            "ANGLE IS NOT NULL OR TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50'"
         ],
         "foreignKeys": [
             "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPPSMVType(TYPEPSC, STYPEPSC)"

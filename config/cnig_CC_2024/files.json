@@ -129,11 +129,109 @@
         },
         {
             "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_jugement_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "df3a4e1b7444401eb4c68fadfb83d5b9",
+            "name": "JUGEMENT",
+            "title": "JUGEMENT"
+        },
+        {
+            "type": "pdf",
             "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_procedure_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "id": "aa0e7db5a0cceae5baf1faccef3fdd0c",
             "name": "PROCEDURE",
             "title": "PROCEDURE"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_approbation_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "a41939dc56c04890bb2bcb2c6b4019c6",
+            "name": "ARRETE_APPROBATION",
+            "title": "ARRETE_APPROBATION",
+            "description": "Actes d’approbation Délibération d’approbation"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_maj_annexes_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "7ee79a64ec5f45dda15492613921a668",
+            "name": "ARRETE_MAJ_ANNEXES",
+            "title": "ARRETE_MAJ_ANNEXES",
+            "description": "Arrêté de mise à jour des annexes"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_objectifs(_et)?_modalites_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "354282e05a514894ab663905717c792f",
+            "name": "ARRETE_OBJECTIFS_MODALITES",
+            "title": "ARRETE_OBJECTIFS_MODALITES",
+            "description": "Arrêté définissant les objectifs poursuivis et les modalités de concertation"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_arrete_rectificatif_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "bae7754471614426967613233b8114c6",
+            "name": "ARRETE_RECTIFICATIF",
+            "title": "ARRETE_RECTIFICATIF",
+            "description": "Actes d’approbation Délibération d’approbation"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_avis_(eval_env|EE)_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "6789a3a93d7a4418912a297bcb78e8fa",
+            "name": "AVIS_EVAL_ENV",
+            "title": "AVIS_EVAL_ENV",
+            "description": "Avis de la commission d’évaluation environnementale"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_[a-z_]+_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "20854caffa684e08a3d09c8dda5334c5",
+            "name": "AUTRES_PIECES",
+            "title": "AUTRES_PIECES",
+            "description": "Autres pièces"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_decision_(eval_env|EE)_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "f8e16de3568f46c6a825d7816b828f15",
+            "name": "DECISION_EVAL_ENV",
+            "title": "DECISION_EVAL_ENV",
+            "description": "Décision de réalisation d’une évaluation environnementale"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_approbation_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "6e67a1b191f4495295ad7b0d271522a3",
+            "name": "DELIB_APPROBATION",
+            "title": "DELIB_APPROBATION",
+            "description": "Actes d’approbation Délibération d’approbation"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_objectifs(_et)?_modalites_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "0b812c02a4564f4ba49f670359c8d1e2",
+            "name": "DELIB_OBJECTIF_MODALITES",
+            "title": "Délibération objectifs modalités",
+            "description": "Délibération définissant les objectifs poursuivis et les modalités de concertation"
+        },
+        {
+            "type": "pdf",
+            "path": "Pieces_ecrites/0_Procedure/[AB0-9]{5}_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)_delib_prescription_(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
+            "mandatory": "OPTIONAL",
+            "id": "109b9f6d8026496c82fafb045a3e8192",
+            "name": "DELIB_PRESCRIPTION",
+            "title": "DELIB_PRESCRIPTION",
+            "description": "Délibération de prescription"
         },
         {
             "type": "directory",
@@ -196,12 +294,6 @@
     ],
     "codes": [
         {
-            "data": "./codes/ListeTypepCC.csv",
-            "id": "1431259f67ec1998eecda2725603543b",
-            "name": "ListeTypepCC",
-            "title": "ListeTypepCC"
-        },
-        {
             "data": "./codes/ListeEtatCC.csv",
             "id": "1f0c04b67d6d68ed9d0023592198a2b1",
             "name": "ListeEtatCC",
@@ -244,12 +336,6 @@
             "title": "ListeTypedocCC"
         },
         {
-            "data": "./codes/ListeStypepCC.csv",
-            "id": "d615a5743f4526daea9014a9d94aafb3",
-            "name": "ListeStypepCC",
-            "title": "ListeStypepCC"
-        },
-        {
             "data": "./codes/ListeLibelleCC.csv",
             "id": "e8f26a48bca44e58a1d86b2ccb8ccd5c",
             "name": "ListeLibelleCC",
@@ -260,6 +346,24 @@
             "id": "fa7c7c34603d48d0bd30fd94c46056ea",
             "name": "InformationSUrbaType",
             "title": "InformationSUrbaType"
+        },
+        {
+            "data": "./codes/PrescriptionLUrbaType.csv",
+            "id": "370dac97f491450b9844352882655800",
+            "name": "PrescriptionLUrbaType",
+            "title": "PrescriptionLUrbaType"
+        },
+        {
+            "data": "./codes/PrescriptionPUrbaType.csv",
+            "id": "0135bf62e74e41fda4719548859201eb",
+            "name": "PrescriptionPUrbaType",
+            "title": "PrescriptionPUrbaType"
+        },
+        {
+            "data": "./codes/PrescriptionSUrbaType.csv",
+            "id": "1388afd08c7d4a38ba558a15c807eb1e",
+            "name": "PrescriptionSUrbaType",
+            "title": "PrescriptionSUrbaType"
         }
     ],
     "constraints": {
