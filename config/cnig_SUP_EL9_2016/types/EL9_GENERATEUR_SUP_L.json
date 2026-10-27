@@ -133,8 +133,7 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Limite du domaine public maritime",
-                    "Voie ou chemin transversal"
+                    "Limite du domaine public maritime"
                 ],
                 "maxLength": 40
             }

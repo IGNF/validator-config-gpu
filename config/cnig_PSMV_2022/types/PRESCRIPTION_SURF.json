@@ -163,7 +163,8 @@
     ],
     "constraints": {
         "conditions": [
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
+            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
+            "TXT IS NOT NULL OR TYPEPSC NOT LIKE '39'"
         ],
         "foreignKeys": [
             "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionSPSMVType(TYPEPSC, STYPEPSC)"

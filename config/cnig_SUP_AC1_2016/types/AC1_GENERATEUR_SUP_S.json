@@ -136,7 +136,7 @@
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
-                "maxLength": 254
+                "maxLength": 100
             }
         },
         {

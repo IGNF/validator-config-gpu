@@ -192,9 +192,8 @@
             "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
         ],
         "foreignKeys": [
-            "(STYPEP) REFERENCES ListeStypepCC(STYPEP)",
             "(TYPEINF, STYPEINF) REFERENCES InformationLUrbaType(TYPEINF, STYPEINF)",
-            "(TYPEP) REFERENCES ListeTypepCC(TYPEP)"
+            "(TYPEP, STYPEP) REFERENCES PrescriptionLUrbaType(TYPEP, STYPEP)"
         ]
     }
 }

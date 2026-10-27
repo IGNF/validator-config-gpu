@@ -64,7 +64,7 @@
                 "required": true,
                 "presenceRequired": false,
                 "unique": true,
-                "pattern": "[AB0-9]{5}_PLOS_[0-9]{8}_IL[0-9]+",
+                "pattern": "[AB0-9]{5}_POS_[0-9]{8}_IL[0-9]+",
                 "maxLength": 40
             }
         },

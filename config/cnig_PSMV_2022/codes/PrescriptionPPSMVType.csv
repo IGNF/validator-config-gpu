@@ -7,6 +7,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 02,02,"Secteur avec conditions spéciales de constructibilité pour des raisons environnementales, de risques, d’intérêt général",,R151-34 1°
 03,00,"Secteur avec disposition de reconstruction / démolition",L151-10,R151-34 3°
 03,02,Interdiction de restauration de bâtiment dont il reste l’essentiel des murs porteurs,L111-23,
+03,03,Interdiction de reconstruction à l'identique,,
 03,50,"Immeuble ou partie d’immeuble dont la modification peut être imposée à l’occasion d’opérations d’aménagement publiques ou privées","L313-1 III 2°","R313-5 3e alinéa"
 05,08,"Emplacements réservés à la relocalisation d’équipements, de constructions et d’installations exposés au recul du trait de côte",,
 07,00,"Patrimoine bâti, paysager ou éléments de paysages à protéger pour des motifs d'ordre culturel, historique, architectural ou écologique","L313-1 III 1°, L313-1 IV et L631-4 CP I 2°c","R313-5 4e al, R151-41 3° et R151-43 5°"
@@ -69,7 +70,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 41,03,Aspect extérieur clôtures,L631-4 CP I 2°a,R151-41 2°
 41,98,Aspect extérieur règles alternatives,L631-4 CP I 2°a,R151-13 
 43,00,"Réalisation d’espaces libres, plantations, aires de jeux et de loisir",,R151-43 2° et 8°
-43,01,"Réalisation d’espaces libres,",,R151-43 2°
+43,01,Réalisation d’espaces libres,,R151-43 2°
 43,02,Réalisation d’aires de jeux et de loisirs,,R151-43 2°
 43,03,Réglementation des plantations,,R151-43 8°
 47,00,Desserte par les réseaux,,R151-49 
@@ -87,7 +88,6 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 99,01,Autre: affectation des sols et destination des constructions,,R151-27 à R151-29 et R151-30 à R151-36 
 99,02,"Autre: zones naturelles, agricoles ou forestières",,R151-17 à R151-26 
 99,03,Autre: mixité sociale et fonctionnelle en zones urbaines ou à urbaniser,,R151-37 à R151-38 
-99,04,Autre: qualité du cadre de vie,,
 99,05,"Autre : Qualité urbaine, architecturale, environnementale et paysagère",,R151-41 à R151-42 
 99,06,Autre: Traitement environnemental et paysager des espaces non bâtis et abords des constructions,,R151-43 
 99,07,Autre: densité,,R151-39 à R151-40 
