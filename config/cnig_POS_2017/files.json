@@ -15,7 +15,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_LIN_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_LIN_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_LIN.json",
             "id": "a0a838d22b5d52d4cc5799003775916e",
@@ -24,7 +24,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_PCT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_PCT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_PCT.json",
             "id": "5a3786f7f4b0f5241eedaff5b9f20f70",
@@ -33,7 +33,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_SURF_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_SURF_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_SURF.json",
             "id": "e2eeb2c03338030bf12d701b574ad8cb",
@@ -42,7 +42,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_TXT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_HABILLAGE_TXT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/HABILLAGE_TXT.json",
             "id": "afa863a1ab6ae5769f5f0618f9c019a8",
@@ -51,7 +51,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_LIN_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_LIN_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_LIN.json",
             "id": "77556aa1b94c3a2bcefa7d4bac19e69a",
@@ -60,7 +60,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_PCT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_PCT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_PCT.json",
             "id": "ef55c46314011c484816ffcdb0d6c6cd",
@@ -69,7 +69,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_SURF_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_INFO_SURF_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/INFO_SURF.json",
             "id": "1402310ffb882f8462fa28792f422ae4",
@@ -78,7 +78,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_LIN_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_LIN_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_LIN.json",
             "id": "9003c933f3e92a4e708a755dca8c01e5",
@@ -87,7 +87,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_PCT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_PCT_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_PCT.json",
             "id": "ea2f341325bedb3644de0390be310654",
@@ -96,7 +96,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_SURF_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_PRESCRIPTION_SURF_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/PRESCRIPTION_SURF.json",
             "id": "84eb6047926efd907688ef136ce1d856",
@@ -105,7 +105,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiques/[AB0-9]{5}_ZONE_URBA_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "Donnees_geographiques/[AB0-9]{5}_ZONE_URBA_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/ZONE_URBA.json",
             "id": "3e25c11782e52a600961f60ef66513f3",
@@ -122,7 +122,7 @@
         },
         {
             "type": "table",
-            "path": "[AB0-9]{5}_DOC_URBA_COM_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "[AB0-9]{5}_DOC_URBA_COM_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA_COM.json",
             "id": "2180a2b37cd79f222f3f11f925c49b20",
@@ -131,7 +131,7 @@
         },
         {
             "type": "table",
-            "path": "[AB0-9]{5}_DOC_URBA_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)",
+            "path": "[AB0-9]{5}_DOC_URBA_([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])|00000000)(_[a-zA-Z])?",
             "mandatory": "ERROR",
             "tableModel": "./types/DOC_URBA.json",
             "id": "8d47c593d8ea4fe9dd9d7877e5010c2a",
