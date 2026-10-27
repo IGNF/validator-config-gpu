@@ -2,13 +2,14 @@
     "id": "752fff04819461c0acfc28da91673647",
     "name": "INFO_PCT",
     "title": "INFO_PCT",
-    "description": "Table contenant les informations ponctuelle à reporter à titre d'information",
+    "description": "Table contenant les informations ponctuelles reportées à titre d'information sur le document d'urbanisme",
     "columns": [
         {
             "type": "String",
             "id": "2cb999064ca38e26d0856358f6068ad2",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -21,7 +22,7 @@
             "id": "3369e137f516b3b0087d6d939010a534",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -60,6 +61,7 @@
             "id": "8d12cbd3fa2c865c4ad36b771fae4cae",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

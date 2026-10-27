@@ -3,7 +3,7 @@
     "id": "6332b24b3353c3b9626a1df5b2be50b9",
     "name": "cnig_SUP_PM1bis_2016",
     "title": "cnig_SUP_PM1bis_2016",
-    "description": "idgest_PM1bis_ddd_yyyymmdd ",
+    "description": "idgest_PM1bis_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "66d512009c54914343e78c3136c404af",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "ERROR",
             "id": "201b0f416d011faed3a4a3e9b9aa693b",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "pdf",
@@ -27,7 +29,8 @@
             "mandatory": "OPTIONAL",
             "id": "125fa412a4f3fb44f54c5aaead45b6e9",
             "name": "REGLEMENT",
-            "title": "REGLEMENT"
+            "title": "REGLEMENT",
+            "description": "Règlement de la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -35,7 +38,8 @@
             "mandatory": "ERROR",
             "id": "66ff2d7c798ad26ed0f936073b1d6cc7",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -44,7 +48,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "a249afda1c3b2257757dffc10e6c7f89",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -53,7 +58,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "5a5586d703ff1843441226b0be7e2ab4",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -62,7 +68,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "16977b0e194cb3456dd2ef08cf91ea90",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "table",
@@ -71,7 +78,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "78b53b6a779e8f6f9f74cb5d80e5f672",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "metadata",
@@ -79,7 +87,8 @@
             "mandatory": "ERROR",
             "id": "8ff9f9d998ead6337d1c331572b2a020",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -88,7 +97,8 @@
             "tableModel": "./types/PM1bis_ASSIETTE_SUP_S.json",
             "id": "6a7078fb208218f5816c4517a03d3f78",
             "name": "PM1bis_ASSIETTE_SUP_S",
-            "title": "PM1bis_ASSIETTE_SUP_S"
+            "title": "PM1bis_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie PM1bis"
         },
         {
             "type": "table",
@@ -97,7 +107,8 @@
             "tableModel": "./types/PM1bis_GENERATEUR_SUP_S.json",
             "id": "60fce487bae52c42e7819e7698b3e845",
             "name": "PM1bis_GENERATEUR_SUP_S",
-            "title": "PM1bis_GENERATEUR_SUP_S"
+            "title": "PM1bis_GENERATEUR_SUP_S",
+            "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie PM1bis"
         }
     ],
     "codes": [

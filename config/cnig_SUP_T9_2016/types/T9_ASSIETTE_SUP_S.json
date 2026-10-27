@@ -2,6 +2,7 @@
     "id": "8a1cdad7c2f1328fdda6db56ee972b8b",
     "name": "T9_ASSIETTE_SUP_S",
     "title": "T9_ASSIETTE_SUP_S",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie T9",
     "columns": [
         {
             "type": "String",
@@ -99,6 +100,7 @@
             "id": "976d9d1903144e766bd956dc3e348b1d",
             "name": "TYPEASS",
             "title": "TYPEASS",
+            "description": "Nature de l'assiette selon sa vocation principale",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -115,6 +117,7 @@
             "id": "d62e690d3d54d7ac0bc1e7d0a1813bf4",
             "name": "NOMASS",
             "title": "NOMASS",
+            "description": "Nom abrégé de l'assiette, respectant les règles de nommage des SUP",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

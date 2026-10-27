@@ -9,7 +9,7 @@
             "id": "0b4c8e937656ef2c457de7c8a21de094",
             "name": "NATURE",
             "title": "NATURE",
-            "description": "NATURE",
+            "description": "Libellé caractérisant un ensemble d'objets de même type et sous-type (espaces remplacés par « _ »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -36,6 +36,7 @@
             "id": "18d145d233c6783df4f5ca4c485f7f23",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
+            "description": "Sous-type détaillant le type de prescription",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -61,7 +62,7 @@
             "id": "3bd1b30061536e4bf8d3dc4efc20666f",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

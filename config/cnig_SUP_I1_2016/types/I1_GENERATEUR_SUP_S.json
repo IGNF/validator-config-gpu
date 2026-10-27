@@ -2,6 +2,7 @@
     "id": "b91de2bd024334a56581e1027a5277c3",
     "name": "I1_GENERATEUR_SUP_S",
     "title": "I1_GENERATEUR_SUP_S",
+    "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie I1",
     "columns": [
         {
             "type": "String",
@@ -115,6 +116,7 @@
             "id": "0bfd77e4e3b8696232bde6a25d28cb10",
             "name": "TYPE",
             "title": "TYPE",
+            "description": "Type de fluide (Hydrocarbures, Gaz, Produits chimiques)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -127,6 +129,7 @@
             "id": "6306f5619d802fa4c038e05578028faf",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

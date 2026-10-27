@@ -2,6 +2,7 @@
     "id": "8e62bee69fff333daa7946ce569d5c6f",
     "name": "T9_GENERATEUR_SUP_L",
     "title": "T9_GENERATEUR_SUP_L",
+    "description": "Table contenant les générateurs linéaires des servitudes de la catégorie T9",
     "columns": [
         {
             "type": "String",
@@ -127,6 +128,7 @@
             "id": "eb55ab5224001a06c776cda2ef68b81b",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

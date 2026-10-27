@@ -2,13 +2,14 @@
     "id": "36d596e805b9e815780a0e4d62419df0",
     "name": "INFO_SURF",
     "title": "INFO_SURF",
-    "description": "INFO_SURF",
+    "description": "Table contenant les informations surfaciques reportées à titre d'information sur le document d'urbanisme",
     "columns": [
         {
             "type": "String",
             "id": "22b0608e1af7f74fb2e276fb583368f5",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -73,7 +74,7 @@
             "id": "9e9b2854db5d5db336a69f0831e8f9bc",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -126,6 +127,7 @@
             "id": "e9223acaf25f300f011d28e788f347a7",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

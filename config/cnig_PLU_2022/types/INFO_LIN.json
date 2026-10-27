@@ -74,6 +74,7 @@
             "id": "6f0d3b5655154f7a5c2c5ec0f1cff9a9",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -99,6 +100,7 @@
             "id": "c8da19c80e0229cc6ad257ec3a6ea8c3",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -124,7 +126,7 @@
             "id": "e7b6dd837d5b09f90ed7699371c6d31b",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

@@ -3,7 +3,7 @@
     "id": "2246779acd20372ca7336f6c826b2ac9",
     "name": "cnig_SUP_AR4_2013",
     "title": "cnig_SUP_AR4_2013",
-    "description": "idgest_AR4_ddd_yyyymmdd ",
+    "description": "idgest_AR4_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "d7e44fd7fa31658685ee666f5e153f5c",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "OPTIONAL",
             "id": "c73da57a7d062850653e255b71e58ed1",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -27,7 +29,8 @@
             "mandatory": "ERROR",
             "id": "e0a5d82d1c671e9bd0031ac1880a82f8",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -36,7 +39,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "13a5f39a772a71270b00e291966adf99",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -45,7 +49,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "b6bbdb1428775459cd221308c76a751b",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -54,7 +59,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "7cd944d753b4b9b3631eb6e31a888257",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "table",
@@ -63,7 +69,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "d92d8ff25656b261ad704c8f31edd964",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "metadata",
@@ -71,7 +78,8 @@
             "mandatory": "ERROR",
             "id": "34d82560449a9bf277e882602ba6cc1b",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -80,7 +88,8 @@
             "tableModel": "./types/AR4_ASSIETTE_SUP_S.json",
             "id": "c09dbc9e6c61531aa2ab83bfa9eb1cfa",
             "name": "AR4_ASSIETTE_SUP_S",
-            "title": "AR4_ASSIETTE_SUP_S"
+            "title": "AR4_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie AR4"
         },
         {
             "type": "table",
@@ -89,7 +98,8 @@
             "tableModel": "./types/AR4_GENERATEUR_SUP_S.json",
             "id": "03f2ef5ae6b81a29d0ced549d421cb22",
             "name": "AR4_GENERATEUR_SUP_S",
-            "title": "AR4_GENERATEUR_SUP_S"
+            "title": "AR4_GENERATEUR_SUP_S",
+            "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie AR4"
         }
     ],
     "codes": [

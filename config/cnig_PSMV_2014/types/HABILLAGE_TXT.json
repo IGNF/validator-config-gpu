@@ -2,7 +2,7 @@
     "id": "85dce0fdc9c6df887a8288b90e52aa44",
     "name": "HABILLAGE_TXT",
     "title": "HABILLAGE_TXT",
-    "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "description": "Table des écritures (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage",
     "columns": [
         {
             "type": "MultiPoint",
@@ -98,6 +98,7 @@
             "id": "dd6d88f03c3510fa7d23b4ca76fc46cc",
             "name": "POLICE",
             "title": "POLICE",
+            "description": "Nom de la police de l'écriture",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

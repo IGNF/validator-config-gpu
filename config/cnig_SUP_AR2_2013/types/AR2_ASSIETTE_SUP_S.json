@@ -2,7 +2,7 @@
     "id": "12cbfc3a5315cffa63787779d3e6599c",
     "name": "AR2_ASSIETTE_SUP_S",
     "title": "AR2_ASSIETTE_SUP_S",
-    "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie AR2",
     "columns": [
         {
             "type": "String",
@@ -123,6 +123,7 @@
             "id": "374a6972602cc1b244142148a5eb539a",
             "name": "H",
             "title": "H",
+            "description": "Hauteur minimale ou altitude minimale de l'objet, en mètres",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -134,6 +135,7 @@
             "id": "3bf28d0ff3b2109cfb73bd5a02f86c73",
             "name": "RAYON",
             "title": "RAYON",
+            "description": "Rayon du secteur angulaire, en mètres",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -145,6 +147,7 @@
             "id": "43ca6433a8d8639c56d4292ab61014d6",
             "name": "ANGLE1",
             "title": "ANGLE1",
+            "description": "Angle de départ du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -156,6 +159,7 @@
             "id": "b4382520ed0e1a61bd9895a44a0f0788",
             "name": "ANGLE2",
             "title": "ANGLE2",
+            "description": "Angle d'arrivée du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -167,6 +171,7 @@
             "id": "ec4581bf926d21714b230ee258e7c7cc",
             "name": "HREF",
             "title": "HREF",
+            "description": "Altitude de référence (SOL : terrain naturel, NGF : nivellement général de la France)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

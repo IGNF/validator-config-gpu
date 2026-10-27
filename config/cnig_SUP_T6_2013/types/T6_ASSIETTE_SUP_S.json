@@ -2,7 +2,7 @@
     "id": "f96303ea87f93a53451da016ff32c3b6",
     "name": "T6_ASSIETTE_SUP_S",
     "title": "T6_ASSIETTE_SUP_S",
-    "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie T6",
     "columns": [
         {
             "type": "String",
@@ -111,6 +111,7 @@
             "id": "1ba02146c4728408a886db194ccd3647",
             "name": "HREF",
             "title": "HREF",
+            "description": "Altitude de référence (SOL : terrain naturel, NGF : nivellement général de la France)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -135,6 +136,7 @@
             "id": "fd590771bb2f40c5bbb60cade744569e",
             "name": "H",
             "title": "H",
+            "description": "Hauteur minimale ou altitude minimale de l'objet, en mètres",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

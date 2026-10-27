@@ -2,7 +2,7 @@
     "id": "4ba1590d35fa445d7d10291597a92c5e",
     "name": "PT2_ASSIETTE_SUP_S",
     "title": "PT2_ASSIETTE_SUP_S",
-    "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie PT2",
     "columns": [
         {
             "type": "String",
@@ -88,6 +88,7 @@
             "id": "1b7ddd554984f31be8fd33b45cc45992",
             "name": "LARGEUR",
             "title": "LARGEUR",
+            "description": "Largeur du faisceau, en mètres",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -99,6 +100,7 @@
             "id": "2b57dd419d8424972a64792175b17047",
             "name": "H",
             "title": "H",
+            "description": "Hauteur minimale ou altitude minimale de l'objet, en mètres",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -110,6 +112,7 @@
             "id": "309424a0c3a6aeafc42462ca40c03cc2",
             "name": "NOMASS",
             "title": "NOMASS",
+            "description": "Nom abrégé de l'assiette, respectant les règles de nommage des SUP",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -123,6 +126,7 @@
             "id": "4f76fa9f1f08e43523ab1ea46c0aa0a2",
             "name": "XFINAL",
             "title": "XFINAL",
+            "description": "Abscisse du point final du faisceau",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -134,6 +138,7 @@
             "id": "6a6eb672a0b494c462365ad93c75df63",
             "name": "ANGLE2",
             "title": "ANGLE2",
+            "description": "Angle d'arrivée du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -145,6 +150,7 @@
             "id": "70c4ac057002e5424940547bdf5b7ba7",
             "name": "YFINAL",
             "title": "YFINAL",
+            "description": "Ordonnée du point final du faisceau",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -156,6 +162,7 @@
             "id": "7d4df22d175f1b72ff339ee3a57350fa",
             "name": "TYPEASS",
             "title": "TYPEASS",
+            "description": "Nature de l'assiette selon sa vocation principale",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -186,6 +193,7 @@
             "id": "8cff145aebc45afbcc49a39fdf3c767b",
             "name": "HREF",
             "title": "HREF",
+            "description": "Altitude de référence (SOL : terrain naturel, NGF : nivellement général de la France)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -198,6 +206,7 @@
             "id": "a55423f052eadce54a638fc387c708bd",
             "name": "XDEBUT",
             "title": "XDEBUT",
+            "description": "Abscisse du point initial du faisceau",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -209,6 +218,7 @@
             "id": "aa5bd1cb3e02b9277e9855afcf7fcc49",
             "name": "RAYON",
             "title": "RAYON",
+            "description": "Rayon du secteur angulaire, en mètres",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -220,6 +230,7 @@
             "id": "d962dd6096e065187c7bfa027168da04",
             "name": "YDEBUT",
             "title": "YDEBUT",
+            "description": "Ordonnée du point initial du faisceau",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -231,6 +242,7 @@
             "id": "ea4fcd0d6eaef1f521c82bab6fcad5e8",
             "name": "ANGLE1",
             "title": "ANGLE1",
+            "description": "Angle de départ du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

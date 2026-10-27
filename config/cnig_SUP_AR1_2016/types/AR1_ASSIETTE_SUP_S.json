@@ -2,7 +2,7 @@
     "id": "d1700d551e97de4762fabf95238658bd",
     "name": "AR1_ASSIETTE_SUP_S",
     "title": "AR1_ASSIETTE_SUP_S",
-    "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie AR1",
     "columns": [
         {
             "type": "String",
@@ -88,6 +88,7 @@
             "id": "084023d10d64a65537458c979eb1b6de",
             "name": "ANGLE2",
             "title": "ANGLE2",
+            "description": "Angle d'arrivée du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -99,6 +100,7 @@
             "id": "14e6d73eaceec6c395704bcb65a762ee",
             "name": "RAYON",
             "title": "RAYON",
+            "description": "Rayon du secteur angulaire, en mètres",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -122,6 +124,7 @@
             "id": "34b909381abed3dacc7b5d8d0d2a7d77",
             "name": "H",
             "title": "H",
+            "description": "Hauteur minimale ou altitude minimale de l'objet, en mètres",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -133,6 +136,7 @@
             "id": "9779ea613674062bcaceaaf942dddfc3",
             "name": "HREF",
             "title": "HREF",
+            "description": "Altitude de référence (SOL : terrain naturel, NGF : nivellement général de la France)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -145,6 +149,7 @@
             "id": "a513438b0721e65dd4340e9a168a3af1",
             "name": "ANGLE1",
             "title": "ANGLE1",
+            "description": "Angle de départ du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -156,6 +161,7 @@
             "id": "a76f8937b25ea877fbadb71195cb022c",
             "name": "NOMASS",
             "title": "NOMASS",
+            "description": "Nom abrégé de l'assiette, respectant les règles de nommage des SUP",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -169,6 +175,7 @@
             "id": "fe0ceb82f2b4a9d64e48cc0ef17fb63a",
             "name": "TYPEASS",
             "title": "TYPEASS",
+            "description": "Nature de l'assiette selon sa vocation principale",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

@@ -2,6 +2,7 @@
     "id": "2a28851793bcec5e8657c5c809a9ad4d",
     "name": "PM7_GENERATEUR_SUP_P",
     "title": "PM7_GENERATEUR_SUP_P",
+    "description": "Table contenant les générateurs ponctuels des servitudes de la catégorie PM7",
     "columns": [
         {
             "type": "String",
@@ -127,6 +128,7 @@
             "id": "e20083a7e31aa83b631cc344e33a1e16",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

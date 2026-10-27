@@ -2,7 +2,7 @@
     "id": "873a77e2174341edf8830c6b44e47232",
     "name": "DOC_URBA_COM",
     "title": "DOC_URBA_COM",
-    "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
+    "description": "Table associant le document d'urbanisme aux communes auxquelles il s'applique",
     "columns": [
         {
             "type": "String",

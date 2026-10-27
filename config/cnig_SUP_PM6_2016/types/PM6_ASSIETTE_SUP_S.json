@@ -2,6 +2,7 @@
     "id": "c45974ef4492b9ecbc2fd41c36a7bfc4",
     "name": "PM6_ASSIETTE_SUP_S",
     "title": "PM6_ASSIETTE_SUP_S",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie PM6",
     "columns": [
         {
             "type": "String",
@@ -99,6 +100,7 @@
             "id": "bbe650b1ab4037d029d3be777499824e",
             "name": "TYPEASS",
             "title": "TYPEASS",
+            "description": "Nature de l'assiette selon sa vocation principale",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -114,6 +116,7 @@
             "id": "eb14a9e65480e6e58ac261d0ca7454c5",
             "name": "NOMASS",
             "title": "NOMASS",
+            "description": "Nom abrégé de l'assiette, respectant les règles de nommage des SUP",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

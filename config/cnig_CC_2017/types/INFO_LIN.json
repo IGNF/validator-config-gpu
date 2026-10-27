@@ -61,6 +61,7 @@
             "id": "333d50dc1463f4c4781002a255156bf9",
             "name": "STYPEP",
             "title": "STYPEP",
+            "description": "Sous-type détaillant le type d'information complémentaire",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -125,6 +126,7 @@
             "id": "866dbe0693b2349a31e3e057d996e608",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -150,6 +152,7 @@
             "id": "eeabf7e646d761b66bce8dca2d2c7069",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

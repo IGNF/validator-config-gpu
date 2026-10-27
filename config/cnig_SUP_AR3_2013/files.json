@@ -3,7 +3,7 @@
     "id": "b543e34855ac26dab402c82df591073e",
     "name": "cnig_SUP_AR3_2013",
     "title": "cnig_SUP_AR3_2013",
-    "description": "idgest_AR3_ddd_yyyymmdd ",
+    "description": "idgest_AR3_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "718bd1ae16be0b3ac11c509883aa5eed",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "OPTIONAL",
             "id": "ec350686942bfa3685a524075a0e723b",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -27,7 +29,8 @@
             "mandatory": "ERROR",
             "id": "45884e0b17fd35d95506c188d095d983",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -36,7 +39,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "2cdfe0743e2590797ce7f4d20443285b",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -45,7 +49,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "62e6a33530828ec2a81b1461cbc29966",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -54,7 +59,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "d87c6668fba7133e37fedcdc6dc70cc1",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "table",
@@ -63,7 +69,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "27afd55da8312b0e3c9f880abde7f84d",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "metadata",
@@ -71,7 +78,8 @@
             "mandatory": "ERROR",
             "id": "5421763237fceb1e2319df71bcf5401f",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -80,7 +88,8 @@
             "tableModel": "./types/AR3_ASSIETTE_SUP_S.json",
             "id": "94f2086d825dd6434a274f674428b54d",
             "name": "AR3_ASSIETTE_SUP_S",
-            "title": "AR3_ASSIETTE_SUP_S"
+            "title": "AR3_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie AR3"
         },
         {
             "type": "table",
@@ -89,7 +98,8 @@
             "tableModel": "./types/AR3_GENERATEUR_SUP_P.json",
             "id": "94f2f1001d5cbb8b06f59c64136bdc42",
             "name": "AR3_GENERATEUR_SUP_P",
-            "title": "AR3_GENERATEUR_SUP_P"
+            "title": "AR3_GENERATEUR_SUP_P",
+            "description": "Table contenant les générateurs ponctuels des servitudes de la catégorie AR3"
         },
         {
             "type": "table",
@@ -98,7 +108,8 @@
             "tableModel": "./types/AR3_GENERATEUR_SUP_S.json",
             "id": "3725cdf5a8ecb5d90e86fd0dc4b67789",
             "name": "AR3_GENERATEUR_SUP_S",
-            "title": "AR3_GENERATEUR_SUP_S"
+            "title": "AR3_GENERATEUR_SUP_S",
+            "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie AR3"
         }
     ],
     "codes": [

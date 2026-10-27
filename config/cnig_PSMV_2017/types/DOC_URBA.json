@@ -2,7 +2,7 @@
     "id": "0b225518fd2bae911f6894e5b246c8d2",
     "name": "DOC_URBA",
     "title": "DOC_URBA",
-    "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
+    "description": "Table décrivant les versions successives du PSMV",
     "columns": [
         {
             "type": "String",
@@ -59,6 +59,7 @@
             "id": "680efe1e4ebd224e509966c7fa20e405",
             "name": "URLPE",
             "title": "URLPE",
+            "description": "Lien d'accès à l'archive zip comprenant l'ensemble des pièces écrites",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

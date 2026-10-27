@@ -101,6 +101,7 @@
             "id": "86c0a8bb66128ed57eb5abe506523722",
             "name": "URLPAS",
             "title": "URLPAS",
+            "description": "Lien d'accès au fichier du projet d'aménagement stratégique",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -113,6 +114,7 @@
             "id": "89bf1696b11bb459eb6a77309b1ff414",
             "name": "PAS",
             "title": "PAS",
+            "description": "Nom du fichier contenant le projet d'aménagement stratégique",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

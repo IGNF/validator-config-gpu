@@ -2,12 +2,14 @@
     "id": "6d0bf7f96e224e6e3b50fe3ffa65098b",
     "name": "TITRES_PIECES_ECRITES",
     "title": "TITRES_PIECES_ECRITES",
+    "description": "Table de correspondance entre le nom standardisé des pièces écrites et leur titre usuel",
     "columns": [
         {
             "type": "String",
             "id": "12cc1b37be2d5dbbc952942a1aaaa719",
             "name": "TITRE",
             "title": "TITRE",
+            "description": "Titre ou nom usuel de la pièce écrite (80 caractères au plus)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -20,6 +22,7 @@
             "id": "4a834d39e68fff9dba2f06a19ebe2241",
             "name": "FICHIER",
             "title": "FICHIER",
+            "description": "Nom standardisé du fichier de la pièce écrite",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

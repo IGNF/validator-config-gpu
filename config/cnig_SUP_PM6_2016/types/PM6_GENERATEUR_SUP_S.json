@@ -2,6 +2,7 @@
     "id": "3551e98182f851c5a0e325a850bbf286",
     "name": "PM6_GENERATEUR_SUP_S",
     "title": "PM6_GENERATEUR_SUP_S",
+    "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie PM6",
     "columns": [
         {
             "type": "String",
@@ -127,6 +128,7 @@
             "id": "e027b404c88109af15fb58cd679974a1",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

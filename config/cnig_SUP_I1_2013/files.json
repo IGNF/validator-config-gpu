@@ -3,7 +3,7 @@
     "id": "3b7b230aca4ef150ffc3f22b7f281acb",
     "name": "cnig_SUP_I1_2013",
     "title": "cnig_SUP_I1_2013",
-    "description": "idgest_I1_ddd_yyyymmdd ",
+    "description": "idgest_I1_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "758971c8650dfd2a731abc151d71b56f",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "OPTIONAL",
             "id": "139bcaa25e1f0d88d736ae0d8a9ef113",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -27,7 +29,8 @@
             "mandatory": "ERROR",
             "id": "1023e72a44d78ac2217ca81be93be833",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -36,7 +39,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "139fe95012184b33a2c3ea8bac9822bc",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -45,7 +49,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "8c051c945464244e82cb71f5a92cbeae",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -54,7 +59,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "02de89dcbdf4c1e4aa09cf37611018e7",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "table",
@@ -63,7 +69,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "ffcb897a3f2764862646277e65e58978",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "metadata",
@@ -71,7 +78,8 @@
             "mandatory": "ERROR",
             "id": "ada2dd0bcabe1e79a43c26dcc38976b9",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -80,7 +88,8 @@
             "tableModel": "./types/I1_ASSIETTE_SUP_S.json",
             "id": "4d58bf774c459e00fc2bea50347a1b0e",
             "name": "I1_ASSIETTE_SUP_S",
-            "title": "I1_ASSIETTE_SUP_S"
+            "title": "I1_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie I1"
         },
         {
             "type": "table",
@@ -89,7 +98,8 @@
             "tableModel": "./types/I1_GENERATEUR_SUP_L.json",
             "id": "4e06fade0d8deae5734780104dba1a8d",
             "name": "I1_GENERATEUR_SUP_L",
-            "title": "I1_GENERATEUR_SUP_L"
+            "title": "I1_GENERATEUR_SUP_L",
+            "description": "Table contenant les générateurs linéaires des servitudes de la catégorie I1"
         }
     ],
     "codes": [

@@ -9,6 +9,7 @@
             "id": "17a06b28548a39321ec4eb1c9fd62a12",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -111,6 +112,7 @@
             "id": "fc615443db1b227af597e068a05890e9",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

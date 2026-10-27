@@ -3,7 +3,7 @@
     "id": "b49158183ad616e5f6dd9b87dbc01c07",
     "name": "cnig_SUP_AC3_2016",
     "title": "cnig_SUP_AC3_2016",
-    "description": "idgest_AC3_ddd_yyyymmdd ",
+    "description": "idgest_AC3_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "269116a1d7e094c1b95ee416a6845e13",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "ERROR",
             "id": "cba6f14ddc12b88965f897c730b149a5",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "pdf",
@@ -27,7 +29,8 @@
             "mandatory": "OPTIONAL",
             "id": "28596ab5d54f3a951ce215cea72294e9",
             "name": "REGLEMENT",
-            "title": "REGLEMENT"
+            "title": "REGLEMENT",
+            "description": "Règlement de la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -35,7 +38,8 @@
             "mandatory": "ERROR",
             "id": "32f5c176032fb89a4545697d74c598af",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -44,7 +48,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "5eac8114c98fe2635e1f17028bb3eb26",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -53,7 +58,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "fa9ddbc658a38b559d5f17e278faf2a6",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -62,7 +68,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "ca887c5d7db47732c262970b00dea67c",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "table",
@@ -71,7 +78,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "66766f2db76b1758d418f04042fc1755",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "metadata",
@@ -79,7 +87,8 @@
             "mandatory": "ERROR",
             "id": "c33b27046bfef0fa321898b695037b1e",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -88,7 +97,8 @@
             "tableModel": "./types/AC3_ASSIETTE_SUP_S.json",
             "id": "7b310ad5e3a4dea39b3ba465750f5452",
             "name": "AC3_ASSIETTE_SUP_S",
-            "title": "AC3_ASSIETTE_SUP_S"
+            "title": "AC3_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie AC3"
         },
         {
             "type": "table",
@@ -97,7 +107,8 @@
             "tableModel": "./types/AC3_GENERATEUR_SUP_S.json",
             "id": "1a92b57a80f52faf8924965dc6fb9727",
             "name": "AC3_GENERATEUR_SUP_S",
-            "title": "AC3_GENERATEUR_SUP_S"
+            "title": "AC3_GENERATEUR_SUP_S",
+            "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie AC3"
         }
     ],
     "codes": [

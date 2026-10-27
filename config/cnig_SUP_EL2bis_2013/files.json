@@ -3,7 +3,7 @@
     "id": "503854cf299a4df4a79588154d1f4f99",
     "name": "cnig_SUP_EL2bis_2013",
     "title": "cnig_SUP_EL2bis_2013",
-    "description": "idgest_EL2bis_ddd_yyyymmdd ",
+    "description": "idgest_EL2bis_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "198e68c9fc1cc02b4be57cce25e51c99",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "OPTIONAL",
             "id": "2248245e63e0acf226073d1a3d0e2198",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -27,7 +29,8 @@
             "mandatory": "ERROR",
             "id": "2a6ffec97642da438e091445a763966b",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -36,7 +39,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "1bf0d96a0317f788794ba643180f749a",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -45,7 +49,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "f4757635fc5fd75581f48dde2aef8dd0",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -54,7 +59,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "66bb87977752c0338c4fc7d64a068caa",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "table",
@@ -63,7 +69,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "b294ae65fd97bb719289e57fd79a4f8d",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "metadata",
@@ -71,7 +78,8 @@
             "mandatory": "ERROR",
             "id": "b8e82ba5a066903b40300c1d1ee7488b",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -80,7 +88,8 @@
             "tableModel": "./types/EL2bis_ASSIETTE_SUP_S.json",
             "id": "6119b71747e2c2971f822682dc7d8bcc",
             "name": "EL2bis_ASSIETTE_SUP_S",
-            "title": "EL2bis_ASSIETTE_SUP_S"
+            "title": "EL2bis_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie EL2bis"
         },
         {
             "type": "table",
@@ -89,7 +98,8 @@
             "tableModel": "./types/EL2bis_GENERATEUR_SUP_S.json",
             "id": "132a3b5f6c01a44630acaa6e8c38b8d4",
             "name": "EL2bis_GENERATEUR_SUP_S",
-            "title": "EL2bis_GENERATEUR_SUP_S"
+            "title": "EL2bis_GENERATEUR_SUP_S",
+            "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie EL2bis"
         }
     ],
     "codes": [

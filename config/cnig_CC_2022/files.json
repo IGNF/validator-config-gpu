@@ -3,7 +3,7 @@
     "id": "00d49b46e58f4904b42d8dab5f40429c",
     "name": "cnig_CC_2022",
     "title": "cnig_CC_2022",
-    "description": "cnig_CC_2022",
+    "description": "Standard CNIG CC v2022",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "a10d1ae3555a650a85628c889188bd50",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -20,7 +21,8 @@
             "tableModel": "./types/HABILLAGE_LIN.json",
             "id": "c81e1e3cf780cb3c735b003f87c6a507",
             "name": "HABILLAGE_LIN",
-            "title": "HABILLAGE_LIN"
+            "title": "HABILLAGE_LIN",
+            "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -29,7 +31,8 @@
             "tableModel": "./types/HABILLAGE_PCT.json",
             "id": "f7721170d5e344b417c00a99980e4fae",
             "name": "HABILLAGE_PCT",
-            "title": "HABILLAGE_PCT"
+            "title": "HABILLAGE_PCT",
+            "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -38,7 +41,8 @@
             "tableModel": "./types/HABILLAGE_SURF.json",
             "id": "d46d6497acb3440bbe992dba08e46bb3",
             "name": "HABILLAGE_SURF",
-            "title": "HABILLAGE_SURF"
+            "title": "HABILLAGE_SURF",
+            "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -47,7 +51,8 @@
             "tableModel": "./types/HABILLAGE_TXT.json",
             "id": "1766704406b686eebe1d841e5ab319b7",
             "name": "HABILLAGE_TXT",
-            "title": "HABILLAGE_TXT"
+            "title": "HABILLAGE_TXT",
+            "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -56,7 +61,8 @@
             "tableModel": "./types/INFO_LIN.json",
             "id": "adc86930898cce4fc80ba1639185bdc4",
             "name": "INFO_LIN",
-            "title": "INFO_LIN"
+            "title": "INFO_LIN",
+            "description": "Table contenant les informations linéaires à reporter à titre d'information"
         },
         {
             "type": "table",
@@ -65,7 +71,8 @@
             "tableModel": "./types/INFO_PCT.json",
             "id": "a1862431e6beb51a550955a26ae232e0",
             "name": "INFO_PCT",
-            "title": "INFO_PCT"
+            "title": "INFO_PCT",
+            "description": "Table contenant les informations ponctuelles reportées à titre d'information sur le document d'urbanisme"
         },
         {
             "type": "table",
@@ -74,7 +81,8 @@
             "tableModel": "./types/INFO_SURF.json",
             "id": "bc4516ed687412e37ea48f9c143c85c2",
             "name": "INFO_SURF",
-            "title": "INFO_SURF"
+            "title": "INFO_SURF",
+            "description": "Table contenant les périmètres à reporter à titre d'information"
         },
         {
             "type": "table",
@@ -83,7 +91,8 @@
             "tableModel": "./types/SECTEUR_CC.json",
             "id": "a6839e79ac76883e4bb24502c4677b4d",
             "name": "SECTEUR_CC",
-            "title": "SECTEUR_CC"
+            "title": "SECTEUR_CC",
+            "description": "Table contenant les secteurs de la carte communale"
         },
         {
             "type": "metadata",
@@ -91,7 +100,8 @@
             "mandatory": "ERROR",
             "id": "39d852791facb1ee01a7b19a4f7a09ef",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -100,7 +110,8 @@
             "tableModel": "./types/DOC_URBA_COM.json",
             "id": "2814938f4384c4947efb5c3b9d8095fe",
             "name": "DOC_URBA_COM",
-            "title": "DOC_URBA_COM"
+            "title": "DOC_URBA_COM",
+            "description": "Table associant le document d'urbanisme aux communes auxquelles il s'applique"
         },
         {
             "type": "table",
@@ -109,7 +120,8 @@
             "tableModel": "./types/DOC_URBA.json",
             "id": "bccfecf352bd811ac3f998f56085e2a0",
             "name": "DOC_URBA",
-            "title": "DOC_URBA"
+            "title": "DOC_URBA",
+            "description": "Table décrivant les versions successives de la carte communale"
         },
         {
             "type": "directory",
@@ -117,7 +129,8 @@
             "mandatory": "ERROR",
             "id": "648c215e3f0d7c3b8ae3878f6bb2d2fb",
             "name": "Pieces_ecrites",
-            "title": "Pieces_ecrites"
+            "title": "Pieces_ecrites",
+            "description": "Répertoire des pièces écrites"
         },
         {
             "type": "directory",
@@ -125,7 +138,8 @@
             "mandatory": "ERROR",
             "id": "fc23ea5eabd748ab1e5756b742e1d49d",
             "name": "Procedures",
-            "title": "Procedures"
+            "title": "Procedures",
+            "description": "Répertoire Procedures"
         },
         {
             "type": "pdf",
@@ -133,7 +147,8 @@
             "mandatory": "ERROR",
             "id": "de07e4ab3a2cfe1bf56b5542f1a98d5d",
             "name": "PROCEDURE",
-            "title": "PROCEDURE"
+            "title": "PROCEDURE",
+            "description": "Compilation des pièces des procédures successives"
         },
         {
             "type": "directory",
@@ -141,7 +156,8 @@
             "mandatory": "ERROR",
             "id": "76400724d40cfaebbd101c455aeff0bb",
             "name": "Rapport_de_presentation",
-            "title": "Rapport_de_presentation"
+            "title": "Rapport_de_presentation",
+            "description": "Répertoire Rapport de presentation"
         },
         {
             "type": "pdf",
@@ -149,7 +165,8 @@
             "mandatory": "ERROR",
             "id": "ef3799153c252ec416c864a078e29628",
             "name": "RAPPORT",
-            "title": "RAPPORT"
+            "title": "RAPPORT",
+            "description": "Rapport de présentation"
         },
         {
             "type": "directory",
@@ -157,7 +174,8 @@
             "mandatory": "ERROR",
             "id": "3a8bdf27f88be8e96f1389ca5cd21a00",
             "name": "Annexes",
-            "title": "Annexes"
+            "title": "Annexes",
+            "description": "Répertoire Annexes"
         },
         {
             "type": "pdf",
@@ -165,7 +183,8 @@
             "mandatory": "WARN",
             "id": "2c5b074d19be3a43a96a045e89596ca6",
             "name": "ANNEXE",
-            "title": "ANNEXE"
+            "title": "ANNEXE",
+            "description": "Pièce écrite annexée au document d'urbanisme (pdf)"
         },
         {
             "type": "pdf",
@@ -173,7 +192,8 @@
             "mandatory": "ERROR",
             "id": "f0da80857adf83bd44233d2b13afede4",
             "name": "LISTE ANNEXES",
-            "title": "LISTE ANNEXES"
+            "title": "LISTE ANNEXES",
+            "description": "Liste des annexes du document d'urbanisme"
         },
         {
             "type": "table",
@@ -182,7 +202,8 @@
             "tableModel": "./types/TITRES_PIECES_ECRITES.json",
             "id": "e93d13597453f2e35859aa40418cca13",
             "name": "TITRES_PIECES_ECRITES",
-            "title": "TITRES_PIECES_ECRITES"
+            "title": "TITRES_PIECES_ECRITES",
+            "description": "Table de correspondance entre le nom standardisé des pièces écrites et leur titre usuel"
         }
     ],
     "codes": [

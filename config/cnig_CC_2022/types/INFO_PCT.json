@@ -2,13 +2,14 @@
     "id": "cd2d866b20fc78fc97cc73c2978410c1",
     "name": "INFO_PCT",
     "title": "INFO_PCT",
-    "description": "Table contenant les informations ponctuelles à reporter à titre  d'information",
+    "description": "Table contenant les informations ponctuelles reportées à titre d'information sur le document d'urbanisme",
     "columns": [
         {
             "type": "String",
             "id": "012b040fd50d9ec44eb6bec3c10e4277",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -73,7 +74,7 @@
             "id": "548fbc6a4c6489e9f68f5a0693304437",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -113,6 +114,7 @@
             "id": "80e3a977756b345be9e90009ff083647",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -151,7 +153,7 @@
             "id": "bb5ec032d3310dd06f7e3329c1729b40",
             "name": "NATURE",
             "title": "NATURE",
-            "description": "NATURE",
+            "description": "Libellé caractérisant un ensemble d'objets de même type et sous-type (espaces remplacés par « _ »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -165,6 +167,7 @@
             "id": "dcc1f9a5fa272d6b73644299918fa5f7",
             "name": "TYPEP",
             "title": "TYPEP",
+            "description": "Type d'information complémentaire (codification PrescriptionUrbaType)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

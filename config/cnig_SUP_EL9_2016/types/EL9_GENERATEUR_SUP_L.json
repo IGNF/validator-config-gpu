@@ -2,7 +2,7 @@
     "id": "fa9671e1f41577b38e9ed077d5dbda95",
     "name": "EL9_GENERATEUR_SUP_L",
     "title": "EL9_GENERATEUR_SUP_L",
-    "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les générateurs linéaires des servitudes de la catégorie EL9",
     "columns": [
         {
             "type": "String",
@@ -128,6 +128,7 @@
             "id": "f3ff52dda0afd667a36f2b73489e7a53",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

@@ -2,7 +2,7 @@
     "id": "b212b48e37b7ce4b5381bc1ee37fe36d",
     "name": "I3_GENERATEUR_SUP_L",
     "title": "I3_GENERATEUR_SUP_L",
-    "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les générateurs linéaires des servitudes de la catégorie I3",
     "columns": [
         {
             "type": "String",
@@ -128,6 +128,7 @@
             "id": "434f2c468550a874dda84262c40d8785",
             "name": "TYPE",
             "title": "TYPE",
+            "description": "Type de fluide (Hydrocarbures, Gaz, Produits chimiques)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -140,6 +141,7 @@
             "id": "4f0c983273abd80a5991b7e28118478d",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

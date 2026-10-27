@@ -48,6 +48,7 @@
             "id": "6726f93f5320b356085b1d475243f45c",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
+            "description": "Sous-type détaillant le type de prescription",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

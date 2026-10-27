@@ -49,6 +49,7 @@
             "id": "2890143caecc5a92a4470491bf6ba317",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -99,6 +100,7 @@
             "id": "ece0af0f0eb3e370faffc08cf6858370",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

@@ -2,7 +2,7 @@
     "id": "761fc6372453ded4ff9f19b7fefd1b90",
     "name": "DOC_URBA",
     "title": "DOC_URBA",
-    "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
+    "description": "Table décrivant les versions successives de la carte communale",
     "columns": [
         {
             "type": "String",
@@ -35,7 +35,7 @@
             "id": "8291cbceb070568163f471788938c710",
             "name": "NOMRAPP",
             "title": "NOMRAPP",
-            "description": "NOMRAPP",
+            "description": "Nom du fichier contenant le dernier rapport de présentation",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -167,7 +167,7 @@
             "id": "c45daed2e211976f5501654fbd529acb",
             "name": "URLRAPP",
             "title": "URLRAPP",
-            "description": "URLRAPP",
+            "description": "Lien d'accès au fichier contenant le dernier rapport de présentation",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

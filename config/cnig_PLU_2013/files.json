@@ -12,7 +12,8 @@
             "tableModel": "./types/DOC_URBA_COM.json",
             "id": "d4eff3a4031f0dcf56c0364ea0ff294a",
             "name": "DOC_URBA_COM",
-            "title": "DOC_URBA_COM"
+            "title": "DOC_URBA_COM",
+            "description": "Table associant le document d'urbanisme aux communes auxquelles il s'applique"
         },
         {
             "type": "table",
@@ -21,7 +22,8 @@
             "tableModel": "./types/DOC_URBA.json",
             "id": "540014d7b3cbd27b82543a064c0b47f2",
             "name": "DOC_URBA",
-            "title": "DOC_URBA"
+            "title": "DOC_URBA",
+            "description": "Table décrivant les versions successives du PLU"
         },
         {
             "type": "directory",
@@ -29,7 +31,8 @@
             "mandatory": "ERROR",
             "id": "9cff13157337123d403c7ec537eb35b0",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -38,7 +41,8 @@
             "tableModel": "./types/HABILLAGE_LIN.json",
             "id": "b93374f9b46a58f6ba10422047859d52",
             "name": "HABILLAGE_LIN",
-            "title": "HABILLAGE_LIN"
+            "title": "HABILLAGE_LIN",
+            "description": "Table des tracés linéaires figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -47,7 +51,8 @@
             "tableModel": "./types/HABILLAGE_PCT.json",
             "id": "4ba297ae67a1bbe0d73e02564a27fdb8",
             "name": "HABILLAGE_PCT",
-            "title": "HABILLAGE_PCT"
+            "title": "HABILLAGE_PCT",
+            "description": "Table des tracés ponctuels figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -56,7 +61,8 @@
             "tableModel": "./types/HABILLAGE_SURF.json",
             "id": "3b9d61d642d1a746d908808fc669345a",
             "name": "HABILLAGE_SURF",
-            "title": "HABILLAGE_SURF"
+            "title": "HABILLAGE_SURF",
+            "description": "Table des tracés surfaciques figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -65,7 +71,8 @@
             "tableModel": "./types/HABILLAGE_TXT.json",
             "id": "22ffaa74a026e863a4efbb3dfd7d7f40",
             "name": "HABILLAGE_TXT",
-            "title": "HABILLAGE_TXT"
+            "title": "HABILLAGE_TXT",
+            "description": "Table des écritures (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -74,7 +81,8 @@
             "tableModel": "./types/INFO_LIN.json",
             "id": "ccd302074c56a81fa2b6e15702da1758",
             "name": "INFO_LIN",
-            "title": "INFO_LIN"
+            "title": "INFO_LIN",
+            "description": "Table contenant les informations linéaires à reporter à titre d'information"
         },
         {
             "type": "table",
@@ -83,7 +91,8 @@
             "tableModel": "./types/INFO_PCT.json",
             "id": "9a9925010c041aeee60d60fe9f73c8d0",
             "name": "INFO_PCT",
-            "title": "INFO_PCT"
+            "title": "INFO_PCT",
+            "description": "Table contenant les informations ponctuelles reportées à titre d'information sur le document d'urbanisme"
         },
         {
             "type": "table",
@@ -92,7 +101,8 @@
             "tableModel": "./types/INFO_SURF.json",
             "id": "150e52c2fb95f489d222b34e6aa4c5c1",
             "name": "INFO_SURF",
-            "title": "INFO_SURF"
+            "title": "INFO_SURF",
+            "description": "Table contenant les informations surfaciques reportées à titre d'information sur le document d'urbanisme"
         },
         {
             "type": "table",
@@ -101,7 +111,8 @@
             "tableModel": "./types/PRESCRIPTION_LIN.json",
             "id": "33134770f00fc4d4319aefdbbbcd948f",
             "name": "PRESCRIPTION_LIN",
-            "title": "PRESCRIPTION_LIN"
+            "title": "PRESCRIPTION_LIN",
+            "description": "Table contenant les prescriptions linéaires se superposant au document d'urbanisme et le lien avec le texte qui la décrit"
         },
         {
             "type": "table",
@@ -110,7 +121,8 @@
             "tableModel": "./types/PRESCRIPTION_PCT.json",
             "id": "071a399058930fa599503c1d93123e6b",
             "name": "PRESCRIPTION_PCT",
-            "title": "PRESCRIPTION_PCT"
+            "title": "PRESCRIPTION_PCT",
+            "description": "Table contenant les prescriptions ponctuelles se superposant au document d'urbanisme et le lien avec le texte qui la décrit"
         },
         {
             "type": "table",
@@ -119,7 +131,8 @@
             "tableModel": "./types/PRESCRIPTION_SURF.json",
             "id": "5bf9d1b57fef2c4078498a2b9f94b7c2",
             "name": "PRESCRIPTION_SURF",
-            "title": "PRESCRIPTION_SURF"
+            "title": "PRESCRIPTION_SURF",
+            "description": "Table contenant les prescriptions surfaciques se superposant au document d'urbanisme et le lien avec le texte qui la décrit"
         },
         {
             "type": "table",
@@ -128,7 +141,8 @@
             "tableModel": "./types/ZONE_URBA.json",
             "id": "40f4ddd8a5ce6b71df32649a0d455bbd",
             "name": "ZONE_URBA",
-            "title": "ZONE_URBA"
+            "title": "ZONE_URBA",
+            "description": "Table contenant les zones d'un document PLU ou POS"
         },
         {
             "type": "metadata",
@@ -136,7 +150,8 @@
             "mandatory": "ERROR",
             "id": "9376264bdf3ae7b220efcbdb7b936f5c",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "directory",
@@ -144,7 +159,8 @@
             "mandatory": "ERROR",
             "id": "c2eeb912043c86b99f18fd3e29f39aad",
             "name": "Pieces_ecrites",
-            "title": "Pieces_ecrites"
+            "title": "Pieces_ecrites",
+            "description": "Répertoire des pièces écrites"
         },
         {
             "type": "directory",
@@ -152,7 +168,8 @@
             "mandatory": "ERROR",
             "id": "fbcc3a09cd834eeb3064b1d50f5b4861",
             "name": "1_Rapport_de_presentation",
-            "title": "1_Rapport_de_presentation"
+            "title": "1_Rapport_de_presentation",
+            "description": "Répertoire 1 Rapport de presentation"
         },
         {
             "type": "pdf",
@@ -160,7 +177,8 @@
             "mandatory": "ERROR",
             "id": "402f02f471371deeaf917a10f6c5a69f",
             "name": "RAPPORT",
-            "title": "RAPPORT"
+            "title": "RAPPORT",
+            "description": "Rapport de présentation"
         },
         {
             "type": "directory",
@@ -168,7 +186,8 @@
             "mandatory": "ERROR",
             "id": "3fdfd8323f76a1b180098d302f8ba7a2",
             "name": "2_PADD",
-            "title": "2_PADD"
+            "title": "2_PADD",
+            "description": "Répertoire 2 PADD"
         },
         {
             "type": "pdf",
@@ -176,7 +195,8 @@
             "mandatory": "ERROR",
             "id": "671a815a4ecabe7ce13976e8195e6a86",
             "name": "PADD",
-            "title": "PADD"
+            "title": "PADD",
+            "description": "Projet d'aménagement et de développement durables"
         },
         {
             "type": "directory",
@@ -184,7 +204,8 @@
             "mandatory": "ERROR",
             "id": "89fbd95e17f2e961ebba84af9b8faa9f",
             "name": "3_Reglement",
-            "title": "3_Reglement"
+            "title": "3_Reglement",
+            "description": "Répertoire 3 Reglement"
         },
         {
             "type": "pdf",
@@ -192,7 +213,8 @@
             "mandatory": "ERROR",
             "id": "55e80602f82334bddb9a35e400a5b824",
             "name": "REGLEMENT",
-            "title": "REGLEMENT"
+            "title": "REGLEMENT",
+            "description": "Règlement de la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -200,7 +222,8 @@
             "mandatory": "ERROR",
             "id": "1f6f5d2cd6dbd4398084bbe0e306bf35",
             "name": "4_Annexes",
-            "title": "4_Annexes"
+            "title": "4_Annexes",
+            "description": "Répertoire 4 Annexes"
         },
         {
             "type": "pdf",
@@ -208,7 +231,8 @@
             "mandatory": "ERROR",
             "id": "739c009499f26249b5fcbe273874269c",
             "name": "ANNEXE",
-            "title": "ANNEXE"
+            "title": "ANNEXE",
+            "description": "Pièce écrite annexée au document d'urbanisme (pdf)"
         },
         {
             "type": "pdf",
@@ -216,7 +240,8 @@
             "mandatory": "OPTIONAL",
             "id": "35f988bef2b0b1354742b23d4b9d0180",
             "name": "INFORMATION",
-            "title": "INFORMATION"
+            "title": "INFORMATION",
+            "description": "Pièce écrite relative à un périmètre d'information (<TYPE>_<SOUS-TYPE>)"
         },
         {
             "type": "pdf",
@@ -224,7 +249,8 @@
             "mandatory": "OPTIONAL",
             "id": "5146d8bcf7259effc863b3ba2655b6dc",
             "name": "PRESCRIPTION",
-            "title": "PRESCRIPTION"
+            "title": "PRESCRIPTION",
+            "description": "Pièce écrite relative à une prescription (<TYPE>_<SOUS-TYPE>)"
         },
         {
             "type": "directory",
@@ -232,7 +258,8 @@
             "mandatory": "OPTIONAL",
             "id": "f1fad9d49a9624613662b666ca536262",
             "name": "5_Orientations_amenagement",
-            "title": "5_Orientations_amenagement"
+            "title": "5_Orientations_amenagement",
+            "description": "Répertoire 5 Orientations amenagement"
         },
         {
             "type": "pdf",
@@ -240,7 +267,8 @@
             "mandatory": "OPTIONAL",
             "id": "826ae4c2498a9b87ae56e83bce094664",
             "name": "ORIENTATIONS_AMENAGEMENT",
-            "title": "ORIENTATIONS_AMENAGEMENT"
+            "title": "ORIENTATIONS_AMENAGEMENT",
+            "description": "Orientations d'aménagement et de programmation"
         }
     ],
     "codes": [

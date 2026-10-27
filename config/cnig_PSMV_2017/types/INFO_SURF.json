@@ -2,7 +2,7 @@
     "id": "85822aae4392b5764350810abd1e5c70",
     "name": "INFO_SURF",
     "title": "INFO_SURF",
-    "description": "INFO_SURF",
+    "description": "Table contenant les informations surfaciques reportées à titre d'information sur le document d'urbanisme",
     "columns": [
         {
             "type": "Filename",
@@ -121,6 +121,7 @@
             "id": "adf1589be542ab27cc4d6da2a814975c",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -146,6 +147,7 @@
             "id": "f0127c152806706cddf76c3a6bd3e52d",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

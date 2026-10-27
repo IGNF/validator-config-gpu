@@ -9,6 +9,7 @@
             "id": "14814c7e5eb67389a485516f576b3a97",
             "name": "STYLE",
             "title": "STYLE",
+            "description": "Style de l'écriture (ex : italique, gras, souligné)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -34,6 +35,7 @@
             "id": "58b5b53edd2b4f6f3e7b0f163d480394",
             "name": "TAILLE",
             "title": "TAILLE",
+            "description": "Taille des caractères en points",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -58,6 +60,7 @@
             "id": "6a25eb7c2db97d7867d2bb7b9fb7f11c",
             "name": "POLICE",
             "title": "POLICE",
+            "description": "Nom de la police de l'écriture",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -82,6 +85,7 @@
             "id": "8c50f43ceadaccf06408b020f8ddfe31",
             "name": "ANGLE",
             "title": "ANGLE",
+            "description": "Angle de l'écriture en degrés par rapport à l'horizontale, dans le sens trigonométrique",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

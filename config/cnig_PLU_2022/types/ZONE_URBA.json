@@ -9,7 +9,7 @@
             "id": "0a963107f7cdef5ed620a6082eab94bb",
             "name": "DESTOUI",
             "title": "DESTOUI",
-            "description": "DESTOUI",
+            "description": "Destinations et sous-destinations autorisées dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -51,7 +51,7 @@
             "id": "3b0a31426f50f9ae6f0d2f0003c993a2",
             "name": "DESTNON",
             "title": "DESTNON",
-            "description": "DESTNON",
+            "description": "Destinations et sous-destinations interdites dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -66,7 +66,7 @@
             "id": "3be32ced98f529f6a1d1ddd519020575",
             "name": "DESTCDT",
             "title": "DESTCDT",
-            "description": "DESTCDT",
+            "description": "Destinations et sous-destinations autorisées sous conditions dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -81,7 +81,7 @@
             "id": "475fb28befa7f25d072357904d1551ff",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -121,7 +121,7 @@
             "id": "af44dcbc37a5d51e849f88c285efb514",
             "name": "FORMDOMI",
             "title": "FORMDOMI",
-            "description": "FORMDOMI",
+            "description": "Forme d'aménagement dominante souhaitée pour la zone",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

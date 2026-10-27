@@ -2,7 +2,7 @@
     "id": "5475a8de3b3ff042aa53c62e4343798b",
     "name": "ZONE_URBA",
     "title": "ZONE_URBA",
-    "description": "Table contenant les zones d'un document PLU ou POS",
+    "description": "Table contenant les zones du PLUi",
     "columns": [
         {
             "type": "Url",
@@ -86,7 +86,7 @@
             "id": "9772c770a74566421542793ada4c2ce6",
             "name": "DESTOUI",
             "title": "DESTOUI",
-            "description": "DESTOUI",
+            "description": "Destinations et sous-destinations autorisées dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -114,7 +114,7 @@
             "id": "cd00d7da8456af0d3ebf272c8dc0fa2f",
             "name": "DESTNON",
             "title": "DESTNON",
-            "description": "DESTNON",
+            "description": "Destinations et sous-destinations interdites dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -129,7 +129,7 @@
             "id": "d240a74a8bcf6f5bff29d506fc0ef480",
             "name": "FORMDOMI",
             "title": "FORMDOMI",
-            "description": "FORMDOMI",
+            "description": "Forme d'aménagement dominante souhaitée pour la zone",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -143,7 +143,7 @@
             "id": "d6c2970e57a89dfe30d1ad81d6d1d145",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -171,7 +171,7 @@
             "id": "edf11f4b6c8d72ddc150f1d2358a931a",
             "name": "DESTCDT",
             "title": "DESTCDT",
-            "description": "DESTCDT",
+            "description": "Destinations et sous-destinations autorisées sous conditions dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

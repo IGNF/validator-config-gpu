@@ -2,7 +2,7 @@
     "id": "7c47ab3b365da7cfb4e866375f93b706",
     "name": "DOC_URBA",
     "title": "DOC_URBA",
-    "description": "Table contenant la liste des documents d'Urbanisme PLU ou POS dont la numérisation ou l'élaboration sous fourme numérique est engagée",
+    "description": "Table décrivant les versions successives du POS",
     "columns": [
         {
             "type": "Url",
@@ -101,6 +101,7 @@
             "id": "3f187b67a7f512ca13a5e41db9604768",
             "name": "URLPE",
             "title": "URLPE",
+            "description": "Lien d'accès à l'archive zip comprenant l'ensemble des pièces écrites",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

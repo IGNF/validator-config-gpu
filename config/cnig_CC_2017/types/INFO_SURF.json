@@ -21,6 +21,7 @@
             "id": "183161f4cbe0d2c7a8db020bcdac05bc",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -72,6 +73,7 @@
             "id": "89e6c4795e74af443b86db1c623a73ee",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -110,6 +112,7 @@
             "id": "cfd49e90f5e9d9b0280e9dc3ec110104",
             "name": "STYPEP",
             "title": "STYPEP",
+            "description": "Sous-type détaillant le type d'information complémentaire",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

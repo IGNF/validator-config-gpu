@@ -3,7 +3,7 @@
     "id": "4e3ba97d483523621def70e607db9704",
     "name": "cnig_SUP_EL8_2016",
     "title": "cnig_SUP_EL8_2016",
-    "description": "idgest_EL8_ddd_yyyymmdd ",
+    "description": "idgest_EL8_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "cce9e0e2d9260c2582115dbad7601228",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "ERROR",
             "id": "f9ac67c7f804931cbbaeeface6049a21",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "pdf",
@@ -27,7 +29,8 @@
             "mandatory": "OPTIONAL",
             "id": "b95dfe63104c2bb5b6b78986431ce898",
             "name": "REGLEMENT",
-            "title": "REGLEMENT"
+            "title": "REGLEMENT",
+            "description": "Règlement de la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -35,7 +38,8 @@
             "mandatory": "ERROR",
             "id": "3aca78695216c4597782d0f3562324d3",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -44,7 +48,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "76a1b92c5ac7683758a80b95c510a9a9",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -53,7 +58,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "9bf6f5f775fa27e06d075d9f840827b9",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -62,7 +68,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "0a0c5159beb2a29f64303ff8fa0dc04f",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "table",
@@ -71,7 +78,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "062430ff47f77cfe48aa9717fc690dde",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "metadata",
@@ -79,7 +87,8 @@
             "mandatory": "ERROR",
             "id": "80c22b10196d55884bbe80494ecfc99d",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -88,7 +97,8 @@
             "tableModel": "./types/EL8_ASSIETTE_SUP_S.json",
             "id": "e5aff3fb4a1a3cc49bd3a3e24452addb",
             "name": "EL8_ASSIETTE_SUP_S",
-            "title": "EL8_ASSIETTE_SUP_S"
+            "title": "EL8_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie EL8"
         },
         {
             "type": "table",
@@ -97,7 +107,8 @@
             "tableModel": "./types/EL8_GENERATEUR_SUP_P.json",
             "id": "1eae6a940891eedb2c6418349d5126c9",
             "name": "EL8_GENERATEUR_SUP_P",
-            "title": "EL8_GENERATEUR_SUP_P"
+            "title": "EL8_GENERATEUR_SUP_P",
+            "description": "Table contenant les générateurs ponctuels des servitudes de la catégorie EL8"
         }
     ],
     "codes": [

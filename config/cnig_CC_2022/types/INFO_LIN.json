@@ -22,7 +22,7 @@
             "id": "3265fb795001ca786c7e928744687bf7",
             "name": "NATURE",
             "title": "NATURE",
-            "description": "NATURE",
+            "description": "Libellé caractérisant un ensemble d'objets de même type et sous-type (espaces remplacés par « _ »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -76,7 +76,7 @@
             "id": "4faeacef635f36ddfb58ea4d5f9d26ee",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -90,6 +90,7 @@
             "id": "74b9c213fbf1747e88526cc54c252ee6",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -102,6 +103,7 @@
             "id": "951d5f4b2299444c4e25239a242d68c6",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -165,6 +167,7 @@
             "id": "e5759c6afbf717b67616de35274ed1a1",
             "name": "STYPEP",
             "title": "STYPEP",
+            "description": "Sous-type détaillant le type d'information complémentaire",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

@@ -12,7 +12,8 @@
             "tableModel": "./types/DOC_URBA_COM.json",
             "id": "5758fa2185331d8be69bea806fcb08c1",
             "name": "DOC_URBA_COM",
-            "title": "DOC_URBA_COM"
+            "title": "DOC_URBA_COM",
+            "description": "Table associant le document d'urbanisme aux communes auxquelles il s'applique"
         },
         {
             "type": "table",
@@ -21,7 +22,8 @@
             "tableModel": "./types/DOC_URBA.json",
             "id": "ff283bc914d33b728131e0ee8badb7c3",
             "name": "DOC_URBA",
-            "title": "DOC_URBA"
+            "title": "DOC_URBA",
+            "description": "Table décrivant les versions successives de la carte communale"
         },
         {
             "type": "directory",
@@ -29,7 +31,8 @@
             "mandatory": "ERROR",
             "id": "02a4e996ada4820387c9f7dae3d5583f",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -38,7 +41,8 @@
             "tableModel": "./types/HABILLAGE_LIN.json",
             "id": "67cde7e9f839938a4dc3ec8875f09105",
             "name": "HABILLAGE_LIN",
-            "title": "HABILLAGE_LIN"
+            "title": "HABILLAGE_LIN",
+            "description": "Table des tracés linéaires indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -47,7 +51,8 @@
             "tableModel": "./types/HABILLAGE_PCT.json",
             "id": "6f8f27f965019c8ee5d71a8ed074ef5d",
             "name": "HABILLAGE_PCT",
-            "title": "HABILLAGE_PCT"
+            "title": "HABILLAGE_PCT",
+            "description": "Table des tracés ponctuels indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -56,7 +61,8 @@
             "tableModel": "./types/HABILLAGE_SURF.json",
             "id": "6868b3d8251f332bd0fd9126768c58db",
             "name": "HABILLAGE_SURF",
-            "title": "HABILLAGE_SURF"
+            "title": "HABILLAGE_SURF",
+            "description": "Table des tracés surfaciques indicatifs figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -65,7 +71,8 @@
             "tableModel": "./types/HABILLAGE_TXT.json",
             "id": "475291bc8e567f32df017ea8ca75eff1",
             "name": "HABILLAGE_TXT",
-            "title": "HABILLAGE_TXT"
+            "title": "HABILLAGE_TXT",
+            "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage"
         },
         {
             "type": "table",
@@ -74,7 +81,8 @@
             "tableModel": "./types/INFO_LIN.json",
             "id": "3ddd67f78ef7d53cd7835fb1906ec650",
             "name": "INFO_LIN",
-            "title": "INFO_LIN"
+            "title": "INFO_LIN",
+            "description": "Table contenant les informations linéaires à reporter à titre d'information"
         },
         {
             "type": "table",
@@ -83,7 +91,8 @@
             "tableModel": "./types/INFO_PCT.json",
             "id": "9b931b59a7e214c80efa48e85b9694fa",
             "name": "INFO_PCT",
-            "title": "INFO_PCT"
+            "title": "INFO_PCT",
+            "description": "Table contenant les informations ponctuelles reportées à titre d'information sur le document d'urbanisme"
         },
         {
             "type": "table",
@@ -92,7 +101,8 @@
             "tableModel": "./types/INFO_SURF.json",
             "id": "4f79a5712f568596b1ec4cf5eb8d4455",
             "name": "INFO_SURF",
-            "title": "INFO_SURF"
+            "title": "INFO_SURF",
+            "description": "Table contenant les périmètres à reporter à titre d'information"
         },
         {
             "type": "table",
@@ -101,7 +111,8 @@
             "tableModel": "./types/SECTEUR_CC.json",
             "id": "7ff1e2741debd578ea917d9e004be64e",
             "name": "SECTEUR_CC",
-            "title": "SECTEUR_CC"
+            "title": "SECTEUR_CC",
+            "description": "Table contenant les secteurs de la carte communale"
         },
         {
             "type": "metadata",
@@ -109,7 +120,8 @@
             "mandatory": "ERROR",
             "id": "f693b3713587bc63a4641353cfaf4fb5",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "directory",
@@ -117,7 +129,8 @@
             "mandatory": "ERROR",
             "id": "57e862609550b5530a9fb37657e8ec10",
             "name": "Pieces_ecrites",
-            "title": "Pieces_ecrites"
+            "title": "Pieces_ecrites",
+            "description": "Répertoire des pièces écrites"
         },
         {
             "type": "directory",
@@ -125,7 +138,8 @@
             "mandatory": "ERROR",
             "id": "de36a552f999c67134b6739a43fbec77",
             "name": "Annexes",
-            "title": "Annexes"
+            "title": "Annexes",
+            "description": "Répertoire Annexes"
         },
         {
             "type": "pdf",
@@ -133,7 +147,8 @@
             "mandatory": "ERROR",
             "id": "60cd9830b31d33e96741bf2767f3fda7",
             "name": "ANNEXE",
-            "title": "ANNEXE"
+            "title": "ANNEXE",
+            "description": "Pièce écrite annexée au document d'urbanisme (pdf)"
         },
         {
             "type": "directory",
@@ -141,7 +156,8 @@
             "mandatory": "ERROR",
             "id": "0b4c9f813544f8381347508cb3fbd11c",
             "name": "Rapport_de_presentation",
-            "title": "Rapport_de_presentation"
+            "title": "Rapport_de_presentation",
+            "description": "Répertoire Rapport de presentation"
         },
         {
             "type": "pdf",
@@ -149,7 +165,8 @@
             "mandatory": "ERROR",
             "id": "345c7db79b41a27e5c66d6750d1d96c4",
             "name": "RAPPORT",
-            "title": "RAPPORT"
+            "title": "RAPPORT",
+            "description": "Rapport de présentation"
         }
     ],
     "codes": [

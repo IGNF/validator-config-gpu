@@ -3,7 +3,7 @@
     "id": "1b95722d3c2f3b568a448f4cc66fd80d",
     "name": "cnig_SCoT_2021",
     "title": "cnig_SCoT_2021",
-    "description": "cnig_SCoT_2021",
+    "description": "Standard CNIG SCoT v2021",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "0ae39ee803a4a0260211db9c678018bf",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -29,7 +30,8 @@
             "mandatory": "ERROR",
             "id": "b0595a7550a0cd08553b0b14687a88ac",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "directory",
@@ -37,7 +39,8 @@
             "mandatory": "ERROR",
             "id": "e72f4178d2f165df8a7a93444218d360",
             "name": "Pieces_ecrites",
-            "title": "Pieces_ecrites"
+            "title": "Pieces_ecrites",
+            "description": "Répertoire des pièces écrites"
         },
         {
             "type": "directory",
@@ -45,7 +48,8 @@
             "mandatory": "ERROR",
             "id": "df2eaa9ffa3c010e37521f8d3421f303",
             "name": "0_Procedure",
-            "title": "0_Procedure"
+            "title": "0_Procedure",
+            "description": "Répertoire 0 Procedure"
         },
         {
             "type": "pdf",
@@ -62,7 +66,8 @@
             "mandatory": "ERROR",
             "id": "890d4c22768322a600e43891c7c20589",
             "name": "PROCEDURE",
-            "title": "PROCEDURE"
+            "title": "PROCEDURE",
+            "description": "Compilation des pièces des procédures successives"
         },
         {
             "type": "directory",
@@ -70,7 +75,8 @@
             "mandatory": "ERROR",
             "id": "e918a32f6a87fe23c18918b366cbf39e",
             "name": "1_SCOT",
-            "title": "1_SCOT"
+            "title": "1_SCOT",
+            "description": "Répertoire 1 SCOT"
         },
         {
             "type": "pdf",
@@ -78,7 +84,8 @@
             "mandatory": "ERROR",
             "id": "7cab2a4cdcadeabf340390f6145b2045",
             "name": "DAAC",
-            "title": "DAAC"
+            "title": "DAAC",
+            "description": "Document d'aménagement artisanal et commercial"
         },
         {
             "type": "pdf",
@@ -86,7 +93,8 @@
             "mandatory": "ERROR",
             "id": "03fb931af98073a336219842fc7be1f8",
             "name": "DOO",
-            "title": "DOO"
+            "title": "DOO",
+            "description": "Document d'orientation et d'objectifs"
         },
         {
             "type": "pdf",
@@ -94,7 +102,8 @@
             "mandatory": "ERROR",
             "id": "c92dfa670bbc157dab5b4bb87690679f",
             "name": "PAS",
-            "title": "projet d'aménagement stratégique"
+            "title": "projet d'aménagement stratégique",
+            "description": "Projet d'aménagement stratégique"
         },
         {
             "type": "directory",
@@ -102,7 +111,8 @@
             "mandatory": "ERROR",
             "id": "8949ec9080d8a1c9dd8779853c3f2695",
             "name": "2_Annexes",
-            "title": "2_Annexes"
+            "title": "2_Annexes",
+            "description": "Répertoire 2 Annexes"
         },
         {
             "type": "pdf",
@@ -110,7 +120,8 @@
             "mandatory": "OPTIONAL",
             "id": "e06e8be25321b62a0ac418bfe99bb7d1",
             "name": "ANNEXE",
-            "title": "ANNEXE"
+            "title": "ANNEXE",
+            "description": "Pièce écrite annexée au document d'urbanisme (pdf)"
         },
         {
             "type": "pdf",
@@ -127,7 +138,8 @@
             "mandatory": "ERROR",
             "id": "1cf1821b88a1fd59755bd26f6dfa6a50",
             "name": "DIAGNOSTIC",
-            "title": "DIAGNOSTIC"
+            "title": "DIAGNOSTIC",
+            "description": "Diagnostic (annexe du SCOT)"
         },
         {
             "type": "pdf",

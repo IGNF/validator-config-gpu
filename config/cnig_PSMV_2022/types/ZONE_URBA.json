@@ -2,14 +2,14 @@
     "id": "b64779085eb1a20a90a8a6790cbeed8f",
     "name": "ZONE_URBA",
     "title": "ZONE_URBA",
-    "description": "Table contenant les zones d'un document PLU ou POS",
+    "description": "Table contenant les zones du PSMV",
     "columns": [
         {
             "type": "String",
             "id": "09a46ab1293b9472729d941c72ad4c7c",
             "name": "FORMDOMI",
             "title": "FORMDOMI",
-            "description": "FORMDOMI",
+            "description": "Forme d'aménagement dominante souhaitée pour la zone",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -50,7 +50,7 @@
             "id": "730d6687687995bfa856cbbaa80a534a",
             "name": "DESTCDT",
             "title": "DESTCDT",
-            "description": "DESTCDT",
+            "description": "Destinations et sous-destinations autorisées sous conditions dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -78,7 +78,7 @@
             "id": "a26c40608f8ba85279e56039e870133b",
             "name": "DESTOUI",
             "title": "DESTOUI",
-            "description": "DESTOUI",
+            "description": "Destinations et sous-destinations autorisées dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -93,7 +93,7 @@
             "id": "a735e8ef5d8575f96aeaaa14e29558c7",
             "name": "DESTNON",
             "title": "DESTNON",
-            "description": "DESTNON",
+            "description": "Destinations et sous-destinations interdites dans la zone (codes DestinationType séparés par « - »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -108,7 +108,7 @@
             "id": "c1eedae1d198bcfa6a5531fcd15b4c53",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

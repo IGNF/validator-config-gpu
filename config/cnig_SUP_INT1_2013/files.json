@@ -3,7 +3,7 @@
     "id": "b051728d2aae83997f127a9ed540f211",
     "name": "cnig_SUP_INT1_2013",
     "title": "cnig_SUP_INT1_2013",
-    "description": "idgest_INT1_ddd_yyyymmdd ",
+    "description": "idgest_INT1_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "dc00152e64cf23d02e39be8778101b21",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "OPTIONAL",
             "id": "fb693f9fc98a9f71543e79905d012d6e",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -27,7 +29,8 @@
             "mandatory": "ERROR",
             "id": "ce6d4f146326de6912340b43d6a7964a",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -36,7 +39,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "057df2499f811f6f4fc08e4d6bc73ad2",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -45,7 +49,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "9e0c35edcde9911c2dadf3b1c49da86a",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -54,7 +59,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "24e5a827311ce687fdab2ca4f80a1bc2",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "table",
@@ -63,7 +69,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "6711f12e0611c778f9408efcecf72c52",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "metadata",
@@ -71,7 +78,8 @@
             "mandatory": "ERROR",
             "id": "8c344c9e4c816b3ae8007c1377fba1a5",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -80,7 +88,8 @@
             "tableModel": "./types/INT1_ASSIETTE_SUP_S.json",
             "id": "4f023238fd99beb83a091d2777252ce1",
             "name": "INT1_ASSIETTE_SUP_S",
-            "title": "INT1_ASSIETTE_SUP_S"
+            "title": "INT1_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie INT1"
         },
         {
             "type": "table",
@@ -89,7 +98,8 @@
             "tableModel": "./types/INT1_GENERATEUR_SUP_S.json",
             "id": "98df6901ee40de10adf64f8d3d78f4a1",
             "name": "INT1_GENERATEUR_SUP_S",
-            "title": "INT1_GENERATEUR_SUP_S"
+            "title": "INT1_GENERATEUR_SUP_S",
+            "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie INT1"
         }
     ],
     "codes": [

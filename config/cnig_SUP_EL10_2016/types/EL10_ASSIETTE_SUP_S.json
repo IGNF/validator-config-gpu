@@ -2,7 +2,7 @@
     "id": "7d59197bcde58c95d4efd0bf78e250fc",
     "name": "EL10_ASSIETTE_SUP_S",
     "title": "EL10_ASSIETTE_SUP_S",
-    "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie EL10",
     "columns": [
         {
             "type": "String",
@@ -88,6 +88,7 @@
             "id": "2101076f305c234e46316420bf2c8767",
             "name": "NOMASS",
             "title": "NOMASS",
+            "description": "Nom abrégé de l'assiette, respectant les règles de nommage des SUP",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -113,6 +114,7 @@
             "id": "36189ccff6785e101f95e54760d151e7",
             "name": "TYPEASS",
             "title": "TYPEASS",
+            "description": "Nature de l'assiette selon sa vocation principale",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

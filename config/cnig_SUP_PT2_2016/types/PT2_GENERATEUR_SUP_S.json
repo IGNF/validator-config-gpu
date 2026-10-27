@@ -2,7 +2,7 @@
     "id": "1ec4998bd67b304bfca0b22c8e8b897a",
     "name": "PT2_GENERATEUR_SUP_S",
     "title": "PT2_GENERATEUR_SUP_S",
-    "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie PT2",
     "columns": [
         {
             "type": "String",
@@ -116,6 +116,7 @@
             "id": "600c12e4c0f2efd49a3bee6806fae8f2",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

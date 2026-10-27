@@ -3,7 +3,7 @@
     "id": "d26d20a4cedbc11a41af411279850199",
     "name": "cnig_SUP_I4_2016",
     "title": "cnig_SUP_I4_2016",
-    "description": "idgest_I4_ddd_yyyymmdd ",
+    "description": "idgest_I4_ddd_yyyymmdd",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "e12336917db72b220b4c50014f3a7015",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "ERROR",
             "id": "20628fcf611fe7e4de3ec46d5c39cd07",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "pdf",
@@ -27,7 +29,8 @@
             "mandatory": "OPTIONAL",
             "id": "2c6514b1b5efaf88fb948f135331d0f5",
             "name": "REGLEMENT",
-            "title": "REGLEMENT"
+            "title": "REGLEMENT",
+            "description": "Règlement de la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -35,7 +38,8 @@
             "mandatory": "ERROR",
             "id": "ca85296786ef0bcdf169c4c43cbc94da",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -44,7 +48,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "ff0b1a076ed22273e7a9289b262b2f8c",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -53,7 +58,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "2d2b225b109b9600570974d350b82a79",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -62,7 +68,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "51e3b029ff472763db9ab99853a3c3cc",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "table",
@@ -71,7 +78,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "ef2f821bb8648d49b1b2c08a72a65693",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "metadata",
@@ -79,7 +87,8 @@
             "mandatory": "ERROR",
             "id": "da92d26cb41d331a13e0f983e12618c8",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -88,7 +97,8 @@
             "tableModel": "./types/I4_ASSIETTE_SUP_S.json",
             "id": "13f3a3dc6bc23afb5607facc7743c19d",
             "name": "I4_ASSIETTE_SUP_S",
-            "title": "I4_ASSIETTE_SUP_S"
+            "title": "I4_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie I4"
         },
         {
             "type": "table",
@@ -97,7 +107,8 @@
             "tableModel": "./types/I4_GENERATEUR_SUP_L.json",
             "id": "29fa65bd336d88f6192b047ae600c863",
             "name": "I4_GENERATEUR_SUP_L",
-            "title": "I4_GENERATEUR_SUP_L"
+            "title": "I4_GENERATEUR_SUP_L",
+            "description": "Table contenant les générateurs linéaires des servitudes de la catégorie I4"
         },
         {
             "type": "table",
@@ -106,7 +117,8 @@
             "tableModel": "./types/I4_GENERATEUR_SUP_P.json",
             "id": "2d993e10da99458afeebd3cfef539b12",
             "name": "I4_GENERATEUR_SUP_P",
-            "title": "I4_GENERATEUR_SUP_P"
+            "title": "I4_GENERATEUR_SUP_P",
+            "description": "Table contenant les générateurs ponctuels des servitudes de la catégorie I4"
         }
     ],
     "codes": [

@@ -2,13 +2,14 @@
     "id": "e971cf64c9c50dc91c4658db8f665d99",
     "name": "HABILLAGE_TXT",
     "title": "HABILLAGE_TXT",
-    "description": "Table des objets textuels (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'ha",
+    "description": "Table des écritures (étiquettes) figurant sur le plan du document d'urbanisme à des fins d'habillage",
     "columns": [
         {
             "type": "String",
             "id": "245305b2536ab41ab408114d7374e836",
             "name": "POLICE",
             "title": "POLICE",
+            "description": "Nom de la police de l'écriture",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -21,6 +22,7 @@
             "id": "5c15f5ce404387c8a849b691e736e497",
             "name": "TAILLE",
             "title": "TAILLE",
+            "description": "Taille des caractères en points",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -32,6 +34,7 @@
             "id": "7269cca7e9135a1bfa6e2019cf29e756",
             "name": "STYLE",
             "title": "STYLE",
+            "description": "Style de l'écriture (ex : italique, gras, souligné)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -96,6 +99,7 @@
             "id": "f681a9ab6719593dbc5aef94dab0ffe4",
             "name": "ANGLE",
             "title": "ANGLE",
+            "description": "Angle de l'écriture en degrés par rapport à l'horizontale, dans le sens trigonométrique",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

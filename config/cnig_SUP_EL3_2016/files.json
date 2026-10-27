@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "5ac686f3c09d057f4d0c98e52c7a7361",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "ERROR",
             "id": "3768de4e00ce442db4d923eea8a4082f",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "pdf",
@@ -27,7 +29,8 @@
             "mandatory": "OPTIONAL",
             "id": "8c501c54e3733bd612278cf87fb0d555",
             "name": "REGLEMENT",
-            "title": "REGLEMENT"
+            "title": "REGLEMENT",
+            "description": "Règlement de la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -35,7 +38,8 @@
             "mandatory": "ERROR",
             "id": "0fdf18ff367ebb7448d626a25fa0ffc9",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -44,7 +48,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "ee2b6f68dee9212d085b74192de86ba2",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -53,7 +58,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "844578e1f33b3d020fa69c8d1aa5de3b",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -62,7 +68,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "956c7bf4280487d70813b63078ed5671",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "table",
@@ -71,7 +78,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "224122284ddf087e95c22e80a3ffb54d",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "metadata",
@@ -79,7 +87,8 @@
             "mandatory": "ERROR",
             "id": "e7881d9fb45a62ee1bc144a15d12dde4",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -88,7 +97,8 @@
             "tableModel": "./types/EL3_ASSIETTE_SUP_S.json",
             "id": "b2813c8bd18071f874d4d4f0d344ab08",
             "name": "EL3_ASSIETTE_SUP_S",
-            "title": "EL3_ASSIETTE_SUP_S"
+            "title": "EL3_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie EL3"
         },
         {
             "type": "table",
@@ -97,7 +107,8 @@
             "tableModel": "./types/EL3_GENERATEUR_SUP_L.json",
             "id": "faf76c05e6d955b54476a07dd598f87b",
             "name": "EL3_GENERATEUR_SUP_L",
-            "title": "EL3_GENERATEUR_SUP_L"
+            "title": "EL3_GENERATEUR_SUP_L",
+            "description": "Table contenant les générateurs linéaires des servitudes de la catégorie EL3"
         },
         {
             "type": "table",
@@ -106,7 +117,8 @@
             "tableModel": "./types/EL3_GENERATEUR_SUP_S.json",
             "id": "dcca7a8c90977c13804f71f6e0d43338",
             "name": "EL3_GENERATEUR_SUP_S",
-            "title": "EL3_GENERATEUR_SUP_S"
+            "title": "EL3_GENERATEUR_SUP_S",
+            "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie EL3"
         }
     ],
     "codes": [

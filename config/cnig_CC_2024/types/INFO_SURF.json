@@ -9,7 +9,7 @@
             "id": "0b02c7f30adaf45902c6dee8972122d2",
             "name": "NATURE",
             "title": "NATURE",
-            "description": "NATURE",
+            "description": "Libellé caractérisant un ensemble d'objets de même type et sous-type (espaces remplacés par « _ »)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -101,6 +101,7 @@
             "id": "7630a79b7ecd64c1e32a80690dff1114",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -152,6 +153,7 @@
             "id": "c2cb543fc7966e30c9f13bb8322f3ba4",
             "name": "STYPEP",
             "title": "STYPEP",
+            "description": "Sous-type détaillant le type d'information complémentaire",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -164,6 +166,7 @@
             "id": "cde8867bf2f17f7d7791114542059fb0",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -176,7 +179,7 @@
             "id": "f169133d5ab229bacc80dbd2afd0a509",
             "name": "SYMBOLE",
             "title": "SYMBOLE",
-            "description": "SYMBOLE",
+            "description": "Symbolisation alternative, faisant référence au registre des symboles du CNIG",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

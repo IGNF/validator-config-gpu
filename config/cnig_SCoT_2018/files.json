@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "10d4f330c1e2bb1a5629b9aa3ae9fa94",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -29,7 +30,8 @@
             "mandatory": "ERROR",
             "id": "944f9abfbf49bf636d3791468039eab6",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "directory",
@@ -37,7 +39,8 @@
             "mandatory": "ERROR",
             "id": "4312d8d9a2daa8ed99a02c38e4f14281",
             "name": "Pieces_ecrites",
-            "title": "Pieces_ecrites"
+            "title": "Pieces_ecrites",
+            "description": "Répertoire des pièces écrites"
         },
         {
             "type": "directory",
@@ -45,7 +48,8 @@
             "mandatory": "ERROR",
             "id": "63496d5a88e6125e93ac6be8b6fa956e",
             "name": "0_Procedure",
-            "title": "0_Procedure"
+            "title": "0_Procedure",
+            "description": "Répertoire 0 Procedure"
         },
         {
             "type": "pdf",
@@ -53,7 +57,8 @@
             "mandatory": "ERROR",
             "id": "7a5838bf0547be2a0e75968d5943c604",
             "name": "PROCEDURE",
-            "title": "PROCEDURE"
+            "title": "PROCEDURE",
+            "description": "Compilation des pièces des procédures successives"
         },
         {
             "type": "directory",
@@ -61,7 +66,8 @@
             "mandatory": "ERROR",
             "id": "ef5476e85180361636e05222a9ea20b2",
             "name": "1_SCOT",
-            "title": "1_SCOT"
+            "title": "1_SCOT",
+            "description": "Répertoire 1 SCOT"
         },
         {
             "type": "pdf",
@@ -69,7 +75,8 @@
             "mandatory": "ERROR",
             "id": "ae873609567b5afff04997deedaeb632",
             "name": "DOO",
-            "title": "DOO"
+            "title": "DOO",
+            "description": "Document d'orientation et d'objectifs"
         },
         {
             "type": "pdf",
@@ -77,7 +84,8 @@
             "mandatory": "ERROR",
             "id": "42986519e27c8f83a99db14cb6698148",
             "name": "PADD",
-            "title": "PADD"
+            "title": "PADD",
+            "description": "Projet d'aménagement et de développement durables"
         },
         {
             "type": "pdf",
@@ -85,7 +93,8 @@
             "mandatory": "WARN",
             "id": "266250a2dc3ce5526ec99b2de853c3b8",
             "name": "RAPPORT",
-            "title": "RAPPORT"
+            "title": "RAPPORT",
+            "description": "Rapport de présentation"
         },
         {
             "type": "directory",
@@ -93,7 +102,8 @@
             "mandatory": "OPTIONAL",
             "id": "02c946d1e93a2b00f0f44c43ed35a562",
             "name": "2_Autres_documents",
-            "title": "2_Autres_documents"
+            "title": "2_Autres_documents",
+            "description": "Répertoire 2 Autres documents"
         },
         {
             "type": "pdf",
@@ -101,7 +111,8 @@
             "mandatory": "OPTIONAL",
             "id": "d81e638b3eefd9f362c13acaa4da40e8",
             "name": "AUTRE_DOCUMENT",
-            "title": "AUTRE_DOCUMENT"
+            "title": "AUTRE_DOCUMENT",
+            "description": "Autre pièce écrite"
         },
         {
             "type": "table",

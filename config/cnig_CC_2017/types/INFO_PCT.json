@@ -2,7 +2,7 @@
     "id": "e9a077252721b2456352413a818ca880",
     "name": "INFO_PCT",
     "title": "INFO_PCT",
-    "description": "Table contenant les informations ponctuelles à reporter à titre  d'information",
+    "description": "Table contenant les informations ponctuelles reportées à titre d'information sur le document d'urbanisme",
     "columns": [
         {
             "type": "Url",
@@ -35,6 +35,7 @@
             "id": "253cc0cab98c849a50d6196197b704f6",
             "name": "DATVALID",
             "title": "DATVALID",
+            "description": "Date de la dernière validation de l'objet (antérieure ou égale à DATAPPRO)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -73,6 +74,7 @@
             "id": "92bcbcc8212e373a884c71296d5890b7",
             "name": "TYPEP",
             "title": "TYPEP",
+            "description": "Type d'information complémentaire (codification PrescriptionUrbaType)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -112,6 +114,7 @@
             "id": "a57efba8998eb017eddc63e18f619374",
             "name": "STYPEINF",
             "title": "STYPEINF",
+            "description": "Sous-type détaillant le type d'information",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

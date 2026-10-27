@@ -2,7 +2,7 @@
     "id": "7b214a9f0167a707f1222514ede0a351",
     "name": "T7_ASSIETTE_SUP_S",
     "title": "T7_ASSIETTE_SUP_S",
-    "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie T7",
     "columns": [
         {
             "type": "String",
@@ -88,6 +88,7 @@
             "id": "2c5dc6789060d32229b39a7863696251",
             "name": "NOMASS",
             "title": "NOMASS",
+            "description": "Nom abrégé de l'assiette, respectant les règles de nommage des SUP",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -101,6 +102,7 @@
             "id": "33a9b2bd95003ac989d704a3e6df4844",
             "name": "TYPEASS",
             "title": "TYPEASS",
+            "description": "Nature de l'assiette selon sa vocation principale",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -116,6 +118,7 @@
             "id": "78994377b04fc7fa92e27b271447c7ba",
             "name": "H",
             "title": "H",
+            "description": "Hauteur minimale ou altitude minimale de l'objet, en mètres",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -139,6 +142,7 @@
             "id": "f81f9f0818fbcf0a9e24af7e89703e35",
             "name": "HREF",
             "title": "HREF",
+            "description": "Altitude de référence (SOL : terrain naturel, NGF : nivellement général de la France)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

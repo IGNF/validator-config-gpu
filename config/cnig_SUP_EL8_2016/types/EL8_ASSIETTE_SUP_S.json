@@ -2,7 +2,7 @@
     "id": "ed48b5f3aba35c0c1300ac5f9e70491e",
     "name": "EL8_ASSIETTE_SUP_S",
     "title": "EL8_ASSIETTE_SUP_S",
-    "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie EL8",
     "columns": [
         {
             "type": "String",
@@ -100,6 +100,7 @@
             "id": "31008a263d8568a38bb7a6ea5eae3e35",
             "name": "H",
             "title": "H",
+            "description": "Hauteur minimale ou altitude minimale de l'objet, en mètres",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -111,6 +112,7 @@
             "id": "38da2ca5d5414d48027c846fb0a28f18",
             "name": "ANGLE2",
             "title": "ANGLE2",
+            "description": "Angle d'arrivée du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -122,6 +124,7 @@
             "id": "5cbe1e0e20463e5d3ee94ae9b288895b",
             "name": "HREF",
             "title": "HREF",
+            "description": "Altitude de référence (SOL : terrain naturel, NGF : nivellement général de la France)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -134,6 +137,7 @@
             "id": "6688146b469d987ed32db3eb750eb746",
             "name": "NOMASS",
             "title": "NOMASS",
+            "description": "Nom abrégé de l'assiette, respectant les règles de nommage des SUP",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -147,6 +151,7 @@
             "id": "950e56f8e5640f4c09561c427d0e3835",
             "name": "TYPEASS",
             "title": "TYPEASS",
+            "description": "Nature de l'assiette selon sa vocation principale",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -162,6 +167,7 @@
             "id": "c88330139505618531477f8415d27969",
             "name": "RAYON",
             "title": "RAYON",
+            "description": "Rayon du secteur angulaire, en mètres",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
@@ -173,6 +179,7 @@
             "id": "d0ac01816e33151819d3a8a0ba0325b9",
             "name": "ANGLE1",
             "title": "ANGLE1",
+            "description": "Angle de départ du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

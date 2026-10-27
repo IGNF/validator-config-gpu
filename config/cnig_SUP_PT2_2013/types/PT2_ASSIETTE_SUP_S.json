@@ -2,7 +2,7 @@
     "id": "25189d337e33ee6251e7c264dd3fd1d9",
     "name": "PT2_ASSIETTE_SUP_S",
     "title": "PT2_ASSIETTE_SUP_S",
-    "description": "Table contenant les assiettes ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie PT2",
     "columns": [
         {
             "type": "String",
@@ -111,6 +111,7 @@
             "id": "0cd5cee588b6e5c9f22491155b0c3f26",
             "name": "LARGEUR",
             "title": "LARGEUR",
+            "description": "Largeur du faisceau, en mètres",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -122,6 +123,7 @@
             "id": "12e1cb95b020b90edde8fdbf8ddb734c",
             "name": "ANGLE1",
             "title": "ANGLE1",
+            "description": "Angle de départ du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -133,6 +135,7 @@
             "id": "1e3efea370b2525960308beaa56715db",
             "name": "XFINAL",
             "title": "XFINAL",
+            "description": "Abscisse du point final du faisceau",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -144,6 +147,7 @@
             "id": "4a3230757767dee45c4d524894bb5229",
             "name": "ANGLE2",
             "title": "ANGLE2",
+            "description": "Angle d'arrivée du secteur de dégagement, en degrés par rapport au nord",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -155,6 +159,7 @@
             "id": "4b6c8194290795f1cf14cffb686490a2",
             "name": "RAYON",
             "title": "RAYON",
+            "description": "Rayon du secteur angulaire, en mètres",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -166,6 +171,7 @@
             "id": "5a79011b4a5877cc7f5211412e885f16",
             "name": "XDEBUT",
             "title": "XDEBUT",
+            "description": "Abscisse du point initial du faisceau",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -177,6 +183,7 @@
             "id": "93285840ba1e34e84a2b38661f6ecfc5",
             "name": "HREF",
             "title": "HREF",
+            "description": "Altitude de référence (SOL : terrain naturel, NGF : nivellement général de la France)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -189,6 +196,7 @@
             "id": "af5008b20fee0aa46e3641c52e1cd538",
             "name": "YDEBUT",
             "title": "YDEBUT",
+            "description": "Ordonnée du point initial du faisceau",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -212,6 +220,7 @@
             "id": "f0551dbd02976f4620c43dbfa86b85fa",
             "name": "H",
             "title": "H",
+            "description": "Hauteur minimale ou altitude minimale de l'objet, en mètres",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -223,6 +232,7 @@
             "id": "f8c4c9d713b7897b25075909bc576bf4",
             "name": "YFINAL",
             "title": "YFINAL",
+            "description": "Ordonnée du point final du faisceau",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,

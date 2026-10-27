@@ -2,13 +2,14 @@
     "id": "59c6c6794d0513c9fef44f66512a2ff2",
     "name": "JS1_GENERATEUR_SUP_S",
     "title": "JS1_GENERATEUR_SUP_S",
-    "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie JS1",
     "columns": [
         {
             "type": "String",
             "id": "eb9eb00594a6c5fb245c9ef98eb9cf44",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

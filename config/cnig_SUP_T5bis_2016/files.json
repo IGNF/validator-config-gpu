@@ -3,7 +3,7 @@
     "id": "1c21c830a470ef0dd778659ef2be54e9",
     "name": "cnig_SUP_T5bis_2016",
     "title": "cnig_SUP_T5bis_2016",
-    "description": "cnig_SUP_T5bis_2016",
+    "description": "Standard CNIG SUP v2016",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "28d3369af1e72cc94c93f6432f5857f9",
             "name": "Actes",
-            "title": "Actes"
+            "title": "Actes",
+            "description": "Répertoire des actes instituant les servitudes (pdf)"
         },
         {
             "type": "pdf",
@@ -19,7 +20,8 @@
             "mandatory": "ERROR",
             "id": "6703a5cf7d5e663e3e9f91ff1d04a847",
             "name": "ACTE",
-            "title": "ACTE"
+            "title": "ACTE",
+            "description": "Acte instituant la servitude (pdf)"
         },
         {
             "type": "pdf",
@@ -27,7 +29,8 @@
             "mandatory": "OPTIONAL",
             "id": "056aa27092b4d48166167dfcb7df893f",
             "name": "REGLEMENT",
-            "title": "REGLEMENT"
+            "title": "REGLEMENT",
+            "description": "Règlement de la servitude (pdf)"
         },
         {
             "type": "directory",
@@ -35,7 +38,8 @@
             "mandatory": "ERROR",
             "id": "dee77565f9d2aebb7ff0284e6331ff23",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -44,7 +48,8 @@
             "tableModel": "./types/ACTE_SUP.json",
             "id": "376ea3000b6869709c6d4e0d632c666b",
             "name": "ACTE_SUP",
-            "title": "ACTE_SUP"
+            "title": "ACTE_SUP",
+            "description": "Table contenant la liste des actes instituant une servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -53,7 +58,8 @@
             "tableModel": "./types/GESTIONNAIRE_SUP.json",
             "id": "d711f969b7a6e4d91db1c085619d591a",
             "name": "GESTIONNAIRE_SUP",
-            "title": "GESTIONNAIRE_SUP"
+            "title": "GESTIONNAIRE_SUP",
+            "description": "Table contenant la liste des gestionnaires de servitude d'utilité publique"
         },
         {
             "type": "table",
@@ -62,7 +68,8 @@
             "tableModel": "./types/SERVITUDE.json",
             "id": "9c9fc8d244dc0816f5c681080ddc24dc",
             "name": "SERVITUDE",
-            "title": "SERVITUDE"
+            "title": "SERVITUDE",
+            "description": "Table contenant la liste des servitudes d'utilité publique"
         },
         {
             "type": "table",
@@ -71,7 +78,8 @@
             "tableModel": "./types/SERVITUDE_ACTE_SUP.json",
             "id": "4ea39148c30b75d15dfa846407e2177e",
             "name": "SERVITUDE_ACTE_SUP",
-            "title": "SERVITUDE_ACTE_SUP"
+            "title": "SERVITUDE_ACTE_SUP",
+            "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes"
         },
         {
             "type": "metadata",
@@ -79,7 +87,8 @@
             "mandatory": "ERROR",
             "id": "f863107152a7dbe03a56f19591fe30e5",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "table",
@@ -88,7 +97,8 @@
             "tableModel": "./types/T5bis_ASSIETTE_SUP_S.json",
             "id": "679a4b40934f75a87b983152777abc56",
             "name": "T5bis_ASSIETTE_SUP_S",
-            "title": "T5bis_ASSIETTE_SUP_S"
+            "title": "T5bis_ASSIETTE_SUP_S",
+            "description": "Table contenant les assiettes surfaciques des servitudes de la catégorie T5bis"
         },
         {
             "type": "table",
@@ -97,7 +107,8 @@
             "tableModel": "./types/T5bis_GENERATEUR_SUP_S.json",
             "id": "ee85974cacdcf69e84fa3147bc265ebc",
             "name": "T5bis_GENERATEUR_SUP_S",
-            "title": "T5bis_GENERATEUR_SUP_S"
+            "title": "T5bis_GENERATEUR_SUP_S",
+            "description": "Table contenant les générateurs surfaciques des servitudes de la catégorie T5bis"
         }
     ],
     "codes": [

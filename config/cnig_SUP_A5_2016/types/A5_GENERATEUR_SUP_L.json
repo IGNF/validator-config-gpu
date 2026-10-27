@@ -2,7 +2,7 @@
     "id": "66bdffb3453cbca6243f87415edd774d",
     "name": "A5_GENERATEUR_SUP_L",
     "title": "A5_GENERATEUR_SUP_L",
-    "description": "Table contenant les générateurs ponctuels / linéaires / surfaciques liés aux servitudes de la catégorie CAT",
+    "description": "Table contenant les générateurs linéaires des servitudes de la catégorie A5",
     "columns": [
         {
             "type": "String",
@@ -116,6 +116,7 @@
             "id": "97b7390050fc6ce09942a331975ce30a",
             "name": "TYPEGEN",
             "title": "TYPEGEN",
+            "description": "Nature de l'entité génératrice",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,

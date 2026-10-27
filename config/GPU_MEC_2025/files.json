@@ -3,7 +3,7 @@
     "id": "ae1b7c300cc2bd02910b8c279cfb4af0",
     "name": "GPU_MEC_2025",
     "title": "GPU_MEC_2025",
-    "description": "GPU_MEC_2025",
+    "description": "Modèle GPU MEC v2025",
     "files": [
         {
             "type": "directory",
@@ -11,7 +11,8 @@
             "mandatory": "ERROR",
             "id": "77abe0633719b26e5f0e93d11cbeb07c",
             "name": "Donnees_geographiques",
-            "title": "Donnees_geographiques"
+            "title": "Donnees_geographiques",
+            "description": "Répertoire des données géographiques"
         },
         {
             "type": "table",
@@ -28,7 +29,8 @@
             "mandatory": "ERROR",
             "id": "e42ea120ac70823c17af94bfc2fe103d",
             "name": "METADONNEES",
-            "title": "METADONNEES"
+            "title": "METADONNEES",
+            "description": "Fiche de métadonnées INSPIRE (xml)"
         },
         {
             "type": "directory",
@@ -37,7 +39,7 @@
             "id": "ef4859dacad0c8d047041651a2851ebe",
             "name": "Pieces_ecrites",
             "title": "Pieces_ecrites",
-            "description": "Pieces_ecrites"
+            "description": "Répertoire des pièces écrites"
         },
         {
             "type": "table",
@@ -46,7 +48,8 @@
             "tableModel": "./types/TITRES_PIECES_ECRITES.json",
             "id": "a7ab4f66fc82f0ed5d0764f252a692bf",
             "name": "TITRES_PIECES_ECRITES",
-            "title": "TITRES_PIECES_ECRITES"
+            "title": "TITRES_PIECES_ECRITES",
+            "description": "Table de correspondance entre le nom standardisé des pièces écrites et leur titre usuel"
         },
         {
             "type": "pdf",
@@ -55,7 +58,7 @@
             "id": "00f032b6a05ccc8b7395425d62ff19f5",
             "name": "ARRETE_MEC",
             "title": "ARRETE_MEC",
-            "description": "ARRETE_MEC"
+            "description": "Arrêté mettant en compatibilité le document"
         },
         {
             "type": "pdf",

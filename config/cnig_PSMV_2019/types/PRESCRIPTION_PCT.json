@@ -48,7 +48,7 @@
             "id": "6f22a33bc31c1685d51565bca8534f6a",
             "name": "ANGLE",
             "title": "ANGLE",
-            "description": "ANGLE",
+            "description": "Angle du symbole ponctuel en degrés par rapport à l'horizontale, sens anti-trigonométrique (0 à 359)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
@@ -85,6 +85,7 @@
             "id": "94d8f95fcd6508a0bc13dd0943791c2e",
             "name": "STYPEPSC",
             "title": "STYPEPSC",
+            "description": "Sous-type détaillant le type de prescription",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
