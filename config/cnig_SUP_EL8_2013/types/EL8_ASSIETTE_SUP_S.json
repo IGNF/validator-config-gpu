@@ -177,7 +177,7 @@
     ],
     "constraints": {
         "conditions": [
-            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'",
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone tampon'",
             "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Digitalisation'"
         ],
         "foreignKeys": [

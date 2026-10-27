@@ -52,7 +52,8 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": true
+                "unique": true,
+                "pattern": "[0-9]{9}"
             }
         },
         {
