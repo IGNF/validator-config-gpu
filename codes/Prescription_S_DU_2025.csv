@@ -26,7 +26,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 07,03,"Patrimoine paysager correspondant à un espace boisé à protéger pour des motifs d'ordre culturel, historique, architectural",L151-19,R151-41 3°
 07,04,"Éléments de paysage, (sites et secteurs) à préserver pour des motifs d'ordre écologique",L151-23,R151-43 5°
 07,05,"Éléments de paysage correspondant à un espace boisé, (sites et secteurs) à préserver pour des motifs d'ordre écologique",L151-23 al.1,R151-43 5°
-08,00,Terrain cultivé ou non bâti à protéger en zone urbaine,L151-23 al. 2,R151-43 6°
+08,00,Terrain cultivé ou espace non bâti à protéger en zone urbaine,L151-23 al. 2,R151-43 6°
 13,00,Zone à aménager en vue de la pratique du ski,L151-38 al. 2,R151-48 3°
 14,00,Secteur de plan de masse,,R151-40
 15,00,Règles d’implantation des constructions,L151-17  et L151-18,R151-39 dernier al.
@@ -53,11 +53,11 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 18,09,OAP relatives aux espaces publics en zone d’aménagement concerté,L151-7-1 1°,
 18,10,"OAP relatives aux ouvrages publics, installations d’intérêt général et espaces verts en zone d’aménagement concerté",L151-7-1 2°,
 18,11,OAP valant création de zone d’aménagement concerté,L151-7-2,
-18,12,OAP secteurs de renaturation L.,151-7 I 4°,
+18,12,OAP secteurs de renaturation,L. 151-7 I 4°,
 18,13,OAP relatives à la protection des franges urbaines et rurales,L.151-7 I 7°,
 18,14,OAP recul du trait de côte,L.151-7 III,
 18,15,OAP trames vertes et bleues,L.151-6-2,R151-7
-18,16,"OAP zone d’accélération de la production d’énergies renouvelables",,
+18,16,"OAP zone d’accélération de la production d’énergies renouvelables",L.151-7 I 8°,
 19,00,Secteur protégé en raison de la richesse du sol et du sous-sol,,R151-34 2°
 20,00,Secteur à transfert de constructibilité en zone N,L151-25,R151-36
 22,00,Diversité commerciale à protéger ou à développer,L151-16,R151-37 4°
@@ -151,10 +151,10 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 51,00,"Autorisation sous conditions types d’activités, destinations, sous-destinations",L151-9,R151-33
 52,00,Infrastructures et équipements logistiques à préserver ou à développer en zones U et AU,L151-16-2,
 53,00,"Dérogation à l’article L.111-6 pour l’implantation des constructions le long des grands axes routiers",L.111-8,
-54,01,Zone exposée au recul du trait de côte à l'horizon de trente ans L121-22-2 S,,
-54,02,Zone exposée au recul du trait de côte à un horizon compris entre trente et cent ans,L121-22-2 S,
-55,01,"Secteur d’implantation d’installations de production d'énergies renouvelables, et leurs ouvrages de raccordement, soumises à conditions",L151-42-1 I S,
-55,02,"Secteur d'exclusion d'installations de prod. d'énergies renouvelables",L151-42-1 II S,
+54,01,Zone exposée au recul du trait de côte à l'horizon de trente ans,L121-22-2,
+54,02,Zone exposée au recul du trait de côte à un horizon compris entre trente et cent ans,L121-22-2,
+55,01,"Secteur d’implantation d’installations de production d'énergies renouvelables, et leurs ouvrages de raccordement, soumises à conditions",L151-42-1 I,
+55,02,"Secteur d'exclusion d'installations de prod. d'énergies renouvelables",L151-42-1 II,
 56,00,"Secteur dans lequel toutes les constructions nouvelles de logements sont à usage exclusif de résidence principale",L151-14-1,
 97,00,"Périmètre d’application d’une pièce écrite territorialisée (rapport de présentation, PADD, règlement, règlement graphique, POA)",,
 97,01,Périmètre couvert par un Plan de secteurs,L151-3,

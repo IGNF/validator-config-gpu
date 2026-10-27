@@ -89,7 +89,7 @@
             "name": "H",
             "title": "H",
             "constraints": {
-                "required": false,
+                "required": true,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -113,7 +113,7 @@
             "name": "HREF",
             "title": "HREF",
             "constraints": {
-                "required": false,
+                "required": true,
                 "presenceRequired": true,
                 "unique": false,
                 "maxLength": 3
@@ -141,7 +141,7 @@
                 "presenceRequired": true,
                 "unique": false,
                 "enum": [
-                    "Remontée mécanique ou piste de ski"
+                    "Zone de protection"
                 ],
                 "maxLength": 40
             }

@@ -47,7 +47,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 16,03,Secteur de taille et de capacité d’accueil limitées (STECAL) en zone A ou N,L151-13,R151-23 2° et R151-25 2°
 16,04,Constructions et installations nécessaires à l’activité agricole en zone A ou N,L151-11 II,R151-23 1° et R151-25 1°
 17,00,Secteur à programme de logements mixité sociale en zone U et AU,L151-15,R151-38 3°
-18,00,Périmètre comportant des orientations d’aménagement et de programmation (OAP),L151-7 1°,R313-4
+18,00,Secteur comportant des orientations d’aménagement et de programmation (OAP),L151-7 1°,R313-4
 18,01,OAP de projet (sans règlement),L151-7 1°,R313-4
 18,02,OAP entrées de ville,L151-7 1°,R313-4
 18,05,"OAP patrimoniales, architecturales et écologiques",,
@@ -55,7 +55,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 18,09,OAP relatives aux espaces publics en zone d’aménagement concerté S,,
 18,10,OAP relatives aux ouvrages publics, installations d’intérêt général et espaces verts en zone d’aménagement concerté,
 18,11,OAP valant création de zone d’aménagement concerté,,
-18,12,OAP secteurs de renaturation L.,151-7 I 4°,
+18,12,OAP secteurs de renaturation,L. 151-7 I 4°,
 18,13,OAP relatives à la protection des franges urbaines et rurales,L.151-7 I 7°,
 18,14,OAP recul du trait de côte,L.151-7 III,
 18,15,OAP trames vertes et bleues,,
@@ -99,7 +99,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 35,00,"Terres nécessaires au maintien et au développement des activités agricoles, pastorales et forestières à préserver",L122-10,
 36,00,Mixité des destinations ou sous-destinations,,R151-37 1°
 37,00,Règles différenciées entre le rez-de-chaussée et les étages supérieurs des constructions,,R151-37 3°
-37,01,Règles différenciées pour le rez-de-chaussée en raison des risques inondations,,R151-42 4°
+37,01,Règles différenciées pour le rez-de-chaussée en raison des risques,,R151-42 4°
 37,02,Règles différenciées pour mixité sociale et fonctionnelle,,R151-37 1° et 3°
 38,00,Emprise au sol,L631-4 CP I 2°a,R151-39 
 38,01,Emprise au sol minimale,L631-4 CP I 2°a,R151-39 2e al.
@@ -123,7 +123,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 41,98,Aspect extérieur règles alternatives,L631-4 CP I 2°a,R151-13 
 42,00,Coefficient de biotope par surface,,R151-43 1°
 43,00,"Réalisation d’espaces libres, plantations, aires de jeux et de loisir",,R151-43 2° et 8°
-43,01,"Réalisation d’espaces libres,",,R151-43 2°
+43,01,Réalisation d’espaces libres,,R151-43 2°
 43,02,Réalisation d’aires de jeux et de loisirs,,R151-43 2°
 43,03,Réglementation des plantations,,R151-43 8°
 43,50,Espace vert à créer,,R151-43 2°
@@ -133,6 +133,7 @@ TYPEPSC,STYPEPSC,LIBELLE,REFLOI,REFREGLE
 44,02,Stationnement maximal,,R151-45 3°
 44,03,Caractéristiques et type de stationnement,,R151-45 1°
 44,04,Minoration des règles de stationnement,,R151-45 2°
+44,05,Réalisation d’aires de livraisons imposée,L151-33-1,
 44,98,Stationnement règles alternatives,,R151-13
 47,00,Desserte par les réseaux,,R151-49 
 47,01,Réseaux publics d'eau,,R151-49 
