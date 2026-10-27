@@ -25,6 +25,9 @@
         "MAILLAGE": "(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9})",
         "_MAILLAGE_OPT": "(_(FR|RR?[0-9]{2}|0?2[AB]|[0-9]{2,3}|(2A|2B|[0-9]{2})[0-9]{3}|[0-9]{9}))?",
         "NOMPROC": "(E|R|A|(MEC|MAJ|MS|RA|RS|M)[0-9]+)",
+        "NOMPROC_CC": "(E|R|A)",
+        "NOMPROC_PSMV": "(E|R|A|(MEC|MAJ|RS|M)[0-9]+)",
+        "NOMPROC_SCOT": "(E|R|(MEC|MAJ|MS|RS|M)[0-9]+)",
         "_NUM_OPT": "(_[0-9]+)?",
         "_NUM_TERRIT_OPT": "((_97_00)?_[0-9]+)?",
         "_PART_OPT": "(_[a-zA-Z])?",
@@ -40,7 +43,14 @@
             "DIGIT_9": "SIREN"
         },
         "cnig_SCoT": {
-            "DIGIT_9": "SIREN"
+            "DIGIT_9": "SIREN",
+            "NOMPROC_SCOT": "NOMPROC"
+        },
+        "cnig_PSMV": {
+            "NOMPROC_PSMV": "NOMPROC"
+        },
+        "cnig_CC": {
+            "NOMPROC_CC": "NOMPROC"
         }
     }
 }
