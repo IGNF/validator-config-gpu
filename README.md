@@ -1,22 +1,18 @@
 # validator-config-gpu
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
+[![Site](https://github.com/IGNF/validator-config-gpu/actions/workflows/pages.yml/badge.svg)](https://ignf.github.io/validator-config-gpu/)
 
-## Description
+Configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation des standards CNIG dans le [Géoportail de l'Urbanisme (GpU)](https://www.geoportail-urbanisme.gouv.fr).
 
-Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation des standards CNIG au niveau du [Géoportail de l'Urbanisme (GpU)](https://www.geoportail-urbanisme.gouv.fr).
+Les issues sont les bienvenues ; les pull requests ne sont pas souhaitées dans l'immédiat.
 
-## Consulter et utiliser les modèles
+## Utiliser les modèles
 
-Le contenu de la branche `main` est publié sur GitHub Pages à chaque push ([workflow](.github/workflows/pages.yml)) :
+La branche `main` est publiée sur GitHub Pages à chaque push :
 
-| Lien                                                                                     | Description                                   |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------- |
-| https://ignf.github.io/validator-config-gpu/                                             | Site de consultation des modèles (lecture seule) |
-| https://ignf.github.io/validator-config-gpu/config/cnig_PLU_2017/files.json              | Modèle CNIG PLU v2017 (JSON validateur)       |
-| https://ignf.github.io/validator-config-gpu/config/cnig_PLU_2017/types/ZONE_URBA.json    | Table ZONE_URBA (JSON validateur)             |
-
-Le dossier `config/` est publié tel quel : l'API de validation ([IGNF/validator-api](https://github.com/IGNF/validator-api)) utilise l'URL `config/<modèle>/files.json` de chaque modèle, qui reflète donc l'état courant de `main`. Ces URL peuvent aussi être passées directement à IGNF/validator, les chemins relatifs (`./types/`, `./codes/`) étant résolus à partir de cette URL :
+* https://ignf.github.io/validator-config-gpu/ : consultation des modèles ;
+* `https://ignf.github.io/validator-config-gpu/config/<modèle>/files.json` : modèle au format du validateur, utilisé par l'API de validation ([IGNF/validator-api](https://github.com/IGNF/validator-api)).
 
 ```bash
 java -jar validator-cli.jar document_validator \
@@ -24,107 +20,43 @@ java -jar validator-cli.jar document_validator \
     --input <dossier du document> ...
 ```
 
-## Mises en garde
+Le GpU installe ce dépôt via Composer ([ignf/validator-config-gpu](https://packagist.org/packages/ignf/validator-config-gpu), version figée par tag) et peut donc utiliser une version antérieure : la version en service est visible sur https://www.geoportail-urbanisme.gouv.fr/standard/.
 
-* Les schémas sont actuellement gérés avec un outil dédié (géoportail de l'urbanisme) travaillant sur le contenu `config`.
-* L'organisation de ce dépôt est amenée à évoluer.
-* Les issues sont les bienvenues en cas de détection d'un problème.
-* Les contributions directes sur ce dépôt (pull request) ne sont pas souhaitées dans l'immédiat.
+## Standards CNIG
 
-## Standards CNIG de référence
+Les modèles traduisent les standards CNIG dans le méta-modèle de IGNF/validator. Les standards originaux (PDF) sont publiés sur la page [Ressources pour la dématérialisation des documents d'urbanisme](https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html) du CNIG : en cas d'écart, le standard fait foi, merci de le signaler dans les issues. Le CNIG publie aussi des schémas sur GitHub :
 
-Les modèles de ce dépôt sont une traduction, dans le méta-modèle de [IGNF/validator](https://github.com/IGNF/validator), des standards publiés par le CNIG. Le texte de référence reste le standard CNIG (voir les [ressources pour la dématérialisation des documents d'urbanisme](https://cnig.gouv.fr/ressources-dematerialisation-documents-d-urbanisme-a2732.html)) : en cas d'écart entre un modèle et le standard, c'est le standard qui fait foi et l'écart est à signaler dans les issues de ce dépôt.
+| Modèles                                   | Schéma CNIG (GitHub)                    |
+| ----------------------------------------- | --------------------------------------- |
+| `cnig_PLU_*`, `cnig_PLUi_*`, `cnig_POS_*` | [Plan local d'urbanisme](https://github.com/cnigfr/schema-plan-local-urbanisme) |
+| `cnig_CC_*`                               | [Carte communale](https://github.com/cnigfr/schema-carte-communale) |
+| `cnig_PSMV_*`                             | [Plan de sauvegarde et de mise en valeur](https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur) |
+| `cnig_SCoT_*`                             | [Schéma de cohérence territoriale](https://github.com/cnigfr/schema-schema-coherence-territoriale) |
+| `cnig_SUP_<CATEGORIE>_*`                  | [Servitudes d'utilité publique](https://github.com/cnigfr/schema-servitudes-utilite-publique) |
 
-Les standards sont également publiés sur GitHub par le CNIG :
+* L'année du nom correspond à la version du standard (`cnig_PLU_2017` : PLU v2017).
+* Les modèles POS reprennent le standard PLU, séparés pour l'automatisation dans le GpU.
+* `GPU_MEC_2025` (mise en compatibilité) est propre au GpU.
 
-| Modèles de ce dépôt                          | Standard CNIG                               | Dépôt CNIG                                                                                                              |
-| -------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `cnig_PLU_*`, `cnig_PLUi_*`, `cnig_POS_*`    | Plan local d'urbanisme (PLU)                | [cnigfr/schema-plan-local-urbanisme](https://github.com/cnigfr/schema-plan-local-urbanisme)                             |
-| `cnig_CC_*`                                  | Carte communale                             | [cnigfr/schema-carte-communale](https://github.com/cnigfr/schema-carte-communale)                                       |
-| `cnig_PSMV_*`                                | Plan de sauvegarde et de mise en valeur     | [cnigfr/schema-plan-sauvegarde-et-mise-en-valeur](https://github.com/cnigfr/schema-plan-sauvegarde-et-mise-en-valeur)   |
-| `cnig_SCoT_*`                                | Schéma de cohérence territoriale (SCoT)     | [cnigfr/schema-schema-coherence-territoriale](https://github.com/cnigfr/schema-schema-coherence-territoriale)           |
-| `cnig_SUP_<CATEGORIE>_*`                     | Servitudes d'utilité publique (SUP)         | [cnigfr/schema-servitudes-utilite-publique](https://github.com/cnigfr/schema-servitudes-utilite-publique)               |
+Le méta-modèle est [documenté dans IGNF/validator](https://github.com/IGNF/validator/blob/master/validator-core/src/main/resources/schema/README.md). Il est proche de [TableSchema](https://datapackage.org/standard/table-schema/) mais ajoute ce que les standards CNIG exigent : arborescence de fichiers nommés par regex, type `Path` (`NOMFIC`), géométries typées. Rapprochement avec les schémas CNIG : issue [#28](https://github.com/IGNF/validator-config-gpu/issues/28).
 
-Remarques :
+## Organisation
 
-* L'année figurant dans le nom du modèle correspond à la version du standard (ex : `cnig_PLU_2017` pour le standard CNIG PLU v2017).
-* Les modèles POS reprennent le standard PLU ; ils existent séparément pour faciliter l'automatisation de la validation dans le GpU.
-* Les modèles SUP sont déclinés par catégorie de servitude (ex : `cnig_SUP_AC1_2016`) ; chacun contient sa propre copie des tables communes (`SERVITUDE`, `ACTE_SUP`, `GESTIONNAIRE_SUP`, `SERVITUDE_ACTE_SUP`).
-* `GPU_MEC_2025` est un modèle propre au GpU (mise en compatibilité), sans standard CNIG équivalent.
+* `config/<modèle>/files.json` : document (fichiers attendus, contraintes de nommage, métadonnées) ;
+* `config/<modèle>/types/<TABLE>.json` : colonnes et contraintes de chaque table ;
+* `config/<modèle>/codes/` : tables de codes ;
+* `config/<modèle>/gpu.json` (facultatif) : informations propres au GpU, ignorées par le validateur ;
+* `config/variables.json` : variables d'affichage des regex (`<MAILLAGE>`, `<YYYYMMDD>`…), ignorées par le validateur.
 
-## Méta-modèle : pourquoi pas TableSchema ?
+Chaque modèle est autonome (pas d'héritage). `config/` est la source versionnée qui permet de restaurer la base du GpU.
 
-Les modèles suivent le méta-modèle de IGNF/validator, documenté dans [validator-core/src/main/resources/schema](https://github.com/IGNF/validator/blob/master/validator-core/src/main/resources/schema/README.md), et non [TableSchema](https://datapackage.org/standard/table-schema/) reconnu par [schema.data.gouv.fr](https://schema.data.gouv.fr/).
+## Modifier les modèles
 
-Ce méta-modèle a été aligné au mieux avec TableSchema, mais la modélisation des standards CNIG de dématérialisation des documents d'urbanisme nécessite des concepts qui n'y sont pas présents :
-
-* **Document** : un document est une arborescence de fichiers dont le nommage obéit à des expressions régulières (ex : nom du dossier, des pièces écrites).
-* **Fichiers** : chaque fichier a un type (répertoire, PDF, table, métadonnées...) et une présence obligatoire ou facultative.
-* **Types de colonnes** :
-  * le type `Path` modélise les colonnes de type `NOMFIC` (chemin relatif d'un fichier dans le document), sans équivalent dans TableSchema ;
-  * les géométries sont typées selon Simple Feature Access (`Point`, `MultiPolygon`...), alors que TableSchema propose `geopoint` et `geojson` sans permettre de préciser le type géométrique attendu.
-
-La maîtrise de ce méta-modèle permet en outre de le faire évoluer selon les besoins de validation d'autres standards (ex : type de fichier `multi_table` introduit pour le PCRS vecteur).
-
-Le rapprochement avec les schémas publiés par le CNIG est suivi dans l'issue [#28](https://github.com/IGNF/validator-config-gpu/issues/28).
-
-## Organisation du dépôt
-
-* `config/<modèle>/` : un dossier par modèle, lu par IGNF/validator :
-  * `files.json` : description du document (fichiers attendus, tables de codes, contraintes sur le nom du dossier et les métadonnées) ;
-  * `types/<TABLE>.json` : description des colonnes et des contraintes de chaque table (dont les clés étrangères `foreignKeys`) ;
-  * `codes/` : tables de codes utilisées par le modèle (lues par le validateur et par le GpU) ;
-  * `gpu.json` (rare, facultatif) : informations propres au GpU, ignorées par le validateur (voir ci-dessous).
-* `config/variables.json` : dictionnaire des variables d'affichage des expressions régulières (nom → regex), ignoré par le validateur.
-* `.github/workflows/pages.yml` : construction et publication du site GitHub Pages.
-* `package.json` : outillage ([IGNF/validator-config-editor](https://github.com/IGNF/validator-config-editor)), voir ci-dessous.
-
-## Outillage
-
-Prérequis : Node.js ≥ 22.
+Les fichiers de `config/` ne doivent pas être modifiés à la main : utiliser l'éditeur [IGNF/validator-config-editor](https://github.com/IGNF/validator-config-editor).
 
 ```bash
-npm ci            # installe validator-config-editor (commande vce)
-npm run check     # valide tous les modèles de config/ (code de sortie 1 en cas d'erreur)
-npm run edit      # ouvre l'éditeur local sur http://127.0.0.1:5174/ (seul moyen de modifier config/)
-npm run site      # construit le site statique dans _site/ (comme la CI, sans la copie de config/)
-```
-
-## Principes de gestion des modèles
-
-* Les méta-modèles sont gérés en base de données à l'aide de 5 tables :
-
-  * `validator_document_model` : Liste des standards modélisant le contenu des archives pour les PLU, POS, CC, PSMV, SUP et SCoT
-  * `validator_file_model` : Liste des fichiers attendus pour chaque standard
-  * `validator_feature_type` : Modélisation des fichiers de type "table"
-  * `validator_attribute_type` : Modélisation des colonnes des tables
-  * `validator_static_table` : Liste des tables de codes (ex : [PrescriptionUrbaType](config/cnig_PLU_2017/codes/PrescriptionUrbaType.csv))
-
-* La base de données est exportée dans le dossier `config/` dans un format JSON attendu par [IGNF/validator](https://github.com/IGNF/validator). Ce dossier est la source versionnée : il permet aussi de restaurer la base de données.
-
-* Les expressions régulières de `config/` sont complètes (sans variable). Les variables `<...>` (ex. `<MAILLAGE>_PLU_<YYYYMMDD>`) ne servent qu'à l'affichage : le GpU et l'éditeur les calculent à partir des regex avec `config/variables.json`.
-
-* Un modèle peut comporter un fichier `gpu.json`, ignoré par le validateur, pour les informations de la base de données non représentées dans le format JSON du validateur (ex. activation).
-
-* Pas d'héritage : chaque modèle est autonome (ni modèle parent ni table abstraite) et chaque identifiant appartient à un seul modèle.
-
-* Les fichiers de `config/` ne doivent pas être modifiés à la main : utiliser l'éditeur [IGNF/validator-config-editor](https://github.com/IGNF/validator-config-editor) (`npm run edit`, voir [Outillage](#outillage)). Une valeur présente dans `gpu.json` l'emporte sur celle des fichiers du validateur lors de la restauration.
-
-* Une présentation sous forme d'URL est également disponible au niveau du portail. Le GpU peut s'appuyer sur une version antérieure de ce dépôt : pour l'état courant, utiliser les URL GitHub Pages (voir [Consulter et utiliser les modèles](#consulter-et-utiliser-les-modèles)).
-
-| Lien                                                                                 | Description                             |
-| ------------------------------------------------------------------------------------ | --------------------------------------- |
-| https://www.geoportail-urbanisme.gouv.fr/standard/                                   | Liste des standards                     |
-| https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017                      | CNIG PLU v2017 (HTML)                   |
-| https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017.json                 | CNIG PLU v2017 (JSON)                   |
-| https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017#table-ZONE_URBA      | CNIG PLU v2017 - table ZONE_URBA (HTML) |
-| https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017/types/ZONE_URBA.json | CNIG PLU v2017 - table ZONE_URBA (JSON validateur) |
-| https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017/files.json           | CNIG PLU v2017 (JSON validateur)        |
-
-* Les URL `files.json` et `types/<TABLE>.json` servent les fichiers de `config/` : le modèle peut être utilisé directement par IGNF/validator, les chemins relatifs vers les tables (`./types/`) et les tables de codes (`./codes/`) étant résolus par le portail :
-
-```bash
-java -jar validator-cli.jar document_validator \
-    --model https://www.geoportail-urbanisme.gouv.fr/standard/cnig_PLU_2017/files.json \
-    --input <dossier du document> ...
+npm ci            # Node.js ≥ 22
+npm run edit      # éditeur local sur http://127.0.0.1:5174/
+npm run check     # validation de tous les modèles
+npm run site      # site statique dans _site/
 ```
