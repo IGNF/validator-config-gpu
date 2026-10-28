@@ -6,6 +6,24 @@
 
 Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation des standards CNIG au niveau du [Géoportail de l'Urbanisme (GpU)](https://www.geoportail-urbanisme.gouv.fr).
 
+## Consulter et utiliser les modèles
+
+Le contenu de la branche `main` est publié sur GitHub Pages à chaque push ([workflow](.github/workflows/pages.yml)) :
+
+| Lien                                                                                     | Description                                   |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------- |
+| https://ignf.github.io/validator-config-gpu/                                             | Site de consultation des modèles (lecture seule) |
+| https://ignf.github.io/validator-config-gpu/config/cnig_PLU_2017/files.json              | Modèle CNIG PLU v2017 (JSON validateur)       |
+| https://ignf.github.io/validator-config-gpu/config/cnig_PLU_2017/types/ZONE_URBA.json    | Table ZONE_URBA (JSON validateur)             |
+
+Le dossier `config/` est publié tel quel : l'API de validation ([IGNF/validator-api](https://github.com/IGNF/validator-api)) utilise l'URL `config/<modèle>/files.json` de chaque modèle, qui reflète donc l'état courant de `main`. Ces URL peuvent aussi être passées directement à IGNF/validator, les chemins relatifs (`./types/`, `./codes/`) étant résolus à partir de cette URL :
+
+```bash
+java -jar validator-cli.jar document_validator \
+    --model https://ignf.github.io/validator-config-gpu/config/cnig_PLU_2017/files.json \
+    --input <dossier du document> ...
+```
+
 ## Mises en garde
 
 * Les schémas sont actuellement gérés avec un outil dédié (géoportail de l'urbanisme) travaillant sur le contenu `config`.
@@ -58,6 +76,19 @@ Le rapprochement avec les schémas publiés par le CNIG est suivi dans l'issue [
   * `codes/` : tables de codes utilisées par le modèle (lues par le validateur et par le GpU) ;
   * `gpu.json` (rare, facultatif) : informations propres au GpU, ignorées par le validateur (voir ci-dessous).
 * `config/variables.json` : dictionnaire des variables d'affichage des expressions régulières (nom → regex), ignoré par le validateur.
+* `.github/workflows/pages.yml` : construction et publication du site GitHub Pages.
+* `package.json` : outillage ([IGNF/validator-config-editor](https://github.com/IGNF/validator-config-editor)), voir ci-dessous.
+
+## Outillage
+
+Prérequis : Node.js ≥ 22.
+
+```bash
+npm ci            # installe validator-config-editor (commande vce)
+npm run check     # valide tous les modèles de config/ (code de sortie 1 en cas d'erreur)
+npm run edit      # ouvre l'éditeur local sur http://127.0.0.1:5174/ (seul moyen de modifier config/)
+npm run site      # construit le site statique dans _site/ (comme la CI, sans la copie de config/)
+```
 
 ## Principes de gestion des modèles
 
@@ -77,9 +108,9 @@ Le rapprochement avec les schémas publiés par le CNIG est suivi dans l'issue [
 
 * Pas d'héritage : chaque modèle est autonome (ni modèle parent ni table abstraite) et chaque identifiant appartient à un seul modèle.
 
-* Les fichiers de `config/` sont produits par l'export et ne doivent pas être modifiés à la main : une valeur présente dans `gpu.json` l'emporte sur celle des fichiers du validateur lors de la restauration.
+* Les fichiers de `config/` ne doivent pas être modifiés à la main : utiliser l'éditeur [IGNF/validator-config-editor](https://github.com/IGNF/validator-config-editor) (`npm run edit`, voir [Outillage](#outillage)). Une valeur présente dans `gpu.json` l'emporte sur celle des fichiers du validateur lors de la restauration.
 
-* Une présentation sous forme d'URL est disponible au niveau du portail :
+* Une présentation sous forme d'URL est également disponible au niveau du portail. Le GpU peut s'appuyer sur une version antérieure de ce dépôt : pour l'état courant, utiliser les URL GitHub Pages (voir [Consulter et utiliser les modèles](#consulter-et-utiliser-les-modèles)).
 
 | Lien                                                                                 | Description                             |
 | ------------------------------------------------------------------------------------ | --------------------------------------- |
