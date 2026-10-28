@@ -28,7 +28,8 @@
   "scripts": {
     "edit": "vce serve config",
     "check": "vce check config",
-    "site": "vce site config _site"
+    "site": "vce site config _site",
+    "preversion": "npm run check"
   },
   "devDependencies": {
     "validator-config-editor": "github:IGNF/validator-config-editor#v0.2.0"
