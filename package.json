@@ -27,9 +27,10 @@
   },
   "scripts": {
     "edit": "vce serve config",
-    "check": "vce check config"
+    "check": "vce check config",
+    "site": "vce site config _site"
   },
   "devDependencies": {
-    "validator-config-editor": "github:IGNF/validator-config-editor#v0.1.0"
+    "validator-config-editor": "github:IGNF/validator-config-editor#v0.2.0"
   }
 }
