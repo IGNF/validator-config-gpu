@@ -23,6 +23,8 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npx vce site config _site --title "${{ github.event.repository.name }} (${{ github.ref_name }})"
+      # modèles bruts pour l'API de validation : <pages>/config/<modèle>/files.json
+      - run: cp -r config _site/config
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
