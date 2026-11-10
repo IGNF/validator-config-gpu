@@ -32,5 +32,10 @@
                 "maxLength": 40
             }
         }
-    ]
+    ],
+    "constraints": {
+        "conditions": [
+            "IDACTE LIKE IDSUP || '-%'"
+        ]
+    }
 }

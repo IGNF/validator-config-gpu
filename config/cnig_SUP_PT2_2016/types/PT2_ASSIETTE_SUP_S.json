@@ -243,7 +243,16 @@
             "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
             "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
             "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
-            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'",
+            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone tampon'",
+            "XDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "YDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "XFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "YFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "LARGEUR IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+            "ANGLE1 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
+            "ANGLE2 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
+            "RAYON IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'"
         ],
         "foreignKeys": [
             "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",

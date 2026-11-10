@@ -233,7 +233,8 @@
         "conditions": [
             "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
             "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
-            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL"
+            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL",
+            "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1"
         ],
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatCC(ETAT)",
