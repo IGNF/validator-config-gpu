@@ -124,7 +124,7 @@
             "name": "XFINAL",
             "title": "XFINAL",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -135,7 +135,7 @@
             "name": "ANGLE2",
             "title": "ANGLE2",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -199,7 +199,7 @@
             "name": "XDEBUT",
             "title": "XDEBUT",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -210,7 +210,7 @@
             "name": "RAYON",
             "title": "RAYON",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -221,7 +221,7 @@
             "name": "YDEBUT",
             "title": "YDEBUT",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -232,7 +232,7 @@
             "name": "ANGLE1",
             "title": "ANGLE1",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
