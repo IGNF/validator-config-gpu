@@ -117,8 +117,14 @@
     ],
     "constraints": {
         "conditions": [
-            "TYPEINF IS NULL OR TYPEP IS NULL",
-            "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL"
+            {
+                "sql": "TYPEINF IS NULL OR TYPEP IS NULL",
+                "message": "TYPEINF et TYPEP ne peuvent pas être renseignés en même temps"
+            },
+            {
+                "sql": "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL",
+                "message": "TYPEINF ou TYPEP doit être renseigné"
+            }
         ],
         "foreignKeys": []
     }

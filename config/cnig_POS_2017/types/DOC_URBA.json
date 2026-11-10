@@ -227,7 +227,10 @@
     ],
     "constraints": {
         "conditions": [
-            "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1"
+            {
+                "sql": "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1",
+                "message": "Il doit y avoir exactement un document en vigueur (ETAT = 03) dans DOC_URBA"
+            }
         ],
         "foreignKeys": []
     }

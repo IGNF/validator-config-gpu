@@ -165,8 +165,14 @@
     ],
     "constraints": {
         "conditions": [
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
-            "TXT IS NOT NULL OR TYPEPSC NOT LIKE '39'"
+            {
+                "sql": "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
+                "message": "NOMFIC est obligatoire lorsque TYPEPSC vaut '97' et STYPEPSC vaut '00'"
+            },
+            {
+                "sql": "TXT IS NOT NULL OR TYPEPSC NOT LIKE '39'",
+                "message": "TXT est obligatoire lorsque TYPEPSC vaut '39'"
+            }
         ],
         "foreignKeys": [
             "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionSPSMVType(TYPEPSC, STYPEPSC)"

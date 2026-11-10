@@ -206,8 +206,14 @@
     ],
     "constraints": {
         "conditions": [
-            "QUIPROD IS NOT NULL OR MODEPROD NOT LIKE 'numérisation'",
-            "DOCSOURCE IS NOT NULL OR MODEPROD NOT LIKE 'numérisation'"
+            {
+                "sql": "QUIPROD IS NOT NULL OR MODEPROD NOT LIKE 'numérisation'",
+                "message": "QUIPROD est obligatoire lorsque MODEPROD vaut 'numérisation'"
+            },
+            {
+                "sql": "DOCSOURCE IS NOT NULL OR MODEPROD NOT LIKE 'numérisation'",
+                "message": "DOCSOURCE est obligatoire lorsque MODEPROD vaut 'numérisation'"
+            }
         ],
         "foreignKeys": [
             "(VALIDEGEST) REFERENCES ListeValidegestSUP(VALIDEGEST)",

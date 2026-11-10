@@ -165,7 +165,10 @@
     ],
     "constraints": {
         "conditions": [
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL"
+            {
+                "sql": "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
+                "message": "NOMFIC est obligatoire lorsque TYPEPSC vaut '97' et STYPEPSC vaut '00'"
+            }
         ],
         "foreignKeys": [
             "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionSUrbaType(TYPEPSC, STYPEPSC)"

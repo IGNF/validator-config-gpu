@@ -231,10 +231,22 @@
     ],
     "constraints": {
         "conditions": [
-            "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
-            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
-            "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL",
-            "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1"
+            {
+                "sql": "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
+                "message": "DATAPPRO est obligatoire lorsque ETAT vaut '03'"
+            },
+            {
+                "sql": "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
+                "message": "DATEFIN est obligatoire lorsque ETAT vaut '04' ou '05'"
+            },
+            {
+                "sql": "NOMRAPP IS NOT NULL OR URLRAPP IS NOT NULL",
+                "message": "NOMRAPP ou URLRAPP doit être renseigné"
+            },
+            {
+                "sql": "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1",
+                "message": "Il doit y avoir exactement un document en vigueur (ETAT = 03) dans DOC_URBA"
+            }
         ],
         "foreignKeys": [
             "(ETAT) REFERENCES ListeEtatCC(ETAT)",

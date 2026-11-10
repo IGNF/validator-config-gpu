@@ -177,10 +177,22 @@
     ],
     "constraints": {
         "conditions": [
-            "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
-            "TXT IS NOT NULL OR TYPEPSC NOT LIKE '39'",
-            "ANGLE IS NULL OR (ANGLE >= 0 AND ANGLE <= 359)",
-            "ANGLE IS NOT NULL OR TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50'"
+            {
+                "sql": "TYPEPSC NOT LIKE '97' OR STYPEPSC NOT LIKE '00' OR NOMFIC IS NOT NULL",
+                "message": "NOMFIC est obligatoire lorsque TYPEPSC vaut '97' et STYPEPSC vaut '00'"
+            },
+            {
+                "sql": "TXT IS NOT NULL OR TYPEPSC NOT LIKE '39'",
+                "message": "TXT est obligatoire lorsque TYPEPSC vaut '39'"
+            },
+            {
+                "sql": "ANGLE IS NULL OR (ANGLE >= 0 AND ANGLE <= 359)",
+                "message": "ANGLE doit être compris entre 0 et 359"
+            },
+            {
+                "sql": "ANGLE IS NOT NULL OR TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50'",
+                "message": "ANGLE est obligatoire lorsque TYPEPSC vaut '40' et STYPEPSC vaut '50'"
+            }
         ],
         "foreignKeys": [
             "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPPSMVType(TYPEPSC, STYPEPSC)"

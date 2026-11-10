@@ -151,7 +151,10 @@
     ],
     "constraints": {
         "conditions": [
-            "NOMFIC NOT NULL OR TYPEINF NOT LIKE '97'"
+            {
+                "sql": "NOMFIC NOT NULL OR TYPEINF NOT LIKE '97'",
+                "message": "NOMFIC est obligatoire lorsque TYPEINF vaut '97'"
+            }
         ],
         "foreignKeys": [
             "(TYPEINF, STYPEINF) REFERENCES InformationSPSMVType(TYPEINF, STYPEINF)"

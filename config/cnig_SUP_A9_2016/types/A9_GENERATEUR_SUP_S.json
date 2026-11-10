@@ -142,10 +142,22 @@
     ],
     "constraints": {
         "conditions": [
-            "SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL",
-            "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
-            "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL"
+            {
+                "sql": "SRCGEOGEN IS NOT NULL OR MODEGENERE NOT IN ('Digitalisation', 'Liste de coordonnées')",
+                "message": "SRCGEOGEN est obligatoire lorsque MODEGENERE vaut 'Digitalisation' ou 'Liste de coordonnées'"
+            },
+            {
+                "sql": "DATESRCGEN IS NOT NULL OR SRCGEOGEN IS NULL",
+                "message": "DATESRCGEN est obligatoire lorsque SRCGEOGEN est renseigné"
+            },
+            {
+                "sql": "REFBDEXT IS NOT NULL OR MODEGENERE NOT LIKE 'Duplication'",
+                "message": "REFBDEXT est obligatoire lorsque MODEGENERE vaut 'Duplication'"
+            },
+            {
+                "sql": "IDBDEXT IS NOT NULL OR REFBDEXT IS NULL",
+                "message": "IDBDEXT est obligatoire lorsque REFBDEXT est renseigné"
+            }
         ],
         "foreignKeys": [
             "(MODEGENERE) REFERENCES ListeModegenereSUP(MODEGENERE)",

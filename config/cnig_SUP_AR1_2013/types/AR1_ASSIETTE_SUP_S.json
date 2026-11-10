@@ -182,8 +182,14 @@
     ],
     "constraints": {
         "conditions": [
-            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone tampon'",
-            "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Digitalisation'"
+            {
+                "sql": "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone tampon'",
+                "message": "PARAMCALC est obligatoire lorsque MODEGEOASS vaut 'Zone tampon'"
+            },
+            {
+                "sql": "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Digitalisation'",
+                "message": "SRCGEOASS est obligatoire lorsque MODEGEOASS vaut 'Digitalisation'"
+            }
         ],
         "foreignKeys": [
             "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",

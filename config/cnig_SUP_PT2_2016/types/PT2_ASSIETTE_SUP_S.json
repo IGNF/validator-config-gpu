@@ -252,18 +252,54 @@
     ],
     "constraints": {
         "conditions": [
-            "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
-            "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
-            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone tampon'",
-            "XDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
-            "YDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
-            "XFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
-            "YFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
-            "LARGEUR IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
-            "ANGLE1 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
-            "ANGLE2 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
-            "RAYON IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'"
+            {
+                "sql": "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
+                "message": "SRCGEOASS est obligatoire lorsque MODEGEOASS vaut 'Digitalisation' ou 'Liste de coordonnées'"
+            },
+            {
+                "sql": "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
+                "message": "DATESRCASS est obligatoire lorsque SRCGEOASS est renseigné"
+            },
+            {
+                "sql": "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
+                "message": "DATESRCASS est obligatoire lorsque MODEGEOASS vaut 'Liste de parcelles'"
+            },
+            {
+                "sql": "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone tampon'",
+                "message": "PARAMCALC est obligatoire lorsque MODEGEOASS vaut 'Zone tampon'"
+            },
+            {
+                "sql": "XDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+                "message": "XDEBUT est obligatoire lorsque TYPEASS vaut 'Zone spéciale de dégagement'"
+            },
+            {
+                "sql": "YDEBUT IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+                "message": "YDEBUT est obligatoire lorsque TYPEASS vaut 'Zone spéciale de dégagement'"
+            },
+            {
+                "sql": "XFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+                "message": "XFINAL est obligatoire lorsque TYPEASS vaut 'Zone spéciale de dégagement'"
+            },
+            {
+                "sql": "YFINAL IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+                "message": "YFINAL est obligatoire lorsque TYPEASS vaut 'Zone spéciale de dégagement'"
+            },
+            {
+                "sql": "LARGEUR IS NOT NULL OR TYPEASS NOT LIKE 'Zone spéciale de dégagement'",
+                "message": "LARGEUR est obligatoire lorsque TYPEASS vaut 'Zone spéciale de dégagement'"
+            },
+            {
+                "sql": "ANGLE1 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
+                "message": "ANGLE1 est obligatoire lorsque TYPEASS vaut 'Secteur de dégagement'"
+            },
+            {
+                "sql": "ANGLE2 IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
+                "message": "ANGLE2 est obligatoire lorsque TYPEASS vaut 'Secteur de dégagement'"
+            },
+            {
+                "sql": "RAYON IS NOT NULL OR TYPEASS NOT LIKE 'Secteur de dégagement'",
+                "message": "RAYON est obligatoire lorsque TYPEASS vaut 'Secteur de dégagement'"
+            }
         ],
         "foreignKeys": [
             "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",
