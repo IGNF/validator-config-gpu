@@ -90,7 +90,7 @@
             "title": "H",
             "description": "Hauteur minimale ou altitude minimale de l'objet, en mètres",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false
             }
@@ -116,7 +116,7 @@
             "title": "HREF",
             "description": "Altitude de référence (SOL : terrain naturel, NGF : nivellement général de la France)",
             "constraints": {
-                "required": true,
+                "required": false,
                 "presenceRequired": true,
                 "unique": false,
                 "maxLength": 3
