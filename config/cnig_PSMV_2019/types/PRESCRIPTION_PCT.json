@@ -134,10 +134,22 @@
     ],
     "constraints": {
         "conditions": [
-            "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
-            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR ANGLE IS NOT NULL",
-            "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR CAST(ANGLE AS INTEGER) <= 359",
-            "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT"
+            {
+                "sql": "TYPEPSC NOT LIKE '39' OR TXT IS NOT NULL",
+                "message": "TXT est obligatoire lorsque TYPEPSC vaut '39'"
+            },
+            {
+                "sql": "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR ANGLE IS NOT NULL",
+                "message": "ANGLE est obligatoire lorsque TYPEPSC vaut '40' et STYPEPSC vaut '50'"
+            },
+            {
+                "sql": "TYPEPSC NOT LIKE '40' OR STYPEPSC NOT LIKE '50' OR CAST(ANGLE AS INTEGER) <= 359",
+                "message": "ANGLE doit être inférieur ou égal à 359 lorsque TYPEPSC vaut '40' et STYPEPSC vaut '50'"
+            },
+            {
+                "sql": "TYPEPSC NOT LIKE '07' OR STYPEPSC NOT LIKE '51' OR TXT IN ('A','B','C','D','E','F','M','O','P','R','S','T','V') OR CAST(TXT AS INTEGER) IS TXT",
+                "message": "TXT doit être une lettre parmi A, B, C, D, E, F, M, O, P, R, S, T, V ou un entier lorsque TYPEPSC vaut '07' et STYPEPSC vaut '51'"
+            }
         ],
         "foreignKeys": [
             "(TYPEPSC, STYPEPSC) REFERENCES PrescriptionPSMVType(TYPEPSC, STYPEPSC)"

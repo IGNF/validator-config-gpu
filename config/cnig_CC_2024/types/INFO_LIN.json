@@ -187,9 +187,18 @@
     ],
     "constraints": {
         "conditions": [
-            "TYPEINF IS NOT NULL",
-            "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
-            "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL"
+            {
+                "sql": "TYPEINF IS NOT NULL",
+                "message": "TYPEINF est obligatoire"
+            },
+            {
+                "sql": "TYPEINF LIKE '00' AND TYPEP IS NOT NULL OR TYPEINF NOT LIKE '00' AND TYPEP IS NULL",
+                "message": "TYPEP est obligatoire lorsque TYPEINF vaut '00', et doit être vide dans les autres cas"
+            },
+            {
+                "sql": "TYPEINF NOT LIKE '00' OR STYPEP IS NOT NULL",
+                "message": "STYPEP est obligatoire lorsque TYPEINF vaut '00'"
+            }
         ],
         "foreignKeys": [
             "(TYPEINF, STYPEINF) REFERENCES InformationLUrbaType(TYPEINF, STYPEINF)",

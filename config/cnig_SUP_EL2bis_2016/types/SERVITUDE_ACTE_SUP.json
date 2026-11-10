@@ -35,7 +35,10 @@
     ],
     "constraints": {
         "conditions": [
-            "IDACTE LIKE IDSUP || '-%'"
+            {
+                "sql": "IDACTE LIKE IDSUP || '-%'",
+                "message": "IDACTE doit commencer par la valeur de IDSUP suivie d'un tiret"
+            }
         ]
     }
 }

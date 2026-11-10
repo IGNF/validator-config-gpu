@@ -182,10 +182,22 @@
     ],
     "constraints": {
         "conditions": [
-            "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
-            "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
-            "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
-            "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'"
+            {
+                "sql": "SRCGEOASS IS NOT NULL OR MODEGEOASS NOT IN ('Digitalisation', 'Liste de coordonnées')",
+                "message": "SRCGEOASS est obligatoire lorsque MODEGEOASS vaut 'Digitalisation' ou 'Liste de coordonnées'"
+            },
+            {
+                "sql": "DATESRCASS IS NOT NULL OR SRCGEOASS IS NULL",
+                "message": "DATESRCASS est obligatoire lorsque SRCGEOASS est renseigné"
+            },
+            {
+                "sql": "DATESRCASS IS NOT NULL OR MODEGEOASS NOT LIKE 'Liste de parcelles'",
+                "message": "DATESRCASS est obligatoire lorsque MODEGEOASS vaut 'Liste de parcelles'"
+            },
+            {
+                "sql": "PARAMCALC IS NOT NULL OR MODEGEOASS NOT LIKE 'Zone Tampon'",
+                "message": "PARAMCALC est obligatoire lorsque MODEGEOASS vaut 'Zone Tampon'"
+            }
         ],
         "foreignKeys": [
             "(MODEGEOASS) REFERENCES ListeModegeoassSUP(MODEGEOASS)",

@@ -208,11 +208,26 @@
     ],
     "constraints": {
         "conditions": [
-            "SIREN IS NOT NULL",
-            "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
-            "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
-            "INTERCO LIKE 'T'",
-            "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1"
+            {
+                "sql": "SIREN IS NOT NULL",
+                "message": "SIREN est obligatoire"
+            },
+            {
+                "sql": "DATAPPRO IS NOT NULL OR ETAT NOT LIKE '03'",
+                "message": "DATAPPRO est obligatoire lorsque ETAT vaut '03'"
+            },
+            {
+                "sql": "DATEFIN IS NOT NULL OR ETAT NOT IN ('04', '05')",
+                "message": "DATEFIN est obligatoire lorsque ETAT vaut '04' ou '05'"
+            },
+            {
+                "sql": "INTERCO LIKE 'T'",
+                "message": "INTERCO doit valoir 'T'"
+            },
+            {
+                "sql": "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1",
+                "message": "Il doit y avoir exactement un document en vigueur (ETAT = 03) dans DOC_URBA"
+            }
         ],
         "foreignKeys": [
             "(INTERCO) REFERENCES ListeInterco(INTERCO)"
