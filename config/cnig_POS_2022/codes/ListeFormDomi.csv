@@ -1,48 +1,48 @@
-FORMDOMI
-0000
-0100
-0101
-0102
-0103
-0104
-0105
-0106
-0107
-0108
-0109
-0200
-0201
-0202
-0203
-0300
-0400
-0401
-0402
-0403
-0404
-0405
-0406
-0407
-0500
-0501
-0502
-0503
-0600
-0601
-0602
-0603
-0604
-0700
-0701
-0702
-0703
-0704
-0705
-0800
-0801
-0802
-0900
-0901
-0902
-0903
-9900
+FORMDOMI,LIBELLE
+0000,sans objet ou non encore définie dans le règlement
+0100,habitat
+0101,habitat centre-ville
+0102,habitat centre-villageois
+0103,habitat faubourg
+0104,habitat hameau
+0105,habitat collectif
+0106,habitat petits collectifs
+0107,habitat pavillonnaire dense
+0108,habitat pavillonnaire peu dense
+0109,habitat maitrisé
+0200,activité
+0201,activité industrielle / logistique / commerciale
+0202,activité commerces
+0203,activité bureaux
+0300,mixte habitat / activité
+0400,loisirs et tourisme
+0401,loisir parc et jardin
+0402,loisir parc d'attraction
+0403,loisir balnéaire et nautique
+0404,loisir de montagne
+0405,loisir sportif
+0406,tourisme hôtelier
+0407,tourisme camping
+0500,Équipement public
+0501,équipement de proximité
+0502,équipement généraux
+0503,équipement de défense nationale
+0600,infrastructure de transport
+0601,infrastructure autoroutière
+0602,infrastructure ferroviaire
+0603,infrastructure aéroportuaire
+0604,infrastructure portuaire
+0700,activité agricole
+0701,terres agricoles non bâties
+0702,terres agricoles avec bâtis légers
+0703,terres agricoles avec bâtis en dur
+0704,terres agricoles avec bâtis agricoles
+0705,terres agricoles avec bâtis divers
+0800,espace naturel
+0801,espace naturel remarquable
+0802,espace naturel montagne ou littoral
+0900,Valorisation des sols et sous-sols
+0901,secteur de carrière
+0902,secteur d'accueil des déchets
+0903,secteur de parc photovoltaïque
+9900,autre

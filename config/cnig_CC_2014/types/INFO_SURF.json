@@ -127,7 +127,6 @@
                 "sql": "TYPEINF IS NOT NULL OR TYPEP IS NOT NULL",
                 "message": "TYPEINF ou TYPEP doit être renseigné"
             }
-        ],
-        "foreignKeys": []
+        ]
     }
 }

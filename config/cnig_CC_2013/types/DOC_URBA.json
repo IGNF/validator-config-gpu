@@ -196,11 +196,15 @@
             "id": "ff7f825a52aa243dd691435779d68446",
             "name": "INTERCO",
             "title": "INTERCO",
-            "description": "Indique si le document d'urbanisme est intercommunal",
+            "description": "Indique si le document d'urbanisme est intercommunal (T : oui, F : non)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
+                "enum": [
+                    "T",
+                    "F"
+                ],
                 "maxLength": 1
             }
         }
@@ -223,9 +227,6 @@
                 "sql": "ETAT NOT LIKE '03' OR (SELECT COUNT(*) FROM DOC_URBA d WHERE d.ETAT LIKE '03') = 1",
                 "message": "Il doit y avoir exactement un document en vigueur (ETAT = 03) dans DOC_URBA"
             }
-        ],
-        "foreignKeys": [
-            "(INTERCO) REFERENCES ListeInterco(INTERCO)"
         ]
     }
 }

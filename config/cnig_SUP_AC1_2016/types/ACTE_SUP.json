@@ -75,11 +75,15 @@
             "id": "56b3b53035f470d0b0a68d960b5d68ec",
             "name": "APLAN",
             "title": "APLAN",
-            "description": "Existence d'un ou plusieurs plans annexés à l'acte",
+            "description": "Existence d'un ou plusieurs plans annexés à l'acte (T : oui, F : non)",
             "constraints": {
                 "required": false,
                 "presenceRequired": true,
                 "unique": false,
+                "enum": [
+                    "T",
+                    "F"
+                ],
                 "maxLength": 1
             }
         },
@@ -127,7 +131,6 @@
     "constraints": {
         "conditions": [],
         "foreignKeys": [
-            "(APLAN) REFERENCES ListeAplanSUP(APLAN)",
             "(DECISION) REFERENCES ListeDecisionSUP(DECISION)",
             "(TYPEACTE) REFERENCES ListeTypeacteSUP(TYPEACTE)"
         ]

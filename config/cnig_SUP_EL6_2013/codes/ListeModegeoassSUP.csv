@@ -1,10 +1,10 @@
-MODEGEOASS
-Égale au générateur
-Zone tampon
-Digitalisation
-Duplication
-Liste de coordonnées
-Secteur angulaire
-Calculée
-Liste de parcelles
-Géométrie fictive
+MODEGEOASS,LIBELLE
+Égale au générateur,La géométrie est confondue avec celle de l'objet spatial générateur. Elle est alors obtenue par copie numérique.
+Zone tampon,La géométrie est le résultat du calcul d'une zone tampon autour d'un objet géographique.
+Digitalisation,La géométrie est créée par la saisie d'un ensemble de points.
+Duplication,La géométrie est obtenue par copie de la géométrie d'un autre objet géographique.
+Liste de coordonnées,La géométrie est obtenue par la création de points à partir de coordonnées géographiques ou en projection.
+Secteur angulaire,"La géométrie est calculée à partir d'un point, d'une distance et de deux angles mesurés par rapport à une orientation donnée."
+Calculée,La géométrie est calculée suivant un mode complexe (ex pour les servitudes T5 : tampons successifs et rayons de raccordement)
+Liste de parcelles,La géométrie est obtenue par l'agrégation géométrique d'une liste de parcelles sélectionnées dans un référentiel géographique cadastral.
+Géométrie fictive,La géométrie a été créée de manière approximative et n'a aucune signification géographique. Ce mode autorise la création d'objet géographique dont la géométrie est inconnue ou difficile à obtenir.

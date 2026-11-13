@@ -9,11 +9,15 @@
             "id": "03db2c7dac5c833817d451f7d0a756cc",
             "name": "VALIDEGEST",
             "title": "VALIDEGEST",
-            "description": "Les données numérisées de la servitude ont été validées ou pas par le gestionnaire",
+            "description": "Les données numérisées de la servitude ont été validées ou pas par le gestionnaire (T : oui, F : non)",
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
                 "unique": false,
+                "enum": [
+                    "T",
+                    "F"
+                ],
                 "maxLength": 1
             }
         },
@@ -230,7 +234,6 @@
         "foreignKeys": [
             "(CATEGORIE) REFERENCES ListeCategorieSUP(CATEGORIE)",
             "(MODEPROD) REFERENCES ListeModeprodSUP(MODEPROD)",
-            "(VALIDEGEST) REFERENCES ListeValidegestSUP(VALIDEGEST)",
             "(IDGEST) REFERENCES GESTIONNAIRE_SUP(IDGEST)"
         ]
     }

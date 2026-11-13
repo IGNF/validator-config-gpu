@@ -1,5 +1,5 @@
-MODEGENERE
-Digitalisation
-Duplication
-Liste de coordonnées
-Géométrie fictive
+MODEGENERE,LIBELLE
+Digitalisation,La géométrie est créée par la saisie d'un ensemble de points.
+Duplication,La géométrie est obtenue par copie de la géométrie d'un autre objet géographique.
+Liste de coordonnées,La géométrie est obtenue par la création de points à partir de coordonnées géographiques ou en projection.
+Géométrie fictive,La géométrie a été créée de manière approximative et n'a aucune signification géographique. Ce mode autorise la création d'objet géographique dont la géométrie est inconnue ou difficile à obtenir.
