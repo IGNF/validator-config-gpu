@@ -198,7 +198,7 @@
         },
         {
             "type": "table",
-            "path": "Donnees_geographiqmaillageues/AR5_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
+            "path": "Donnees_geographiques/AR5_ASSIETTE_SUP_S(_[a-zA-Z0-9]+)?",
             "mandatory": "OPTIONAL",
             "tableModel": "./types/AR5_ASSIETTE_SUP_S.json",
             "id": "983898bbc70a5349ce3ac2c2cafefc02",
