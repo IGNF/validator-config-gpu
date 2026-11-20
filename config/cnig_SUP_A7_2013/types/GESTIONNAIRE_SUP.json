@@ -44,7 +44,7 @@
             }
         },
         {
-            "type": "Integer",
+            "type": "String",
             "id": "c6c523a356edc7b8a0b5246ca088802b",
             "name": "IDGEST",
             "title": "IDGEST",
@@ -52,7 +52,8 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": true
+                "unique": true,
+                "pattern": "[0-9]+"
             }
         },
         {
