@@ -18,7 +18,7 @@
             }
         },
         {
-            "type": "Integer",
+            "type": "String",
             "id": "920f5ca1e591aaa9b20f8d29fa502c7e",
             "name": "IDASS",
             "title": "IDASS",
@@ -26,11 +26,12 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": true
+                "unique": true,
+                "pattern": "[0-9]+"
             }
         },
         {
-            "type": "Integer",
+            "type": "String",
             "id": "47118ad0c272692d5563f84ee69b8e35",
             "name": "IDGEN",
             "title": "IDGEN",
@@ -38,7 +39,8 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]+"
             }
         },
         {

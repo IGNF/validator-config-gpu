@@ -5,7 +5,7 @@
     "description": "Table exprimant la relation entre les servitudes et les actes instituant ces servitudes",
     "columns": [
         {
-            "type": "Integer",
+            "type": "String",
             "id": "41195a6a970d9c361786c5fc9ba27987",
             "name": "IDACTE",
             "title": "IDACTE",
@@ -13,11 +13,12 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]+"
             }
         },
         {
-            "type": "Integer",
+            "type": "String",
             "id": "5c9f849d573e61faaf4b749c374c9289",
             "name": "IDSUP",
             "title": "IDSUP",
@@ -25,7 +26,8 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": false
+                "unique": false,
+                "pattern": "[0-9]+"
             }
         }
     ],

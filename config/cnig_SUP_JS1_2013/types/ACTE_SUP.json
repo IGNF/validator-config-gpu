@@ -75,7 +75,7 @@
             }
         },
         {
-            "type": "Integer",
+            "type": "String",
             "id": "cb7ca7c421d52b9cb9f52aa62d6bf6a3",
             "name": "IDACTE",
             "title": "IDACTE",
@@ -83,7 +83,8 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": true
+                "unique": true,
+                "pattern": "[0-9]+"
             }
         },
         {

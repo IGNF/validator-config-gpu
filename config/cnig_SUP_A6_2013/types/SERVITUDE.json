@@ -114,7 +114,7 @@
             }
         },
         {
-            "type": "Integer",
+            "type": "String",
             "id": "b6bbecc707076e13df072940cba75297",
             "name": "IDSUP",
             "title": "IDSUP",
@@ -122,7 +122,8 @@
             "constraints": {
                 "required": true,
                 "presenceRequired": true,
-                "unique": true
+                "unique": true,
+                "pattern": "[0-9]+"
             }
         },
         {
